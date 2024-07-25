@@ -1238,7 +1238,8 @@
     "ai_vision_pages__section3__description": "วิเคราะห์ภาพใดก็ได้ ตรงที่คุณต้องการ  MaxAI ทำงานบนแอปและเว็บไซต์ที่คุณใช้ ไม่ต้องคัดลอก ไม่ต้องวาง ไม่ต้องสลับบริบท",
     "ai_vision_pages__section4__title": "ขับเคลื่อนด้วยโมเดล AI ที่ดีที่สุดด้วยการมองเห็น",
     "cta_text__add_to_browser_for_free": "เพิ่มไปยัง {{BROWSER}} - ฟรี",
-    "ai_chat_pages__section1__description": "พูดคุยกับ GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro, DALLE-3, และอื่น ๆ - ทั้งหมดอยู่ที่ MaxAI.me"
+    "ai_chat_pages__section1__description": "พูดคุยกับ GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro, DALLE-3, และอื่น ๆ - ทั้งหมดอยู่ที่ MaxAI.me",
+    "ai_chat_pages__section5__description": "รับคำตอบทันทีในแถบเบราว์เซอร์ - ไม่ต้องกระโดดระหว่างแท็บ สามารถสนทนาต่อไปเพื่อเข้าใจลึกขึ้น ได้รับชั่วโมงที่มีค่ากลับมาทุกวัน"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "เพิ่ม PDF",

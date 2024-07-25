@@ -1238,7 +1238,8 @@
     "ai_vision_pages__section3__description": "Аналізуйте будь-яке зображення прямо там, де вам це потрібно. MaxAI працює в усіх веб-додатках та сайтах, якими ви користуєтесь. Немає копіювання, вставлення або перемикання контексту.",
     "ai_vision_pages__section4__title": "Працює на основі найкращих моделей штучного інтелекту з візією",
     "cta_text__add_to_browser_for_free": "Додати до {{BROWSER}} — Безкоштовно",
-    "ai_chat_pages__section1__description": "Розмовляйте з GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro, DALLE-3 та іншими - усі з MaxAI.me."
+    "ai_chat_pages__section1__description": "Розмовляйте з GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro, DALLE-3 та іншими - усі з MaxAI.me.",
+    "ai_chat_pages__section5__description": "Отримуйте миттєві відповіді прямо в бічній панелі браузера - немає потреби переходити між вкладками. Продовжуйте розмову для глибшого розуміння. Відновіть цінні години кожен день."
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "Додати PDF",

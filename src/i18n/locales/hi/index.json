@@ -1218,7 +1218,8 @@
     "ai_vision_pages__section3__description": "आपकी आवश्यकता के मुताबिक किसी भी छवि का विश्लेषण करें। MaxAI आपके उपयोग करने वाले सभी वेब ऐप्स और साइटों पर काम करता है। कॉपी करने की आवश्यकता नहीं, पेस्ट करने की आवश्यकता नहीं, कोण्टेक्स्ट स्विचिंग की आवश्यकता नहीं।",
     "ai_vision_pages__section4__title": "सबसे अच्छे AI मॉडल्स द्वारा संचालित जिसमें विज़न है",
     "cta_text__add_to_browser_for_free": "{{BROWSER}} में जोड़ें - यह मुफ्त है",
-    "ai_chat_pages__section1__description": "GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro, DALLE-3, और अधिक के साथ चैट करें - सभी MaxAI.me के साथ।"
+    "ai_chat_pages__section1__description": "GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro, DALLE-3, और अधिक के साथ चैट करें - सभी MaxAI.me के साथ।",
+    "ai_chat_pages__section5__description": "ब्राउज़र साइडबार में तुरंत उत्तर प्राप्त करें - टैब के बीच जाने की आवश्यकता नहीं है। गहरी समझ के लिए बातचीत जारी रखें। प्रतिदिन के मूल्यवान घंटे वापस पाएं।"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "सभी का चयन करें",

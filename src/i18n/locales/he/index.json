@@ -1217,7 +1217,8 @@
     "ai_vision_pages__section3__description": "נתח כל תמונה, בדיוק במקום שאתה זקוק לזה. MaxAI עובד בכל אפליקציות הרשת והאתרים שאתה משתמש בהם. אין העתקה, אין הדבקה, אין החלפת הקשר.",
     "ai_vision_pages__section4__title": "מופעל על ידי המודלים הטובים ביותר של AI עם ראייה",
     "cta_text__add_to_browser_for_free": "הוסף אל {{BROWSER}} - זה חינם",
-    "ai_chat_pages__section1__description": "שוחח עם GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro, DALLE-3, ועוד - הכל ב-MaxAI.me."
+    "ai_chat_pages__section1__description": "שוחח עם GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro, DALLE-3, ועוד - הכל ב-MaxAI.me.",
+    "ai_chat_pages__section5__description": "קבל תשובות מיידיות ישירות בסרגל הדפדפן - לא צריך לקפוץ בין כרטיסיות. המשך את השיחה להבנה עמוקה יותר. שחזר שעות יקרות כל יום."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "בחר הכל",
