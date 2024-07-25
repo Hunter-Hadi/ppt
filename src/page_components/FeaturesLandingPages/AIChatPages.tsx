@@ -6,6 +6,7 @@ import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
 import HeroSection from '@/features/landing/components/HeroSection'
 import TrustedBy from '@/features/landing/components/TrustedBy'
 import FunnelSurveyPopup from '@/features/survey/components/FunnelSurveyPopup'
+import { RESOURCES_URL } from '@/global_constants'
 import FeaturesContentSection from '@/page_components/FeaturesLandingPages/components/FeaturesContentSection'
 import FeaturesExploreMore from '@/page_components/FeaturesLandingPages/components/FeaturesExploreMore'
 interface IProps {
@@ -23,8 +24,19 @@ const AIChatPages: FC<IProps> = () => {
       {/* hero section */}
       <HeroSection
         heroVideoProps={{
-          videoSrc: 'https://www.youtube.com/embed/mAi1D9cbGos',
-          variant: 'embed',
+          videoSrc: `${RESOURCES_URL}/video/features/ai-chat.mp4`,
+          variant: 'autoplay',
+          windowAutoPlay: true,
+          videoPosterUrl: `/assets/features-landing/video-features/chat.png`,
+          videoStyle: {
+            backgroundColor: 'transparent',
+            boxShadow: 'none',
+            borderRadius: '16px',
+          },
+          boxSx: {
+            borderRadius: '16px',
+            border: '8px solid #fff',
+          },
         }}
         trackerLinkProps={{
           pathnameRefEnable: true,
@@ -73,10 +85,19 @@ const AIChatPages: FC<IProps> = () => {
       />
       <FeaturesContentSection
         icon='shield'
+        title={t('features_landing:ai_chat_pages__section7__title')}
+        description={t('features_landing:ai_chat_pages__section7__description')}
+        imageUrl='/assets/features-landing/ai-chat/3.png'
+        textWithImageLayout='imageToText'
+        videoUrl={`${RESOURCES_URL}/video/features/drafting-assistant.mp4`}
+        videoPosterUrl={`/assets/features-landing/video-features/prompt.png`}
+      />
+      <FeaturesContentSection
+        icon='shield'
         title={t('features_landing:ai_chat_pages__section6__title')}
         description={t('features_landing:ai_chat_pages__section6__description')}
         imageUrl='/assets/features-landing/ai-chat/3.png'
-        textWithImageLayout='imageToText'
+        textWithImageLayout='textToImage'
       />
 
       <FeaturesExploreMore />
