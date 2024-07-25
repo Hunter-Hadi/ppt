@@ -15,6 +15,7 @@ export default function Document(props: any) {
       <Head>
         {/* clarity start */}
         <script
+          defer
           type='text/javascript'
           dangerouslySetInnerHTML={{
             __html: `(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "${CALRITY_ID}");`,
@@ -23,6 +24,7 @@ export default function Document(props: any) {
         {/* clarity end */}
 
         <script
+          defer
           dangerouslySetInnerHTML={{
             __html: `(function(w,r){w._rwq=r;w[r]=w[r]||function(){(w[r].q=w[r].q||[]).push(arguments)}})(window,'rewardful');`,
           }}
@@ -30,6 +32,7 @@ export default function Document(props: any) {
         <script async src='https://r.wdfl.co/rw.js' data-rewardful='ee3709' />
 
         <script
+          defer
           dangerouslySetInnerHTML={{
             __html: `
             _linkedin_partner_id = "5920796";
@@ -39,6 +42,7 @@ export default function Document(props: any) {
           }}
         />
         <script
+          defer
           dangerouslySetInnerHTML={{
             __html: `
             (function(l) {
