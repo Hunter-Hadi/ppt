@@ -4,7 +4,6 @@ import { useRouter } from 'next/router'
 import React from 'react'
 import { FC, useEffect } from 'react'
 
-import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
 import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester'
 import { RESOURCES_URL } from '@/global_constants'
 
@@ -40,54 +39,52 @@ const HomePageContent: FC<IProps> = ({ propRef, sx }) => {
   }, [isReady, asPath])
 
   return (
-    <AppLoadingLayout loading={!loaded} sx={{ minHeight: '90vh' }}>
-      <Stack color='text.primary' component={'main'} sx={sx}>
-        {/* heroSection */}
-        <HeroSection
-          propRef={propRef}
-          // loading={!loaded}
-          heroVideoProps={{
-            videoSrc: `${RESOURCES_URL}/video/landing-page-primary.mp4`,
-            videoPosterUrl: `/assets/landing/hero-section/video-cover.png`,
-            variant: 'autoplay',
-          }}
+    <Stack color='text.primary' component={'main'} sx={sx}>
+      {/* heroSection */}
+      <HeroSection
+        propRef={propRef}
+        // loading={!loaded}
+        heroVideoProps={{
+          videoSrc: `${RESOURCES_URL}/video/landing-page-primary.mp4`,
+          videoPosterUrl: `/assets/landing/hero-section/video-cover.png`,
+          variant: 'autoplay',
+        }}
+      />
+      {/* trusted by */}
+      <TrustedBy />
+
+      <HowItWork />
+
+      {/* feature  */}
+      {!variant ? (
+        <FeaturesContentAbTestV4VariantContent2Section
+          abTestTitleDirection={'supersede'}
+          abTestFeaturesType={'image'}
         />
-        {/* trusted by */}
-        <TrustedBy />
+      ) : (
+        <>
+          {(variant === '7-1' || variant === '7-2') && (
+            <FeaturesContentAbTestV4VariantContent2Section
+              abTestTitleDirection={variantConfig?.titleDirection}
+              abTestFeaturesType={variantConfig?.featuresType}
+            />
+          )}
+          {variant === '7-3' && <FeaturesContentAbTestV7AutoVideo />}
+          {variant === '7-4' && (
+            <FeaturesContentAbTestV7VariantContentSection />
+          )}
+          {variant === '7-5' && <FeaturesContentAbTestV7CardAutoVideo />}
+        </>
+      )}
+      {/* maxai in numbers */}
+      <MaxAIInNumbers />
 
-        <HowItWork />
+      {/* user comment */}
+      <UserComment />
 
-        {/* feature  */}
-        {!variant ? (
-          <FeaturesContentAbTestV4VariantContent2Section
-            abTestTitleDirection={'supersede'}
-            abTestFeaturesType={'image'}
-          />
-        ) : (
-          <>
-            {(variant === '7-1' || variant === '7-2') && (
-              <FeaturesContentAbTestV4VariantContent2Section
-                abTestTitleDirection={variantConfig?.titleDirection}
-                abTestFeaturesType={variantConfig?.featuresType}
-              />
-            )}
-            {variant === '7-3' && <FeaturesContentAbTestV7AutoVideo />}
-            {variant === '7-4' && (
-              <FeaturesContentAbTestV7VariantContentSection />
-            )}
-            {variant === '7-5' && <FeaturesContentAbTestV7CardAutoVideo />}
-          </>
-        )}
-        {/* maxai in numbers */}
-        <MaxAIInNumbers />
-
-        {/* user comment */}
-        <UserComment />
-
-        {/* call to action section */}
-        <CallToActionSection propRef={propRef} />
-      </Stack>
-    </AppLoadingLayout>
+      {/* call to action section */}
+      <CallToActionSection propRef={propRef} />
+    </Stack>
   )
 }
 
