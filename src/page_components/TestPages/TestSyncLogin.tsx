@@ -25,7 +25,7 @@ import { useMaxAIAlertModals } from '@/packages/common/components/MaxAIAlertModa
 import MaxAICommonRoot from '@/packages/common/components/MaxAICommonRoot'
 import Toast from '@/packages/common/utils/toast'
 import LanguageSelector from '@/packages/nextjs-ui/components/LanguageSelector'
-import MaxAILazyLoadImage from '@/packages/nextjs-ui/components/MaxAILazyLoadImage'
+import MaxAILazyLoadImage from '@/packages/base-ui/components/MaxAILazyLoadImage'
 
 const TestSyncLogin = () => {
   const { isLogin, loading, error, connectMaxAIAccount } =
