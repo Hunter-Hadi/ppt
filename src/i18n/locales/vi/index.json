@@ -1245,7 +1245,9 @@
     "ai_chat_pages__section5__title": "Cách nhanh nhất để hỏi AI",
     "ai_chat_pages__section5__description": "Nhận câu trả lời ngay trong thanh bên trình duyệt - không cần chuyển đổi giữa các tab. Tiếp tục cuộc trò chuyện để hiểu sâu hơn. Giành lại những giờ quý báu mỗi ngày.",
     "ai_chat_pages__section6__title": "Bảo vệ dữ liệu của bạn",
-    "ai_chat_pages__section6__description": "Không đ compromis về bảo mật. Chúng tôi không bao giờ bán dữ liệu của bạn, cung cấp nó cho mục đích quảng cáo, hoặc cho phép bên thứ ba sử dụng nó để huấn luyện mô hình của họ."
+    "ai_chat_pages__section6__description": "Không đ compromis về bảo mật. Chúng tôi không bao giờ bán dữ liệu của bạn, cung cấp nó cho mục đích quảng cáo, hoặc cho phép bên thứ ba sử dụng nó để huấn luyện mô hình của họ.",
+    "ai_chat_pages__section7__title": "Mã cheat của bạn cho AI",
+    "ai_chat_pages__section7__description": "Thư viện gợi ý AI chất lượng cao. Hoàn thành công việc hàng ngày của bạn trong vài phút, không phải giờ nữa."
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "Thêm PDF",

@@ -1225,7 +1225,9 @@
     "ai_chat_pages__section5__title": "La manière la plus rapide de poser des questions à l'IA",
     "ai_chat_pages__section5__description": "Obtenez des réponses instantanées directement dans la barre latérale du navigateur - pas besoin de passer d'un onglet à l'autre. Poursuivez la conversation pour une compréhension approfondie. Récupérez des heures précieuses chaque jour.",
     "ai_chat_pages__section6__title": "Gardez vos données privées",
-    "ai_chat_pages__section6__description": "Ne compromettez pas la sécurité. Nous ne vendons jamais vos données, ne les utilisons pas à des fins publicitaires, ni ne permettons à des tiers de les utiliser pour entraîner leurs modèles."
+    "ai_chat_pages__section6__description": "Ne compromettez pas la sécurité. Nous ne vendons jamais vos données, ne les utilisons pas à des fins publicitaires, ni ne permettons à des tiers de les utiliser pour entraîner leurs modèles.",
+    "ai_chat_pages__section7__title": "Votre code de triche pour l'IA",
+    "ai_chat_pages__section7__description": "Bibliothèque de prompts IA de haute qualité. Terminez vos tâches quotidiennes en quelques minutes maintenant, plus en heures."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Tout sélectionner",

@@ -1225,7 +1225,9 @@
     "ai_chat_pages__section5__title": "Nopein tapa kysyä tekoälyltä",
     "ai_chat_pages__section5__description": "Saat välittömät vastaukset suoraan selaimen sivupalkista - ei tarvetta hyppiä välilehtien välillä. Pidä keskustelu käynnissä syvempää ymmärrystä varten. Lunasta takaisin arvokkaita tunteja joka päivä.",
     "ai_chat_pages__section6__title": "Pidä tietosi yksityisinä",
-    "ai_chat_pages__section6__description": "Älä tingi turvallisuudesta. Emme koskaan myy tietojasi, käytä niitä mainostamiseen tai anna kolmansien osapuolten käyttää niitä malliensa kouluttamiseen."
+    "ai_chat_pages__section6__description": "Älä tingi turvallisuudesta. Emme koskaan myy tietojasi, käytä niitä mainostamiseen tai anna kolmansien osapuolten käyttää niitä malliensa kouluttamiseen.",
+    "ai_chat_pages__section7__title": "Huijauskoodisi tekoälylle",
+    "ai_chat_pages__section7__description": "Laadukas tekoälyohjeiden kirjasto. Täydennä päivittäiset tehtäväsi nyt minuuteissa, ei enää tunteja."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Valitse kaikki",

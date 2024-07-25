@@ -1225,7 +1225,9 @@
     "ai_chat_pages__section5__title": "Den raskeste måten å spørre AI på",
     "ai_chat_pages__section5__description": "Få øyeblikkelige svar rett i nettleserens sidefelt - ingen grunn til å hoppe mellom faner. Hold samtalen gående for en dypere forståelse. Gjenopprett verdifulle timer hver dag.",
     "ai_chat_pages__section6__title": "Hold dataene dine private",
-    "ai_chat_pages__section6__description": "Ikke gå på kompromiss med sikkerheten. Vi selger aldri dataene dine, gir dem til reklameformål eller lar tredjeparter bruke dem til å trene modellene sine."
+    "ai_chat_pages__section6__description": "Ikke gå på kompromiss med sikkerheten. Vi selger aldri dataene dine, gir dem til reklameformål eller lar tredjeparter bruke dem til å trene modellene sine.",
+    "ai_chat_pages__section7__title": "Din juksekoder for AI",
+    "ai_chat_pages__section7__description": "Høykvalitets AI-promptbibliotek. Fullfør dine daglige oppgaver på minutter nå, ikke timer lenger."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Velg alle",

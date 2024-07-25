@@ -1225,7 +1225,9 @@
     "ai_chat_pages__section5__title": "Det snabbaste sättet att fråga AI",
     "ai_chat_pages__section5__description": "Få omedelbara svar direkt i webbläsarens sidofält - inget behov av att hoppa mellan flikar. Håll konversationen igång för en djupare förståelse. Återta värdefulla timmar varje dag.",
     "ai_chat_pages__section6__title": "Håll dina data privata",
-    "ai_chat_pages__section6__description": "Kompromissa inte med säkerheten. Vi säljer aldrig dina data, tillhandahåller dem för reklamändamål eller tillåter tredje parter att använda dem för att träna sina modeller."
+    "ai_chat_pages__section6__description": "Kompromissa inte med säkerheten. Vi säljer aldrig dina data, tillhandahåller dem för reklamändamål eller tillåter tredje parter att använda dem för att träna sina modeller.",
+    "ai_chat_pages__section7__title": "Din fuskod för AI",
+    "ai_chat_pages__section7__description": "Högkvalitativ AI-promptbibliotek. Slutför dina dagliga uppgifter på några minuter nu, inte timmar längre."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Välj alla",

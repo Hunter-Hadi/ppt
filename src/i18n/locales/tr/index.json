@@ -1245,7 +1245,9 @@
     "ai_chat_pages__section5__title": "Yapay zekaya sormak için en hızlı yol",
     "ai_chat_pages__section5__description": "Tarayıcı kenar çubuğunda hemen cevaplar alın - sekmeler arasında geçiş yapmaya gerek yok. Daha derin bir anlayış için sohbeti sürdürün. Her gün değerli saatleri geri kazanın.",
     "ai_chat_pages__section6__title": "Verilerinizi özel tutun",
-    "ai_chat_pages__section6__description": "Güvenliği riske atmayın. Verilerinizi asla satmayız, reklam amaçları için sağlamayız veya üçüncü tarafların modellerini eğitmek için kullanmalarına izin vermayiz."
+    "ai_chat_pages__section6__description": "Güvenliği riske atmayın. Verilerinizi asla satmayız, reklam amaçları için sağlamayız veya üçüncü tarafların modellerini eğitmek için kullanmalarına izin vermayiz.",
+    "ai_chat_pages__section7__title": "AI için hile kodunuz",
+    "ai_chat_pages__section7__description": "Yüksek kaliteli AI ipucu kütüphanesi. Artık günlük görevlerinizi dakikalar içinde tamamlayın, artık saatler değil."
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "PDF Ekle",

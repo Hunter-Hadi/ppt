@@ -1225,7 +1225,9 @@
     "ai_chat_pages__section5__title": "A forma mais rápida de perguntar à IA",
     "ai_chat_pages__section5__description": "Obtenha respostas instantâneas na barra lateral do navegador - sem precisar alternar entre separadores. Mantenha a conversa fluindo para uma compreensão mais profunda. Recupere horas preciosas todos os dias.",
     "ai_chat_pages__section6__title": "Mantenha seus dados privados",
-    "ai_chat_pages__section6__description": "Não comprometa a segurança. Nunca vendemos seus dados, os fornecemos para fins publicitários ou permitimos que terceiros os usem para treinar seus modelos."
+    "ai_chat_pages__section6__description": "Não comprometa a segurança. Nunca vendemos seus dados, os fornecemos para fins publicitários ou permitimos que terceiros os usem para treinar seus modelos.",
+    "ai_chat_pages__section7__title": "O seu código de batota para IA",
+    "ai_chat_pages__section7__description": "Biblioteca de prompts de IA de alta qualidade. Complete as suas tarefas diárias em minutos agora, não em horas."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Selecionar tudo",

@@ -1245,7 +1245,9 @@
     "ai_chat_pages__section5__title": "询问AI的最快方式",
     "ai_chat_pages__section5__description": "在浏览器侧边栏中即时获取答案-无需在标签之间跳转。保持对话进行以获得更深入的理解。每天节省宝贵的时间。",
     "ai_chat_pages__section6__title": "保护您的数据隐私",
-    "ai_chat_pages__section6__description": "不要在安全性上妥协。我们从不出售您的数据，也不为广告目的提供数据，或允许第三方使用它来训练他们的模型。"
+    "ai_chat_pages__section6__description": "不要在安全性上妥协。我们从不出售您的数据，也不为广告目的提供数据，或允许第三方使用它来训练他们的模型。",
+    "ai_chat_pages__section7__title": "AI的秘籍",
+    "ai_chat_pages__section7__description": "高质量AI提示库。现在不再需要花几个小时，几分钟就能完成每天的任务。"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "添加PDF",

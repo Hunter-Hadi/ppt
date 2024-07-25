@@ -1225,7 +1225,9 @@
     "ai_chat_pages__section5__title": "Cel mai rapid mod de a întreba AI",
     "ai_chat_pages__section5__description": "Obțineți răspunsuri instantanee direct în bara laterală a browserului - fără a sări între file. Mențineți conversația pentru o înțelegere mai profundă. Recuperați ore prețioase în fiecare zi.",
     "ai_chat_pages__section6__title": "Păstrează-ți datele private",
-    "ai_chat_pages__section6__description": "Nu face compromisuri în privința securității. Nu vindem niciodată datele tale, nu le furnizăm în scopuri publicitare sau nu permitem terților să le folosească pentru antrenarea modelelor lor."
+    "ai_chat_pages__section6__description": "Nu face compromisuri în privința securității. Nu vindem niciodată datele tale, nu le furnizăm în scopuri publicitare sau nu permitem terților să le folosească pentru antrenarea modelelor lor.",
+    "ai_chat_pages__section7__title": "Codul tău de șmecherie pentru AI",
+    "ai_chat_pages__section7__description": "Bibliotecă de prompturi AI de înaltă calitate. Finalizează-ți sarcinile zilnice acum în minute, nu ore."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Selectează tot",
