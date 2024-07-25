@@ -189,8 +189,8 @@ const TrustedBy = () => {
                   <MaxAILazyLoadImage
                     alt={companyData.name}
                     src={companyData.src}
-                    width='100'
-                    height='100'
+                    width='100%'
+                    height='100%'
                   />
                 </Stack>
               </SwiperSlide>
