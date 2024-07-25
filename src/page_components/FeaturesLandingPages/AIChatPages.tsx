@@ -73,7 +73,7 @@ const AIChatPages: FC<IProps> = () => {
         icon='art'
         title={t('features_landing:ai_chat_pages__section4__title')}
         description={t('features_landing:ai_chat_pages__section4__description')}
-        imageUrl='/assets/features-landing/ai-art/1.png'
+        imageUrl='/assets/features-landing/ai-chat/4.png'
         textWithImageLayout='imageToText'
       />
       <FeaturesContentSection
