@@ -48,6 +48,7 @@ const HomePageContent: FC<IProps> = ({ propRef, sx }) => {
           // loading={!loaded}
           heroVideoProps={{
             videoSrc: `${RESOURCES_URL}/video/landing-page-primary.mp4`,
+            videoPosterUrl: `/assets/landing/hero-section/video-cover.png`,
             variant: 'autoplay',
           }}
         />

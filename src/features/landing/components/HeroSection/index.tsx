@@ -1,5 +1,6 @@
 import StarIcon from '@mui/icons-material/Star'
 import { Box, Grid, Skeleton, Stack, SxProps, Typography } from '@mui/material'
+import Head from 'next/head'
 import { useTranslation } from 'next-i18next'
 import React, { FC, useMemo } from 'react'
 
@@ -69,223 +70,234 @@ const HeroSection: FC<IProps> = ({
   }, [propDescription, t])
 
   return (
-    <Box
-      id='homepage-hero-section'
-      bgcolor='#f9f5ff'
-      pt={{
-        xs: 4,
-        md: 7,
-      }}
-      pb={9}
-      px={2}
-      overflow='hidden'
-      sx={{
-        backgroundImage: `url("/assets/landing/hero-section-bg.png")`,
-        backgroundSize: 'cover',
-        backgroundPositionY: '-40px',
+    <>
+      <Head>
+        {/* preload hero-section-bg */}
+        <link
+          rel='preload'
+          as='image'
+          href='/assets/landing/hero-section-bg.png'
+          type='image/png'
+        />
+      </Head>
+      <Box
+        id='homepage-hero-section'
+        bgcolor='#f9f5ff'
+        pt={{
+          xs: 4,
+          md: 7,
+        }}
+        pb={9}
+        px={2}
+        overflow='hidden'
+        sx={{
+          backgroundImage: `url("/assets/landing/hero-section-bg.png")`,
+          backgroundSize: 'cover',
+          backgroundPositionY: '-40px',
 
-        ...sx,
-      }}
-    >
-      <Box maxWidth={1040} mx='auto'>
-        <Grid container rowSpacing={3} spacing={4}>
-          <Grid item xs={12} sm={12} md={12}>
-            <Stack
-              p={{
-                xs: 0,
-                sm: 2,
-              }}
-              className='content-wrapper'
-              sx={[
-                {
-                  p: {
-                    xs: 0,
-                    sm: 2,
-                  },
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  textAlign: 'center',
-                  maxWidth: 'unset',
-                  mx: 'auto',
-                },
-              ]}
-            >
-              {showIndicatorBadge && (
-                <IndicatorContent
-                  isABTestAddNewAndNewSort={true}
-                  sx={{
-                    mb: 3,
-                  }}
-                />
-              )}
-              {loading ? (
-                <TitleSkeleton />
-              ) : (
-                <Typography
-                  variant='custom'
-                  className='title'
-                  fontSize={{
-                    xs: 40,
-                    sm: 48,
-                    lg: 56,
-                  }}
-                  component={titleComponent}
-                  fontWeight={700}
-                >
-                  {title}
-                </Typography>
-              )}
-              {/* margin spacing */}
-              <Box height={24} />
-              {loading ? (
-                <DescriptionSkeleton />
-              ) : (
-                <Typography
-                  variant='body2'
-                  className='description'
-                  fontSize={{
-                    xs: 16,
-                    sm: 18,
-                    lg: 22,
-                  }}
-                >
-                  {description}
-                </Typography>
-              )}
-              {/* margin spacing */}
-              <Box height={32} />
+          ...sx,
+        }}
+      >
+        <Box maxWidth={1040} mx='auto'>
+          <Grid container rowSpacing={3} spacing={4}>
+            <Grid item xs={12} sm={12} md={12}>
               <Stack
-                direction={'row'}
-                alignItems='center'
-                spacing={{
-                  xs: 1,
+                p={{
+                  xs: 0,
                   sm: 2,
                 }}
-                width={{
-                  xs: '100%',
-                  sm: '60%',
-                }}
-                mb={1.5}
+                className='content-wrapper'
+                sx={[
+                  {
+                    p: {
+                      xs: 0,
+                      sm: 2,
+                    },
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    textAlign: 'center',
+                    maxWidth: 'unset',
+                    mx: 'auto',
+                  },
+                ]}
               >
-                <CTAInstallButton
-                  showAgent='Chrome'
-                  variant={agent === 'Chrome' ? 'contained' : 'outlined'}
-                  text={agent === 'Chrome' ? undefined : ''}
-                  trackerLinkProps={{
-                    defaultRef: propRef ?? 'homepage',
-                    queryRefEnable: true,
-                    pathnameRefEnable: false,
-                    ...trackerLinkProps,
+                {showIndicatorBadge && (
+                  <IndicatorContent
+                    isABTestAddNewAndNewSort={true}
+                    sx={{
+                      mb: 3,
+                    }}
+                  />
+                )}
+                {loading ? (
+                  <TitleSkeleton />
+                ) : (
+                  <Typography
+                    variant='custom'
+                    className='title'
+                    fontSize={{
+                      xs: 40,
+                      sm: 48,
+                      lg: 56,
+                    }}
+                    component={titleComponent}
+                    fontWeight={700}
+                  >
+                    {title}
+                  </Typography>
+                )}
+                {/* margin spacing */}
+                <Box height={24} />
+                {loading ? (
+                  <DescriptionSkeleton />
+                ) : (
+                  <Typography
+                    variant='body2'
+                    className='description'
+                    fontSize={{
+                      xs: 16,
+                      sm: 18,
+                      lg: 22,
+                    }}
+                  >
+                    {description}
+                  </Typography>
+                )}
+                {/* margin spacing */}
+                <Box height={32} />
+                <Stack
+                  direction={'row'}
+                  alignItems='center'
+                  spacing={{
+                    xs: 1,
+                    sm: 2,
                   }}
-                  sx={{
-                    width: agent === 'Chrome' ? '100%' : 'max-content',
-                    bgcolor: agent === 'Chrome' ? 'primary.main' : '#fff',
+                  width={{
+                    xs: '100%',
+                    sm: '60%',
                   }}
-                />
-                <CTAInstallButton
-                  showAgent='Edge'
-                  variant={agent === 'Edge' ? 'contained' : 'outlined'}
-                  text={agent === 'Edge' ? undefined : ''}
-                  trackerLinkProps={{
-                    defaultRef: propRef ?? 'homepage',
-                    queryRefEnable: true,
-                    pathnameRefEnable: false,
-                    ...trackerLinkProps,
-                  }}
-                  sx={{
-                    width: agent === 'Edge' ? '100%' : 'max-content',
-                    bgcolor: agent === 'Edge' ? 'primary.main' : '#fff',
-                  }}
-                />
-              </Stack>
-              <Stack
-                direction={'row'}
-                spacing={1}
-                alignItems='center'
-                justifyContent={'center'}
-                width={'100%'}
-                fontSize={{
-                  xs: 12,
-                  md: 16,
-                }}
-                flexWrap={'wrap'}
-              >
-                <Typography
-                  variant='custom'
-                  fontSize={'inherit'}
-                  lineHeight={1.5}
-                  flexShrink={0}
+                  mb={1.5}
                 >
-                  Powered by
-                </Typography>
-                <Stack direction={'row'} spacing={0.5}>
-                  <CustomIcon
-                    icon='GPT4o'
+                  <CTAInstallButton
+                    showAgent='Chrome'
+                    variant={agent === 'Chrome' ? 'contained' : 'outlined'}
+                    text={agent === 'Chrome' ? undefined : ''}
+                    trackerLinkProps={{
+                      defaultRef: propRef ?? 'homepage',
+                      queryRefEnable: true,
+                      pathnameRefEnable: false,
+                      ...trackerLinkProps,
+                    }}
                     sx={{
-                      fontSize: {
-                        xs: 20,
-                        md: 24,
-                      },
+                      width: agent === 'Chrome' ? '100%' : 'max-content',
+                      bgcolor: agent === 'Chrome' ? 'primary.main' : '#fff',
                     }}
                   />
-                  <Typography
-                    variant='custom'
-                    fontSize={'inherit'}
-                    lineHeight={1.5}
-                    flexShrink={0}
-                  >
-                    GPT-4o
-                  </Typography>
+                  <CTAInstallButton
+                    showAgent='Edge'
+                    variant={agent === 'Edge' ? 'contained' : 'outlined'}
+                    text={agent === 'Edge' ? undefined : ''}
+                    trackerLinkProps={{
+                      defaultRef: propRef ?? 'homepage',
+                      queryRefEnable: true,
+                      pathnameRefEnable: false,
+                      ...trackerLinkProps,
+                    }}
+                    sx={{
+                      width: agent === 'Edge' ? '100%' : 'max-content',
+                      bgcolor: agent === 'Edge' ? 'primary.main' : '#fff',
+                    }}
+                  />
                 </Stack>
-
-                <Stack direction={'row'} spacing={0.5}>
-                  <CustomIcon
-                    icon='Claude3-5Sonnet'
-                    sx={{
-                      fontSize: {
-                        xs: 20,
-                        md: 24,
-                      },
-                    }}
-                  />
+                <Stack
+                  direction={'row'}
+                  spacing={1}
+                  alignItems='center'
+                  justifyContent={'center'}
+                  width={'100%'}
+                  fontSize={{
+                    xs: 12,
+                    md: 16,
+                  }}
+                  flexWrap={'wrap'}
+                >
                   <Typography
                     variant='custom'
                     fontSize={'inherit'}
                     lineHeight={1.5}
                     flexShrink={0}
                   >
-                    Claude 3.5 Sonnet
+                    Powered by
                   </Typography>
-                </Stack>
+                  <Stack direction={'row'} spacing={0.5}>
+                    <CustomIcon
+                      icon='GPT4o'
+                      sx={{
+                        fontSize: {
+                          xs: 20,
+                          md: 24,
+                        },
+                      }}
+                    />
+                    <Typography
+                      variant='custom'
+                      fontSize={'inherit'}
+                      lineHeight={1.5}
+                      flexShrink={0}
+                    >
+                      GPT-4o
+                    </Typography>
+                  </Stack>
 
-                <Stack direction={'row'} spacing={0.5}>
-                  <CustomIcon
-                    icon='GeminiPro'
-                    sx={{
-                      fontSize: {
-                        xs: 20,
-                        md: 24,
-                      },
-                    }}
-                  />
-                  <Typography
-                    variant='custom'
-                    fontSize={'inherit'}
-                    lineHeight={1.5}
-                    flexShrink={0}
-                  >
-                    Gemini 1.5 Pro
-                  </Typography>
+                  <Stack direction={'row'} spacing={0.5}>
+                    <CustomIcon
+                      icon='Claude3-5Sonnet'
+                      sx={{
+                        fontSize: {
+                          xs: 20,
+                          md: 24,
+                        },
+                      }}
+                    />
+                    <Typography
+                      variant='custom'
+                      fontSize={'inherit'}
+                      lineHeight={1.5}
+                      flexShrink={0}
+                    >
+                      Claude 3.5 Sonnet
+                    </Typography>
+                  </Stack>
+
+                  <Stack direction={'row'} spacing={0.5}>
+                    <CustomIcon
+                      icon='GeminiPro'
+                      sx={{
+                        fontSize: {
+                          xs: 20,
+                          md: 24,
+                        },
+                      }}
+                    />
+                    <Typography
+                      variant='custom'
+                      fontSize={'inherit'}
+                      lineHeight={1.5}
+                      flexShrink={0}
+                    >
+                      Gemini 1.5 Pro
+                    </Typography>
+                  </Stack>
                 </Stack>
               </Stack>
-            </Stack>
+            </Grid>
+            <Grid item xs={12} sm={12} md={12}>
+              <HeroVideoBox {...heroVideoProps} />
+            </Grid>
           </Grid>
-          <Grid item xs={12} sm={12} md={12}>
-            <HeroVideoBox {...heroVideoProps} />
-          </Grid>
-        </Grid>
+        </Box>
       </Box>
-    </Box>
+    </>
   )
 }
 
