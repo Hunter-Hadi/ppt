@@ -687,9 +687,9 @@
     "home_page__features_content__ab_test_v4__content2__reading__description3": "استيعاب المفاهيم المعقدة المشروحة بألفاظ بسيطة.",
     "home_page__features_content__ab_test_v4__content2__search__label": "مساعد البحث",
     "home_page__features_content__ab_test_v4__content2__search__title": "ابحث بسرعة 10 مرات أكثر باستخدام الدردشة الذكية",
-    "home_page__features_content__ab_test_v4__content2__search__description1": "تحدث مع GPT-4o، Claude-3.5-Sonnet، Gemini-1.5-Pro، وأكثر من ذلك.",
-    "home_page__features_content__ab_test_v4__content2__search__description2": "احصل على إجابات ذكية وموثوقة ومحدثة باستخدام الوصول إلى الويب.",
-    "home_page__features_content__ab_test_v4__content2__search__description3": "الوصول إلى الإجابات الفورية مباشرة في شريط التصفح الجانبي.",
+    "home_page__features_content__ab_test_v4__content2__search__description1": "احصل على إجابات AI محدثة مع وصول ويب فوري ومعرفة.",
+    "home_page__features_content__ab_test_v4__content2__search__description2": "احصل على إجابات AI موثوقة مع اقتباسات.",
+    "home_page__features_content__ab_test_v4__content2__search__description3": "الوصول إلى إجابات فورية مباشرة في شريط التصفح الخاص بك.",
     "home_page__features_content__ab_test_v4__content2__writing__label": "مساعد الكتابة",
     "home_page__features_content__ab_test_v4__content2__writing__title": "قم بتحسين كتاباتك عبر الويب",
     "home_page__features_content__ab_test_v4__content2__writing__description1": "كن محترفًا وواضحًا ومقنعًا بنقرة واحدة.",
@@ -721,7 +721,14 @@
     "partners__try_our_extension": "جرب امتدادنا الجديد للشريك 👇",
     "partners__try_our_tools": "جرب أدواتنا المجانية للشريك",
     "home_page__hero_section__title__part1": "اقرأ واكتب وابحث باستخدام الذكاء الاصطناعي",
-    "home_page__hero_section__title__part2": "انهِ العمل بسرعة 10 مرات أكبر"
+    "home_page__hero_section__title__part2": "انهِ العمل بسرعة 10 مرات أكبر",
+    "home_page__features_content__all_in_chatbox__label": "الدردشة متعددة الوظائف",
+    "home_page__features_content__all_in_chatbox__title": "تحدث مع أفضل الذكاء الاصطناعي في مكان واحد",
+    "home_page__features_content__all_in_chatbox__description1": "تحدث مع GPT-4o، Claude-3.5-Sonnet، Gemini-1.5-Pro، والمزيد.",
+    "home_page__features_content__all_in_chatbox__description2": "أسرع طريقة للحصول على إجابات فورية مباشرة في شريط التصفح.",
+    "home_page__features_content__all_in_chatbox__description3": "تحليل أي صورة باستخدام رؤية الذكاء الاصطناعي.",
+    "home_page__features_content__all_in_chatbox__description4": "إنشاء فنون وصور ذكاء اصطناعي مع DALLE-3.",
+    "home_page__features_content__ab_test_v4__content2__search__description4": "عرض ردود AI بجوار نتائج بحث Google."
   },
   "prompt_library": {
     "use_prompt_library__title": "مكتبة نصوص AI عالية الجودة",

@@ -687,9 +687,9 @@
     "home_page__features_content__ab_test_v4__content2__reading__description3": "以簡單的方式理解複雜概念。",
     "home_page__features_content__ab_test_v4__content2__search__label": "搜索助手",
     "home_page__features_content__ab_test_v4__content2__search__title": "通過 AI 聊天實現 10 倍更快的搜索",
-    "home_page__features_content__ab_test_v4__content2__search__description1": "與 GPT-4o、Claude-3.5-Sonnet、Gemini-1.5-Pro 等聊天。",
-    "home_page__features_content__ab_test_v4__content2__search__description2": "獲得可靠且最新的 AI 答案，並具有網絡訪問功能。",
-    "home_page__features_content__ab_test_v4__content2__search__description3": "在瀏覽器側邊欄中即時獲得答案。",
+    "home_page__features_content__ab_test_v4__content2__search__description1": "獲取最新的人工智慧答案，具有即時網絡訪問和知識。",
+    "home_page__features_content__ab_test_v4__content2__search__description2": "獲取可靠的人工智慧答案，帶有引用。",
+    "home_page__features_content__ab_test_v4__content2__search__description3": "在您的瀏覽器側欄中立即獲取答案。",
     "home_page__features_content__ab_test_v4__content2__writing__label": "寫作助手",
     "home_page__features_content__ab_test_v4__content2__writing__title": "提升您在網絡上的寫作能力",
     "home_page__features_content__ab_test_v4__content2__writing__description1": "以幾個點擊專業、清晰、有說服力。",
@@ -721,7 +721,14 @@
     "partners__try_our_extension": "試試我們合作夥伴的新擴展 👇",
     "partners__try_our_tools": "試試我們合作夥伴的免費工具",
     "home_page__hero_section__title__part1": "使用AI閱讀、寫作和搜索",
-    "home_page__hero_section__title__part2": "10倍速完成工作"
+    "home_page__hero_section__title__part2": "10倍速完成工作",
+    "home_page__features_content__all_in_chatbox__label": "全能聊天機器人",
+    "home_page__features_content__all_in_chatbox__title": "在一個地方與頂尖 AI 對話",
+    "home_page__features_content__all_in_chatbox__description1": "與 GPT-4o、Claude-3.5-Sonnet、Gemini-1.5-Pro 等對話。",
+    "home_page__features_content__all_in_chatbox__description2": "在瀏覽器側邊欄中獲得即時答案的最快方式。",
+    "home_page__features_content__all_in_chatbox__description3": "使用 AI 視覺分析任何圖像。",
+    "home_page__features_content__all_in_chatbox__description4": "使用 DALLE-3 創建 AI 藝術和圖像。",
+    "home_page__features_content__ab_test_v4__content2__search__description4": "在Google搜索結果旁顯示人工智慧回應。"
   },
   "prompt_library": {
     "use_prompt_library__title": "高品質 AI 提示庫",

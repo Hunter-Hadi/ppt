@@ -687,9 +687,9 @@
     "home_page__features_content__ab_test_v4__content2__reading__description3": "Basit terimlerle açıklanan karmaşık kavramları kavrayın.",
     "home_page__features_content__ab_test_v4__content2__search__label": "Arama Asistanı",
     "home_page__features_content__ab_test_v4__content2__search__title": "Yapay Zeka sohbetiyle 10 kat daha hızlı arama yapın",
-    "home_page__features_content__ab_test_v4__content2__search__description1": "GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro ve daha fazlasıyla sohbet edin.",
-    "home_page__features_content__ab_test_v4__content2__search__description2": "Güvenilir ve güncel yapay zeka yanıtlarına web erişimiyle ulaşın.",
-    "home_page__features_content__ab_test_v4__content2__search__description3": "Anında yanıtlara tarayıcınızın kenar çubuğunda erişin.",
+    "home_page__features_content__ab_test_v4__content2__search__description1": "Gerçek zamanlı web erişimi ve bilgi ile güncel AI cevapları alın.",
+    "home_page__features_content__ab_test_v4__content2__search__description2": "Alıntılarla güvenilir AI cevapları alın.",
+    "home_page__features_content__ab_test_v4__content2__search__description3": "Tarayıcı kenar çubuğunuzda anlık cevaplara erişim sağlayın.",
     "home_page__features_content__ab_test_v4__content2__writing__label": "Yazma Asistanı",
     "home_page__features_content__ab_test_v4__content2__writing__title": "Web üzerinde yazınızı geliştirin",
     "home_page__features_content__ab_test_v4__content2__writing__description1": "Birkaç tıklamayla profesyonel, açıklayıcı ve ikna edici olun.",
@@ -721,7 +721,14 @@
     "partners__try_our_extension": "Ortaklarımızın yeni uzantısını deneyin 👇",
     "partners__try_our_tools": "Ortaklarımızın ücretsiz araçlarını deneyin",
     "home_page__hero_section__title__part1": "Yapay zeka ile okuyun, yazın ve arama yapın",
-    "home_page__hero_section__title__part2": "İşi 10 kat daha hızlı bitirin"
+    "home_page__hero_section__title__part2": "İşi 10 kat daha hızlı bitirin",
+    "home_page__features_content__all_in_chatbox__label": "Hepsi bir arada sohbet botu",
+    "home_page__features_content__all_in_chatbox__title": "En iyi yapay zekayla tek yerde sohbet edin",
+    "home_page__features_content__all_in_chatbox__description1": "GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro ve daha fazlasıyla konuşun.",
+    "home_page__features_content__all_in_chatbox__description2": "Anında cevapları tarayıcı kenar çubuğunda almanın en hızlı yolu.",
+    "home_page__features_content__all_in_chatbox__description3": "Herhangi bir görüntüyü yapay zeka görüşüyle analiz edin.",
+    "home_page__features_content__all_in_chatbox__description4": "DALLE-3 ile yapay zeka sanatı ve görüntüleri oluşturun.",
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Google arama sonuçlarının yanında AI yanıtlarını görüntüleyin."
   },
   "prompt_library": {
     "use_prompt_library__title": "Yüksek kaliteli AI prompt kütüphanesi",

@@ -105,7 +105,7 @@ export const FEATURES_CONTENT = [
     icon: 'code',
     label: 'pages:home_page__features_content__all_in_chatbox__label',
     title: 'pages:home_page__features_content__all_in_chatbox__title',
-    image: '/assets/features-landing/ai-reply/1.png',
+    image: '/assets/features-landing/ai-chat/1.png',
     videoUrl: abTestVideoUrlObject.chatAssistant,
     videoPosterUrl: abTestVideoPosterUrlObject.chatAssistant,
     descriptionList: [
@@ -127,11 +127,11 @@ export const FEATURES_CONTENT = [
     image: '/assets/landing/feature-carousel/chat.png',
     videoUrl: abTestVideoUrlObject.searchAssistant,
     videoPosterUrl: abTestVideoPosterUrlObject.searchAssistant,
-
     descriptionList: [
       'pages:home_page__features_content__ab_test_v4__content2__search__description1',
       'pages:home_page__features_content__ab_test_v4__content2__search__description2',
       'pages:home_page__features_content__ab_test_v4__content2__search__description3',
+      'pages:home_page__features_content__ab_test_v4__content2__search__description4',
     ],
     tagBgColor: '#FFF6D6',
     tagColor: '#FAA700',

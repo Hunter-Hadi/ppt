@@ -193,8 +193,8 @@
     "home_page__features_content__ab_test_v4__content2__reading__description3": "Capisci concetti complessi spiegati in termini semplici.",
     "home_page__features_content__ab_test_v4__content2__search__label": "Assistente di ricerca",
     "home_page__features_content__ab_test_v4__content2__search__title": "Cerca 10 volte più velocemente con la chat AI",
-    "home_page__features_content__ab_test_v4__content2__search__description1": "Chatta con GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro e altro.",
-    "home_page__features_content__ab_test_v4__content2__search__description2": "Ottieni risposte AI credibili e aggiornate con accesso web.",
+    "home_page__features_content__ab_test_v4__content2__search__description1": "Ottieni risposte AI aggiornate con accesso web in tempo reale e conoscenza.",
+    "home_page__features_content__ab_test_v4__content2__search__description2": "Ottieni risposte AI credibili con citazioni.",
     "home_page__features_content__ab_test_v4__content2__search__description3": "Accesso a risposte istantanee direttamente nella barra laterale del tuo browser.",
     "home_page__features_content__ab_test_v4__content2__writing__label": "Assistente di scrittura",
     "home_page__features_content__ab_test_v4__content2__writing__title": "Migliora la tua scrittura in tutto il web",
@@ -721,7 +721,14 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Regola i margini delle pagine e altre opzioni secondo necessità.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Clicca su 'Aggiungi e Scarica' e attendi solo un istante.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Scarica il tuo PDF con i numeri di pagina, è tutto!",
-    "uninstall_survey__title": "Aiutaci a Migliorare"
+    "uninstall_survey__title": "Aiutaci a Migliorare",
+    "home_page__features_content__all_in_chatbox__label": "Chatbot tutto in uno",
+    "home_page__features_content__all_in_chatbox__title": "Chatta con l'intelligenza artificiale in un unico posto",
+    "home_page__features_content__all_in_chatbox__description1": "Parla con GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro e altro ancora.",
+    "home_page__features_content__all_in_chatbox__description2": "Il modo più veloce per ottenere risposte istantanee direttamente nella barra laterale del browser.",
+    "home_page__features_content__all_in_chatbox__description3": "Analizza qualsiasi immagine con la visione dell'IA.",
+    "home_page__features_content__all_in_chatbox__description4": "Crea arte e immagini con l'IA con DALLE-3.",
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Visualizza risposte AI accanto ai risultati di ricerca di Google."
   },
   "use_cases_pages": {
     "research__title": "Potenzia il tuo browser con Ricerca AI 10 volte più veloce",

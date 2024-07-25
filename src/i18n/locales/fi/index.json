@@ -687,9 +687,9 @@
     "home_page__features_content__ab_test_v4__content2__reading__description3": "Tartu monimutkaisiin käsitteisiin selkeillä termeillä selitettyinä.",
     "home_page__features_content__ab_test_v4__content2__search__label": "Hakukoneavustaja",
     "home_page__features_content__ab_test_v4__content2__search__title": "Hae 10 kertaa nopeammin tekoälykeskustelun avulla",
-    "home_page__features_content__ab_test_v4__content2__search__description1": "Keskustele GPT-4o:n, Claude-3.5-Sonnetin, Gemini-1.5-Pron ja paljon muun kanssa.",
-    "home_page__features_content__ab_test_v4__content2__search__description2": "Saat uskottavia ja ajan tasalla olevia tekoälyvastauksia verkkopääsyn avulla.",
-    "home_page__features_content__ab_test_v4__content2__search__description3": "Pääsy välittömiin vastauksiin suoraan selaimen sivupalkissa.",
+    "home_page__features_content__ab_test_v4__content2__search__description1": "Saat ajan tasalla olevia tekoälyvastauksia reaaliaikaisella verkkoyhteydellä ja tiedolla.",
+    "home_page__features_content__ab_test_v4__content2__search__description2": "Saat uskottavia tekoälyvastauksia viitteillä.",
+    "home_page__features_content__ab_test_v4__content2__search__description3": "Pääsy välittömiin vastauksiin suoraan selaimesi sivupalkissa.",
     "home_page__features_content__ab_test_v4__content2__writing__label": "Kirjoitusavustaja",
     "home_page__features_content__ab_test_v4__content2__writing__title": "Paranna kirjoitustaitojasi verkossa",
     "home_page__features_content__ab_test_v4__content2__writing__description1": "Ole ammattimainen, selkeä ja vakuuttava muutamalla napsautuksella.",
@@ -721,7 +721,14 @@
     "partners__try_our_extension": "Kokeile kumppanimme uutta laajennusta 👇",
     "partners__try_our_tools": "Kokeile kumppanimme ilmaisia työkaluja",
     "home_page__hero_section__title__part1": "Lue, kirjoita ja hae tekoälyn avulla",
-    "home_page__hero_section__title__part2": "Viimeistele työ 10 kertaa nopeammin"
+    "home_page__hero_section__title__part2": "Viimeistele työ 10 kertaa nopeammin",
+    "home_page__features_content__all_in_chatbox__label": "Kaikki yhdessä chatbotissa",
+    "home_page__features_content__all_in_chatbox__title": "Juttele parhaiden tekoälyjen kanssa yhdessä paikassa",
+    "home_page__features_content__all_in_chatbox__description1": "Keskustele GPT-4o:n, Claude-3.5-Sonnetin, Gemini-1.5-Pron ja muiden kanssa.",
+    "home_page__features_content__all_in_chatbox__description2": "Nopein tapa saada välittömät vastaukset suoraan selaimen sivupalkista.",
+    "home_page__features_content__all_in_chatbox__description3": "Analysoi mikä tahansa kuva tekoälyn avulla.",
+    "home_page__features_content__all_in_chatbox__description4": "Luo tekoälytaidetta ja kuvia DALLE-3:lla.",
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Näytä tekoälyvastaukset Google-hakutulosten vieressä."
   },
   "prompt_library": {
     "use_prompt_library__title": "Korkealaatuinen AI-prompt-kirjasto",

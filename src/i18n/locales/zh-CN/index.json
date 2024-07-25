@@ -673,8 +673,8 @@
     "home_page__features_content__ab_test_v4__content2__reading__description3": "以简单的方式理解复杂概念。",
     "home_page__features_content__ab_test_v4__content2__search__label": "搜索助手",
     "home_page__features_content__ab_test_v4__content2__search__title": "通过AI聊天实现10倍更快的搜索",
-    "home_page__features_content__ab_test_v4__content2__search__description1": "与GPT-4o、Claude-3.5-Sonnet、Gemini-1.5-Pro等聊天。",
-    "home_page__features_content__ab_test_v4__content2__search__description2": "获得可靠和最新的AI答案，并具备网络访问功能。",
+    "home_page__features_content__ab_test_v4__content2__search__description1": "获取最新的AI答案，实时获取网络访问和知识。",
+    "home_page__features_content__ab_test_v4__content2__search__description2": "获取可靠的AI答案，带有引用。",
     "home_page__features_content__ab_test_v4__content2__search__description3": "在浏览器侧边栏中立即获得答案。",
     "home_page__features_content__ab_test_v4__content2__writing__label": "写作助手",
     "home_page__features_content__ab_test_v4__content2__writing__title": "提升您在网络上的写作能力",
@@ -707,7 +707,14 @@
     "partners__try_our_extension": "试用我们合作伙伴的新扩展 👇",
     "partners__try_our_tools": "试用我们合作伙伴的免费工具",
     "home_page__hero_section__title__part1": "使用AI阅读、写作和搜索",
-    "home_page__hero_section__title__part2": "10倍提速完成工作"
+    "home_page__hero_section__title__part2": "10倍提速完成工作",
+    "home_page__features_content__all_in_chatbox__label": "多合一聊天机器人",
+    "home_page__features_content__all_in_chatbox__title": "在一个地方与顶尖AI聊天",
+    "home_page__features_content__all_in_chatbox__description1": "与GPT-4o、Claude-3.5-Sonnet、Gemini-1.5-Pro等进行对话。",
+    "home_page__features_content__all_in_chatbox__description2": "在浏览器侧边栏中获得即时答案的最快方式。",
+    "home_page__features_content__all_in_chatbox__description3": "使用AI视觉分析任何图像。",
+    "home_page__features_content__all_in_chatbox__description4": "使用DALLE-3创建AI艺术和图像。",
+    "home_page__features_content__ab_test_v4__content2__search__description4": "在Google搜索结果旁显示AI响应。"
   },
   "button": {
     "add_to_chrome_for_free": "添加到 Chrome - 免费",

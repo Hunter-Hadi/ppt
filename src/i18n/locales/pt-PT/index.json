@@ -687,9 +687,9 @@
     "home_page__features_content__ab_test_v4__content2__reading__description3": "Entenda conceitos complexos explicados em termos simples.",
     "home_page__features_content__ab_test_v4__content2__search__label": "Assistente de pesquisa",
     "home_page__features_content__ab_test_v4__content2__search__title": "Pesquise 10 vezes mais rápido com chat de IA",
-    "home_page__features_content__ab_test_v4__content2__search__description1": "Converse com GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro e muito mais.",
-    "home_page__features_content__ab_test_v4__content2__search__description2": "Obtenha respostas confiáveis e atualizadas com acesso à web.",
-    "home_page__features_content__ab_test_v4__content2__search__description3": "Acesse respostas instantâneas na barra lateral do seu navegador.",
+    "home_page__features_content__ab_test_v4__content2__search__description1": "Obtenha respostas de IA atualizadas com acesso web em tempo real e conhecimento.",
+    "home_page__features_content__ab_test_v4__content2__search__description2": "Obtenha respostas de IA credíveis com citações.",
+    "home_page__features_content__ab_test_v4__content2__search__description3": "Acesso a respostas instantâneas diretamente na barra lateral do seu navegador.",
     "home_page__features_content__ab_test_v4__content2__writing__label": "Assistente de escrita",
     "home_page__features_content__ab_test_v4__content2__writing__title": "Melhore sua escrita em toda a web",
     "home_page__features_content__ab_test_v4__content2__writing__description1": "Seja profissional, claro e convincente com alguns cliques.",
@@ -721,7 +721,14 @@
     "partners__try_our_extension": "Experimente a nova extensão do nosso parceiro 👇",
     "partners__try_our_tools": "Experimente as ferramentas gratuitas do nosso parceiro",
     "home_page__hero_section__title__part1": "Ler, escrever e pesquisar com IA",
-    "home_page__hero_section__title__part2": "Concluir trabalho 10x mais rápido"
+    "home_page__hero_section__title__part2": "Concluir trabalho 10x mais rápido",
+    "home_page__features_content__all_in_chatbox__label": "Chatbot tudo-em-um",
+    "home_page__features_content__all_in_chatbox__title": "Converse com os melhores IA num só lugar",
+    "home_page__features_content__all_in_chatbox__description1": "Converse com GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro e mais.",
+    "home_page__features_content__all_in_chatbox__description2": "A forma mais rápida de obter respostas instantâneas diretamente na barra lateral do navegador.",
+    "home_page__features_content__all_in_chatbox__description3": "Analise qualquer imagem com visão de IA.",
+    "home_page__features_content__all_in_chatbox__description4": "Crie arte e imagens de IA com DALLE-3.",
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Exiba respostas de IA ao lado dos resultados de pesquisa do Google."
   },
   "prompt_library": {
     "use_prompt_library__title": "Biblioteca de sugestões de IA de alta qualidade",

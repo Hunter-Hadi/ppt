@@ -687,9 +687,9 @@
     "home_page__features_content__ab_test_v4__content2__reading__description3": "سادہ الفاظ میں بیان شدہ پیچیدہ تصورات کو سمجھیں۔",
     "home_page__features_content__ab_test_v4__content2__search__label": "تلاش معاون",
     "home_page__features_content__ab_test_v4__content2__search__title": "AI چیٹ کے ساتھ 10 گنا تیز تلاش کریں",
-    "home_page__features_content__ab_test_v4__content2__search__description1": "GPT-4o، Claude-3.5-Sonnet، Gemini-1.5-Pro اور مزید کے ساتھ چیٹ کریں۔",
-    "home_page__features_content__ab_test_v4__content2__search__description2": "ویب رسائی کے ساتھ قابل اعتماد اور تازہ ترین AI جوابات حاصل کریں۔",
-    "home_page__features_content__ab_test_v4__content2__search__description3": "براؤزر سائڈبار میں فوری جوابات تک رسائی حاصل کریں۔",
+    "home_page__features_content__ab_test_v4__content2__search__description1": "حقیقی ویب رسائی اور علم کے ساتھ تازہ AI جوابات حاصل کریں۔",
+    "home_page__features_content__ab_test_v4__content2__search__description2": "حوالے کے ساتھ قابل اعتماد AI جوابات حاصل کریں۔",
+    "home_page__features_content__ab_test_v4__content2__search__description3": "فوری جوابات تک رسائی براؤزر سائیڈبار میں۔",
     "home_page__features_content__ab_test_v4__content2__writing__label": "تحریر معاون",
     "home_page__features_content__ab_test_v4__content2__writing__title": "ویب پر اپنی تحریر کو بہتر بنائیں",
     "home_page__features_content__ab_test_v4__content2__writing__description1": "چند کلک میں پیشہ ورانہ، واضح، قائل کن بنیادوں پر لکھیں۔",
@@ -721,7 +721,14 @@
     "partners__try_our_extension": "ہمارے شریک کی نئی توسیع استعمال کریں 👇",
     "partners__try_our_tools": "ہمارے شریک کے مفت آلات استعمال کریں",
     "home_page__hero_section__title__part1": "AI کے ساتھ پڑھیں، لکھیں اور تلاش کریں",
-    "home_page__hero_section__title__part2": "کام کو 10 برابر تیزی سے مکمل کریں"
+    "home_page__hero_section__title__part2": "کام کو 10 برابر تیزی سے مکمل کریں",
+    "home_page__features_content__all_in_chatbox__label": "سب کے لیے چیٹ بوٹ",
+    "home_page__features_content__all_in_chatbox__title": "ایک ہی جگہ پر ٹاپ اے آئی کے ساتھ چیٹ کریں",
+    "home_page__features_content__all_in_chatbox__description1": "GPT-4o، Claude-3.5-Sonnet، Gemini-1.5-Pro، اور زیادہ سے بات کریں۔",
+    "home_page__features_content__all_in_chatbox__description2": "فوری جوابات حاصل کرنے کا سب سے تیز طریقہ براؤزر سائڈبار میں۔",
+    "home_page__features_content__all_in_chatbox__description3": "کسی بھی تصویر کا تجزیہ کریں اے آئی وژن کے ساتھ۔",
+    "home_page__features_content__all_in_chatbox__description4": "DALLE-3 کے ساتھ اے آئی آرٹ اور تصاویر بنائیں۔",
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Google تلاش کے نتائج کے بائیں طرف AI جوابات دکھائیں۔"
   },
   "prompt_library": {
     "use_prompt_library__title": "بلند معیار کی AI پرومپ لائبریری",

@@ -687,9 +687,9 @@
     "home_page__features_content__ab_test_v4__content2__reading__description3": "Maunawaan ang mga kumplikadong konsepto na ipinaliwanag sa simpleng paraan.",
     "home_page__features_content__ab_test_v4__content2__search__label": "Assistant sa Paghahanap",
     "home_page__features_content__ab_test_v4__content2__search__title": "Maghanap nang 10 beses mas mabilis gamit ang AI chat",
-    "home_page__features_content__ab_test_v4__content2__search__description1": "Kausapin si GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro, at iba pa.",
-    "home_page__features_content__ab_test_v4__content2__search__description2": "Makuha ang mga kredibleng at up-to-date na sagot gamit ang web access.",
-    "home_page__features_content__ab_test_v4__content2__search__description3": "Mabilisang makakuha ng mga sagot sa iyong browser sidebar.",
+    "home_page__features_content__ab_test_v4__content2__search__description1": "Makakuha ng mga kasagutan ng AI na up-to-date na may real-time na web access at kaalaman.",
+    "home_page__features_content__ab_test_v4__content2__search__description2": "Makakuha ng mapagkakatiwalaang mga kasagutan ng AI na may mga citation.",
+    "home_page__features_content__ab_test_v4__content2__search__description3": "Access sa mga instant na kasagutan mismo sa iyong browser sidebar.",
     "home_page__features_content__ab_test_v4__content2__writing__label": "Assistant sa Pagsusulat",
     "home_page__features_content__ab_test_v4__content2__writing__title": "I-improve ang iyong pagsusulat sa buong web",
     "home_page__features_content__ab_test_v4__content2__writing__description1": "Maging propesyonal, malinaw, at nakakumbinsi sa ilang mga click.",
@@ -721,7 +721,14 @@
     "partners__try_our_extension": "Subukan ang bagong extension ng aming partner 👇",
     "partners__try_our_tools": "Subukan ang libreng mga tool ng aming partner",
     "home_page__hero_section__title__part1": "Magbasa, sumulat, at maghanap gamit ang AI",
-    "home_page__hero_section__title__part2": "Tapusin ang trabaho nang 10 beses mas mabilis"
+    "home_page__hero_section__title__part2": "Tapusin ang trabaho nang 10 beses mas mabilis",
+    "home_page__features_content__all_in_chatbox__label": "All-in-one chatbot",
+    "home_page__features_content__all_in_chatbox__title": "Magsalita sa pangunahing AI nasa iisang lugar",
+    "home_page__features_content__all_in_chatbox__description1": "Magsalita kay GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro, at iba pa.",
+    "home_page__features_content__all_in_chatbox__description2": "Pinakamabilis na paraan para makakuha ng agad na mga sagot sa gilid ng browser.",
+    "home_page__features_content__all_in_chatbox__description3": "Sur iyo anumang larawan gamit ang AI vision.",
+    "home_page__features_content__all_in_chatbox__description4": "Lumikha ng AI art at mga larawan gamit ang DALLE-3.",
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Ipakita ang mga tugon ng AI sa tabi ng mga resulta ng Google search."
   },
   "prompt_library": {
     "use_prompt_library__title": "Mataas na kalidad na AI prompt library",

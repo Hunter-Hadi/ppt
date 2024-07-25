@@ -687,9 +687,9 @@
     "home_page__features_content__ab_test_v4__content2__reading__description3": "Hiểu các khái niệm phức tạp được giải thích một cách đơn giản.",
     "home_page__features_content__ab_test_v4__content2__search__label": "Trợ lý tìm kiếm",
     "home_page__features_content__ab_test_v4__content2__search__title": "Tìm kiếm nhanh gấp 10 lần với trò chuyện AI",
-    "home_page__features_content__ab_test_v4__content2__search__description1": "Trò chuyện với GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro và nhiều hơn nữa.",
-    "home_page__features_content__ab_test_v4__content2__search__description2": "Nhận câu trả lời AI đáng tin cậy và cập nhật với truy cập web.",
-    "home_page__features_content__ab_test_v4__content2__search__description3": "Truy cập vào câu trả lời tức thì ngay trong thanh bên trình duyệt của bạn.",
+    "home_page__features_content__ab_test_v4__content2__search__description1": "Nhận câu trả lời AI mới nhất với truy cập web thời gian thực và kiến thức.",
+    "home_page__features_content__ab_test_v4__content2__search__description2": "Nhận câu trả lời AI đáng tin cậy với nguồn trích dẫn.",
+    "home_page__features_content__ab_test_v4__content2__search__description3": "Truy cập câu trả lời tức thì ngay trên thanh bên của trình duyệt của bạn.",
     "home_page__features_content__ab_test_v4__content2__writing__label": "Trợ lý viết",
     "home_page__features_content__ab_test_v4__content2__writing__title": "Cải thiện viết của bạn trên toàn bộ web",
     "home_page__features_content__ab_test_v4__content2__writing__description1": "Chuyên nghiệp, rõ ràng, thuyết phục chỉ với một vài cú nhấp chuột.",
@@ -721,7 +721,14 @@
     "partners__try_our_extension": "Hãy thử tiện ích mới của đối tác của chúng tôi 👇",
     "partners__try_our_tools": "Hãy thử các công cụ miễn phí của đối tác của chúng tôi",
     "home_page__hero_section__title__part1": "Đọc, viết và tìm kiếm với trí tuệ nhân tạo",
-    "home_page__hero_section__title__part2": "Hoàn thành công việc nhanh gấp 10 lần"
+    "home_page__hero_section__title__part2": "Hoàn thành công việc nhanh gấp 10 lần",
+    "home_page__features_content__all_in_chatbox__label": "Chatbot tất cả trong một",
+    "home_page__features_content__all_in_chatbox__title": "Trò chuyện với trí tuệ nhân tạo hàng đầu tất cả trong một nơi",
+    "home_page__features_content__all_in_chatbox__description1": "Trò chuyện với GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro, và nhiều hơn nữa.",
+    "home_page__features_content__all_in_chatbox__description2": "Cách nhanh nhất để nhận câu trả lời ngay lập tức ngay trong thanh bên trình duyệt.",
+    "home_page__features_content__all_in_chatbox__description3": "Phân tích bất kỳ hình ảnh nào với trí tuệ nhân tạo.",
+    "home_page__features_content__all_in_chatbox__description4": "Tạo nghệ thuật và hình ảnh trí tuệ nhân tạo với DALLE-3.",
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Hiển thị phản hồi AI kế bên kết quả tìm kiếm Google."
   },
   "prompt_library": {
     "use_prompt_library__title": "Thư viện gợi ý AI chất lượng cao",

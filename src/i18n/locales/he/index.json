@@ -687,9 +687,9 @@
     "home_page__features_content__ab_test_v4__content2__reading__description3": "הבנת מושגים מורכבים מוסברים במונחים פשוטים.",
     "home_page__features_content__ab_test_v4__content2__search__label": "עוזר חיפוש",
     "home_page__features_content__ab_test_v4__content2__search__title": "חיפוש 10 פעמים מהיר עם צ'אט AI",
-    "home_page__features_content__ab_test_v4__content2__search__description1": "שוחח עם GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro ועוד.",
-    "home_page__features_content__ab_test_v4__content2__search__description2": "קבל תשובות AI אמינות ועדכניות עם גישה לרשת.",
-    "home_page__features_content__ab_test_v4__content2__search__description3": "גישה לתשובות מיידיות בסרגל הדפדפן שלך.",
+    "home_page__features_content__ab_test_v4__content2__search__description1": "קבל תשובות AI מעודכנות עם גישה לרשת בזמן אמת ולידע.",
+    "home_page__features_content__ab_test_v4__content2__search__description2": "קבל תשובות AI אמינות עם ציטוטים.",
+    "home_page__features_content__ab_test_v4__content2__search__description3": "גישה לתשובות מיידיות ישירות בסרגל הדפדפן שלך.",
     "home_page__features_content__ab_test_v4__content2__writing__label": "עוזר כתיבה",
     "home_page__features_content__ab_test_v4__content2__writing__title": "שפר את הכתיבה שלך ברחבי הרשת",
     "home_page__features_content__ab_test_v4__content2__writing__description1": "היו מקצועי, ברור ומשכנע בלחיצה כמה.",
@@ -721,7 +721,8 @@
     "partners__try_our_extension": "נסה את התוסף החדש של השותפים שלנו 👇",
     "partners__try_our_tools": "נסה את הכלים החינמיים של השותפים שלנו",
     "home_page__hero_section__title__part1": "קרא, כתוב וחפש עם AI",
-    "home_page__hero_section__title__part2": "סיים עבודה 10 פעמים מהר יותר"
+    "home_page__hero_section__title__part2": "סיים עבודה 10 פעמים מהר יותר",
+    "home_page__features_content__ab_test_v4__content2__search__description4": "הצג תגובות AI ליד תוצאות חיפוש של Google."
   },
   "prompt_library": {
     "use_prompt_library__title": "ספריית פרומפטים מתקדמת",

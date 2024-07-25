@@ -687,9 +687,9 @@
     "home_page__features_content__ab_test_v4__content2__reading__description3": "Forstå komplekse begreber forklaret i enkle vilkår.",
     "home_page__features_content__ab_test_v4__content2__search__label": "Søgeassistent",
     "home_page__features_content__ab_test_v4__content2__search__title": "Søg 10 gange hurtigere med AI-chat",
-    "home_page__features_content__ab_test_v4__content2__search__description1": "Chat med GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro og mere.",
-    "home_page__features_content__ab_test_v4__content2__search__description2": "Få troværdige og opdaterede AI-svar med webadgang.",
-    "home_page__features_content__ab_test_v4__content2__search__description3": "Få øjeblikkelige svar lige i din browsers sidebar.",
+    "home_page__features_content__ab_test_v4__content2__search__description1": "Få opdaterede AI-svar med realtids webadgang og viden.",
+    "home_page__features_content__ab_test_v4__content2__search__description2": "Få troværdige AI-svar med citater.",
+    "home_page__features_content__ab_test_v4__content2__search__description3": "Adgang til øjeblikkelige svar lige i din browsersidebjælke.",
     "home_page__features_content__ab_test_v4__content2__writing__label": "Skriveassistent",
     "home_page__features_content__ab_test_v4__content2__writing__title": "Forbedr din skrivning på tværs af nettet",
     "home_page__features_content__ab_test_v4__content2__writing__description1": "Vær professionel, klar og overbevisende med få klik.",
@@ -721,7 +721,14 @@
     "partners__try_our_extension": "Prøv vores partners nye udvidelse 👇",
     "partners__try_our_tools": "Prøv vores partners gratis værktøjer",
     "home_page__hero_section__title__part1": "Læs, skriv og søg med AI",
-    "home_page__hero_section__title__part2": "Afslut arbejdet 10x hurtigere"
+    "home_page__hero_section__title__part2": "Afslut arbejdet 10x hurtigere",
+    "home_page__features_content__all_in_chatbox__label": "Alt-i-en chatbot",
+    "home_page__features_content__all_in_chatbox__title": "Chat med top AI samlet ét sted",
+    "home_page__features_content__all_in_chatbox__description1": "Tal med GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro, og mere.",
+    "home_page__features_content__all_in_chatbox__description2": "Den hurtigste måde at få øjeblikkelige svar lige i browserens sidebjælke.",
+    "home_page__features_content__all_in_chatbox__description3": "Analyser ethvert billede med AI vision.",
+    "home_page__features_content__all_in_chatbox__description4": "Skab AI-kunst og billeder med DALLE-3.",
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Vis AI-responser ved siden af Google-søgeresultaterne."
   },
   "prompt_library": {
     "use_prompt_library__title": "Høj kvalitet AI prompt bibliotek",

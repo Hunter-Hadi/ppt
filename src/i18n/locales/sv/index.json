@@ -687,9 +687,9 @@
     "home_page__features_content__ab_test_v4__content2__reading__description3": "Förstå komplexa begrepp förklarade på ett enkelt sätt.",
     "home_page__features_content__ab_test_v4__content2__search__label": "Sökningsassistent",
     "home_page__features_content__ab_test_v4__content2__search__title": "Sök 10x snabbare med AI-chatt",
-    "home_page__features_content__ab_test_v4__content2__search__description1": "Chatta med GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro och mer.",
-    "home_page__features_content__ab_test_v4__content2__search__description2": "Få trovärdiga och uppdaterade AI-svar med webbåtkomst.",
-    "home_page__features_content__ab_test_v4__content2__search__description3": "Få omedelbara svar direkt i sidofältet i din webbläsare.",
+    "home_page__features_content__ab_test_v4__content2__search__description1": "Få aktuella AI-svar med realtids webbåtkomst och kunskap.",
+    "home_page__features_content__ab_test_v4__content2__search__description2": "Få trovärdiga AI-svar med citat.",
+    "home_page__features_content__ab_test_v4__content2__search__description3": "Tillgång till omedelbara svar direkt i din webbläsares sidofält.",
     "home_page__features_content__ab_test_v4__content2__writing__label": "Skrivningsassistent",
     "home_page__features_content__ab_test_v4__content2__writing__title": "Förbättra ditt skrivande över hela webben",
     "home_page__features_content__ab_test_v4__content2__writing__description1": "Var professionell, tydlig och övertygande med några klick.",
@@ -721,7 +721,14 @@
     "partners__try_our_extension": "Testa vår partners nya tillägg 👇",
     "partners__try_our_tools": "Testa våra partners gratis verktyg",
     "home_page__hero_section__title__part1": "Läs, skriv och sök med AI",
-    "home_page__hero_section__title__part2": "Slutför arbete 10x snabbare"
+    "home_page__hero_section__title__part2": "Slutför arbete 10x snabbare",
+    "home_page__features_content__all_in_chatbox__label": "Allt-i-ett chattbot",
+    "home_page__features_content__all_in_chatbox__title": "Chatta med topp-AI på ett ställe",
+    "home_page__features_content__all_in_chatbox__description1": "Prata med GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro, och mer.",
+    "home_page__features_content__all_in_chatbox__description2": "Det snabbaste sättet att få omedelbara svar direkt i webbläsarens sidofält.",
+    "home_page__features_content__all_in_chatbox__description3": "Analysera vilken bild som helst med AI-syn.",
+    "home_page__features_content__all_in_chatbox__description4": "Skapa AI-konst och bilder med DALLE-3.",
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Visa AI-svar bredvid Google-sökresultat."
   },
   "prompt_library": {
     "use_prompt_library__title": "Högkvalitativ AI-promptbibliotek",

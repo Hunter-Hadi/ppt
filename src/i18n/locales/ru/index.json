@@ -687,9 +687,9 @@
     "home_page__features_content__ab_test_v4__content2__reading__description3": "Усваивайте сложные концепции, объясненные простыми словами.",
     "home_page__features_content__ab_test_v4__content2__search__label": "Помощник по поиску",
     "home_page__features_content__ab_test_v4__content2__search__title": "Ищите в 10 раз быстрее с помощью чата ИИ",
-    "home_page__features_content__ab_test_v4__content2__search__description1": "Общайтесь с GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro и другими.",
-    "home_page__features_content__ab_test_v4__content2__search__description2": "Получайте достоверные и актуальные ответы ИИ с доступом к Интернету.",
-    "home_page__features_content__ab_test_v4__content2__search__description3": "Мгновенно получайте ответы прямо в боковой панели вашего браузера.",
+    "home_page__features_content__ab_test_v4__content2__search__description1": "Получайте актуальные ответы ИИ с доступом в реальном времени к веб-ресурсам и знаниям.",
+    "home_page__features_content__ab_test_v4__content2__search__description2": "Получайте достоверные ответы ИИ с ссылками на источники.",
+    "home_page__features_content__ab_test_v4__content2__search__description3": "Доступ к мгновенным ответам прямо в боковой панели вашего браузера.",
     "home_page__features_content__ab_test_v4__content2__writing__label": "Помощник по написанию",
     "home_page__features_content__ab_test_v4__content2__writing__title": "Улучшайте свое письмо везде в Интернете",
     "home_page__features_content__ab_test_v4__content2__writing__description1": "Будьте профессиональными, ясными, убедительными всего несколькими кликами.",
@@ -721,7 +721,14 @@
     "partners__try_our_extension": "Попробуйте новое расширение нашего партнера 👇",
     "partners__try_our_tools": "Попробуйте бесплатные инструменты нашего партнера",
     "home_page__hero_section__title__part1": "Читайте, пишите и ищите с помощью ИИ",
-    "home_page__hero_section__title__part2": "Завершайте работу в 10 раз быстрее"
+    "home_page__hero_section__title__part2": "Завершайте работу в 10 раз быстрее",
+    "home_page__features_content__all_in_chatbox__label": "Всё в одном чатботе",
+    "home_page__features_content__all_in_chatbox__title": "Общайтесь с лучшими ИИ в одном месте",
+    "home_page__features_content__all_in_chatbox__description1": "Общайтесь с GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro и другими.",
+    "home_page__features_content__all_in_chatbox__description2": "Самый быстрый способ получить мгновенные ответы прямо в боковой панели браузера.",
+    "home_page__features_content__all_in_chatbox__description3": "Анализируйте любое изображение с помощью ИИ-видения.",
+    "home_page__features_content__all_in_chatbox__description4": "Создавайте искусство и изображения с помощью DALLE-3.",
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Отображение ответов ИИ рядом с результатами поиска Google."
   },
   "prompt_library": {
     "use_prompt_library__title": "Библиотека высококачественных AI подсказок",

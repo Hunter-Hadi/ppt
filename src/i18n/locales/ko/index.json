@@ -687,9 +687,9 @@
     "home_page__features_content__ab_test_v4__content2__reading__description3": "간단한 용어로 설명된 복잡한 개념을 이해하세요.",
     "home_page__features_content__ab_test_v4__content2__search__label": "검색 보조",
     "home_page__features_content__ab_test_v4__content2__search__title": "AI 채팅으로 10배 더 빠른 검색",
-    "home_page__features_content__ab_test_v4__content2__search__description1": "GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro 등과 대화하세요.",
-    "home_page__features_content__ab_test_v4__content2__search__description2": "웹 접근성을 통해 신뢰할 수 있는 최신 AI 답변을 받으세요.",
-    "home_page__features_content__ab_test_v4__content2__search__description3": "브라우저 사이드바에서 즉각적인 답변을 얻으세요.",
+    "home_page__features_content__ab_test_v4__content2__search__description1": "리얼타임 웹 액세스 및 지식으로 최신 AI 답변 받기.",
+    "home_page__features_content__ab_test_v4__content2__search__description2": "인용과 함께 신뢰할 수 있는 AI 답변 받기.",
+    "home_page__features_content__ab_test_v4__content2__search__description3": "브라우저 사이드바에서 즉각적인 답변 액세스.",
     "home_page__features_content__ab_test_v4__content2__writing__label": "글쓰기 보조",
     "home_page__features_content__ab_test_v4__content2__writing__title": "웹 전체에서 글쓰기를 개선하세요",
     "home_page__features_content__ab_test_v4__content2__writing__description1": "몇 번의 클릭으로 전문적이고 명확하며 설득력 있는 글을 작성하세요.",
@@ -721,7 +721,14 @@
     "partners__try_our_extension": "파트너의 새로운 확장 기능을 시도해보세요 👇",
     "partners__try_our_tools": "파트너의 무료 도구를 시도해보세요",
     "home_page__hero_section__title__part1": "인공지능으로 읽고, 쓰고, 검색하세요",
-    "home_page__hero_section__title__part2": "작업을 10배 빨리 완료하세요"
+    "home_page__hero_section__title__part2": "작업을 10배 빨리 완료하세요",
+    "home_page__features_content__all_in_chatbox__label": "올인원 챗봇",
+    "home_page__features_content__all_in_chatbox__title": "상위 AI와 한 곳에서 대화",
+    "home_page__features_content__all_in_chatbox__description1": "GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro 등과 대화해보세요.",
+    "home_page__features_content__all_in_chatbox__description2": "브라우저 사이드바에서 즉각적인 답변을 얻는 가장 빠른 방법.",
+    "home_page__features_content__all_in_chatbox__description3": "AI 비전으로 어떤 이미지든 분석합니다.",
+    "home_page__features_content__all_in_chatbox__description4": "DALLE-3로 AI 아트 및 이미지를 생성합니다.",
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Google 검색 결과 옆에 AI 응답 표시."
   },
   "prompt_library": {
     "use_prompt_library__title": "고품질 AI 프롬프트 라이브러리",

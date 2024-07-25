@@ -687,9 +687,9 @@
     "home_page__features_content__ab_test_v4__content2__reading__description3": "Zrozum skomplikowane koncepcje wyjaśnione w prostych słowach.",
     "home_page__features_content__ab_test_v4__content2__search__label": "Asystent wyszukiwania",
     "home_page__features_content__ab_test_v4__content2__search__title": "Wyszukuj 10 razy szybciej dzięki rozmowie z AI",
-    "home_page__features_content__ab_test_v4__content2__search__description1": "Rozmawiaj z GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro i innymi.",
-    "home_page__features_content__ab_test_v4__content2__search__description2": "Otrzymuj wiarygodne i aktualne odpowiedzi AI z dostępem do sieci.",
-    "home_page__features_content__ab_test_v4__content2__search__description3": "Otrzymuj natychmiastowe odpowiedzi w bocznym panelu przeglądarki.",
+    "home_page__features_content__ab_test_v4__content2__search__description1": "Otrzymuj aktualne odpowiedzi AI z dostępem do sieci w czasie rzeczywistym i wiedzy.",
+    "home_page__features_content__ab_test_v4__content2__search__description2": "Otrzymuj wiarygodne odpowiedzi AI z cytowaniami.",
+    "home_page__features_content__ab_test_v4__content2__search__description3": "Dostęp do natychmiastowych odpowiedzi bezpośrednio w bocznym panelu przeglądarki.",
     "home_page__features_content__ab_test_v4__content2__writing__label": "Asystent pisania",
     "home_page__features_content__ab_test_v4__content2__writing__title": "Popraw swoje pisanie na całym internecie",
     "home_page__features_content__ab_test_v4__content2__writing__description1": "Bądź profesjonalny, klarowny, przekonujący za pomocą kilku kliknięć.",
@@ -721,7 +721,14 @@
     "partners__try_our_extension": "Wypróbuj nowe rozszerzenie naszego partnera 👇",
     "partners__try_our_tools": "Wypróbuj darmowe narzędzia naszego partnera",
     "home_page__hero_section__title__part1": "Czytaj, pisz i wyszukuj z AI",
-    "home_page__hero_section__title__part2": "Zakończ pracę 10 razy szybciej"
+    "home_page__hero_section__title__part2": "Zakończ pracę 10 razy szybciej",
+    "home_page__features_content__all_in_chatbox__label": "Wszystko w jednym czacie",
+    "home_page__features_content__all_in_chatbox__title": "Rozmawiaj z najlepszą sztuczną inteligencją w jednym miejscu",
+    "home_page__features_content__all_in_chatbox__description1": "Porozmawiaj z GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro i innymi.",
+    "home_page__features_content__all_in_chatbox__description2": "Najszybszy sposób na uzyskanie natychmiastowych odpowiedzi bezpośrednio w pasku bocznym przeglądarki.",
+    "home_page__features_content__all_in_chatbox__description3": "Analizuj dowolne obrazy za pomocą sztucznej inteligencji.",
+    "home_page__features_content__all_in_chatbox__description4": "Twórz sztukę i obrazy za pomocą DALLE-3.",
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Wyświetlaj odpowiedzi AI obok wyników wyszukiwania Google."
   },
   "prompt_library": {
     "use_prompt_library__title": "Wysokiej jakości biblioteka promptów AI",

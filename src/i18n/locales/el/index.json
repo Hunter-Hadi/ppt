@@ -687,9 +687,9 @@
     "home_page__features_content__ab_test_v4__content2__reading__description3": "Κατανοήστε πολύπλοκες έννοιες που εξηγούνται με απλά λόγια.",
     "home_page__features_content__ab_test_v4__content2__search__label": "Βοηθός αναζήτησης",
     "home_page__features_content__ab_test_v4__content2__search__title": "Αναζητήστε 10 φορές πιο γρήγορα με τη συνομιλία AI",
-    "home_page__features_content__ab_test_v4__content2__search__description1": "Συνομιλήστε με το GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro και άλλα.",
-    "home_page__features_content__ab_test_v4__content2__search__description2": "Λάβετε αξιόπιστες και ενημερωμένες απαντήσεις AI με πρόσβαση στο διαδίκτυο.",
-    "home_page__features_content__ab_test_v4__content2__search__description3": "Πρόσβαση σε άμεσες απαντήσεις ακριβώς στην πλαϊνή γραμμή του περιηγητή σας.",
+    "home_page__features_content__ab_test_v4__content2__search__description1": "Λάβετε ενημερωμένες απαντήσεις AI με πρόσβαση σε πραγματικό χρόνο στον ιστό και γνώσεις.",
+    "home_page__features_content__ab_test_v4__content2__search__description2": "Λάβετε αξιόπιστες απαντήσεις AI με αναφορές.",
+    "home_page__features_content__ab_test_v4__content2__search__description3": "Πρόσβαση σε άμεσες απαντήσεις ακριβώς στη γραμμή πλοήγησης του προγράμματος περιήγησής σας.",
     "home_page__features_content__ab_test_v4__content2__writing__label": "Βοηθός συγγραφής",
     "home_page__features_content__ab_test_v4__content2__writing__title": "Βελτιώστε τη γραφή σας σε όλο το διαδίκτυο",
     "home_page__features_content__ab_test_v4__content2__writing__description1": "Γίνετε επαγγελματίας, σαφής, πειστικός με λίγα κλικ.",
@@ -721,7 +721,8 @@
     "partners__try_our_extension": "Δοκιμάστε τη νέα επέκταση του συνεργάτη μας 👇",
     "partners__try_our_tools": "Δοκιμάστε τα δωρεάν εργαλεία του συνεργάτη μας",
     "home_page__hero_section__title__part1": "Διαβάστε, γράψτε και αναζητήστε με την τεχνητή νοημοσύνη",
-    "home_page__hero_section__title__part2": "Ολοκληρώστε τη δουλειά 10 φορές πιο γρήγορα"
+    "home_page__hero_section__title__part2": "Ολοκληρώστε τη δουλειά 10 φορές πιο γρήγορα",
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Εμφάνιση απαντήσεων AI δίπλα στα αποτελέσματα αναζήτησης της Google."
   },
   "prompt_library": {
     "use_prompt_library__title": "Βιβλιοθήκη προτροπών υψηλής ποιότητας AI",

@@ -687,9 +687,9 @@
     "home_page__features_content__ab_test_v4__content2__reading__description3": "Înțelege concepte complexe explicate în termeni simpli.",
     "home_page__features_content__ab_test_v4__content2__search__label": "Asistent de căutare",
     "home_page__features_content__ab_test_v4__content2__search__title": "Caută de 10 ori mai repede cu chat AI",
-    "home_page__features_content__ab_test_v4__content2__search__description1": "Discută cu GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro și altele.",
-    "home_page__features_content__ab_test_v4__content2__search__description2": "Obține răspunsuri AI credibile și actualizate cu acces la web.",
-    "home_page__features_content__ab_test_v4__content2__search__description3": "Accesează răspunsuri instantanee direct în bara laterală a browserului.",
+    "home_page__features_content__ab_test_v4__content2__search__description1": "Obțineți răspunsuri AI actualizate cu acces web în timp real și cunoștințe.",
+    "home_page__features_content__ab_test_v4__content2__search__description2": "Obțineți răspunsuri AI credibile cu citări.",
+    "home_page__features_content__ab_test_v4__content2__search__description3": "Acces la răspunsuri instantanee chiar în bara laterală a browserului dvs.",
     "home_page__features_content__ab_test_v4__content2__writing__label": "Asistent de scriere",
     "home_page__features_content__ab_test_v4__content2__writing__title": "Îmbunătățește-ți scrisul pe tot internetul",
     "home_page__features_content__ab_test_v4__content2__writing__description1": "Fii profesionist, clar și convingător în doar câteva clicuri.",
@@ -721,7 +721,14 @@
     "partners__try_our_extension": "Încercați noua extensie a partenerului nostru 👇",
     "partners__try_our_tools": "Încercați instrumentele gratuite ale partenerului nostru",
     "home_page__hero_section__title__part1": "Citește, scrie și caută cu ajutorul IA",
-    "home_page__hero_section__title__part2": "Termină munca de 10 ori mai repede"
+    "home_page__hero_section__title__part2": "Termină munca de 10 ori mai repede",
+    "home_page__features_content__all_in_chatbox__label": "Chatbotul all-in-one",
+    "home_page__features_content__all_in_chatbox__title": "Conversați cu cei mai buni AI într-un singur loc",
+    "home_page__features_content__all_in_chatbox__description1": "Discutați cu GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro și altele.",
+    "home_page__features_content__all_in_chatbox__description2": "Cel mai rapid mod de a obține răspunsuri instant în bara laterală a browserului.",
+    "home_page__features_content__all_in_chatbox__description3": "Analizați orice imagine cu viziune AI.",
+    "home_page__features_content__all_in_chatbox__description4": "Creați artă și imagini AI cu DALLE-3.",
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Afișați răspunsurile AI lângă rezultatele căutării Google."
   },
   "prompt_library": {
     "use_prompt_library__title": "Bibliotecă de prompt-uri AI de înaltă calitate",

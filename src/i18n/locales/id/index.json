@@ -687,9 +687,9 @@
     "home_page__features_content__ab_test_v4__content2__reading__description3": "Mengerti konsep-konsep kompleks yang dijelaskan dengan bahasa sederhana.",
     "home_page__features_content__ab_test_v4__content2__search__label": "Asisten pencarian",
     "home_page__features_content__ab_test_v4__content2__search__title": "Cari 10x lebih cepat dengan obrolan AI",
-    "home_page__features_content__ab_test_v4__content2__search__description1": "Obrolan dengan GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro, dan lainnya.",
-    "home_page__features_content__ab_test_v4__content2__search__description2": "Dapatkan jawaban AI yang kredibel dan terkini dengan akses web.",
-    "home_page__features_content__ab_test_v4__content2__search__description3": "Akses jawaban instan langsung di sidebar browser Anda.",
+    "home_page__features_content__ab_test_v4__content2__search__description1": "Dapatkan jawaban AI terkini dengan akses web real-time dan pengetahuan.",
+    "home_page__features_content__ab_test_v4__content2__search__description2": "Dapatkan jawaban AI yang kredibel dengan kutipan.",
+    "home_page__features_content__ab_test_v4__content2__search__description3": "Akses jawaban instan langsung di sisi browser Anda.",
     "home_page__features_content__ab_test_v4__content2__writing__label": "Asisten penulisan",
     "home_page__features_content__ab_test_v4__content2__writing__title": "Perbaiki tulisan Anda di seluruh web",
     "home_page__features_content__ab_test_v4__content2__writing__description1": "Menjadi profesional, jelas, dan meyakinkan hanya dengan beberapa klik.",
@@ -721,7 +721,14 @@
     "partners__try_our_extension": "Coba ekstensi baru mitra kami 👇",
     "partners__try_our_tools": "Coba alat gratis mitra kami",
     "home_page__hero_section__title__part1": "Baca, tulis, dan cari dengan AI",
-    "home_page__hero_section__title__part2": "Selesaikan pekerjaan 10x lebih cepat"
+    "home_page__hero_section__title__part2": "Selesaikan pekerjaan 10x lebih cepat",
+    "home_page__features_content__all_in_chatbox__label": "Chatbot lengkap",
+    "home_page__features_content__all_in_chatbox__title": "Chat dengan AI teratas dalam satu tempat",
+    "home_page__features_content__all_in_chatbox__description1": "Bicara dengan GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro, dan lainnya.",
+    "home_page__features_content__all_in_chatbox__description2": "Cara tercepat untuk mendapatkan jawaban instan langsung di sisi browser.",
+    "home_page__features_content__all_in_chatbox__description3": "Analisis gambar apa pun dengan visi AI.",
+    "home_page__features_content__all_in_chatbox__description4": "Buat seni dan gambar AI dengan DALLE-3.",
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Tampilkan respon AI di sebelah hasil pencarian Google."
   },
   "prompt_library": {
     "use_prompt_library__title": "Perpustakaan AI berkualitas tinggi",

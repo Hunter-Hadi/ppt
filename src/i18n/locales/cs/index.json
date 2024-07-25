@@ -687,9 +687,9 @@
     "home_page__features_content__ab_test_v4__content2__reading__description3": "Chápejte složité koncepty vysvětlené jednoduchými termíny.",
     "home_page__features_content__ab_test_v4__content2__search__label": "Asistent pro vyhledávání",
     "home_page__features_content__ab_test_v4__content2__search__title": "Vyhledávejte 10x rychleji s pomocí chatu AI",
-    "home_page__features_content__ab_test_v4__content2__search__description1": "Chatujte s GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro a dalšími.",
-    "home_page__features_content__ab_test_v4__content2__search__description2": "Získejte důvěryhodné a aktuální odpovědi od AI s přístupem na web.",
-    "home_page__features_content__ab_test_v4__content2__search__description3": "Okamžitě získávejte odpovědi ve vaší postranní liště prohlížeče.",
+    "home_page__features_content__ab_test_v4__content2__search__description1": "Získejte aktuální odpovědi AI s okamžitým přístupem na webu a znalostmi.",
+    "home_page__features_content__ab_test_v4__content2__search__description2": "Získejte důvěryhodné odpovědi AI s citacemi.",
+    "home_page__features_content__ab_test_v4__content2__search__description3": "Přístup k okamžitým odpovědím přímo ve vaší boční liště prohlížeče.",
     "home_page__features_content__ab_test_v4__content2__writing__label": "Asistent pro psaní",
     "home_page__features_content__ab_test_v4__content2__writing__title": "Vylepšete své psaní na celém webu",
     "home_page__features_content__ab_test_v4__content2__writing__description1": "Buďte profesionální, jasní a přesvědčiví jedním kliknutím.",
@@ -721,7 +721,14 @@
     "partners__try_our_extension": "Vyzkoušejte nové rozšíření našeho partnera 👇",
     "partners__try_our_tools": "Vyzkoušejte bezplatné nástroje našeho partnera",
     "home_page__hero_section__title__part1": "Čtěte, pište a vyhledávejte s pomocí umělé inteligence",
-    "home_page__hero_section__title__part2": "Dokončete práci 10x rychleji"
+    "home_page__hero_section__title__part2": "Dokončete práci 10x rychleji",
+    "home_page__features_content__all_in_chatbox__label": "Vše v jednom chatbotu",
+    "home_page__features_content__all_in_chatbox__title": "Chatujte s nejlepšími AI na jednom místě",
+    "home_page__features_content__all_in_chatbox__description1": "Mluvte s GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro a dalšími.",
+    "home_page__features_content__all_in_chatbox__description2": "Nejrychlejší způsob, jak získat okamžité odpovědi přímo v postranní liště prohlížeče.",
+    "home_page__features_content__all_in_chatbox__description3": "Analyzujte libovolný obrázek s pomocí AI vidění.",
+    "home_page__features_content__all_in_chatbox__description4": "Vytvářejte AI umění a obrázky s DALLE-3.",
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Zobrazte odpovědi AI vedle výsledků vyhledávání Google."
   },
   "prompt_library": {
     "use_prompt_library__title": "Knihovna vysoké kvality pro AI prompty",
