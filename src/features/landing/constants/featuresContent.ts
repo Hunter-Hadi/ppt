@@ -101,6 +101,23 @@ export const FEATURES_CONTENT = [
     tagColor: '#2080F1',
   },
   {
+    key: 'All-in-one chatbot',
+    icon: 'code',
+    label: 'pages:home_page__features_content__all_in_chatbox__label',
+    title: 'pages:home_page__features_content__all_in_chatbox__title',
+    image: '/assets/features-landing/ai-reply/1.png',
+    videoUrl: abTestVideoUrlObject.chatAssistant,
+    videoPosterUrl: abTestVideoPosterUrlObject.chatAssistant,
+    descriptionList: [
+      'pages:home_page__features_content__all_in_chatbox__description1',
+      'pages:home_page__features_content__all_in_chatbox__description2',
+      'pages:home_page__features_content__all_in_chatbox__description3',
+      'pages:home_page__features_content__all_in_chatbox__description4',
+    ],
+    tagBgColor: '#F4EBFF',
+    tagColor: '#9065B0',
+  },
+  {
     key: 'Search assistant',
     icon: 'search',
     label:

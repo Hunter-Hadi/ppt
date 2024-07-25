@@ -64,6 +64,7 @@ export const abTestVideoUrlObject = {
   summaryAssistant: `${RESOURCES_URL}/video/features/summary-assistant.mp4`,
   translationAssistant: `${RESOURCES_URL}/video/features/translation-assistant.mp4`,
   writingAssistant: `${RESOURCES_URL}/video/features/writing-assistant.mp4`,
+  chatAssistant: `${RESOURCES_URL}/video/features/ai-chat.mp4`,
 }
 export const abTestVideoPosterUrlObject = {
   draftingAssistant: `/assets/features-landing/video-features/prompt.png`,
@@ -73,4 +74,5 @@ export const abTestVideoPosterUrlObject = {
   summaryAssistant: `/assets/features-landing/video-features/summary.png`,
   translationAssistant: `/assets/features-landing/video-features/translator.png`,
   writingAssistant: `/assets/features-landing/video-features/rewriter.png`,
+  chatAssistant: `/assets/features-landing/video-features/chat.png`,
 }
