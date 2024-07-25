@@ -13,5 +13,7 @@ Disallow: /share
 Disallow: /*/share
 Disallow: /survey
 Disallow: /*/survey
+Disallow: /*/languages
+Disallow: /languages
 
 Sitemap: https://assets.maxai.me/sitemap/www/sitemap-main.xml 
