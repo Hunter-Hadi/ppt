@@ -72,7 +72,6 @@ const AIPromptsPages: FC<IProps> = () => {
           'features_landing:ai_prompts_pages__section1__description',
         )}
         imageUrl='/assets/features-landing/ai-prompts/1.png'
-        pictureRetouchingDirection='bottom-right'
       />
       <FeaturesContentSection
         icon='account'
@@ -82,7 +81,6 @@ const AIPromptsPages: FC<IProps> = () => {
         )}
         imageUrl='/assets/features-landing/ai-prompts/2.png'
         textWithImageLayout='imageToText'
-        pictureRetouchingDirection='bottom-left'
       />
       <FeaturesContentSection
         icon='auto-fix'
@@ -91,7 +89,6 @@ const AIPromptsPages: FC<IProps> = () => {
           'features_landing:ai_prompts_pages__section3__description',
         )}
         imageUrl='/assets/features-landing/ai-prompts/3.png'
-        pictureRetouchingDirection='top-right'
       />
       <FeaturesContentSection
         icon='and'
@@ -114,7 +111,6 @@ const AIPromptsPages: FC<IProps> = () => {
         }
         imageUrl='/assets/features-landing/ai-prompts/4.png'
         textWithImageLayout='imageToText'
-        pictureRetouchingDirection='bottom-left'
       />
       <FeaturesExploreMore />
 

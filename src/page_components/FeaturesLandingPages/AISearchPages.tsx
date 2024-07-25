@@ -57,7 +57,6 @@ const AISearchPages: FC<IProps> = () => {
           'features_landing:ai_search_pages__section1__description',
         )}
         imageUrl='/assets/features-landing/ai-search/1.png'
-        pictureRetouchingDirection='bottom-right'
       />
       <FeaturesContentSection
         icon='lang'
@@ -67,7 +66,6 @@ const AISearchPages: FC<IProps> = () => {
         )}
         imageUrl='/assets/features-landing/ai-search/2.png'
         textWithImageLayout='imageToText'
-        pictureRetouchingDirection='bottom-left'
       />
 
       <FeaturesContentSection
@@ -77,7 +75,6 @@ const AISearchPages: FC<IProps> = () => {
           'features_landing:ai_search_pages__section3__description',
         )}
         imageUrl='/assets/features-landing/ai-search/3.png'
-        pictureRetouchingDirection='top-right'
       />
       <FeaturesContentSection
         icon='open-ai'
@@ -114,7 +111,6 @@ const AISearchPages: FC<IProps> = () => {
           </Stack>
         }
         imageUrl='/assets/features-landing/ai-search/4.png'
-        pictureRetouchingDirection='bottom-left'
         textWithImageLayout='imageToText'
       />
 

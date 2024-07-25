@@ -41,7 +41,6 @@ const AIArtPages: FC<IProps> = () => {
         title={t('features_landing:ai_art_pages__section1__title')}
         description={t('features_landing:ai_art_pages__section1__description')}
         imageUrl='/assets/features-landing/ai-art/1.png'
-        pictureRetouchingDirection='bottom-right'
       />
       <FeaturesContentSection
         icon='fast'
@@ -49,7 +48,6 @@ const AIArtPages: FC<IProps> = () => {
         description={t('features_landing:ai_art_pages__section2__description')}
         imageUrl='/assets/features-landing/ai-art/2.png'
         textWithImageLayout='imageToText'
-        pictureRetouchingDirection='bottom-left'
       />
 
       <FeaturesContentSection
@@ -57,7 +55,6 @@ const AIArtPages: FC<IProps> = () => {
         title={t('features_landing:ai_art_pages__section3__title')}
         description={t('features_landing:ai_art_pages__section3__description')}
         imageUrl='/assets/features-landing/ai-art/3.png'
-        pictureRetouchingDirection='top-right'
       />
 
       <FeaturesExploreMore />

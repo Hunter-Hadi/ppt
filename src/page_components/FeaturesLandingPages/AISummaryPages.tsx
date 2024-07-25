@@ -82,7 +82,6 @@ const AISummaryPages: FC<IProps> = () => {
           </Stack>
         }
         imageUrl='/assets/features-landing/ai-summary/1.png'
-        pictureRetouchingDirection='bottom-right'
       />
       <FeaturesContentSection
         icon='chat'
@@ -92,7 +91,6 @@ const AISummaryPages: FC<IProps> = () => {
         )}
         imageUrl='/assets/features-landing/ai-summary/2.png'
         textWithImageLayout='imageToText'
-        pictureRetouchingDirection='bottom-left'
       />
 
       <FeaturesContentSection
@@ -102,7 +100,6 @@ const AISummaryPages: FC<IProps> = () => {
           'features_landing:ai_summary_pages__section3__description',
         )}
         imageUrl='/assets/features-landing/ai-summary/3.png'
-        pictureRetouchingDirection='top-right'
       />
 
       <FeaturesExploreMore />

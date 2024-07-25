@@ -80,7 +80,6 @@ const AIRewriterPages: FC<IProps> = () => {
           </Stack>
         }
         imageUrl='/assets/features-landing/ai-rewriter/1.png'
-        pictureRetouchingDirection='bottom-right'
       />
       <FeaturesContentSection
         icon='1-click'
@@ -90,7 +89,6 @@ const AIRewriterPages: FC<IProps> = () => {
         )}
         imageUrl='/assets/features-landing/ai-rewriter/2.png'
         textWithImageLayout='imageToText'
-        pictureRetouchingDirection='bottom-left'
       />
       <FeaturesContentSection
         icon='open-ai'
@@ -127,7 +125,6 @@ const AIRewriterPages: FC<IProps> = () => {
           </Stack>
         }
         imageUrl='/assets/features-landing/ai-rewriter/3.png'
-        pictureRetouchingDirection='top-right'
       />
       <FeaturesContentSection
         icon='account'
@@ -137,7 +134,6 @@ const AIRewriterPages: FC<IProps> = () => {
         )}
         imageUrl='/assets/features-landing/ai-rewriter/4.png'
         textWithImageLayout='imageToText'
-        pictureRetouchingDirection='bottom-left'
       />
 
       <FeaturesExploreMore />

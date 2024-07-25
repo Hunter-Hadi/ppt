@@ -44,7 +44,6 @@ const AIVisionPages: FC<IProps> = () => {
           'features_landing:ai_vision_pages__section1__description',
         )}
         imageUrl='/assets/features-landing/ai-vision/1.png'
-        pictureRetouchingDirection='bottom-right'
       />
       <FeaturesContentSection
         icon='screenshot'
@@ -54,7 +53,6 @@ const AIVisionPages: FC<IProps> = () => {
         )}
         imageUrl='/assets/features-landing/ai-vision/2.png'
         textWithImageLayout='imageToText'
-        pictureRetouchingDirection='bottom-left'
       />
 
       <FeaturesContentSection
@@ -64,7 +62,6 @@ const AIVisionPages: FC<IProps> = () => {
           'features_landing:ai_vision_pages__section3__description',
         )}
         imageUrl='/assets/features-landing/ai-vision/3.png'
-        pictureRetouchingDirection='top-right'
       />
       <FeaturesContentSection
         icon='open-ai'
@@ -101,7 +98,6 @@ const AIVisionPages: FC<IProps> = () => {
           </Stack>
         }
         imageUrl='/assets/features-landing/ai-vision/4.png'
-        pictureRetouchingDirection='bottom-left'
         textWithImageLayout='imageToText'
       />
 

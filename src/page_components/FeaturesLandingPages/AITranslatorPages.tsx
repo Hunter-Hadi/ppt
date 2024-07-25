@@ -56,7 +56,6 @@ const AITranslatorPages: FC<IProps> = () => {
           'features_landing:ai_translator_pages__section1__description',
         )}
         imageUrl='/assets/features-landing/ai-translator/1.png'
-        pictureRetouchingDirection='bottom-right'
       />
       <FeaturesContentSection
         icon='earth'
@@ -66,7 +65,6 @@ const AITranslatorPages: FC<IProps> = () => {
         )}
         imageUrl='/assets/features-landing/ai-translator/2.png'
         textWithImageLayout='imageToText'
-        pictureRetouchingDirection='bottom-left'
       />
 
       <FeaturesContentSection
@@ -76,7 +74,6 @@ const AITranslatorPages: FC<IProps> = () => {
           'features_landing:ai_translator_pages__section3__description',
         )}
         imageUrl='/assets/features-landing/ai-translator/3.png'
-        pictureRetouchingDirection='top-right'
       />
       <FeaturesContentSection
         icon='open-ai'
@@ -85,7 +82,6 @@ const AITranslatorPages: FC<IProps> = () => {
           'features_landing:ai_translator_pages__section4__description',
         )}
         imageUrl='/assets/features-landing/ai-translator/4.png'
-        pictureRetouchingDirection='bottom-left'
         textWithImageLayout='imageToText'
       />
       <FeaturesContentSection

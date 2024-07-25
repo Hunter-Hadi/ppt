@@ -73,7 +73,6 @@ const AIInstantReplyPages: FC<IProps> = () => {
           'features_landing:ai_reply_pages__section1__description',
         )}
         imageUrl='/assets/features-landing/ai-reply/1.png'
-        pictureRetouchingDirection='bottom-right'
       />
       <FeaturesContentSection
         icon='lang'
@@ -96,7 +95,6 @@ const AIInstantReplyPages: FC<IProps> = () => {
         }
         imageUrl='/assets/features-landing/ai-reply/2.png'
         textWithImageLayout='imageToText'
-        pictureRetouchingDirection='bottom-left'
       />
       <FeaturesContentSection
         icon='account'
@@ -105,7 +103,6 @@ const AIInstantReplyPages: FC<IProps> = () => {
           'features_landing:ai_reply_pages__section3__description',
         )}
         imageUrl='/assets/features-landing/ai-reply/3.png'
-        pictureRetouchingDirection='top-right'
       />
       <FeaturesContentSection
         icon='and'
@@ -128,7 +125,6 @@ const AIInstantReplyPages: FC<IProps> = () => {
         }
         imageUrl='/assets/features-landing/ai-reply/4.png'
         textWithImageLayout='imageToText'
-        pictureRetouchingDirection='bottom-left'
       />
 
       <FeaturesExploreMore />

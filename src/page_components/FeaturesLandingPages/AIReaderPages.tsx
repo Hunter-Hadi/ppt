@@ -76,7 +76,6 @@ const AIReaderPages: FC<IProps> = () => {
           </Stack>
         }
         imageUrl='/assets/features-landing/ai-reader/1.png'
-        pictureRetouchingDirection='bottom-right'
       />
       <FeaturesContentSection
         icon='lang'
@@ -86,7 +85,6 @@ const AIReaderPages: FC<IProps> = () => {
         )}
         imageUrl='/assets/features-landing/ai-reader/2.png'
         textWithImageLayout='imageToText'
-        pictureRetouchingDirection='bottom-left'
       />
       <FeaturesContentSection
         icon='open-ai'
@@ -123,7 +121,6 @@ const AIReaderPages: FC<IProps> = () => {
           </Stack>
         }
         imageUrl='/assets/features-landing/ai-reader/3.png'
-        pictureRetouchingDirection='top-right'
       />
       <FeaturesContentSection
         icon='account'
@@ -133,7 +130,6 @@ const AIReaderPages: FC<IProps> = () => {
         )}
         imageUrl='/assets/features-landing/ai-reader/4.png'
         textWithImageLayout='imageToText'
-        pictureRetouchingDirection='bottom-left'
       />
 
       <FeaturesExploreMore />
