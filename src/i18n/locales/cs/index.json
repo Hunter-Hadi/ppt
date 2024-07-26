@@ -926,7 +926,9 @@
     "technical__title": "Technické a inženýrské"
   },
   "share_conversion": {
-    "footer__get_for_free": "Získejte MaxAI zdarma"
+    "footer__get_for_free": "Získejte MaxAI zdarma",
+    "more": "více",
+    "hide": "Skrýt"
   },
   "affiliate": {
     "main_keywords": "affiliate program",

@@ -920,7 +920,9 @@
     "technical__title": "Технічні та інженерні"
   },
   "share_conversion": {
-    "footer__get_for_free": "Отримайте MaxAI безкоштовно"
+    "footer__get_for_free": "Отримайте MaxAI безкоштовно",
+    "more": "більше",
+    "hide": "Приховати"
   },
   "affiliate": {
     "main_keywords": "партнерська програма",

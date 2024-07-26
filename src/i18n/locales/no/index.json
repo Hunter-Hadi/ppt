@@ -926,7 +926,9 @@
     "technical__title": "Teknisk og ingeniørfaglig"
   },
   "share_conversion": {
-    "footer__get_for_free": "Få MaxAI gratis"
+    "footer__get_for_free": "Få MaxAI gratis",
+    "more": "mer",
+    "hide": "Skjul"
   },
   "affiliate": {
     "main_keywords": "tilknyttet program",

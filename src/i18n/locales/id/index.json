@@ -926,7 +926,9 @@
     "technical__title": "Teknis dan Rekayasa"
   },
   "share_conversion": {
-    "footer__get_for_free": "Dapatkan MaxAI secara gratis"
+    "footer__get_for_free": "Dapatkan MaxAI secara gratis",
+    "more": "lebih",
+    "hide": "Sembunyikan"
   },
   "affiliate": {
     "main_keywords": "program afiliasi",

@@ -926,7 +926,9 @@
     "technical__title": "Kỹ thuật và Kỹ sư"
   },
   "share_conversion": {
-    "footer__get_for_free": "Nhận MaxAI miễn phí"
+    "footer__get_for_free": "Nhận MaxAI miễn phí",
+    "more": "thêm",
+    "hide": "Ẩn"
   },
   "affiliate": {
     "main_keywords": "chương trình liên kết",

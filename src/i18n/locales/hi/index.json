@@ -920,7 +920,9 @@
     "technical__title": "तकनीकी और इंजीनियरिंग"
   },
   "share_conversion": {
-    "footer__get_for_free": "मुफ्त में MaxAI प्राप्त करें"
+    "footer__get_for_free": "मुफ्त में MaxAI प्राप्त करें",
+    "more": "अधिक",
+    "hide": "छिपाएं"
   },
   "affiliate": {
     "main_keywords": "एफिलिएट प्रोग्राम",

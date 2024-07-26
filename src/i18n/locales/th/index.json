@@ -920,7 +920,9 @@
     "technical__title": "เทคนิคและวิศวกรรม"
   },
   "share_conversion": {
-    "footer__get_for_free": "รับ MaxAI ฟรี"
+    "footer__get_for_free": "รับ MaxAI ฟรี",
+    "more": "เพิ่มเติม",
+    "hide": "ซ่อน"
   },
   "affiliate": {
     "main_keywords": "โปรแกรมพันธมิตร",

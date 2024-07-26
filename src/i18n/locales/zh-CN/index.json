@@ -926,7 +926,9 @@
     "technical__title": "技术与工程"
   },
   "share_conversion": {
-    "footer__get_for_free": "免费获取MaxAI"
+    "footer__get_for_free": "免费获取MaxAI",
+    "more": "更多",
+    "hide": "隐藏"
   },
   "affiliate": {
     "main_keywords": "联盟计划",

@@ -926,7 +926,9 @@
     "technical__title": "Techniczne i inżynieryjne"
   },
   "share_conversion": {
-    "footer__get_for_free": "Otrzymaj MaxAI za darmo"
+    "footer__get_for_free": "Otrzymaj MaxAI za darmo",
+    "more": "więcej",
+    "hide": "Ukryj"
   },
   "affiliate": {
     "main_keywords": "program partnerski",

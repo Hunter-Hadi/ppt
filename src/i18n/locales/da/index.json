@@ -926,7 +926,9 @@
     "technical__title": "Teknisk og ingeniørarbejde"
   },
   "share_conversion": {
-    "footer__get_for_free": "Få MaxAI gratis"
+    "footer__get_for_free": "Få MaxAI gratis",
+    "more": "mere",
+    "hide": "Skjul"
   },
   "affiliate": {
     "main_keywords": "affiliate program",
