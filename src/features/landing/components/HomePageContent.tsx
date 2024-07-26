@@ -1,9 +1,11 @@
 import Stack from '@mui/material/Stack'
 import { SxProps } from '@mui/material/styles'
+import dynamic from 'next/dynamic'
 import { useRouter } from 'next/router'
 import React from 'react'
 import { FC, useEffect } from 'react'
 
+import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
 import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester'
 import { RESOURCES_URL } from '@/global_constants'
 
@@ -13,10 +15,23 @@ import FeaturesContentAbTestV7CardAutoVideo from './FeaturesCarousel/FeaturesCon
 import FeaturesContentAbTestV7AutoVideo from './FeaturesCarousel/FeaturesContentAbTestV7SlideAutoVideo'
 import FeaturesContentAbTestV7VariantContentSection from './FeaturesCarousel/FeaturesContentAbTestV7VariantContentSection'
 import HeroSection from './HeroSection'
-import HowItWork from './HowItWork'
-import MaxAIInNumbers from './MaxAIInNumbers'
-import TrustedBy from './TrustedBy'
-import UserComment from './UserComment'
+// import HowItWork from './HowItWork'
+// import MaxAIInNumbers from './MaxAIInNumbers'
+// import TrustedBy from './TrustedBy'
+// import UserComment from './UserComment'
+
+const HowItWork = dynamic(() => import('./HowItWork'), {
+  loading: () => <AppLoadingLayout loading />,
+})
+const MaxAIInNumbers = dynamic(() => import('./MaxAIInNumbers'), {
+  loading: () => <AppLoadingLayout loading />,
+})
+const TrustedBy = dynamic(() => import('./TrustedBy'), {
+  loading: () => <AppLoadingLayout loading />,
+})
+const UserComment = dynamic(() => import('./UserComment'), {
+  loading: () => <AppLoadingLayout loading />,
+})
 
 interface IProps {
   propRef?: string
