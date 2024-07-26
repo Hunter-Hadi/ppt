@@ -6,11 +6,13 @@ import React, { FC } from 'react'
 import CustomIcon from '@/components/CustomIcon'
 import MaxAIIndicatorBadge from '@/features/landing/components/MaxAIIndicatorBadge'
 
-interface IPricingTopBadge {
+interface IPricingTopBanner {
   titleComponent?: React.ElementType
 }
 
-const PricingTopBadge: FC<IPricingTopBadge> = ({ titleComponent = 'span' }) => {
+const PricingTopBanner: FC<IPricingTopBanner> = ({
+  titleComponent = 'span',
+}) => {
   const { t } = useTranslation()
   return (
     <Stack py={2} pb={6} spacing={3} maxWidth={1250} mx='auto'>
@@ -111,4 +113,4 @@ const PricingTopBadge: FC<IPricingTopBadge> = ({ titleComponent = 'span' }) => {
   )
 }
 
-export default PricingTopBadge
+export default PricingTopBanner
