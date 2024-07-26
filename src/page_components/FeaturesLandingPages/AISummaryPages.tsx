@@ -9,7 +9,6 @@ import FunnelSurveyPopup from '@/features/survey/components/FunnelSurveyPopup'
 import { RESOURCES_URL } from '@/global_constants'
 import FeaturesContentSection from '@/page_components/FeaturesLandingPages/components/FeaturesContentSection'
 import FeaturesExploreMore from '@/page_components/FeaturesLandingPages/components/FeaturesExploreMore'
-import FeaturesTextWithMarker from '@/page_components/FeaturesLandingPages/components/FeaturesTextWithMarker'
 
 interface IProps {
   propRef?: string
@@ -17,12 +16,63 @@ interface IProps {
 const AISummaryPages: FC<IProps> = () => {
   const { t } = useTranslation()
 
-  const sections1Descriptions = [
-    'features_landing:ai_summary_pages__section1__description__item1',
-    'features_landing:ai_summary_pages__section1__description__item2',
-    'features_landing:ai_summary_pages__section1__description__item3',
-    'features_landing:ai_summary_pages__section1__description__item4',
-    'features_landing:ai_summary_pages__section1__description__item5',
+  const summaryData = [
+    {
+      icon: '1-click',
+      title: 'features_landing:ai_summary_pages__section1__title',
+      description: 'features_landing:ai_summary_pages__section1__description',
+      videoPosterUrl: '/assets/features-landing/video-features/summary.png',
+      videoUrl: `${RESOURCES_URL}/video/features/summary-assistant.mp4`,
+    },
+    {
+      icon: 'chat',
+      title: 'features_landing:ai_summary_pages__section2__title',
+      description: 'features_landing:ai_summary_pages__section2__description',
+      imageUrl: `/assets/features-landing/youtubesummary/2.png`,
+    },
+    {
+      icon: 'chat-with-pdf',
+      title: 'features_landing:ai_summary_pages__section3__title',
+      description: 'features_landing:ai_summary_pages__section3__description',
+      imageUrl: `/assets/features-landing/chatpdf/2.png`,
+    },
+    {
+      icon: 'chat-with-pdf',
+      title: 'features_landing:ai_summary_pages__section4__title',
+      description: 'features_landing:ai_summary_pages__section4__description',
+      videoPosterUrl: '/assets/features-landing/video-features/chat.png',
+      videoUrl: `${RESOURCES_URL}/video/features/reading-assistant.mp4`,
+    },
+    {
+      icon: 'chat',
+      title: 'features_landing:ai_summary_pages__section5__title',
+      description: 'features_landing:ai_summary_pages__section5__description',
+      imageUrl: `/assets/features-landing/youtubesummary/1.png`,
+    },
+    {
+      icon: 'chat',
+      title: 'features_landing:ai_summary_pages__section6__title',
+      description: 'features_landing:ai_summary_pages__section6__description',
+      imageUrl: `/assets/features-landing/ai-summary/2.png`,
+    },
+    {
+      icon: 'chat-with-pdf',
+      title: 'features_landing:ai_summary_pages__section7__title',
+      description: 'features_landing:ai_summary_pages__section7__description',
+      imageUrl: `/assets/features-landing/chatpdf/1.png`,
+    },
+    {
+      icon: 'auto-fix',
+      title: 'features_landing:ai_summary_pages__section8__title',
+      description: 'features_landing:ai_summary_pages__section8__description',
+      imageUrl: `/assets/features-landing/ai-summary/1.png`,
+    },
+    {
+      icon: 'prompt-library',
+      title: 'features_landing:ai_summary_pages__section9__title',
+      description: 'features_landing:ai_summary_pages__section9__description',
+      imageUrl: `/assets/features-landing/ai-summary/3.png`,
+    },
   ]
 
   return (
@@ -62,45 +112,18 @@ const AISummaryPages: FC<IProps> = () => {
       {/* trusted by */}
       <TrustedBy />
 
-      <FeaturesContentSection
-        icon='lang'
-        title={t('features_landing:ai_summary_pages__section1__title')}
-        description={
-          <Stack spacing={0.5} mt={2}>
-            {sections1Descriptions.map((description) => (
-              <FeaturesTextWithMarker
-                key={description}
-                marker
-                variant='custom'
-                fontSize={18}
-                color='text.secondary'
-                lineHeight={1.5}
-              >
-                {t(description)}
-              </FeaturesTextWithMarker>
-            ))}
-          </Stack>
-        }
-        imageUrl='/assets/features-landing/ai-summary/1.png'
-      />
-      <FeaturesContentSection
-        icon='chat'
-        title={t('features_landing:ai_summary_pages__section2__title')}
-        description={t(
-          'features_landing:ai_summary_pages__section2__description',
-        )}
-        imageUrl='/assets/features-landing/ai-summary/2.png'
-        textWithImageLayout='imageToText'
-      />
-
-      <FeaturesContentSection
-        icon='account'
-        title={t('features_landing:ai_summary_pages__section3__title')}
-        description={t(
-          'features_landing:ai_summary_pages__section3__description',
-        )}
-        imageUrl='/assets/features-landing/ai-summary/3.png'
-      />
+      {summaryData.map((data, index) => (
+        <FeaturesContentSection
+          key={data.title}
+          icon={data.icon}
+          title={t(data.title)}
+          description={t(data.description)}
+          videoPosterUrl={data.videoPosterUrl}
+          videoUrl={data.videoUrl}
+          imageUrl={data.imageUrl}
+          textWithImageLayout={index % 2 === 0 ? 'textToImage' : 'imageToText'}
+        />
+      ))}
 
       <FeaturesExploreMore />
 

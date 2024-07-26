@@ -8,7 +8,7 @@ import AppContainer from '@/app_layout/AppContainer'
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
 import PlanFeaturesTableV3 from '@/features/pricing/components/PlanFeaturesTableV3'
 import PricingFaqBox from '@/features/pricing/components/PricingFaqBox'
-import PricingTopBadge from '@/features/pricing/components/PricingTopBadge'
+import PricingTopBanner from '@/features/pricing/components/PricingTopBanner'
 import ProductComparisonTable from '@/features/pricing/components/ProductComparisonTable'
 import TeamPlanTips from '@/features/pricing/components/TeamPlanTips'
 import {
@@ -53,7 +53,7 @@ const PricingPages = () => {
           boxSizing: 'border-box',
         }}
       >
-        <PricingTopBadge titleComponent={'h1'} />
+        <PricingTopBanner titleComponent={'h1'} />
 
         {/* better plans */}
         {/* <Stack alignItems='center'>
