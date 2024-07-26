@@ -1,12 +1,12 @@
-import { Box, CircularProgress, SxProps, Typography } from '@mui/material';
-import React, { FC } from 'react';
+import { Box, CircularProgress, SxProps, Typography } from '@mui/material'
+import React, { FC } from 'react'
 
 const AppLoadingLayout: FC<{
-  loading: boolean;
-  loadingText?: string;
-  size?: number;
-  children?: React.ReactNode;
-  sx?: SxProps;
+  loading: boolean
+  loadingText?: string
+  size?: number
+  children?: React.ReactNode
+  sx?: SxProps
 }> = ({ loading, loadingText = 'Loading...', size = 16, sx, children }) => {
   return (
     <React.Fragment>
@@ -25,20 +25,22 @@ const AppLoadingLayout: FC<{
           }}
         >
           <CircularProgress size={size} sx={{ m: '0 auto' }} />
-          <Typography
-            mt={1.5}
-            variant='body2'
-            fontWeight={400}
-            fontSize={16}
-            lineHeight={1.25}
-          >
-            {loadingText}
-          </Typography>
+          {loadingText === '' ? null : (
+            <Typography
+              mt={1.5}
+              variant='body2'
+              fontWeight={400}
+              fontSize={16}
+              lineHeight={1.25}
+            >
+              {loadingText}
+            </Typography>
+          )}
         </Box>
       ) : (
         children
       )}
     </React.Fragment>
-  );
-};
-export default AppLoadingLayout;
+  )
+}
+export default AppLoadingLayout

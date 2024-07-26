@@ -1,9 +1,13 @@
 // const { i18n } = require('./next-i18next.config');
 
-const WebpackObfuscatorPlugin = require('webpack-obfuscator');
+const WebpackObfuscatorPlugin = require('webpack-obfuscator')
 /** @type {import('next').NextConfig} */
 
-const SAFE_ON = process.env.NEXT_PUBLIC_SAFE_ON === 'true';
+const SAFE_ON = process.env.NEXT_PUBLIC_SAFE_ON === 'true'
+
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+  enabled: process.env.ANALYZE === 'true',
+})
 
 const obfuscatorOptions = {
   compact: true,
@@ -31,13 +35,12 @@ const obfuscatorOptions = {
   stringArrayWrappersType: 'variable',
   stringArrayThreshold: 0.75,
   unicodeEscapeSequence: false,
-};
+}
 
-const { getHostConfig } = require('./scripts/host.js');
-const { WWW_PROJECT_HOST, APP_PROJECT_HOST, API_PROJECT_HOST } =
-  getHostConfig();
+const { getHostConfig } = require('./scripts/host.js')
+const { WWW_PROJECT_HOST, APP_PROJECT_HOST, API_PROJECT_HOST } = getHostConfig()
 
-const basePath = undefined;
+const basePath = undefined
 
 const nextConfig = {
   basePath,
@@ -59,7 +62,7 @@ const nextConfig = {
     // config.plugins.push(
     //   new WebpackObfuscatorPlugin(obfuscatorOptions, ['bundles/**/**.js']),
     // );
-    return config;
+    return config
   },
   experimental: {
     // Defaults to 50MB
@@ -74,6 +77,6 @@ const nextConfig = {
     NEXT_PUBLIC_API_PROJECT_HOST: API_PROJECT_HOST,
     NEXT_PUBLIC_BASE_PATH: String(basePath || ''),
   },
-};
+}
 
-module.exports = nextConfig;
+module.exports = withBundleAnalyzer(nextConfig)
