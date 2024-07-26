@@ -22,6 +22,15 @@ export const MAXAI_RELEASE_NOTES = [
           },
         ],
       },
+      {
+        title: 'Always display context menu responses in sidebar',
+        lists: [
+          {
+            module: 'AI rewriter can be your new context menu in sidebar',
+            desc: 'You can now choose to always display context menu responses in the sidebar. This way, you can avoid cluttering your browser experience and prevent the context menu from overlapping webpage content.',
+          },
+        ],
+      },
     ],
   },
   {
