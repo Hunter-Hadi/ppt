@@ -9,7 +9,7 @@ export const MAXAI_RELEASE_NOTES = [
         lists: [
           {
             module: 'Context menu redesigned',
-            desc: 'You can now easily switch AI models, change the AI response language, view and copy selected context, and adjust the context menu size, all directly from the context menu for improved productivity.',
+            desc: 'You can now easily switch AI models, change the AI response language, view and copy selected context, all directly from the context menu for improved productivity.',
           },
         ],
       },
@@ -35,6 +35,22 @@ export const MAXAI_RELEASE_NOTES = [
           {
             module: 'Access GPT-4o-mini',
             desc: 'OpenAI\'s newest model - Significantly smarter than GPT-3.5-Turbo. As fast as GPT-3.5-Turbo. Supports text and vision capabilities. Improved multilingual understanding.',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    version: '4.3.14',
+    date: '2024-07-17',
+
+    content: [
+      {
+        title: 'Resize your context menu',
+        lists: [
+          {
+            module: 'Resizable context menu',
+            desc: 'You can now resize the context menu by simply dragging its bottom right corner.',
           },
         ],
       },
