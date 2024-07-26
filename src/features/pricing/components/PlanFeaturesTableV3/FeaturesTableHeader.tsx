@@ -1,14 +1,14 @@
-import { Stack } from '@mui/material';
-import React, { FC } from 'react';
+import Stack from '@mui/material/Stack'
+import React, { FC } from 'react'
 
-import FeaturesTableHeaderCell from './FeaturesTableHeaderCell';
-import { IFeatureColumnType, IPlanFeatureColumnData } from './type';
+import FeaturesTableHeaderCell from './FeaturesTableHeaderCell'
+import { IFeatureColumnType, IPlanFeatureColumnData } from './type'
 interface IProps {
-  featureTableColumns: IPlanFeatureColumnData[];
-  popularPlan?: IFeatureColumnType;
-  inFixed?: boolean;
-  showPaymentSwitch?: boolean;
-  needToHiddenPlan?: IFeatureColumnType[];
+  featureTableColumns: IPlanFeatureColumnData[]
+  popularPlan?: IFeatureColumnType
+  inFixed?: boolean
+  showPaymentSwitch?: boolean
+  needToHiddenPlan?: IFeatureColumnType[]
 }
 
 const FeaturesTableHeader: FC<IProps> = ({
@@ -22,11 +22,11 @@ const FeaturesTableHeader: FC<IProps> = ({
     <Stack direction='row'>
       {featureTableColumns.map((columnData, index) => {
         if (needToHiddenPlan?.includes(columnData.columnType)) {
-          return null;
+          return null
         }
-        const isFirst = index === 0;
-        const isLast = index === featureTableColumns.length - 1;
-        const isPopular = popularPlan === columnData.columnType;
+        const isFirst = index === 0
+        const isLast = index === featureTableColumns.length - 1
+        const isPopular = popularPlan === columnData.columnType
         return (
           <FeaturesTableHeaderCell
             columnData={columnData}
@@ -39,10 +39,10 @@ const FeaturesTableHeader: FC<IProps> = ({
             inFixed={inFixed}
             showPaymentSwitch={showPaymentSwitch}
           />
-        );
+        )
       })}
     </Stack>
-  );
-};
+  )
+}
 
-export default FeaturesTableHeader;
+export default FeaturesTableHeader

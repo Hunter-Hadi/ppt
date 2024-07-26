@@ -1,25 +1,27 @@
-import { Box, Stack, Typography } from '@mui/material';
-import { useRouter } from 'next/router';
-import React, { useEffect } from 'react';
+import Box from '@mui/material/Box'
+import Stack from '@mui/material/Stack'
+import Typography from '@mui/material/Typography'
+import { useRouter } from 'next/router'
+import React, { useEffect } from 'react'
 
-import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
-import HomePageContent from '@/features/landing/components/HomePageContent';
-import { makeStaticProps } from '@/i18n/utils/staticHelper';
-import FixedCtaButton from '@/page_components/PartnersPages/components/FixedCtaButton';
-import TryExtensionButton from '@/page_components/PartnersPages/components/TryExtensionButton';
+import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
+import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
+import HomePageContent from '@/features/landing/components/HomePageContent'
+import { makeStaticProps } from '@/i18n/utils/staticHelper'
+import FixedCtaButton from '@/page_components/PartnersPages/components/FixedCtaButton'
+import TryExtensionButton from '@/page_components/PartnersPages/components/TryExtensionButton'
 
 const J2teamSecurityUpdated = () => {
-  const router = useRouter();
+  const router = useRouter()
 
   useEffect(() => {
     router.replace(
       'https://www.maxai.me/partners/updated/?name=J2TEAM+Security&propRef=updated-j2team-security',
-    );
-  }, [router]);
+    )
+  }, [router])
 
-  return <AppLoadingLayout loading />;
-  const propRef = 'updated-j2team-security';
+  return <AppLoadingLayout loading />
+  const propRef = 'updated-j2team-security'
   return (
     <Box
       sx={{
@@ -69,9 +71,9 @@ const J2teamSecurityUpdated = () => {
       </Box>
       <FixedCtaButton propRef={propRef} partnerPageType='updated' />
     </Box>
-  );
-};
-export default J2teamSecurityUpdated;
+  )
+}
+export default J2teamSecurityUpdated
 
-const getStaticProps = makeStaticProps();
-export { getStaticProps };
+const getStaticProps = makeStaticProps()
+export { getStaticProps }

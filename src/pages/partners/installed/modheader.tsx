@@ -1,27 +1,29 @@
-import { Box, Stack, Typography } from '@mui/material';
-import { useRouter } from 'next/router';
-import React, { useEffect } from 'react';
+import Box from '@mui/material/Box'
+import Stack from '@mui/material/Stack'
+import Typography from '@mui/material/Typography'
+import { useRouter } from 'next/router'
+import React, { useEffect } from 'react'
 
-import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
-import ProLink from '@/components/ProLink';
-import HomePageContent from '@/features/landing/components/HomePageContent';
-import { makeStaticProps } from '@/i18n/utils/staticHelper';
-import FixedCtaButton from '@/page_components/PartnersPages/components/FixedCtaButton';
-import TryExtensionButton from '@/page_components/PartnersPages/components/TryExtensionButton';
+import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
+import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
+import ProLink from '@/components/ProLink'
+import HomePageContent from '@/features/landing/components/HomePageContent'
+import { makeStaticProps } from '@/i18n/utils/staticHelper'
+import FixedCtaButton from '@/page_components/PartnersPages/components/FixedCtaButton'
+import TryExtensionButton from '@/page_components/PartnersPages/components/TryExtensionButton'
 
 const ModHeader = () => {
-  const router = useRouter();
+  const router = useRouter()
 
   useEffect(() => {
     router.replace(
       'https://www.maxai.me/partners/installed?name=ModHeader&propRef=installed-modheader&changelogText=To+get+started%2Cclick+here.&changelogLink=https%3A%2F%2Fmodheader.com%2F',
-    );
-  }, [router]);
+    )
+  }, [router])
 
-  return <AppLoadingLayout loading />;
+  return <AppLoadingLayout loading />
 
-  const propRef = 'installed-modheader';
+  const propRef = 'installed-modheader'
   return (
     <Box
       sx={{
@@ -72,9 +74,9 @@ const ModHeader = () => {
       </Box>
       <FixedCtaButton propRef={propRef} partnerPageType='installed' />
     </Box>
-  );
-};
-export default ModHeader;
+  )
+}
+export default ModHeader
 
-const getStaticProps = makeStaticProps();
-export { getStaticProps };
+const getStaticProps = makeStaticProps()
+export { getStaticProps }

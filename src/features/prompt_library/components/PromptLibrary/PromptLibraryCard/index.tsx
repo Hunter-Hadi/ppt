@@ -1,76 +1,78 @@
-import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
-import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
-import { Box, Stack, Typography } from '@mui/material';
-import dayjs from 'dayjs';
-import relativeTime from 'dayjs/plugin/relativeTime';
-import utc from 'dayjs/plugin/utc';
-import React, { FC, useMemo } from 'react';
+import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined'
+import LockOutlinedIcon from '@mui/icons-material/LockOutlined'
+import Box from '@mui/material/Box'
+import Stack from '@mui/material/Stack'
+import Typography from '@mui/material/Typography'
+import dayjs from 'dayjs'
+import relativeTime from 'dayjs/plugin/relativeTime'
+import utc from 'dayjs/plugin/utc'
+import React, { FC, useMemo } from 'react'
 
-import EllipsisTextWithTooltip from '@/features/common/components/EllipsisTextWithTooltip';
-import ProLink from '@/features/common/components/ProLink';
+import EllipsisTextWithTooltip from '@/features/common/components/EllipsisTextWithTooltip'
+import ProLink from '@/features/common/components/ProLink'
 import {
   MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL,
   MAXAI_CHROME_EXTENSION_WWW_HOMEPAGE_URL,
-} from '@/features/common/constants';
+} from '@/features/common/constants'
 import {
   DeleteIconButton,
   EditIconButton,
   FavoriteIconButton,
   SeeIconButton,
-} from '@/features/prompt_library/components/PromptLibrary/PromptLibraryCard/PromptLibraryCardActions';
-import PromptTypeList from '@/features/prompt_library/components/PromptLibrary/PromptLibraryCard/PromptTypeList';
+} from '@/features/prompt_library/components/PromptLibrary/PromptLibraryCard/PromptLibraryCardActions'
+import PromptTypeList from '@/features/prompt_library/components/PromptLibrary/PromptLibraryCard/PromptTypeList'
 import {
   DEFAULT_PROMPT_AUTHOR,
   DEFAULT_PROMPT_AUTHOR_LINK,
-} from '@/features/prompt_library/constant';
-import usePromptActions from '@/features/prompt_library/hooks/usePromptActions';
-import usePromptLibrary from '@/features/prompt_library/hooks/usePromptLibrary';
+} from '@/features/prompt_library/constant'
+import usePromptActions from '@/features/prompt_library/hooks/usePromptActions'
+import usePromptLibrary from '@/features/prompt_library/hooks/usePromptLibrary'
 import {
   IPromptActionKey,
   IPromptLibraryCardData,
-} from '@/features/prompt_library/types';
-dayjs.extend(relativeTime);
-dayjs.extend(utc);
+} from '@/features/prompt_library/types'
+dayjs.extend(relativeTime)
+dayjs.extend(utc)
 
 const PromptLibraryCard: FC<{
-  actionButton?: IPromptActionKey[];
-  prompt: IPromptLibraryCardData;
-  onClick?: (promptData?: IPromptLibraryCardData) => void;
+  actionButton?: IPromptActionKey[]
+  prompt: IPromptLibraryCardData
+  onClick?: (promptData?: IPromptLibraryCardData) => void
 }> = ({ prompt, actionButton = ['see', 'favorite'], onClick }) => {
-  const { openPromptLibraryEditForm } = usePromptActions();
+  const { openPromptLibraryEditForm } = usePromptActions()
   const {
     selectedPromptLibraryCard,
     selectPromptLibraryCard,
     cancelSelectPromptLibraryCard,
-  } = usePromptLibrary();
-  const isActive = selectedPromptLibraryCard?.id === prompt.id;
+  } = usePromptLibrary()
+  const isActive = selectedPromptLibraryCard?.id === prompt.id
   const detailLink = useMemo(() => {
     const pageHost = (window.location.host || location.host)
       .replace(/^www\./, '')
-      .replace(/:\d+$/, '');
+      .replace(/:\d+$/, '')
     const currentHost = MAXAI_CHROME_EXTENSION_WWW_HOMEPAGE_URL.includes(
       pageHost,
     )
       ? MAXAI_CHROME_EXTENSION_WWW_HOMEPAGE_URL
-      : MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL;
+      : MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL
 
     if (currentHost === MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL) {
       if (prompt.type === 'private') {
-        return `${MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL}/prompts/own/${prompt.id}`;
+        return `${MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL}/prompts/own/${prompt.id}`
       }
 
-      return `${MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL}/prompts/${prompt.id}`;
+      return `${MAXAI_CHROME_EXTENSION_APP_HOMEPAGE_URL}/prompts/${prompt.id}`
     } else {
       // WWW
       // prompt 内容暂时不支持 i18n，所以这里直接跳转到 www 默认语言的 prompt library
-      return `${MAXAI_CHROME_EXTENSION_WWW_HOMEPAGE_URL}/prompt/library/${prompt.id}`;
+      return `${MAXAI_CHROME_EXTENSION_WWW_HOMEPAGE_URL}/prompt/library/${prompt.id}`
     }
-  }, [prompt]);
+  }, [prompt])
 
   const actionBtnList = () => {
-    const btnList: React.ReactNode[] = [];
+    const btnList: React.ReactNode[] = []
     if (actionButton.includes('see')) {
-      btnList.push(<SeeIconButton key='see' detailLink={detailLink} />);
+      btnList.push(<SeeIconButton key='see' detailLink={detailLink} />)
     }
     if (actionButton.includes('delete')) {
       btnList.push(
@@ -79,35 +81,35 @@ const PromptLibraryCard: FC<{
           promptId={prompt.id}
           promptTitle={prompt.prompt_title}
         />,
-      );
+      )
     }
     if (actionButton.includes('edit')) {
       btnList.push(
         <EditIconButton
           key='edit'
           onClick={() => {
-            openPromptLibraryEditForm(prompt.id);
+            openPromptLibraryEditForm(prompt.id)
           }}
         />,
-      );
+      )
     }
     if (actionButton.includes('favorite')) {
-      btnList.push(<FavoriteIconButton key='favorite' promptId={prompt.id} />);
+      btnList.push(<FavoriteIconButton key='favorite' promptId={prompt.id} />)
     }
 
-    return btnList;
-  };
+    return btnList
+  }
 
   const authorLink = useMemo(() => {
-    return prompt?.author_url || DEFAULT_PROMPT_AUTHOR_LINK;
-  }, [prompt.author_url]);
+    return prompt?.author_url || DEFAULT_PROMPT_AUTHOR_LINK
+  }, [prompt.author_url])
 
   const author = useMemo(() => {
     if (authorLink !== DEFAULT_PROMPT_AUTHOR_LINK && !prompt?.author) {
-      return authorLink;
+      return authorLink
     }
-    return prompt?.author || DEFAULT_PROMPT_AUTHOR;
-  }, [prompt?.author, authorLink]);
+    return prompt?.author || DEFAULT_PROMPT_AUTHOR
+  }, [prompt?.author, authorLink])
 
   return (
     <Stack
@@ -115,21 +117,21 @@ const PromptLibraryCard: FC<{
       spacing={1.5}
       onClick={() => {
         if (isActive) {
-          cancelSelectPromptLibraryCard();
-          onClick?.();
+          cancelSelectPromptLibraryCard()
+          onClick?.()
         } else {
-          selectPromptLibraryCard(prompt);
-          onClick?.(prompt);
+          selectPromptLibraryCard(prompt)
+          onClick?.(prompt)
         }
       }}
       sx={(t) => {
-        const isDark = t.palette.mode === 'dark';
+        const isDark = t.palette.mode === 'dark'
 
-        const normalBgcolor = isDark ? '#3E3F4C' : '#fff';
-        const activeBgcolor = isDark ? '#202123' : 'rgba(0, 0, 0, 0.04)';
+        const normalBgcolor = isDark ? '#3E3F4C' : '#fff'
+        const activeBgcolor = isDark ? '#202123' : 'rgba(0, 0, 0, 0.04)'
         const shadowColor = isDark
           ? 'rgba(255, 255, 255, 0.08)'
-          : 'rgba(0, 0, 0, 0.16)';
+          : 'rgba(0, 0, 0, 0.16)'
 
         return {
           textAlign: 'left',
@@ -147,7 +149,7 @@ const PromptLibraryCard: FC<{
           '&:hover': {
             boxShadow: `0px 4px 8px ${shadowColor}`,
           },
-        };
+        }
       }}
     >
       <Stack direction='row' spacing={1.5} justifyContent='space-between'>
@@ -182,11 +184,11 @@ const PromptLibraryCard: FC<{
         alignItems={'center'}
         spacing={0.5}
         sx={(t) => {
-          const isDark = t.palette.mode === 'dark';
+          const isDark = t.palette.mode === 'dark'
           return {
             fontSize: '12px',
             color: isDark ? 'rgba(255, 255, 255, 0.6)' : 'rgba(0, 0, 0, 0.6)',
-          };
+          }
         }}
       >
         {prompt?.type === 'private' ? (
@@ -204,7 +206,7 @@ const PromptLibraryCard: FC<{
             color: 'inherit',
           }}
           onClick={(event) => {
-            event.stopPropagation();
+            event.stopPropagation()
           }}
         >
           {author}
@@ -240,17 +242,17 @@ const PromptLibraryCard: FC<{
         {prompt.teaser}
       </EllipsisTextWithTooltip>
     </Stack>
-  );
-};
+  )
+}
 
 const PromptCardTag: FC<{ tag: string }> = (props) => {
-  const { tag } = props;
+  const { tag } = props
   return (
     <Box>
       <Typography
         variant={'custom'}
         sx={(t) => {
-          const isDark = t.palette.mode === 'dark';
+          const isDark = t.palette.mode === 'dark'
           return {
             borderRadius: '4px',
             display: 'inline-flex',
@@ -259,13 +261,13 @@ const PromptCardTag: FC<{ tag: string }> = (props) => {
             fontSize: '14px',
             lineHeight: '20px',
             px: 0.5,
-          };
+          }
         }}
       >
         {tag}
       </Typography>
     </Box>
-  );
-};
+  )
+}
 
-export default PromptLibraryCard;
+export default PromptLibraryCard

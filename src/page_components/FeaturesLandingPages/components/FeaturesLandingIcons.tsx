@@ -1,24 +1,24 @@
-import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
-import AutoFixHighOutlinedIcon from '@mui/icons-material/AutoFixHighOutlined';
-import ContentCutOutlinedIcon from '@mui/icons-material/ContentCutOutlined';
-import ElectricBoltOutlinedIcon from '@mui/icons-material/ElectricBoltOutlined';
-import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
-import PaletteOutlinedIcon from '@mui/icons-material/PaletteOutlined';
-import RemoveRedEyeOutlinedIcon from '@mui/icons-material/RemoveRedEyeOutlined';
-import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
-import TranslateOutlinedIcon from '@mui/icons-material/TranslateOutlined';
-import { Stack } from '@mui/material';
-import { SxProps } from '@mui/material/styles';
-import SvgIcon from '@mui/material/SvgIcon';
-import React, { FC, useMemo } from 'react';
+import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined'
+import AutoFixHighOutlinedIcon from '@mui/icons-material/AutoFixHighOutlined'
+import ContentCutOutlinedIcon from '@mui/icons-material/ContentCutOutlined'
+import ElectricBoltOutlinedIcon from '@mui/icons-material/ElectricBoltOutlined'
+import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined'
+import PaletteOutlinedIcon from '@mui/icons-material/PaletteOutlined'
+import RemoveRedEyeOutlinedIcon from '@mui/icons-material/RemoveRedEyeOutlined'
+import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined'
+import TranslateOutlinedIcon from '@mui/icons-material/TranslateOutlined'
+import Stack from '@mui/material/Stack'
+import { SxProps } from '@mui/material/styles'
+import SvgIcon from '@mui/material/SvgIcon'
+import React, { FC, useMemo } from 'react'
 
-import CustomIcon from '@/components/CustomIcon';
+import CustomIcon from '@/components/CustomIcon'
 
 interface IProps {
-  icon: string;
-  sx?: SxProps;
-  color?: string;
-  fontSize?: string | number;
+  icon: string
+  sx?: SxProps
+  color?: string
+  fontSize?: string | number
 }
 
 const FeaturesLandingIcons: FC<IProps> = ({ icon, sx, color, fontSize }) => {
@@ -27,8 +27,8 @@ const FeaturesLandingIcons: FC<IProps> = ({ icon, sx, color, fontSize }) => {
       color,
       fontSize,
       ...sx,
-    };
-  }, [sx, color, fontSize]);
+    }
+  }, [sx, color, fontSize])
 
   if (icon === 'finger-left') {
     return (
@@ -73,7 +73,7 @@ const FeaturesLandingIcons: FC<IProps> = ({ icon, sx, color, fontSize }) => {
           </defs>
         </svg>
       </SvgIcon>
-    );
+    )
   }
 
   if (icon === 'finger-right') {
@@ -119,7 +119,7 @@ const FeaturesLandingIcons: FC<IProps> = ({ icon, sx, color, fontSize }) => {
           </defs>
         </svg>
       </SvgIcon>
-    );
+    )
   }
 
   if (icon === '1-click') {
@@ -133,7 +133,7 @@ const FeaturesLandingIcons: FC<IProps> = ({ icon, sx, color, fontSize }) => {
           <path d='M11.71 17.99C8.53 17.84 6 15.22 6 12c0-3.31 2.69-6 6-6 3.22 0 5.84 2.53 5.99 5.71l-2.1-.63C15.48 9.31 13.89 8 12 8c-2.21 0-4 1.79-4 4 0 1.89 1.31 3.48 3.08 3.89zM22 12c0 .3-.01.6-.04.9l-1.97-.59c.01-.1.01-.21.01-.31 0-4.42-3.58-8-8-8s-8 3.58-8 8 3.58 8 8 8c.1 0 .21 0 .31-.01l.59 1.97c-.3.03-.6.04-.9.04-5.52 0-10-4.48-10-10S6.48 2 12 2s10 4.48 10 10m-3.77 4.26L22 15l-10-3 3 10 1.26-3.77 4.27 4.27 1.98-1.98z'></path>
         </svg>
       </SvgIcon>
-    );
+    )
   }
 
   if (icon === 'chat') {
@@ -149,7 +149,7 @@ const FeaturesLandingIcons: FC<IProps> = ({ icon, sx, color, fontSize }) => {
           />
         </svg>
       </SvgIcon>
-    );
+    )
   }
 
   if (icon === 'and') {
@@ -164,7 +164,7 @@ const FeaturesLandingIcons: FC<IProps> = ({ icon, sx, color, fontSize }) => {
       >
         &
       </Stack>
-    );
+    )
   }
 
   if (icon === 'line') {
@@ -200,17 +200,17 @@ const FeaturesLandingIcons: FC<IProps> = ({ icon, sx, color, fontSize }) => {
           </defs>
         </svg>
       </SvgIcon>
-    );
+    )
   }
 
   if (icon === 'translate') {
-    return <TranslateOutlinedIcon sx={sxMemo} />;
+    return <TranslateOutlinedIcon sx={sxMemo} />
   }
   if (icon === 'chat-with-pdf') {
-    return <CustomIcon icon='ChatWithPDF' sx={sxMemo} />;
+    return <CustomIcon icon='ChatWithPDF' sx={sxMemo} />
   }
   if (icon === 'see') {
-    return <RemoveRedEyeOutlinedIcon sx={sxMemo} />;
+    return <RemoveRedEyeOutlinedIcon sx={sxMemo} />
   }
 
   if (icon === 'image-scanner') {
@@ -243,7 +243,7 @@ const FeaturesLandingIcons: FC<IProps> = ({ icon, sx, color, fontSize }) => {
           </g>
         </svg>
       </SvgIcon>
-    );
+    )
   }
 
   if (icon === 'open-ai') {
@@ -268,19 +268,19 @@ const FeaturesLandingIcons: FC<IProps> = ({ icon, sx, color, fontSize }) => {
           </defs>
         </svg>
       </SvgIcon>
-    );
+    )
   }
 
   if (icon === 'lang') {
-    return <LanguageOutlinedIcon sx={sxMemo} />;
+    return <LanguageOutlinedIcon sx={sxMemo} />
   }
 
   if (icon === 'auto-fix') {
-    return <AutoFixHighOutlinedIcon sx={sxMemo} />;
+    return <AutoFixHighOutlinedIcon sx={sxMemo} />
   }
 
   if (icon === 'account') {
-    return <AccountCircleOutlinedIcon sx={sxMemo} />;
+    return <AccountCircleOutlinedIcon sx={sxMemo} />
   }
 
   if (icon === 'reply') {
@@ -314,7 +314,7 @@ const FeaturesLandingIcons: FC<IProps> = ({ icon, sx, color, fontSize }) => {
           </g>
         </svg>
       </SvgIcon>
-    );
+    )
   }
 
   if (icon === 'shield') {
@@ -348,7 +348,7 @@ const FeaturesLandingIcons: FC<IProps> = ({ icon, sx, color, fontSize }) => {
           </g>
         </svg>
       </SvgIcon>
-    );
+    )
   }
 
   if (icon === 'earth') {
@@ -376,7 +376,7 @@ const FeaturesLandingIcons: FC<IProps> = ({ icon, sx, color, fontSize }) => {
           </g>
         </svg>
       </SvgIcon>
-    );
+    )
   }
 
   if (icon === 'prompt-library') {
@@ -413,19 +413,19 @@ const FeaturesLandingIcons: FC<IProps> = ({ icon, sx, color, fontSize }) => {
           </g>
         </svg>
       </SvgIcon>
-    );
+    )
   }
 
   if (icon === 'search') {
-    return <SearchOutlinedIcon sx={sxMemo} />;
+    return <SearchOutlinedIcon sx={sxMemo} />
   }
 
   if (icon === 'art') {
-    return <PaletteOutlinedIcon sx={sxMemo} />;
+    return <PaletteOutlinedIcon sx={sxMemo} />
   }
 
   if (icon === 'fast') {
-    return <ElectricBoltOutlinedIcon sx={sxMemo} />;
+    return <ElectricBoltOutlinedIcon sx={sxMemo} />
   }
 
   if (icon === 'screenshot') {
@@ -436,10 +436,10 @@ const FeaturesLandingIcons: FC<IProps> = ({ icon, sx, color, fontSize }) => {
           ...sxMemo,
         }}
       />
-    );
+    )
   }
 
-  return null;
-};
+  return null
+}
 
-export default FeaturesLandingIcons;
+export default FeaturesLandingIcons

@@ -1,10 +1,12 @@
-import { Box, Stack, SxProps } from '@mui/material';
-import React, { FC } from 'react';
+import Box from '@mui/material/Box'
+import Stack from '@mui/material/Stack'
+import { SxProps } from '@mui/material/styles'
+import React, { FC } from 'react'
 
 const AppContainer: FC<{
-  children: React.ReactNode;
-  sx?: SxProps;
-  maxWidth?: string | number;
+  children: React.ReactNode
+  sx?: SxProps
+  maxWidth?: string | number
 }> = ({ children, sx, maxWidth = 'lg' }) => {
   return (
     <Stack
@@ -29,6 +31,6 @@ const AppContainer: FC<{
         {children}
       </Box>
     </Stack>
-  );
-};
-export default AppContainer;
+  )
+}
+export default AppContainer

@@ -1,4 +1,4 @@
-import { Stack } from '@mui/material'
+import Stack from '@mui/material/Stack'
 import React, { lazy, Suspense, useState } from 'react'
 
 import AppLoadingLayout from '@/features/common/components/AppLoadingLayout'

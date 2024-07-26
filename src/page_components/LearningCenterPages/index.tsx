@@ -1,4 +1,4 @@
-import { Stack } from '@mui/material'
+import Stack from '@mui/material/Stack'
 import { useRouter } from 'next/router'
 import { useTranslation } from 'next-i18next'
 import React, { useEffect } from 'react'

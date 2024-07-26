@@ -1,4 +1,4 @@
-import { SvgIcon, SvgIconProps } from '@mui/material'
+import SvgIcon, { SvgIconProps } from '@mui/material/SvgIcon'
 import { FC } from 'react'
 import React from 'react'
 

@@ -1,4 +1,4 @@
-import { Stack } from '@mui/material'
+import Stack from '@mui/material/Stack'
 import Head from 'next/head'
 import React, { useContext, useEffect } from 'react'
 import { lazy, Suspense, useState } from 'react'

@@ -1,4 +1,7 @@
-import { Divider, Paper, PaperProps, Typography } from '@mui/material'
+import Divider from '@mui/material/Divider'
+import Paper from '@mui/material/Paper'
+import { PaperProps } from '@mui/material/Paper'
+import Typography from '@mui/material/Typography'
 import React, { FC, useMemo } from 'react'
 
 type IPaperLayoutProps = PaperProps & {
