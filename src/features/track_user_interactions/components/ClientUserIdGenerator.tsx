@@ -9,6 +9,7 @@ import {
   getClientUserId,
   setClientUserId,
 } from '@/features/track_user_interactions/utils'
+import useAutoRedirectLanguage from '@/hooks/useAutoRedirectLanguage'
 import { getLocalStorage, setLocalStorage } from '@/utils/localStorage'
 
 interface IClientUserIdGeneratorProps {
@@ -30,6 +31,8 @@ const ClientUserIdGenerator: FC<IClientUserIdGeneratorProps> = ({
     getClientUserId(),
   )
 
+  const { autoRedirectDone } = useAutoRedirectLanguage()
+
   // iframe 是否加载完成
   const [iframeReady, setIframeReady] = useState(false)
 
@@ -38,11 +41,18 @@ const ClientUserIdGenerator: FC<IClientUserIdGeneratorProps> = ({
     useState(false)
 
   useEffect(() => {
-    if (isLikelyBot()) {
+    if (isLikelyBot() || !autoRedirectDone || typeof window === 'undefined') {
       return
     }
-    setLoaded(true)
-  }, [])
+    // 为了防止 iframe 影响页面加载速度，延迟加载 iframe
+    const timer = setTimeout(() => {
+      setLoaded(true)
+    }, 5000)
+
+    return () => {
+      clearTimeout(timer)
+    }
+  }, [autoRedirectDone])
 
   const hasClientUserId = useMemo(
     () => !!currentClientUserId,
