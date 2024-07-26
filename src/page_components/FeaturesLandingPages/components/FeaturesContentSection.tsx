@@ -255,6 +255,7 @@ const FeaturesContentSection: FC<IProps> = ({
               <ResponsiveImage
                 src={imageUrl}
                 alt={title}
+                loading='lazy'
                 width={abTestTitleDirection === 'top' ? 1000 : 1168}
                 height={abTestTitleDirection === 'top' ? 740 : 864}
               />

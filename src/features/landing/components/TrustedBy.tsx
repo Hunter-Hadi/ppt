@@ -9,8 +9,6 @@ import React from 'react'
 import { Autoplay, FreeMode } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
-import MaxAILazyLoadImage from '@/packages/base-ui/components/MaxAILazyLoadImage'
-
 const TRUSTED_BY_COMPANY = [
   { name: 'Airbnb', src: '/assets/landing/trusted-by/company/Airbnb.svg' },
   // { name: 'Disney', src: '/assets/landing/trusted-by/company/Disney.svg' },
@@ -186,7 +184,8 @@ const TrustedBy = () => {
                   height={60}
                   p={1}
                 >
-                  <MaxAILazyLoadImage
+                  <img
+                    loading='lazy'
                     alt={companyData.name}
                     src={companyData.src}
                     width='100%'
@@ -223,7 +222,8 @@ const TrustedBy = () => {
                   height={60}
                   p={1}
                 >
-                  <MaxAILazyLoadImage
+                  <img
+                    loading='lazy'
                     alt={universityData.name}
                     src={universityData.src}
                     width='100%'
