@@ -44,10 +44,8 @@ const AIChatPages: FC<IProps> = () => {
         title={t('features_landing:ai_chat_pages__title')}
         description={t('features_landing:ai_chat_pages__description')}
       />
-
       {/* trusted by */}
       <TrustedBy />
-
       <FeaturesContentSection
         icon='open-ai'
         title={t('features_landing:ai_chat_pages__section1__title')}
@@ -63,6 +61,8 @@ const AIChatPages: FC<IProps> = () => {
         description={t('features_landing:ai_chat_pages__section2__description')}
         imageUrl='/assets/features-landing/ai-search/2.png'
         textWithImageLayout='imageToText'
+        videoPosterUrl='/assets/features-landing/ai-search/2.png'
+        videoUrl={`${RESOURCES_URL}/video/features/search-assistant.mp4`}
       />
       <FeaturesContentSection
         icon='image-scanner'
@@ -101,9 +101,7 @@ const AIChatPages: FC<IProps> = () => {
         imageUrl='/assets/features-landing/ai-chat/3.png'
         textWithImageLayout='textToImage'
       />
-
       <FeaturesExploreMore />
-
       <FunnelSurveyPopup sceneType='SURVEY_INSTALL_DROPPED' />
     </Stack>
   )
