@@ -86,7 +86,7 @@ const AIChatPages: FC<IProps> = () => {
         textWithImageLayout='textToImage'
       />
       <FeaturesContentSection
-        icon='shield'
+        icon='prompt-library'
         title={t('features_landing:ai_chat_pages__section7__title')}
         description={t('features_landing:ai_chat_pages__section7__description')}
         imageUrl='/assets/features-landing/ai-chat/3.png'
