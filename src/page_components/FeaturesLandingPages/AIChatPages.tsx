@@ -54,6 +54,8 @@ const AIChatPages: FC<IProps> = () => {
         description={t('features_landing:ai_chat_pages__section1__description')}
         imageUrl='/assets/features-landing/ai-chat/1.png'
         textWithImageLayout='textToImage'
+        videoPosterUrl='/assets/features-landing/ai-chat/1.png'
+        videoUrl={`${RESOURCES_URL}/video/features/ai-chat/chat-with-top-ai-all-in-one-place.mp4`}
       />
       <FeaturesContentSection
         icon='search'
