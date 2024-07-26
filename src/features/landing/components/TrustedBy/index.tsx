@@ -3,11 +3,17 @@ import 'swiper/css'
 import 'swiper/css/free-mode'
 
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined'
-import { Box, Stack, Tooltip, Typography } from '@mui/material'
+import { Box, Tooltip, Typography } from '@mui/material'
+import dynamic from 'next/dynamic'
 import { useTranslation } from 'next-i18next'
 import React from 'react'
-import { Autoplay, FreeMode } from 'swiper/modules'
-import { Swiper, SwiperSlide } from 'swiper/react'
+
+import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
+
+const ImgFreeSwiper = dynamic(() => import('./ImgFreeSwiper'), {
+  loading: () => <AppLoadingLayout loading />,
+  ssr: false,
+})
 
 const TRUSTED_BY_COMPANY = [
   { name: 'Airbnb', src: '/assets/landing/trusted-by/company/Airbnb.svg' },
@@ -161,78 +167,12 @@ const TrustedBy = () => {
           }}
         >
           {/* company */}
-          <Swiper
-            speed={8000}
-            slidesPerView={'auto'}
-            spaceBetween={16}
-            freeMode={true}
-            navigation={false}
-            loop={true}
-            autoplay={{
-              delay: 1,
-              disableOnInteraction: false,
-              pauseOnMouseEnter: false,
-              reverseDirection: true,
-            }}
-            modules={[FreeMode, Autoplay]}
-          >
-            {TRUSTED_BY_COMPANY.map((companyData) => (
-              <SwiperSlide key={companyData.name}>
-                <Stack
-                  justifyContent={'center'}
-                  alignItems='center'
-                  height={60}
-                  p={1}
-                >
-                  <img
-                    loading='lazy'
-                    alt={companyData.name}
-                    src={companyData.src}
-                    width='100%'
-                    height='100%'
-                  />
-                </Stack>
-              </SwiperSlide>
-            ))}
-          </Swiper>
+          <ImgFreeSwiper imgData={TRUSTED_BY_COMPANY} reverseDirection={true} />
 
           <Box height={16} />
 
           {/* university */}
-          <Swiper
-            speed={8000}
-            slidesPerView={'auto'}
-            spaceBetween={16}
-            freeMode={true}
-            navigation={false}
-            loop={true}
-            autoplay={{
-              delay: 1,
-              disableOnInteraction: false,
-              pauseOnMouseEnter: false,
-              reverseDirection: false,
-            }}
-            modules={[FreeMode, Autoplay]}
-          >
-            {TRUSTED_BY_UNIVERSITY.map((universityData) => (
-              <SwiperSlide key={universityData.name}>
-                <Stack
-                  justifyContent={'center'}
-                  alignItems='center'
-                  height={60}
-                  p={1}
-                >
-                  <img
-                    loading='lazy'
-                    alt={universityData.name}
-                    src={universityData.src}
-                    width='100%'
-                    height='100%'
-                  />
-                </Stack>
-              </SwiperSlide>
-            ))}
-          </Swiper>
+          <ImgFreeSwiper imgData={TRUSTED_BY_UNIVERSITY} />
         </Box>
       </Box>
     </Box>
