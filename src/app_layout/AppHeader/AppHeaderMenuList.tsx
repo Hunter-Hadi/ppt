@@ -25,6 +25,7 @@ const AppHeaderMenuList: FC<IProps> = ({ isSmallScreen = false }) => {
         <IconButton
           onClick={() => setOpen((pre) => !pre)}
           id='app-header-menu-button'
+          aria-label='app-header-menu-button'
         >
           {open ? <CloseOutlinedIcon /> : <MenuOutlinedIcon />}
         </IconButton>
