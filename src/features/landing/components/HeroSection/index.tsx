@@ -1,18 +1,16 @@
-import StarIcon from '@mui/icons-material/Star'
 import { Box, Grid, Skeleton, Stack, SxProps, Typography } from '@mui/material'
 import { useTranslation } from 'next-i18next'
 import React, { FC, useMemo } from 'react'
 
 import CustomIcon from '@/components/CustomIcon'
-import A16zTop50AppsBadge from '@/features/landing/components/HeroSection/A16zTop50AppsBadge'
 import HeroVideoBox, {
   IHeroVideoProps,
 } from '@/features/landing/components/HeroSection/HeroVideoBox'
-import IndicatorDecorator from '@/features/landing/components/IndicatorDecorator'
-import { LOVED_BY_NUM, STAR_RATINGS_NUM } from '@/features/landing/constants'
+import MaxAIIndicatorBadge from '@/features/landing/components/MaxAIIndicatorBadge'
 import useBrowserAgent from '@/hooks/useBrowserAgent'
 import { IUseShareTrackerLinkProps } from '@/hooks/useShareTrackerLink'
 import CTAInstallButton from '@/page_components/CTAInstallButton'
+
 interface IProps {
   propRef?: string
   title?: React.ReactNode
@@ -111,8 +109,7 @@ const HeroSection: FC<IProps> = ({
               ]}
             >
               {showIndicatorBadge && (
-                <IndicatorContent
-                  isABTestAddNewAndNewSort={true}
+                <MaxAIIndicatorBadge
                   sx={{
                     mb: 3,
                   }}
@@ -316,119 +313,5 @@ const DescriptionSkeleton = () => {
       <Skeleton height={27} />
       <Skeleton height={27} />
     </Box>
-  )
-}
-
-interface IIndicatorContentProps {
-  sx?: SxProps
-  isABTestAddNewAndNewSort?: boolean
-}
-const IndicatorContent: FC<IIndicatorContentProps> = ({
-  sx,
-  isABTestAddNewAndNewSort = false,
-}) => {
-  const { t } = useTranslation()
-  return (
-    <Stack
-      direction={isABTestAddNewAndNewSort ? 'row-reverse' : 'row'}
-      alignItems={'center'}
-      justifyContent='center'
-      gap={{
-        xs: 1,
-        sm: 3,
-      }}
-      flexWrap={'wrap'}
-      sx={{
-        ...sx,
-      }}
-    >
-      <A16zTop50AppsBadge
-        sx={
-          isABTestAddNewAndNewSort
-            ? {
-                color: 'text.secondary',
-              }
-            : undefined
-        }
-      />
-      <IndicatorDecorator>
-        <Stack justifyContent={'center'} alignItems='center'>
-          <Typography
-            variant='custom'
-            fontSize={{
-              xs: 20,
-              sm: 24,
-            }}
-            fontWeight={700}
-            color='primary.main'
-          >
-            {LOVED_BY_NUM}
-          </Typography>
-          <Typography
-            variant='custom'
-            fontSize={{
-              xs: 14,
-              sm: 16,
-            }}
-            color={isABTestAddNewAndNewSort ? 'text.secondary' : undefined}
-          >
-            {t('pages:home_page__hero_section__indicator2_label')}
-          </Typography>
-        </Stack>
-      </IndicatorDecorator>
-      <IndicatorDecorator>
-        <Stack justifyContent={'center'} alignItems='center'>
-          <Typography
-            variant='custom'
-            fontSize={{
-              xs: 20,
-              sm: 24,
-            }}
-            fontWeight={700}
-            color='primary.main'
-          >
-            {STAR_RATINGS_NUM}
-          </Typography>
-          <Typography
-            variant='custom'
-            fontSize={{
-              xs: 14,
-              sm: 16,
-            }}
-            color={isABTestAddNewAndNewSort ? 'text.secondary' : undefined}
-          >
-            {t('pages:home_page__hero_section__indicator3_label')}
-          </Typography>
-        </Stack>
-      </IndicatorDecorator>
-      {isABTestAddNewAndNewSort && (
-        <IndicatorDecorator>
-          <Stack justifyContent={'center'} alignItems='center'>
-            <Typography
-              variant='custom'
-              fontSize={{
-                xs: 20,
-                sm: 24,
-              }}
-              fontWeight={700}
-              color='primary.main'
-            >
-              4.8/5
-            </Typography>
-            <Stack flexDirection='row'>
-              {[...Array(5)].map((_, index) => (
-                <StarIcon
-                  key={index}
-                  sx={{
-                    fontSize: 16,
-                    color: '#ffb000',
-                  }}
-                />
-              ))}
-            </Stack>
-          </Stack>
-        </IndicatorDecorator>
-      )}
-    </Stack>
   )
 }

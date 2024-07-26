@@ -3,9 +3,7 @@ import { Box, Button, Stack, Typography } from '@mui/material'
 import { useTranslation } from 'next-i18next'
 import React from 'react'
 
-import A16zTop50AppsBadge from '@/features/landing/components/HeroSection/A16zTop50AppsBadge'
-import IndicatorDecorator from '@/features/landing/components/IndicatorDecorator'
-import { LOVED_BY_NUM, STAR_RATINGS_NUM } from '@/features/landing/constants'
+import MaxAIIndicatorBadge from '@/features/landing/components/MaxAIIndicatorBadge'
 import { AFFILIATE_PROGRAM_SIGN_UP_LINK } from '@/page_components/AffiliatePages/constant'
 
 const AffiliateHeroSection = () => {
@@ -13,98 +11,12 @@ const AffiliateHeroSection = () => {
   return (
     <Box pt={4} pb={9}>
       <Box maxWidth={1312} mx='auto' px={2}>
-        <Stack
-          direction={'row'}
-          alignItems='center'
-          justifyContent={'center'}
-          flexWrap={'wrap'}
-          gap={{
-            xs: 1.5,
-            sm: 3,
+        <MaxAIIndicatorBadge
+          sx={{
+            mb: 3,
           }}
-          mb={4}
-        >
-          <A16zTop50AppsBadge />
-          <IndicatorDecorator>
-            <Stack justifyContent={'center'} alignItems='center'>
-              <Typography
-                variant='custom'
-                fontSize={{
-                  xs: 20,
-                  sm: 24,
-                }}
-                fontWeight={700}
-                color='primary.main'
-              >
-                {LOVED_BY_NUM}
-              </Typography>
-              <Typography
-                variant='custom'
-                fontSize={{
-                  xs: 14,
-                  sm: 16,
-                }}
-              >
-                {t('pages:home_page__hero_section__indicator2_label')}
-              </Typography>
-            </Stack>
-          </IndicatorDecorator>
-          <IndicatorDecorator>
-            <Stack justifyContent={'center'} alignItems='center'>
-              <Typography
-                variant='custom'
-                fontSize={{
-                  xs: 20,
-                  sm: 24,
-                }}
-                fontWeight={700}
-                color='primary.main'
-              >
-                {STAR_RATINGS_NUM}
-              </Typography>
-              <Typography
-                variant='custom'
-                fontSize={{
-                  xs: 14,
-                  sm: 16,
-                }}
-              >
-                {t('pages:home_page__hero_section__indicator3_label')}
-              </Typography>
-            </Stack>
-          </IndicatorDecorator>
-          <IndicatorDecorator>
-            <Stack
-              justifyContent={'center'}
-              alignItems='center'
-              component={'a'}
-              href={'https://www.producthunt.com/posts/use-chatgpt'}
-              target={'_blank'}
-              color='text.primary'
-            >
-              <Typography
-                variant='custom'
-                fontSize={{
-                  xs: 20,
-                  sm: 24,
-                }}
-                fontWeight={700}
-                color='primary.main'
-              >
-                {t('affiliate:hero_section__indicator__label')}
-              </Typography>
-              <Typography
-                variant='custom'
-                fontSize={{
-                  xs: 14,
-                  sm: 16,
-                }}
-              >
-                Product Hunt
-              </Typography>
-            </Stack>
-          </IndicatorDecorator>
-        </Stack>
+        />
+
         <Box
           pt={9}
           pb={12}
