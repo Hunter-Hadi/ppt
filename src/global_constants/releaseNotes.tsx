@@ -1,5 +1,30 @@
 export const MAXAI_RELEASE_NOTES = [
   {
+    version: '4.8.0',
+    date: '2024-07-28',
+
+    content: [
+      {
+        title: 'Introducing Llama-3.1-405B on MaxAI.me',
+        lists: [
+          {
+            module: 'Access Llama-3.1-405B',
+            desc: 'Meta\'s flagship foundation model driving the widest variety of use cases. The world\'s largest open source AI model with frontier-level capabilities. Expanded context length of 128K tokens for advanced use cases. State-of-the-art performance in general knowledge, steerability, and math. Multilingual support across 8 languages.',
+          },
+        ],
+      },
+      {
+        title: 'Introducing Llama-3.1-70B on MaxAI.me',
+        lists: [
+          {
+            module: 'Access Llama-3.1-70B',
+            desc: 'Meta\'s highly performant model that enables diverse use cases. Longer context length of 128K, state-of-the-art tool use, and overall stronger reasoning capabilities. Ideal for advanced use cases like long-form text summarization, multilingual conversational agents, and coding assistants.',
+          },
+        ],
+      },
+    ],
+  },
+  {
     version: '4.7.0',
     date: '2024-07-26',
 
