@@ -755,7 +755,7 @@ export const allPdfToolsDetailDescriptionObject: {
       },
     ],
     operatingInstructions: {
-      iconName: 'NumberPages',
+      iconName: 'UnlockPDF',
       operationSteps: {
         title:
           'pages__pdf_tools__unlock_pdf:detail_description_object__unlock_pdf__bottom_right_title',

@@ -163,7 +163,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     urlPrefixPath: toolsTopUrlKey,
   },
   'unlock-pdf': {
-    icon: 'NumberPages',
+    icon: 'UnlockPDF',
     title: 'pages__pdf_tools__unlock_pdf:title',
     description: 'pages__pdf_tools__unlock_pdf:description',
     secondaryDescription: 'pages__pdf_tools__unlock_pdf:description',
