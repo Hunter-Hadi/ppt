@@ -12,11 +12,7 @@ import React from 'react'
 
 import FooterList from '@/components/Footerlist'
 import ProLink from '@/components/ProLink'
-import {
-  APP_EXTERNAL_LINKS,
-  APP_PROJECT_LINK,
-  WWW_PROJECT_LINK,
-} from '@/global_constants'
+import { APP_EXTERNAL_LINKS, APP_PROJECT_LINK } from '@/global_constants'
 import AppLogo from '@/page_components/AppLogo'
 import usePdfToolPathname from '@/page_components/PdfToolsPages/hooks/usePdfToolPathname'
 
@@ -195,7 +191,7 @@ const AppFooter = () => {
                     {
                       label: t('app_footer:resource__learning_center__label'),
                       icon: null,
-                      link: `${WWW_PROJECT_LINK}/docs/help/`,
+                      link: `https://www.maxai.me/docs/help/`,
                     },
                     {
                       label: t('modules:footer__how_to_use'),
