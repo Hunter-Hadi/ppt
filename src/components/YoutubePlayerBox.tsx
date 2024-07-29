@@ -1,8 +1,11 @@
 import { Box, CircularProgress, Stack, SxProps } from '@mui/material'
 import React, { FC, useMemo, useState } from 'react'
 
+import ResponsiveImage from '@/components/ResponsiveImage'
+
 interface IProps {
   youtubeLink: string
+  videoPosterUrl?: string
   borderRadius?: number
   sx?: SxProps
   loop?: boolean
@@ -13,6 +16,7 @@ interface IProps {
 
 const YoutubePlayerBox: FC<IProps> = ({
   youtubeLink,
+  videoPosterUrl,
   borderRadius = 16,
   sx,
   autoplay,
@@ -80,7 +84,16 @@ const YoutubePlayerBox: FC<IProps> = ({
             borderRadius: 2,
           }}
         >
-          <CircularProgress size={30} sx={{ m: '0 auto' }} />
+          {videoPosterUrl ? (
+            <ResponsiveImage
+              width={1280}
+              height={720}
+              alt='Hero video cover'
+              src={videoPosterUrl}
+            />
+          ) : (
+            <CircularProgress size={30} sx={{ m: '0 auto' }} />
+          )}
         </Stack>
       )}
 

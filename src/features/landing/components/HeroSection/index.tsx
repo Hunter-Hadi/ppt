@@ -308,6 +308,7 @@ const HeroSection: FC<IProps> = ({
                 {variant === 'youtube_video' ? (
                   <HeroVideoBox
                     videoSrc={`https://www.youtube.com/embed/XfiZMwAD_KU?si=2augGW9ea-vZzJK6`}
+                    videoPosterUrl={`/assets/landing/hero-section/video-cover.png`}
                     variant={'youtube-autoplay'}
                   />
                 ) : (

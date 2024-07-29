@@ -139,6 +139,7 @@ const HeroVideoBox: FC<IHeroVideoProps> = ({
       >
         <YoutubePlayerBox
           youtubeLink={videoSrc}
+          videoPosterUrl={videoPosterUrl}
           autoplay
           loop
           borderRadius={12}
