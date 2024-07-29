@@ -10,7 +10,7 @@ import pdfToolsKeyI18nMap from '../src/page_components/PdfToolsPages/constant/pd
 
 const localeCode = Object.keys(languageCodeMap)
 
-const IS_PROD = true
+const IS_DEBUG = true
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
@@ -199,6 +199,7 @@ async function generatePromptsPages() {
   }
 }
 
+// 获取 pdf tools 页面
 async function generatePdfToolsPages() {
   const pdfToolsPages = []
 
@@ -255,21 +256,29 @@ function addHrefLangToSitemap(propPath) {
 
   if (propPath.startsWith(CHAT_PDF_PROXY_BASE_PATH)) {
     localeCodes.forEach((locale) => {
-      hrefLangs += `<xhtml:link rel="alternate" hreflang="${locale}" href="${wwwDomain}${CHAT_PDF_PROXY_BASE_PATH}/${locale}" />`
+      hrefLangs += `<xhtml:link rel="alternate" hreflang="${locale}" href="${wwwDomain}${CHAT_PDF_PROXY_BASE_PATH}/${locale}" />${
+        IS_DEBUG ? '\n' : ''
+      }`
     })
   } else if (propPath.startsWith(AI_SEARCH_PROXY_BASE_PATH)) {
     localeCodes.forEach((locale) => {
-      hrefLangs += `<xhtml:link rel="alternate" hreflang="${locale}" href="${wwwDomain}${AI_SEARCH_PROXY_BASE_PATH}/${locale}" />`
+      hrefLangs += `<xhtml:link rel="alternate" hreflang="${locale}" href="${wwwDomain}${AI_SEARCH_PROXY_BASE_PATH}/${locale}" />${
+        IS_DEBUG ? '\n' : ''
+      }`
     })
   } else if (propPath.startsWith(PROMPT_LIBRARY_PROXY_BASE_PATH)) {
     const pathname = url.replace(PROMPT_LIBRARY_PROXY_BASE_PATH, '')
 
     localeCodes.forEach((locale) => {
-      hrefLangs += `<xhtml:link rel="alternate" hreflang="${locale}" href="${wwwDomain}${PROMPT_LIBRARY_PROXY_BASE_PATH}/${locale}${pathname}" />`
+      hrefLangs += `<xhtml:link rel="alternate" hreflang="${locale}" href="${wwwDomain}${PROMPT_LIBRARY_PROXY_BASE_PATH}/${locale}${pathname}" />${
+        IS_DEBUG ? '\n' : ''
+      }`
     })
   } else {
     localeCodes.forEach((locale) => {
-      hrefLangs += `<xhtml:link rel="alternate" hreflang="${locale}" href="${wwwDomain}/${locale}${url}" />`
+      hrefLangs += `<xhtml:link rel="alternate" hreflang="${locale}" href="${wwwDomain}/${locale}${url}" />${
+        IS_DEBUG ? '\n' : ''
+      }`
     })
   }
 
@@ -288,7 +297,7 @@ function generateSitemap(
     let urlTagString = ``
     let sitemapContentTemplate = ``
 
-    if (IS_PROD) {
+    if (!IS_DEBUG) {
       sitemapContentTemplate = `<?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.w3.org/1999/xhtml http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">{{TEMPLATE}}</urlset>`
       pages.forEach((page) => {

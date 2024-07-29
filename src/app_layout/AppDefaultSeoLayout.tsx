@@ -1,26 +1,28 @@
-import { useRouter } from 'next/router';
-import { useTranslation } from 'next-i18next';
-import { DefaultSeo, DefaultSeoProps } from 'next-seo';
-import React, { FC, useMemo } from 'react';
+import { useRouter } from 'next/router'
+import { useTranslation } from 'next-i18next'
+import { DefaultSeo, DefaultSeoProps } from 'next-seo'
+import React, { FC, useMemo } from 'react'
+
+import { WWW_PROJECT_LINK } from '@/global_constants'
 
 interface IAppDefaultSeoProps extends DefaultSeoProps {
-  socialImage?: string;
+  socialImage?: string
 }
 
 const AppDefaultSeoLayout: FC<Partial<IAppDefaultSeoProps>> = (props) => {
-  const router = useRouter();
-  const { t } = useTranslation();
-  const { title, description, openGraph, socialImage, ...rest } = props;
+  const router = useRouter()
+  const { t } = useTranslation()
+  const { title, description, openGraph, socialImage, ...rest } = props
   /**
    * SEO默认值
    */
   const defaultSeoConfig: DefaultSeoProps = useMemo(() => {
-    const DEFAULT_TITLE = t('seo:default__title');
-    const DEFAULT_DESCRIPTION = t('seo:default__description');
+    const DEFAULT_TITLE = t('seo:default__title')
+    const DEFAULT_DESCRIPTION = t('seo:default__description')
     return {
       title: title ?? DEFAULT_TITLE,
       description: description ?? DEFAULT_DESCRIPTION,
-      canonical: rest.canonical || 'https://www.maxai.me',
+      canonical: rest.canonical || `${WWW_PROJECT_LINK}`,
       openGraph: {
         site_name: 'MaxAI.me',
         title: title ?? DEFAULT_TITLE,
@@ -64,26 +66,34 @@ const AppDefaultSeoLayout: FC<Partial<IAppDefaultSeoProps>> = (props) => {
           color: '#1D56D7',
         },
       ],
-    };
-  }, [title, description, socialImage, rest.canonical, t]);
-  const canonicalUrl = rest.canonical
-    ? rest.canonical
-    : `${defaultSeoConfig.canonical}${
-        router?.asPath === '/' ? '/' : router?.asPath
-      }`.split(/[?#]/)[0];
+    }
+  }, [title, description, socialImage, rest.canonical, t])
+
+  const canonicalUrl = useMemo(() => {
+    if (rest.canonical) {
+      return rest.canonical
+    }
+
+    let url = `${defaultSeoConfig.canonical}${
+      router?.asPath === '/' ? '/' : router?.asPath
+    }`.split(/[?#]/)[0]
+
+    url = url.replace(/\/en\//, '/')
+
+    return url
+  }, [rest.canonical, defaultSeoConfig.canonical, router?.asPath])
+
   if (defaultSeoConfig.openGraph) {
     if (openGraph) {
       defaultSeoConfig.openGraph = {
         ...defaultSeoConfig.openGraph,
         ...openGraph,
-      };
+      }
     }
     if (!defaultSeoConfig.openGraph.url) {
-      defaultSeoConfig.openGraph.url = canonicalUrl;
+      defaultSeoConfig.openGraph.url = canonicalUrl
     }
   }
-  return (
-    <DefaultSeo {...defaultSeoConfig} {...rest} canonical={canonicalUrl} />
-  );
-};
-export default AppDefaultSeoLayout;
+  return <DefaultSeo {...defaultSeoConfig} {...rest} canonical={canonicalUrl} />
+}
+export default AppDefaultSeoLayout
