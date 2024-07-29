@@ -17,21 +17,18 @@ const HOST_CONFIG = {
 }
 
 function getHostConfig() {
+  const node_env = String(process.env.NEXT_PUBLIC_ENV || 'dev')
+
+  let WWW_PROJECT_HOST = HOST_CONFIG[node_env].wwwProjectHost
+  let APP_PROJECT_HOST = HOST_CONFIG[node_env].appProjectHost
+  const API_PROJECT_HOST = HOST_CONFIG[node_env].appProjectAPIHost
+
   // 是否是本地开发环境
   const isDevelopment = process.env.NODE_ENV === 'development'
   if (isDevelopment) {
-    return {
-      WWW_PROJECT_HOST: 'http://localhost:3001',
-      APP_PROJECT_HOST: 'http://localhost:3000',
-      API_PROJECT_HOST: 'https://dev.maxai.me',
-    }
+    WWW_PROJECT_HOST = 'http://localhost:3001'
+    APP_PROJECT_HOST = 'http://localhost:3000'
   }
-
-  const node_env = String(process.env.NEXT_PUBLIC_ENV || 'dev')
-
-  const WWW_PROJECT_HOST = HOST_CONFIG[node_env].wwwProjectHost
-  const APP_PROJECT_HOST = HOST_CONFIG[node_env].appProjectHost
-  const API_PROJECT_HOST = HOST_CONFIG[node_env].appProjectAPIHost
 
   return {
     WWW_PROJECT_HOST,
