@@ -1740,5 +1740,39 @@
     "upgrade_alert__cta_txt": "Tarayıcı Uzantı Yöneticisini Ziyaret Edin",
     "extension_detection_alert__desc": "Bu özelliği kullanmaya devam etmek için lütfen en iyi işlevsellik için Chrome uzantımızı yükleyin.",
     "mobile_alert__desc": "AI araması şu anda yalnızca masaüstü veya dizüstü tarayıcılarda desteklenmektedir. Mobil destek yakında gelecek. Şu anda lütfen bir masaüstü veya dizüstü bilgisayara geçin."
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "PDF Kilidini Aç",
+    "description": "PDF'nizden şifre, şifreleme ve izinleri kaldırın",
+    "seo_title": "PDF Kilidini Aç - Ücretsiz Olarak PDF Dosyalarından Şifreyi Kaldır | MaxAI.me",
+    "seo_description": "Ücretsiz olarak çevrimiçi PDF dosyalarından şifre korumasını kolayca kaldırın. Filigranlar, dosya boyutu sınırları, indirmeler veya kayıtlar gerektirilmez.",
+    "detail_description_object__unlock_pdf__top_left": "Şifreleri kaldırarak PDF dosyalarınızı ücretsiz çevrimiçi olarak kolayca kilidini açın. Kilidini açma aracımızla dosyalarınız her zaman yerel kalacak, gizliliği sağlayacak ve dosya boyutu sınırları olmayacak.",
+    "detail_description_object__unlock_pdf__top_right_1": "Hızlıca PDF dosyalarını kilidini açın.",
+    "detail_description_object__unlock_pdf__top_right_2": "Başlamak için sadece PDF dosyalarınızı yükleyin.",
+    "detail_description_object__unlock_pdf__top_right_3": "Mac, Windows, Android ve iOS ile uyumludur.",
+    "detail_description_object__unlock_pdf__middle_1_title": "PDF'leri Kilidini Açmak İçin Basit Çevrimiçi Aracı",
+    "detail_description_object__unlock_pdf__middle_1_description": "PDF kilidini açma aracımız, PDF dosyalarından şifre korumasını hızlıca kaldırmanıza olanak tanır. Dosyanızı yükleyin, şifreyi girin ve kilidini açılmış PDF'yi indirin. İnanılmaz derecede kolay, tamamen ücretsiz ve hesap kaydı gerekmez.",
+    "detail_description_object__unlock_pdf__middle_2_title": "Yerel Güvenli PDF Kilidi Açma",
+    "detail_description_object__unlock_pdf__middle_2_description": "Yüklediğiniz tüm dosyalar tarayıcınızda doğrudan işlenir, tam gizliliği sağlar. Dosyalar hiçbir şekilde buluta yüklenmez, veri güvenliğini garanti eder.",
+    "detail_description_object__unlock_pdf__middle_3_title": "Çapraz Platform Uyumluluğu",
+    "detail_description_object__unlock_pdf__middle_3_description": "PDF kilidini açma aracımız tarayıcı tabanlıdır, bu da Mac, Windows ve Linux ile birlikte mobil cihazlarda sorunsuz çalıştığı anlamına gelir. PDF dosyalarınızı her yerden kolayca kilidini açabilirsiniz.",
+    "detail_description_object__unlock_pdf__middle_4_title": "Kolay İşlem Süreci",
+    "detail_description_object__unlock_pdf__middle_4_description": "PDF dosyalarınızın kilidini açmak basittir: dosyayı yükleyin, şifreyi girin ve ardından kilidini açılmış sürümü indirin. Hatta acemi kullanıcılar bile bu süreci kolayca öğrenebilir.",
+    "detail_description_object__unlock_pdf__middle_5_title": "Güvenilir PDF Kilidi Açma Aracı",
+    "detail_description_object__unlock_pdf__middle_5_description": "PDF dosyalarını kilidini açmak için pahalı yazılımlar satın almanıza gerek yok. PDF kilidini açma aracımız bulut işlemine gerek olmadan çevrimiçi ücretsiz olarak kullanılabilir, dosyalarınızın ve verilerinizin her zaman güvende olmasını sağlar.",
+    "detail_description_object__unlock_pdf__middle_6_title": "Geliştirilmiş Güvenlik İçin Yerel İşleme",
+    "detail_description_object__unlock_pdf__middle_6_description": "Hizmetimiz, tüm işlemlerin yerel olarak gerçekleştirildiğinden emin olur. Bu temel özellik güvenliği artırır ve işleme süresini azaltır, dosyalarınızın her zaman korunmasını sağlar.",
+    "detail_description_object__unlock_pdf__bottom_right_title": "PDF Dosyalarını Çevrimiçi Olarak Nasıl Kilidini Açarsınız:",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "Kilidini açmak istediğiniz PDF dosyasını yükleyin.",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "Bilinen PDF dosyası için şifreyi girin.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Kilidini açmayı onaylamak için 'Kilidi Aç' düğmesine tıklayın.",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Kilidi açıldıktan sonra PDF dosyalarınıza herhangi bir cihazda özgürce erişebilir ve düzenleyebilirsiniz."
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "PDF'nizi kilidini açmak için şifreyi girin",
+    "components__unlock_pdf_detail_input_placeholder": "Şifre",
+    "components__unlock_pdf_detail__button__unlock": "Kilidi Aç",
+    "components__unlock_pdf_detail__button__convert": "Başka bir dosyaya dönüştür",
+    "components__unlock_pdf_detail__incorrect_password_tips": "Yanlış şifre"
   }
 }

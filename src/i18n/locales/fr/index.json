@@ -1740,5 +1740,39 @@
     "upgrade_alert__cta_txt": "Visitez le Gestionnaire d'extensions de navigateur",
     "extension_detection_alert__desc": "Pour continuer à utiliser cette fonctionnalité, veuillez installer notre extension Chrome pour une fonctionnalité optimale.",
     "mobile_alert__desc": "La recherche IA est actuellement uniquement prise en charge sur les navigateurs de bureau ou portables. Le support mobile arrive bientôt. Pour l'instant, veuillez passer à un ordinateur de bureau ou portable."
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "Déverrouiller PDF",
+    "description": "Supprimer le mot de passe, le cryptage et les autorisations de votre PDF",
+    "seo_title": "Déverrouiller PDF - Supprimer le mot de passe des fichiers PDF en ligne gratuitement | MaxAI.me",
+    "seo_description": "Supprimez facilement la protection par mot de passe des fichiers PDF en ligne gratuitement. Aucun filigrane, limite de taille de fichier, téléchargement ou inscription n'est requis.",
+    "detail_description_object__unlock_pdf__top_left": "Déverrouillez facilement des fichiers PDF en ligne gratuitement en supprimant les mots de passe. Avec notre outil de déverrouillage, vos fichiers resteront toujours locaux, garantissant la confidentialité, et il n'y a pas de limite de taille de fichier.",
+    "detail_description_object__unlock_pdf__top_right_1": "Déverrouillez rapidement des fichiers PDF en quelques secondes.",
+    "detail_description_object__unlock_pdf__top_right_2": "Il vous suffit de télécharger vos fichiers PDF pour commencer.",
+    "detail_description_object__unlock_pdf__top_right_3": "Compatible avec Mac, Windows, Android et iOS.",
+    "detail_description_object__unlock_pdf__middle_1_title": "Outil en ligne simple pour déverrouiller des PDF",
+    "detail_description_object__unlock_pdf__middle_1_description": "Notre outil de déverrouillage de PDF vous permet de supprimer rapidement la protection par mot de passe des fichiers PDF. Il vous suffit de télécharger votre fichier, de saisir le mot de passe et de télécharger le PDF déverrouillé. C'est incroyablement facile, totalement gratuit et aucune inscription n'est requise.",
+    "detail_description_object__unlock_pdf__middle_2_title": "Déverrouillage de PDF en toute sécurité localement",
+    "detail_description_object__unlock_pdf__middle_2_description": "Tous les fichiers que vous téléchargez sont traités directement dans votre navigateur, garantissant une confidentialité totale. Aucun fichier n'est téléchargé sur le cloud, garantissant la sécurité des données.",
+    "detail_description_object__unlock_pdf__middle_3_title": "Compatibilité multiplateforme",
+    "detail_description_object__unlock_pdf__middle_3_description": "Notre outil de déverrouillage de PDF est basé sur le navigateur, ce qui signifie qu'il fonctionne parfaitement sur Mac, Windows et Linux, ainsi que sur les appareils mobiles. Vous pouvez facilement déverrouiller vos fichiers PDF de n'importe où.",
+    "detail_description_object__unlock_pdf__middle_4_title": "Processus d'opération simple",
+    "detail_description_object__unlock_pdf__middle_4_description": "Déverrouiller vos fichiers PDF est simple : téléchargez le fichier, saisissez le mot de passe, puis téléchargez la version déverrouillée. Même les débutants peuvent maîtriser ce processus sans effort.",
+    "detail_description_object__unlock_pdf__middle_5_title": "Outil fiable de déverrouillage de PDF",
+    "detail_description_object__unlock_pdf__middle_5_description": "Pas besoin d'acheter un logiciel coûteux pour déverrouiller des fichiers PDF. Notre outil de déverrouillage de PDF est disponible gratuitement en ligne sans traitement cloud, garantissant que vos fichiers et données sont toujours sécurisés.",
+    "detail_description_object__unlock_pdf__middle_6_title": "Traitement local pour une sécurité renforcée",
+    "detail_description_object__unlock_pdf__middle_6_description": "Notre service de déverrouillage garantit que toutes les opérations sont effectuées localement. Cette fonctionnalité clé renforce la sécurité et réduit le temps de traitement, garantissant que vos fichiers sont toujours protégés.",
+    "detail_description_object__unlock_pdf__bottom_right_title": "Comment déverrouiller des fichiers PDF en ligne :",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "Téléchargez le fichier PDF que vous souhaitez déverrouiller.",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "Saisissez le mot de passe du fichier PDF que vous connaissez.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Cliquez sur 'Confirmer le déverrouillage' pour télécharger le fichier PDF déverrouillé.",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Une fois déverrouillé, vous pouvez librement accéder et modifier vos fichiers PDF sur n'importe quel appareil."
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "Veuillez saisir le mot de passe pour déverrouiller votre PDF",
+    "components__unlock_pdf_detail_input_placeholder": "Mot de passe",
+    "components__unlock_pdf_detail__button__unlock": "Déverrouiller",
+    "components__unlock_pdf_detail__button__convert": "Convertir un autre",
+    "components__unlock_pdf_detail__incorrect_password_tips": "Mot de passe incorrect"
   }
 }

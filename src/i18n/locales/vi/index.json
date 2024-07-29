@@ -1740,5 +1740,39 @@
     "upgrade_alert__cta_txt": "Truy cập Trình quản lý Tiện ích Trình duyệt",
     "extension_detection_alert__desc": "Để tiếp tục sử dụng tính năng này, vui lòng cài đặt tiện ích mở rộng Chrome của chúng tôi để có hiệu suất tối ưu.",
     "mobile_alert__desc": "Tìm kiếm AI hiện chỉ được hỗ trợ trên trình duyệt máy tính hoặc laptop. Hỗ trợ di động sẽ sớm ra mắt. Trong lúc đó, vui lòng chuyển sang máy tính để bàn hoặc laptop."
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "Mở khóa PDF",
+    "description": "Xóa mật khẩu, mã hóa và quyền từ tập tin PDF của bạn",
+    "seo_title": "Mở khóa PDF - Xóa Mật Khẩu từ Tập Tin PDF Trực Tuyến Miễn Phí | MaxAI.me",
+    "seo_description": "Dễ dàng loại bỏ bảo vệ mật khẩu từ tập tin PDF trực tuyến miễn phí. Không cần dấu nước, giới hạn kích thước tập tin, tải xuống hoặc đăng ký.",
+    "detail_description_object__unlock_pdf__top_left": "Dễ dàng mở khóa tập tin PDF trực tuyến miễn phí bằng cách loại bỏ mật khẩu. Với công cụ mở khóa của chúng tôi, tập tin của bạn sẽ luôn ở cục bộ, đảm bảo quyền riêng tư, và không có giới hạn kích thước tập tin.",
+    "detail_description_object__unlock_pdf__top_right_1": "Nhanh chóng mở khóa tập tin PDF chỉ trong vài giây.",
+    "detail_description_object__unlock_pdf__top_right_2": "Chỉ cần tải lên tập tin PDF của bạn để bắt đầu.",
+    "detail_description_object__unlock_pdf__top_right_3": "Tương thích với Mac, Windows, Android và iOS.",
+    "detail_description_object__unlock_pdf__middle_1_title": "Công cụ Trực Tuyến Đơn Giản để Mở Khóa PDF",
+    "detail_description_object__unlock_pdf__middle_1_description": "Công cụ mở khóa PDF của chúng tôi cho phép bạn loại bỏ bảo vệ mật khẩu từ tập tin PDF một cách nhanh chóng. Chỉ cần tải lên tập tin của bạn, nhập mật khẩu, và tải xuống tập tin PDF đã mở khóa. Rất dễ dàng, hoàn toàn miễn phí, và không cần đăng ký tài khoản.",
+    "detail_description_object__unlock_pdf__middle_2_title": "Mở Khóa PDF An Toàn Cục Bộ",
+    "detail_description_object__unlock_pdf__middle_2_description": "Tất cả các tập tin bạn tải lên được xử lý trực tiếp trong trình duyệt của bạn, đảm bảo quyền riêng tư hoàn toàn. Không có tập tin nào được tải lên đám mây, đảm bảo an toàn dữ liệu.",
+    "detail_description_object__unlock_pdf__middle_3_title": "Tương Thích Trên Nhiều Nền Tảng",
+    "detail_description_object__unlock_pdf__middle_3_description": "Công cụ mở khóa PDF của chúng tôi dựa trên trình duyệt, có nghĩa là nó hoạt động mượt mà trên Mac, Windows và Linux, cũng như trên thiết bị di động. Bạn có thể dễ dàng mở khóa tập tin PDF của mình từ bất kỳ đâu.",
+    "detail_description_object__unlock_pdf__middle_4_title": "Quy Trình Vận Hành Dễ Dàng",
+    "detail_description_object__unlock_pdf__middle_4_description": "Mở khóa tập tin PDF của bạn rất đơn giản: tải lên tập tin, nhập mật khẩu, và sau đó tải xuống phiên bản đã mở khóa. Ngay cả người mới bắt đầu cũng có thể làm chủ quy trình này một cách dễ dàng.",
+    "detail_description_object__unlock_pdf__middle_5_title": "Công Cụ Mở Khóa PDF Đáng Tin Cậy",
+    "detail_description_object__unlock_pdf__middle_5_description": "Không cần mua phần mềm đắt tiền để mở khóa tập tin PDF. Công cụ mở khóa PDF của chúng tôi có sẵn để sử dụng trực tuyến miễn phí mà không cần xử lý trên đám mây, đảm bảo tập tin và dữ liệu của bạn luôn an toàn.",
+    "detail_description_object__unlock_pdf__middle_6_title": "Xử Lý Cục Bộ để Tăng Cường Bảo Mật",
+    "detail_description_object__unlock_pdf__middle_6_description": "Dịch vụ mở khóa của chúng tôi đảm bảo rằng tất cả các hoạt động được thực hiện cục bộ. Tính năng chính này tăng cường bảo mật và giảm thời gian xử lý, đảm bảo tập tin của bạn luôn được bảo vệ.",
+    "detail_description_object__unlock_pdf__bottom_right_title": "Cách Mở Khóa Tập Tin PDF Trực Tuyến:",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "Tải lên tập tin PDF bạn muốn mở khóa.",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "Nhập mật khẩu cho tập tin PDF bạn biết.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Nhấp vào 'Xác Nhận Mở Khóa' để tải xuống tập tin PDF đã mở khóa.",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Sau khi mở khóa, bạn có thể truy cập và chỉnh sửa tập tin PDF của mình trên bất kỳ thiết bị nào."
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "Vui lòng nhập mật khẩu để mở khóa tập tin PDF của bạn",
+    "components__unlock_pdf_detail_input_placeholder": "Mật khẩu",
+    "components__unlock_pdf_detail__button__unlock": "Mở Khóa",
+    "components__unlock_pdf_detail__button__convert": "Chuyển đổi khác",
+    "components__unlock_pdf_detail__incorrect_password_tips": "Mật khẩu không chính xác"
   }
 }

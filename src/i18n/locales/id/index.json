@@ -1740,5 +1740,39 @@
     "upgrade_alert__cta_txt": "Kunjungi Pengelola Ekstensi Browser",
     "extension_detection_alert__desc": "Untuk terus menggunakan fitur ini, instal ekstensi Chrome kami untuk fungsionalitas optimal.",
     "mobile_alert__desc": "Pencarian AI saat ini hanya didukung pada browser desktop atau laptop. Dukungan seluler akan segera hadir. Untuk saat ini, silakan beralih ke desktop atau laptop."
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "Buka PDF",
+    "description": "Hapus sandi, enkripsi, dan izin dari PDF Anda",
+    "seo_title": "Buka PDF - Hapus Sandi dari Berkas PDF secara Online Gratis | MaxAI.me",
+    "seo_description": "Mudah menghapus perlindungan sandi dari berkas PDF secara online secara gratis. Tidak ada watermark, batasan ukuran berkas, unduhan, atau pendaftaran yang diperlukan.",
+    "detail_description_object__unlock_pdf__top_left": "Mudah membuka berkas PDF secara online secara gratis dengan menghapus sandi. Dengan alat pembukaan kami, berkas Anda akan selalu tetap lokal, memastikan privasi, dan tidak ada batasan ukuran berkas.",
+    "detail_description_object__unlock_pdf__top_right_1": "Buka berkas PDF dengan cepat dalam beberapa detik saja.",
+    "detail_description_object__unlock_pdf__top_right_2": "Cukup unggah berkas PDF Anda untuk memulai.",
+    "detail_description_object__unlock_pdf__top_right_3": "Kompatibel dengan Mac, Windows, Android, dan iOS.",
+    "detail_description_object__unlock_pdf__middle_1_title": "Alat Online Sederhana untuk Membuka PDF",
+    "detail_description_object__unlock_pdf__middle_1_description": "Alat pembukaan PDF kami memungkinkan Anda untuk menghapus perlindungan sandi dari berkas PDF dengan cepat. Cukup unggah berkas Anda, masukkan sandi, dan unduh PDF yang terbuka. Sangat mudah, benar-benar gratis, dan tidak diperlukan registrasi akun.",
+    "detail_description_object__unlock_pdf__middle_2_title": "Pembukaan PDF Aman Lokal",
+    "detail_description_object__unlock_pdf__middle_2_description": "Semua berkas yang Anda unggah diproses langsung di peramban Anda, memastikan privasi yang lengkap. Tidak ada berkas yang diunggah ke cloud, menjamin keamanan data.",
+    "detail_description_object__unlock_pdf__middle_3_title": "Kompatibilitas Lintas Platform",
+    "detail_description_object__unlock_pdf__middle_3_description": "Alat pembukaan PDF kami berbasis peramban, artinya berfungsi dengan lancar di Mac, Windows, dan Linux, serta perangkat seluler. Anda dapat dengan mudah membuka berkas PDF Anda dari mana saja.",
+    "detail_description_object__unlock_pdf__middle_4_title": "Proses Operasi Mudah",
+    "detail_description_object__unlock_pdf__middle_4_description": "Membuka berkas PDF Anda adalah hal yang sederhana: unggah berkas, masukkan sandi, dan kemudian unduh versi yang terbuka. Bahkan pemula pun dapat menguasai proses ini dengan mudah.",
+    "detail_description_object__unlock_pdf__middle_5_title": "Alat Pembukaan PDF yang Andal",
+    "detail_description_object__unlock_pdf__middle_5_description": "Tidak perlu membeli perangkat lunak mahal untuk membuka berkas PDF. Alat pembukaan PDF kami tersedia untuk penggunaan online gratis tanpa memerlukan pemrosesan cloud, memastikan berkas dan data Anda selalu aman.",
+    "detail_description_object__unlock_pdf__middle_6_title": "Pemrosesan Lokal untuk Keamanan yang Ditingkatkan",
+    "detail_description_object__unlock_pdf__middle_6_description": "Layanan pembukaan kami memastikan bahwa semua operasi dilakukan secara lokal. Fitur kunci ini meningkatkan keamanan dan mengurangi waktu pemrosesan, memastikan berkas Anda selalu terlindungi.",
+    "detail_description_object__unlock_pdf__bottom_right_title": "Cara Membuka Berkas PDF secara Online:",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "Unggah berkas PDF yang ingin Anda buka.",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "Masukkan sandi untuk berkas PDF yang Anda ketahui.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Klik 'Konfirmasi Buka' untuk mengunduh berkas PDF yang terbuka.",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Setelah dibuka, Anda dapat dengan bebas mengakses dan mengedit berkas PDF Anda di perangkat apa pun."
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "Silakan masukkan sandi untuk membuka PDF Anda",
+    "components__unlock_pdf_detail_input_placeholder": "Sandi",
+    "components__unlock_pdf_detail__button__unlock": "Buka",
+    "components__unlock_pdf_detail__button__convert": "Konversi lainnya",
+    "components__unlock_pdf_detail__incorrect_password_tips": "Sandi salah"
   }
 }

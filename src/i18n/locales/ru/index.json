@@ -1740,5 +1740,39 @@
     "upgrade_alert__cta_txt": "Посетите Менеджер расширений браузера",
     "extension_detection_alert__desc": "Чтобы продолжить использовать эту функцию, установите наше расширение для Chrome для оптимальной функциональности.",
     "mobile_alert__desc": "Поиск ИИ в настоящее время поддерживается только на настольных или ноутбуков. Поддержка мобильных устройств скоро появится. Пока что переключитесь на настольный или ноутбук."
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "Разблокировать PDF",
+    "description": "Удалите пароль, шифрование и разрешения из вашего PDF",
+    "seo_title": "Разблокировать PDF - Удалить пароль из PDF-файлов онлайн бесплатно | MaxAI.me",
+    "seo_description": "Легко удалите защиту паролем из PDF-файлов онлайн бесплатно. Не требуется водяные знаки, ограничения по размеру файла, загрузки или регистрации.",
+    "detail_description_object__unlock_pdf__top_left": "Легко разблокируйте PDF-файлы онлайн бесплатно, удалив пароли. С нашим инструментом разблокировки ваши файлы всегда останутся локальными, обеспечивая конфиденциальность, и нет ограничений по размеру файла.",
+    "detail_description_object__unlock_pdf__top_right_1": "Быстро разблокируйте PDF-файлы всего за несколько секунд.",
+    "detail_description_object__unlock_pdf__top_right_2": "Просто загрузите свои PDF-файлы, чтобы начать.",
+    "detail_description_object__unlock_pdf__top_right_3": "Совместим с Mac, Windows, Android и iOS.",
+    "detail_description_object__unlock_pdf__middle_1_title": "Простой онлайн инструмент для разблокировки PDF",
+    "detail_description_object__unlock_pdf__middle_1_description": "Наш инструмент для разблокировки PDF позволяет быстро удалить защиту паролем из PDF-файлов. Просто загрузите файл, введите пароль и загрузите разблокированный PDF. Это невероятно просто, полностью бесплатно, и не требуется регистрация учетной записи.",
+    "detail_description_object__unlock_pdf__middle_2_title": "Локальная безопасная разблокировка PDF",
+    "detail_description_object__unlock_pdf__middle_2_description": "Все загруженные вами файлы обрабатываются непосредственно в вашем браузере, обеспечивая полную конфиденциальность. Никакие файлы не загружаются в облако, гарантируя безопасность данных.",
+    "detail_description_object__unlock_pdf__middle_3_title": "Совместимость с различными платформами",
+    "detail_description_object__unlock_pdf__middle_3_description": "Наш инструмент для разблокировки PDF основан на браузере, что означает, что он отлично работает на Mac, Windows и Linux, а также на мобильных устройствах. Вы можете легко разблокировать свои PDF-файлы откуда угодно.",
+    "detail_description_object__unlock_pdf__middle_4_title": "Простой процесс операции",
+    "detail_description_object__unlock_pdf__middle_4_description": "Разблокировка ваших PDF-файлов проста: загрузите файл, введите пароль, а затем загрузите разблокированную версию. Даже новички могут легко освоить этот процесс.",
+    "detail_description_object__unlock_pdf__middle_5_title": "Надежный инструмент для разблокировки PDF",
+    "detail_description_object__unlock_pdf__middle_5_description": "Нет необходимости покупать дорогое программное обеспечение для разблокировки PDF-файлов. Наш инструмент для разблокировки PDF доступен для бесплатного онлайн использования без необходимости облачной обработки, обеспечивая безопасность ваших файлов и данных.",
+    "detail_description_object__unlock_pdf__middle_6_title": "Локальная обработка для повышения безопасности",
+    "detail_description_object__unlock_pdf__middle_6_description": "Наш сервис разблокировки гарантирует, что все операции выполняются локально. Эта ключевая функция повышает безопасность и сокращает время обработки, обеспечивая защиту ваших файлов.",
+    "detail_description_object__unlock_pdf__bottom_right_title": "Как разблокировать PDF-файлы онлайн:",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "Загрузите PDF-файл, который вы хотите разблокировать.",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "Введите пароль для PDF-файла, который вы знаете.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Нажмите «Подтвердить разблокировку», чтобы загрузить разблокированный PDF-файл.",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "После разблокировки вы можете свободно получить доступ и редактировать свои PDF-файлы на любом устройстве."
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "Пожалуйста, введите пароль для разблокировки вашего PDF",
+    "components__unlock_pdf_detail_input_placeholder": "Пароль",
+    "components__unlock_pdf_detail__button__unlock": "Разблокировать",
+    "components__unlock_pdf_detail__button__convert": "Преобразовать другой",
+    "components__unlock_pdf_detail__incorrect_password_tips": "Неверный пароль"
   }
 }

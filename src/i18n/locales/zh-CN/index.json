@@ -1740,5 +1740,39 @@
     "upgrade_alert__cta_txt": "访问浏览器扩展程序管理器",
     "extension_detection_alert__desc": "为继续使用此功能，请安装我们的 Chrome 扩展以获得最佳功能。",
     "mobile_alert__desc": "AI 搜索目前仅支持桌面或笔记本电脑浏览器。移动支持即将推出。目前，请切换至桌面或笔记本电脑。"
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "解锁PDF",
+    "description": "从您的PDF中删除密码、加密和权限",
+    "seo_title": "解锁PDF - 免费在线删除PDF文件密码 | MaxAI.me",
+    "seo_description": "轻松免费在线删除PDF文件的密码保护。无需水印、文件大小限制、下载或注册。",
+    "detail_description_object__unlock_pdf__top_left": "通过删除密码轻松免费在线解锁PDF文件。使用我们的解锁工具，您的文件将始终保留在本地，确保隐私，并且没有文件大小限制。",
+    "detail_description_object__unlock_pdf__top_right_1": "仅需几秒钟快速解锁PDF文件。",
+    "detail_description_object__unlock_pdf__top_right_2": "只需上传您的PDF文件即可开始。",
+    "detail_description_object__unlock_pdf__top_right_3": "与Mac、Windows、Android和iOS兼容。",
+    "detail_description_object__unlock_pdf__middle_1_title": "简单的在线解锁PDF工具",
+    "detail_description_object__unlock_pdf__middle_1_description": "我们的PDF解锁工具允许您快速从PDF文件中删除密码保护。只需上传文件，输入密码，然后下载解锁的PDF。非常简单，完全免费，无需注册帐户。",
+    "detail_description_object__unlock_pdf__middle_2_title": "本地安全的PDF解锁",
+    "detail_description_object__unlock_pdf__middle_2_description": "您上传的所有文件都直接在浏览器中处理，确保完全保密。不会上传文件到云端，保证数据安全。",
+    "detail_description_object__unlock_pdf__middle_3_title": "跨平台兼容性",
+    "detail_description_object__unlock_pdf__middle_3_description": "我们的PDF解锁工具基于浏览器，意味着它在Mac、Windows和Linux以及移动设备上都能无缝运行。您可以轻松从任何地方解锁PDF文件。",
+    "detail_description_object__unlock_pdf__middle_4_title": "简单的操作流程",
+    "detail_description_object__unlock_pdf__middle_4_description": "解锁PDF文件很简单：上传文件，输入密码，然后下载解锁版本。即使是初学者也能轻松掌握这个过程。",
+    "detail_description_object__unlock_pdf__middle_5_title": "可靠的PDF解锁工具",
+    "detail_description_object__unlock_pdf__middle_5_description": "无需购买昂贵的软件来解锁PDF文件。我们的PDF解锁工具可免费在线使用，无需云处理，确保您的文件和数据始终安全。",
+    "detail_description_object__unlock_pdf__middle_6_title": "本地处理以增强安全性",
+    "detail_description_object__unlock_pdf__middle_6_description": "我们的解锁服务确保所有操作在本地进行。这一关键功能增强了安全性，减少处理时间，确保您的文件始终受到保护。",
+    "detail_description_object__unlock_pdf__bottom_right_title": "如何在线解锁PDF文件：",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "上传要解锁的PDF文件。",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "输入您知道的PDF文件密码。",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "点击“确认解锁”以下载解锁的PDF文件。",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "解锁后，您可以在任何设备上自由访问和编辑您的PDF文件。"
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "请输入密码以解锁您的PDF",
+    "components__unlock_pdf_detail_input_placeholder": "密码",
+    "components__unlock_pdf_detail__button__unlock": "解锁",
+    "components__unlock_pdf_detail__button__convert": "转换另一个",
+    "components__unlock_pdf_detail__incorrect_password_tips": "密码错误"
   }
 }

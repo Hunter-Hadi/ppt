@@ -1740,5 +1740,39 @@
     "upgrade_alert__cta_txt": "Browser-Erweiterungs-Manager besuchen",
     "extension_detection_alert__desc": "Um diese Funktion weiterhin zu nutzen, installieren Sie bitte unsere Chrome-Erweiterung für optimale Funktionalität.",
     "mobile_alert__desc": "Die KI-Suche wird derzeit nur auf Desktop- oder Laptop-Browsern unterstützt. Die Unterstützung für Mobilgeräte kommt bald. Bitte wechseln Sie vorerst zu einem Desktop- oder Laptop."
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "PDF entsperren",
+    "description": "Entfernen Sie Passwort, Verschlüsselung und Berechtigungen von Ihrem PDF",
+    "seo_title": "PDF entsperren - Passwort aus PDF-Dateien online kostenlos entfernen | MaxAI.me",
+    "seo_description": "Entfernen Sie ganz einfach den Passwortschutz von PDF-Dateien online kostenlos. Keine Wasserzeichen, Dateigrößenbeschränkungen, Downloads oder Anmeldungen erforderlich.",
+    "detail_description_object__unlock_pdf__top_left": "Entsperren Sie PDF-Dateien online kostenlos, indem Sie Passwörter entfernen. Mit unserem Entsperrwerkzeug bleiben Ihre Dateien immer lokal, um die Privatsphäre zu gewährleisten, und es gibt keine Dateigrößenbeschränkungen.",
+    "detail_description_object__unlock_pdf__top_right_1": "Entsperren Sie PDF-Dateien in nur wenigen Sekunden.",
+    "detail_description_object__unlock_pdf__top_right_2": "Laden Sie einfach Ihre PDF-Dateien hoch, um zu beginnen.",
+    "detail_description_object__unlock_pdf__top_right_3": "Kompatibel mit Mac, Windows, Android und iOS.",
+    "detail_description_object__unlock_pdf__middle_1_title": "Einfaches Online-Tool zum Entsperren von PDFs",
+    "detail_description_object__unlock_pdf__middle_1_description": "Unser PDF-Entsperrwerkzeug ermöglicht es Ihnen, den Passwortschutz von PDF-Dateien schnell zu entfernen. Laden Sie einfach Ihre Datei hoch, geben Sie das Passwort ein und laden Sie das entsperrte PDF herunter. Es ist unglaublich einfach, völlig kostenlos und keine Kontoanmeldung erforderlich.",
+    "detail_description_object__unlock_pdf__middle_2_title": "Lokales sicheres Entsperren von PDFs",
+    "detail_description_object__unlock_pdf__middle_2_description": "Alle von Ihnen hochgeladenen Dateien werden direkt in Ihrem Browser verarbeitet, um die vollständige Privatsphäre zu gewährleisten. Keine Dateien werden in die Cloud hochgeladen, was die Datensicherheit garantiert.",
+    "detail_description_object__unlock_pdf__middle_3_title": "Plattformübergreifende Kompatibilität",
+    "detail_description_object__unlock_pdf__middle_3_description": "Unser PDF-Entsperrwerkzeug basiert auf dem Browser und funktioniert nahtlos auf Mac, Windows und Linux sowie auf mobilen Geräten. Sie können Ihre PDF-Dateien von überall aus einfach entsperren.",
+    "detail_description_object__unlock_pdf__middle_4_title": "Einfacher Betriebsprozess",
+    "detail_description_object__unlock_pdf__middle_4_description": "Das Entsperren Ihrer PDF-Dateien ist einfach: Laden Sie die Datei hoch, geben Sie das Passwort ein und laden Sie dann die entsperrte Version herunter. Selbst Anfänger können diesen Prozess mühelos meistern.",
+    "detail_description_object__unlock_pdf__middle_5_title": "Zuverlässiges PDF-Entsperrwerkzeug",
+    "detail_description_object__unlock_pdf__middle_5_description": "Es ist nicht erforderlich, teure Software zum Entsperren von PDF-Dateien zu kaufen. Unser PDF-Entsperrwerkzeug steht kostenlos zur Online-Nutzung zur Verfügung, ohne dass eine Cloud-Verarbeitung erforderlich ist, um sicherzustellen, dass Ihre Dateien und Daten immer sicher sind.",
+    "detail_description_object__unlock_pdf__middle_6_title": "Lokale Verarbeitung für erhöhte Sicherheit",
+    "detail_description_object__unlock_pdf__middle_6_description": "Unser Entsperrdienst stellt sicher, dass alle Operationen lokal durchgeführt werden. Dieses Schlüsselfeature erhöht die Sicherheit und reduziert die Verarbeitungszeit, um sicherzustellen, dass Ihre Dateien immer geschützt sind.",
+    "detail_description_object__unlock_pdf__bottom_right_title": "So entsperren Sie PDF-Dateien online:",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "Laden Sie die PDF-Datei hoch, die Sie entsperren möchten.",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "Geben Sie das Passwort für die PDF-Datei ein, das Sie kennen.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Klicken Sie auf 'Entsperrung bestätigen', um die entsperrte PDF-Datei herunterzuladen.",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Nach dem Entsperren können Sie auf Ihre PDF-Dateien auf jedem Gerät frei zugreifen und sie bearbeiten."
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "Bitte geben Sie das Passwort ein, um Ihr PDF zu entsperren",
+    "components__unlock_pdf_detail_input_placeholder": "Passwort",
+    "components__unlock_pdf_detail__button__unlock": "Entsperren",
+    "components__unlock_pdf_detail__button__convert": "Ein anderes konvertieren",
+    "components__unlock_pdf_detail__incorrect_password_tips": "Falsches Passwort"
   }
 }

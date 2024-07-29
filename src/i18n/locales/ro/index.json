@@ -1740,5 +1740,39 @@
     "upgrade_alert__cta_txt": "Vizitați Managerul de extensii al browserului",
     "extension_detection_alert__desc": "Pentru a continua să folosești această funcționalitate, te rugăm să instalezi extensia noastră Chrome pentru funcționalitate optimă.",
     "mobile_alert__desc": "Căutarea AI este în prezent acceptată doar pe browsere desktop sau laptop. Suportul mobil va fi disponibil în curând. Pentru moment, te rugăm să treci la un desktop sau laptop."
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "Deblochează PDF",
+    "description": "Elimină parola, criptarea și permisiunile din PDF-ul tău",
+    "seo_title": "Deblochează PDF - Elimină Parola din Fișierele PDF Online Gratuit | MaxAI.me",
+    "seo_description": "Elimină ușor protecția cu parolă din fișierele PDF online gratuit. Nu sunt necesare filigrane, limite de dimensiune a fișierului, descărcări sau înregistrări.",
+    "detail_description_object__unlock_pdf__top_left": "Deblochează ușor fișierele PDF online gratuit prin eliminarea parolelor. Cu instrumentul nostru de deblocare, fișierele tale vor rămâne întotdeauna locale, asigurând confidențialitatea, și nu există limite de dimensiune a fișierului.",
+    "detail_description_object__unlock_pdf__top_right_1": "Deblochează rapid fișierele PDF în doar câteva secunde.",
+    "detail_description_object__unlock_pdf__top_right_2": "Încarcă pur și simplu fișierele tale PDF pentru a începe.",
+    "detail_description_object__unlock_pdf__top_right_3": "Compatibil cu Mac, Windows, Android și iOS.",
+    "detail_description_object__unlock_pdf__middle_1_title": "Instrument Online Simplu pentru Deblocarea PDF-urilor",
+    "detail_description_object__unlock_pdf__middle_1_description": "Instrumentul nostru de deblocare PDF îți permite să elimini rapid protecția cu parolă din fișierele PDF. Doar încarcă-ți fișierul, introdu parola și descarcă PDF-ul deblocat. Este incredibil de ușor, complet gratuit și nu este necesară înregistrarea unui cont.",
+    "detail_description_object__unlock_pdf__middle_2_title": "Deblocare PDF Sigură Local",
+    "detail_description_object__unlock_pdf__middle_2_description": "Toate fișierele pe care le încarci sunt procesate direct în browserul tău, asigurând confidențialitatea completă. Nu se încarcă fișiere în cloud, garantând securitatea datelor.",
+    "detail_description_object__unlock_pdf__middle_3_title": "Compatibilitate Interplatformă",
+    "detail_description_object__unlock_pdf__middle_3_description": "Instrumentul nostru de deblocare PDF este bazat pe browser, ceea ce înseamnă că funcționează perfect pe Mac, Windows și Linux, precum și pe dispozitivele mobile. Poți debloca ușor fișierele tale PDF de oriunde.",
+    "detail_description_object__unlock_pdf__middle_4_title": "Proces de Operare Simplu",
+    "detail_description_object__unlock_pdf__middle_4_description": "Deblocarea fișierelor tale PDF este simplă: încarcă fișierul, introdu parola și descarcă versiunea deblocată. Chiar și începătorii pot stăpâni acest proces fără efort.",
+    "detail_description_object__unlock_pdf__middle_5_title": "Instrument Fiabil de Deblocare PDF",
+    "detail_description_object__unlock_pdf__middle_5_description": "Nu este nevoie să achiziționezi software scump pentru a debloca fișierele PDF. Instrumentul nostru de deblocare PDF este disponibil pentru utilizare gratuită online fără necesitatea procesării în cloud, asigurând că fișierele și datele tale sunt întotdeauna în siguranță.",
+    "detail_description_object__unlock_pdf__middle_6_title": "Procesare Locală pentru Securitate Îmbunătățită",
+    "detail_description_object__unlock_pdf__middle_6_description": "Serviciul nostru de deblocare asigură că toate operațiunile sunt efectuate local. Această caracteristică cheie îmbunătățește securitatea și reduce timpul de procesare, asigurând că fișierele tale sunt întotdeauna protejate.",
+    "detail_description_object__unlock_pdf__bottom_right_title": "Cum să Deblochezi Fișierele PDF Online:",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "Încarcă fișierul PDF pe care vrei să-l deblochezi.",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "Introdu parola pentru fișierul PDF pe care o știi.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Apasă pe „Confirmă Deblocarea” pentru a descărca fișierul PDF deblocat.",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Odată deblocat, poți accesa și edita liber fișierele tale PDF pe orice dispozitiv."
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "Te rog introdu parola pentru a debloca PDF-ul tău",
+    "components__unlock_pdf_detail_input_placeholder": "Parolă",
+    "components__unlock_pdf_detail__button__unlock": "Deblochează",
+    "components__unlock_pdf_detail__button__convert": "Convertește altul",
+    "components__unlock_pdf_detail__incorrect_password_tips": "Parolă incorectă"
   }
 }

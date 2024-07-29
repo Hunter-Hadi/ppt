@@ -1740,5 +1740,39 @@
     "upgrade_alert__cta_txt": "브라우저 확장 프로그램 관리자 방문",
     "extension_detection_alert__desc": "이 기능을 계속 사용하려면 최적의 기능을 위해 Chrome 확장 프로그램을 설치하세요.",
     "mobile_alert__desc": "AI 검색은 현재 데스크톱 또는 랩톱 브라우저에서만 지원됩니다. 모바일 지원은 곧 제공될 예정입니다. 현재는 데스크톱이나 랩톱으로 전환해주세요."
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "PDF 잠금 해제",
+    "description": "PDF에서 암호, 암호화 및 권한 제거",
+    "seo_title": "PDF 잠금 해제 - 무료 온라인에서 PDF 파일의 암호 제거 | MaxAI.me",
+    "seo_description": "무료로 온라인에서 PDF 파일의 암호 보호를 쉽게 제거하세요. 워터마크, 파일 크기 제한, 다운로드 또는 가입이 필요하지 않습니다.",
+    "detail_description_object__unlock_pdf__top_left": "비밀번호를 제거하여 무료로 PDF 파일을 쉽게 잠금 해제하세요. 잠금 해제 도구를 사용하면 파일이 항상 로컬에 유지되어 개인 정보가 보호되며 파일 크기 제한이 없습니다.",
+    "detail_description_object__unlock_pdf__top_right_1": "몇 초만에 PDF 파일을 빠르게 잠금 해제하세요.",
+    "detail_description_object__unlock_pdf__top_right_2": "시작하려면 PDF 파일을 간단히 업로드하세요.",
+    "detail_description_object__unlock_pdf__top_right_3": "Mac, Windows, Android 및 iOS와 호환됩니다.",
+    "detail_description_object__unlock_pdf__middle_1_title": "PDF 잠금 해제를 위한 간단한 온라인 도구",
+    "detail_description_object__unlock_pdf__middle_1_description": "PDF 잠금 해제 도구를 사용하면 PDF 파일에서 빠르게 암호 보호를 제거할 수 있습니다. 파일을 업로드하고 암호를 입력한 후 잠금 해제된 PDF를 다운로드하세요. 매우 쉽고 완전히 무료이며 계정 등록이 필요하지 않습니다.",
+    "detail_description_object__unlock_pdf__middle_2_title": "로컬 안전한 PDF 잠금 해제",
+    "detail_description_object__unlock_pdf__middle_2_description": "업로드한 모든 파일은 브라우저에서 직접 처리되어 완전한 개인 정보 보호가 보장됩니다. 파일은 클라우드에 업로드되지 않으므로 데이터 보안이 보장됩니다.",
+    "detail_description_object__unlock_pdf__middle_3_title": "크로스 플랫폼 호환성",
+    "detail_description_object__unlock_pdf__middle_3_description": "PDF 잠금 해제 도구는 브라우저 기반으로 작동하므로 Mac, Windows 및 Linux뿐만 아니라 모바일 기기에서도 원활하게 작동합니다. 어디서든 PDF 파일을 쉽게 잠금 해제할 수 있습니다.",
+    "detail_description_object__unlock_pdf__middle_4_title": "쉬운 작업 프로세스",
+    "detail_description_object__unlock_pdf__middle_4_description": "PDF 파일을 잠금 해제하는 것은 간단합니다: 파일을 업로드하고 암호를 입력한 다음 잠금 해제된 버전을 다운로드하세요. 초보자도 이 프로세스를 쉽게 익힐 수 있습니다.",
+    "detail_description_object__unlock_pdf__middle_5_title": "신뢰할 수 있는 PDF 잠금 해제 도구",
+    "detail_description_object__unlock_pdf__middle_5_description": "비싼 소프트웨어를 구매할 필요가 없습니다. PDF 잠금 해제 도구는 클라우드 처리가 필요 없는 무료 온라인 사용을 위해 제공되며 파일 및 데이터가 항상 안전하게 보호됩니다.",
+    "detail_description_object__unlock_pdf__middle_6_title": "향상된 보안을 위한 로컬 처리",
+    "detail_description_object__unlock_pdf__middle_6_description": "저희 잠금 해제 서비스는 모든 작업이 로컬에서 수행되도록 보장합니다. 이 핵심 기능은 보안을 강화하고 처리 시간을 줄여 파일이 항상 보호되도록 합니다.",
+    "detail_description_object__unlock_pdf__bottom_right_title": "온라인에서 PDF 파일을 잠금 해제하는 방법:",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "잠금 해제하려는 PDF 파일을 업로드하세요.",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "알고 있는 PDF 파일의 암호를 입력하세요.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "잠금 해제 확인을 클릭하여 잠금 해제된 PDF 파일을 다운로드하세요.",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "잠금 해제되면 어떤 기기에서든 PDF 파일에 자유롭게 액세스하고 편집할 수 있습니다."
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "PDF를 잠금 해제하려면 암호를 입력하세요",
+    "components__unlock_pdf_detail_input_placeholder": "암호",
+    "components__unlock_pdf_detail__button__unlock": "해제",
+    "components__unlock_pdf_detail__button__convert": "다른 파일 변환",
+    "components__unlock_pdf_detail__incorrect_password_tips": "잘못된 암호"
   }
 }

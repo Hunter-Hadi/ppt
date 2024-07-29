@@ -14,6 +14,7 @@ export type IToolUrkKeyType =
   | 'ocr-pdf'
   | 'number-pages'
   | 'rotate-pdf'
+  | 'unlock-pdf'
 export interface IToolData {
   icon: string
   title: string
@@ -159,6 +160,14 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     secondaryDescription:
       'pages:tools__index_page__constant_obj__pdf_page_numbers__secondary_description',
     urlKey: routerChildrenObject['number-pages'],
+    urlPrefixPath: toolsTopUrlKey,
+  },
+  'unlock-pdf': {
+    icon: 'NumberPages',
+    title: 'pages__pdf_tools__unlock_pdf:title',
+    description: 'pages__pdf_tools__unlock_pdf:description',
+    secondaryDescription: 'pages__pdf_tools__unlock_pdf:description',
+    urlKey: routerChildrenObject['unlock-pdf'],
     urlPrefixPath: toolsTopUrlKey,
   },
 }

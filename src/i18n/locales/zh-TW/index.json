@@ -1740,5 +1740,39 @@
     "upgrade_alert__cta_txt": "訪問瀏覽器擴充功能管理員",
     "extension_detection_alert__desc": "為了繼續使用此功能，請安裝我們的 Chrome 擴展以獲得最佳功能。",
     "mobile_alert__desc": "AI 搜索目前僅支持桌面或筆記本電腦瀏覽器。移動支持即將推出。目前，請切換到桌面或筆記本電腦。"
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "解鎖 PDF",
+    "description": "從您的 PDF 中刪除密碼、加密和權限",
+    "seo_title": "解鎖 PDF - 免費線上移除 PDF 檔案的密碼 | MaxAI.me",
+    "seo_description": "輕鬆免費線上移除 PDF 檔案的密碼保護。無需水印、檔案大小限制、下載或註冊。",
+    "detail_description_object__unlock_pdf__top_left": "透過移除密碼輕鬆免費線上解鎖 PDF 檔案。使用我們的解鎖工具，您的檔案將始終保留在本地，確保隱私，並且沒有檔案大小限制。",
+    "detail_description_object__unlock_pdf__top_right_1": "快速在幾秒鐘內解鎖 PDF 檔案。",
+    "detail_description_object__unlock_pdf__top_right_2": "只需上傳您的 PDF 檔案即可開始。",
+    "detail_description_object__unlock_pdf__top_right_3": "與 Mac、Windows、Android 和 iOS 兼容。",
+    "detail_description_object__unlock_pdf__middle_1_title": "簡單的線上工具來解鎖 PDF",
+    "detail_description_object__unlock_pdf__middle_1_description": "我們的 PDF 解鎖工具允許您快速從 PDF 檔案中移除密碼保護。只需上傳您的檔案，輸入密碼，並下載解鎖的 PDF。非常簡單，完全免費，無需註冊帳戶。",
+    "detail_description_object__unlock_pdf__middle_2_title": "本地安全的 PDF 解鎖",
+    "detail_description_object__unlock_pdf__middle_2_description": "您上傳的所有檔案都直接在您的瀏覽器中處理，確保完全隱私。不會上傳任何檔案到雲端，保證數據安全。",
+    "detail_description_object__unlock_pdf__middle_3_title": "跨平台兼容性",
+    "detail_description_object__unlock_pdf__middle_3_description": "我們的 PDF 解鎖工具基於瀏覽器，這意味著它可以在 Mac、Windows 和 Linux 以及移動設備上無縫運行。您可以輕鬆從任何地方解鎖您的 PDF 檔案。",
+    "detail_description_object__unlock_pdf__middle_4_title": "簡單的操作流程",
+    "detail_description_object__unlock_pdf__middle_4_description": "解鎖您的 PDF 檔案很簡單：上傳檔案，輸入密碼，然後下載解鎖版本。即使是初學者也可以輕鬆掌握這個流程。",
+    "detail_description_object__unlock_pdf__middle_5_title": "可靠的 PDF 解鎖工具",
+    "detail_description_object__unlock_pdf__middle_5_description": "無需購買昂貴的軟體來解鎖 PDF 檔案。我們的 PDF 解鎖工具可免費在線使用，無需雲端處理，確保您的檔案和數據始終安全。",
+    "detail_description_object__unlock_pdf__middle_6_title": "本地處理以增強安全性",
+    "detail_description_object__unlock_pdf__middle_6_description": "我們的解鎖服務確保所有操作都在本地執行。這一關鍵功能增強了安全性，減少處理時間，確保您的檔案始終受到保護。",
+    "detail_description_object__unlock_pdf__bottom_right_title": "如何在線解鎖 PDF 檔案：",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "上傳要解鎖的 PDF 檔案。",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "輸入您知道的 PDF 檔案密碼。",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "點擊“確認解鎖”以下載解鎖的 PDF 檔案。",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "解鎖後，您可以自由訪問並編輯您的 PDF 檔案在任何設備上。"
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "請輸入密碼以解鎖您的 PDF",
+    "components__unlock_pdf_detail_input_placeholder": "密碼",
+    "components__unlock_pdf_detail__button__unlock": "解鎖",
+    "components__unlock_pdf_detail__button__convert": "轉換另一個",
+    "components__unlock_pdf_detail__incorrect_password_tips": "密碼不正確"
   }
 }

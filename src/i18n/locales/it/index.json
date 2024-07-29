@@ -1739,5 +1739,39 @@
   },
   "package__nextjs_ui": {
     "language_selector__title": "Scegli il tuo Paese o Regione"
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "Sblocca PDF",
+    "description": "Rimuovi password, crittografia e autorizzazioni dal tuo PDF",
+    "seo_title": "Sblocca PDF - Rimuovi la Password dai File PDF Online Gratuitamente | MaxAI.me",
+    "seo_description": "Rimuovi facilmente la protezione con password dai file PDF online gratuitamente. Nessun watermark, limiti di dimensione del file, download o registrazione sono richiesti.",
+    "detail_description_object__unlock_pdf__top_left": "Sblocca facilmente i file PDF online gratuitamente rimuovendo le password. Con il nostro strumento di sblocco, i tuoi file rimarranno sempre locali, garantendo la privacy, e non ci sono limiti di dimensione del file.",
+    "detail_description_object__unlock_pdf__top_right_1": "Sblocca rapidamente i file PDF in pochi secondi.",
+    "detail_description_object__unlock_pdf__top_right_2": "Carica semplicemente i tuoi file PDF per iniziare.",
+    "detail_description_object__unlock_pdf__top_right_3": "Compatibile con Mac, Windows, Android e iOS.",
+    "detail_description_object__unlock_pdf__middle_1_title": "Semplice Strumento Online per Sbloccare PDF",
+    "detail_description_object__unlock_pdf__middle_1_description": "Il nostro strumento di sblocco PDF ti consente di rimuovere rapidamente la protezione con password dai file PDF. Carica il tuo file, inserisci la password e scarica il PDF sbloccato. È incredibilmente facile, completamente gratuito e non è richiesta alcuna registrazione dell'account.",
+    "detail_description_object__unlock_pdf__middle_2_title": "Sblocco PDF Sicuro Locale",
+    "detail_description_object__unlock_pdf__middle_2_description": "Tutti i file che carichi vengono elaborati direttamente nel tuo browser, garantendo la privacy completa. Nessun file viene caricato sul cloud, garantendo la sicurezza dei dati.",
+    "detail_description_object__unlock_pdf__middle_3_title": "Compatibilità Multi-Platforma",
+    "detail_description_object__unlock_pdf__middle_3_description": "Il nostro strumento di sblocco PDF è basato sul browser, il che significa che funziona perfettamente su Mac, Windows e Linux, nonché su dispositivi mobili. Puoi sbloccare facilmente i tuoi file PDF ovunque.",
+    "detail_description_object__unlock_pdf__middle_4_title": "Processo Operativo Semplice",
+    "detail_description_object__unlock_pdf__middle_4_description": "Lo sblocco dei tuoi file PDF è semplice: carica il file, inserisci la password e scarica la versione sbloccata. Anche i principianti possono padroneggiare questo processo senza sforzo.",
+    "detail_description_object__unlock_pdf__middle_5_title": "Strumento Affidabile per lo Sblocco PDF",
+    "detail_description_object__unlock_pdf__middle_5_description": "Non è necessario acquistare software costoso per sbloccare i file PDF. Il nostro strumento di sblocco PDF è disponibile gratuitamente per l'uso online senza la necessità di elaborazione cloud, garantendo che i tuoi file e dati siano sempre al sicuro.",
+    "detail_description_object__unlock_pdf__middle_6_title": "Elaborazione Locale per una Sicurezza Migliorata",
+    "detail_description_object__unlock_pdf__middle_6_description": "Il nostro servizio di sblocco garantisce che tutte le operazioni siano eseguite localmente. Questa caratteristica chiave migliora la sicurezza e riduce i tempi di elaborazione, garantendo che i tuoi file siano sempre protetti.",
+    "detail_description_object__unlock_pdf__bottom_right_title": "Come Sbloccare i File PDF Online:",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "Carica il file PDF che desideri sbloccare.",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "Inserisci la password del file PDF che conosci.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Clicca su 'Conferma Sblocco' per scaricare il file PDF sbloccato.",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Una volta sbloccato, puoi accedere liberamente ed modificare i tuoi file PDF su qualsiasi dispositivo."
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "Inserisci la password per sbloccare il tuo PDF",
+    "components__unlock_pdf_detail_input_placeholder": "Password",
+    "components__unlock_pdf_detail__button__unlock": "Sblocca",
+    "components__unlock_pdf_detail__button__convert": "Converti un altro",
+    "components__unlock_pdf_detail__incorrect_password_tips": "Password incorretta"
   }
 }
