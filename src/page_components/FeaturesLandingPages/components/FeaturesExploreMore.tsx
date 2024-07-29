@@ -6,7 +6,6 @@ import { useRouter } from 'next/router'
 import { useTranslation } from 'next-i18next'
 import React, { FC, useEffect } from 'react'
 
-import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
 import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester'
 import CallToActionSection from '@/features/landing/components/CallToActionSection'
 import FeaturesContentAbTestV7AutoVideo from '@/features/landing/components/FeaturesCarousel/FeaturesContentAbTestV7SlideAutoVideo'
@@ -25,7 +24,7 @@ const FeaturesExploreMore: FC<IProps> = ({ propRef, sx }) => {
   const { t } = useTranslation()
   const { isReady, asPath } = useRouter()
 
-  const { variant, loaded } = useLandingABTester(true)
+  useLandingABTester(true)
 
   useEffect(() => {
     if (isReady && asPath) {
@@ -38,76 +37,75 @@ const FeaturesExploreMore: FC<IProps> = ({ propRef, sx }) => {
   }, [isReady, asPath])
 
   return (
-    <AppLoadingLayout loading={!loaded} sx={{ minHeight: '90vh' }}>
-      <Stack
-        color='text.primary'
-        sx={{
-          position: 'relative',
-          pt: 3,
-          ...sx,
-        }}
-      >
-        {/* Explore more button */}
-        <ProLink href={'/'} target={'_blank'}>
-          <Stack
-            direction={'row'}
-            alignItems='center'
-            justifyContent='center'
-            spacing={1}
-            py={1}
-            px={2.5}
-            sx={{
-              position: 'absolute',
-              top: 0,
-              left: '50%',
-              transform: 'translateX(-50%)',
-              bgcolor: '#EDE4FF',
-              color: 'primary.main',
-              width: 'max-content',
-              borderRadius: 100,
-            }}
-          >
-            <Typography
-              fontSize={18}
-              fontWeight={500}
-              lineHeight={1.5}
-              variant='custom'
-            >
-              {t('features_landing:explore_more_features')}
-            </Typography>
-            <SouthOutlinedIcon />
-          </Stack>
-        </ProLink>
-
-        {/* heroSection */}
-        <HeroSection
-          titleComponent={'h2'}
-          showIndicatorBadge={false}
-          propRef={propRef}
-          // loading={!loaded}
-          heroVideoProps={{
-            videoSrc: `${RESOURCES_URL}/video/landing-page-primary.mp4`,
-            videoPosterUrl: `/assets/landing/hero-section/video-cover.png`,
-            variant: 'autoplay',
-            windowAutoPlay: true,
+    <Stack
+      color='text.primary'
+      sx={{
+        position: 'relative',
+        pt: 3,
+        ...sx,
+      }}
+    >
+      {/* Explore more button */}
+      <ProLink href={'/'} target={'_blank'}>
+        <Stack
+          direction={'row'}
+          alignItems='center'
+          justifyContent='center'
+          spacing={1}
+          py={1}
+          px={2.5}
+          sx={{
+            position: 'absolute',
+            top: 0,
+            left: '50%',
+            transform: 'translateX(-50%)',
+            bgcolor: '#EDE4FF',
+            color: 'primary.main',
+            width: 'max-content',
+            borderRadius: 100,
           }}
-        />
+        >
+          <Typography
+            fontSize={18}
+            fontWeight={500}
+            lineHeight={1.5}
+            variant='custom'
+          >
+            {t('features_landing:explore_more_features')}
+          </Typography>
+          <SouthOutlinedIcon />
+        </Stack>
+      </ProLink>
 
-        <HowItWork />
+      {/* heroSection */}
+      <HeroSection
+        titleComponent={'h2'}
+        showIndicatorBadge={false}
+        propRef={propRef}
+        // loading={!loaded}
+        inLandingVideoABTest
+        heroVideoProps={{
+          videoSrc: `${RESOURCES_URL}/video/landing-page-primary.mp4`,
+          videoPosterUrl: `/assets/landing/hero-section/video-cover.png`,
+          variant: 'autoplay',
+          windowAutoPlay: true,
+        }}
+      />
 
-        {/* feature  */}
-        <FeaturesContentAbTestV7AutoVideo />
+      <HowItWork />
 
-        {/* maxai in numbers */}
-        <MaxAIInNumbers />
+      {/* feature  */}
+      <FeaturesContentAbTestV7AutoVideo />
 
-        {/* user comment */}
-        <UserComment />
+      {/* maxai in numbers */}
+      <MaxAIInNumbers />
 
-        {/* call to action section */}
-        <CallToActionSection propRef={propRef} />
-      </Stack>
-    </AppLoadingLayout>
+      {/* user comment */}
+      <UserComment />
+
+      {/* call to action section */}
+      <CallToActionSection propRef={propRef} />
+    </Stack>
   )
 }
 
