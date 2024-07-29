@@ -2,11 +2,14 @@ import { Box, Grid, Skeleton, Stack, SxProps, Typography } from '@mui/material'
 import { useTranslation } from 'next-i18next'
 import React, { FC, useMemo } from 'react'
 
+import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
 import CustomIcon from '@/components/CustomIcon'
+import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester'
 import HeroVideoBox, {
   IHeroVideoProps,
 } from '@/features/landing/components/HeroSection/HeroVideoBox'
 import MaxAIIndicatorBadge from '@/features/landing/components/MaxAIIndicatorBadge'
+import { RESOURCES_URL } from '@/global_constants'
 import useBrowserAgent from '@/hooks/useBrowserAgent'
 import { IUseShareTrackerLinkProps } from '@/hooks/useShareTrackerLink'
 import CTAInstallButton from '@/page_components/CTAInstallButton'
@@ -27,6 +30,9 @@ interface IProps {
 
   // 是否显示顶部的指标徽章
   showIndicatorBadge?: boolean
+
+  // 首页视频的 ab test （v8）
+  inLandingVideoABTest?: boolean
 }
 
 const HeroSection: FC<IProps> = ({
@@ -39,12 +45,15 @@ const HeroSection: FC<IProps> = ({
   showIndicatorBadge = true,
   titleComponent = 'h1',
   sx,
+  inLandingVideoABTest,
 }) => {
   const { browserAgent: agent } = useBrowserAgent()
 
   const { t } = useTranslation()
 
   // const { openVideoPopup } = useVideoPopupController();
+
+  const { variant, enabled } = useLandingABTester(inLandingVideoABTest)
 
   const title = useMemo(() => {
     return propTitle ? (
@@ -278,7 +287,39 @@ const HeroSection: FC<IProps> = ({
             </Stack>
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
-            <HeroVideoBox {...heroVideoProps} />
+            {inLandingVideoABTest && enabled ? (
+              <AppLoadingLayout
+                loading={loading || !variant}
+                loadingText=''
+                sx={{
+                  position: 'relative',
+                  height: 0,
+                  pt: '56.25%',
+                  bgcolor: '#f5efff',
+
+                  '& .MuiCircularProgress-root': {
+                    position: 'absolute',
+                    top: '50%',
+                    left: '50%',
+                    transform: 'translate(-50%, -50%)',
+                  },
+                }}
+              >
+                {variant === 'youtube_video' ? (
+                  <HeroVideoBox
+                    videoSrc={`https://www.youtube.com/embed/XfiZMwAD_KU?si=2augGW9ea-vZzJK6`}
+                    variant={'youtube-autoplay'}
+                  />
+                ) : (
+                  <HeroVideoBox
+                    videoSrc={`${RESOURCES_URL}/video/landing-page-primary.mp4`}
+                    variant={'autoplay'}
+                  />
+                )}
+              </AppLoadingLayout>
+            ) : (
+              <HeroVideoBox {...heroVideoProps} />
+            )}
           </Grid>
         </Grid>
       </Box>

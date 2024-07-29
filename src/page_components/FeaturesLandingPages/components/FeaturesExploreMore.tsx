@@ -9,10 +9,7 @@ import React, { FC, useEffect } from 'react'
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
 import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester'
 import CallToActionSection from '@/features/landing/components/CallToActionSection'
-import FeaturesContentAbTestV4VariantContent2Section from '@/features/landing/components/FeaturesCarousel/FeaturesContentAbTestV4VariantContent2Section'
-import FeaturesContentAbTestV7CardAutoVideo from '@/features/landing/components/FeaturesCarousel/FeaturesContentAbTestV7CardAutoVideo'
 import FeaturesContentAbTestV7AutoVideo from '@/features/landing/components/FeaturesCarousel/FeaturesContentAbTestV7SlideAutoVideo'
-import FeaturesContentAbTestV7VariantContentSection from '@/features/landing/components/FeaturesCarousel/FeaturesContentAbTestV7VariantContentSection'
 import HeroSection from '@/features/landing/components/HeroSection'
 import HowItWork from '@/features/landing/components/HowItWork'
 import MaxAIInNumbers from '@/features/landing/components/MaxAIInNumbers'
@@ -28,8 +25,7 @@ const FeaturesExploreMore: FC<IProps> = ({ propRef, sx }) => {
   const { t } = useTranslation()
   const { isReady, asPath } = useRouter()
 
-  const { variant, loaded, variantConfig } = useLandingABTester(true)
-  console.log(`variantConfig`, variant, variantConfig)
+  const { variant, loaded } = useLandingABTester(true)
 
   useEffect(() => {
     if (isReady && asPath) {
@@ -100,26 +96,7 @@ const FeaturesExploreMore: FC<IProps> = ({ propRef, sx }) => {
         <HowItWork />
 
         {/* feature  */}
-        {!variant ? (
-          <FeaturesContentAbTestV4VariantContent2Section
-            abTestTitleDirection={'supersede'}
-            abTestFeaturesType={'image'}
-          />
-        ) : (
-          <>
-            {(variant === '7-1' || variant === '7-2') && (
-              <FeaturesContentAbTestV4VariantContent2Section
-                abTestTitleDirection={variantConfig?.titleDirection}
-                abTestFeaturesType={variantConfig?.featuresType}
-              />
-            )}
-            {variant === '7-3' && <FeaturesContentAbTestV7AutoVideo />}
-            {variant === '7-4' && (
-              <FeaturesContentAbTestV7VariantContentSection />
-            )}
-            {variant === '7-5' && <FeaturesContentAbTestV7CardAutoVideo />}
-          </>
-        )}
+        <FeaturesContentAbTestV7AutoVideo />
 
         {/* maxai in numbers */}
         <MaxAIInNumbers />

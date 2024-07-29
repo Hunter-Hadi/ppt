@@ -4,15 +4,10 @@ import { useRouter } from 'next/router'
 import React from 'react'
 import { FC, useEffect } from 'react'
 
-import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
-import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester'
 import { RESOURCES_URL } from '@/global_constants'
 
 import CallToActionSection from './CallToActionSection'
-import FeaturesContentAbTestV4VariantContent2Section from './FeaturesCarousel/FeaturesContentAbTestV4VariantContent2Section'
-import FeaturesContentAbTestV7CardAutoVideo from './FeaturesCarousel/FeaturesContentAbTestV7CardAutoVideo'
-import FeaturesContentAbTestV7AutoVideo from './FeaturesCarousel/FeaturesContentAbTestV7SlideAutoVideo'
-import FeaturesContentAbTestV7VariantContentSection from './FeaturesCarousel/FeaturesContentAbTestV7VariantContentSection'
+import FeaturesContentAbTestV7SlideAutoVideo from './FeaturesCarousel/FeaturesContentAbTestV7SlideAutoVideo'
 import HeroSection from './HeroSection'
 import HowItWork from './HowItWork'
 import MaxAIInNumbers from './MaxAIInNumbers'
@@ -27,8 +22,6 @@ interface IProps {
 const HomePageContent: FC<IProps> = ({ propRef, sx }) => {
   const { isReady, asPath } = useRouter()
 
-  const { variant, loaded, variantConfig } = useLandingABTester(true)
-
   useEffect(() => {
     if (isReady && asPath) {
       const hash = asPath.split('#')[1]
@@ -40,53 +33,33 @@ const HomePageContent: FC<IProps> = ({ propRef, sx }) => {
   }, [isReady, asPath])
 
   return (
-    <AppLoadingLayout loading={!loaded} sx={{ minHeight: '90vh' }}>
-      <Stack color='text.primary' component={'main'} sx={sx}>
-        {/* heroSection */}
-        <HeroSection
-          propRef={propRef}
-          // loading={!loaded}
-          heroVideoProps={{
-            videoSrc: `${RESOURCES_URL}/video/landing-page-primary.mp4`,
-            variant: 'autoplay',
-          }}
-        />
-        {/* trusted by */}
-        <TrustedBy />
+    <Stack color='text.primary' component={'main'} sx={sx}>
+      {/* heroSection */}
+      <HeroSection
+        propRef={propRef}
+        // loading={!loaded}
+        inLandingVideoABTest
+        heroVideoProps={{
+          videoSrc: `${RESOURCES_URL}/video/landing-page-primary.mp4`,
+          variant: 'autoplay',
+        }}
+      />
+      {/* trusted by */}
+      <TrustedBy />
 
-        <HowItWork />
+      <HowItWork />
 
-        {/* feature  */}
-        {!variant ? (
-          <FeaturesContentAbTestV4VariantContent2Section
-            abTestTitleDirection={'supersede'}
-            abTestFeaturesType={'image'}
-          />
-        ) : (
-          <>
-            {(variant === '7-1' || variant === '7-2') && (
-              <FeaturesContentAbTestV4VariantContent2Section
-                abTestTitleDirection={variantConfig?.titleDirection}
-                abTestFeaturesType={variantConfig?.featuresType}
-              />
-            )}
-            {variant === '7-3' && <FeaturesContentAbTestV7AutoVideo />}
-            {variant === '7-4' && (
-              <FeaturesContentAbTestV7VariantContentSection />
-            )}
-            {variant === '7-5' && <FeaturesContentAbTestV7CardAutoVideo />}
-          </>
-        )}
-        {/* maxai in numbers */}
-        <MaxAIInNumbers />
+      {/* feature  */}
+      <FeaturesContentAbTestV7SlideAutoVideo />
+      {/* maxai in numbers */}
+      <MaxAIInNumbers />
 
-        {/* user comment */}
-        <UserComment />
+      {/* user comment */}
+      <UserComment />
 
-        {/* call to action section */}
-        <CallToActionSection propRef={propRef} />
-      </Stack>
-    </AppLoadingLayout>
+      {/* call to action section */}
+      <CallToActionSection propRef={propRef} />
+    </Stack>
   )
 }
 

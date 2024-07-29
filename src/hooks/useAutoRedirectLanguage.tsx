@@ -12,32 +12,32 @@ const AUTO_REDIRECT_WHITE_LIST = [
   (pathname: string) => pathname.startsWith('/industries'),
 ]
 
+// 判断当前页面是否需要自动跳转到 对应语言的页面
+export function checkNeedAutoRedirect(pathname: string) {
+  if (pathname.includes('embed') || pathname.includes('/[locale]')) {
+    return false
+  }
+
+  if (
+    AUTO_REDIRECT_WHITE_LIST.some((whitePath) => {
+      if (typeof whitePath === 'function') {
+        return whitePath(pathname)
+      } else {
+        return whitePath === pathname
+      }
+    })
+  ) {
+    return true
+  }
+
+  return false
+}
 const useAutoRedirectLanguage = () => {
   const [autoRedirectDone, setAutoRedirectDone] = useState(false)
   const { pathname, isReady, asPath } = useRouter()
 
-  const checkNeedToRedirect = () => {
-    if (pathname.includes('embed') || pathname.includes('/[locale]')) {
-      return false
-    }
-
-    if (
-      AUTO_REDIRECT_WHITE_LIST.some((whitePath) => {
-        if (typeof whitePath === 'function') {
-          return whitePath(pathname)
-        } else {
-          return whitePath === pathname
-        }
-      })
-    ) {
-      return true
-    }
-
-    return false
-  }
-
   useEffect(() => {
-    if (!isReady || !checkNeedToRedirect()) {
+    if (!isReady || !checkNeedAutoRedirect(pathname)) {
       setAutoRedirectDone(true)
       return
     }

@@ -20,8 +20,8 @@ import { setLocalStorage } from '@/utils/localStorage'
 
 import {
   ILandingVariantType,
-  LANDING_VARIANT_CONFIG,
   LANDING_VARIANT_TO_VERSION_MAP,
+  LANDING_VARIANTS,
   TEST_LANDING_COOKIE_NAME,
 } from '../constant/landingVariant'
 import useLandingABTester from '../hooks/useLandingABTester'
@@ -146,7 +146,7 @@ const DevRefreshABTestLandingCookie = () => {
                           setLocalStorage(TEST_LANDING_COOKIE_NAME, newVariant)
                         }}
                       >
-                        {Object.keys(LANDING_VARIANT_CONFIG).map((variant) => {
+                        {LANDING_VARIANTS.map((variant) => {
                           return (
                             <MenuItem key={variant} value={variant}>
                               {LANDING_VARIANT_TO_VERSION_MAP[variant]}
