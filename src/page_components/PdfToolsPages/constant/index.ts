@@ -14,6 +14,7 @@ export type IToolUrkKeyType =
   | 'ocr-pdf'
   | 'number-pages'
   | 'rotate-pdf'
+  | 'unlock-pdf'
 export interface IToolData {
   icon: string
   title: string
@@ -161,4 +162,16 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     urlKey: routerChildrenObject['number-pages'],
     urlPrefixPath: toolsTopUrlKey,
   },
+  'unlock-pdf': {
+    icon: 'UnlockPDF',
+    title: 'pages__pdf_tools__unlock_pdf:title',
+    description: 'pages__pdf_tools__unlock_pdf:description',
+    secondaryDescription: 'pages__pdf_tools__unlock_pdf:description',
+    urlKey: routerChildrenObject['unlock-pdf'],
+    urlPrefixPath: toolsTopUrlKey,
+  },
 }
+export const pdfToolsList = Object.keys(toolsObjectData).map((key) => ({
+  key,
+  ...toolsObjectData[key],
+}))

@@ -1740,5 +1740,39 @@
     "upgrade_alert__cta_txt": "Besök webbläsartilläggschefen",
     "extension_detection_alert__desc": "För att fortsätta använda den här funktionen, installera vår Chrome-tillägg för optimal funktionalitet.",
     "mobile_alert__desc": "AI-sök stöds för närvarande endast på stationära eller bärbara webbläsare. Mobilstöd kommer snart. För tillfället, byt till en stationär eller bärbar dator."
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "Lås upp PDF",
+    "description": "Ta bort lösenord, kryptering och behörighet från din PDF",
+    "seo_title": "Lås upp PDF - Ta bort lösenord från PDF-filer online gratis | MaxAI.me",
+    "seo_description": "Ta enkelt bort lösenordsskydd från PDF-filer online gratis. Inga vattenstämplar, filstorleksbegränsningar, nedladdningar eller registreringar krävs.",
+    "detail_description_object__unlock_pdf__top_left": "Lås upp PDF-filer online gratis genom att ta bort lösenord. Med vårt verktyg för upplåsning förblir dina filer alltid lokala, vilket säkerställer integritet, och det finns inga filstorleksbegränsningar.",
+    "detail_description_object__unlock_pdf__top_right_1": "Lås upp PDF-filer snabbt på bara några sekunder.",
+    "detail_description_object__unlock_pdf__top_right_2": "Ladda enkelt upp dina PDF-filer för att komma igång.",
+    "detail_description_object__unlock_pdf__top_right_3": "Kompatibelt med Mac, Windows, Android och iOS.",
+    "detail_description_object__unlock_pdf__middle_1_title": "Enkelt onlineverktyg för att låsa upp PDF:er",
+    "detail_description_object__unlock_pdf__middle_1_description": "Vårt PDF-upplåsningsverktyg låter dig ta bort lösenordsskydd från PDF-filer snabbt. Ladda bara upp din fil, ange lösenordet och ladda ner den upplåsta PDF:en. Det är otroligt enkelt, helt gratis och ingen kontoregistrering krävs.",
+    "detail_description_object__unlock_pdf__middle_2_title": "Lokal säker PDF-upplåsning",
+    "detail_description_object__unlock_pdf__middle_2_description": "Alla filer du laddar upp behandlas direkt i din webbläsare, vilket säkerställer fullständig integritet. Inga filer laddas upp till molnet, vilket garanterar datasäkerhet.",
+    "detail_description_object__unlock_pdf__middle_3_title": "Korsplattformskompatibilitet",
+    "detail_description_object__unlock_pdf__middle_3_description": "Vårt PDF-upplåsningsverktyg är webbläsarbaserat, vilket innebär att det fungerar sömlöst på Mac, Windows och Linux, samt på mobila enheter. Du kan enkelt låsa upp dina PDF-filer var som helst.",
+    "detail_description_object__unlock_pdf__middle_4_title": "Enkel driftsprocess",
+    "detail_description_object__unlock_pdf__middle_4_description": "Att låsa upp dina PDF-filer är enkelt: ladda upp filen, ange lösenordet och ladda sedan ner den upplåsta versionen. Även nybörjare kan behärska denna process utan ansträngning.",
+    "detail_description_object__unlock_pdf__middle_5_title": "Pålitligt PDF-upplåsningsverktyg",
+    "detail_description_object__unlock_pdf__middle_5_description": "Det finns ingen anledning att köpa dyr programvara för att låsa upp PDF-filer. Vårt PDF-upplåsningsverktyg är tillgängligt för gratis onlineanvändning utan behov av molnbaserad bearbetning, vilket säkerställer att dina filer och data alltid är säkra.",
+    "detail_description_object__unlock_pdf__middle_6_title": "Lokal bearbetning för förbättrad säkerhet",
+    "detail_description_object__unlock_pdf__middle_6_description": "Vår upplåsningstjänst ser till att alla operationer utförs lokalt. Denna nyckelfunktion förbättrar säkerheten och minskar bearbetningstiden, vilket säkerställer att dina filer alltid är skyddade.",
+    "detail_description_object__unlock_pdf__bottom_right_title": "Hur man låser upp PDF-filer online:",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "Ladda upp PDF-filen du vill låsa upp.",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "Ange lösenordet för PDF-filen du känner till.",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "När den är upplåst kan du fritt komma åt och redigera dina PDF-filer på vilken enhet som helst.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Klicka på 'Lås upp' för att ladda ner den olåsta PDF-filen."
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "Ange lösenordet för att låsa upp din PDF",
+    "components__unlock_pdf_detail_input_placeholder": "Lösenord",
+    "components__unlock_pdf_detail__button__unlock": "Lås upp",
+    "components__unlock_pdf_detail__button__convert": "Konvertera en annan",
+    "components__unlock_pdf_detail__incorrect_password_tips": "Fel lösenord"
   }
 }

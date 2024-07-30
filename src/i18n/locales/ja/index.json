@@ -1740,5 +1740,39 @@
     "upgrade_alert__cta_txt": "ブラウザ拡張機能マネージャーを訪れる",
     "extension_detection_alert__desc": "この機能を引き続き使用するには、最適な機能を提供するために当社のChrome拡張機能をインストールしてください",
     "mobile_alert__desc": "AI検索は現在、デスクトップまたはラップトップブラウザでのみサポートされています。モバイルサポートは近日公開予定です。現時点ではデスクトップまたはラップトップに切り替えてください"
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "PDFのロックを解除",
+    "description": "PDFからパスワード、暗号化、権限を削除",
+    "seo_title": "PDFのロックを解除 - 無料でPDFファイルからパスワードを削除 | MaxAI.me",
+    "seo_description": "無料でオンラインでPDFファイルのパスワード保護を簡単に解除。ウォーターマーク、ファイルサイズ制限、ダウンロード、サインアップは不要です。",
+    "detail_description_object__unlock_pdf__top_left": "パスワードを削除して無料でPDFファイルを簡単に解除。解除ツールを使用すると、ファイルは常にローカルに残り、プライバシーが保護され、ファイルサイズ制限はありません。",
+    "detail_description_object__unlock_pdf__top_right_1": "数秒でPDFファイルを素早く解除。",
+    "detail_description_object__unlock_pdf__top_right_2": "PDFファイルをアップロードして簡単に開始。",
+    "detail_description_object__unlock_pdf__top_right_3": "Mac、Windows、Android、iOSと互換性あり。",
+    "detail_description_object__unlock_pdf__middle_1_title": "PDFを解除するためのシンプルなオンラインツール",
+    "detail_description_object__unlock_pdf__middle_1_description": "PDFのパスワード保護を素早く解除するためのPDF解除ツール。ファイルをアップロードし、パスワードを入力して、解除されたPDFをダウンロードします。非常に簡単で、完全に無料で、アカウント登録は不要です。",
+    "detail_description_object__unlock_pdf__middle_2_title": "安全なローカルPDFの解除",
+    "detail_description_object__unlock_pdf__middle_2_description": "アップロードしたすべてのファイルはブラウザ内で直接処理され、完全なプライバシーが保証されます。ファイルはクラウドにアップロードされず、データのセキュリティが保証されます。",
+    "detail_description_object__unlock_pdf__middle_3_title": "クロスプラットフォームの互換性",
+    "detail_description_object__unlock_pdf__middle_3_description": "PDF解除ツールはブラウザベースであり、Mac、Windows、Linux、モバイルデバイスでもシームレスに動作します。どこからでも簡単にPDFファイルを解除できます。",
+    "detail_description_object__unlock_pdf__middle_4_title": "簡単な操作プロセス",
+    "detail_description_object__unlock_pdf__middle_4_description": "PDFファイルの解除は簡単です：ファイルをアップロードし、パスワードを入力して、解除されたバージョンをダウンロードします。初心者でもこのプロセスを簡単にマスターできます。",
+    "detail_description_object__unlock_pdf__middle_5_title": "信頼性の高いPDF解除ツール",
+    "detail_description_object__unlock_pdf__middle_5_description": "PDFファイルを解除するために高価なソフトウェアを購入する必要はありません。PDF解除ツールはクラウド処理を必要とせず、無料でオンラインで利用できます。ファイルとデータが常に安全であることが保証されます。",
+    "detail_description_object__unlock_pdf__middle_6_title": "セキュリティの向上のためのローカル処理",
+    "detail_description_object__unlock_pdf__middle_6_description": "当社の解除サービスは、すべての操作がローカルで実行されることを保証します。この重要な機能により、セキュリティが向上し、処理時間が短縮され、ファイルが常に保護されます。",
+    "detail_description_object__unlock_pdf__bottom_right_title": "オンラインでPDFファイルを解除する方法：",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "解除したいPDFファイルをアップロードします。",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "知っているPDFファイルのパスワードを入力します。",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "解除されたら、どのデバイスでもPDFファイルに自由にアクセスして編集できます。",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "アンロックをクリックして、アンロックされたPDFファイルをダウンロードします。"
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "PDFを解除するためのパスワードを入力してください",
+    "components__unlock_pdf_detail_input_placeholder": "パスワード",
+    "components__unlock_pdf_detail__button__unlock": "解除",
+    "components__unlock_pdf_detail__button__convert": "別のファイルに変換",
+    "components__unlock_pdf_detail__incorrect_password_tips": "パスワードが間違っています"
   }
 }

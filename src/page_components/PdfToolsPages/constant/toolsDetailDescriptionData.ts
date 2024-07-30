@@ -1,19 +1,19 @@
 export interface IToolsDetailDescriptionInfoProps {
-  i18nVariables?: { [key in string]: string };
-  topFeatures: string;
-  userExperienceList: string[];
+  i18nVariables?: { [key in string]: string }
+  topFeatures: string
+  userExperienceList: string[]
   functionIntroductionList: {
-    iconName: string;
-    title: string;
-    description: string;
-  }[];
+    iconName: string
+    title: string
+    description: string
+  }[]
   operatingInstructions: {
-    iconName: string;
+    iconName: string
     operationSteps: {
-      title: string;
-      descriptionList: string[];
-    };
-  };
+      title: string
+      descriptionList: string[]
+    }
+  }
 }
 const getPdfToImageTypeToolDescriptionObject = (type: 'PNG' | 'JPEG') => {
   return {
@@ -82,22 +82,22 @@ const getPdfToImageTypeToolDescriptionObject = (type: 'PNG' | 'JPEG') => {
         ],
       },
     },
-  };
-};
+  }
+}
 const getImageToPdfTypeToolDescriptionObject = (
   type: 'PNG' | 'JPEG' | 'HEIC',
 ) => {
-  let iconName = '';
+  let iconName = ''
   switch (type) {
     case 'PNG':
-      iconName = 'PNGToPDF';
-      break;
+      iconName = 'PNGToPDF'
+      break
     case 'JPEG':
-      iconName = 'JPEGToPDF';
-      break;
+      iconName = 'JPEGToPDF'
+      break
     case 'HEIC':
-      iconName = 'HEICToPDF';
-      break;
+      iconName = 'HEICToPDF'
+      break
   }
   return {
     i18nVariables: { TYPE: type },
@@ -165,10 +165,10 @@ const getImageToPdfTypeToolDescriptionObject = (
         ],
       },
     },
-  };
-};
+  }
+}
 export const allPdfToolsDetailDescriptionObject: {
-  [key in string]: IToolsDetailDescriptionInfoProps;
+  [key in string]: IToolsDetailDescriptionInfoProps
 } = {
   'merge-pdf': {
     topFeatures:
@@ -702,4 +702,70 @@ export const allPdfToolsDetailDescriptionObject: {
       },
     },
   },
-};
+  'unlock-pdf': {
+    topFeatures:
+      'pages__pdf_tools__unlock_pdf:detail_description_object__unlock_pdf__top_left',
+    userExperienceList: [
+      'pages__pdf_tools__unlock_pdf:detail_description_object__unlock_pdf__top_right_1',
+      'pages__pdf_tools__unlock_pdf:detail_description_object__unlock_pdf__top_right_2',
+      'pages__pdf_tools__unlock_pdf:detail_description_object__unlock_pdf__top_right_3',
+    ],
+    functionIntroductionList: [
+      {
+        iconName: 'Lightbulb',
+        title:
+          'pages__pdf_tools__unlock_pdf:detail_description_object__unlock_pdf__middle_1_title',
+        description:
+          'pages__pdf_tools__unlock_pdf:detail_description_object__unlock_pdf__middle_1_description',
+      },
+      {
+        iconName: 'WorkspacePremiumOutlined',
+        title:
+          'pages__pdf_tools__unlock_pdf:detail_description_object__unlock_pdf__middle_2_title',
+        description:
+          'pages__pdf_tools__unlock_pdf:detail_description_object__unlock_pdf__middle_2_description',
+      },
+      {
+        iconName: 'ThumbUpAltOutlined',
+        title:
+          'pages__pdf_tools__unlock_pdf:detail_description_object__unlock_pdf__middle_3_title',
+        description:
+          'pages__pdf_tools__unlock_pdf:detail_description_object__unlock_pdf__middle_3_description',
+      },
+      {
+        iconName: 'LockOutlined',
+        title:
+          'pages__pdf_tools__unlock_pdf:detail_description_object__unlock_pdf__middle_4_title',
+        description:
+          'pages__pdf_tools__unlock_pdf:detail_description_object__unlock_pdf__middle_4_description',
+      },
+      {
+        iconName: 'LocalPoliceOutlined',
+        title:
+          'pages__pdf_tools__unlock_pdf:detail_description_object__unlock_pdf__middle_5_title',
+        description:
+          'pages__pdf_tools__unlock_pdf:detail_description_object__unlock_pdf__middle_5_description',
+      },
+      {
+        iconName: 'ComputerOutlined',
+        title:
+          'pages__pdf_tools__unlock_pdf:detail_description_object__unlock_pdf__middle_6_title',
+        description:
+          'pages__pdf_tools__unlock_pdf:detail_description_object__unlock_pdf__middle_6_description',
+      },
+    ],
+    operatingInstructions: {
+      iconName: 'UnlockPDF',
+      operationSteps: {
+        title:
+          'pages__pdf_tools__unlock_pdf:detail_description_object__unlock_pdf__bottom_right_title',
+        descriptionList: [
+          'pages__pdf_tools__unlock_pdf:detail_description_object__unlock_pdf__bottom_right_description_1',
+          'pages__pdf_tools__unlock_pdf:detail_description_object__unlock_pdf__bottom_right_description_2',
+          'pages__pdf_tools__unlock_pdf:detail_description_object__unlock_pdf__bottom_right_description_3',
+          'pages__pdf_tools__unlock_pdf:detail_description_object__unlock_pdf__bottom_right_description_4',
+        ],
+      },
+    },
+  },
+}

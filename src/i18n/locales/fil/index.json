@@ -1740,5 +1740,39 @@
     "upgrade_alert__cta_txt": "Pumunta sa Browser Extension Manager",
     "extension_detection_alert__desc": "Upang magpatuloy sa paggamit ng feature na ito, mangyaring mag-install ng aming Chrome extension para sa optimal na pagganap.",
     "mobile_alert__desc": "Ang AI search ay kasalukuyang suportado lamang sa desktop o laptop browsers. Ang suporta sa mobile ay darating sa lalong madaling panahon. Sa ngayon, mangyaring lumipat sa isang desktop o laptop."
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "Buksan ang PDF",
+    "description": "Tanggalin ang password, encryption, at pahintulot mula sa iyong PDF",
+    "seo_title": "Buksan ang PDF - Tanggalin ang Password mula sa Mga PDF Files Online ng Libre | MaxAI.me",
+    "seo_description": "Madaling tanggalin ang proteksyon ng password mula sa mga file ng PDF online ng libre. Walang watermarks, limitasyon sa laki ng file, pag-download, o pag-sign-up ang kinakailangan.",
+    "detail_description_object__unlock_pdf__top_left": "Madaling buksan ang mga file ng PDF online ng libre sa pamamagitan ng pagtanggal ng mga password. Sa aming tool sa pagbubuksan, ang iyong mga file ay laging mananatiling lokal, pinapangalagaan ang privacy, at walang limitasyon sa laki ng file.",
+    "detail_description_object__unlock_pdf__top_right_1": "Mabilis na buksan ang mga file ng PDF sa loob lamang ng ilang segundo.",
+    "detail_description_object__unlock_pdf__top_right_2": "I-upload lamang ang iyong mga file ng PDF para magsimula.",
+    "detail_description_object__unlock_pdf__top_right_3": "Sakop ang Mac, Windows, Android, at iOS.",
+    "detail_description_object__unlock_pdf__middle_1_title": "Simple Online Tool para sa Pagbubuksan ng PDFs",
+    "detail_description_object__unlock_pdf__middle_1_description": "Ang aming tool sa pagbubuksan ng PDF ay nagbibigay-daan sa iyo na madaling tanggalin ang proteksyon ng password mula sa mga file ng PDF nang mabilis. I-upload lamang ang iyong file, ilagay ang password, at i-download ang buksang PDF. Napakadali, lubos na libre, at walang kinakailangang magparehistro ng account.",
+    "detail_description_object__unlock_pdf__middle_2_title": "Lokal na Ligtas na Pagbubuksan ng PDF",
+    "detail_description_object__unlock_pdf__middle_2_description": "Ang lahat ng mga file na iyong i-uupload ay direktang naiproseso sa iyong browser, pinapangalagaan ang kumpletong privacy. Walang mga file na i-uupload sa ulap, pinagkakatiwalaan ang seguridad ng data.",
+    "detail_description_object__unlock_pdf__middle_3_title": "Cross-Platform Compatibility",
+    "detail_description_object__unlock_pdf__middle_3_description": "Ang aming tool sa pagbubuksan ng PDF ay batay sa browser, kaya't gumagana ito nang walang abala sa Mac, Windows, at Linux, pati na rin sa mga mobile device. Madaling buksan ang iyong mga file ng PDF mula saanman.",
+    "detail_description_object__unlock_pdf__middle_4_title": "Madaling Proseso ng Operasyon",
+    "detail_description_object__unlock_pdf__middle_4_description": "Madali ang pagbubuksan ng iyong mga file ng PDF: i-upload ang file, ilagay ang password, at pagkatapos ay i-download ang buksang bersyon. Kahit ang mga baguhan ay maaaring magamit nang walang kahirap-hirap sa prosesong ito.",
+    "detail_description_object__unlock_pdf__middle_5_title": "Mapagkakatiwalaang Tool sa Pagbubuksan ng PDF",
+    "detail_description_object__unlock_pdf__middle_5_description": "Walang pangangailangang bumili ng mamahaling software para buksan ang mga file ng PDF. Ang aming tool sa pagbubuksan ng PDF ay available para sa libreng online na paggamit nang walang pangangailangang magproseso sa ulap, pinapangalagaan ang seguridad ng iyong mga file at data.",
+    "detail_description_object__unlock_pdf__middle_6_title": "Lokal na Proseso para sa Pinalakas na Seguridad",
+    "detail_description_object__unlock_pdf__middle_6_description": "Ang aming serbisyong pagbubuksan ay nagtitiyak na lahat ng operasyon ay isinasagawa nang lokal. Ang tampok na ito ay nagpapalakas sa seguridad at nagpapabawas ng oras ng pagproseso, pinapangalagaan na laging protektado ang iyong mga file.",
+    "detail_description_object__unlock_pdf__bottom_right_title": "Paano Buksan ang Mga File ng PDF Online:",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "I-upload ang file ng PDF na nais mong buksan.",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "Ilagay ang password para sa file ng PDF na alam mo.",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Kapag nabuksan na, maaari mong malayang ma-access at i-edit ang iyong mga file ng PDF sa anumang device.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "I-click ang 'Unlock' para ma-download ang unlocked PDF file."
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "Mangyaring ilagay ang password para buksan ang iyong PDF",
+    "components__unlock_pdf_detail_input_placeholder": "Password",
+    "components__unlock_pdf_detail__button__unlock": "Buksan",
+    "components__unlock_pdf_detail__button__convert": "I-convert ang isa pa",
+    "components__unlock_pdf_detail__incorrect_password_tips": "Maling password"
   }
 }

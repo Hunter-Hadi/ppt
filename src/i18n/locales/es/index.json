@@ -1740,5 +1740,39 @@
     "upgrade_alert__cta_txt": "Visita el Administrador de Extensiones del Navegador",
     "extension_detection_alert__desc": "Para seguir usando esta función, instala nuestra extensión de Chrome para una funcionalidad óptima.",
     "mobile_alert__desc": "La búsqueda de IA actualmente solo es compatible con navegadores de escritorio o portátiles. El soporte móvil llegará pronto. Por ahora, cambia a un escritorio o portátil."
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "Desbloquear PDF",
+    "description": "Elimina contraseña, cifrado y permisos de tu PDF",
+    "seo_title": "Desbloquear PDF - Elimina Contraseña de Archivos PDF en Línea Gratis | MaxAI.me",
+    "seo_description": "Elimina fácilmente la protección por contraseña de archivos PDF en línea de forma gratuita. No se requieren marcas de agua, límites de tamaño de archivo, descargas ni registros.",
+    "detail_description_object__unlock_pdf__top_left": "Desbloquea fácilmente archivos PDF en línea de forma gratuita eliminando contraseñas. Con nuestra herramienta de desbloqueo, tus archivos siempre permanecerán locales, garantizando la privacidad, y no hay límites de tamaño de archivo.",
+    "detail_description_object__unlock_pdf__top_right_1": "Desbloquea rápidamente archivos PDF en solo unos segundos.",
+    "detail_description_object__unlock_pdf__top_right_2": "Simplemente carga tus archivos PDF para comenzar.",
+    "detail_description_object__unlock_pdf__top_right_3": "Compatible con Mac, Windows, Android e iOS.",
+    "detail_description_object__unlock_pdf__middle_1_title": "Herramienta en Línea Simple para Desbloquear PDFs",
+    "detail_description_object__unlock_pdf__middle_1_description": "Nuestra herramienta de desbloqueo de PDF te permite eliminar rápidamente la protección por contraseña de archivos PDF. Simplemente carga tu archivo, ingresa la contraseña y descarga el PDF desbloqueado. Es increíblemente fácil, completamente gratis y no se requiere registro de cuenta.",
+    "detail_description_object__unlock_pdf__middle_2_title": "Desbloqueo Seguro Local de PDF",
+    "detail_description_object__unlock_pdf__middle_2_description": "Todos los archivos que cargues se procesan directamente en tu navegador, garantizando completa privacidad. Ningún archivo se carga en la nube, lo que garantiza la seguridad de los datos.",
+    "detail_description_object__unlock_pdf__middle_3_title": "Compatibilidad Multiplataforma",
+    "detail_description_object__unlock_pdf__middle_3_description": "Nuestra herramienta de desbloqueo de PDF es basada en navegador, lo que significa que funciona perfectamente en Mac, Windows y Linux, así como en dispositivos móviles. Puedes desbloquear fácilmente tus archivos PDF desde cualquier lugar.",
+    "detail_description_object__unlock_pdf__middle_4_title": "Proceso de Operación Sencillo",
+    "detail_description_object__unlock_pdf__middle_4_description": "Desbloquear tus archivos PDF es simple: carga el archivo, ingresa la contraseña y luego descarga la versión desbloqueada. Incluso los principiantes pueden dominar este proceso sin esfuerzo.",
+    "detail_description_object__unlock_pdf__middle_5_title": "Herramienta Confiable de Desbloqueo de PDF",
+    "detail_description_object__unlock_pdf__middle_5_description": "No es necesario comprar software costoso para desbloquear archivos PDF. Nuestra herramienta de desbloqueo de PDF está disponible de forma gratuita para uso en línea sin necesidad de procesamiento en la nube, garantizando que tus archivos y datos estén siempre seguros.",
+    "detail_description_object__unlock_pdf__middle_6_title": "Procesamiento Local para una Seguridad Reforzada",
+    "detail_description_object__unlock_pdf__middle_6_description": "Nuestro servicio de desbloqueo garantiza que todas las operaciones se realicen localmente. Esta característica clave mejora la seguridad y reduce el tiempo de procesamiento, asegurando que tus archivos estén siempre protegidos.",
+    "detail_description_object__unlock_pdf__bottom_right_title": "Cómo Desbloquear Archivos PDF en Línea:",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "Carga el archivo PDF que deseas desbloquear.",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "Ingresa la contraseña del archivo PDF que conoces.",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Una vez desbloqueado, puedes acceder y editar libremente tus archivos PDF en cualquier dispositivo.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Haz clic en 'Desbloquear' para descargar el archivo PDF desbloqueado."
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "Ingresa la contraseña para desbloquear tu PDF",
+    "components__unlock_pdf_detail_input_placeholder": "Contraseña",
+    "components__unlock_pdf_detail__button__unlock": "Desbloquear",
+    "components__unlock_pdf_detail__button__convert": "Convertir otro",
+    "components__unlock_pdf_detail__incorrect_password_tips": "Contraseña incorrecta"
   }
 }

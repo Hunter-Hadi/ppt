@@ -1740,5 +1740,39 @@
     "upgrade_alert__cta_txt": "زيارة مدير امتدادات المتصفح",
     "extension_detection_alert__desc": "لمواصلة استخدام هذه الميزة، يرجى تثبيت إضافة Chrome لدينا للحصول على الوظائف الأمثل.",
     "mobile_alert__desc": "يتم دعم البحث بالذكاء الاصطناعي حاليًا فقط على متصفحات سطح المكتب أو الكمبيوتر المحمول. الدعم على الهواتف النقالة قادم قريبًا. للآن، يرجى التبديل إلى جهاز كمبيوتر محمول أو سطح المكتب."
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "إلغاء قفل PDF",
+    "description": "إزالة كلمة المرور والتشفير والإذن من ملف PDF الخاص بك",
+    "seo_title": "إلغاء قفل PDF - إزالة كلمة المرور من ملفات PDF عبر الإنترنت مجانًا | MaxAI.me",
+    "seo_description": "قم بإزالة حماية كلمة المرور من ملفات PDF عبر الإنترنت بسهولة ومجانًا. لا توجد علامات مائية أو حدود لحجم الملف أو تنزيلات أو تسجيلات مطلوبة.",
+    "detail_description_object__unlock_pdf__top_left": "إلغاء قفل ملفات PDF عبر الإنترنت مجانًا عن طريق إزالة كلمات المرور. باستخدام أداة الإلغاء الخاصة بنا، ستظل ملفاتك دائمًا محلية، مما يضمن الخصوصية، ولا توجد حدود لحجم الملفات.",
+    "detail_description_object__unlock_pdf__top_right_1": "إلغاء قفل ملفات PDF بسرعة في بضع ثوانٍ فقط.",
+    "detail_description_object__unlock_pdf__top_right_2": "قم ببساطة بتحميل ملفات PDF الخاصة بك للبدء.",
+    "detail_description_object__unlock_pdf__top_right_3": "متوافق مع Mac و Windows و Android و iOS.",
+    "detail_description_object__unlock_pdf__middle_1_title": "أداة عبر الإنترنت بسيطة لإلغاء قفل ملفات PDF",
+    "detail_description_object__unlock_pdf__middle_1_description": "تتيح لك أداة إلغاء قفل PDF لدينا إزالة حماية كلمة المرور من ملفات PDF بسرعة. قم بتحميل ملفك، أدخل كلمة المرور، وقم بتنزيل الملف PDF المفتوح. إنها سهلة للغاية، مجانية تمامًا، ولا تتطلب تسجيل الدخول.",
+    "detail_description_object__unlock_pdf__middle_2_title": "إلغاء قفل PDF بأمان محلي",
+    "detail_description_object__unlock_pdf__middle_2_description": "يتم معالجة جميع الملفات التي تقوم بتحميلها مباشرة في متصفحك، مما يضمن الخصوصية التامة. لا تتم تحميل الملفات إلى السحابة، مما يضمن أمان البيانات.",
+    "detail_description_object__unlock_pdf__middle_3_title": "توافق متعدد المنصات",
+    "detail_description_object__unlock_pdf__middle_3_description": "أداة إلغاء قفل PDF لدينا تعتمد على المتصفح، مما يعني أنها تعمل بسلاسة على Mac و Windows و Linux، بالإضافة إلى الأجهزة المحمولة. يمكنك بسهولة إلغاء قفل ملفات PDF الخاصة بك من أي مكان.",
+    "detail_description_object__unlock_pdf__middle_4_title": "عملية تشغيل سهلة",
+    "detail_description_object__unlock_pdf__middle_4_description": "إلغاء قفل ملفات PDF الخاصة بك بسيط: قم بتحميل الملف، أدخل كلمة المرور، ثم قم بتنزيل النسخة المفتوحة. حتى المبتدئين يمكنهم تقديم هذه العملية بسهولة.",
+    "detail_description_object__unlock_pdf__middle_5_title": "أداة إلغاء قفل PDF موثوقة",
+    "detail_description_object__unlock_pdf__middle_5_description": "لا حاجة لشراء برامج مكلفة لإلغاء قفل ملفات PDF. أداة إلغاء قفل PDF الخاصة بنا متاحة للاستخدام المجاني عبر الإنترنت دون الحاجة إلى معالجة سحابية، مما يضمن أمان ملفاتك وبياناتك دائمًا.",
+    "detail_description_object__unlock_pdf__middle_6_title": "معالجة محلية لتعزيز الأمان",
+    "detail_description_object__unlock_pdf__middle_6_description": "تضمن خدمتنا لإلغاء القفل أن جميع العمليات تتم محليًا. تعزز هذه الميزة الرئيسية الأمان وتقلل من وقت المعالجة، مما يضمن حماية ملفاتك دائمًا.",
+    "detail_description_object__unlock_pdf__bottom_right_title": "كيفية إلغاء قفل ملفات PDF عبر الإنترنت:",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "قم بتحميل ملف PDF الذي تريد إلغاء قفله.",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "أدخل كلمة المرور لملف PDF التي تعرفها.",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "بمجرد الإلغاء، يمكنك الوصول إلى ملفات PDF الخاصة بك وتحريرها بحرية على أي جهاز.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "انقر على 'إلغاء القفل' لتنزيل ملف PDF المفتوح."
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "الرجاء إدخال كلمة المرور لإلغاء قفل ملف PDF الخاص بك",
+    "components__unlock_pdf_detail_input_placeholder": "كلمة المرور",
+    "components__unlock_pdf_detail__button__unlock": "إلغاء القفل",
+    "components__unlock_pdf_detail__button__convert": "تحويل آخر",
+    "components__unlock_pdf_detail__incorrect_password_tips": "كلمة المرور غير صحيحة"
   }
 }

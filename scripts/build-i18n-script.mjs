@@ -544,10 +544,11 @@ async function getCurrentCountryCode() {
       agent,
     })
     const ipInfo = await ipInfoRes.json()
-    console.log('ipInfo', ipInfo)
     const ipAddress = ipInfo.ip
     // 使用IP地址获取地理位置信息
-    const geoResponse = await fetch(`https://ipapi.co/${ipAddress}/json/`)
+    const geoResponse = await nodeFetch(`https://ipapi.co/${ipAddress}/json/`, {
+      agent,
+    })
     const geoData = await geoResponse.json()
     return geoData.country_code
   } catch (e) {
@@ -569,6 +570,7 @@ export const buildI18n = async (
   // 美国、日本、韩国、新加坡
   const allowedCountryCodes = ['US', 'JP', 'KR', 'SG']
   const ipCountryCode = await getCurrentCountryCode()
+  console.log('ipCountryCode', ipCountryCode)
   if (!allowedCountryCodes.includes(ipCountryCode)) {
     console.log(
       `❌当前IP[${ipCountryCode}]不在允许的国家范围内(美国、日本、韩国、新加坡)`,

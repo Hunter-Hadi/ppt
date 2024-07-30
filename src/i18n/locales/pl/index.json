@@ -1740,5 +1740,39 @@
     "upgrade_alert__cta_txt": "Odwiedź Menedżera Rozszerzeń Przeglądarki",
     "extension_detection_alert__desc": "Aby kontynuować korzystanie z tej funkcji, zainstaluj nasze rozszerzenie Chrome dla optymalnej funkcjonalności.",
     "mobile_alert__desc": "Wyszukiwanie AI jest obecnie obsługiwane tylko na komputerach stacjonarnych lub laptopach. Wsparcie dla urządzeń mobilnych będzie dostępne wkrótce. Na razie przełącz się na komputer stacjonarny lub laptop."
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "Odblokuj PDF",
+    "description": "Usuń hasło, szyfrowanie i uprawnienia z Twojego pliku PDF",
+    "seo_title": "Odblokuj PDF - Usuń hasło z plików PDF online za darmo | MaxAI.me",
+    "seo_description": "Łatwo usuń zabezpieczenie hasłem z plików PDF online za darmo. Nie ma znaków wodnych, ograniczeń wielkości pliku, pobierania ani rejestracji wymaganej.",
+    "detail_description_object__unlock_pdf__top_left": "Łatwo odblokuj pliki PDF online za darmo, usuwając hasła. Dzięki naszemu narzędziu odblokowywania, Twoje pliki zawsze pozostaną lokalne, zapewniając prywatność, a nie ma ograniczeń wielkości pliku.",
+    "detail_description_object__unlock_pdf__top_right_1": "Szybko odblokuj pliki PDF w zaledwie kilka sekund.",
+    "detail_description_object__unlock_pdf__top_right_2": "Po prostu załaduj swoje pliki PDF, aby rozpocząć.",
+    "detail_description_object__unlock_pdf__top_right_3": "Kompatybilny z systemami Mac, Windows, Android i iOS.",
+    "detail_description_object__unlock_pdf__middle_1_title": "Proste narzędzie online do odblokowywania PDF",
+    "detail_description_object__unlock_pdf__middle_1_description": "Nasze narzędzie do odblokowywania PDF pozwala szybko usunąć zabezpieczenie hasłem z plików PDF. Wystarczy załadować plik, wprowadzić hasło i pobrać odblokowany PDF. To niesamowicie proste, całkowicie darmowe, a nie jest wymagana rejestracja konta.",
+    "detail_description_object__unlock_pdf__middle_2_title": "Lokalne bezpieczne odblokowywanie PDF",
+    "detail_description_object__unlock_pdf__middle_2_description": "Wszystkie pliki, które przesyłasz, są przetwarzane bezpośrednio w Twojej przeglądarce, zapewniając pełną prywatność. Żadne pliki nie są przesyłane do chmury, co gwarantuje bezpieczeństwo danych.",
+    "detail_description_object__unlock_pdf__middle_3_title": "Kompatybilność między platformami",
+    "detail_description_object__unlock_pdf__middle_3_description": "Nasze narzędzie do odblokowywania PDF działa w przeglądarce, co oznacza, że działa płynnie na systemach Mac, Windows i Linux, a także na urządzeniach mobilnych. Możesz łatwo odblokować swoje pliki PDF z dowolnego miejsca.",
+    "detail_description_object__unlock_pdf__middle_4_title": "Proces operacyjny łatwy w obsłudze",
+    "detail_description_object__unlock_pdf__middle_4_description": "Odblokowywanie plików PDF jest proste: załaduj plik, wprowadź hasło, a następnie pobierz odblokowaną wersję. Nawet początkujący mogą opanować ten proces bez wysiłku.",
+    "detail_description_object__unlock_pdf__middle_5_title": "Narzędzie do odblokowywania PDF godne zaufania",
+    "detail_description_object__unlock_pdf__middle_5_description": "Nie ma potrzeby kupowania drogiego oprogramowania do odblokowywania plików PDF. Nasze narzędzie do odblokowywania PDF jest dostępne do darmowego użytku online bez konieczności przetwarzania w chmurze, co zapewnia, że Twoje pliki i dane zawsze są bezpieczne.",
+    "detail_description_object__unlock_pdf__middle_6_title": "Lokalne przetwarzanie dla zwiększenia bezpieczeństwa",
+    "detail_description_object__unlock_pdf__middle_6_description": "Nasza usługa odblokowywania zapewnia, że wszystkie operacje są przeprowadzane lokalnie. Ta kluczowa funkcja zwiększa bezpieczeństwo i skraca czas przetwarzania, zapewniając, że Twoje pliki zawsze są chronione.",
+    "detail_description_object__unlock_pdf__bottom_right_title": "Jak odblokować pliki PDF online:",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "Załaduj plik PDF, który chcesz odblokować.",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "Wprowadź hasło do pliku PDF, które znasz.",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Po odblokowaniu możesz swobodnie uzyskać dostęp i edytować swoje pliki PDF na dowolnym urządzeniu.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Kliknij „Odblokuj”, aby pobrać odblokowany plik PDF."
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "Proszę wprowadź hasło, aby odblokować swój plik PDF",
+    "components__unlock_pdf_detail_input_placeholder": "Hasło",
+    "components__unlock_pdf_detail__button__unlock": "Odblokuj",
+    "components__unlock_pdf_detail__button__convert": "Konwertuj inny",
+    "components__unlock_pdf_detail__incorrect_password_tips": "Nieprawidłowe hasło"
   }
 }

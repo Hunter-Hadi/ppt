@@ -1740,5 +1740,39 @@
     "upgrade_alert__cta_txt": "Navštívit Správce prodloužení prohlížeče",
     "extension_detection_alert__desc": "Pro pokračování v používání této funkce nainstalujte naši rozšíření pro Chrome pro optimální funkčnost.",
     "mobile_alert__desc": "AI vyhledávání je momentálně podporováno pouze na desktopových nebo laptopových prohlížečích. Podpora pro mobilní zařízení brzy přijde. Prozatím přepněte na desktop nebo laptop."
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "Odemknout PDF",
+    "description": "Odstraňte heslo, šifrování a oprávnění z vašeho PDF",
+    "seo_title": "Odemknout PDF - Odstraňte heslo z PDF souborů online zdarma | MaxAI.me",
+    "seo_description": "Snadno odstraňte ochranu heslem z PDF souborů online zdarma. Nejsou vyžadovány vodoznaky, limity velikosti souboru, stahování ani registrace.",
+    "detail_description_object__unlock_pdf__top_left": "Snadno odemkněte PDF soubory online zdarma odstraněním hesel. S naším nástrojem na odemčení zůstanou vaše soubory vždy lokální, což zajišťuje soukromí, a neexistují žádná omezení velikosti souboru.",
+    "detail_description_object__unlock_pdf__top_right_1": "Rychle odemkněte PDF soubory během několika sekund.",
+    "detail_description_object__unlock_pdf__top_right_2": "Jednoduše nahrajte své PDF soubory a začněte.",
+    "detail_description_object__unlock_pdf__top_right_3": "Kompatibilní s Macem, Windowsem, Androidem a iOS.",
+    "detail_description_object__unlock_pdf__middle_1_title": "Jednoduchý online nástroj pro odemčení PDF",
+    "detail_description_object__unlock_pdf__middle_1_description": "Náš nástroj na odemčení PDF vám umožňuje rychle odstranit ochranu heslem z PDF souborů. Stačí nahrát váš soubor, zadat heslo a stáhnout odemčené PDF. Je to neuvěřitelně snadné, zcela zdarma a není vyžadována žádná registrace účtu.",
+    "detail_description_object__unlock_pdf__middle_2_title": "Lokální bezpečné odemykání PDF",
+    "detail_description_object__unlock_pdf__middle_2_description": "Všechny soubory, které nahráváte, jsou zpracovávány přímo ve vašem prohlížeči, což zajišťuje úplné soukromí. Žádné soubory nejsou nahrány do cloudu, což zaručuje bezpečnost dat.",
+    "detail_description_object__unlock_pdf__middle_3_title": "Křížová kompatibilita",
+    "detail_description_object__unlock_pdf__middle_3_description": "Náš nástroj na odemykání PDF je založený na prohlížeči, což znamená, že funguje bez problémů na Macu, Windows a Linuxu, stejně jako na mobilních zařízeních. Můžete snadno odemknout své PDF soubory odkudkoli.",
+    "detail_description_object__unlock_pdf__middle_4_title": "Snadný provozní proces",
+    "detail_description_object__unlock_pdf__middle_4_description": "Odemčení vašich PDF souborů je jednoduché: nahrajte soubor, zadejte heslo a stáhněte odemčenou verzi. I začátečníci mohou tento proces zvládnout snadno.",
+    "detail_description_object__unlock_pdf__middle_5_title": "Spolehlivý nástroj na odemykání PDF",
+    "detail_description_object__unlock_pdf__middle_5_description": "Není třeba kupovat drahý software na odemykání PDF souborů. Náš nástroj na odemykání PDF je k dispozici zdarma online bez potřeby zpracování v cloudu, což zajišťuje, že vaše soubory a data jsou vždy v bezpečí.",
+    "detail_description_object__unlock_pdf__middle_6_title": "Lokální zpracování pro zvýšenou bezpečnost",
+    "detail_description_object__unlock_pdf__middle_6_description": "Naše odemykací služba zajišťuje, že všechny operace jsou prováděny lokálně. Tato klíčová funkce zvyšuje bezpečnost a snižuje dobu zpracování, což zajišťuje, že vaše soubory jsou vždy chráněny.",
+    "detail_description_object__unlock_pdf__bottom_right_title": "Jak odemknout PDF soubory online:",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "Nahrajte PDF soubor, který chcete odemknout.",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "Zadejte heslo k PDF souboru, které znáte.",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Jakmile je odemčen, můžete volně přistupovat a upravovat své PDF soubory na jakémkoli zařízení.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Klikněte na tlačítko 'Odemknout' pro stažení odemčeného souboru PDF."
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "Zadejte heslo pro odemčení vašeho PDF",
+    "components__unlock_pdf_detail_input_placeholder": "Heslo",
+    "components__unlock_pdf_detail__button__unlock": "Odemknout",
+    "components__unlock_pdf_detail__button__convert": "Převést další",
+    "components__unlock_pdf_detail__incorrect_password_tips": "Nesprávné heslo"
   }
 }

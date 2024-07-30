@@ -730,6 +730,33 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Download your PDF with page numbers—that’s it!",
     "uninstall_survey__title": "Help us improve"
   },
+  "pages__pdf_tools__unlock_pdf":{
+    "title": "Unlock PDF",
+    "description":"Remove password, encryption, and permission from your PDF",
+    "seo_title": "Unlock PDF - Remove Password from PDF Files Online for Free | MaxAI.me",
+    "seo_description":"Easily remove password protection from PDF files online for free. No watermarks, file size limits, downloads, or sign-ups are required.",
+    "detail_description_object__unlock_pdf__top_left": "Easily unlock PDF files online for free by removing passwords. With our unlocking tool, your files will always remain local, ensuring privacy, and there are no file size limits.",
+    "detail_description_object__unlock_pdf__top_right_1": "Quickly unlock PDF files in just a few seconds.",
+    "detail_description_object__unlock_pdf__top_right_2": "Simply upload your PDF files to get started.",
+    "detail_description_object__unlock_pdf__top_right_3": "Compatible with Mac, Windows, Android, and iOS.",
+    "detail_description_object__unlock_pdf__middle_1_title": "Simple Online Tool to Unlock PDFs",
+    "detail_description_object__unlock_pdf__middle_1_description": "Our PDF unlock tool allows you to remove password protection from PDF files quickly. Just upload your file, enter the password, and download the unlocked PDF. It’s incredibly easy, completely free, and no account registration is required.",
+    "detail_description_object__unlock_pdf__middle_2_title": "Local Safe PDF Unlocking",
+    "detail_description_object__unlock_pdf__middle_2_description": "All files you upload are processed directly in your browser, ensuring complete privacy. No files are uploaded to the cloud, guaranteeing data security.",
+    "detail_description_object__unlock_pdf__middle_3_title": "Cross-Platform Compatibility",
+    "detail_description_object__unlock_pdf__middle_3_description": "Our PDF unlocking tool is browser-based, meaning it works seamlessly on Mac, Windows, and Linux, as well as mobile devices. You can easily unlock your PDF files from anywhere.",
+    "detail_description_object__unlock_pdf__middle_4_title": "Easy Operation Process",
+    "detail_description_object__unlock_pdf__middle_4_description": "Unlocking your PDF files is simple: upload the file, enter the password, and then download the unlocked version. Even beginners can master this process effortlessly.",
+    "detail_description_object__unlock_pdf__middle_5_title": "Reliable PDF Unlocking Tool",
+    "detail_description_object__unlock_pdf__middle_5_description": "There’s no need to purchase expensive software to unlock PDF files. Our PDF unlocking tool is available for free online use without the need for cloud processing, ensuring your files and data are always secure.",
+    "detail_description_object__unlock_pdf__middle_6_title": "Local Processing for Enhanced Security",
+    "detail_description_object__unlock_pdf__middle_6_description": "Our unlocking service ensures that all operations are carried out locally. This key feature enhances security and reduces processing time, ensuring your files are always protected.",
+    "detail_description_object__unlock_pdf__bottom_right_title": "How to Unlock PDF Files Online:",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "Upload the PDF file you want to unlock.",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "Enter the password for the PDF file you know.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Click ‘Unlock’ to download the unlocked PDF file.",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Once unlocked, you can freely access and edit your PDF files on any device."
+  },
   "use_cases_pages": {
     "research__title": "Supercharge your browser with AI Research 10x faster",
     "research__description": "Summarize and chat with web articles, PDFs, and YouTube videos to save time. Ask AI questions for quick answers to speed up your research.",
@@ -977,6 +1004,13 @@
     "components__pdf_number_pages__main_input_start_numbering_at": "Input start numbering at",
     "components__pdf_number_pages__main_add_and_download": "Insert & Download",
     "components__pdf_number_pages__main_choose_another_file": "Choose another file"
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "Please enter the password to unlock your PDF",
+    "components__unlock_pdf_detail_input_placeholder": "Password",
+    "components__unlock_pdf_detail__button__unlock": "Unlock",
+    "components__unlock_pdf_detail__button__convert": "Convert another",
+    "components__unlock_pdf_detail__incorrect_password_tips": "Incorrect password"
   },
   "prompt_library": {
     "use_prompt_library__title": "High quality AI prompt library",

@@ -1740,5 +1740,39 @@
     "upgrade_alert__cta_txt": "Visite o Gestor de Extensões do Navegador",
     "extension_detection_alert__desc": "Para continuar a usar este recurso, instale a nossa extensão para Chrome para uma funcionalidade ótima.",
     "mobile_alert__desc": "A pesquisa de IA é atualmente suportada apenas em navegadores de desktop ou laptop. O suporte para dispositivos móveis está a caminho. Por agora, mude para um desktop ou laptop."
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "Desbloquear PDF",
+    "description": "Remova a palavra-passe, encriptação e permissão do seu PDF",
+    "seo_title": "Desbloquear PDF - Remova a Palavra-Passe de Ficheiros PDF Online Gratuitamente | MaxAI.me",
+    "seo_description": "Remova facilmente a proteção por palavra-passe de ficheiros PDF online gratuitamente. Sem marcas de água, limites de tamanho de ficheiro, downloads ou registos são necessários.",
+    "detail_description_object__unlock_pdf__top_left": "Desbloqueie facilmente ficheiros PDF online gratuitamente ao remover as palavras-passe. Com a nossa ferramenta de desbloqueio, os seus ficheiros permanecerão sempre locais, garantindo privacidade, e não existem limites de tamanho de ficheiro.",
+    "detail_description_object__unlock_pdf__top_right_1": "Desbloqueie rapidamente ficheiros PDF em apenas alguns segundos.",
+    "detail_description_object__unlock_pdf__top_right_2": "Basta carregar os seus ficheiros PDF para começar.",
+    "detail_description_object__unlock_pdf__top_right_3": "Compatível com Mac, Windows, Android e iOS.",
+    "detail_description_object__unlock_pdf__middle_1_title": "Ferramenta Online Simples para Desbloquear PDFs",
+    "detail_description_object__unlock_pdf__middle_1_description": "A nossa ferramenta de desbloqueio de PDF permite-lhe remover rapidamente a proteção por palavra-passe de ficheiros PDF. Basta carregar o seu ficheiro, introduzir a palavra-passe e descarregar o PDF desbloqueado. É incrivelmente fácil, totalmente gratuito e não é necessário registo de conta.",
+    "detail_description_object__unlock_pdf__middle_2_title": "Desbloqueio Seguro Local de PDFs",
+    "detail_description_object__unlock_pdf__middle_2_description": "Todos os ficheiros que carrega são processados diretamente no seu navegador, garantindo privacidade total. Nenhum ficheiro é carregado para a nuvem, garantindo segurança dos dados.",
+    "detail_description_object__unlock_pdf__middle_3_title": "Compatibilidade Multiplataforma",
+    "detail_description_object__unlock_pdf__middle_3_description": "A nossa ferramenta de desbloqueio de PDF é baseada no navegador, o que significa que funciona perfeitamente em Mac, Windows e Linux, bem como em dispositivos móveis. Pode desbloquear facilmente os seus ficheiros PDF de qualquer lugar.",
+    "detail_description_object__unlock_pdf__middle_4_title": "Processo de Operação Simples",
+    "detail_description_object__unlock_pdf__middle_4_description": "Desbloquear os seus ficheiros PDF é simples: carregue o ficheiro, introduza a palavra-passe e depois descarregue a versão desbloqueada. Até os iniciantes podem dominar este processo sem esforço.",
+    "detail_description_object__unlock_pdf__middle_5_title": "Ferramenta de Desbloqueio de PDF Confiável",
+    "detail_description_object__unlock_pdf__middle_5_description": "Não é necessário comprar software caro para desbloquear ficheiros PDF. A nossa ferramenta de desbloqueio de PDF está disponível gratuitamente para utilização online sem necessidade de processamento na nuvem, garantindo que os seus ficheiros e dados estejam sempre seguros.",
+    "detail_description_object__unlock_pdf__middle_6_title": "Processamento Local para Segurança Reforçada",
+    "detail_description_object__unlock_pdf__middle_6_description": "O nosso serviço de desbloqueio garante que todas as operações são realizadas localmente. Esta funcionalidade chave melhora a segurança e reduz o tempo de processamento, garantindo que os seus ficheiros estejam sempre protegidos.",
+    "detail_description_object__unlock_pdf__bottom_right_title": "Como Desbloquear Ficheiros PDF Online:",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "Carregue o ficheiro PDF que deseja desbloquear.",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "Introduza a palavra-passe do ficheiro PDF que conhece.",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Depois de desbloqueado, pode aceder e editar livremente os seus ficheiros PDF em qualquer dispositivo.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Clique em 'Desbloquear' para descarregar o ficheiro PDF desbloqueado."
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "Por favor, introduza a palavra-passe para desbloquear o seu PDF",
+    "components__unlock_pdf_detail_input_placeholder": "Palavra-passe",
+    "components__unlock_pdf_detail__button__unlock": "Desbloquear",
+    "components__unlock_pdf_detail__button__convert": "Converter outro",
+    "components__unlock_pdf_detail__incorrect_password_tips": "Palavra-passe incorreta"
   }
 }

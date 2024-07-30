@@ -1740,5 +1740,39 @@
     "upgrade_alert__cta_txt": "Lawati Pengurus Sambungan Pelayar",
     "extension_detection_alert__desc": "Untuk terus menggunakan ciri ini, sila pasang sambungan Chrome kami untuk fungsi yang optimum.",
     "mobile_alert__desc": "Carian AI pada masa ini hanya disokong pada pelayar desktop atau laptop. Sokongan mudah alih akan datang tidak lama lagi. Untuk masa ini, sila tukar ke desktop atau laptop."
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "Buka PDF",
+    "description": "Alihkan kata laluan, enkripsi, dan kebenaran dari PDF anda",
+    "seo_title": "Buka PDF - Alihkan Kata Laluan dari Fail PDF Secara Dalam Talian secara Percuma | MaxAI.me",
+    "seo_description": "Alihkan perlindungan kata laluan dari fail PDF secara dalam talian secara percuma. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan.",
+    "detail_description_object__unlock_pdf__top_left": "Alihkan fail PDF secara dalam talian secara percuma dengan mengalihkan kata laluan. Dengan alat pembukaan kami, fail anda akan sentiasa kekal tempatan, memastikan privasi, dan tiada had saiz fail.",
+    "detail_description_object__unlock_pdf__top_right_1": "Alihkan fail PDF dengan pantas hanya dalam beberapa saat.",
+    "detail_description_object__unlock_pdf__top_right_2": "Hanya muat naik fail PDF anda untuk memulakan.",
+    "detail_description_object__unlock_pdf__top_right_3": "Selaras dengan Mac, Windows, Android, dan iOS.",
+    "detail_description_object__unlock_pdf__middle_1_title": "Alat Dalam Talian Mudah untuk Membuka PDF",
+    "detail_description_object__unlock_pdf__middle_1_description": "Alat pembukaan PDF kami membolehkan anda mengalihkan perlindungan kata laluan dari fail PDF dengan cepat. Hanya muat naik fail anda, masukkan kata laluan, dan muat turun PDF yang telah dibuka. Sangat mudah, sepenuhnya percuma, dan tiada pendaftaran akaun diperlukan.",
+    "detail_description_object__unlock_pdf__middle_2_title": "Pembukaan PDF Tempatan Selamat",
+    "detail_description_object__unlock_pdf__middle_2_description": "Semua fail yang anda muat naik diproses terus dalam pelayar anda, memastikan privasi yang lengkap. Tiada fail yang dimuat naik ke awan, menjamin keselamatan data.",
+    "detail_description_object__unlock_pdf__middle_3_title": "Keserasian Pelantar Silang",
+    "detail_description_object__unlock_pdf__middle_3_description": "Alat pembukaan PDF kami berdasarkan pelayar, bermakna ia berfungsi dengan lancar pada Mac, Windows, dan Linux, serta peranti mudah alih. Anda boleh dengan mudah membuka fail PDF anda dari mana-mana sahaja.",
+    "detail_description_object__unlock_pdf__middle_4_title": "Proses Operasi Mudah",
+    "detail_description_object__unlock_pdf__middle_4_description": "Membuka fail PDF anda adalah mudah: muat naik fail, masukkan kata laluan, dan kemudian muat turun versi yang telah dibuka. Malah pemula pun boleh menguasai proses ini dengan mudah.",
+    "detail_description_object__unlock_pdf__middle_5_title": "Alat Pembukaan PDF Yang Dipercayai",
+    "detail_description_object__unlock_pdf__middle_5_description": "Tiada keperluan untuk membeli perisian mahal untuk membuka fail PDF. Alat pembukaan PDF kami boleh digunakan secara percuma dalam talian tanpa perlu pemprosesan awan, memastikan fail dan data anda sentiasa selamat.",
+    "detail_description_object__unlock_pdf__middle_6_title": "Pemprosesan Tempatan untuk Keselamatan Ditingkatkan",
+    "detail_description_object__unlock_pdf__middle_6_description": "Perkhidmatan pembukaan kami memastikan semua operasi dilakukan secara tempatan. Ciri utama ini meningkatkan keselamatan dan mengurangkan masa pemprosesan, memastikan fail anda sentiasa dilindungi.",
+    "detail_description_object__unlock_pdf__bottom_right_title": "Cara Membuka Fail PDF Secara Dalam Talian:",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "Muat naik fail PDF yang ingin anda buka.",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "Masukkan kata laluan untuk fail PDF yang anda tahu.",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Setelah dibuka, anda boleh dengan bebas mengakses dan mengedit fail PDF anda pada mana-mana peranti.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Klik ‘Buka kunci’ untuk muat turun fail PDF yang dibuka."
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "Sila masukkan kata laluan untuk membuka PDF anda",
+    "components__unlock_pdf_detail_input_placeholder": "Kata Laluan",
+    "components__unlock_pdf_detail__button__unlock": "Buka",
+    "components__unlock_pdf_detail__button__convert": "Alihkan yang lain",
+    "components__unlock_pdf_detail__incorrect_password_tips": "Kata laluan tidak betul"
   }
 }

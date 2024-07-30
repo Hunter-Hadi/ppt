@@ -1740,5 +1740,39 @@
     "upgrade_alert__cta_txt": "Vieraile selaimen laajennushallinnassa",
     "extension_detection_alert__desc": "Jatkaaksesi tämän ominaisuuden käyttöä, asenna Chrome-laajennuksemme optimaalisen toiminnan varmistamiseksi.",
     "mobile_alert__desc": "TeKoÄlyhaku on tällä hetkellä tuettu vain työpöytä- tai kannettavilla tietokoneilla. Mobiilituki on tulossa pian. Toistaiseksi vaihda työpöytä- tai kannettavalle tietokoneelle."
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "Avaa PDF",
+    "description": "Poista salasana, salaus ja luvat PDF-tiedostostasi",
+    "seo_title": "Avaa PDF - Poista salasana PDF-tiedostoista verkossa ilmaiseksi | MaxAI.me",
+    "seo_description": "Poista helposti salasanasuojaus PDF-tiedostoista verkossa ilmaiseksi. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymisiä tarvita.",
+    "detail_description_object__unlock_pdf__top_left": "Avaa PDF-tiedostot helposti verkossa ilmaiseksi poistamalla salasanat. Työkalullamme tiedostosi pysyvät aina paikallisina, varmistaen yksityisyyden, eikä tiedostokoolla ole rajoituksia.",
+    "detail_description_object__unlock_pdf__top_right_1": "Avaa PDF-tiedostot nopeasti muutamassa sekunnissa.",
+    "detail_description_object__unlock_pdf__top_right_2": "Lataa vain PDF-tiedostosi aloittaaksesi.",
+    "detail_description_object__unlock_pdf__top_right_3": "Yhteensopiva Macin, Windowsin, Androidin ja iOS:n kanssa.",
+    "detail_description_object__unlock_pdf__middle_1_title": "Yksinkertainen verkkotyökalu PDF-tiedostojen avaamiseen",
+    "detail_description_object__unlock_pdf__middle_1_description": "PDF-avaimen poistotyökalumme mahdollistaa salasanasuojauksen poiston PDF-tiedostoista nopeasti. Lataa tiedostosi, syötä salasana ja lataa avattu PDF. Se on uskomattoman helppoa, täysin ilmaista eikä tilin rekisteröintiä vaadita.",
+    "detail_description_object__unlock_pdf__middle_2_title": "Paikallinen turvallinen PDF-tiedostojen avaaminen",
+    "detail_description_object__unlock_pdf__middle_2_description": "Kaikki lataamasi tiedostot käsitellään suoraan selaimessasi, varmistaen täydellisen yksityisyyden. Tiedostoja ei lähetetä pilveen, mikä takaa tietoturvan.",
+    "detail_description_object__unlock_pdf__middle_3_title": "Ristiinjärjestelmäinen yhteensopivuus",
+    "detail_description_object__unlock_pdf__middle_3_description": "PDF-avaimen poistotyökalumme perustuu selainpohjaiseen toimintaan, mikä tarkoittaa, että se toimii saumattomasti Macin, Windowsin ja Linuxin sekä mobiililaitteiden kanssa. Voit avata PDF-tiedostosi helposti mistä tahansa.",
+    "detail_description_object__unlock_pdf__middle_4_title": "Helppo toimintaprosessi",
+    "detail_description_object__unlock_pdf__middle_4_description": "PDF-tiedostojen avaaminen on helppoa: lataa tiedosto, syötä salasana ja lataa sitten avattu versio. Jopa aloittelijat voivat hallita tätä prosessia vaivattomasti.",
+    "detail_description_object__unlock_pdf__middle_5_title": "Luotettava PDF-tiedostojen avaustyökalu",
+    "detail_description_object__unlock_pdf__middle_5_description": "Sinun ei tarvitse ostaa kalliita ohjelmistoja PDF-tiedostojen avaamiseen. PDF-tiedostojen avaustyökalumme on saatavilla ilmaiseen verkkokäyttöön ilman pilviprosessointitarvetta, varmistaen tiedostojen ja tietojen aina olevan turvassa.",
+    "detail_description_object__unlock_pdf__middle_6_title": "Paikallinen käsittely paremman turvallisuuden varmistamiseksi",
+    "detail_description_object__unlock_pdf__middle_6_description": "Palvelumme varmistaa, että kaikki toiminnot suoritetaan paikallisesti. Tämä avainominaisuus parantaa turvallisuutta ja lyhentää käsittelyaikaa, varmistaen että tiedostosi ovat aina suojattuja.",
+    "detail_description_object__unlock_pdf__bottom_right_title": "Kuinka avata PDF-tiedostot verkossa:",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "Lataa PDF-tiedosto, jonka haluat avata.",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "Syötä tiedostosi salasana.",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Kun tiedosto on avattu, voit vapaasti käyttää ja muokata PDF-tiedostojasi millä tahansa laitteella.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Napsauta 'Avaa', jotta voit ladata avatun PDF-tiedoston."
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "Syötä salasana avataksesi PDF-tiedostosi",
+    "components__unlock_pdf_detail_input_placeholder": "Salasana",
+    "components__unlock_pdf_detail__button__unlock": "Avaa",
+    "components__unlock_pdf_detail__button__convert": "Muunna toinen",
+    "components__unlock_pdf_detail__incorrect_password_tips": "Väärä salasana"
   }
 }
