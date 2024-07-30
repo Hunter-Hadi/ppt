@@ -16,11 +16,9 @@ import { mixpanelTrack } from '@/features/mixpanel/utils'
 import languageCodeMap from '@/packages/common/constants/languageCodeMap.json'
 import { getLocalStorage, setLocalStorage } from '@/utils/localStorage'
 
-const LandingABTestVariantKeyAtom = atom({
+const LandingABTestVariantKeyAtom = atom<ILandingVariantType | null>({
   key: 'LandingABTestVariantKeyAtom',
-  default: getLocalStorage(
-    TEST_LANDING_COOKIE_NAME,
-  ) as ILandingVariantType | null,
+  default: null,
 })
 
 const useLandingABTester = (autoSendEvent = false) => {
@@ -94,6 +92,11 @@ const useLandingABTester = (autoSendEvent = false) => {
 
   useEffect(() => {
     if (!variant && enabled) {
+      const cacheVariant = getLocalStorage(TEST_LANDING_COOKIE_NAME)
+      if (cacheVariant) {
+        setVariant(cacheVariant as ILandingVariantType)
+        return
+      }
       const keys = Object.keys(LANDING_VARIANT_CONFIG) as ILandingVariantType[]
       const randomIndex = Date.now() % keys.length //随机选择一个variant
       const randomVariant = keys[randomIndex]

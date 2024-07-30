@@ -18,6 +18,7 @@ import HowItWork from '@/features/landing/components/HowItWork'
 import MaxAIInNumbers from '@/features/landing/components/MaxAIInNumbers'
 import UserComment from '@/features/landing/components/UserComment'
 import { RESOURCES_URL } from '@/global_constants'
+import usePageLoaded from '@/hooks/usePageLoaded'
 import ProLink from '@/packages/base-ui/components/ProLink'
 interface IProps {
   propRef?: string
@@ -28,8 +29,9 @@ const FeaturesExploreMore: FC<IProps> = ({ propRef, sx }) => {
   const { t } = useTranslation()
   const { isReady, asPath } = useRouter()
 
-  const { variant, loaded, variantConfig } = useLandingABTester(true)
-  console.log(`variantConfig`, variant, variantConfig)
+  const { variant, variantConfig } = useLandingABTester(true)
+
+  const { isLoaded } = usePageLoaded()
 
   useEffect(() => {
     if (isReady && asPath) {
@@ -42,64 +44,64 @@ const FeaturesExploreMore: FC<IProps> = ({ propRef, sx }) => {
   }, [isReady, asPath])
 
   return (
-    <AppLoadingLayout loading={!loaded} sx={{ minHeight: '90vh' }}>
-      <Stack
-        color='text.primary'
-        sx={{
-          position: 'relative',
-          pt: 3,
-          ...sx,
-        }}
-      >
-        {/* Explore more button */}
-        <ProLink href={'/'} target={'_blank'}>
-          <Stack
-            direction={'row'}
-            alignItems='center'
-            justifyContent='center'
-            spacing={1}
-            py={1}
-            px={2.5}
-            sx={{
-              position: 'absolute',
-              top: 0,
-              left: '50%',
-              transform: 'translateX(-50%)',
-              bgcolor: '#EDE4FF',
-              color: 'primary.main',
-              width: 'max-content',
-              borderRadius: 100,
-            }}
-          >
-            <Typography
-              fontSize={18}
-              fontWeight={500}
-              lineHeight={1.5}
-              variant='custom'
-            >
-              {t('features_landing:explore_more_features')}
-            </Typography>
-            <SouthOutlinedIcon />
-          </Stack>
-        </ProLink>
-
-        {/* heroSection */}
-        <HeroSection
-          titleComponent={'h2'}
-          showIndicatorBadge={false}
-          propRef={propRef}
-          // loading={!loaded}
-          heroVideoProps={{
-            videoSrc: `${RESOURCES_URL}/video/landing-page-primary.mp4`,
-            videoPosterUrl: `/assets/landing/hero-section/video-cover.png`,
-            variant: 'autoplay',
-            windowAutoPlay: true,
+    <Stack
+      color='text.primary'
+      sx={{
+        position: 'relative',
+        pt: 3,
+        ...sx,
+      }}
+    >
+      {/* Explore more button */}
+      <ProLink href={'/'} target={'_blank'}>
+        <Stack
+          direction={'row'}
+          alignItems='center'
+          justifyContent='center'
+          spacing={1}
+          py={1}
+          px={2.5}
+          sx={{
+            position: 'absolute',
+            top: 0,
+            left: '50%',
+            transform: 'translateX(-50%)',
+            bgcolor: '#EDE4FF',
+            color: 'primary.main',
+            width: 'max-content',
+            borderRadius: 100,
           }}
-        />
+        >
+          <Typography
+            fontSize={18}
+            fontWeight={500}
+            lineHeight={1.5}
+            variant='custom'
+          >
+            {t('features_landing:explore_more_features')}
+          </Typography>
+          <SouthOutlinedIcon />
+        </Stack>
+      </ProLink>
 
-        <HowItWork />
+      {/* heroSection */}
+      <HeroSection
+        titleComponent={'h2'}
+        showIndicatorBadge={false}
+        propRef={propRef}
+        // loading={!loaded}
+        heroVideoProps={{
+          videoSrc: `${RESOURCES_URL}/video/landing-page-primary.mp4`,
+          videoPosterUrl: `/assets/landing/hero-section/video-cover.png`,
+          variant: 'autoplay',
+          windowAutoPlay: true,
+        }}
+      />
 
-        {/* feature  */}
+      <HowItWork />
+
+      {/* feature  */}
+      <AppLoadingLayout loading={!isLoaded}>
         {!variant ? (
           <FeaturesContentAbTestV4VariantContent2Section
             abTestTitleDirection={'supersede'}
@@ -120,17 +122,17 @@ const FeaturesExploreMore: FC<IProps> = ({ propRef, sx }) => {
             {variant === '7-5' && <FeaturesContentAbTestV7CardAutoVideo />}
           </>
         )}
+      </AppLoadingLayout>
 
-        {/* maxai in numbers */}
-        <MaxAIInNumbers />
+      {/* maxai in numbers */}
+      <MaxAIInNumbers />
 
-        {/* user comment */}
-        <UserComment />
+      {/* user comment */}
+      <UserComment />
 
-        {/* call to action section */}
-        <CallToActionSection propRef={propRef} />
-      </Stack>
-    </AppLoadingLayout>
+      {/* call to action section */}
+      <CallToActionSection propRef={propRef} />
+    </Stack>
   )
 }
 

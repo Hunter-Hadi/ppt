@@ -2,17 +2,19 @@ import Stack from '@mui/material/Stack'
 import { SxProps } from '@mui/material/styles'
 import dynamic from 'next/dynamic'
 import { useRouter } from 'next/router'
+import { useTranslation } from 'next-i18next'
 import React from 'react'
 import { FC, useEffect } from 'react'
 
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
 import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester'
+import FeaturesContentAbTestV7AutoVideo from '@/features/landing/components/FeaturesCarousel/FeaturesContentAbTestV7SlideAutoVideo'
 import { RESOURCES_URL } from '@/global_constants'
+import usePageLoaded from '@/hooks/usePageLoaded'
 
 import CallToActionSection from './CallToActionSection'
 import FeaturesContentAbTestV4VariantContent2Section from './FeaturesCarousel/FeaturesContentAbTestV4VariantContent2Section'
 import FeaturesContentAbTestV7CardAutoVideo from './FeaturesCarousel/FeaturesContentAbTestV7CardAutoVideo'
-import FeaturesContentAbTestV7AutoVideo from './FeaturesCarousel/FeaturesContentAbTestV7SlideAutoVideo'
 import FeaturesContentAbTestV7VariantContentSection from './FeaturesCarousel/FeaturesContentAbTestV7VariantContentSection'
 import HeroSection from './HeroSection'
 // import HowItWork from './HowItWork'
@@ -40,8 +42,11 @@ interface IProps {
 
 const HomePageContent: FC<IProps> = ({ propRef, sx }) => {
   const { isReady, asPath } = useRouter()
+  const { t } = useTranslation()
 
   const { variant, loaded, variantConfig } = useLandingABTester(true)
+
+  const { isLoaded } = usePageLoaded()
 
   useEffect(() => {
     if (isReady && asPath) {
@@ -61,36 +66,38 @@ const HomePageContent: FC<IProps> = ({ propRef, sx }) => {
         // loading={!loaded}
         heroVideoProps={{
           videoSrc: `${RESOURCES_URL}/video/landing-page-primary.mp4`,
-          videoPosterUrl: `/assets/landing/hero-section/video-cover.png`,
           variant: 'autoplay',
         }}
       />
+
       {/* trusted by */}
       <TrustedBy />
 
       <HowItWork />
-
       {/* feature  */}
-      {!variant ? (
-        <FeaturesContentAbTestV4VariantContent2Section
-          abTestTitleDirection={'supersede'}
-          abTestFeaturesType={'image'}
-        />
-      ) : (
-        <>
-          {(variant === '7-1' || variant === '7-2') && (
-            <FeaturesContentAbTestV4VariantContent2Section
-              abTestTitleDirection={variantConfig?.titleDirection}
-              abTestFeaturesType={variantConfig?.featuresType}
-            />
-          )}
-          {variant === '7-3' && <FeaturesContentAbTestV7AutoVideo />}
-          {variant === '7-4' && (
-            <FeaturesContentAbTestV7VariantContentSection />
-          )}
-          {variant === '7-5' && <FeaturesContentAbTestV7CardAutoVideo />}
-        </>
-      )}
+      <AppLoadingLayout loading={!isLoaded}>
+        {!variant ? (
+          <FeaturesContentAbTestV4VariantContent2Section
+            abTestTitleDirection={'supersede'}
+            abTestFeaturesType={'image'}
+          />
+        ) : (
+          <>
+            {(variant === '7-1' || variant === '7-2') && (
+              <FeaturesContentAbTestV4VariantContent2Section
+                abTestTitleDirection={variantConfig?.titleDirection}
+                abTestFeaturesType={variantConfig?.featuresType}
+              />
+            )}
+            {variant === '7-3' && <FeaturesContentAbTestV7AutoVideo />}
+            {variant === '7-4' && (
+              <FeaturesContentAbTestV7VariantContentSection />
+            )}
+            {variant === '7-5' && <FeaturesContentAbTestV7CardAutoVideo />}
+          </>
+        )}
+      </AppLoadingLayout>
+
       {/* maxai in numbers */}
       <MaxAIInNumbers />
 
