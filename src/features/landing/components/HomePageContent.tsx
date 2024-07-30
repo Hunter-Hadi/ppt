@@ -4,7 +4,7 @@ import { useRouter } from 'next/router'
 import React from 'react'
 import { FC, useEffect } from 'react'
 
-import { RESOURCES_URL } from '@/global_constants'
+import { LANDING_PRIMARY_VIDEO_ASSETS_URL } from '@/features/landing/constants'
 
 import CallToActionSection from './CallToActionSection'
 import FeaturesContentAbTestV7SlideAutoVideo from './FeaturesCarousel/FeaturesContentAbTestV7SlideAutoVideo'
@@ -40,7 +40,7 @@ const HomePageContent: FC<IProps> = ({ propRef, sx }) => {
         // loading={!loaded}
         inLandingVideoABTest
         heroVideoProps={{
-          videoSrc: `${RESOURCES_URL}/video/landing-page-primary.mp4`,
+          videoSrc: LANDING_PRIMARY_VIDEO_ASSETS_URL,
           variant: 'autoplay',
         }}
       />

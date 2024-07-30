@@ -1,20 +1,20 @@
-import Stack from '@mui/material/Stack';
-import Typography from '@mui/material/Typography';
-import { useTranslation } from 'next-i18next';
-import React, { useMemo } from 'react';
+import Stack from '@mui/material/Stack'
+import Typography from '@mui/material/Typography'
+import { useTranslation } from 'next-i18next'
+import React, { useMemo } from 'react'
 
-import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
-import CallToActionSection from '@/features/landing/components/CallToActionSection';
-import FeaturesCarouselIcons from '@/features/landing/components/FeaturesCarousel/FeaturesCarouselIcons';
-import HeroSection from '@/features/landing/components/HeroSection';
-import HowItWork from '@/features/landing/components/HowItWork';
-import MaxAIInNumbers from '@/features/landing/components/MaxAIInNumbers';
-import TrustedBy from '@/features/landing/components/TrustedBy';
-import UserComment from '@/features/landing/components/UserComment';
-import { RESOURCES_URL } from '@/global_constants';
-import FeaturesContentSection from '@/page_components/FeaturesLandingPages/components/FeaturesContentSection';
-import FeaturesTextWithMarker from '@/page_components/FeaturesLandingPages/components/FeaturesTextWithMarker';
+import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
+import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
+import CallToActionSection from '@/features/landing/components/CallToActionSection'
+import FeaturesCarouselIcons from '@/features/landing/components/FeaturesCarousel/FeaturesCarouselIcons'
+import HeroSection from '@/features/landing/components/HeroSection'
+import HowItWork from '@/features/landing/components/HowItWork'
+import MaxAIInNumbers from '@/features/landing/components/MaxAIInNumbers'
+import TrustedBy from '@/features/landing/components/TrustedBy'
+import UserComment from '@/features/landing/components/UserComment'
+import { LANDING_PRIMARY_VIDEO_ASSETS_URL } from '@/features/landing/constants'
+import FeaturesContentSection from '@/page_components/FeaturesLandingPages/components/FeaturesContentSection'
+import FeaturesTextWithMarker from '@/page_components/FeaturesLandingPages/components/FeaturesTextWithMarker'
 
 const RESEARCH_FEATURES_LIST = [
   {
@@ -78,37 +78,37 @@ const RESEARCH_FEATURES_LIST = [
     ],
     image: '/assets/landing/feature-carousel/works-where-you-work.png',
   },
-];
+]
 
 const ResearchPages = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   const heroSectionTitle = useMemo(() => {
     const title = t('use_cases_pages:research__title')
       .replace('.', '')
-      .replace('。', '');
+      .replace('。', '')
     if (title.includes(',')) {
-      const titleArray = title.split(',');
+      const titleArray = title.split(',')
       return (
         <>
           {titleArray[0]}
           <br />
           {titleArray[1]}
         </>
-      );
+      )
     } else if (title.includes('，')) {
-      const titleArray = title.split('，');
+      const titleArray = title.split('，')
       return (
         <>
           {titleArray[0]}
           <br />
           {titleArray[1]}
         </>
-      );
+      )
     } else {
-      return title;
+      return title
     }
-  }, [t]);
+  }, [t])
 
   return (
     <AppLoadingLayout loading={false} sx={{ minHeight: '90vh' }}>
@@ -134,7 +134,7 @@ const ResearchPages = () => {
           // }}
           description={t('use_cases_pages:research__description')}
           heroVideoProps={{
-            videoSrc: `${RESOURCES_URL}/video/landing-page-primary.mp4`,
+            videoSrc: LANDING_PRIMARY_VIDEO_ASSETS_URL,
             variant: 'autoplay',
           }}
           sx={{
@@ -195,7 +195,7 @@ const ResearchPages = () => {
                 }
                 imageUrl={featureItem.image}
               />
-            );
+            )
           })}
         </Stack>
         {/* {!loaded && <FeaturesCarouselSkeleton />} */}
@@ -207,7 +207,7 @@ const ResearchPages = () => {
         <CallToActionSection />
       </Stack>
     </AppLoadingLayout>
-  );
-};
+  )
+}
 
-export default ResearchPages;
+export default ResearchPages

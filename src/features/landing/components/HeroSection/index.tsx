@@ -9,7 +9,7 @@ import HeroVideoBox, {
   IHeroVideoProps,
 } from '@/features/landing/components/HeroSection/HeroVideoBox'
 import MaxAIIndicatorBadge from '@/features/landing/components/MaxAIIndicatorBadge'
-import { RESOURCES_URL } from '@/global_constants'
+import { LANDING_PRIMARY_VIDEO_ASSETS_URL } from '@/features/landing/constants'
 import useBrowserAgent from '@/hooks/useBrowserAgent'
 import { IUseShareTrackerLinkProps } from '@/hooks/useShareTrackerLink'
 import CTAInstallButton from '@/page_components/CTAInstallButton'
@@ -313,7 +313,7 @@ const HeroSection: FC<IProps> = ({
                   />
                 ) : (
                   <HeroVideoBox
-                    videoSrc={`${RESOURCES_URL}/video/landing-page-primary.mp4`}
+                    videoSrc={LANDING_PRIMARY_VIDEO_ASSETS_URL}
                     videoPosterUrl={`/assets/landing/hero-section/video-cover.png`}
                     variant={'autoplay'}
                   />

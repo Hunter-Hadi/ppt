@@ -52,6 +52,9 @@ export const SIMPLY_TRENDS_DEMOPAGE_LINK_MAIN =
 // s3
 export const RESOURCES_URL = 'https://assets.maxai.me'
 
+// cloudflare
+export const CLOUD_FLARE_ASSETS_URL = 'https://static-web.maxai.photos'
+
 // AD
 export const AD_BLOG_SIMPLY_TRENDS_PNG =
   'https://images.simplytrends.co/assets/images/ad/blog/simply_trends.png'

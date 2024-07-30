@@ -13,7 +13,7 @@ import HeroSection from '@/features/landing/components/HeroSection'
 import HowItWork from '@/features/landing/components/HowItWork'
 import MaxAIInNumbers from '@/features/landing/components/MaxAIInNumbers'
 import UserComment from '@/features/landing/components/UserComment'
-import { RESOURCES_URL } from '@/global_constants'
+import { LANDING_PRIMARY_VIDEO_ASSETS_URL } from '@/features/landing/constants'
 import ProLink from '@/packages/base-ui/components/ProLink'
 interface IProps {
   propRef?: string
@@ -85,7 +85,7 @@ const FeaturesExploreMore: FC<IProps> = ({ propRef, sx }) => {
         // loading={!loaded}
         inLandingVideoABTest
         heroVideoProps={{
-          videoSrc: `${RESOURCES_URL}/video/landing-page-primary.mp4`,
+          videoSrc: LANDING_PRIMARY_VIDEO_ASSETS_URL,
           videoPosterUrl: `/assets/landing/hero-section/video-cover.png`,
           variant: 'autoplay',
           windowAutoPlay: true,
