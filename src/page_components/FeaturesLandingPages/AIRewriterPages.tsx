@@ -6,7 +6,7 @@ import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
 import HeroSection from '@/features/landing/components/HeroSection'
 import TrustedBy from '@/features/landing/components/TrustedBy'
 import FunnelSurveyPopup from '@/features/survey/components/FunnelSurveyPopup'
-import { RESOURCES_URL } from '@/global_constants'
+import { CLOUD_FLARE_ASSETS_URL } from '@/global_constants'
 import FeaturesContentSection from '@/page_components/FeaturesLandingPages/components/FeaturesContentSection'
 import FeaturesExploreMore from '@/page_components/FeaturesLandingPages/components/FeaturesExploreMore'
 import FeaturesTextWithMarker from '@/page_components/FeaturesLandingPages/components/FeaturesTextWithMarker'
@@ -37,7 +37,7 @@ const AIRewriterPages: FC<IProps> = () => {
 
       <HeroSection
         heroVideoProps={{
-          videoSrc: `${RESOURCES_URL}/video/features/writing-assistant.mp4`,
+          videoSrc: `${CLOUD_FLARE_ASSETS_URL}/videos/writing-assistant.mp4`,
           variant: 'autoplay',
           windowAutoPlay: true,
           videoPosterUrl: `/assets/features-landing/video-features/rewriter.png`,

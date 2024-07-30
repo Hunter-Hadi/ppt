@@ -316,6 +316,7 @@ const HeroSection: FC<IProps> = ({
                     videoSrc={LANDING_PRIMARY_VIDEO_ASSETS_URL}
                     videoPosterUrl={`/assets/landing/hero-section/video-cover.png`}
                     variant={'autoplay'}
+                    windowAutoPlay={!!heroVideoProps?.windowAutoPlay}
                   />
                 )}
               </AppLoadingLayout>

@@ -6,7 +6,7 @@ import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
 import HeroSection from '@/features/landing/components/HeroSection'
 import TrustedBy from '@/features/landing/components/TrustedBy'
 import FunnelSurveyPopup from '@/features/survey/components/FunnelSurveyPopup'
-import { RESOURCES_URL } from '@/global_constants'
+import { CLOUD_FLARE_ASSETS_URL } from '@/global_constants'
 import FeaturesContentSection from '@/page_components/FeaturesLandingPages/components/FeaturesContentSection'
 import FeaturesExploreMore from '@/page_components/FeaturesLandingPages/components/FeaturesExploreMore'
 interface IProps {
@@ -24,7 +24,7 @@ const AIChatPages: FC<IProps> = () => {
       {/* hero section */}
       <HeroSection
         heroVideoProps={{
-          videoSrc: `${RESOURCES_URL}/video/features/ai-chat.mp4`,
+          videoSrc: `${CLOUD_FLARE_ASSETS_URL}/videos/ai-chat.mp4`,
           variant: 'autoplay',
           windowAutoPlay: true,
           videoPosterUrl: `/assets/features-landing/video-features/chat.png`,
@@ -53,7 +53,7 @@ const AIChatPages: FC<IProps> = () => {
         imageUrl='/assets/features-landing/ai-chat/1.png'
         textWithImageLayout='textToImage'
         videoPosterUrl='/assets/features-landing/ai-chat/1.png'
-        videoUrl={`${RESOURCES_URL}/video/features/ai-chat/chat-with-top-ai-all-in-one-place.mp4`}
+        videoUrl={`${CLOUD_FLARE_ASSETS_URL}/videos/chat-with-top-ai-all-in-one-place.mp4`}
       />
       <FeaturesContentSection
         icon='search'
@@ -62,7 +62,7 @@ const AIChatPages: FC<IProps> = () => {
         imageUrl='/assets/features-landing/ai-search/2.png'
         textWithImageLayout='imageToText'
         videoPosterUrl='/assets/features-landing/ai-search/2.png'
-        videoUrl={`${RESOURCES_URL}/video/features/search-assistant.mp4`}
+        videoUrl={`${CLOUD_FLARE_ASSETS_URL}/videos/search-assistant.mp4`}
       />
       <FeaturesContentSection
         icon='image-scanner'
@@ -91,7 +91,7 @@ const AIChatPages: FC<IProps> = () => {
         description={t('features_landing:ai_chat_pages__section7__description')}
         imageUrl='/assets/features-landing/ai-chat/3.png'
         textWithImageLayout='imageToText'
-        videoUrl={`${RESOURCES_URL}/video/features/drafting-assistant.mp4`}
+        videoUrl={`${CLOUD_FLARE_ASSETS_URL}/videos/drafting-assistant.mp4`}
         videoPosterUrl={`/assets/features-landing/video-features/prompt.png`}
       />
       <FeaturesContentSection

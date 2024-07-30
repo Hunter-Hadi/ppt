@@ -6,7 +6,7 @@ import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
 import HeroSection from '@/features/landing/components/HeroSection'
 import TrustedBy from '@/features/landing/components/TrustedBy'
 import FunnelSurveyPopup from '@/features/survey/components/FunnelSurveyPopup'
-import { RESOURCES_URL } from '@/global_constants'
+import { CLOUD_FLARE_ASSETS_URL } from '@/global_constants'
 import FeaturesContentSection from '@/page_components/FeaturesLandingPages/components/FeaturesContentSection'
 import FeaturesExploreMore from '@/page_components/FeaturesLandingPages/components/FeaturesExploreMore'
 
@@ -22,7 +22,7 @@ const AISummaryPages: FC<IProps> = () => {
       title: 'features_landing:ai_summary_pages__section1__title',
       description: 'features_landing:ai_summary_pages__section1__description',
       videoPosterUrl: '/assets/features-landing/video-features/summary.png',
-      videoUrl: `${RESOURCES_URL}/video/features/summary-assistant.mp4`,
+      videoUrl: `${CLOUD_FLARE_ASSETS_URL}/videos/summary-assistant.mp4`,
     },
     {
       icon: 'chat',
@@ -41,7 +41,7 @@ const AISummaryPages: FC<IProps> = () => {
       title: 'features_landing:ai_summary_pages__section4__title',
       description: 'features_landing:ai_summary_pages__section4__description',
       videoPosterUrl: '/assets/features-landing/video-features/chat.png',
-      videoUrl: `${RESOURCES_URL}/video/features/reading-assistant.mp4`,
+      videoUrl: `${CLOUD_FLARE_ASSETS_URL}/videos/reading-assistant.mp4`,
     },
     {
       icon: 'chat',
@@ -88,7 +88,7 @@ const AISummaryPages: FC<IProps> = () => {
           imageCover:
             '/assets/features-landing/ai-summary/ai-summary-video-cover.png',
 
-          videoSrc: `${RESOURCES_URL}/video/features/summary-assistant.mp4`,
+          videoSrc: `${CLOUD_FLARE_ASSETS_URL}/videos/summary-assistant.mp4`,
           variant: 'autoplay',
           windowAutoPlay: true,
           videoPosterUrl: `/assets/features-landing/video-features/summary.png`,

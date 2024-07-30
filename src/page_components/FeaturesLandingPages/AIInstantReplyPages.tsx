@@ -6,7 +6,7 @@ import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
 import HeroSection from '@/features/landing/components/HeroSection'
 import TrustedBy from '@/features/landing/components/TrustedBy'
 import FunnelSurveyPopup from '@/features/survey/components/FunnelSurveyPopup'
-import { RESOURCES_URL } from '@/global_constants'
+import { CLOUD_FLARE_ASSETS_URL } from '@/global_constants'
 import FeaturesContentSection from '@/page_components/FeaturesLandingPages/components/FeaturesContentSection'
 import FeaturesExploreMore from '@/page_components/FeaturesLandingPages/components/FeaturesExploreMore'
 import FeaturesTextWithMarker from '@/page_components/FeaturesLandingPages/components/FeaturesTextWithMarker'
@@ -42,7 +42,7 @@ const AIInstantReplyPages: FC<IProps> = () => {
           imageCover:
             '/assets/features-landing/ai-reply/ai-reply-video-cover.png',
 
-          videoSrc: `${RESOURCES_URL}/video/features/email-assistant.mp4`,
+          videoSrc: `${CLOUD_FLARE_ASSETS_URL}/videos/email-assistant.mp4`,
           variant: 'autoplay',
           windowAutoPlay: true,
           videoPosterUrl: `/assets/features-landing/video-features/email.png`,
