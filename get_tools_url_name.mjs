@@ -6,10 +6,24 @@ import path from 'path'
 const localesDir = path.join(process.cwd(), 'src/i18n/locales')
 
 // 目标key
-const targetKey = 'pages__pdf_tools__unlock_pdf' // 例如：pages__pdf_tools__unlock_pdf
-const targetTitleKey = 'title' // 例如：title
+const targetKey = 'pages__pdf_tools__unlock_pdf.title' // 例如：pages__pdf_tools__unlock_pdf
 // 存储结果
 const result = {}
+// 函数：根据目标key提取值
+function getValueByKey(data, key) {
+  const keys = key.split('.') // 将key按'.'拆分成数组
+  let value = data
+
+  for (let k of keys) {
+    // eslint-disable-next-line no-prototype-builtins
+    if (value && value.hasOwnProperty(k)) {
+      value = value[k] // 逐层获取值
+    } else {
+      return null // 如果某一层不存在，则返回null
+    }
+  }
+  return value // 返回最后获取到的值
+}
 
 // 读取locales目录下的所有子文件夹
 fs.readdir(localesDir, (err, folders) => {
@@ -17,6 +31,8 @@ fs.readdir(localesDir, (err, folders) => {
     console.error('读取目录出错:', err)
     return
   }
+
+  //排序en文件夹到最前面  , 如果有语言没有生存i18,则使用en
   const sortFolders = folders.sort((a, b) => {
     if (a === 'en') {
       return -1 // Move 'en' to the front
@@ -48,9 +64,7 @@ fs.readdir(localesDir, (err, folders) => {
           // 解析JSON
           const jsonData = JSON.parse(data)
           // 根据目标key提取值
-          const title = jsonData[targetKey]
-            ? jsonData[targetKey][targetTitleKey]
-            : null
+          const title = getValueByKey(jsonData, targetKey) //获取目标key的值
           if (title) {
             result[folder] = title.replace(/\s/g, '-').toLowerCase() // 存储到结果对象中，将空格替换为-并转换为小写
           } else {
