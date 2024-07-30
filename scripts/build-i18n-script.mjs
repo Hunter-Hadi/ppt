@@ -544,14 +544,12 @@ async function getCurrentCountryCode() {
       agent,
     })
     const ipInfo = await ipInfoRes.json()
-    console.log('ipInfo', ipInfo)
     const ipAddress = ipInfo.ip
     // 使用IP地址获取地理位置信息
     const geoResponse = await nodeFetch(`https://ipapi.co/${ipAddress}/json/`, {
       agent,
     })
     const geoData = await geoResponse.json()
-    console.log('geoData', geoData)
     return geoData.country_code
   } catch (e) {
     console.error('getCurrentCountry error', e)
