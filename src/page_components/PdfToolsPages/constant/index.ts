@@ -171,3 +171,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     urlPrefixPath: toolsTopUrlKey,
   },
 }
+export const pdfToolsList = Object.keys(toolsObjectData).map((key) => ({
+  key,
+  ...toolsObjectData[key],
+}))
