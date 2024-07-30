@@ -89,7 +89,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   {
     features: {
       title: 'Gemini-1.5-Flash',
-      icon: 'GeminiPro',
+      icon: 'GeminiIcon',
       tooltip: {
         desc: 'pricing:ab_test_v5__features_data__gemini_1_5_flash__tooltip',
       },
@@ -192,7 +192,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   {
     features: {
       title: 'Gemini-1.5-pro',
-      icon: 'GeminiIcon',
+      icon: 'GeminiPro',
       tooltip: {
         desc: 'pricing:ab_test_v5__features_data__gemini_1_5_pro__tooltip',
       },
