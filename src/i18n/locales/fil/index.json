@@ -1765,8 +1765,8 @@
     "detail_description_object__unlock_pdf__bottom_right_title": "Paano Buksan ang Mga File ng PDF Online:",
     "detail_description_object__unlock_pdf__bottom_right_description_1": "I-upload ang file ng PDF na nais mong buksan.",
     "detail_description_object__unlock_pdf__bottom_right_description_2": "Ilagay ang password para sa file ng PDF na alam mo.",
-    "detail_description_object__unlock_pdf__bottom_right_description_3": "I-click ang 'Kumpirmahin ang Pagbubuksan' para i-download ang buksang file ng PDF.",
-    "detail_description_object__unlock_pdf__bottom_right_description_4": "Kapag nabuksan na, maaari mong malayang ma-access at i-edit ang iyong mga file ng PDF sa anumang device."
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Kapag nabuksan na, maaari mong malayang ma-access at i-edit ang iyong mga file ng PDF sa anumang device.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "I-click ang 'Unlock' para ma-download ang unlocked PDF file."
   },
   "functionality__unlock_pdf": {
     "components__unlock_pdf_detail_input_password": "Mangyaring ilagay ang password para buksan ang iyong PDF",

@@ -1765,8 +1765,8 @@
     "detail_description_object__unlock_pdf__bottom_right_title": "Cara Membuka Berkas PDF secara Online:",
     "detail_description_object__unlock_pdf__bottom_right_description_1": "Unggah berkas PDF yang ingin Anda buka.",
     "detail_description_object__unlock_pdf__bottom_right_description_2": "Masukkan sandi untuk berkas PDF yang Anda ketahui.",
-    "detail_description_object__unlock_pdf__bottom_right_description_3": "Klik 'Konfirmasi Buka' untuk mengunduh berkas PDF yang terbuka.",
-    "detail_description_object__unlock_pdf__bottom_right_description_4": "Setelah dibuka, Anda dapat dengan bebas mengakses dan mengedit berkas PDF Anda di perangkat apa pun."
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Setelah dibuka, Anda dapat dengan bebas mengakses dan mengedit berkas PDF Anda di perangkat apa pun.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Klik 'Buka kunci' untuk mengunduh file PDF yang terbuka."
   },
   "functionality__unlock_pdf": {
     "components__unlock_pdf_detail_input_password": "Silakan masukkan sandi untuk membuka PDF Anda",

@@ -1765,8 +1765,8 @@
     "detail_description_object__unlock_pdf__bottom_right_title": "كيفية إلغاء قفل ملفات PDF عبر الإنترنت:",
     "detail_description_object__unlock_pdf__bottom_right_description_1": "قم بتحميل ملف PDF الذي تريد إلغاء قفله.",
     "detail_description_object__unlock_pdf__bottom_right_description_2": "أدخل كلمة المرور لملف PDF التي تعرفها.",
-    "detail_description_object__unlock_pdf__bottom_right_description_3": "انقر فوق 'تأكيد الإلغاء' لتنزيل ملف PDF المفتوح.",
-    "detail_description_object__unlock_pdf__bottom_right_description_4": "بمجرد الإلغاء، يمكنك الوصول إلى ملفات PDF الخاصة بك وتحريرها بحرية على أي جهاز."
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "بمجرد الإلغاء، يمكنك الوصول إلى ملفات PDF الخاصة بك وتحريرها بحرية على أي جهاز.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "انقر على 'إلغاء القفل' لتنزيل ملف PDF المفتوح."
   },
   "functionality__unlock_pdf": {
     "components__unlock_pdf_detail_input_password": "الرجاء إدخال كلمة المرور لإلغاء قفل ملف PDF الخاص بك",

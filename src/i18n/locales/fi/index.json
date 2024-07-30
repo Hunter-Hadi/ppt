@@ -1765,8 +1765,8 @@
     "detail_description_object__unlock_pdf__bottom_right_title": "Kuinka avata PDF-tiedostot verkossa:",
     "detail_description_object__unlock_pdf__bottom_right_description_1": "Lataa PDF-tiedosto, jonka haluat avata.",
     "detail_description_object__unlock_pdf__bottom_right_description_2": "Syötä tiedostosi salasana.",
-    "detail_description_object__unlock_pdf__bottom_right_description_3": "Napsauta 'Vahvista avaus' ladataksesi avatun PDF-tiedoston.",
-    "detail_description_object__unlock_pdf__bottom_right_description_4": "Kun tiedosto on avattu, voit vapaasti käyttää ja muokata PDF-tiedostojasi millä tahansa laitteella."
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Kun tiedosto on avattu, voit vapaasti käyttää ja muokata PDF-tiedostojasi millä tahansa laitteella.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Napsauta 'Avaa', jotta voit ladata avatun PDF-tiedoston."
   },
   "functionality__unlock_pdf": {
     "components__unlock_pdf_detail_input_password": "Syötä salasana avataksesi PDF-tiedostosi",

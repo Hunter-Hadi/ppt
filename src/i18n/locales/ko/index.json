@@ -1765,8 +1765,8 @@
     "detail_description_object__unlock_pdf__bottom_right_title": "온라인에서 PDF 파일을 잠금 해제하는 방법:",
     "detail_description_object__unlock_pdf__bottom_right_description_1": "잠금 해제하려는 PDF 파일을 업로드하세요.",
     "detail_description_object__unlock_pdf__bottom_right_description_2": "알고 있는 PDF 파일의 암호를 입력하세요.",
-    "detail_description_object__unlock_pdf__bottom_right_description_3": "잠금 해제 확인을 클릭하여 잠금 해제된 PDF 파일을 다운로드하세요.",
-    "detail_description_object__unlock_pdf__bottom_right_description_4": "잠금 해제되면 어떤 기기에서든 PDF 파일에 자유롭게 액세스하고 편집할 수 있습니다."
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "잠금 해제되면 어떤 기기에서든 PDF 파일에 자유롭게 액세스하고 편집할 수 있습니다.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "언락을 클릭하여 잠금 해제된 PDF 파일을 다운로드하세요."
   },
   "functionality__unlock_pdf": {
     "components__unlock_pdf_detail_input_password": "PDF를 잠금 해제하려면 암호를 입력하세요",

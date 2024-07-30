@@ -1765,8 +1765,8 @@
     "detail_description_object__unlock_pdf__bottom_right_title": "Как разблокировать PDF-файлы онлайн:",
     "detail_description_object__unlock_pdf__bottom_right_description_1": "Загрузите PDF-файл, который вы хотите разблокировать.",
     "detail_description_object__unlock_pdf__bottom_right_description_2": "Введите пароль для PDF-файла, который вы знаете.",
-    "detail_description_object__unlock_pdf__bottom_right_description_3": "Нажмите «Подтвердить разблокировку», чтобы загрузить разблокированный PDF-файл.",
-    "detail_description_object__unlock_pdf__bottom_right_description_4": "После разблокировки вы можете свободно получить доступ и редактировать свои PDF-файлы на любом устройстве."
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "После разблокировки вы можете свободно получить доступ и редактировать свои PDF-файлы на любом устройстве.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Нажмите 'Разблокировать', чтобы скачать разблокированный PDF-файл."
   },
   "functionality__unlock_pdf": {
     "components__unlock_pdf_detail_input_password": "Пожалуйста, введите пароль для разблокировки вашего PDF",

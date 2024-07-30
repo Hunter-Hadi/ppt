@@ -1765,8 +1765,8 @@
     "detail_description_object__unlock_pdf__bottom_right_title": "آن لائن PDF فائلوں کو کھولنے کا طریقہ:",
     "detail_description_object__unlock_pdf__bottom_right_description_1": "وہ PDF فائل اپ لوڈ کریں جو آپ کھولنا چاہتے ہیں۔",
     "detail_description_object__unlock_pdf__bottom_right_description_2": "وہ پاسورڈ درج کریں جو آپ جانتے ہیں۔",
-    "detail_description_object__unlock_pdf__bottom_right_description_3": "‘تصدیق کھولیں’ پر کلک کریں تاکہ کھولی ہوئی PDF فائل ڈاؤن لوڈ ہو۔",
-    "detail_description_object__unlock_pdf__bottom_right_description_4": "ایک بار کھولنے کے بعد، آپ کسی بھی ڈیوائس پر اپنی PDF فائلوں تک آزادی سے رسائی حاصل کر سکتے ہیں۔"
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "ایک بار کھولنے کے بعد، آپ کسی بھی ڈیوائس پر اپنی PDF فائلوں تک آزادی سے رسائی حاصل کر سکتے ہیں۔",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "بلاک کرنے کے لئے 'بلاک' پر کلک کریں۔"
   },
   "functionality__unlock_pdf": {
     "components__unlock_pdf_detail_input_password": "براہ کرم اپنے PDF کھولنے کے لئے پاسورڈ درج کریں",

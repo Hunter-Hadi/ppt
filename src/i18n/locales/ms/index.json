@@ -1765,8 +1765,8 @@
     "detail_description_object__unlock_pdf__bottom_right_title": "Cara Membuka Fail PDF Secara Dalam Talian:",
     "detail_description_object__unlock_pdf__bottom_right_description_1": "Muat naik fail PDF yang ingin anda buka.",
     "detail_description_object__unlock_pdf__bottom_right_description_2": "Masukkan kata laluan untuk fail PDF yang anda tahu.",
-    "detail_description_object__unlock_pdf__bottom_right_description_3": "Klik 'Sahkan Buka' untuk muat turun fail PDF yang telah dibuka.",
-    "detail_description_object__unlock_pdf__bottom_right_description_4": "Setelah dibuka, anda boleh dengan bebas mengakses dan mengedit fail PDF anda pada mana-mana peranti."
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Setelah dibuka, anda boleh dengan bebas mengakses dan mengedit fail PDF anda pada mana-mana peranti.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Klik ‘Buka kunci’ untuk muat turun fail PDF yang dibuka."
   },
   "functionality__unlock_pdf": {
     "components__unlock_pdf_detail_input_password": "Sila masukkan kata laluan untuk membuka PDF anda",

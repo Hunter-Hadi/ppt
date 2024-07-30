@@ -1765,8 +1765,8 @@
     "detail_description_object__unlock_pdf__bottom_right_title": "Hoe PDF-bestanden Online te Ontgrendelen:",
     "detail_description_object__unlock_pdf__bottom_right_description_1": "Upload het PDF-bestand dat je wilt ontgrendelen.",
     "detail_description_object__unlock_pdf__bottom_right_description_2": "Voer het wachtwoord in voor het PDF-bestand dat je kent.",
-    "detail_description_object__unlock_pdf__bottom_right_description_3": "Klik op 'Bevestig Ontgrendelen' om het ontgrendelde PDF-bestand te downloaden.",
-    "detail_description_object__unlock_pdf__bottom_right_description_4": "Eenmaal ontgrendeld, kun je vrijelijk toegang krijgen en je PDF-bestanden bewerken op elk apparaat."
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Eenmaal ontgrendeld, kun je vrijelijk toegang krijgen en je PDF-bestanden bewerken op elk apparaat.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Klik op 'Ontgrendelen' om het ontgrendelde PDF-bestand te downloaden."
   },
   "functionality__unlock_pdf": {
     "components__unlock_pdf_detail_input_password": "Voer het wachtwoord in om je PDF te ontgrendelen",

@@ -1765,8 +1765,8 @@
     "detail_description_object__unlock_pdf__bottom_right_title": "Como Desbloquear Ficheiros PDF Online:",
     "detail_description_object__unlock_pdf__bottom_right_description_1": "Carregue o ficheiro PDF que deseja desbloquear.",
     "detail_description_object__unlock_pdf__bottom_right_description_2": "Introduza a palavra-passe do ficheiro PDF que conhece.",
-    "detail_description_object__unlock_pdf__bottom_right_description_3": "Clique em 'Confirmar Desbloqueio' para descarregar o ficheiro PDF desbloqueado.",
-    "detail_description_object__unlock_pdf__bottom_right_description_4": "Depois de desbloqueado, pode aceder e editar livremente os seus ficheiros PDF em qualquer dispositivo."
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Depois de desbloqueado, pode aceder e editar livremente os seus ficheiros PDF em qualquer dispositivo.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Clique em 'Desbloquear' para descarregar o ficheiro PDF desbloqueado."
   },
   "functionality__unlock_pdf": {
     "components__unlock_pdf_detail_input_password": "Por favor, introduza a palavra-passe para desbloquear o seu PDF",

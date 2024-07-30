@@ -1765,8 +1765,8 @@
     "detail_description_object__unlock_pdf__bottom_right_title": "Hur man låser upp PDF-filer online:",
     "detail_description_object__unlock_pdf__bottom_right_description_1": "Ladda upp PDF-filen du vill låsa upp.",
     "detail_description_object__unlock_pdf__bottom_right_description_2": "Ange lösenordet för PDF-filen du känner till.",
-    "detail_description_object__unlock_pdf__bottom_right_description_3": "Klicka på 'Bekräfta upplåsning' för att ladda ner den upplåsta PDF-filen.",
-    "detail_description_object__unlock_pdf__bottom_right_description_4": "När den är upplåst kan du fritt komma åt och redigera dina PDF-filer på vilken enhet som helst."
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "När den är upplåst kan du fritt komma åt och redigera dina PDF-filer på vilken enhet som helst.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Klicka på 'Lås upp' för att ladda ner den olåsta PDF-filen."
   },
   "functionality__unlock_pdf": {
     "components__unlock_pdf_detail_input_password": "Ange lösenordet för att låsa upp din PDF",

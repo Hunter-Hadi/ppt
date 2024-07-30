@@ -1765,8 +1765,8 @@
     "detail_description_object__unlock_pdf__bottom_right_title": "Jak odblokować pliki PDF online:",
     "detail_description_object__unlock_pdf__bottom_right_description_1": "Załaduj plik PDF, który chcesz odblokować.",
     "detail_description_object__unlock_pdf__bottom_right_description_2": "Wprowadź hasło do pliku PDF, które znasz.",
-    "detail_description_object__unlock_pdf__bottom_right_description_3": "Kliknij „Potwierdź odblokowanie”, aby pobrać odblokowany plik PDF.",
-    "detail_description_object__unlock_pdf__bottom_right_description_4": "Po odblokowaniu możesz swobodnie uzyskać dostęp i edytować swoje pliki PDF na dowolnym urządzeniu."
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Po odblokowaniu możesz swobodnie uzyskać dostęp i edytować swoje pliki PDF na dowolnym urządzeniu.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Kliknij „Odblokuj”, aby pobrać odblokowany plik PDF."
   },
   "functionality__unlock_pdf": {
     "components__unlock_pdf_detail_input_password": "Proszę wprowadź hasło, aby odblokować swój plik PDF",

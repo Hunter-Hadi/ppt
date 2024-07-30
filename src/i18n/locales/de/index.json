@@ -1765,8 +1765,8 @@
     "detail_description_object__unlock_pdf__bottom_right_title": "So entsperren Sie PDF-Dateien online:",
     "detail_description_object__unlock_pdf__bottom_right_description_1": "Laden Sie die PDF-Datei hoch, die Sie entsperren möchten.",
     "detail_description_object__unlock_pdf__bottom_right_description_2": "Geben Sie das Passwort für die PDF-Datei ein, das Sie kennen.",
-    "detail_description_object__unlock_pdf__bottom_right_description_3": "Klicken Sie auf 'Entsperrung bestätigen', um die entsperrte PDF-Datei herunterzuladen.",
-    "detail_description_object__unlock_pdf__bottom_right_description_4": "Nach dem Entsperren können Sie auf Ihre PDF-Dateien auf jedem Gerät frei zugreifen und sie bearbeiten."
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Nach dem Entsperren können Sie auf Ihre PDF-Dateien auf jedem Gerät frei zugreifen und sie bearbeiten.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Klicken Sie auf 'Entsperren', um die entsperrte PDF-Datei herunterzuladen."
   },
   "functionality__unlock_pdf": {
     "components__unlock_pdf_detail_input_password": "Bitte geben Sie das Passwort ein, um Ihr PDF zu entsperren",

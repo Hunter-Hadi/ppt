@@ -1765,8 +1765,8 @@
     "detail_description_object__unlock_pdf__bottom_right_title": "オンラインでPDFファイルを解除する方法：",
     "detail_description_object__unlock_pdf__bottom_right_description_1": "解除したいPDFファイルをアップロードします。",
     "detail_description_object__unlock_pdf__bottom_right_description_2": "知っているPDFファイルのパスワードを入力します。",
-    "detail_description_object__unlock_pdf__bottom_right_description_3": "「解除を確認」をクリックして解除されたPDFファイルをダウンロードします。",
-    "detail_description_object__unlock_pdf__bottom_right_description_4": "解除されたら、どのデバイスでもPDFファイルに自由にアクセスして編集できます。"
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "解除されたら、どのデバイスでもPDFファイルに自由にアクセスして編集できます。",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "アンロックをクリックして、アンロックされたPDFファイルをダウンロードします。"
   },
   "functionality__unlock_pdf": {
     "components__unlock_pdf_detail_input_password": "PDFを解除するためのパスワードを入力してください",

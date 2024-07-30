@@ -1765,8 +1765,8 @@
     "detail_description_object__unlock_pdf__bottom_right_title": "Cum să Deblochezi Fișierele PDF Online:",
     "detail_description_object__unlock_pdf__bottom_right_description_1": "Încarcă fișierul PDF pe care vrei să-l deblochezi.",
     "detail_description_object__unlock_pdf__bottom_right_description_2": "Introdu parola pentru fișierul PDF pe care o știi.",
-    "detail_description_object__unlock_pdf__bottom_right_description_3": "Apasă pe „Confirmă Deblocarea” pentru a descărca fișierul PDF deblocat.",
-    "detail_description_object__unlock_pdf__bottom_right_description_4": "Odată deblocat, poți accesa și edita liber fișierele tale PDF pe orice dispozitiv."
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Odată deblocat, poți accesa și edita liber fișierele tale PDF pe orice dispozitiv.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Apasă pe „Deblochează” pentru a descărca fișierul PDF deblocat."
   },
   "functionality__unlock_pdf": {
     "components__unlock_pdf_detail_input_password": "Te rog introdu parola pentru a debloca PDF-ul tău",

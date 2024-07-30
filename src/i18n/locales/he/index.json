@@ -1764,8 +1764,8 @@
     "detail_description_object__unlock_pdf__bottom_right_title": "איך לפתוח קבצי PDF באינטרנט:",
     "detail_description_object__unlock_pdf__bottom_right_description_1": "העלה את קובץ ה-PDF שברצונך לפתוח.",
     "detail_description_object__unlock_pdf__bottom_right_description_2": "הזן את הסיסמה לקובץ ה-PDF שאתה מכיר.",
-    "detail_description_object__unlock_pdf__bottom_right_description_3": "לחץ על 'אשר פתיחה' כדי להוריד את קובץ ה-PDF שנפתח.",
-    "detail_description_object__unlock_pdf__bottom_right_description_4": "לאחר הפתיחה, תוכל לגשת ולערוך בחופשיות את קבצי ה-PDF שלך בכל מכשיר."
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "לאחר הפתיחה, תוכל לגשת ולערוך בחופשיות את קבצי ה-PDF שלך בכל מכשיר.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "לחץ על 'Unlock' כדי להוריד את קובץ ה־PDF שנפתח."
   },
   "functionality__unlock_pdf": {
     "components__unlock_pdf_detail_input_password": "אנא הזן את הסיסמה כדי לפתוח את ה-PDF שלך",

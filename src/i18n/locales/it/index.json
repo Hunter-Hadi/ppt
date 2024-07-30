@@ -1764,8 +1764,8 @@
     "detail_description_object__unlock_pdf__bottom_right_title": "Come Sbloccare i File PDF Online:",
     "detail_description_object__unlock_pdf__bottom_right_description_1": "Carica il file PDF che desideri sbloccare.",
     "detail_description_object__unlock_pdf__bottom_right_description_2": "Inserisci la password del file PDF che conosci.",
-    "detail_description_object__unlock_pdf__bottom_right_description_3": "Clicca su 'Conferma Sblocco' per scaricare il file PDF sbloccato.",
-    "detail_description_object__unlock_pdf__bottom_right_description_4": "Una volta sbloccato, puoi accedere liberamente ed modificare i tuoi file PDF su qualsiasi dispositivo."
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Una volta sbloccato, puoi accedere liberamente ed modificare i tuoi file PDF su qualsiasi dispositivo.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Clicca su 'Sblocca' per scaricare il file PDF sbloccato."
   },
   "functionality__unlock_pdf": {
     "components__unlock_pdf_detail_input_password": "Inserisci la password per sbloccare il tuo PDF",

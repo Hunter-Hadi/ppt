@@ -1765,8 +1765,8 @@
     "detail_description_object__unlock_pdf__bottom_right_title": "Comment déverrouiller des fichiers PDF en ligne :",
     "detail_description_object__unlock_pdf__bottom_right_description_1": "Téléchargez le fichier PDF que vous souhaitez déverrouiller.",
     "detail_description_object__unlock_pdf__bottom_right_description_2": "Saisissez le mot de passe du fichier PDF que vous connaissez.",
-    "detail_description_object__unlock_pdf__bottom_right_description_3": "Cliquez sur 'Confirmer le déverrouillage' pour télécharger le fichier PDF déverrouillé.",
-    "detail_description_object__unlock_pdf__bottom_right_description_4": "Une fois déverrouillé, vous pouvez librement accéder et modifier vos fichiers PDF sur n'importe quel appareil."
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Une fois déverrouillé, vous pouvez librement accéder et modifier vos fichiers PDF sur n'importe quel appareil.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Cliquez sur 'Déverrouiller' pour télécharger le fichier PDF déverrouillé."
   },
   "functionality__unlock_pdf": {
     "components__unlock_pdf_detail_input_password": "Veuillez saisir le mot de passe pour déverrouiller votre PDF",

@@ -1765,8 +1765,8 @@
     "detail_description_object__unlock_pdf__bottom_right_title": "Cómo Desbloquear Archivos PDF en Línea:",
     "detail_description_object__unlock_pdf__bottom_right_description_1": "Carga el archivo PDF que deseas desbloquear.",
     "detail_description_object__unlock_pdf__bottom_right_description_2": "Ingresa la contraseña del archivo PDF que conoces.",
-    "detail_description_object__unlock_pdf__bottom_right_description_3": "Haz clic en 'Confirmar Desbloqueo' para descargar el archivo PDF desbloqueado.",
-    "detail_description_object__unlock_pdf__bottom_right_description_4": "Una vez desbloqueado, puedes acceder y editar libremente tus archivos PDF en cualquier dispositivo."
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Una vez desbloqueado, puedes acceder y editar libremente tus archivos PDF en cualquier dispositivo.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Haz clic en 'Desbloquear' para descargar el archivo PDF desbloqueado."
   },
   "functionality__unlock_pdf": {
     "components__unlock_pdf_detail_input_password": "Ingresa la contraseña para desbloquear tu PDF",

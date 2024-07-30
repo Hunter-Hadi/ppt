@@ -1765,8 +1765,8 @@
     "detail_description_object__unlock_pdf__bottom_right_title": "如何在線解鎖 PDF 檔案：",
     "detail_description_object__unlock_pdf__bottom_right_description_1": "上傳要解鎖的 PDF 檔案。",
     "detail_description_object__unlock_pdf__bottom_right_description_2": "輸入您知道的 PDF 檔案密碼。",
-    "detail_description_object__unlock_pdf__bottom_right_description_3": "點擊“確認解鎖”以下載解鎖的 PDF 檔案。",
-    "detail_description_object__unlock_pdf__bottom_right_description_4": "解鎖後，您可以自由訪問並編輯您的 PDF 檔案在任何設備上。"
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "解鎖後，您可以自由訪問並編輯您的 PDF 檔案在任何設備上。",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "點擊「解鎖」下載已解鎖的 PDF 檔案。"
   },
   "functionality__unlock_pdf": {
     "components__unlock_pdf_detail_input_password": "請輸入密碼以解鎖您的 PDF",

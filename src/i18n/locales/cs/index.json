@@ -1765,8 +1765,8 @@
     "detail_description_object__unlock_pdf__bottom_right_title": "Jak odemknout PDF soubory online:",
     "detail_description_object__unlock_pdf__bottom_right_description_1": "Nahrajte PDF soubor, který chcete odemknout.",
     "detail_description_object__unlock_pdf__bottom_right_description_2": "Zadejte heslo k PDF souboru, které znáte.",
-    "detail_description_object__unlock_pdf__bottom_right_description_3": "Klikněte na tlačítko 'Potvrdit odemčení' pro stažení odemčeného PDF souboru.",
-    "detail_description_object__unlock_pdf__bottom_right_description_4": "Jakmile je odemčen, můžete volně přistupovat a upravovat své PDF soubory na jakémkoli zařízení."
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Jakmile je odemčen, můžete volně přistupovat a upravovat své PDF soubory na jakémkoli zařízení.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Klikněte na tlačítko 'Odemknout' pro stažení odemčeného souboru PDF."
   },
   "functionality__unlock_pdf": {
     "components__unlock_pdf_detail_input_password": "Zadejte heslo pro odemčení vašeho PDF",

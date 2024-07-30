@@ -1765,8 +1765,8 @@
     "detail_description_object__unlock_pdf__bottom_right_title": "Cách Mở Khóa Tập Tin PDF Trực Tuyến:",
     "detail_description_object__unlock_pdf__bottom_right_description_1": "Tải lên tập tin PDF bạn muốn mở khóa.",
     "detail_description_object__unlock_pdf__bottom_right_description_2": "Nhập mật khẩu cho tập tin PDF bạn biết.",
-    "detail_description_object__unlock_pdf__bottom_right_description_3": "Nhấp vào 'Xác Nhận Mở Khóa' để tải xuống tập tin PDF đã mở khóa.",
-    "detail_description_object__unlock_pdf__bottom_right_description_4": "Sau khi mở khóa, bạn có thể truy cập và chỉnh sửa tập tin PDF của mình trên bất kỳ thiết bị nào."
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Sau khi mở khóa, bạn có thể truy cập và chỉnh sửa tập tin PDF của mình trên bất kỳ thiết bị nào.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Nhấp vào 'Mở khóa' để tải xuống tệp PDF đã được mở khóa."
   },
   "functionality__unlock_pdf": {
     "components__unlock_pdf_detail_input_password": "Vui lòng nhập mật khẩu để mở khóa tập tin PDF của bạn",

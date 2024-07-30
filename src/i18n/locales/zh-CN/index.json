@@ -1765,8 +1765,8 @@
     "detail_description_object__unlock_pdf__bottom_right_title": "如何在线解锁PDF文件：",
     "detail_description_object__unlock_pdf__bottom_right_description_1": "上传要解锁的PDF文件。",
     "detail_description_object__unlock_pdf__bottom_right_description_2": "输入您知道的PDF文件密码。",
-    "detail_description_object__unlock_pdf__bottom_right_description_3": "点击“确认解锁”以下载解锁的PDF文件。",
-    "detail_description_object__unlock_pdf__bottom_right_description_4": "解锁后，您可以在任何设备上自由访问和编辑您的PDF文件。"
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "解锁后，您可以在任何设备上自由访问和编辑您的PDF文件。",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "点击“解锁”以下载解锁后的PDF文件。"
   },
   "functionality__unlock_pdf": {
     "components__unlock_pdf_detail_input_password": "请输入密码以解锁您的PDF",

@@ -1765,8 +1765,8 @@
     "detail_description_object__unlock_pdf__bottom_right_title": "PDF Dosyalarını Çevrimiçi Olarak Nasıl Kilidini Açarsınız:",
     "detail_description_object__unlock_pdf__bottom_right_description_1": "Kilidini açmak istediğiniz PDF dosyasını yükleyin.",
     "detail_description_object__unlock_pdf__bottom_right_description_2": "Bilinen PDF dosyası için şifreyi girin.",
-    "detail_description_object__unlock_pdf__bottom_right_description_3": "Kilidini açmayı onaylamak için 'Kilidi Aç' düğmesine tıklayın.",
-    "detail_description_object__unlock_pdf__bottom_right_description_4": "Kilidi açıldıktan sonra PDF dosyalarınıza herhangi bir cihazda özgürce erişebilir ve düzenleyebilirsiniz."
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Kilidi açıldıktan sonra PDF dosyalarınıza herhangi bir cihazda özgürce erişebilir ve düzenleyebilirsiniz.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Kilidi açmak için 'Kilidi Aç' düğmesine tıklayın."
   },
   "functionality__unlock_pdf": {
     "components__unlock_pdf_detail_input_password": "PDF'nizi kilidini açmak için şifreyi girin",
