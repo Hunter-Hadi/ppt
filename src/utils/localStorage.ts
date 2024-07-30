@@ -1,6 +1,6 @@
-import { TEST_LANDING_COOKIE_NAME } from '@/features/ab_tester/constant/landingVariant';
-import { ATOM_PERSIST_CACHE_LOCAL_STORAGE_SAVE_KEY } from '@/recoil/constants';
-import { FINGER_PRINT_LOCAL_STORAGE_SAVE_KEY } from '@/utils/fingerPrint';
+import { TEST_LANDING_COOKIE_NAME } from '@/features/ab_tester/constant/landingVariant'
+import { ATOM_PERSIST_CACHE_LOCAL_STORAGE_SAVE_KEY } from '@/recoil/constants'
+import { FINGER_PRINT_LOCAL_STORAGE_SAVE_KEY } from '@/utils/fingerPrint'
 
 export type ILocalStorageKeyType =
   | 'newNotificationTime'
@@ -24,52 +24,52 @@ export type ILocalStorageKeyType =
   | 'IFRAME_CLIENT_USER_ID_ALREADY_SAVED'
   | 'LANDING_PAGE_REF'
   | 'INVITATION_CODE'
-  | typeof TEST_LANDING_COOKIE_NAME;
+  | typeof TEST_LANDING_COOKIE_NAME
 
 export const setLocalStorage = (
   key: ILocalStorageKeyType,
   value: unknown,
   isString = false,
 ): void => {
-  const needSaveSessions = ['GOOGLE_SIGN_UP_DATA'].includes(key);
+  const needSaveSessions = ['GOOGLE_SIGN_UP_DATA'].includes(key)
   if (typeof localStorage === 'undefined' || typeof window === 'undefined') {
-    return;
+    return
   }
   if (isString || typeof value === 'string') {
-    localStorage.setItem(key, String(value));
+    localStorage.setItem(key, String(value))
     if (needSaveSessions) {
-      sessionStorage.setItem(key, String(value));
+      sessionStorage.setItem(key, String(value))
     }
   } else {
-    localStorage.setItem(key, JSON.stringify(value));
+    localStorage.setItem(key, JSON.stringify(value))
     if (needSaveSessions) {
-      sessionStorage.setItem(key, JSON.stringify(value));
+      sessionStorage.setItem(key, JSON.stringify(value))
     }
   }
-};
+}
 
 export const getLocalStorage = (
   key: ILocalStorageKeyType,
   disposable = false,
 ): string | null => {
-  if (typeof localStorage === 'undefined') return null;
-  const needSaveSessions = ['GOOGLE_SIGN_UP_DATA'].includes(key);
+  if (typeof localStorage === 'undefined') return null
+  const needSaveSessions = ['GOOGLE_SIGN_UP_DATA'].includes(key)
   if (needSaveSessions && sessionStorage.getItem(key)) {
-    return sessionStorage.getItem(key);
+    return sessionStorage.getItem(key)
   }
 
-  const value = localStorage.getItem(key);
+  const value = localStorage.getItem(key)
   if (disposable) {
-    localStorage.removeItem(key);
+    localStorage.removeItem(key)
   }
-  return value;
-};
+  return value
+}
 
 export const removeLocalStorage = (key: ILocalStorageKeyType): void => {
-  if (typeof localStorage === 'undefined') return;
-  const needSaveSessions = ['GOOGLE_SIGN_UP_DATA'].includes(key);
+  if (typeof localStorage === 'undefined') return
+  const needSaveSessions = ['GOOGLE_SIGN_UP_DATA'].includes(key)
   if (needSaveSessions && sessionStorage.getItem(key)) {
-    sessionStorage.removeItem(key);
+    sessionStorage.removeItem(key)
   }
-  localStorage.removeItem(key);
-};
+  localStorage.removeItem(key)
+}

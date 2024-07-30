@@ -1,6 +1,6 @@
+import { API_HOST } from '@/global_constants'
 import { getAccessToken } from '@/packages/auth'
 
-const API_HOST = process.env.NEXT_PUBLIC_BASE_URL
 export interface IResponse<T> {
   status: 'OK' | 'ERROR'
   data?: T

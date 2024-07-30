@@ -687,9 +687,9 @@
     "home_page__features_content__ab_test_v4__content2__reading__description3": "הבנת מושגים מורכבים מוסברים במונחים פשוטים.",
     "home_page__features_content__ab_test_v4__content2__search__label": "עוזר חיפוש",
     "home_page__features_content__ab_test_v4__content2__search__title": "חיפוש 10 פעמים מהיר עם צ'אט AI",
-    "home_page__features_content__ab_test_v4__content2__search__description1": "שוחח עם GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro ועוד.",
-    "home_page__features_content__ab_test_v4__content2__search__description2": "קבל תשובות AI אמינות ועדכניות עם גישה לרשת.",
-    "home_page__features_content__ab_test_v4__content2__search__description3": "גישה לתשובות מיידיות בסרגל הדפדפן שלך.",
+    "home_page__features_content__ab_test_v4__content2__search__description1": "קבל תשובות AI מעודכנות עם גישה לרשת בזמן אמת ולידע.",
+    "home_page__features_content__ab_test_v4__content2__search__description2": "קבל תשובות AI אמינות עם ציטוטים.",
+    "home_page__features_content__ab_test_v4__content2__search__description3": "גישה לתשובות מיידיות ישירות בסרגל הדפדפן שלך.",
     "home_page__features_content__ab_test_v4__content2__writing__label": "עוזר כתיבה",
     "home_page__features_content__ab_test_v4__content2__writing__title": "שפר את הכתיבה שלך ברחבי הרשת",
     "home_page__features_content__ab_test_v4__content2__writing__description1": "היו מקצועי, ברור ומשכנע בלחיצה כמה.",
@@ -721,7 +721,8 @@
     "partners__try_our_extension": "נסה את התוסף החדש של השותפים שלנו 👇",
     "partners__try_our_tools": "נסה את הכלים החינמיים של השותפים שלנו",
     "home_page__hero_section__title__part1": "קרא, כתוב וחפש עם AI",
-    "home_page__hero_section__title__part2": "סיים עבודה 10 פעמים מהר יותר"
+    "home_page__hero_section__title__part2": "סיים עבודה 10 פעמים מהר יותר",
+    "home_page__features_content__ab_test_v4__content2__search__description4": "הצג תגובות AI ליד תוצאות חיפוש של Google."
   },
   "prompt_library": {
     "use_prompt_library__title": "ספריית פרומפטים מתקדמת",
@@ -956,7 +957,9 @@
     "technical__title": "טכני והנדסי"
   },
   "share_conversion": {
-    "footer__get_for_free": "קבל את MaxAI בחינם"
+    "footer__get_for_free": "קבל את MaxAI בחינם",
+    "more": "יותר",
+    "hide": "הסתר"
   },
   "seo": {
     "default__title": "MaxAI.me: AI בלחיצה אחת בכל מקום (GPT-4o, Claude 3, Gemini 1.5)",
@@ -1117,18 +1120,13 @@
     "ai_rewriter_pages__section3__title": "כתוב עם המודלים הטובים ביותר של AI",
     "ai_rewriter_pages__section4__title": "צור מעצבן בלחיצה אחת משלך",
     "ai_rewriter_pages__section4__description": "התאמה אישית של תפריט ההקשר עם הזדמנויות משלך לשימוש רצוף. קל לגישה ולשימוש מחדש, עבורך ועבור הצוות שלך.",
-    "ai_summary_pages__title": "סכם ושאל כל דף אינטרנט עם AI",
+    "ai_summary_pages__title": "סכם כל עמוד עם AI",
     "ai_summary_pages__description": "חסוך 90% מזמן הקריאה והצפייה שלך על ידי קבלת סיכומים ותשובות מיידיות.",
-    "ai_summary_pages__section1__title": "עובד במקום שאתה עובד בו",
-    "ai_summary_pages__section1__description__item1": "כל דף אינטרנט",
-    "ai_summary_pages__section1__description__item2": "PDF",
-    "ai_summary_pages__section1__description__item3": "סרטון ב-YouTube",
-    "ai_summary_pages__section1__description__item4": "אימייל",
-    "ai_summary_pages__section1__description__item5": "מאמר בבלוג",
-    "ai_summary_pages__section2__title": "שאל AI כל שאלה",
-    "ai_summary_pages__section2__description": "בנוסף לקבלת סיכומים, תוכל גם לשאול שאלות לגבי כל דף אינטרנט כדי לקבל תשובות מיידיות.",
-    "ai_summary_pages__section3__title": "צור סיכום בלחיצה אחת משלך",
-    "ai_summary_pages__section3__description": "התאמה אישית של סיכומים AI עם הזדמנויות משלך לחלץ תובנות מרכזיות מכל דף אינטרנט ולקבל את המידע המדויק שאתה צריך בשניות.",
+    "ai_summary_pages__section1__title": "סכם כל עמוד אינטרנט",
+    "ai_summary_pages__section2__title": "שוחח עם כל עמוד אינטרנט",
+    "ai_summary_pages__section2__description": "קבל תשובות מהירות הקשורות לעמוד הנוכחי שלך עם הבנת הקשר של AI.",
+    "ai_summary_pages__section3__title": "סכם כל PDF",
+    "ai_summary_pages__section3__description": "חשוף ראשיות מרכזיות ממאמרי מחקר מורכבים, מאמרים אקדמיים, ספרים, הסכמים משפטיים, שעורי בית, ודוחות כלכליים.",
     "ai_reply_pages__title": "הגב מהר יותר עם AI",
     "ai_reply_pages__description": "האצה את תגובות האימייל, הרשתות החברתיות וההודעות שלך ב-10 פעמים עם לחיצה אחת.",
     "ai_reply_pages__section1__title": "תשובה מיידית AI אישית",
@@ -1218,7 +1216,20 @@
     "ai_vision_pages__section4__title": "מופעל על ידי המודלים הטובים ביותר של AI עם ראייה",
     "cta_text__add_to_browser_for_free": "הוסף אל {{BROWSER}} - זה חינם",
     "ai_chat_pages__section1__description": "שוחח עם GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro, DALLE-3, ועוד - הכל ב-MaxAI.me.",
-    "ai_chat_pages__section5__description": "קבל תשובות מיידיות ישירות בסרגל הדפדפן - לא צריך לקפוץ בין כרטיסיות. המשך את השיחה להבנה עמוקה יותר. שחזר שעות יקרות כל יום."
+    "ai_chat_pages__section5__description": "קבל תשובות מיידיות ישירות בסרגל הדפדפן - לא צריך לקפוץ בין כרטיסיות. המשך את השיחה להבנה עמוקה יותר. שחזר שעות יקרות כל יום.",
+    "ai_summary_pages__section1__description": "הבנה מיידית של כל עמוד אינטרנט ארוך או מורכב. הבנה מיידית של מאמרים ארוכים או מורכבים, מסמכים מקוונים, דואר אלקטרוני, ביקורות מוצרים, ועוד.",
+    "ai_summary_pages__section4__title": "שוחח עם כל PDF",
+    "ai_summary_pages__section4__description": "ענה מיידית על שאלות, מצא מידע, הבן מחקר, וצור דוחות עם AI.",
+    "ai_summary_pages__section5__title": "סכם כל וידאו ב-YouTube",
+    "ai_summary_pages__section5__description": "חסוך זמן בהבנת וידאוים ארוכים לשיעורים, דוקומנטריים, ראיונות, ביקורות, הרצאות לימודיות, ועוד.",
+    "ai_summary_pages__section6__title": "שוחח עם כל וידאו ב-YouTube",
+    "ai_summary_pages__section6__description": "הבנה מהירה של פרטים מוידאוים ארוכים. קבל תשובות מיידיות לשאלות שלך. צלול לעומק לכל נושא.",
+    "ai_summary_pages__section7__title": "שוחח עם כל מסמך",
+    "ai_summary_pages__section7__description": "חסוך שעות על ידי העלאת קובץ ובקשת עזרת AI לניתוח נתונים, סיכום מידע, או יצירת תרשים.",
+    "ai_summary_pages__section8__title": "עובד במקום שאתה עובד בו",
+    "ai_summary_pages__section8__description": "קבל סיכומים ותשובות ישירות בסרגל הדפדפן - אין צורך לקפוץ בין כרטיסיות. השיב על שעות יקרות כל יום.",
+    "ai_summary_pages__section9__title": "צור את הסכמן האישי שלך בלחיצה אחת",
+    "ai_summary_pages__section9__description": "הוסף הזמנות משלך כדי לקבל את המידע המדויק והפורמט שאתה זקוק אליו מכל עמוד בשניות."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "בחר הכל",

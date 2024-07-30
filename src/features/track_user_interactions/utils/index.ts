@@ -1,58 +1,58 @@
-import AES from 'crypto-js/aes';
-import { i18n, ResourceKey, ResourceLanguage } from 'i18next';
-import { debounce } from 'lodash-es';
-import React, { useCallback, useEffect } from 'react';
-import { UAParser } from 'ua-parser-js';
-import { v4 as uuidV4 } from 'uuid';
+import AES from 'crypto-js/aes'
+import { i18n, ResourceKey, ResourceLanguage } from 'i18next'
+import { debounce } from 'lodash-es'
+import React, { useCallback, useEffect } from 'react'
+import { UAParser } from 'ua-parser-js'
+import { v4 as uuidV4 } from 'uuid'
 
-import { FINGER_PRINT_LOCAL_STORAGE_SAVE_KEY } from '@/utils/fingerPrint';
-import { getLocalStorage, setLocalStorage } from '@/utils/localStorage';
+import { API_HOST } from '@/global_constants'
+import { FINGER_PRINT_LOCAL_STORAGE_SAVE_KEY } from '@/utils/fingerPrint'
+import { getLocalStorage, setLocalStorage } from '@/utils/localStorage'
 
-const { getBrowser, getOS } = new UAParser();
+const { getBrowser, getOS } = new UAParser()
 
-const API_HOST = process.env.NEXT_PUBLIC_BASE_URL;
-const APP_NAME = 'maxai_www' as TrackUserInteractionAPPType;
+const APP_NAME = 'maxai_www' as TrackUserInteractionAPPType
 /**
  * 因为每个项目的FingerPrint不一样，所以需要在项目中实现这个方法
  */
 const getTrackUserFingerPrint = () => {
-  return getLocalStorage(FINGER_PRINT_LOCAL_STORAGE_SAVE_KEY) || '';
-};
+  return getLocalStorage(FINGER_PRINT_LOCAL_STORAGE_SAVE_KEY) || ''
+}
 /**
  * 因为每个项目的FingerPrint不一样，所以需要在项目中实现这个方法
  */
 const getHttpRequestHeader = (): {
-  Authorization?: string;
+  Authorization?: string
 } => {
   // const accessToken = getAccessToken();
   return {
     // Authorization: '',
-  };
-};
+  }
+}
 
-export type TrackUserInteractionActionType = 'btn_click' | 'page_load';
+export type TrackUserInteractionActionType = 'btn_click' | 'page_load'
 
-export type TrackUserInteractionAPPType = 'maxai_www' | 'maxai_app';
+export type TrackUserInteractionAPPType = 'maxai_www' | 'maxai_app'
 
 export type TrackUserInteractionRequestType = {
-  page: string;
+  page: string
   action: {
-    type: TrackUserInteractionActionType;
-    id: string;
-    log_version: number;
-    [key: string]: string | number | boolean;
-  };
-  app: TrackUserInteractionAPPType;
-  url: string;
-  app_version: string;
-  browser: string;
-  browser_version: string;
-  platform: string;
-  language: string[];
-  fp: string;
-  client_uuid?: string;
-  meta: Record<string, any>;
-};
+    type: TrackUserInteractionActionType
+    id: string
+    log_version: number
+    [key: string]: string | number | boolean
+  }
+  app: TrackUserInteractionAPPType
+  url: string
+  app_version: string
+  browser: string
+  browser_version: string
+  platform: string
+  language: string[]
+  fp: string
+  client_uuid?: string
+  meta: Record<string, any>
+}
 
 /**
  * 记录用户行为
@@ -66,14 +66,14 @@ export const trackUserInteraction = debounce(
   ) => {
     try {
       if (!actionData.id) {
-        return;
+        return
       }
-      const requestHeader = getHttpRequestHeader();
+      const requestHeader = getHttpRequestHeader()
       if (APP_NAME === 'maxai_app' && !requestHeader.Authorization) {
-        return;
+        return
       }
-      const browser = getBrowser();
-      const os = getOS();
+      const browser = getBrowser()
+      const os = getOS()
       const originalData: TrackUserInteractionRequestType = {
         page: window.location.pathname,
         action: {
@@ -94,16 +94,13 @@ export const trackUserInteraction = debounce(
         meta: {
           ref: getLocalStorage('LANDING_PAGE_REF') ?? '',
         },
-      };
-
-      if (!originalData.client_uuid || originalData.client_uuid === '') {
-        delete originalData.client_uuid;
       }
 
-      const info = AES.encrypt(
-        JSON.stringify(originalData),
-        'MaxAI',
-      ).toString();
+      if (!originalData.client_uuid || originalData.client_uuid === '') {
+        delete originalData.client_uuid
+      }
+
+      const info = AES.encrypt(JSON.stringify(originalData), 'MaxAI').toString()
 
       await fetch(`${API_HOST}/app/uplog`, {
         method: 'POST',
@@ -116,13 +113,13 @@ export const trackUserInteraction = debounce(
         }),
       })
         .then()
-        .catch();
+        .catch()
     } catch (e) {
       // do nothing
     }
   },
   100,
-);
+)
 
 /**
  * 寻找父级元素是selector元素
@@ -136,71 +133,71 @@ const findParentEqualSelector = (
   maxDeep = 20,
 ) => {
   try {
-    let parent: HTMLElement = startElement;
-    let deep = 0;
+    let parent: HTMLElement = startElement
+    let deep = 0
     while (deep < maxDeep && !parent?.matches(selector)) {
-      parent = parent?.parentElement as HTMLElement;
-      deep++;
+      parent = parent?.parentElement as HTMLElement
+      deep++
     }
-    return parent?.matches(selector) ? parent : null;
+    return parent?.matches(selector) ? parent : null
   } catch (e) {
-    return null;
+    return null
   }
-};
+}
 
 export const useTrackUserInteractions = (i18nInstance: i18n) => {
   const handleUserInteraction: any = useCallback(
     async (event: React.MouseEvent<HTMLElement>) => {
-      const targetElement = event.target as HTMLElement;
+      const targetElement = event.target as HTMLElement
       const muiTrackElement =
         findParentEqualSelector('.MuiButton-root', targetElement, 10) ||
-        findParentEqualSelector('.MuiLink-root', targetElement, 10);
+        findParentEqualSelector('.MuiLink-root', targetElement, 10)
       if (muiTrackElement) {
-        let isTrackSuccess = false;
-        let buttonText = muiTrackElement?.innerText || '';
+        let isTrackSuccess = false
+        let buttonText = muiTrackElement?.innerText || ''
         if (!buttonText) {
           // 可能是Icon button
           const muiSvgIcon = muiTrackElement.querySelector(
             '.MuiSvgIcon-root[data-testid]',
-          );
+          )
           if (muiSvgIcon) {
-            buttonText = muiSvgIcon.getAttribute('data-testid') || '';
+            buttonText = muiSvgIcon.getAttribute('data-testid') || ''
             if (['CloseIcon', 'CloseOutlinedIcon'].includes(buttonText)) {
-              buttonText = 'Close';
+              buttonText = 'Close'
             } else {
               // 其他情况不记录
-              buttonText = '';
+              buttonText = ''
             }
           }
         }
-        const buttonLink = muiTrackElement?.getAttribute?.('href') || '';
+        const buttonLink = muiTrackElement?.getAttribute?.('href') || ''
         try {
           // 通过按钮文案去找到对应的i18n key
           let currentLanguageResource =
-            i18nInstance.options?.resources?.[i18nInstance.language] ?? {};
+            i18nInstance.options?.resources?.[i18nInstance.language] ?? {}
           if (APP_NAME === 'maxai_www') {
             // 由于 www 使用的 next-i18next，命名空间 需要多一层
             currentLanguageResource = currentLanguageResource[
               'index'
-            ] as ResourceLanguage;
+            ] as ResourceLanguage
           }
-          const namespaces = Object.keys(currentLanguageResource);
-          let currentI18nKey = '';
+          const namespaces = Object.keys(currentLanguageResource)
+          let currentI18nKey = ''
           for (const namespace of namespaces) {
-            const namespaceResource = currentLanguageResource[namespace];
+            const namespaceResource = currentLanguageResource[namespace]
             for (const key in namespaceResource as Record<
               string,
               ResourceKey
             >) {
               if (namespaceResource[key] === buttonText) {
-                currentI18nKey = namespace + ':' + key;
-                break;
+                currentI18nKey = namespace + ':' + key
+                break
               }
             }
           }
           if (currentI18nKey) {
             // 找到英语版本的value
-            const enButtonText = i18nInstance.t(currentI18nKey, { lng: 'en' });
+            const enButtonText = i18nInstance.t(currentI18nKey, { lng: 'en' })
             if (enButtonText) {
               // 获取所有的data-xxx
               const dataAttributeMap = Array.from(
@@ -208,19 +205,19 @@ export const useTrackUserInteractions = (i18nInstance: i18n) => {
               ).reduce(
                 (dataAttributeMap: Record<string, string>, attribute) => {
                   if (attribute.name.startsWith('data-')) {
-                    dataAttributeMap[attribute.name] = attribute.value;
+                    dataAttributeMap[attribute.name] = attribute.value
                   }
-                  return dataAttributeMap;
+                  return dataAttributeMap
                 },
                 {},
-              );
+              )
               // 记录用户点击行为
               await trackUserInteraction('btn_click', {
                 id: enButtonText,
                 buttonLink: buttonLink || '',
                 ...dataAttributeMap,
-              });
-              isTrackSuccess = true;
+              })
+              isTrackSuccess = true
             }
           }
         } catch (e) {
@@ -232,39 +229,39 @@ export const useTrackUserInteractions = (i18nInstance: i18n) => {
               id: `${buttonText}[noI18n]`,
               buttonLink: buttonLink,
               buttonText: muiTrackElement.innerText.trim(),
-            });
+            })
           }
         }
       }
     },
     [],
-  );
+  )
 
   useEffect(() => {
-    document.addEventListener('click', handleUserInteraction, true);
+    document.addEventListener('click', handleUserInteraction, true)
     return () => {
-      document.removeEventListener('click', handleUserInteraction, true);
-    };
-  }, [handleUserInteraction]);
-};
+      document.removeEventListener('click', handleUserInteraction, true)
+    }
+  }, [handleUserInteraction])
+}
 
 export const getClientUserId = (autoGenerate = false) => {
-  let clientUserId = getLocalStorage('CLIENT_USER_ID') || '';
+  let clientUserId = getLocalStorage('CLIENT_USER_ID') || ''
   if (autoGenerate && !clientUserId) {
-    clientUserId = generateClientUserId();
-    setClientUserId(clientUserId);
-    return clientUserId;
+    clientUserId = generateClientUserId()
+    setClientUserId(clientUserId)
+    return clientUserId
   } else {
-    return clientUserId;
+    return clientUserId
   }
-};
+}
 
 export const setClientUserId = (clientUserId: string) => {
-  return setLocalStorage('CLIENT_USER_ID', clientUserId, true);
-};
+  return setLocalStorage('CLIENT_USER_ID', clientUserId, true)
+}
 
 export const generateClientUserId = () => {
   // 生成 clientUserId
-  const clientUserId = uuidV4();
-  return clientUserId;
-};
+  const clientUserId = uuidV4()
+  return clientUserId
+}

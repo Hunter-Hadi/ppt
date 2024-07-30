@@ -44,16 +44,16 @@ const AIChatPages: FC<IProps> = () => {
         title={t('features_landing:ai_chat_pages__title')}
         description={t('features_landing:ai_chat_pages__description')}
       />
-
       {/* trusted by */}
       <TrustedBy />
-
       <FeaturesContentSection
         icon='open-ai'
         title={t('features_landing:ai_chat_pages__section1__title')}
         description={t('features_landing:ai_chat_pages__section1__description')}
         imageUrl='/assets/features-landing/ai-chat/1.png'
         textWithImageLayout='textToImage'
+        videoPosterUrl='/assets/features-landing/ai-chat/1.png'
+        videoUrl={`${RESOURCES_URL}/video/features/ai-chat/chat-with-top-ai-all-in-one-place.mp4`}
       />
       <FeaturesContentSection
         icon='search'
@@ -61,6 +61,8 @@ const AIChatPages: FC<IProps> = () => {
         description={t('features_landing:ai_chat_pages__section2__description')}
         imageUrl='/assets/features-landing/ai-search/2.png'
         textWithImageLayout='imageToText'
+        videoPosterUrl='/assets/features-landing/ai-search/2.png'
+        videoUrl={`${RESOURCES_URL}/video/features/search-assistant.mp4`}
       />
       <FeaturesContentSection
         icon='image-scanner'
@@ -73,7 +75,7 @@ const AIChatPages: FC<IProps> = () => {
         icon='art'
         title={t('features_landing:ai_chat_pages__section4__title')}
         description={t('features_landing:ai_chat_pages__section4__description')}
-        imageUrl='/assets/features-landing/ai-art/1.png'
+        imageUrl='/assets/features-landing/ai-chat/4.png'
         textWithImageLayout='imageToText'
       />
       <FeaturesContentSection
@@ -84,7 +86,7 @@ const AIChatPages: FC<IProps> = () => {
         textWithImageLayout='textToImage'
       />
       <FeaturesContentSection
-        icon='shield'
+        icon='prompt-library'
         title={t('features_landing:ai_chat_pages__section7__title')}
         description={t('features_landing:ai_chat_pages__section7__description')}
         imageUrl='/assets/features-landing/ai-chat/3.png'
@@ -99,9 +101,7 @@ const AIChatPages: FC<IProps> = () => {
         imageUrl='/assets/features-landing/ai-chat/3.png'
         textWithImageLayout='textToImage'
       />
-
       <FeaturesExploreMore />
-
       <FunnelSurveyPopup sceneType='SURVEY_INSTALL_DROPPED' />
     </Stack>
   )

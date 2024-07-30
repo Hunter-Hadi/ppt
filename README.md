@@ -5,6 +5,17 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+
+### 环境变量
+在项目根目录创建一个 .env.local 文件
+```
+VITE_PUBLIC_ENV=test
+VITE_PUBLIC_GA_ID=
+VITE_PUBLIC_GA_ID_MCC=
+VITE_PUBLIC_MIXPANEL_PROJECT_ID=dc4e4b13d1d423a76e0e10ea377e2949
+VITE_PUBLIC_CALRITY_ID=
+```
+
 First, run the development server :
 
 ```bash

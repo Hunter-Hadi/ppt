@@ -687,9 +687,9 @@
     "home_page__features_content__ab_test_v4__content2__reading__description3": "Засвоюйте складні концепції, пояснені простими словами.",
     "home_page__features_content__ab_test_v4__content2__search__label": "Асистент пошуку",
     "home_page__features_content__ab_test_v4__content2__search__title": "Шукайте з AI-чатом у 10 разів швидше",
-    "home_page__features_content__ab_test_v4__content2__search__description1": "Чатуйте з GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro та іншими.",
-    "home_page__features_content__ab_test_v4__content2__search__description2": "Отримуйте достовірні та актуальні відповіді з веб-доступом.",
-    "home_page__features_content__ab_test_v4__content2__search__description3": "Отримуйте миттєві відповіді прямо у бічній панелі вашого браузера.",
+    "home_page__features_content__ab_test_v4__content2__search__description1": "Отримуйте актуальні відповіді ШІ з доступом до веб-ресурсів у реальному часі та знань.",
+    "home_page__features_content__ab_test_v4__content2__search__description2": "Отримуйте достовірні відповіді ШІ з посиланнями.",
+    "home_page__features_content__ab_test_v4__content2__search__description3": "Доступ до миттєвих відповідей прямо в бічній панелі вашого браузера.",
     "home_page__features_content__ab_test_v4__content2__writing__label": "Асистент письма",
     "home_page__features_content__ab_test_v4__content2__writing__title": "Покращуйте своє письмо в Інтернеті",
     "home_page__features_content__ab_test_v4__content2__writing__description1": "Будьте професійними, зрозумілими та переконливими за кілька кліків.",
@@ -721,7 +721,8 @@
     "partners__try_our_extension": "Спробуйте нове розширення нашого партнера 👇",
     "partners__try_our_tools": "Спробуйте безкоштовні інструменти нашого партнера",
     "home_page__hero_section__title__part1": "Читайте, пишіть та шукайте за допомогою штучного інтелекту",
-    "home_page__hero_section__title__part2": "Завершуйте роботу в 10 разів швидше"
+    "home_page__hero_section__title__part2": "Завершуйте роботу в 10 разів швидше",
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Показ відповідей ШІ поруч з результатами пошуку Google."
   },
   "prompt_library": {
     "use_prompt_library__title": "Бібліотека високоякісних AI-підказок",
@@ -919,7 +920,9 @@
     "technical__title": "Технічні та інженерні"
   },
   "share_conversion": {
-    "footer__get_for_free": "Отримайте MaxAI безкоштовно"
+    "footer__get_for_free": "Отримайте MaxAI безкоштовно",
+    "more": "більше",
+    "hide": "Приховати"
   },
   "affiliate": {
     "main_keywords": "партнерська програма",

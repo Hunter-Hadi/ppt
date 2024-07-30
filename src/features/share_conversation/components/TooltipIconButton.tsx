@@ -1,16 +1,16 @@
-import CircularProgress from '@mui/material/CircularProgress';
-import IconButton, { IconButtonProps } from '@mui/material/IconButton';
-import React, { FC } from 'react';
+import CircularProgress from '@mui/material/CircularProgress'
+import IconButton, { IconButtonProps } from '@mui/material/IconButton'
+import React, { FC } from 'react'
 
 import TextOnlyTooltip, {
   TextOnlyTooltipProps,
-} from '@/features/share_conversation/components/TextOnlyTooltip';
+} from '@/features/share_conversation/components/TextOnlyTooltip'
 
 interface ITooltipIconButton extends Omit<IconButtonProps, 'title'> {
-  title: React.ReactNode | string;
-  placement?: TextOnlyTooltipProps['placement'];
-  TooltipProps?: Omit<TextOnlyTooltipProps, 'children' | 'title'>;
-  loading?: boolean;
+  title: React.ReactNode | string
+  placement?: TextOnlyTooltipProps['placement']
+  TooltipProps?: Omit<TextOnlyTooltipProps, 'children' | 'title'>
+  loading?: boolean
 }
 const TooltipIconButton: FC<ITooltipIconButton> = (props) => {
   const {
@@ -20,7 +20,7 @@ const TooltipIconButton: FC<ITooltipIconButton> = (props) => {
     loading = false,
     children,
     ...iconButtonProps
-  } = props;
+  } = props
   return (
     <TextOnlyTooltip
       placement={placement || 'top'}
@@ -40,6 +40,6 @@ const TooltipIconButton: FC<ITooltipIconButton> = (props) => {
         </IconButton>
       </div>
     </TextOnlyTooltip>
-  );
-};
-export default TooltipIconButton;
+  )
+}
+export default TooltipIconButton

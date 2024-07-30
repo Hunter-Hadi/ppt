@@ -20,7 +20,7 @@ interface IProps {
   icon: React.ReactNode
   title: string
   description: React.ReactNode
-  imageUrl: string
+  imageUrl?: string
   videoUrl?: string
   videoPosterUrl?: string
 

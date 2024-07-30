@@ -1,19 +1,19 @@
-import StarIcon from '@mui/icons-material/Star'
 import { Box, Grid, Skeleton, Stack, SxProps, Typography } from '@mui/material'
-import Head from 'next/head'
 import { useTranslation } from 'next-i18next'
 import React, { FC, useMemo } from 'react'
 
+import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
 import CustomIcon from '@/components/CustomIcon'
-import A16zTop50AppsBadge from '@/features/landing/components/HeroSection/A16zTop50AppsBadge'
+import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester'
 import HeroVideoBox, {
   IHeroVideoProps,
 } from '@/features/landing/components/HeroSection/HeroVideoBox'
-import IndicatorDecorator from '@/features/landing/components/IndicatorDecorator'
-import { LOVED_BY_NUM, STAR_RATINGS_NUM } from '@/features/landing/constants'
+import MaxAIIndicatorBadge from '@/features/landing/components/MaxAIIndicatorBadge'
+import { RESOURCES_URL } from '@/global_constants'
 import useBrowserAgent from '@/hooks/useBrowserAgent'
 import { IUseShareTrackerLinkProps } from '@/hooks/useShareTrackerLink'
 import CTAInstallButton from '@/page_components/CTAInstallButton'
+
 interface IProps {
   propRef?: string
   title?: React.ReactNode
@@ -30,6 +30,9 @@ interface IProps {
 
   // 是否显示顶部的指标徽章
   showIndicatorBadge?: boolean
+
+  // 首页视频的 ab test （v8）
+  inLandingVideoABTest?: boolean
 }
 
 const HeroSection: FC<IProps> = ({
@@ -42,12 +45,15 @@ const HeroSection: FC<IProps> = ({
   showIndicatorBadge = true,
   titleComponent = 'h1',
   sx,
+  inLandingVideoABTest,
 }) => {
   const { browserAgent: agent } = useBrowserAgent()
 
   const { t } = useTranslation()
 
   // const { openVideoPopup } = useVideoPopupController();
+
+  const { variant, enabled } = useLandingABTester(inLandingVideoABTest)
 
   const title = useMemo(() => {
     return propTitle ? (
@@ -70,234 +76,256 @@ const HeroSection: FC<IProps> = ({
   }, [propDescription, t])
 
   return (
-    <>
-      <Head>
-        {/* preload hero-section-bg */}
-        <link
-          rel='preload'
-          as='image'
-          href='/assets/landing/hero-section-bg.png'
-          type='image/png'
-        />
-      </Head>
-      <Box
-        id='homepage-hero-section'
-        bgcolor='#f9f5ff'
-        pt={{
-          xs: 4,
-          md: 7,
-        }}
-        pb={9}
-        px={2}
-        overflow='hidden'
-        sx={{
-          backgroundImage: `url("/assets/landing/hero-section-bg.png")`,
-          backgroundSize: 'cover',
-          backgroundPositionY: '-40px',
+    <Box
+      id='homepage-hero-section'
+      bgcolor='#f9f5ff'
+      pt={{
+        xs: 4,
+        md: 7,
+      }}
+      pb={9}
+      px={2}
+      overflow='hidden'
+      sx={{
+        backgroundImage: `url("/assets/landing/hero-section-bg.png")`,
+        backgroundSize: 'cover',
+        backgroundPositionY: '-40px',
 
-          ...sx,
-        }}
-      >
-        <Box maxWidth={1040} mx='auto'>
-          <Grid container rowSpacing={3} spacing={4}>
-            <Grid item xs={12} sm={12} md={12}>
+        ...sx,
+      }}
+    >
+      <Box maxWidth={1040} mx='auto'>
+        <Grid container rowSpacing={3} spacing={4}>
+          <Grid item xs={12} sm={12} md={12}>
+            <Stack
+              p={{
+                xs: 0,
+                sm: 2,
+              }}
+              className='content-wrapper'
+              sx={[
+                {
+                  p: {
+                    xs: 0,
+                    sm: 2,
+                  },
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                  textAlign: 'center',
+                  maxWidth: 'unset',
+                  mx: 'auto',
+                },
+              ]}
+            >
+              {showIndicatorBadge && (
+                <MaxAIIndicatorBadge
+                  sx={{
+                    mb: 3,
+                  }}
+                />
+              )}
+              {loading ? (
+                <TitleSkeleton />
+              ) : (
+                <Typography
+                  variant='custom'
+                  className='title'
+                  fontSize={{
+                    xs: 40,
+                    sm: 48,
+                    lg: 56,
+                  }}
+                  component={titleComponent}
+                  fontWeight={700}
+                >
+                  {title}
+                </Typography>
+              )}
+              {/* margin spacing */}
+              <Box height={24} />
+              {loading ? (
+                <DescriptionSkeleton />
+              ) : (
+                <Typography
+                  variant='body2'
+                  className='description'
+                  fontSize={{
+                    xs: 16,
+                    sm: 18,
+                    lg: 22,
+                  }}
+                >
+                  {description}
+                </Typography>
+              )}
+              {/* margin spacing */}
+              <Box height={32} />
               <Stack
-                p={{
-                  xs: 0,
+                direction={'row'}
+                alignItems='center'
+                spacing={{
+                  xs: 1,
                   sm: 2,
                 }}
-                className='content-wrapper'
-                sx={[
-                  {
-                    p: {
-                      xs: 0,
-                      sm: 2,
-                    },
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                    textAlign: 'center',
-                    maxWidth: 'unset',
-                    mx: 'auto',
-                  },
-                ]}
+                width={{
+                  xs: '100%',
+                  sm: '60%',
+                }}
+                mb={1.5}
               >
-                {showIndicatorBadge && (
-                  <IndicatorContent
-                    isABTestAddNewAndNewSort={true}
-                    sx={{
-                      mb: 3,
-                    }}
-                  />
-                )}
-                {loading ? (
-                  <TitleSkeleton />
-                ) : (
-                  <Typography
-                    variant='custom'
-                    className='title'
-                    fontSize={{
-                      xs: 40,
-                      sm: 48,
-                      lg: 56,
-                    }}
-                    component={titleComponent}
-                    fontWeight={700}
-                  >
-                    {title}
-                  </Typography>
-                )}
-                {/* margin spacing */}
-                <Box height={24} />
-                {loading ? (
-                  <DescriptionSkeleton />
-                ) : (
-                  <Typography
-                    variant='body2'
-                    className='description'
-                    fontSize={{
-                      xs: 16,
-                      sm: 18,
-                      lg: 22,
-                    }}
-                  >
-                    {description}
-                  </Typography>
-                )}
-                {/* margin spacing */}
-                <Box height={32} />
-                <Stack
-                  direction={'row'}
-                  alignItems='center'
-                  spacing={{
-                    xs: 1,
-                    sm: 2,
+                <CTAInstallButton
+                  showAgent='Chrome'
+                  variant={agent === 'Chrome' ? 'contained' : 'outlined'}
+                  text={agent === 'Chrome' ? undefined : ''}
+                  trackerLinkProps={{
+                    defaultRef: propRef ?? 'homepage',
+                    queryRefEnable: true,
+                    pathnameRefEnable: false,
+                    ...trackerLinkProps,
                   }}
-                  width={{
-                    xs: '100%',
-                    sm: '60%',
+                  sx={{
+                    width: agent === 'Chrome' ? '100%' : 'max-content',
+                    bgcolor: agent === 'Chrome' ? 'primary.main' : '#fff',
                   }}
-                  mb={1.5}
+                />
+                <CTAInstallButton
+                  showAgent='Edge'
+                  variant={agent === 'Edge' ? 'contained' : 'outlined'}
+                  text={agent === 'Edge' ? undefined : ''}
+                  trackerLinkProps={{
+                    defaultRef: propRef ?? 'homepage',
+                    queryRefEnable: true,
+                    pathnameRefEnable: false,
+                    ...trackerLinkProps,
+                  }}
+                  sx={{
+                    width: agent === 'Edge' ? '100%' : 'max-content',
+                    bgcolor: agent === 'Edge' ? 'primary.main' : '#fff',
+                  }}
+                />
+              </Stack>
+              <Stack
+                direction={'row'}
+                spacing={1}
+                alignItems='center'
+                justifyContent={'center'}
+                width={'100%'}
+                fontSize={{
+                  xs: 12,
+                  md: 16,
+                }}
+                flexWrap={'wrap'}
+              >
+                <Typography
+                  variant='custom'
+                  fontSize={'inherit'}
+                  lineHeight={1.5}
+                  flexShrink={0}
                 >
-                  <CTAInstallButton
-                    showAgent='Chrome'
-                    variant={agent === 'Chrome' ? 'contained' : 'outlined'}
-                    text={agent === 'Chrome' ? undefined : ''}
-                    trackerLinkProps={{
-                      defaultRef: propRef ?? 'homepage',
-                      queryRefEnable: true,
-                      pathnameRefEnable: false,
-                      ...trackerLinkProps,
-                    }}
+                  Powered by
+                </Typography>
+                <Stack direction={'row'} spacing={0.5}>
+                  <CustomIcon
+                    icon='GPT4o'
                     sx={{
-                      width: agent === 'Chrome' ? '100%' : 'max-content',
-                      bgcolor: agent === 'Chrome' ? 'primary.main' : '#fff',
+                      fontSize: {
+                        xs: 20,
+                        md: 24,
+                      },
                     }}
                   />
-                  <CTAInstallButton
-                    showAgent='Edge'
-                    variant={agent === 'Edge' ? 'contained' : 'outlined'}
-                    text={agent === 'Edge' ? undefined : ''}
-                    trackerLinkProps={{
-                      defaultRef: propRef ?? 'homepage',
-                      queryRefEnable: true,
-                      pathnameRefEnable: false,
-                      ...trackerLinkProps,
-                    }}
-                    sx={{
-                      width: agent === 'Edge' ? '100%' : 'max-content',
-                      bgcolor: agent === 'Edge' ? 'primary.main' : '#fff',
-                    }}
-                  />
-                </Stack>
-                <Stack
-                  direction={'row'}
-                  spacing={1}
-                  alignItems='center'
-                  justifyContent={'center'}
-                  width={'100%'}
-                  fontSize={{
-                    xs: 12,
-                    md: 16,
-                  }}
-                  flexWrap={'wrap'}
-                >
                   <Typography
                     variant='custom'
                     fontSize={'inherit'}
                     lineHeight={1.5}
                     flexShrink={0}
                   >
-                    Powered by
+                    GPT-4o
                   </Typography>
-                  <Stack direction={'row'} spacing={0.5}>
-                    <CustomIcon
-                      icon='GPT4o'
-                      sx={{
-                        fontSize: {
-                          xs: 20,
-                          md: 24,
-                        },
-                      }}
-                    />
-                    <Typography
-                      variant='custom'
-                      fontSize={'inherit'}
-                      lineHeight={1.5}
-                      flexShrink={0}
-                    >
-                      GPT-4o
-                    </Typography>
-                  </Stack>
+                </Stack>
 
-                  <Stack direction={'row'} spacing={0.5}>
-                    <CustomIcon
-                      icon='Claude3-5Sonnet'
-                      sx={{
-                        fontSize: {
-                          xs: 20,
-                          md: 24,
-                        },
-                      }}
-                    />
-                    <Typography
-                      variant='custom'
-                      fontSize={'inherit'}
-                      lineHeight={1.5}
-                      flexShrink={0}
-                    >
-                      Claude 3.5 Sonnet
-                    </Typography>
-                  </Stack>
+                <Stack direction={'row'} spacing={0.5}>
+                  <CustomIcon
+                    icon='Claude3-5Sonnet'
+                    sx={{
+                      fontSize: {
+                        xs: 20,
+                        md: 24,
+                      },
+                    }}
+                  />
+                  <Typography
+                    variant='custom'
+                    fontSize={'inherit'}
+                    lineHeight={1.5}
+                    flexShrink={0}
+                  >
+                    Claude 3.5 Sonnet
+                  </Typography>
+                </Stack>
 
-                  <Stack direction={'row'} spacing={0.5}>
-                    <CustomIcon
-                      icon='GeminiPro'
-                      sx={{
-                        fontSize: {
-                          xs: 20,
-                          md: 24,
-                        },
-                      }}
-                    />
-                    <Typography
-                      variant='custom'
-                      fontSize={'inherit'}
-                      lineHeight={1.5}
-                      flexShrink={0}
-                    >
-                      Gemini 1.5 Pro
-                    </Typography>
-                  </Stack>
+                <Stack direction={'row'} spacing={0.5}>
+                  <CustomIcon
+                    icon='GeminiPro'
+                    sx={{
+                      fontSize: {
+                        xs: 20,
+                        md: 24,
+                      },
+                    }}
+                  />
+                  <Typography
+                    variant='custom'
+                    fontSize={'inherit'}
+                    lineHeight={1.5}
+                    flexShrink={0}
+                  >
+                    Gemini 1.5 Pro
+                  </Typography>
                 </Stack>
               </Stack>
-            </Grid>
-            <Grid item xs={12} sm={12} md={12}>
-              <HeroVideoBox {...heroVideoProps} />
-            </Grid>
+            </Stack>
           </Grid>
-        </Box>
+          <Grid item xs={12} sm={12} md={12}>
+            {inLandingVideoABTest && enabled ? (
+              <AppLoadingLayout
+                loading={loading || !variant}
+                loadingText=''
+                sx={{
+                  position: 'relative',
+                  height: 0,
+                  pt: '56.25%',
+                  bgcolor: '#f5efff',
+
+                  '& .MuiCircularProgress-root': {
+                    position: 'absolute',
+                    top: '50%',
+                    left: '50%',
+                    transform: 'translate(-50%, -50%)',
+                  },
+                }}
+              >
+                {variant === 'youtube_video' ? (
+                  <HeroVideoBox
+                    videoSrc={`https://www.youtube.com/embed/XfiZMwAD_KU?si=2augGW9ea-vZzJK6`}
+                    videoPosterUrl={`/assets/landing/hero-section/video-cover.png`}
+                    variant={'youtube-autoplay'}
+                  />
+                ) : (
+                  <HeroVideoBox
+                    videoSrc={`${RESOURCES_URL}/video/landing-page-primary.mp4`}
+                    videoPosterUrl={`/assets/landing/hero-section/video-cover.png`}
+                    variant={'autoplay'}
+                  />
+                )}
+              </AppLoadingLayout>
+            ) : (
+              <HeroVideoBox {...heroVideoProps} />
+            )}
+          </Grid>
+        </Grid>
       </Box>
-    </>
+    </Box>
   )
 }
 
@@ -328,119 +356,5 @@ const DescriptionSkeleton = () => {
       <Skeleton height={27} />
       <Skeleton height={27} />
     </Box>
-  )
-}
-
-interface IIndicatorContentProps {
-  sx?: SxProps
-  isABTestAddNewAndNewSort?: boolean
-}
-const IndicatorContent: FC<IIndicatorContentProps> = ({
-  sx,
-  isABTestAddNewAndNewSort = false,
-}) => {
-  const { t } = useTranslation()
-  return (
-    <Stack
-      direction={isABTestAddNewAndNewSort ? 'row-reverse' : 'row'}
-      alignItems={'center'}
-      justifyContent='center'
-      gap={{
-        xs: 1,
-        sm: 3,
-      }}
-      flexWrap={'wrap'}
-      sx={{
-        ...sx,
-      }}
-    >
-      <A16zTop50AppsBadge
-        sx={
-          isABTestAddNewAndNewSort
-            ? {
-                color: 'text.secondary',
-              }
-            : undefined
-        }
-      />
-      <IndicatorDecorator>
-        <Stack justifyContent={'center'} alignItems='center'>
-          <Typography
-            variant='custom'
-            fontSize={{
-              xs: 20,
-              sm: 24,
-            }}
-            fontWeight={700}
-            color='primary.main'
-          >
-            {LOVED_BY_NUM}
-          </Typography>
-          <Typography
-            variant='custom'
-            fontSize={{
-              xs: 14,
-              sm: 16,
-            }}
-            color={isABTestAddNewAndNewSort ? 'text.secondary' : undefined}
-          >
-            {t('pages:home_page__hero_section__indicator2_label')}
-          </Typography>
-        </Stack>
-      </IndicatorDecorator>
-      <IndicatorDecorator>
-        <Stack justifyContent={'center'} alignItems='center'>
-          <Typography
-            variant='custom'
-            fontSize={{
-              xs: 20,
-              sm: 24,
-            }}
-            fontWeight={700}
-            color='primary.main'
-          >
-            {STAR_RATINGS_NUM}
-          </Typography>
-          <Typography
-            variant='custom'
-            fontSize={{
-              xs: 14,
-              sm: 16,
-            }}
-            color={isABTestAddNewAndNewSort ? 'text.secondary' : undefined}
-          >
-            {t('pages:home_page__hero_section__indicator3_label')}
-          </Typography>
-        </Stack>
-      </IndicatorDecorator>
-      {isABTestAddNewAndNewSort && (
-        <IndicatorDecorator>
-          <Stack justifyContent={'center'} alignItems='center'>
-            <Typography
-              variant='custom'
-              fontSize={{
-                xs: 20,
-                sm: 24,
-              }}
-              fontWeight={700}
-              color='primary.main'
-            >
-              4.8/5
-            </Typography>
-            <Stack flexDirection='row'>
-              {[...Array(5)].map((_, index) => (
-                <StarIcon
-                  key={index}
-                  sx={{
-                    fontSize: 16,
-                    color: '#ffb000',
-                  }}
-                />
-              ))}
-            </Stack>
-          </Stack>
-        </IndicatorDecorator>
-      )}
-    </Stack>
   )
 }

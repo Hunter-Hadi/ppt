@@ -1,5 +1,96 @@
 export const MAXAI_RELEASE_NOTES = [
   {
+    version: '4.8.0',
+    date: '2024-07-28',
+
+    content: [
+      {
+        title: 'Introducing Llama-3.1-405B on MaxAI.me',
+        lists: [
+          {
+            module: 'Access Llama-3.1-405B',
+            desc: 'Meta\'s flagship foundation model driving the widest variety of use cases. The world\'s largest open source AI model with frontier-level capabilities. Expanded context length of 128K tokens for advanced use cases. State-of-the-art performance in general knowledge, steerability, and math. Multilingual support across 8 languages.',
+          },
+        ],
+      },
+      {
+        title: 'Introducing Llama-3.1-70B on MaxAI.me',
+        lists: [
+          {
+            module: 'Access Llama-3.1-70B',
+            desc: 'Meta\'s highly performant model that enables diverse use cases. Longer context length of 128K, state-of-the-art tool use, and overall stronger reasoning capabilities. Ideal for advanced use cases like long-form text summarization, multilingual conversational agents, and coding assistants.',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    version: '4.7.0',
+    date: '2024-07-26',
+
+    content: [
+      {
+        title: 'A better context menu',
+        lists: [
+          {
+            module: 'Context menu redesigned',
+            desc: 'You can now easily switch AI models, change the AI response language, view and copy selected context, all directly from the context menu for improved productivity.',
+          },
+        ],
+      },
+      {
+        title: 'Never loose track of rewrites',
+        lists: [
+          {
+            module: 'AI rewriter in sidebar',
+            desc: 'Access your context menu rewrite history right in the sidebar anytime. You can also directly copy and paste text into the sidebar AI rewriter to proofread, improve, and polish any text. It\'s never been easier.',
+          },
+        ],
+      },
+      {
+        title: 'Always display context menu responses in sidebar',
+        lists: [
+          {
+            module: 'AI rewriter can be your new context menu in sidebar',
+            desc: 'You can now choose to always display context menu responses in the sidebar. This way, you can avoid cluttering your browser experience and prevent the context menu from overlapping webpage content.',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    version: '4.6.1',
+    date: '2024-07-22',
+
+    content: [
+      {
+        title: 'Introducing GPT-4o-mini on MaxAI.me',
+        lists: [
+          {
+            module: 'Access GPT-4o-mini',
+            desc: 'OpenAI\'s newest model - Significantly smarter than GPT-3.5-Turbo. As fast as GPT-3.5-Turbo. Supports text and vision capabilities. Improved multilingual understanding.',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    version: '4.3.14',
+    date: '2024-07-17',
+
+    content: [
+      {
+        title: 'Resize your context menu',
+        lists: [
+          {
+            module: 'Resizable context menu',
+            desc: 'You can now resize the context menu by simply dragging its bottom right corner.',
+          },
+        ],
+      },
+    ],
+  },
+  {
     version: '4.3.11',
     date: '2024-07-05',
 

@@ -5,6 +5,7 @@ import getConfig from 'next/config'
 import { SnackbarKey, useSnackbar } from 'notistack'
 import React from 'react'
 
+import { API_HOST } from '@/global_constants'
 import { getFingerPrint } from '@/utils/fingerPrint'
 import snackNotifications from '@/utils/globalSnackbar'
 import { getLocalStorage, setLocalStorage } from '@/utils/localStorage'
@@ -37,7 +38,7 @@ console.log('NODE_ENV:', process.env.NODE_ENV)
 const GUEST_USER_MODE = 'GUEST_USER_MODE'
 
 export const appAxios = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_BASE_URL,
+  baseURL: API_HOST,
   timeout: 20000,
 })
 
@@ -183,8 +184,7 @@ appAxios.interceptors.request.use(
       'X-FID': getFingerPrint(),
     }
     // 签名路径添加api版本号
-    let api_path =
-      config.url?.replace(process.env.NEXT_PUBLIC_BASE_URL || '', '') || ''
+    let api_path = config.url?.replace(API_HOST || '', '') || ''
     const sign_header_prefix = ''
     let json_data = {}
     const data: { [key: string]: FormDataEntryValue } = {}

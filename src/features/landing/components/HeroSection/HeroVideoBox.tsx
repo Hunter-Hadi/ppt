@@ -5,6 +5,7 @@ import { SxProps } from '@mui/material/styles'
 import React, { FC, useEffect, useMemo, useRef } from 'react'
 
 import ResponsiveImage from '@/components/ResponsiveImage'
+import YoutubePlayerBox from '@/components/YoutubePlayerBox'
 import useABTestVisibilityAutoPlayVideo from '@/features/ab_tester/hooks/useABTestVisibilityAutoPlayVideo'
 import { PRIMARY_VIDEO_ASSETS_URL } from '@/features/landing/constants'
 import useVideoPopupController from '@/features/video_popup/hooks/useVideoPopupController'
@@ -15,7 +16,7 @@ export interface IHeroVideoProps {
   imageCover?: string
 
   // for landing ab test v2
-  variant?: 'autoplay' | 'embed'
+  variant?: 'autoplay' | 'embed' | 'youtube-autoplay'
   windowAutoPlay?: boolean
   videoStyle?: React.CSSProperties
   videoPosterUrl?: string
@@ -124,6 +125,30 @@ const HeroVideoBox: FC<IHeroVideoProps> = ({
             {"Sorry, your browser doesn't support embedded videos"}
           </video>
         </Box>
+      </Stack>
+    )
+  }
+
+  if (variant === 'youtube-autoplay' && videoSrc) {
+    return (
+      <Stack
+        position='relative'
+        justifyContent={'center'}
+        alignItems={'center'}
+        height='100%'
+      >
+        <YoutubePlayerBox
+          youtubeLink={videoSrc}
+          videoPosterUrl={videoPosterUrl}
+          autoplay
+          loop
+          borderRadius={12}
+          sx={{
+            '&.video-container > iframe': {
+              boxShadow: 'rgba(10, 0, 31, 0.1) 0px 1px 24px 4px',
+            },
+          }}
+        />
       </Stack>
     )
   }

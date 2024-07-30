@@ -39,6 +39,8 @@ export const WWW_PROJECT_LINK =
   process.env.NEXT_PUBLIC_WWW_PROJECT_HOST ?? 'https://www.maxai.me'
 export const APP_PROJECT_LINK =
   process.env.NEXT_PUBLIC_APP_PROJECT_HOST ?? 'https://app.maxai.me'
+export const API_HOST =
+  process.env.NEXT_PUBLIC_API_PROJECT_HOST ?? 'https://api.maxai.me'
 export const SIMPLY_TRENDS_APP_LINK = 'https://app.simplytrends.co'
 export const SIMPLY_TRENDS_APP_EMAIL = 'hello@maxai.me'
 export const SIMPLY_TRENDS_DEMOPAGE_LINK = 'https://www.simplytrends.co'
