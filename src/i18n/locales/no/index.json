@@ -1294,7 +1294,8 @@
     "components__common__drag__dropping_tip": "Du kan justere rekkefølgen ved å dra og slippe",
     "components__common__upload_button_tips": "eller slipp filer her",
     "components__common__upload_button_title": "VELG FILER",
-    "components__common__upload_button__unsupported_file_type_tip": "Vennligst last opp den angitte PDF-filtypen"
+    "components__common__upload_button__unsupported_file_type_tip": "Vennligst last opp den angitte PDF-filtypen",
+    "components__common__select_other_file": "Velg en annen fil"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Kun bilder av bildetype kan lastes opp",
@@ -1772,7 +1773,42 @@
     "components__unlock_pdf_detail_input_password": "Vennligst skriv inn passordet for å låse opp PDF-en din",
     "components__unlock_pdf_detail_input_placeholder": "Passord",
     "components__unlock_pdf_detail__button__unlock": "Lås opp",
-    "components__unlock_pdf_detail__button__convert": "Konverter en annen",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Feil passord"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Feil passord",
+    "components__unlock_pdf_detail__use_tips": "Passordet og PDF-filene vil ikke bli lastet opp til serveren, noe som sikrer sikkerheten."
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "Beskytt PDF",
+    "description": "Legg til passordbeskyttelse og kryptering til PDF-filene dine for økt sikkerhet.",
+    "seo_title": "Beskytt PDF - Legg til passordkryptering til PDF-filer på nettet gratis | MaxAI.me",
+    "seo_description": "Legg enkelt til passordbeskyttelse til PDF-filene dine på nettet gratis. Ingen vannmerker, filstørrelsesbegrensninger, nedlastinger eller påmeldinger kreves.",
+    "detail_description_object__protect_pdf__top_left": "Beskytt enkelt PDF-filene dine på nettet gratis ved å legge til passordkryptering. Med verktøyet vårt forblir filene dine lokale for personvern, og det er ingen størrelsesbegrensninger.",
+    "detail_description_object__protect_pdf__top_right_1": "Sikre raskt PDF-filene dine på bare noen få sekunder.",
+    "detail_description_object__protect_pdf__top_right_2": "Last enkelt opp PDF-filene dine for å komme i gang.",
+    "detail_description_object__protect_pdf__top_right_3": "Kompatibel med Mac, Windows, Android og iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "Enkel nettbasert verktøy for å beskytte PDF-er",
+    "detail_description_object__protect_pdf__middle_1_description": "Vårt verktøy for PDF-beskyttelse lar deg enkelt legge til passordbeskyttelse til PDF-filene dine. Bare last opp dokumentet ditt, sett passordet ditt, og last ned den krypterte PDF-en. Det er utrolig brukervennlig, helt gratis, og krever ikke en konto.",
+    "detail_description_object__protect_pdf__middle_2_title": "Lokal sikker PDF-beskyttelse",
+    "detail_description_object__protect_pdf__middle_2_description": "Alle filene du laster opp behandles direkte i nettleseren din, noe som sikrer personvernet ditt. Ingen filer lastes opp til skyen, og dataene dine er garantert sikre.",
+    "detail_description_object__protect_pdf__middle_3_title": "Tverrplattformkompatibilitet",
+    "detail_description_object__protect_pdf__middle_3_description": "Vårt verktøy for PDF-beskyttelse er nettleserbasert, noe som betyr at det fungerer sømløst på Mac, Windows og Linux, samt mobile enheter. Du kan enkelt beskytte PDF-filene dine fra hvor som helst.",
+    "detail_description_object__protect_pdf__middle_4_title": "Enkel operasjonsprosess",
+    "detail_description_object__protect_pdf__middle_4_description": "Å beskytte PDF-filene dine er enkelt: last opp filen, sett passordet ditt, og last ned den passordbeskyttede versjonen. Selv nybegynnere kan følge denne enkle prosessen uten problemer.",
+    "detail_description_object__protect_pdf__middle_5_title": "Pålitelig verktøy for PDF-beskyttelse",
+    "detail_description_object__protect_pdf__middle_5_description": "Du trenger ikke å kjøpe dyre programmer for å beskytte PDF-filene dine. Vårt nettbaserte verktøy for PDF-beskyttelse er tilgjengelig gratis, og sikrer at filene og dataene dine alltid er sikre uten behov for skybehandling.",
+    "detail_description_object__protect_pdf__middle_6_title": "Lokal behandling for forbedret sikkerhet",
+    "detail_description_object__protect_pdf__middle_6_description": "Vår beskyttelsestjeneste sikrer at alle operasjoner utføres lokalt. Dette forbedrer sikkerheten og øker behandlingstiden, og holder filene dine trygge.",
+    "detail_description_object__protect_pdf__bottom_right_title": "Hvordan beskytte PDF-filer på nettet:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Last opp PDF-filen du vil beskytte.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Sett et passord for PDF-filen.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Klikk på 'Beskytt' for å laste ned den passordbeskyttede PDF-filen.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Når den er beskyttet, kan bare de med passordet få tilgang til og redigere PDF-filene dine på hvilken som helst enhet."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Beskytt",
+    "components__protect_pdf_detail__type_password": " Skriv passord",
+    "components__protect_pdf_detail__repeat_type_password": "Gjenta passord",
+    "components__protect_pdf_detail__input__placeholder": "Angi passordet ditt",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Bekreft passordet ditt",
+    "components__protect_pdf_detail__use_tips": "Passordet og PDF-filene vil ikke bli lastet opp til serveren, noe som sikrer sikkerheten."
   }
 }

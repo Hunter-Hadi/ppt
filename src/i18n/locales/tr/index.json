@@ -1294,7 +1294,8 @@
     "components__common__drag__dropping_tip": "Sıralamayı sürükleyip bırakarak ayarlayabilirsiniz",
     "components__common__upload_button_tips": "veya dosyaları buraya bırakın",
     "components__common__upload_button_title": "DOSYALAR SEÇ",
-    "components__common__upload_button__unsupported_file_type_tip": "Lütfen belirtilen PDF dosya türünü yükleyin"
+    "components__common__upload_button__unsupported_file_type_tip": "Lütfen belirtilen PDF dosya türünü yükleyin",
+    "components__common__select_other_file": "Başka bir dosya seç"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Sadece resim türündeki resimler yüklenebilir",
@@ -1772,7 +1773,42 @@
     "components__unlock_pdf_detail_input_password": "PDF'nizi kilidini açmak için şifreyi girin",
     "components__unlock_pdf_detail_input_placeholder": "Şifre",
     "components__unlock_pdf_detail__button__unlock": "Kilidi Aç",
-    "components__unlock_pdf_detail__button__convert": "Başka bir dosyaya dönüştür",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Yanlış şifre"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Yanlış şifre",
+    "components__unlock_pdf_detail__use_tips": "Parola ve PDF dosyaları sunucuya yüklenmeyecek, güvenliği sağlanacak."
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "PDF Koruma",
+    "description": "PDF dosyalarınıza gelişmiş güvenlik için şifre koruması ve şifreleme ekleyin.",
+    "seo_title": "PDF Koruma - Ücretsiz Olarak PDF Dosyalarına Şifreleme Ekleyin | MaxAI.me",
+    "seo_description": "PDF dosyalarınıza ücretsiz olarak kolayca şifre koruması ekleyin. Filigranlar, dosya boyutu sınırları, indirmeler veya kayıtlar gerektirilmez.",
+    "detail_description_object__protect_pdf__top_left": "PDF dosyalarınıza şifreleme ekleyerek kolayca ücretsiz olarak koruyun. Aracımızla dosyalarınız yerel olarak kalır ve gizlilik için boyut sınırlamaları yoktur.",
+    "detail_description_object__protect_pdf__top_right_1": "PDF dosyalarınızı sadece birkaç saniye içinde güvence altına alın.",
+    "detail_description_object__protect_pdf__top_right_2": "Başlamak için sadece PDF dosyalarınızı yükleyin.",
+    "detail_description_object__protect_pdf__top_right_3": "Mac, Windows, Android ve iOS ile uyumludur.",
+    "detail_description_object__protect_pdf__middle_1_title": "PDF'leri Korumak İçin Basit Çevrimiçi Aracı",
+    "detail_description_object__protect_pdf__middle_1_description": "PDF koruma aracımız, PDF dosyalarınıza kolayca şifre koruması eklemenizi sağlar. Sadece belgenizi yükleyin, şifrenizi belirleyin ve şifrelenmiş PDF'yi indirin. Son derece kullanıcı dostu, tamamen ücretsiz ve hesap gerektirmez.",
+    "detail_description_object__protect_pdf__middle_2_title": "Yerel Güvenli PDF Koruma",
+    "detail_description_object__protect_pdf__middle_2_description": "Yüklediğiniz tüm dosyalar tarayıcınızda doğrudan işlenir, böylece gizliliğiniz korunur. Dosyalar hiçbir şekilde buluta yüklenmez, veri güvenliği garanti altına alınır.",
+    "detail_description_object__protect_pdf__middle_3_title": "Çapraz Platform Uyumluluğu",
+    "detail_description_object__protect_pdf__middle_3_description": "PDF koruma aracımız tarayıcı tabanlıdır, bu da Mac, Windows ve Linux ile birlikte mobil cihazlarda sorunsuz çalıştığı anlamına gelir. PDF dosyalarınızı her yerden kolayca koruyabilirsiniz.",
+    "detail_description_object__protect_pdf__middle_4_title": "Kolay İşlem Süreci",
+    "detail_description_object__protect_pdf__middle_4_description": "PDF dosyalarınızı korumak oldukça basittir: dosyayı yükleyin, şifrenizi belirleyin ve ardından şifre korumalı sürümü indirin. Hatta acemiler bile bu kolay süreci zorlanmadan takip edebilir.",
+    "detail_description_object__protect_pdf__middle_5_title": "Güvenilir PDF Koruma Aracı",
+    "detail_description_object__protect_pdf__middle_5_description": "PDF dosyalarınızı korumak için pahalı yazılımlar satın almanıza gerek yok. Çevrimiçi PDF koruma aracımız ücretsiz olarak sunulmaktadır, dosyalarınız ve verileriniz her zaman bulut işlemine gerek duymadan güvende tutulur.",
+    "detail_description_object__protect_pdf__middle_6_title": "Gelişmiş Güvenlik İçin Yerel İşleme",
+    "detail_description_object__protect_pdf__middle_6_description": "Hizmetimiz, tüm işlemlerin yerel olarak gerçekleştirildiğinden emin olur. Bu, dosyalarınızın güvenliğini artırır ve işleme süresini hızlandırır, dosyalarınızı güvende tutar.",
+    "detail_description_object__protect_pdf__bottom_right_title": "PDF Dosyalarını Nasıl Çevrimiçi Olarak Korursunuz:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Korumak istediğiniz PDF dosyasını yükleyin.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "PDF dosyası için bir şifre belirleyin.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Şifre korumalı PDF dosyasını indirmek için 'Koru'ya tıklayın.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Korunduktan sonra, sadece şifreye sahip olanlar PDF dosyalarınıza herhangi bir cihazda erişebilir ve düzenleyebilir."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Koruma",
+    "components__protect_pdf_detail__type_password": " Şifre girin",
+    "components__protect_pdf_detail__repeat_type_password": "Şifreyi tekrar girin",
+    "components__protect_pdf_detail__input__placeholder": "Şifrenizi belirleyin",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Şifrenizi onaylayın",
+    "components__protect_pdf_detail__use_tips": "Parola ve PDF dosyaları sunucuya yüklenmeyecek, güvenliği sağlanacak."
   }
 }

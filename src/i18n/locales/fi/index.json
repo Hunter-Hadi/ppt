@@ -1294,7 +1294,8 @@
     "components__common__drag__dropping_tip": "Voit säätää järjestystä vetämällä ja pudottamalla",
     "components__common__upload_button_tips": "tai pudota tiedostot tähän",
     "components__common__upload_button_title": "VALITSE TIEDOSTOT",
-    "components__common__upload_button__unsupported_file_type_tip": "Lataa vain määritetty PDF-tiedostotyyppi"
+    "components__common__upload_button__unsupported_file_type_tip": "Lataa vain määritetty PDF-tiedostotyyppi",
+    "components__common__select_other_file": "Valitse toinen tiedosto"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Vain kuvatyyppiset kuvat voidaan ladata",
@@ -1772,7 +1773,42 @@
     "components__unlock_pdf_detail_input_password": "Syötä salasana avataksesi PDF-tiedostosi",
     "components__unlock_pdf_detail_input_placeholder": "Salasana",
     "components__unlock_pdf_detail__button__unlock": "Avaa",
-    "components__unlock_pdf_detail__button__convert": "Muunna toinen",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Väärä salasana"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Väärä salasana",
+    "components__unlock_pdf_detail__use_tips": "Salasanaa ja PDF-tiedostoja ei lähetetä palvelimelle, mikä varmistaa turvallisuuden."
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "Suojaa PDF",
+    "description": "Lisää salasanasuojaus ja salakirjoitus PDF-tiedostoihisi parannetun turvallisuuden varmistamiseksi.",
+    "seo_title": "Suojaa PDF - Lisää salasanasuojaus PDF-tiedostoihin ilmaiseksi verkossa | MaxAI.me",
+    "seo_description": "Lisää helposti salasanasuojaus PDF-tiedostoihisi ilmaiseksi verkossa. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymisiä tarvita.",
+    "detail_description_object__protect_pdf__top_left": "Suojaa PDF-tiedostosi helposti ilmaiseksi lisäämällä salakirjoitus. Työkalullamme tiedostosi pysyvät paikallisesti yksityisyyden varmistamiseksi, eikä kokorajoituksia ole.",
+    "detail_description_object__protect_pdf__top_right_1": "Suojaa PDF-tiedostosi nopeasti muutamassa sekunnissa.",
+    "detail_description_object__protect_pdf__top_right_2": "Lataa vain PDF-tiedostosi aloittaaksesi.",
+    "detail_description_object__protect_pdf__top_right_3": "Yhteensopiva Macin, Windowsin, Androidin ja iOS:n kanssa.",
+    "detail_description_object__protect_pdf__middle_1_title": "Yksinkertainen verkkotyökalu PDF-tiedostojen suojaamiseen",
+    "detail_description_object__protect_pdf__middle_1_description": "PDF-suojaustyökalumme mahdollistaa salasanasuojauksen lisäämisen PDF-tiedostoihisi helposti. Lataa vain asiakirjasi, aseta salasanasi ja lataa salattu PDF. Se on uskomattoman käyttäjäystävällinen, täysin ilmainen eikä vaadi tiliä.",
+    "detail_description_object__protect_pdf__middle_2_title": "Paikallinen turvallinen PDF-suojaus",
+    "detail_description_object__protect_pdf__middle_2_description": "Kaikki lataamasi tiedostot käsitellään suoraan selaimessasi, varmistaen yksityisyytesi suojan. Tiedostoja ei lähetetä pilveen, mikä takaa tietoturvan.",
+    "detail_description_object__protect_pdf__middle_3_title": "Ristiinjärjestelmäinen yhteensopivuus",
+    "detail_description_object__protect_pdf__middle_3_description": "PDF-suojaustyökalumme perustuu selaimessa toimivaan, mikä tarkoittaa, että se toimii saumattomasti Macin, Windowsin ja Linuxin sekä mobiililaitteiden kanssa. Voit helposti suojata PDF-tiedostosi mistä tahansa.",
+    "detail_description_object__protect_pdf__middle_4_title": "Helppo toimintaprosessi",
+    "detail_description_object__protect_pdf__middle_4_description": "PDF-tiedostojen suojaaminen on suoraviivaista: lataa tiedosto, aseta salasanasi ja lataa sitten salasanalla suojattu versio. Jopa aloittelijat voivat seurata tätä helppoa prosessia vaivattomasti.",
+    "detail_description_object__protect_pdf__middle_5_title": "Luotettava PDF-suojaustyökalu",
+    "detail_description_object__protect_pdf__middle_5_description": "Sinun ei tarvitse ostaa kallista ohjelmistoa suojataksesi PDF-tiedostosi. Verkkopohjainen PDF-suojaustyökalumme on saatavilla ilmaiseksi, varmistaen että tiedostosi ja tietosi ovat aina turvassa ilman pilviprosessointia.",
+    "detail_description_object__protect_pdf__middle_6_title": "Paikallinen käsittely paremman turvallisuuden varmistamiseksi",
+    "detail_description_object__protect_pdf__middle_6_description": "Palvelumme varmistaa, että kaikki toiminnot suoritetaan paikallisesti. Tämä parantaa turvallisuutta ja nopeuttaa käsittelyaikaa, pitäen tiedostosi turvassa.",
+    "detail_description_object__protect_pdf__bottom_right_title": "Kuinka suojata PDF-tiedostot verkossa:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Lataa PDF-tiedosto, jonka haluat suojata.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Aseta salasana PDF-tiedostolle.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Klikkaa 'Suojaa' ladataksesi salasanalla suojatun PDF-tiedoston.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Kun tiedosto on suojattu, vain ne, joilla on salasana, voivat käyttää ja muokata PDF-tiedostojasi millä tahansa laitteella."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Suojaa",
+    "components__protect_pdf_detail__type_password": " Kirjoita salasana",
+    "components__protect_pdf_detail__repeat_type_password": "Toista salasana",
+    "components__protect_pdf_detail__input__placeholder": "Aseta salasanasi",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Vahvista salasanasi",
+    "components__protect_pdf_detail__use_tips": "Salasanaa ja PDF-tiedostoja ei lähetetä palvelimelle, mikä varmistaa turvallisuuden."
   }
 }

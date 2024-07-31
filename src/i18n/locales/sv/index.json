@@ -1294,7 +1294,8 @@
     "components__common__drag__dropping_tip": "Du kan justera ordningen genom att dra och släppa",
     "components__common__upload_button_tips": "eller släpp filer här",
     "components__common__upload_button_title": "VÄLJ FILER",
-    "components__common__upload_button__unsupported_file_type_tip": "Var god ladda upp den angivna PDF-filtypen"
+    "components__common__upload_button__unsupported_file_type_tip": "Var god ladda upp den angivna PDF-filtypen",
+    "components__common__select_other_file": "Välj en annan fil"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Endast bilder av bildtyp kan laddas upp",
@@ -1772,7 +1773,42 @@
     "components__unlock_pdf_detail_input_password": "Ange lösenordet för att låsa upp din PDF",
     "components__unlock_pdf_detail_input_placeholder": "Lösenord",
     "components__unlock_pdf_detail__button__unlock": "Lås upp",
-    "components__unlock_pdf_detail__button__convert": "Konvertera en annan",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Fel lösenord"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Fel lösenord",
+    "components__unlock_pdf_detail__use_tips": "Lösenordet och PDF-filerna kommer inte att laddas upp till servern, vilket säkerställer säkerheten."
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "Skydda PDF",
+    "description": "Lägg till lösenordsskydd och kryptering till dina PDF-filer för förbättrad säkerhet.",
+    "seo_title": "Skydda PDF - Lägg till lösenordskryptering till PDF-filer online gratis | MaxAI.me",
+    "seo_description": "Lägg enkelt till lösenordsskydd till dina PDF-filer online gratis. Inga vattenstämplar, filstorleksbegränsningar, nedladdningar eller registreringar krävs.",
+    "detail_description_object__protect_pdf__top_left": "Skydda enkelt dina PDF-filer online gratis genom att lägga till lösenordskryptering. Med vårt verktyg förblir dina filer lokala för integritet, och det finns inga storleksbegränsningar.",
+    "detail_description_object__protect_pdf__top_right_1": "Säkra snabbt dina PDF-filer på bara några sekunder.",
+    "detail_description_object__protect_pdf__top_right_2": "Ladda enkelt upp dina PDF-filer för att komma igång.",
+    "detail_description_object__protect_pdf__top_right_3": "Kompatibelt med Mac, Windows, Android och iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "Enkelt onlineverktyg för att skydda PDF:er",
+    "detail_description_object__protect_pdf__middle_1_description": "Vårt verktyg för PDF-skydd låter dig enkelt lägga till lösenordsskydd till dina PDF-filer. Ladda bara upp ditt dokument, ange ditt lösenord och ladda ner den krypterade PDF:en. Det är otroligt användarvänligt, helt gratis och kräver ingen registrering.",
+    "detail_description_object__protect_pdf__middle_2_title": "Lokalt säkert PDF-skydd",
+    "detail_description_object__protect_pdf__middle_2_description": "Alla filer du laddar upp behandlas direkt i din webbläsare, vilket säkerställer att din integritet skyddas. Inga filer laddas upp till molnet, vilket garanterar datasäkerhet.",
+    "detail_description_object__protect_pdf__middle_3_title": "Korsplattformskompatibilitet",
+    "detail_description_object__protect_pdf__middle_3_description": "Vårt verktyg för PDF-skydd är webbläsarbaserat, vilket innebär att det fungerar sömlöst på Mac, Windows och Linux, samt på mobila enheter. Du kan enkelt skydda dina PDF-filer var som helst.",
+    "detail_description_object__protect_pdf__middle_4_title": "Enkel driftsprocess",
+    "detail_description_object__protect_pdf__middle_4_description": "Att skydda dina PDF-filer är enkelt: ladda upp filen, ange ditt lösenord och ladda sedan ner den lösenordsskyddade versionen. Även nybörjare kan följa denna enkla process utan ansträngning.",
+    "detail_description_object__protect_pdf__middle_5_title": "Pålitligt verktyg för PDF-skydd",
+    "detail_description_object__protect_pdf__middle_5_description": "Du behöver inte köpa dyr programvara för att skydda dina PDF-filer. Vårt onlineverktyg för PDF-skydd är tillgängligt gratis och säkerställer att dina filer och data alltid är säkra utan behov av molnbehandling.",
+    "detail_description_object__protect_pdf__middle_6_title": "Lokal bearbetning för förbättrad säkerhet",
+    "detail_description_object__protect_pdf__middle_6_description": "Vår skyddstjänst ser till att alla operationer utförs lokalt. Det förbättrar säkerheten och accelererar bearbetningstiden, vilket håller dina filer säkra.",
+    "detail_description_object__protect_pdf__bottom_right_title": "Hur du skyddar PDF-filer online:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Ladda upp PDF-filen du vill skydda.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Ange ett lösenord för PDF-filen.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Klicka på 'Skydda' för att ladda ner den lösenordsskyddade PDF-filen.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "När den är skyddad kan endast de med lösenordet komma åt och redigera dina PDF-filer på vilken enhet som helst."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Skydda",
+    "components__protect_pdf_detail__type_password": " Ange lösenord",
+    "components__protect_pdf_detail__repeat_type_password": "Upprepa lösenord",
+    "components__protect_pdf_detail__input__placeholder": "Ange ditt lösenord",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Bekräfta ditt lösenord",
+    "components__protect_pdf_detail__use_tips": "Lösenordet och PDF-filerna kommer inte att laddas upp till servern, vilket säkerställer säkerheten."
   }
 }

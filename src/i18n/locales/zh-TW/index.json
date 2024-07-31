@@ -1294,7 +1294,8 @@
     "components__common__drag__dropping_tip": "您可以通過拖放來調整順序",
     "components__common__upload_button_tips": "或在此處拖放檔案",
     "components__common__upload_button_title": "選擇檔案",
-    "components__common__upload_button__unsupported_file_type_tip": "請上傳指定的 PDF 檔案類型"
+    "components__common__upload_button__unsupported_file_type_tip": "請上傳指定的 PDF 檔案類型",
+    "components__common__select_other_file": "選擇其他檔案"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "只能上傳圖片類型的圖片",
@@ -1772,7 +1773,42 @@
     "components__unlock_pdf_detail_input_password": "請輸入密碼以解鎖您的 PDF",
     "components__unlock_pdf_detail_input_placeholder": "密碼",
     "components__unlock_pdf_detail__button__unlock": "解鎖",
-    "components__unlock_pdf_detail__button__convert": "轉換另一個",
-    "components__unlock_pdf_detail__incorrect_password_tips": "密碼不正確"
+    "components__unlock_pdf_detail__incorrect_password_tips": "密碼不正確",
+    "components__unlock_pdf_detail__use_tips": "密碼和PDF檔案將不會上傳到伺服器，確保安全。"
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "保護 PDF",
+    "description": "為您的 PDF 檔案添加密碼保護和加密，提升安全性。",
+    "seo_title": "保護 PDF - 在線免費為 PDF 檔案添加密碼加密 | MaxAI.me",
+    "seo_description": "輕鬆在線免費為您的 PDF 檔案添加密碼保護。無需水印、檔案大小限制、下載或註冊。",
+    "detail_description_object__protect_pdf__top_left": "通過添加密碼加密，輕鬆在線免費保護您的 PDF 檔案。使用我們的工具，您的檔案保持本地隱私，並且沒有大小限制。",
+    "detail_description_object__protect_pdf__top_right_1": "只需幾秒鐘快速保護您的 PDF 檔案。",
+    "detail_description_object__protect_pdf__top_right_2": "只需上傳您的 PDF 檔案即可開始。",
+    "detail_description_object__protect_pdf__top_right_3": "與 Mac、Windows、Android 和 iOS 兼容。",
+    "detail_description_object__protect_pdf__middle_1_title": "簡單的在線工具保護 PDF",
+    "detail_description_object__protect_pdf__middle_1_description": "我們的 PDF 保護工具讓您輕鬆為 PDF 檔案添加密碼保護。只需上傳您的文件，設置密碼，並下載加密的 PDF。非常用戶友好，完全免費，無需帳戶。",
+    "detail_description_object__protect_pdf__middle_2_title": "本地安全 PDF 保護",
+    "detail_description_object__protect_pdf__middle_2_description": "您上傳的所有檔案都在您的瀏覽器中直接處理，確保您的隱私受到保護。不會上傳檔案到雲端，保證數據安全。",
+    "detail_description_object__protect_pdf__middle_3_title": "跨平台兼容性",
+    "detail_description_object__protect_pdf__middle_3_description": "我們的 PDF 保護工具基於瀏覽器，這意味著它在 Mac、Windows 和 Linux 以及移動設備上無縫運行。您可以輕鬆從任何地方保護您的 PDF 檔案。",
+    "detail_description_object__protect_pdf__middle_4_title": "簡單的操作流程",
+    "detail_description_object__protect_pdf__middle_4_description": "保護您的 PDF 檔案很簡單：上傳檔案，設置密碼，然後下載受密碼保護的版本。即使是初學者也可以輕鬆遵循這個簡單的流程。",
+    "detail_description_object__protect_pdf__middle_5_title": "可靠的 PDF 保護工具",
+    "detail_description_object__protect_pdf__middle_5_description": "您無需購買昂貴的軟件來保護您的 PDF 檔案。我們的在線 PDF 保護工具免費提供，確保您的檔案和數據始終安全，無需雲端處理。",
+    "detail_description_object__protect_pdf__middle_6_title": "本地處理以增強安全性",
+    "detail_description_object__protect_pdf__middle_6_description": "我們的保護服務確保所有操作在本地進行。這增強了安全性並加快處理時間，使您的檔案保持安全。",
+    "detail_description_object__protect_pdf__bottom_right_title": "如何在線保護 PDF 檔案：",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "上傳要保護的 PDF 檔案。",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "為 PDF 檔案設置密碼。",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "點擊“保護”下載受密碼保護的 PDF 檔案。",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "一旦受保護，只有知道密碼的人才能在任何設備上訪問和編輯您的 PDF 檔案。"
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "保護",
+    "components__protect_pdf_detail__type_password": " 輸入密碼",
+    "components__protect_pdf_detail__repeat_type_password": "重複密碼",
+    "components__protect_pdf_detail__input__placeholder": "設置您的密碼",
+    "components__protect_pdf_detail__repeat_input__placeholder": "確認您的密碼",
+    "components__protect_pdf_detail__use_tips": "密碼和PDF檔案將不會上傳到伺服器，確保安全。"
   }
 }

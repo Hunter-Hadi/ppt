@@ -1294,7 +1294,8 @@
     "components__common__drag__dropping_tip": "您可以通过拖放来调整顺序",
     "components__common__upload_button_tips": "或者在这里拖放文件",
     "components__common__upload_button_title": "选择文件",
-    "components__common__upload_button__unsupported_file_type_tip": "请上传指定的PDF文件类型"
+    "components__common__upload_button__unsupported_file_type_tip": "请上传指定的PDF文件类型",
+    "components__common__select_other_file": "选择另一个文件"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "只能上传图像类型的图片",
@@ -1772,7 +1773,42 @@
     "components__unlock_pdf_detail_input_password": "请输入密码以解锁您的PDF",
     "components__unlock_pdf_detail_input_placeholder": "密码",
     "components__unlock_pdf_detail__button__unlock": "解锁",
-    "components__unlock_pdf_detail__button__convert": "转换另一个",
-    "components__unlock_pdf_detail__incorrect_password_tips": "密码错误"
+    "components__unlock_pdf_detail__incorrect_password_tips": "密码错误",
+    "components__unlock_pdf_detail__use_tips": "密码和PDF文件不会上传到服务器，确保安全。"
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "保护PDF",
+    "description": "为您的PDF文件添加密码保护和加密，提升安全性。",
+    "seo_title": "保护PDF - 在线免费为PDF文件添加密码加密 | MaxAI.me",
+    "seo_description": "轻松在线免费为您的PDF文件添加密码保护。无需水印、文件大小限制、下载或注册。",
+    "detail_description_object__protect_pdf__top_left": "通过添加密码加密轻松在线免费保护您的PDF文件。使用我们的工具，您的文件保持本地隐私，没有大小限制。",
+    "detail_description_object__protect_pdf__top_right_1": "仅需几秒钟快速保护您的PDF文件。",
+    "detail_description_object__protect_pdf__top_right_2": "只需上传您的PDF文件即可开始。",
+    "detail_description_object__protect_pdf__top_right_3": "兼容Mac、Windows、Android和iOS。",
+    "detail_description_object__protect_pdf__middle_1_title": "简单的在线工具保护PDF",
+    "detail_description_object__protect_pdf__middle_1_description": "我们的PDF保护工具允许您轻松为PDF文件添加密码保护。只需上传您的文档，设置密码，然后下载加密的PDF。非常用户友好，完全免费，无需帐户。",
+    "detail_description_object__protect_pdf__middle_2_title": "本地安全PDF保护",
+    "detail_description_object__protect_pdf__middle_2_description": "您上传的所有文件都直接在您的浏览器中处理，确保您的隐私得到保护。不会上传文件到云端，保证数据安全。",
+    "detail_description_object__protect_pdf__middle_3_title": "跨平台兼容性",
+    "detail_description_object__protect_pdf__middle_3_description": "我们的PDF保护工具基于浏览器，意味着它可以在Mac、Windows和Linux以及移动设备上无缝运行。您可以轻松地从任何地方保护您的PDF文件。",
+    "detail_description_object__protect_pdf__middle_4_title": "简单的操作流程",
+    "detail_description_object__protect_pdf__middle_4_description": "保护您的PDF文件很简单：上传文件，设置密码，然后下载受密码保护的版本。即使是初学者也可以轻松地遵循这个简单的流程。",
+    "detail_description_object__protect_pdf__middle_5_title": "可靠的PDF保护工具",
+    "detail_description_object__protect_pdf__middle_5_description": "您无需购买昂贵的软件来保护您的PDF文件。我们的在线PDF保护工具免费提供，确保您的文件和数据始终安全，无需云处理。",
+    "detail_description_object__protect_pdf__middle_6_title": "本地处理以增强安全性",
+    "detail_description_object__protect_pdf__middle_6_description": "我们的保护服务确保所有操作在本地进行。这增强了安全性并加快了处理速度，保护您的文件安全。",
+    "detail_description_object__protect_pdf__bottom_right_title": "如何在线保护PDF文件：",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "上传要保护的PDF文件。",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "为PDF文件设置密码。",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "点击“保护”以下载受密码保护的PDF文件。",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "一旦受保护，只有知道密码的人才能在任何设备上访问和编辑您的PDF文件。"
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "保护",
+    "components__protect_pdf_detail__type_password": " 输入密码",
+    "components__protect_pdf_detail__repeat_type_password": "重复密码",
+    "components__protect_pdf_detail__input__placeholder": "设置您的密码",
+    "components__protect_pdf_detail__repeat_input__placeholder": "确认您的密码",
+    "components__protect_pdf_detail__use_tips": "密码和PDF文件不会上传到服务器，确保安全。"
   }
 }

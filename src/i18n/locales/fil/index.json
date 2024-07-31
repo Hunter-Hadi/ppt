@@ -1294,7 +1294,8 @@
     "components__common__drag__dropping_tip": "Maaari mong ayusin ang pagkakasunud-sunod sa pamamagitan ng pag-drag at pag-drop",
     "components__common__upload_button_tips": "o i-drop ang mga file dito",
     "components__common__upload_button_title": "PUMILI NG MGA FILE",
-    "components__common__upload_button__unsupported_file_type_tip": "Mangyaring mag-upload ng tinukoy na uri ng file ng PDF"
+    "components__common__upload_button__unsupported_file_type_tip": "Mangyaring mag-upload ng tinukoy na uri ng file ng PDF",
+    "components__common__select_other_file": "Pumili ng ibang file"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Maaaring i-upload lamang ang mga imahe ng uri ng imahe",
@@ -1772,7 +1773,42 @@
     "components__unlock_pdf_detail_input_password": "Mangyaring ilagay ang password para buksan ang iyong PDF",
     "components__unlock_pdf_detail_input_placeholder": "Password",
     "components__unlock_pdf_detail__button__unlock": "Buksan",
-    "components__unlock_pdf_detail__button__convert": "I-convert ang isa pa",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Maling password"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Maling password",
+    "components__unlock_pdf_detail__use_tips": "Ang password at mga file ng PDF ay hindi ia-upload sa server, tiyaking ligtas."
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "Protektahan ang PDF",
+    "description": "Magdagdag ng proteksyon sa password at encryption sa iyong mga PDF file para sa pinatibay na seguridad.",
+    "seo_title": "Protektahan ang PDF - Magdagdag ng Password Encryption sa PDF Files Online ng Libre | MaxAI.me",
+    "seo_description": "Madaling magdagdag ng proteksyon sa password sa iyong mga PDF file online ng libre. Walang watermarks, limitasyon sa laki ng file, downloads, o sign-ups ang kinakailangan.",
+    "detail_description_object__protect_pdf__top_left": "Madaling protektahan ang iyong mga PDF file online ng libre sa pamamagitan ng pagdagdag ng password encryption. Sa aming tool, nananatili ang iyong mga file lokal para sa privacy, at walang limitasyon sa laki.",
+    "detail_description_object__protect_pdf__top_right_1": "Mabilis na protektahan ang iyong mga PDF file sa loob lamang ng ilang segundo.",
+    "detail_description_object__protect_pdf__top_right_2": "I-upload lamang ang iyong mga PDF file para magsimula.",
+    "detail_description_object__protect_pdf__top_right_3": "Sakop ang Mac, Windows, Android, at iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "Simple Online Tool para sa Proteksyon ng PDFs",
+    "detail_description_object__protect_pdf__middle_1_description": "Ang aming tool para sa proteksyon ng PDF ay nagbibigay-daan sa iyo na madaling magdagdag ng proteksyon sa password sa iyong mga PDF file. I-upload lamang ang iyong dokumento, itakda ang iyong password, at i-download ang encrypted PDF. Napakadaling gamitin, ganap na libre, at hindi nangangailangan ng account.",
+    "detail_description_object__protect_pdf__middle_2_title": "Lokal na Ligtas na Proteksyon ng PDF",
+    "detail_description_object__protect_pdf__middle_2_description": "Ang lahat ng i-upload mong file ay naiproseso nang direkta sa iyong browser, na nagtitiyak na ang iyong privacy ay protektado. Walang file na i-uupload sa cloud, na nagbibigay-garantiya ng seguridad ng data.",
+    "detail_description_object__protect_pdf__middle_3_title": "Cross-Platform Compatibility",
+    "detail_description_object__protect_pdf__middle_3_description": "Ang aming tool para sa proteksyon ng PDF ay batay sa browser, ibig sabihin, gumagana ito nang walang abala sa Mac, Windows, at Linux, pati na rin sa mga mobile device. Madaling protektahan ang iyong mga PDF file mula saanman.",
+    "detail_description_object__protect_pdf__middle_4_title": "Madaling Proseso ng Operasyon",
+    "detail_description_object__protect_pdf__middle_4_description": "Ang pagprotekta sa iyong mga PDF file ay simple: i-upload ang file, itakda ang iyong password, at pagkatapos ay i-download ang bersyon na may password-protection. Kahit ang mga baguhan ay maaaring sundan ang simpleng prosesong ito nang walang kahirap-hirap.",
+    "detail_description_object__protect_pdf__middle_5_title": "Maaasahang Tool para sa Proteksyon ng PDF",
+    "detail_description_object__protect_pdf__middle_5_description": "Hindi mo kailangang bumili ng mamahaling software para protektahan ang iyong mga PDF file. Ang aming online na tool para sa proteksyon ng PDF ay available ng libre, na nagtitiyak na laging ligtas ang iyong mga file at data nang walang pangangailangan para sa cloud processing.",
+    "detail_description_object__protect_pdf__middle_6_title": "Lokal na Paghahandle para sa Pinalakas na Seguridad",
+    "detail_description_object__protect_pdf__middle_6_description": "Ang aming serbisyong pang-proteksyon ay nagtitiyak na lahat ng operasyon ay isinasagawa nang lokal. Ito ay nagpapalakas ng seguridad at nagpapabilis ng processing time, na nagpapanatili sa iyong mga file na ligtas.",
+    "detail_description_object__protect_pdf__bottom_right_title": "Paano Protektahan ang PDF Files Online:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "I-upload ang PDF file na nais mong protektahan.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Itakda ang password para sa PDF file.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "I-click ang 'Protektahan' para i-download ang password-protected PDF file.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Kapag naka-protektahan na, tanging ang may password lamang ang makakapag-access at mag-eedit ng iyong mga PDF file sa anumang device."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Protektahan",
+    "components__protect_pdf_detail__type_password": " Magtakda ng password",
+    "components__protect_pdf_detail__repeat_type_password": "Ulitin ang password",
+    "components__protect_pdf_detail__input__placeholder": "Itakda ang iyong password",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Kumpirmahin ang iyong password",
+    "components__protect_pdf_detail__use_tips": "Ang password at mga file ng PDF ay hindi ia-upload sa server, tiyaking ligtas."
   }
 }

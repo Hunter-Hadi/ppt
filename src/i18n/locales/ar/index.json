@@ -1294,7 +1294,8 @@
     "components__common__drag__dropping_tip": "يمكنك ضبط الترتيب عن طريق سحب وإفلات",
     "components__common__upload_button_tips": "أو اسحب الملفات هنا",
     "components__common__upload_button_title": "اختر الملفات",
-    "components__common__upload_button__unsupported_file_type_tip": "يرجى تحميل نوع الملف PDF المحدد"
+    "components__common__upload_button__unsupported_file_type_tip": "يرجى تحميل نوع الملف PDF المحدد",
+    "components__common__select_other_file": "اختر ملفًا آخر"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "يمكن تحميل صور من نوع الصورة فقط",
@@ -1772,7 +1773,42 @@
     "components__unlock_pdf_detail_input_password": "الرجاء إدخال كلمة المرور لإلغاء قفل ملف PDF الخاص بك",
     "components__unlock_pdf_detail_input_placeholder": "كلمة المرور",
     "components__unlock_pdf_detail__button__unlock": "إلغاء القفل",
-    "components__unlock_pdf_detail__button__convert": "تحويل آخر",
-    "components__unlock_pdf_detail__incorrect_password_tips": "كلمة المرور غير صحيحة"
+    "components__unlock_pdf_detail__incorrect_password_tips": "كلمة المرور غير صحيحة",
+    "components__unlock_pdf_detail__use_tips": "لن يتم رفع كلمة المرور وملفات PDF إلى الخادم، مما يضمن الأمان."
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "حماية PDF",
+    "description": "أضف حماية بكلمة مرور وتشفير لملفات PDF الخاصة بك لتعزيز الأمان.",
+    "seo_title": "حماية PDF - إضافة تشفير كلمة مرور لملفات PDF عبر الإنترنت مجانًا | MaxAI.me",
+    "seo_description": "أضف بسهولة حماية بكلمة مرور لملفات PDF الخاصة بك عبر الإنترنت مجانًا. لا توجد علامات مائية، أو حدود لحجم الملف، أو تنزيلات، أو تسجيلات مطلوبة.",
+    "detail_description_object__protect_pdf__top_left": "حماية ملفات PDF الخاصة بك بسهولة عبر الإنترنت مجانًا عن طريق إضافة تشفير بكلمة مرور. مع أداتنا، تظل ملفاتك محلية للخصوصية، ولا توجد قيود على الحجم.",
+    "detail_description_object__protect_pdf__top_right_1": "آمن ملفات PDF الخاصة بك بسرعة في بضع ثوانٍ فقط.",
+    "detail_description_object__protect_pdf__top_right_2": "قم ببساطة بتحميل ملفات PDF الخاصة بك للبدء.",
+    "detail_description_object__protect_pdf__top_right_3": "متوافق مع نظامي التشغيل Mac و Windows و Android و iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "أداة عبر الإنترنت بسيطة لحماية ملفات PDF",
+    "detail_description_object__protect_pdf__middle_1_description": "تتيح لك أداة حماية PDF الخاصة بنا إضافة حماية بكلمة مرور بسهولة لملفات PDF الخاصة بك. قم بتحميل مستندك، ثبت كلمة المرور الخاصة بك، وقم بتنزيل ملف PDF المشفر. إنها سهلة الاستخدام للغاية، مجانية تمامًا، ولا تتطلب حسابًا.",
+    "detail_description_object__protect_pdf__middle_2_title": "حماية PDF محلية آمنة",
+    "detail_description_object__protect_pdf__middle_2_description": "يتم معالجة جميع الملفات التي تقوم بتحميلها مباشرة في متصفحك، مما يضمن حماية خصوصيتك. لا تتم تحميل الملفات إلى السحابة، مما يضمن أمان البيانات.",
+    "detail_description_object__protect_pdf__middle_3_title": "توافق متعدد المنصات",
+    "detail_description_object__protect_pdf__middle_3_description": "تعتمد أداة حماية PDF الخاصة بنا على المتصفح، مما يعني أنها تعمل بسلاسة على نظامي التشغيل Mac و Windows و Linux، بالإضافة إلى الأجهزة المحمولة. يمكنك حماية ملفات PDF الخاصة بك بسهولة من أي مكان.",
+    "detail_description_object__protect_pdf__middle_4_title": "عملية تشغيل سهلة",
+    "detail_description_object__protect_pdf__middle_4_description": "حماية ملفات PDF الخاصة بك بسيطة: قم بتحميل الملف، ثبت كلمة المرور الخاصة بك، ثم قم بتنزيل النسخة المحمية بكلمة المرور. حتى المبتدئين يمكنهم اتباع هذه العملية بسهولة.",
+    "detail_description_object__protect_pdf__middle_5_title": "أداة حماية PDF موثوقة",
+    "detail_description_object__protect_pdf__middle_5_description": "لا تحتاج إلى شراء برامج باهظة لحماية ملفات PDF الخاصة بك. تتوفر أداة حماية PDF الخاصة بنا عبر الإنترنت مجانًا، مما يضمن أن ملفاتك وبياناتك دائمًا آمنة دون الحاجة إلى معالجة سحابية.",
+    "detail_description_object__protect_pdf__middle_6_title": "معالجة محلية لتعزيز الأمان",
+    "detail_description_object__protect_pdf__middle_6_description": "تضمن خدمتنا للحماية أن جميع العمليات تتم محليًا. يعزز ذلك الأمان ويسرع من وقت المعالجة، مما يحافظ على سلامة ملفاتك.",
+    "detail_description_object__protect_pdf__bottom_right_title": "كيفية حماية ملفات PDF عبر الإنترنت:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "قم بتحميل ملف PDF الذي ترغب في حمايته.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "قم بتعيين كلمة مرور لملف PDF.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "انقر على 'حماية' لتنزيل ملف PDF المحمي بكلمة المرور.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "بمجرد الحماية، يمكن لأولئك الذين يمتلكون كلمة المرور الوصول إلى ملفات PDF الخاصة بك وتحريرها على أي جهاز."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "حماية",
+    "components__protect_pdf_detail__type_password": " أدخل كلمة المرور",
+    "components__protect_pdf_detail__repeat_type_password": "كرر كلمة المرور",
+    "components__protect_pdf_detail__input__placeholder": "قم بتعيين كلمة المرور الخاصة بك",
+    "components__protect_pdf_detail__repeat_input__placeholder": "تأكيد كلمة المرور",
+    "components__protect_pdf_detail__use_tips": "لن يتم رفع كلمة المرور وملفات PDF إلى الخادم، مما يضمن الأمان."
   }
 }

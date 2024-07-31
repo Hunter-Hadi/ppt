@@ -1294,7 +1294,8 @@
     "components__common__drag__dropping_tip": "Ви можете налаштувати порядок, перетягуючи елементи",
     "components__common__upload_button_tips": "або перетягніть файли сюди",
     "components__common__upload_button_title": "ВИБРАТИ ФАЙЛИ",
-    "components__common__upload_button__unsupported_file_type_tip": "Будь ласка, завантажте вказаний тип файлу PDF"
+    "components__common__upload_button__unsupported_file_type_tip": "Будь ласка, завантажте вказаний тип файлу PDF",
+    "components__common__select_other_file": "Виберіть інший файл"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Можна завантажувати лише зображення типу image",
@@ -1772,7 +1773,42 @@
     "components__unlock_pdf_detail_input_password": "Будь ласка, введіть пароль для розблокування вашого PDF",
     "components__unlock_pdf_detail_input_placeholder": "Пароль",
     "components__unlock_pdf_detail__button__unlock": "Розблокувати",
-    "components__unlock_pdf_detail__button__convert": "Конвертувати ще",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Неправильний пароль"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Неправильний пароль",
+    "components__unlock_pdf_detail__use_tips": "Пароль та файли PDF не будуть завантажені на сервер, що гарантує безпеку."
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "Захист PDF",
+    "description": "Додайте захист паролем та шифрування до ваших PDF-файлів для підвищення безпеки.",
+    "seo_title": "Захист PDF - Додайте шифрування паролем до PDF-файлів онлайн безкоштовно | MaxAI.me",
+    "seo_description": "Легко додайте захист паролем до ваших PDF-файлів онлайн безкоштовно. Не потрібні знаки води, обмеження на розмір файлу, завантаження або реєстрація.",
+    "detail_description_object__protect_pdf__top_left": "Легко захистіть ваші PDF-файли онлайн безкоштовно, додавши шифрування паролем. З нашим інструментом ваші файли залишаються локальними для конфіденційності, і немає обмежень за розміром.",
+    "detail_description_object__protect_pdf__top_right_1": "Швидко захистіть ваші PDF-файли всього за кілька секунд.",
+    "detail_description_object__protect_pdf__top_right_2": "Просто завантажте ваші PDF-файли, щоб почати.",
+    "detail_description_object__protect_pdf__top_right_3": "Сумісний з Mac, Windows, Android та iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "Простий онлайн інструмент для захисту PDF",
+    "detail_description_object__protect_pdf__middle_1_description": "Наш інструмент для захисту PDF дозволяє легко додати захист паролем до ваших PDF-файлів. Просто завантажте свій документ, встановіть пароль та завантажте зашифрований PDF. Це надзвичайно зручно для користувача, абсолютно безкоштовно і не вимагає облікового запису.",
+    "detail_description_object__protect_pdf__middle_2_title": "Локальний захист PDF",
+    "detail_description_object__protect_pdf__middle_2_description": "Усі файли, які ви завантажуєте, обробляються безпосередньо у вашому браузері, що гарантує захист вашої конфіденційності. Ніякі файли не завантажуються в хмару, що гарантує безпеку даних.",
+    "detail_description_object__protect_pdf__middle_3_title": "Сумісність з різними платформами",
+    "detail_description_object__protect_pdf__middle_3_description": "Наш інструмент для захисту PDF базується на браузері, що означає, що він працює безперервно на Mac, Windows, Linux, а також на мобільних пристроях. Ви можете легко захистити свої PDF-файли з будь-якого місця.",
+    "detail_description_object__protect_pdf__middle_4_title": "Простий процес операції",
+    "detail_description_object__protect_pdf__middle_4_description": "Захист ваших PDF-файлів є простим: завантажте файл, встановіть пароль, а потім завантажте версію з паролем. Навіть початківці можуть легко слідувати цьому простому процесу.",
+    "detail_description_object__protect_pdf__middle_5_title": "Надійний інструмент для захисту PDF",
+    "detail_description_object__protect_pdf__middle_5_description": "Вам не потрібно купувати дороге програмне забезпечення для захисту ваших PDF-файлів. Наш онлайн інструмент для захисту PDF доступний безкоштовно, що гарантує, що ваші файли та дані завжди захищені без необхідності обробки в хмарі.",
+    "detail_description_object__protect_pdf__middle_6_title": "Локальна обробка для підвищення безпеки",
+    "detail_description_object__protect_pdf__middle_6_description": "Наш сервіс захисту забезпечує, що всі операції виконуються локально. Це підвищує безпеку та прискорює час обробки, зберігаючи ваші файли в безпеці.",
+    "detail_description_object__protect_pdf__bottom_right_title": "Як захистити PDF-файли онлайн:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Завантажте PDF-файл, який ви хочете захистити.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Встановіть пароль для PDF-файлу.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Клацніть «Захист», щоб завантажити захищений паролем PDF-файл.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Після захисту доступ до вашого PDF-файлу та його редагування матимуть лише ті, у кого є пароль, на будь-якому пристрої."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Захистити",
+    "components__protect_pdf_detail__type_password": " Введіть пароль",
+    "components__protect_pdf_detail__repeat_type_password": "Повторіть пароль",
+    "components__protect_pdf_detail__input__placeholder": "Встановіть свій пароль",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Підтвердіть ваш пароль",
+    "components__protect_pdf_detail__use_tips": "Пароль та файли PDF не будуть завантажені на сервер, що гарантує безпеку."
   }
 }

@@ -1294,7 +1294,8 @@
     "components__common__drag__dropping_tip": "Anda dapat mengatur urutan dengan menyeret dan meletakkan",
     "components__common__upload_button_tips": "atau letakkan file di sini",
     "components__common__upload_button_title": "PILIH FILE",
-    "components__common__upload_button__unsupported_file_type_tip": "Silakan unggah jenis file PDF yang ditentukan"
+    "components__common__upload_button__unsupported_file_type_tip": "Silakan unggah jenis file PDF yang ditentukan",
+    "components__common__select_other_file": "Pilih file lain"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Hanya gambar dengan jenis gambar yang dapat diunggah",
@@ -1772,7 +1773,42 @@
     "components__unlock_pdf_detail_input_password": "Silakan masukkan sandi untuk membuka PDF Anda",
     "components__unlock_pdf_detail_input_placeholder": "Sandi",
     "components__unlock_pdf_detail__button__unlock": "Buka",
-    "components__unlock_pdf_detail__button__convert": "Konversi lainnya",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Sandi salah"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Sandi salah",
+    "components__unlock_pdf_detail__use_tips": "Kata sandi dan file PDF tidak akan diunggah ke server, memastikan keamanan."
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "Lindungi PDF",
+    "description": "Tambahkan perlindungan sandi dan enkripsi ke file PDF Anda untuk keamanan yang ditingkatkan.",
+    "seo_title": "Lindungi PDF - Tambahkan Enkripsi Sandi ke File PDF Secara Online Gratis | MaxAI.me",
+    "seo_description": "Mudah menambahkan perlindungan sandi ke file PDF Anda secara online secara gratis. Tidak ada watermark, batasan ukuran file, unduhan, atau pendaftaran yang diperlukan.",
+    "detail_description_object__protect_pdf__top_left": "Mudah melindungi file PDF Anda secara online secara gratis dengan menambahkan enkripsi sandi. Dengan alat kami, file Anda tetap lokal untuk privasi, dan tidak ada batasan ukuran.",
+    "detail_description_object__protect_pdf__top_right_1": "Secara cepat amankan file PDF Anda dalam beberapa detik saja.",
+    "detail_description_object__protect_pdf__top_right_2": "Cukup unggah file PDF Anda untuk memulai.",
+    "detail_description_object__protect_pdf__top_right_3": "Kompatibel dengan Mac, Windows, Android, dan iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "Alat Online Sederhana untuk Melindungi PDF",
+    "detail_description_object__protect_pdf__middle_1_description": "Alat perlindungan PDF kami memungkinkan Anda dengan mudah menambahkan perlindungan sandi ke file PDF Anda. Cukup unggah dokumen Anda, atur sandi Anda, dan unduh PDF yang terenkripsi. Sangat ramah pengguna, benar-benar gratis, dan tidak memerlukan akun.",
+    "detail_description_object__protect_pdf__middle_2_title": "Perlindungan PDF Aman Lokal",
+    "detail_description_object__protect_pdf__middle_2_description": "Semua file yang Anda unggah diproses langsung di browser Anda, memastikan privasi Anda terlindungi. Tidak ada file yang diunggah ke cloud, menjamin keamanan data.",
+    "detail_description_object__protect_pdf__middle_3_title": "Kompatibilitas lintas platform",
+    "detail_description_object__protect_pdf__middle_3_description": "Alat perlindungan PDF kami berbasis browser, artinya berfungsi dengan lancar di Mac, Windows, dan Linux, serta perangkat seluler. Anda dapat dengan mudah melindungi file PDF Anda dari mana saja.",
+    "detail_description_object__protect_pdf__middle_4_title": "Proses Operasi Mudah",
+    "detail_description_object__protect_pdf__middle_4_description": "Melindungi file PDF Anda adalah hal yang mudah: unggah file, atur sandi Anda, dan kemudian unduh versi yang dilindungi sandi. Bahkan pemula pun dapat mengikuti proses ini dengan mudah.",
+    "detail_description_object__protect_pdf__middle_5_title": "Alat Perlindungan PDF yang Handal",
+    "detail_description_object__protect_pdf__middle_5_description": "Anda tidak perlu membeli perangkat lunak mahal untuk melindungi file PDF Anda. Alat perlindungan PDF online kami tersedia secara gratis, memastikan file dan data Anda selalu aman tanpa perlu pemrosesan cloud.",
+    "detail_description_object__protect_pdf__middle_6_title": "Pemrosesan Lokal untuk Keamanan yang Ditingkatkan",
+    "detail_description_object__protect_pdf__middle_6_description": "Layanan perlindungan kami memastikan bahwa semua operasi dilakukan secara lokal. Hal ini meningkatkan keamanan dan mempercepat waktu pemrosesan, menjaga file Anda tetap aman.",
+    "detail_description_object__protect_pdf__bottom_right_title": "Cara Melindungi File PDF Secara Online:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Unggah file PDF yang ingin Anda lindungi.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Atur sandi untuk file PDF.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Klik 'Lindungi' untuk mengunduh file PDF yang dilindungi sandi.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Setelah dilindungi, hanya mereka yang memiliki sandi dapat mengakses dan mengedit file PDF Anda di perangkat apa pun."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Lindungi",
+    "components__protect_pdf_detail__type_password": " Ketik sandi",
+    "components__protect_pdf_detail__repeat_type_password": "Ulangi sandi",
+    "components__protect_pdf_detail__input__placeholder": "Atur sandi Anda",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Konfirmasi kata sandi Anda",
+    "components__protect_pdf_detail__use_tips": "Kata sandi dan file PDF tidak akan diunggah ke server, memastikan keamanan."
   }
 }

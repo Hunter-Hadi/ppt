@@ -829,7 +829,8 @@
     "components__common__drag__dropping_tip": "Puoi regolare l'ordine trascinando e rilasciando",
     "components__common__upload_button_tips": "o rilascia i file qui",
     "components__common__upload_button_title": "SCEGLI FILE",
-    "components__common__upload_button__unsupported_file_type_tip": "Si prega di caricare il tipo di file PDF specificato"
+    "components__common__upload_button__unsupported_file_type_tip": "Si prega di caricare il tipo di file PDF specificato",
+    "components__common__select_other_file": "Scegli un altro file"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "Aggiungi PDF",
@@ -1771,7 +1772,42 @@
     "components__unlock_pdf_detail_input_password": "Inserisci la password per sbloccare il tuo PDF",
     "components__unlock_pdf_detail_input_placeholder": "Password",
     "components__unlock_pdf_detail__button__unlock": "Sblocca",
-    "components__unlock_pdf_detail__button__convert": "Converti un altro",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Password incorretta"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Password incorretta",
+    "components__unlock_pdf_detail__use_tips": "La password e i file PDF non verranno caricati sul server, garantendo sicurezza."
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "Proteggi PDF",
+    "description": "Aggiungi protezione con password e crittografia ai tuoi file PDF per una maggiore sicurezza.",
+    "seo_title": "Proteggi PDF - Aggiungi crittografia con password ai file PDF online gratuitamente | MaxAI.me",
+    "seo_description": "Aggiungi facilmente protezione con password ai tuoi file PDF online gratuitamente. Non sono richiesti watermark, limiti di dimensione del file, download o registrazioni.",
+    "detail_description_object__protect_pdf__top_left": "Proteggi facilmente i tuoi file PDF online gratuitamente aggiungendo crittografia con password. Con il nostro strumento, i tuoi file rimangono locali per la privacy e non ci sono limiti di dimensione.",
+    "detail_description_object__protect_pdf__top_right_1": "Proteggi rapidamente i tuoi file PDF in pochi secondi.",
+    "detail_description_object__protect_pdf__top_right_2": "Carica semplicemente i tuoi file PDF per iniziare.",
+    "detail_description_object__protect_pdf__top_right_3": "Compatibile con Mac, Windows, Android e iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "Semplice strumento online per proteggere i PDF",
+    "detail_description_object__protect_pdf__middle_1_description": "Il nostro strumento di protezione PDF ti consente di aggiungere facilmente protezione con password ai tuoi file PDF. Carica il tuo documento, imposta la password e scarica il PDF crittografato. È estremamente user-friendly, completamente gratuito e non richiede un account.",
+    "detail_description_object__protect_pdf__middle_2_title": "Protezione PDF sicura locale",
+    "detail_description_object__protect_pdf__middle_2_description": "Tutti i file che carichi vengono elaborati direttamente nel tuo browser, garantendo la protezione della tua privacy. Nessun file viene caricato sul cloud, garantendo la sicurezza dei dati.",
+    "detail_description_object__protect_pdf__middle_3_title": "Compatibilità multi-piattaforma",
+    "detail_description_object__protect_pdf__middle_3_description": "Il nostro strumento di protezione PDF è basato sul browser, il che significa che funziona perfettamente su Mac, Windows e Linux, nonché su dispositivi mobili. Puoi proteggere facilmente i tuoi file PDF da qualsiasi luogo.",
+    "detail_description_object__protect_pdf__middle_4_title": "Processo di operazione semplice",
+    "detail_description_object__protect_pdf__middle_4_description": "Proteggere i tuoi file PDF è semplice: carica il file, imposta la password e scarica la versione protetta da password. Anche i principianti possono seguire questo processo facilmente.",
+    "detail_description_object__protect_pdf__middle_5_title": "Affidabile strumento di protezione PDF",
+    "detail_description_object__protect_pdf__middle_5_description": "Non è necessario acquistare software costoso per proteggere i tuoi file PDF. Il nostro strumento di protezione PDF online è disponibile gratuitamente, garantendo che i tuoi file e i tuoi dati siano sempre sicuri senza la necessità di elaborazione cloud.",
+    "detail_description_object__protect_pdf__middle_6_title": "Elaborazione locale per una sicurezza potenziata",
+    "detail_description_object__protect_pdf__middle_6_description": "Il nostro servizio di protezione garantisce che tutte le operazioni siano condotte localmente. Ciò potenzia la sicurezza e velocizza i tempi di elaborazione, mantenendo i tuoi file al sicuro.",
+    "detail_description_object__protect_pdf__bottom_right_title": "Come proteggere i file PDF online:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Carica il file PDF che desideri proteggere.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Imposta una password per il file PDF.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Clicca su 'Proteggi' per scaricare il file PDF protetto da password.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Una volta protetto, solo chi possiede la password può accedere e modificare i tuoi file PDF su qualsiasi dispositivo."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Proteggi",
+    "components__protect_pdf_detail__type_password": " Inserisci password",
+    "components__protect_pdf_detail__repeat_type_password": "Ripeti password",
+    "components__protect_pdf_detail__input__placeholder": "Imposta la tua password",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Conferma la tua password",
+    "components__protect_pdf_detail__use_tips": "La password e i file PDF non verranno caricati sul server, garantendo sicurezza."
   }
 }

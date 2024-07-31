@@ -1294,7 +1294,8 @@
     "components__common__drag__dropping_tip": "Sie können die Reihenfolge anpassen, indem Sie ziehen und ablegen",
     "components__common__upload_button_tips": "Oder Dateien hier ablegen",
     "components__common__upload_button_title": "DATEIEN AUSWÄHLEN",
-    "components__common__upload_button__unsupported_file_type_tip": "Bitte laden Sie den angegebenen PDF-Dateityp hoch"
+    "components__common__upload_button__unsupported_file_type_tip": "Bitte laden Sie den angegebenen PDF-Dateityp hoch",
+    "components__common__select_other_file": "Wählen Sie eine andere Datei"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Es können nur Bilder vom Bildtyp hochgeladen werden",
@@ -1772,7 +1773,42 @@
     "components__unlock_pdf_detail_input_password": "Bitte geben Sie das Passwort ein, um Ihr PDF zu entsperren",
     "components__unlock_pdf_detail_input_placeholder": "Passwort",
     "components__unlock_pdf_detail__button__unlock": "Entsperren",
-    "components__unlock_pdf_detail__button__convert": "Ein anderes konvertieren",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Falsches Passwort"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Falsches Passwort",
+    "components__unlock_pdf_detail__use_tips": "Das Passwort und die PDF-Dateien werden nicht auf den Server hochgeladen, um die Sicherheit zu gewährleisten."
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "PDF schützen",
+    "description": "Fügen Sie Passwortschutz und Verschlüsselung zu Ihren PDF-Dateien hinzu, um die Sicherheit zu erhöhen.",
+    "seo_title": "PDF schützen - Fügen Sie Passwortverschlüsselung zu PDF-Dateien online kostenlos hinzu | MaxAI.me",
+    "seo_description": "Fügen Sie ganz einfach Passwortschutz zu Ihren PDF-Dateien online kostenlos hinzu. Es sind keine Wasserzeichen, Dateigrößenbeschränkungen, Downloads oder Anmeldungen erforderlich.",
+    "detail_description_object__protect_pdf__top_left": "Schützen Sie Ihre PDF-Dateien ganz einfach online kostenlos, indem Sie eine Passwortverschlüsselung hinzufügen. Mit unserem Tool bleiben Ihre Dateien lokal für mehr Privatsphäre, und es gibt keine Größenbeschränkungen.",
+    "detail_description_object__protect_pdf__top_right_1": "Sichern Sie schnell Ihre PDF-Dateien in nur wenigen Sekunden.",
+    "detail_description_object__protect_pdf__top_right_2": "Laden Sie einfach Ihre PDF-Dateien hoch, um loszulegen.",
+    "detail_description_object__protect_pdf__top_right_3": "Kompatibel mit Mac, Windows, Android und iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "Einfaches Online-Tool zum Schutz von PDFs",
+    "detail_description_object__protect_pdf__middle_1_description": "Unser PDF-Schutztool ermöglicht es Ihnen, ganz einfach Passwortschutz zu Ihren PDF-Dateien hinzuzufügen. Laden Sie einfach Ihr Dokument hoch, setzen Sie Ihr Passwort und laden Sie das verschlüsselte PDF herunter. Es ist unglaublich benutzerfreundlich, komplett kostenlos und erfordert kein Konto.",
+    "detail_description_object__protect_pdf__middle_2_title": "Lokaler sicherer PDF-Schutz",
+    "detail_description_object__protect_pdf__middle_2_description": "Alle von Ihnen hochgeladenen Dateien werden direkt in Ihrem Browser verarbeitet, um Ihre Privatsphäre zu schützen. Keine Dateien werden in die Cloud hochgeladen, was die Datensicherheit garantiert.",
+    "detail_description_object__protect_pdf__middle_3_title": "Plattformübergreifende Kompatibilität",
+    "detail_description_object__protect_pdf__middle_3_description": "Unser PDF-Schutztool basiert auf dem Browser und funktioniert nahtlos auf Mac, Windows und Linux sowie auf mobilen Geräten. Sie können Ihre PDF-Dateien von überall aus einfach schützen.",
+    "detail_description_object__protect_pdf__middle_4_title": "Einfacher Bedienungsprozess",
+    "detail_description_object__protect_pdf__middle_4_description": "Der Schutz Ihrer PDF-Dateien ist einfach: Laden Sie die Datei hoch, setzen Sie Ihr Passwort und laden Sie dann die passwortgeschützte Version herunter. Selbst Anfänger können diesem einfachen Prozess mühelos folgen.",
+    "detail_description_object__protect_pdf__middle_5_title": "Zuverlässiges PDF-Schutztool",
+    "detail_description_object__protect_pdf__middle_5_description": "Sie müssen keine teure Software kaufen, um Ihre PDF-Dateien zu schützen. Unser Online-PDF-Schutztool ist kostenlos verfügbar und gewährleistet, dass Ihre Dateien und Daten immer sicher sind, ohne dass eine Cloud-Verarbeitung erforderlich ist.",
+    "detail_description_object__protect_pdf__middle_6_title": "Lokale Verarbeitung für erhöhte Sicherheit",
+    "detail_description_object__protect_pdf__middle_6_description": "Unser Schutzservice stellt sicher, dass alle Operationen lokal durchgeführt werden. Dies erhöht die Sicherheit und beschleunigt die Verarbeitungszeit, um Ihre Dateien sicher zu halten.",
+    "detail_description_object__protect_pdf__bottom_right_title": "So schützen Sie PDF-Dateien online:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Laden Sie die PDF-Datei hoch, die Sie schützen möchten.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Legen Sie ein Passwort für die PDF-Datei fest.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Klicken Sie auf 'Schützen', um die passwortgeschützte PDF-Datei herunterzuladen.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Sobald geschützt, können nur diejenigen mit dem Passwort auf Ihre PDF-Dateien auf jedem Gerät zugreifen und sie bearbeiten."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Schützen",
+    "components__protect_pdf_detail__type_password": " Passwort eingeben",
+    "components__protect_pdf_detail__repeat_type_password": "Passwort wiederholen",
+    "components__protect_pdf_detail__input__placeholder": "Legen Sie Ihr Passwort fest",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Bestätigen Sie Ihr Passwort",
+    "components__protect_pdf_detail__use_tips": "Das Passwort und die PDF-Dateien werden nicht auf den Server hochgeladen, um die Sicherheit zu gewährleisten."
   }
 }

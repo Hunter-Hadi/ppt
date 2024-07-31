@@ -1294,7 +1294,8 @@
     "components__common__drag__dropping_tip": "드래그 앤 드롭으로 순서를 조정할 수 있습니다.",
     "components__common__upload_button_tips": "또는 파일을 여기에 놓으세요",
     "components__common__upload_button_title": "파일 선택",
-    "components__common__upload_button__unsupported_file_type_tip": "지정된 PDF 파일 유형을 업로드해주세요"
+    "components__common__upload_button__unsupported_file_type_tip": "지정된 PDF 파일 유형을 업로드해주세요",
+    "components__common__select_other_file": "다른 파일 선택"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "이미지 유형의 이미지만 업로드할 수 있습니다",
@@ -1772,7 +1773,42 @@
     "components__unlock_pdf_detail_input_password": "PDF를 잠금 해제하려면 암호를 입력하세요",
     "components__unlock_pdf_detail_input_placeholder": "암호",
     "components__unlock_pdf_detail__button__unlock": "해제",
-    "components__unlock_pdf_detail__button__convert": "다른 파일 변환",
-    "components__unlock_pdf_detail__incorrect_password_tips": "잘못된 암호"
+    "components__unlock_pdf_detail__incorrect_password_tips": "잘못된 암호",
+    "components__unlock_pdf_detail__use_tips": "암호 및 PDF 파일이 서버에 업로드되지 않아 보안이 보장됩니다."
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "PDF 보호",
+    "description": "PDF 파일에 암호 보호 및 암호화를 추가하여 보안을 강화합니다.",
+    "seo_title": "PDF 보호 - 무료 온라인으로 PDF 파일에 암호 암호화 추가 | MaxAI.me",
+    "seo_description": "PDF 파일에 무료로 암호 보호를 쉽게 추가하세요. 워터마크, 파일 크기 제한, 다운로드 또는 가입이 필요하지 않습니다.",
+    "detail_description_object__protect_pdf__top_left": "PDF 파일에 암호 암호화를 추가하여 무료로 보호하세요. 당사의 도구를 사용하면 파일이 로컬에 유지되어 개인 정보가 보호되며 크기 제한이 없습니다.",
+    "detail_description_object__protect_pdf__top_right_1": "몇 초 만에 PDF 파일을 신속하게 보호하세요.",
+    "detail_description_object__protect_pdf__top_right_2": "시작하려면 PDF 파일을 간단히 업로드하세요.",
+    "detail_description_object__protect_pdf__top_right_3": "Mac, Windows, Android 및 iOS와 호환됩니다.",
+    "detail_description_object__protect_pdf__middle_1_title": "PDF 보호를 위한 간단한 온라인 도구",
+    "detail_description_object__protect_pdf__middle_1_description": "PDF 보호 도구를 사용하면 PDF 파일에 쉽게 암호 보호를 추가할 수 있습니다. 문서를 업로드하고 암호를 설정한 다음 암호화된 PDF를 다운로드하세요. 매우 사용자 친화적이며 완전히 무료이며 계정이 필요하지 않습니다.",
+    "detail_description_object__protect_pdf__middle_2_title": "로컬 보안 PDF 보호",
+    "detail_description_object__protect_pdf__middle_2_description": "업로드하는 모든 파일은 브라우저에서 직접 처리되어 개인 정보가 보호됩니다. 파일은 클라우드에 업로드되지 않으므로 데이터 보안이 보장됩니다.",
+    "detail_description_object__protect_pdf__middle_3_title": "크로스 플랫폼 호환성",
+    "detail_description_object__protect_pdf__middle_3_description": "PDF 보호 도구는 브라우저 기반으로 작동하므로 Mac, Windows 및 Linux뿐만 아니라 모바일 기기에서도 원활하게 작동합니다. 어디서든 쉽게 PDF 파일을 보호할 수 있습니다.",
+    "detail_description_object__protect_pdf__middle_4_title": "쉬운 작업 프로세스",
+    "detail_description_object__protect_pdf__middle_4_description": "PDF 파일을 보호하는 것은 간단합니다: 파일을 업로드하고 암호를 설정한 다음 암호가 지정된 버전을 다운로드하세요. 초보자도 이 쉬운 프로세스를 쉽게 따를 수 있습니다.",
+    "detail_description_object__protect_pdf__middle_5_title": "신뢰할 수 있는 PDF 보호 도구",
+    "detail_description_object__protect_pdf__middle_5_description": "비싼 소프트웨어를 구매할 필요가 없습니다. 무료로 제공되는 온라인 PDF 보호 도구를 사용하여 파일과 데이터가 항상 안전하게 보호되며 클라우드 처리가 필요하지 않습니다.",
+    "detail_description_object__protect_pdf__middle_6_title": "향상된 보안을 위한 로컬 처리",
+    "detail_description_object__protect_pdf__middle_6_description": "당사의 보호 서비스는 모든 작업이 로컬에서 수행되도록 보장합니다. 이로써 보안이 강화되고 처리 시간이 단축되어 파일이 안전하게 보호됩니다.",
+    "detail_description_object__protect_pdf__bottom_right_title": "온라인으로 PDF 파일을 보호하는 방법:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "보호하려는 PDF 파일을 업로드하세요.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "PDF 파일에 암호를 설정하세요.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "‘보호’를 클릭하여 암호가 지정된 PDF 파일을 다운로드하세요.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "보호된 후에는 암호를 알고 있는 사람만 모든 기기에서 PDF 파일에 액세스하고 편집할 수 있습니다."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "보호",
+    "components__protect_pdf_detail__type_password": " 암호 입력",
+    "components__protect_pdf_detail__repeat_type_password": "암호 반복",
+    "components__protect_pdf_detail__input__placeholder": "암호를 설정하세요",
+    "components__protect_pdf_detail__repeat_input__placeholder": "비밀번호를 확인하세요",
+    "components__protect_pdf_detail__use_tips": "암호 및 PDF 파일이 서버에 업로드되지 않아 보안이 보장됩니다."
   }
 }
