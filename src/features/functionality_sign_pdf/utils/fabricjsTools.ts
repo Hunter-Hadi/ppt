@@ -147,8 +147,8 @@ export const onFabricAddObject = async (
       createObjectData.setControlsVisibility({ mtr: false })
       editor.current.add(createObjectData)
       editor.current.setActiveObject(createObjectData) // 设置复制的对象为当前活动对象
-      editor?.canvas.requestRenderAll() // 刷新画布以显示更改
-      editor?.canvas.renderAll() // 确保变化被渲染
+      editor?.canvas?.requestRenderAll() // 刷新画布以显示更改
+      editor?.canvas?.renderAll() // 确保变化被渲染
       return createObjectData
     } else {
       return null
@@ -194,7 +194,7 @@ export const copyFabricSelectedObject = (editor) => {
       }
 
       canvas.setActiveObject(clonedObj) // 设置复制的对象为当前活动对象
-      canvas.requestRenderAll() // 请求重绘画布以显示更改
+      canvas?.requestRenderAll() // 请求重绘画布以显示更改
     })
   } catch (e) {
     console.log(e)

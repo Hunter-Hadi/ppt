@@ -2,8 +2,8 @@ import * as fabric from 'fabric'
 import Hammer from 'hammerjs'
 
 export const fabricMobileMove = (canvas: fabric.Canvas) => {
-  const outerDiv = document.getElementById(
-    'functionality-sign-pdf-rolling-view',
+  const outerDiv = document.querySelector(
+    '.functionality-common-pdf-rolling-view',
   )
   const hammerCanvas = new Hammer(canvas.getSelectionElement())
 

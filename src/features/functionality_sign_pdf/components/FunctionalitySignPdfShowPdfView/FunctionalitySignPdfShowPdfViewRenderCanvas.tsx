@@ -50,6 +50,7 @@ interface IFunctionalitySignPdfShowPdfCanvasProps {
   renderList?: ICanvasObjectData[]
   canvasIndex: number
   canvasNumber: number
+  scaleNumber: number
   sizeInfo: {
     width: number
     height: number
@@ -72,6 +73,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
     addIndexObject,
     canvasNumber,
     onChangeObjectNumber,
+    scaleNumber,
   },
   handleRef,
 ) => {
@@ -98,6 +100,8 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   ) // 当前选中对象信息
   const deleteObjectKey = useRef<string[]>([])
   useEffect(() => {
+    console.log('simply scaleFactor', scaleFactor)
+
     if (isMobile && controlDiv) {
       TopDetailInfoContext.setViewObjectToolsData({
         controlDiv: controlDiv,
@@ -107,7 +111,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
     } else {
       TopDetailInfoContext.setViewObjectToolsData(null)
     }
-  }, [controlDiv, scaleFactor, editor.current, isMobile])
+  }, [controlDiv, scaleFactor, isMobile, scaleNumber, TopDetailInfoContext])
   useEffect(() => {
     onChangeObjectNumber && onChangeObjectNumber(objectIdList.length)
   }, [objectIdList])
@@ -236,6 +240,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
 
       setActiveObject(object)
       if (object) {
+        console.log('simply object', topWrapRef.current)
         const topWrapRefRect = topWrapRef.current?.getBoundingClientRect()
         setControlDiv({
           left: object.left,
@@ -469,7 +474,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
       console.log('error', e)
     }
   }, [!!editor.current])
-  const setZoom = (zoom) => {
+  const onSetZoom = (zoom) => {
     // 设置新的缩放比例
     if (editor.current) {
       editor.current.setZoom(zoom)
@@ -492,7 +497,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         if (newWidth) {
           scaleFactor = newWidth / sizeInfo.width // Calculate new scale factor
           const zoom = parseFloat(scaleFactor.toFixed(3))
-          setZoom(zoom)
+          onSetZoom(zoom)
           setScaleFactor(zoom)
         }
       }
@@ -623,8 +628,8 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         width: '100%',
         height: '100%',
       }}
-      className={`sample-canvas-wrap-${canvasIndex + 1}`}
       ref={topWrapRef}
+      className={`sample-canvas-wrap-${canvasIndex + 1}`}
     >
       <Box
         className={`sample-canvas-${canvasIndex + 1}`}

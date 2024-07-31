@@ -19,6 +19,8 @@ const FunctionalitySignPdfShowPdfViewDroppable: FC<{
       sx={{
         color: isOver ? 'green' : undefined,
         position: 'relative',
+        width: '100%',
+        height: '100%',
       }}
     >
       {children}

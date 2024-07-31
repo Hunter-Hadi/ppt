@@ -169,7 +169,7 @@ const FunctionalitySignPdfShowPdfViewObjectToolsPopup: FC<
       editor.current?.renderAll() // 重新渲染画布
     }
   }
-  const isImage = activeObject.type === 'image' // 图片
+  const isImage = activeObject?.type === 'image' // 图片
   const isEditingText =
     activeObject.type === 'textbox' || activeObject.type === 'i-text' // 可以编辑文字的文本
   const isText = activeObject.type === 'text' || isEditingText //文本

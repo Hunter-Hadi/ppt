@@ -96,8 +96,8 @@ export const FunctionalitySignPdfDetail: FC<
     try {
       if (event.over && event.over.id) {
         const { delta, over, active } = event
-        const rollingView = document.getElementById(
-          'functionality-sign-pdf-rolling-view',
+        const rollingView = document.querySelector(
+          '.functionality-common-pdf-rolling-view',
         )
         const droppableElement = document.getElementById(active.id as string)
         const activeRect = droppableElement?.getBoundingClientRect()
