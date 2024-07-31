@@ -1432,7 +1432,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "Ma-access ang pinakamatalinong AI models, lahat sa iisang lugar.",
     "ab_test_v5__features_data__image_ai_queries": "Image AI queries",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "Paramihin nang 10 beses ang iyong katalinuhan at produktibidad gamit ang pinakasusing AI art models.",
-    "ab_test_v5__features_data__search_faster": "Maghanap nang mas mabilis",
+    "ab_test_v5__features_data__search_faster": "Kumuha ng mga sagot",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Tanungin ang AI ng anumang bagay sa browser sidebar",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Mag-chat kasama ang lahat ng pinakamahusay na AI sa iisang lugar",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Maghanap gamit ang AI sa browser sidebar",
@@ -1454,7 +1454,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Isalin",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Ipaliwanag",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Buong-pahinang bilingual pagsasalin",
-    "ab_test_v5__features_data__write_faster": "Magsulat nang mas mabilis",
+    "ab_test_v5__features_data__write_faster": "Magsulat nang mas mahusay",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "AI rewriter sa anumang pahina",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Pabutihin ang pagsusulat",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Proofread",
@@ -1518,7 +1518,9 @@
     "ab_test_v5__features_data__discord__tooltip": "Makatipid ng oras sa korespondensya sa mensahe sa Discord. Tumugon sa mga mensahe sa loob ng mga segundo gamit ang maikling mga notes. I-improve ang tono, suriin ang spelling at grammar. Makipag-ugnayan nang mas epektibo at mabilis.",
     "ab_test_v5__features_data__messenger__tooltip": "Makatipid ng oras sa korespondensya sa mensahe sa Messenger. Tumugon sa mga mensahe sa loob ng mga segundo gamit ang maikling mga notes. I-improve ang tono, suriin ang spelling at grammar. Makipag-ugnayan nang mas epektibo at mabilis.",
     "ab_test_v5__features_data__telegram__tooltip": "Makatipid ng oras sa korespondensya sa mensahe sa Telegram. Tumugon sa mga mensahe sa loob ng mga segundo gamit ang maikling mga notes. I-improve ang tono, suriin ang spelling at grammar. Makipag-ugnayan nang mas epektibo at mabilis.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Lumikha ng iyong sariling mga prompts, ayusin ang mga ito, at gawing madali ang pag-access at paggamit, para sa iyo at sa iyong team."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Lumikha ng iyong sariling mga prompts, ayusin ang mga ito, at gawing madali ang pag-access at paggamit, para sa iyo at sa iyong team.",
+    "features_data__llama_3_1_70b__tooltip": "Pinapatakbo ng Meta. 128,000 max tokens. Isang makapangyarihang multilingual model na may malawak na haba ng konteksto at pinahusay na kakayahan sa pagsasaliksik. Sumusuporta sa advanced na mga kaso tulad ng pagsusummarize ng mahabang teksto, multilingual na mga ahente sa usapan, at tulong sa pagko-code.",
+    "features_data__llama_3_1_405b__tooltip": "Pinapatakbo ng Meta. 128,000 max tokens. Ang pinakamalaking openly available foundation model sa mundo, na kasing husay ng nangungunang AI na may sariling source code sa pangkalahatang kaalaman, kakayahang i-steer, at matematika. Sumusuporta sa 8 wika at nagbibigay-daan sa advanced na kakayahan tulad ng pag-generate ng synthetic data at distillation ng model. Angkop para sa pagsusummarize ng mahabang teksto, multilingual na mga ahente sa usapan, at mga assistant sa pagko-code."
   },
   "features__common": {
     "components__upload_button_drop_title": "I-drop dito"

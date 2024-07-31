@@ -1432,7 +1432,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "Pääsy älykkäimpiin tekoälymalleihin, kaikki yhdessä paikassa.",
     "ab_test_v5__features_data__image_ai_queries": "Kuvatekoälykyselyt",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "10-kertaista luovuutesi ja tuottavuutesi kehittyneimmillä tekoälytaidemalleilla.",
-    "ab_test_v5__features_data__search_faster": "Hae nopeammin",
+    "ab_test_v5__features_data__search_faster": "Hanki vastauksia",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Kysy tekoälyltä mitä tahansa selaimen sivupalkissa",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Keskustele kaikkien parhaiden tekoälyjen kanssa yhdessä paikassa",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Hae tekoälyllä selaimen sivupalkissa",
@@ -1454,7 +1454,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Käännä",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Selitä",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Koko sivun kaksikielinen käännös",
-    "ab_test_v5__features_data__write_faster": "Kirjoita nopeammin",
+    "ab_test_v5__features_data__write_faster": "Kirjoita paremmin",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "AI-tekstien uudelleenkirjoittaja minkä tahansa sivun kanssa",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Paranna kirjoittamista",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Tarkista oikeinkirjoitus",
@@ -1518,7 +1518,9 @@
     "ab_test_v5__features_data__discord__tooltip": "Säästä aikaa Discord-viestikirjeenvaihdossa. Vastaa viesteihin sekunneissa lyhyillä muistiinpanoilla. Paranna äänensävyä, tarkista oikeinkirjoitus ja kielioppi. Viesti tehokkaammin ja tehokkaammin.",
     "ab_test_v5__features_data__messenger__tooltip": "Säästä aikaa Messenger-viestikirjeenvaihdossa. Vastaa viesteihin sekunneissa lyhyillä muistiinpanoilla. Paranna äänensävyä, tarkista oikeinkirjoitus ja kielioppi. Viesti tehokkaammin ja tehokkaammin.",
     "ab_test_v5__features_data__telegram__tooltip": "Säästä aikaa Telegram-viestikirjeenvaihdossa. Vastaa viesteihin sekunneissa lyhyillä muistiinpanoilla. Paranna äänensävyä, tarkista oikeinkirjoitus ja kielioppi. Viesti tehokkaammin ja tehokkaammin.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Luo omat muistiinpanosi, järjestä ne ja tee niistä helposti käytettäviä ja uudelleenkäytettäviä, itsellesi ja tiimillesi."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Luo omat muistiinpanosi, järjestä ne ja tee niistä helposti käytettäviä ja uudelleenkäytettäviä, itsellesi ja tiimillesi.",
+    "features_data__llama_3_1_70b__tooltip": "Käyttövoimana Meta. 128 000 maksimitunnusta. Tehokas monikielinen malli, jolla on merkittävästi laajennettu kontekstin pituus ja parannetut päättelykyvyt. Tukee edistyneitä käyttötarkoituksia, kuten pitkän muodon tekstien tiivistämistä, monikielisiä keskusteluavustajia ja koodin avustamista.",
+    "features_data__llama_3_1_405b__tooltip": "Käyttövoimana Meta. 128 000 maksimitunnusta. Maailman suurin avoimesti saatavilla oleva perustason malli, kilpailee parhaiden suljettujen lähdekoodi tekoälyn kanssa yleisessä tiedossa, ohjattavuudessa ja matematiikassa. Tukee 8 kieltä ja mahdollistaa edistyneet toiminnot, kuten synteettisen datan tuottamisen ja mallin tiivistämisen. Ihanteellinen pitkän muodon tiivistämiseen, monikielisten keskusteluavustajien ja koodiavustajien käyttöön."
   },
   "features__common": {
     "components__upload_button_drop_title": "Pudota tähän"

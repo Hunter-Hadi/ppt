@@ -1611,7 +1611,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "Accedi ai modelli AI più intelligenti, tutti in un unico posto.",
     "ab_test_v5__features_data__image_ai_queries": "Query AI per immagini",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "Aumenta la tua creatività e produttività del 10x con i modelli di arte AI più avanzati.",
-    "ab_test_v5__features_data__search_faster": "Cerca più velocemente",
+    "ab_test_v5__features_data__search_faster": "Ottieni risposte",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Chiedi qualsiasi cosa all'AI nella barra laterale del browser",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Chatta con tutti i migliori AI in un unico posto",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Cerca con l'AI nella barra laterale del browser",
@@ -1633,7 +1633,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Traduci",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Spiega",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Traduzione bilingue a pagina intera",
-    "ab_test_v5__features_data__write_faster": "Scrivi più velocemente",
+    "ab_test_v5__features_data__write_faster": "Scrivi meglio",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "Riscrittore AI su qualsiasi pagina",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Migliora scrittura",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Correggi bozze",
@@ -1697,7 +1697,9 @@
     "ab_test_v5__features_data__discord__tooltip": "Risparmia tempo nella corrispondenza tramite messaggi Discord. Rispondi ai messaggi in pochi secondi con brevi note. Migliora il tono, controlla l'ortografia e la grammatica. Comunica in modo più efficace ed efficiente.",
     "ab_test_v5__features_data__messenger__tooltip": "Risparmia tempo nella corrispondenza tramite messaggi Messenger. Rispondi ai messaggi in pochi secondi con brevi note. Migliora il tono, controlla l'ortografia e la grammatica. Comunica in modo più efficace ed efficiente.",
     "ab_test_v5__features_data__telegram__tooltip": "Risparmia tempo nella corrispondenza tramite messaggi Telegram. Rispondi ai messaggi in pochi secondi con brevi note. Migliora il tono, controlla l'ortografia e la grammatica. Comunica in modo più efficace ed efficiente.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Crea i tuoi promemoria, organizzali e rendili facili da accedere e riutilizzare, per te e il tuo team."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Crea i tuoi promemoria, organizzali e rendili facili da accedere e riutilizzare, per te e il tuo team.",
+    "features_data__llama_3_1_70b__tooltip": "Alimentato da Meta. 128.000 token massimi. Un modello multilingue potente con una lunghezza del contesto significativamente ampliata e capacità di ragionamento potenziate. Supporta casi d'uso avanzati come la sintesi di testi a lungo, agenti conversazionali multilingue e assistenza alla codifica.",
+    "features_data__llama_3_1_405b__tooltip": "Alimentato da Meta. 128.000 token massimi. Il modello di base aperto più grande al mondo, che si confronta con i migliori AI proprietari in conoscenze generali, manovrabilità e matematica. Supporta 8 lingue e abilita funzionalità avanzate come la generazione di dati sintetici e la distillazione del modello. Ideale per la sintesi di testi a lungo, agenti conversazionali multilingue e assistenti alla codifica."
   },
   "survey": {
     "funnel_survey__reinstall_cta_btn__text": "Reinstalla l'estensione - È gratuito",

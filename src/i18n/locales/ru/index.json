@@ -1432,7 +1432,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "Доступ к самым умным моделям ИИ в одном месте.",
     "ab_test_v5__features_data__image_ai_queries": "Запросы ИИ для изображений",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "Увеличьте свою креативность и производительность в 10 раз с помощью самых передовых моделей искусственного интеллекта для искусства.",
-    "ab_test_v5__features_data__search_faster": "Ищите быстрее",
+    "ab_test_v5__features_data__search_faster": "Получить ответы",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Спросите ИИ что угодно в боковой панели браузера",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Чат с лучшими ИИ в одном месте",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Поиск с ИИ в боковой панели браузера",
@@ -1454,7 +1454,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Перевести",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Объяснить",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Двуязычный перевод всей страницы",
-    "ab_test_v5__features_data__write_faster": "Писать быстрее",
+    "ab_test_v5__features_data__write_faster": "Писать лучше",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "AI переписыватель на любой странице",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Улучшить письменный стиль",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Проверить правописание",
@@ -1518,7 +1518,9 @@
     "ab_test_v5__features_data__discord__tooltip": "Сэкономьте время на переписке в Discord. Отвечайте на сообщения за секунды с краткими заметками. Улучшите тон, проверьте орфографию и грамматику. Общайтесь более эффективно и эффективно.",
     "ab_test_v5__features_data__messenger__tooltip": "Сэкономьте время на переписке в Messenger. Отвечайте на сообщения за секунды с краткими заметками. Улучшите тон, проверьте орфографию и грамматику. Общайтесь более эффективно и эффективно.",
     "ab_test_v5__features_data__telegram__tooltip": "Сэкономьте время на переписке в Telegram. Отвечайте на сообщения за секунды с краткими заметками. Улучшите тон, проверьте орфографию и грамматику. Общайтесь более эффективно и эффективно.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Создайте свои собственные подсказки, организуйте их и сделайте их легкими в доступе и повторном использовании, для себя и вашей команды."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Создайте свои собственные подсказки, организуйте их и сделайте их легкими в доступе и повторном использовании, для себя и вашей команды.",
+    "features_data__llama_3_1_70b__tooltip": "Работает на Meta. 128 000 макс. токенов. Мощная мультиязычная модель с значительно увеличенной длиной контекста и улучшенными возможностями рассуждения. Поддерживает расширенные случаи использования, такие как суммирование текста большой длины, мультиязычные агенты и помощь в кодировании.",
+    "features_data__llama_3_1_405b__tooltip": "Работает на Meta. 128 000 макс. токенов. Самая крупная общедоступная модель основания в мире, конкурирующая с лучшими закрытыми источниками ИИ в общих знаниях, управляемости и математике. Поддерживает 8 языков и обеспечивает расширенные возможности, такие как генерация синтетических данных и дистилляция моделей. Идеально подходит для суммирования текста большой длины, мультиязычных агентов и помощников по кодированию."
   },
   "features__common": {
     "components__upload_button_drop_title": "Перетащите сюда"

@@ -1432,7 +1432,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "Acesse os modelos de IA mais inteligentes, todos em um só lugar.",
     "ab_test_v5__features_data__image_ai_queries": "Consultas de IA de imagem",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "Aumente sua criatividade e produtividade em 10x com os modelos de arte de IA mais avançados.",
-    "ab_test_v5__features_data__search_faster": "Busque mais rápido",
+    "ab_test_v5__features_data__search_faster": "Obtenha respostas",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Pergunte qualquer coisa à IA na barra lateral do navegador",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Converse com todas as melhores IA em um só lugar",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Pesquise com IA na barra lateral do navegador",
@@ -1454,7 +1454,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Traduzir",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Explicar",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Tradução bilíngue de página inteira",
-    "ab_test_v5__features_data__write_faster": "Escrever mais rápido",
+    "ab_test_v5__features_data__write_faster": "Escreva melhor",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "Reescritor de IA em qualquer página",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Melhorar escrita",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Revisar",
@@ -1518,7 +1518,9 @@
     "ab_test_v5__features_data__discord__tooltip": "Economize tempo na correspondência de mensagens do Discord. Responda a mensagens em segundos com notas breves. Melhore o tom, verifique a ortografia e a gramática. Comunique-se de forma mais eficaz e eficiente.",
     "ab_test_v5__features_data__messenger__tooltip": "Economize tempo na correspondência de mensagens do Messenger. Responda a mensagens em segundos com notas breves. Melhore o tom, verifique a ortografia e a gramática. Comunique-se de forma mais eficaz e eficiente.",
     "ab_test_v5__features_data__telegram__tooltip": "Economize tempo na correspondência de mensagens do Telegram. Responda a mensagens em segundos com notas breves. Melhore o tom, verifique a ortografia e a gramática. Comunique-se de forma mais eficaz e eficiente.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Crie seus próprios prompts, organize-os e facilite o acesso e reutilização, para você e sua equipe."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Crie seus próprios prompts, organize-os e facilite o acesso e reutilização, para você e sua equipe.",
+    "features_data__llama_3_1_70b__tooltip": "Desenvolvido pela Meta. 128.000 tokens máximos. Um modelo multilíngue poderoso com comprimento de contexto significativamente expandido e capacidades de raciocínio aprimoradas. Suporta casos de uso avançados como sumarização de texto em formato longo, agentes de conversação multilíngues e assistência de codificação.",
+    "features_data__llama_3_1_405b__tooltip": "Desenvolvido pela Meta. 128.000 tokens máximos. O maior modelo de fundação abertamente disponível do mundo, rivalizando com os principais modelos de IA de fonte fechada em conhecimento geral, direcionabilidade e matemática. Suporta 8 idiomas e habilita capacidades avançadas como geração de dados sintéticos e destilação de modelo. Ideal para sumarização em formato longo, agentes de conversação multilíngues e assistentes de codificação."
   },
   "features__common": {
     "components__upload_button_drop_title": "Solte aqui"

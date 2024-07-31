@@ -1432,7 +1432,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "Akses model AI terpintar, semua di satu tempat.",
     "ab_test_v5__features_data__image_ai_queries": "Pertanyaan AI imej",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "10x kreativiti dan produktiviti anda dengan model seni AI yang paling canggih.",
-    "ab_test_v5__features_data__search_faster": "Carian lebih cepat",
+    "ab_test_v5__features_data__search_faster": "Dapatkan jawapan",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Tanya AI apa sahaja di sidebar pelayar",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Berbual dengan semua AI terbaik di satu tempat",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Cari dengan AI di sidebar pelayar",
@@ -1454,7 +1454,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Terjemah",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Terangkan",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Terjemahan dwibahasa sepenuh halaman",
-    "ab_test_v5__features_data__write_faster": "Menulis dengan cepat",
+    "ab_test_v5__features_data__write_faster": "Tulis dengan lebih baik",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "Penulis semula AI pada mana-mana halaman",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Perbaiki penulisan",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Sunting",
@@ -1518,7 +1518,9 @@
     "ab_test_v5__features_data__discord__tooltip": "Jimat masa dalam perbualan mesej Discord. Balas kepada mesej dalam beberapa saat dengan nota ringkas. Tingkatkan nada, periksa ejaan dan tatabahasa. Berkomunikasi dengan lebih efektif dan cekap.",
     "ab_test_v5__features_data__messenger__tooltip": "Jimat masa dalam perbualan mesej Messenger. Balas kepada mesej dalam beberapa saat dengan nota ringkas. Tingkatkan nada, periksa ejaan dan tatabahasa. Berkomunikasi dengan lebih efektif dan cekap.",
     "ab_test_v5__features_data__telegram__tooltip": "Jimat masa dalam perbualan mesej Telegram. Balas kepada mesej dalam beberapa saat dengan nota ringkas. Tingkatkan nada, periksa ejaan dan tatabahasa. Berkomunikasi dengan lebih efektif dan cekap.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Cipta promp sendiri, susun, dan buat mudah untuk capai dan guna semula, untuk diri anda dan pasukan anda."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Cipta promp sendiri, susun, dan buat mudah untuk capai dan guna semula, untuk diri anda dan pasukan anda.",
+    "features_data__llama_3_1_70b__tooltip": "Dikuasakan oleh Meta. 128,000 token maksimum. Model multibahasa yang kuat dengan panjang konteks yang signifikan dan keupayaan penalaran yang diperkukuhkan. Menyokong kes penggunaan canggih seperti ringkasan teks bentuk panjang, ejen perbualan multibahasa, dan bantuan kod.",
+    "features_data__llama_3_1_405b__tooltip": "Dikuasakan oleh Meta. 128,000 token maksimum. Model asas terbuka terbesar di dunia, menandingi kecerdasan buatan sumber tertutup teratas dalam pengetahuan umum, kebolehgerakan dan matematik. Menyokong 8 bahasa dan membolehkan keupayaan canggih seperti generasi data sintetik dan pengekstrakan model. Sesuai untuk ringkasan bentuk panjang, ejen perbualan multibahasa, dan pembantu kod."
   },
   "features__common": {
     "components__upload_button_drop_title": "Letakkan di sini"

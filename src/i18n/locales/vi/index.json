@@ -1432,7 +1432,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "Truy cập các mô hình AI thông minh nhất, tất cả tại một nơi.",
     "ab_test_v5__features_data__image_ai_queries": "Truy vấn AI hình ảnh",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "Tăng gấp 10 lần sự sáng tạo và năng suất với các mô hình nghệ thuật AI tiên tiến nhất.",
-    "ab_test_v5__features_data__search_faster": "Tìm kiếm nhanh hơn",
+    "ab_test_v5__features_data__search_faster": "Nhận câu trả lời",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Hỏi AI bất cứ điều gì trên thanh bên trình duyệt",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Trò chuyện với tất cả các AI hàng đầu tại một nơi",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Tìm kiếm với AI trên thanh bên trình duyệt",
@@ -1454,7 +1454,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Dịch",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Giải thích",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Dịch toàn bộ trang song ngữ",
-    "ab_test_v5__features_data__write_faster": "Viết nhanh hơn",
+    "ab_test_v5__features_data__write_faster": "Viết tốt hơn",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "AI rewriter trên mọi trang",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Cải thiện viết",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Kiểm tra lỗi",
@@ -1518,7 +1518,9 @@
     "ab_test_v5__features_data__discord__tooltip": "Tiết kiệm thời gian trong việc trao đổi tin nhắn Discord. Trả lời tin nhắn trong vài giây với ghi chú ngắn. Cải thiện tông, kiểm tra chính tả và ngữ pháp. Giao tiếp hiệu quả và hiệu quả hơn.",
     "ab_test_v5__features_data__messenger__tooltip": "Tiết kiệm thời gian trong việc trao đổi tin nhắn Messenger. Trả lời tin nhắn trong vài giây với ghi chú ngắn. Cải thiện tông, kiểm tra chính tả và ngữ pháp. Giao tiếp hiệu quả và hiệu quả hơn.",
     "ab_test_v5__features_data__telegram__tooltip": "Tiết kiệm thời gian trong việc trao đổi tin nhắn Telegram. Trả lời tin nhắn trong vài giây với ghi chú ngắn. Cải thiện tông, kiểm tra chính tả và ngữ pháp. Giao tiếp hiệu quả và hiệu quả hơn.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Tạo bộ tạo bản nháp của riêng bạn, tổ chức chúng và dễ dàng truy cập và tái sử dụng, cho bản thân và nhóm của bạn."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Tạo bộ tạo bản nháp của riêng bạn, tổ chức chúng và dễ dàng truy cập và tái sử dụng, cho bản thân và nhóm của bạn.",
+    "features_data__llama_3_1_70b__tooltip": "Được cung cấp bởi Meta. 128,000 mã thông báo tối đa. Một mô hình đa ngôn ngữ mạnh mẽ với độ dài ngữ cảnh mở rộng đáng kể và khả năng lý luận cải thiện. Hỗ trợ các trường hợp sử dụng tiên tiến như tóm tắt văn bản dài, các trợ lý đa ngôn ngữ và hỗ trợ lập trình.",
+    "features_data__llama_3_1_405b__tooltip": "Được cung cấp bởi Meta. 128,000 mã thông báo tối đa. Mô hình nền tảng lớn nhất thế giới có sẵn công khai, đối đầu với trí tuệ nhân tạo nguồn đóng hàng đầu về kiến thức tổng quát, khả năng điều khiển và toán học. Hỗ trợ 8 ngôn ngữ và cho phép các khả năng tiên tiến như tạo dữ liệu tổng hợp và lọc mô hình. Lý tưởng cho việc tóm tắt dài, các trợ lý đa ngôn ngữ và trợ lý lập trình."
   },
   "features__common": {
     "components__upload_button_drop_title": "Thả vào đây"

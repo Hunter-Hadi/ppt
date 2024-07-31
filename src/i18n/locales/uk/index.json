@@ -1432,7 +1432,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "تمام ہوشیار اے آئی ماڈلز تک رسائی حاصل کریں، ایک ہی جگہ میں۔",
     "ab_test_v5__features_data__image_ai_queries": "تصویر اے آئی کوئریز",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "اپنی تخلیقیت اور پیشہ ورانہ پیداوار کو 10 گنا بڑھائیں سب سے تیز اے آئی آرٹ ماڈلز کے ساتھ۔",
-    "ab_test_v5__features_data__search_faster": "تیز تلاش",
+    "ab_test_v5__features_data__search_faster": "جواب حاصل کریں",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "براؤزر سائڈ بار میں کچھ بھی اے آئی سے پوچھیں",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "تمام بہترین اے آئی کے ساتھ چیٹ کریں ایک ہی جگہ میں",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "براؤزر سائڈ بار میں اے آئی کے ساتھ تلاش کریں",
@@ -1454,7 +1454,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "ترجمہ کریں",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "وضاحت کریں",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "پوری صفحے کا دو زبانی ترجمہ",
-    "ab_test_v5__features_data__write_faster": "تیزی سے لکھیں",
+    "ab_test_v5__features_data__write_faster": "بہتر لکھیں",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "کسی بھی صفحے پر اے آئی دوبارہ لکھنے والا",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "لکھائی میں بہتری",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "ثبوت دینا",
@@ -1518,7 +1518,9 @@
     "ab_test_v5__features_data__discord__tooltip": "ڈسکورڈ پر پیغام کرنے کے وقت بچائیں۔",
     "ab_test_v5__features_data__messenger__tooltip": "میسنجر پر پیغام کرنے کے وقت بچائیں۔",
     "ab_test_v5__features_data__telegram__tooltip": "ٹیلیگرام پر پیغام کرنے کے وقت بچائیں۔",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "برائے مہربانی اپنے پرومپٹس بنائیں، انہیں منظم کریں، اور انہیں آسانی سے دستیاب اور دوبارہ استعمال کریں۔"
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "برائے مہربانی اپنے پرومپٹس بنائیں، انہیں منظم کریں، اور انہیں آسانی سے دستیاب اور دوبارہ استعمال کریں۔",
+    "features_data__llama_3_1_70b__tooltip": "میٹا کی طرف سے طاقتور. 128,000 زیادہ سے زیادہ ٹوکن. ایک طاقتور بہاساوی ماڈل جس کی سرسراہٹ کی لمبائی کو بہتر بنایا گیا ہے اور اس کی ترقی یافتہ تجویزی صلاحیتوں کو بڑھایا گیا ہے۔ طویل فارم متن خلاصہ، بہاساوی بات چیت کے ایجنٹس، اور کوڈنگ مدد کی طرح کے پیچیدہ استعمال کی مدد کرتا ہے۔",
+    "features_data__llama_3_1_405b__tooltip": "میٹا کی طرف سے طاقتور. 128,000 زیادہ سے زیادہ ٹوکن. دنیا کا سب سے بڑا علنی دستیاب بنیادی ماڈل، ٹاپ بند کوڈ سورس AI کے ساتھ مقابلہ کرتا ہے جنرل علم، steerability اور ریاضی میں۔ 8 زبانوں کی حمایت کرتا ہے اور سنتھیٹک ڈیٹا تیاری اور ماڈل کی تصفیہ جیسی پیشرفتہ صلاحیتوں کو ممکن بناتا ہے۔ طویل فارم خلاصہ، بہاساوی بات چیت کے ایجنٹس، اور کوڈنگ اسسسٹنٹس کے لیے مثالی ہے۔"
   },
   "features__common": {
     "components__upload_button_drop_title": "یہاں ڈراپ کریں"

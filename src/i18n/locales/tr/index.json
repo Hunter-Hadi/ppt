@@ -1432,7 +1432,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "En akıllı AI modellerine tek bir yerden erişin.",
     "ab_test_v5__features_data__image_ai_queries": "Görüntü AI sorguları",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "En gelişmiş AI sanat modelleri ile yaratıcılığınızı ve üretkenliğinizi 10 kat artırın.",
-    "ab_test_v5__features_data__search_faster": "Daha hızlı arama",
+    "ab_test_v5__features_data__search_faster": "Cevapları Al",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Tarayıcı kenar çubuğunda AI'ya herhangi bir şeyi sorun",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Tüm en iyi AI'larla tek bir yerde sohbet edin",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Tarayıcı kenar çubuğunda AI ile arama yapın",
@@ -1454,7 +1454,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Çevir",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Açıkla",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Tam sayfa çift dil çevirisi",
-    "ab_test_v5__features_data__write_faster": "Daha hızlı yazın",
+    "ab_test_v5__features_data__write_faster": "Daha İyi Yaz",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "Herhangi bir sayfada AI yeniden yazıcı",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Yazmayı geliştirin",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Dilbilgisini kontrol edin",
@@ -1518,7 +1518,9 @@
     "ab_test_v5__features_data__discord__tooltip": "Discord mesaj yazışmalarında zaman kazanın. Kısa notlarla saniyeler içinde mesajlara yanıt verin. Tonu iyileştirin, yazım ve dilbilgisini kontrol edin. Daha etkili ve verimli iletişim kurun.",
     "ab_test_v5__features_data__messenger__tooltip": "Messenger mesaj yazışmalarında zaman kazanın. Kısa notlarla saniyeler içinde mesajlara yanıt verin. Tonu iyileştirin, yazım ve dilbilgisini kontrol edin. Daha etkili ve verimli iletişim kurun.",
     "ab_test_v5__features_data__telegram__tooltip": "Telegram mesaj yazışmalarında zaman kazanın. Kısa notlarla saniyeler içinde mesajlara yanıt verin. Tonu iyileştirin, yazım ve dilbilgisini kontrol edin. Daha etkili ve verimli iletişim kurun.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Kendi ipuçlarınızı oluşturun, düzenleyin ve erişimi ve yeniden kullanımı kolay hale getirin, kendiniz ve ekibiniz için."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Kendi ipuçlarınızı oluşturun, düzenleyin ve erişimi ve yeniden kullanımı kolay hale getirin, kendiniz ve ekibiniz için.",
+    "features_data__llama_3_1_70b__tooltip": "Meta tarafından desteklenir. 128.000 maksimum belirteç. Önemli ölçüde genişletilmiş bağlam uzunluğuna ve geliştirilmiş akıl yürütme yeteneklerine sahip güçlü çok dilli bir model. Uzun metin özetleme, çok dilli konuşma ajanları ve kod yardımı gibi gelişmiş kullanım durumlarını destekler.",
+    "features_data__llama_3_1_405b__tooltip": "Meta tarafından desteklenir. 128.000 maksimum belirteç. Dünyanın en büyük açık kaynaklı temel modeli, en iyi kapalı kaynaklı yapay zeka ile genel bilgi, yönlendirilebilirlik ve matematik alanlarında rekabet eder. 8 dil destekler ve sentetik veri oluşturma ve model sıkıştırma gibi gelişmiş yetenekleri etkinleştirir. Uzun metin özetleme, çok dilli konuşma ajanları ve kod asistanları için idealdir."
   },
   "features__common": {
     "components__upload_button_drop_title": "Buraya bırakın"

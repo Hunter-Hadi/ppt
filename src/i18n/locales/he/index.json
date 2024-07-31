@@ -1431,7 +1431,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "גישה לדגמי AI החכמים ביותר, הכל במקום אחד.",
     "ab_test_v5__features_data__image_ai_queries": "שאילתות AI לתמונות",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "הכפילו ב-10 את היצירתיות והיציבות שלכם עם דגמי AI לאמנות המתקדמים ביותר.",
-    "ab_test_v5__features_data__search_faster": "חיפוש מהיר יותר",
+    "ab_test_v5__features_data__search_faster": "קבל תשובות",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "שאלו את AI כל דבר בסרגל הדפדפן",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "צ'אט עם כל הדגמי AI הטובים במקום אחד",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "חיפוש עם AI בסרגל הדפדפן",
@@ -1453,7 +1453,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "תרגם",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "הסבר",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "תרגום דו-שפתי בעמוד מלא",
-    "ab_test_v5__features_data__write_faster": "כתוב מהר יותר",
+    "ab_test_v5__features_data__write_faster": "כתוב טוב יותר",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "מחדש AI בכל עמוד",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "שפר כתיבה",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "תקן",
@@ -1517,7 +1517,9 @@
     "ab_test_v5__features_data__discord__tooltip": "חסוך זמן בתגובות בהודעות בדיסקורד. השיב להודעות בשניות עם הערות קצרות. שפר טון, בדוק איות ודקדוק. תקשורת יעילה ויעילה יותר.",
     "ab_test_v5__features_data__messenger__tooltip": "חסוך זמן בתגובות בהודעות במסנג'ר. השיב להודעות בשניות עם הערות קצרות. שפר טון, בדוק איות ודקדוק. תקשורת יעילה ויעילה יותר.",
     "ab_test_v5__features_data__telegram__tooltip": "חסוך זמן בתגובות בהודעות בטלגרם. השיב להודעות בשניות עם הערות קצרות. שפר טון, בדוק איות ודקדוק. תקשורת יעילה ויעילה יותר.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "צור את הגרסאות שלך, ארגן אותם והפוך אותם לקלים לגישה ושימוש, עבורך ועבור צוותך."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "צור את הגרסאות שלך, ארגן אותם והפוך אותם לקלים לגישה ושימוש, עבורך ועבור צוותך.",
+    "features_data__llama_3_1_70b__tooltip": "מופעל על ידי מטה. 128,000 טוקנים מרביים. מודל רב־שפתי עם אורך תכנית מורחב ויכולות רעיוניות משופרות. תומך במקרים מתקדמים כמו סיכום טקסט באורך ארוך, סוכני שיח רב־שפתיים וסיוע בקידוד.",
+    "features_data__llama_3_1_405b__tooltip": "מופעל על ידי מטה. 128,000 טוקנים מרביים. המודל הגדול ביותר בעולם הזמין לציבור, המתחרה במודלי AI סגורים מובילים בידע כללי, יכולת ניתוב ומתמטיקה. תומך ב-8 שפות ומאפשר יכולות מתקדמות כמו יצירת נתונים סינתטיים והבהרת מודל. אידיאלי לסיכום באורך ארוך, סוכני שיח רב־שפתיים ועוזרי קידוד."
   },
   "features__common": {
     "components__upload_button_drop_title": "שחרר כאן"

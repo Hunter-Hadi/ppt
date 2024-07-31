@@ -1432,7 +1432,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "Akses model AI terpintar, semua dalam satu tempat.",
     "ab_test_v5__features_data__image_ai_queries": "Kueri AI gambar",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "Tingkatkan kreativitas dan produktivitas Anda 10x dengan model seni AI paling canggih.",
-    "ab_test_v5__features_data__search_faster": "Cari lebih cepat",
+    "ab_test_v5__features_data__search_faster": "Dapatkan jawaban",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Tanyakan AI apa pun di sisi browser",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Obrolan dengan semua AI terbaik dalam satu tempat",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Cari dengan AI di sisi browser",
@@ -1454,7 +1454,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Terjemahkan",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Jelaskan",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Terjemahan dwibahasa seluruh halaman",
-    "ab_test_v5__features_data__write_faster": "Menulis lebih cepat",
+    "ab_test_v5__features_data__write_faster": "Tulis lebih baik",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "Pengubah AI di halaman apa pun",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Perbaiki penulisan",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Periksa",
@@ -1518,7 +1518,9 @@
     "ab_test_v5__features_data__discord__tooltip": "Hemat waktu dalam korespondensi pesan Discord. Balas pesan dalam hitungan detik dengan catatan singkat. Tingkatkan nada, periksa ejaan dan tata bahasa. Berkomunikasi dengan lebih efektif dan efisien.",
     "ab_test_v5__features_data__messenger__tooltip": "Hemat waktu dalam korespondensi pesan Messenger. Balas pesan dalam hitungan detik dengan catatan singkat. Tingkatkan nada, periksa ejaan dan tata bahasa. Berkomunikasi dengan lebih efektif dan efisien.",
     "ab_test_v5__features_data__telegram__tooltip": "Hemat waktu dalam korespondensi pesan Telegram. Balas pesan dalam hitungan detik dengan catatan singkat. Tingkatkan nada, periksa ejaan dan tata bahasa. Berkomunikasi dengan lebih efektif dan efisien.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Buat promosi Anda sendiri, atur, dan buat mudah diakses dan digunakan kembali, untuk diri Anda sendiri dan tim Anda."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Buat promosi Anda sendiri, atur, dan buat mudah diakses dan digunakan kembali, untuk diri Anda sendiri dan tim Anda.",
+    "features_data__llama_3_1_70b__tooltip": "Ditenagai oleh Meta. 128.000 token maks. Model multibahasa yang kuat dengan panjang konteks yang signifikan dan kemampuan penalaran yang ditingkatkan. Mendukung kasus penggunaan canggih seperti ringkasan teks berbentuk panjang, agen percakapan multibahasa, dan bantuan pengkodean.",
+    "features_data__llama_3_1_405b__tooltip": "Ditenagai oleh Meta. 128.000 token maks. Model dasar terbuka terbesar di dunia, menyaingi kecerdasan buatan sumber tertutup teratas dalam pengetahuan umum, kemampuan pengendalian, dan matematika. Mendukung 8 bahasa dan memungkinkan kemampuan canggih seperti generasi data sintetis dan distilasi model. Ideal untuk ringkasan berbentuk panjang, agen percakapan multibahasa, dan asisten pengkodean."
   },
   "features__common": {
     "components__upload_button_drop_title": "Letakkan di sini"

@@ -1432,7 +1432,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "Отримайте доступ до найрозумніших моделей штучного інтелекту, всі в одному місці.",
     "ab_test_v5__features_data__image_ai_queries": "Зображення запитів штучного інтелекту",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "Збільште свою креативність та продуктивність на 10 разів з найбільш передовими моделями мистецтва штучного інтелекту.",
-    "ab_test_v5__features_data__search_faster": "Швидший пошук",
+    "ab_test_v5__features_data__search_faster": "Отримайте відповіді",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Запитайте штучний інтелект що завгодно у бічній панелі браузера",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Чат з усіма кращими моделями штучного інтелекту в одному місці",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Пошук з штучним інтелектом у бічній панелі браузера",
@@ -1454,7 +1454,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Перекласти",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Пояснити",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Двомовний переклад на весь екран",
-    "ab_test_v5__features_data__write_faster": "Писати швидше",
+    "ab_test_v5__features_data__write_faster": "Пишіть краще",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "AI переписувач на будь-якій сторінці",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Покращити письмо",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Перевірити правопис",
@@ -1518,7 +1518,9 @@
     "ab_test_v5__features_data__discord__tooltip": "Зекономте час на листуванні в Discord. Відповідайте на повідомлення за кілька секунд короткими нотатками. Покращуйте тон, перевіряйте правопис та граматику. Комунікуйте ефективніше та ефективніше.",
     "ab_test_v5__features_data__messenger__tooltip": "Зекономте час на листуванні в Messenger. Відповідайте на повідомлення за кілька секунд короткими нотатками. Покращуйте тон, перевіряйте правопис та граматику. Комунікуйте ефективніше та ефективніше.",
     "ab_test_v5__features_data__telegram__tooltip": "Зекономте час на листуванні в Telegram. Відповідайте на повідомлення за кілька секунд короткими нотатками. Покращуйте тон, перевіряйте правопис та граматику. Комунікуйте ефективніше та ефективніше.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Створіть свої власні підказки, організуйте їх та зробіть їх легкодоступними та повторно використовуваними, як для себе, так і для вашої команди."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Створіть свої власні підказки, організуйте їх та зробіть їх легкодоступними та повторно використовуваними, як для себе, так і для вашої команди.",
+    "features_data__llama_3_1_70b__tooltip": "За допомогою Meta. 128 000 макс. токенів. Потужна багатомовна модель з значно розширеною довжиною контексту та покращеними можливостями мислення. Підтримує розширені випадки використання, такі як узагальнення довгих текстів, багатомовні розмовні агенти та допомога в програмуванні.",
+    "features_data__llama_3_1_405b__tooltip": "За допомогою Meta. 128 000 макс. токенів. Найбільша в світі відкрита фундаментальна модель, що конкурує з найкращими закритими джерелами штучного інтелекту за загальними знаннями, керованістю та математикою. Підтримує 8 мов та надає розширені можливості, такі як генерація синтетичних даних та дистиляція моделі. Ідеально підходить для узагальнення довгих текстів, багатомовних розмовних агентів та помічників у програмуванні."
   },
   "features__common": {
     "components__upload_button_drop_title": "Перетягніть сюди"

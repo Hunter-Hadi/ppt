@@ -730,11 +730,11 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Download your PDF with page numbers—that’s it!",
     "uninstall_survey__title": "Help us improve"
   },
-  "pages__pdf_tools__unlock_pdf":{
+  "pages__pdf_tools__unlock_pdf": {
     "title": "Unlock PDF",
-    "description":"Remove password, encryption, and permission from your PDF",
+    "description": "Remove password, encryption, and permission from your PDF",
     "seo_title": "Unlock PDF - Remove Password from PDF Files Online for Free | MaxAI.me",
-    "seo_description":"Easily remove password protection from PDF files online for free. No watermarks, file size limits, downloads, or sign-ups are required.",
+    "seo_description": "Easily remove password protection from PDF files online for free. No watermarks, file size limits, downloads, or sign-ups are required.",
     "detail_description_object__unlock_pdf__top_left": "Easily unlock PDF files online for free by removing passwords. With our unlocking tool, your files will always remain local, ensuring privacy, and there are no file size limits.",
     "detail_description_object__unlock_pdf__top_right_1": "Quickly unlock PDF files in just a few seconds.",
     "detail_description_object__unlock_pdf__top_right_2": "Simply upload your PDF files to get started.",
@@ -757,7 +757,7 @@
     "detail_description_object__unlock_pdf__bottom_right_description_3": "Click ‘Unlock’ to download the unlocked PDF file.",
     "detail_description_object__unlock_pdf__bottom_right_description_4": "Once unlocked, you can freely access and edit your PDF files on any device."
   },
- "pages__pdf_tools__protect_pdf": {
+  "pages__pdf_tools__protect_pdf": {
     "title": "Protect PDF",
     "description": "Add password protection and encryption to your PDF files for enhanced security.",
     "seo_title": "Protect PDF - Add Password Encryption to PDF Files Online for Free | MaxAI.me",
@@ -783,7 +783,7 @@
     "detail_description_object__protect_pdf__bottom_right_description_2": "Set a password for the PDF file.",
     "detail_description_object__protect_pdf__bottom_right_description_3": "Click ‘Protect’ to download the password-protected PDF file.",
     "detail_description_object__protect_pdf__bottom_right_description_4": "Once protected, only those with the password can access and edit your PDF files on any device."
-},
+  },
   "use_cases_pages": {
     "research__title": "Supercharge your browser with AI Research 10x faster",
     "research__description": "Summarize and chat with web articles, PDFs, and YouTube videos to save time. Ask AI questions for quick answers to speed up your research.",
@@ -884,7 +884,7 @@
     "components__common__upload_button_tips": "or drop files here",
     "components__common__upload_button_title": "CHOOSE FILES",
     "components__common__upload_button__unsupported_file_type_tip": "Please upload the specified PDF file type",
-    "components__common__select_other_file":"Choose another file"
+    "components__common__select_other_file": "Choose another file"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "Add PDFs",
@@ -1039,7 +1039,6 @@
     "components__unlock_pdf_detail__button__unlock": "Unlock",
     "components__unlock_pdf_detail__incorrect_password_tips": "Incorrect password",
     "components__unlock_pdf_detail__use_tips": "The password and PDF files will not be uploaded to the server, ensuring security."
-
   },
   "functionality__protect_pdf": {
     "components__protect_pdf_detail__button__protect": "Protect",
@@ -1681,7 +1680,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "Access the smartest AI models, all in one place.",
     "ab_test_v5__features_data__image_ai_queries": "Image AI queries",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "10x your creativity and productivity with the most advanced AI art models.",
-    "ab_test_v5__features_data__search_faster": "Search faster",
+    "ab_test_v5__features_data__search_faster": "Get answers",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Ask AI anything in browser sidebar",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Chat with all the best AI in one place",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Search with AI in browser sidebar",
@@ -1703,7 +1702,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Translate",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Explain",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Full-page bilingual translation",
-    "ab_test_v5__features_data__write_faster": "Write faster",
+    "ab_test_v5__features_data__write_faster": "Write better",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "AI rewriter on any page",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Improve writing",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Proofread",
@@ -1767,7 +1766,9 @@
     "ab_test_v5__features_data__discord__tooltip": "Save time on Discord message correspondence. Reply to messages in seconds with brief notes. Improve tone, check spelling and grammar. Communicate more effectively and efficiently.",
     "ab_test_v5__features_data__messenger__tooltip": "Save time on Messenger message correspondence. Reply to messages in seconds with brief notes. Improve tone, check spelling and grammar. Communicate more effectively and efficiently.",
     "ab_test_v5__features_data__telegram__tooltip": "Save time on Telegram message correspondence. Reply to messages in seconds with brief notes. Improve tone, check spelling and grammar. Communicate more effectively and efficiently.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Create your own prompts, organize them, and make them easy to access and reuse, for yourself and your team."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Create your own prompts, organize them, and make them easy to access and reuse, for yourself and your team.",
+    "features_data__llama_3_1_70b__tooltip": "Powered by Meta. 128,000 max tokens. A powerful multilingual model with significantly expanded context length and enhanced reasoning capabilities. Supports advanced use cases like long-form text summarization, multilingual conversational agents, and coding assistance.",
+    "features_data__llama_3_1_405b__tooltip": "Powered by Meta. 128,000 max tokens. The world's largest openly available foundation model, rivaling top closed-source AI in general knowledge, steerability and math. Supports 8 languages and enables advanced capabilities like synthetic data generation and model distillation. Ideal for long-form summarization, multilingual conversational agents, and coding assistants."
   },
   "survey": {
     "funnel_survey__reinstall_cta_btn__text": "Reinstall extension - It's free",

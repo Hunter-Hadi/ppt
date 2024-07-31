@@ -1432,7 +1432,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "访问最智能的 AI 模型，尽在一处。",
     "ab_test_v5__features_data__image_ai_queries": "图像 AI 查询",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "通过最先进的 AI 艺术模型，将创造力和生产力提升 10 倍。",
-    "ab_test_v5__features_data__search_faster": "更快搜索",
+    "ab_test_v5__features_data__search_faster": "获取答案",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "在浏览器侧边栏向 AI 提问",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "在一个地方与所有最佳 AI 聊天",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "在浏览器侧边栏搜索 AI",
@@ -1454,7 +1454,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "翻译",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "解释",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "全页双语翻译",
-    "ab_test_v5__features_data__write_faster": "更快写作",
+    "ab_test_v5__features_data__write_faster": "写得更好",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "任何页面的AI重写器",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "改善写作",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "校对",
@@ -1518,7 +1518,9 @@
     "ab_test_v5__features_data__discord__tooltip": "节省Discord消息往来的时间。用简短的笔记在几秒钟内回复消息。改善语气，检查拼写和语法。更有效和高效地沟通。",
     "ab_test_v5__features_data__messenger__tooltip": "节省Messenger消息往来的时间。用简短的笔记在几秒钟内回复消息。改善语气，检查拼写和语法。更有效和高效地沟通。",
     "ab_test_v5__features_data__telegram__tooltip": "节省Telegram消息往来的时间。用简短的笔记在几秒钟内回复消息。改善语气，检查拼写和语法。更有效和高效地沟通。",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "创建您自己的提示，组织它们，轻松访问和重复使用，为您和您的团队。"
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "创建您自己的提示，组织它们，轻松访问和重复使用，为您和您的团队。",
+    "features_data__llama_3_1_70b__tooltip": "由 Meta 提供。128,000 最大令牌。功能强大的多语言模型，具有显著扩展的上下文长度和增强的推理能力。支持长篇文本摘要、多语言对话代理和编码辅助等高级用例。",
+    "features_data__llama_3_1_405b__tooltip": "由 Meta 提供。128,000 最大令牌。世界上最大的公开基础模型，与顶级闭源 AI 在一般知识、可操纵性和数学方面相媲美。支持 8 种语言，支持合成数据生成和模型蒸馏等高级功能。非常适合长篇摘要、多语言对话代理和编码助手。"
   },
   "features__common": {
     "components__upload_button_drop_title": "拖放到这里"

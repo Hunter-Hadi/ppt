@@ -1432,7 +1432,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "Zugriff auf die intelligentesten KI-Modelle, alles an einem Ort.",
     "ab_test_v5__features_data__image_ai_queries": "Bild-KI-Abfragen",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "Steigern Sie Ihre Kreativität und Produktivität um das 10-fache mit den fortschrittlichsten KI-Kunstmodellen.",
-    "ab_test_v5__features_data__search_faster": "Schneller suchen",
+    "ab_test_v5__features_data__search_faster": "Erhalte Antworten",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Fragen Sie KI etwas in der Browser-Seitenleiste",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Chatten Sie mit allen besten KI an einem Ort",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Suchen Sie mit KI in der Browser-Seitenleiste",
@@ -1454,7 +1454,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Übersetzen",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Erklären",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Vollständige zweisprachige Übersetzung",
-    "ab_test_v5__features_data__write_faster": "Schneller schreiben",
+    "ab_test_v5__features_data__write_faster": "Besser schreiben",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "KI-Umschreiber auf jeder Seite",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Schreiben verbessern",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Korrekturlesen",
@@ -1518,7 +1518,9 @@
     "ab_test_v5__features_data__discord__tooltip": "Sparen Sie Zeit bei der Discord-Nachrichtenkorrespondenz. Antworten Sie in Sekunden auf Nachrichten mit kurzen Notizen. Verbessern Sie den Ton, überprüfen Sie Rechtschreibung und Grammatik. Kommunizieren Sie effektiver und effizienter.",
     "ab_test_v5__features_data__messenger__tooltip": "Sparen Sie Zeit bei der Messenger-Nachrichtenkorrespondenz. Antworten Sie in Sekunden auf Nachrichten mit kurzen Notizen. Verbessern Sie den Ton, überprüfen Sie Rechtschreibung und Grammatik. Kommunizieren Sie effektiver und effizienter.",
     "ab_test_v5__features_data__telegram__tooltip": "Sparen Sie Zeit bei der Telegram-Nachrichtenkorrespondenz. Antworten Sie in Sekunden auf Nachrichten mit kurzen Notizen. Verbessern Sie den Ton, überprüfen Sie Rechtschreibung und Grammatik. Kommunizieren Sie effektiver und effizienter.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Erstellen Sie Ihre eigenen Hinweise, organisieren Sie sie und machen Sie sie leicht zugänglich und wiederverwendbar, für sich selbst und Ihr Team."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Erstellen Sie Ihre eigenen Hinweise, organisieren Sie sie und machen Sie sie leicht zugänglich und wiederverwendbar, für sich selbst und Ihr Team.",
+    "features_data__llama_3_1_70b__tooltip": "Angetrieben von Meta. 128.000 maximale Token. Ein leistungsstarkes mehrsprachiges Modell mit deutlich erweiterter Kontextlänge und verbesserten Denkfähigkeiten. Unterstützt fortgeschrittene Anwendungsfälle wie Langform-Textzusammenfassung, mehrsprachige Konversationsagenten und Kodierungshilfe.",
+    "features_data__llama_3_1_405b__tooltip": "Angetrieben von Meta. 128.000 maximale Token. Das weltweit größte offen verfügbare Grundlagenmodell, das geschlossene KI-Modelle in Allgemeinwissen, Steuerbarkeit und Mathematik herausfordert. Unterstützt 8 Sprachen und ermöglicht fortgeschrittene Fähigkeiten wie die Generierung synthetischer Daten und Modelldestillation. Ideal für Langform-Zusammenfassungen, mehrsprachige Konversationsagenten und Kodierungsassistenten."
   },
   "features__common": {
     "components__upload_button_drop_title": "Hier ablegen"

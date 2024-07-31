@@ -1432,7 +1432,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "Få tilgang til de smarteste AI-modellene, alt på ett sted.",
     "ab_test_v5__features_data__image_ai_queries": "Bilde AI-forespørsler",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "10x din kreativitet og produktivitet med de mest avanserte AI-kunstmodellene.",
-    "ab_test_v5__features_data__search_faster": "Søk raskere",
+    "ab_test_v5__features_data__search_faster": "Få svar",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Spør AI om noe i nettleserens sidefelt",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Chat med alle de beste AI-ene på ett sted",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Søk med AI i nettleserens sidefelt",
@@ -1454,7 +1454,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Oversett",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Forklar",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Tospråklig oversettelse av hele siden",
-    "ab_test_v5__features_data__write_faster": "Skriv raskere",
+    "ab_test_v5__features_data__write_faster": "Skriv bedre",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "AI-omskriver på hvilken som helst side",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Forbedre skriving",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Korrekturles",
@@ -1518,7 +1518,9 @@
     "ab_test_v5__features_data__discord__tooltip": "Spar tid på Discord-meldingskorrespondanse. Svar på meldinger på sekunder med korte notater. Forbedre tonen, sjekk staving og grammatikk. Kommuniser mer effektivt og effektivt.",
     "ab_test_v5__features_data__messenger__tooltip": "Spar tid på Messenger-meldingskorrespondanse. Svar på meldinger på sekunder med korte notater. Forbedre tonen, sjekk staving og grammatikk. Kommuniser mer effektivt og effektivt.",
     "ab_test_v5__features_data__telegram__tooltip": "Spar tid på Telegram-meldingskorrespondanse. Svar på meldinger på sekunder med korte notater. Forbedre tonen, sjekk staving og grammatikk. Kommuniser mer effektivt og effektivt.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Opprett dine egne oppgaver, organiser dem og gjør dem enkle å få tilgang til og gjenbruke, for deg selv og teamet ditt."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Opprett dine egne oppgaver, organiser dem og gjør dem enkle å få tilgang til og gjenbruke, for deg selv og teamet ditt.",
+    "features_data__llama_3_1_70b__tooltip": "Drevet av Meta. 128 000 maks tokens. En kraftig flerspråklig modell med betydelig utvidet kontekstlengde og forbedrede resonneringsevner. Støtter avanserte bruksområder som sammendrag av langtekst, flerspråklige samtaleagenter og kodestøtte.",
+    "features_data__llama_3_1_405b__tooltip": "Drevet av Meta. 128 000 maks tokens. Verdens største åpent tilgjengelige grunnmodell, som konkurrerer med topp lukkede AI-er innen generell kunnskap, styrbarhet og matematikk. Støtter 8 språk og muliggjør avanserte funksjoner som generering av syntetiske data og modelldestillasjon. Ideell for sammendrag av langtekst, flerspråklige samtaleagenter og kodestøtter."
   },
   "features__common": {
     "components__upload_button_drop_title": "Slipp her"

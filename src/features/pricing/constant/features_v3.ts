@@ -66,7 +66,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'Claude-3-haiku',
+      title: 'Claude-3-Haiku',
       icon: 'Claude3Haiku',
       tooltip: {
         desc: 'pricing:ab_test_v5__features_data__claude_3_haiku__tooltip',
@@ -92,6 +92,28 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
       icon: 'GeminiIcon',
       tooltip: {
         desc: 'pricing:ab_test_v5__features_data__gemini_1_5_flash__tooltip',
+      },
+    },
+    free: { status: 'checked' },
+    basic: {
+      status: 'checked',
+    },
+    pro: {
+      status: 'checked',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'Llama-3.1-70B',
+      icon: 'Llama-3-1-70B',
+      tooltip: {
+        desc: 'pricing:features_data__llama_3_1_70b__tooltip',
       },
     },
     free: { status: 'checked' },
@@ -169,7 +191,7 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'Claude-3.5-sonnet',
+      title: 'Claude-3.5-Sonnet',
       icon: 'Claude3_5Icon',
       tooltip: {
         desc: 'pricing:ab_test_v5__features_data__claude_3_5_sonnet__tooltip',
@@ -191,10 +213,32 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
-      title: 'Gemini-1.5-pro',
+      title: 'Gemini-1.5-Pro',
       icon: 'GeminiPro',
       tooltip: {
         desc: 'pricing:ab_test_v5__features_data__gemini_1_5_pro__tooltip',
+      },
+    },
+    free: { status: 'none' },
+    basic: {
+      status: 'none',
+    },
+    pro: {
+      status: 'none',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
+      title: 'Llama-3.1-405B',
+      icon: 'Llama-3-1-405B',
+      tooltip: {
+        desc: 'pricing:features_data__llama_3_1_405b__tooltip',
       },
     },
     free: { status: 'none' },

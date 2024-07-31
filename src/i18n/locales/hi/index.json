@@ -1124,11 +1124,6 @@
     "ai_summary_pages__title": "AI के साथ किसी भी वेबपेज को संक्षेपित करें और पूछें",
     "ai_summary_pages__description": "सारांश और तत्काल उत्तर प्राप्त करके अपने पठन और देखने का समय 90% बचाएं।",
     "ai_summary_pages__section1__title": "जहां आप काम करते हैं, वहीं काम करेगा",
-    "ai_summary_pages__section1__description__item1": "किसी भी वेबपेज",
-    "ai_summary_pages__section1__description__item2": "पीडीएफ",
-    "ai_summary_pages__section1__description__item3": "YouTube वीडियो",
-    "ai_summary_pages__section1__description__item4": "ईमेल",
-    "ai_summary_pages__section1__description__item5": "ब्लॉग आर्टिकल",
     "ai_summary_pages__section2__title": "AI से कुछ भी पूछें",
     "ai_summary_pages__section2__description": "सारांश प्राप्त करने के अलावा, आप किसी भी वेबपेज के बारे में AI से सवाल पूछ सकते हैं और तत्काल उत्तर प्राप्त कर सकते हैं।",
     "ai_summary_pages__section3__title": "अपना खुद का 1-क्लिक सारांशक बनाएं",
@@ -1409,12 +1404,13 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "सभी शीर्षतम AI मॉडल्स तक पहुंचें, सभी एक ही स्थान पर।",
     "ab_test_v5__features_data__image_ai_queries": "छवि AI क्वेरी",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "अपनी रचनात्मकता और उत्पादकता को सबसे उन्नत AI कला मॉडल्स के साथ 10 गुना बढ़ाएं।",
-    "ab_test_v5__features_data__search_faster": "तेज़ खोजें",
+    "ab_test_v5__features_data__search_faster": "उत्तर प्राप्त करें",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "ब्राउज़र साइडबार में AI से कुछ भी पूछें",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "सभी शीर्ष AI के साथ एक ही स्थान पर चैट करें",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "ब्राउज़र साइडबार में AI के साथ खोजें",
     "ab_test_v5__features_data__search_faster__search_with_ai__desc": "विश्वसनीय और अप-टू-डेट उत्तर प्राप्त करें",
-    "ab_test_v5__features_data__read_faster": "तेज़ पढ़ें"
+    "ab_test_v5__features_data__read_faster": "तेज़ पढ़ें",
+    "ab_test_v5__features_data__write_faster": "बेहतर लिखें"
   },
   "features__common": {
     "components__upload_button_drop_title": "यहाँ छोड़ें"

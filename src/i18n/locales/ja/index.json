@@ -1432,7 +1432,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "最もスマートなAIモデルにアクセス、すべて1か所で",
     "ab_test_v5__features_data__image_ai_queries": "画像AIクエリ",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "最も高度なAIアートモデルで創造性と生産性を10倍に",
-    "ab_test_v5__features_data__search_faster": "高速検索",
+    "ab_test_v5__features_data__search_faster": "回答を取得",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "ブラウザサイドバーでAIに何でも尋ねる",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "トップAIとのチャットを1か所で",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "ブラウザサイドバーでAIで検索",
@@ -1454,7 +1454,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "翻訳",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "説明",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "全ページのバイリンガル翻訳",
-    "ab_test_v5__features_data__write_faster": "速く書く",
+    "ab_test_v5__features_data__write_faster": "より良く書く",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "どんなページでもAIリライト",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "執筆を改善",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "校正",
@@ -1518,7 +1518,9 @@
     "ab_test_v5__features_data__discord__tooltip": "Discordメッセージのやり取りに時間を節約します。簡単なメモで数秒でメッセージに返信します。トーンを改善し、スペルと文法を確認します。効果的かつ効率的にコミュニケーションします。",
     "ab_test_v5__features_data__messenger__tooltip": "Messengerメッセージのやり取りに時間を節約します。簡単なメモで数秒でメッセージに返信します。トーンを改善し、スペルと文法を確認します。効果的かつ効率的にコミュニケーションします。",
     "ab_test_v5__features_data__telegram__tooltip": "Telegramメッセージのやり取りに時間を節約します。簡単なメモで数秒でメッセージに返信します。トーンを改善し、スペルと文法を確認します。効果的かつ効率的にコミュニケーションします。",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "プロンプトを作成し、整理し、アクセスと再利用を容易にし、自分自身やチームのために利用します。"
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "プロンプトを作成し、整理し、アクセスと再利用を容易にし、自分自身やチームのために利用します。",
+    "features_data__llama_3_1_70b__tooltip": "Meta製。128,000トークンの最大数。大幅に拡張されたコンテキスト長と強化された推論能力を持つ強力な多言語モデル。長文要約、多言語会話エージェント、コーディング支援などの高度なユースケースをサポート。",
+    "features_data__llama_3_1_405b__tooltip": "Meta製。128,000トークンの最大数。世界最大のオープンな基盤モデルで、一般的な知識、操縦性、数学においてトップのクローズドソースAIと競合。8言語をサポートし、合成データ生成やモデル蒸留などの高度な機能を可能にします。長文要約、多言語会話エージェント、コーディングアシスタントに最適。"
   },
   "features__common": {
     "components__upload_button_drop_title": "ここにドロップ"

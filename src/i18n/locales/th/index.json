@@ -1144,11 +1144,6 @@
     "ai_summary_pages__title": "สรุปและถามเว็บไซต์ใดก็ได้ด้วย AI",
     "ai_summary_pages__description": "ประหยัดเวลาในการอ่านและดูได้ถึง 90% โดยการรับสรุปและคำตอบทันที",
     "ai_summary_pages__section1__title": "ทำงานที่คุณทำงาน",
-    "ai_summary_pages__section1__description__item1": "เว็บไซต์ใดก็ได้",
-    "ai_summary_pages__section1__description__item2": "PDF",
-    "ai_summary_pages__section1__description__item3": "วิดีโอ YouTube",
-    "ai_summary_pages__section1__description__item4": "อีเมล์",
-    "ai_summary_pages__section1__description__item5": "บทความบล็อก",
     "ai_summary_pages__section2__title": "ถาม AI ใด ๆ",
     "ai_summary_pages__section2__description": "นอกจากการรับสรุปแล้ว คุณยังสามารถถาม AI เกี่ยวกับเว็บไซต์ใดก็ได้เพื่อรับคำตอบทันที",
     "ai_summary_pages__section3__title": "สร้างสรุปด้วยการคลิกเดียวของคุณเอง",
@@ -1409,12 +1404,13 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "เข้าถึง AI models ที่ฉลาดที่สุด ทั้งหมดในที่เดียว",
     "ab_test_v5__features_data__image_ai_queries": "คำถาม AI ภาพ",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "เพิ่มความคิดสร้างสรรค์และผลิตภัณฑ์ได้มากขึ้น ด้วย AI art models ที่ทันสมัยที่สุด",
-    "ab_test_v5__features_data__search_faster": "ค้นหาได้เร็วขึ้น",
+    "ab_test_v5__features_data__search_faster": "ได้รับคำตอบ",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "ถาม AI อะไรก็ได้ใน browser sidebar",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "สนทนากับ AI ที่ดีที่สุดทั้งหมดในที่เดียว",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "ค้นหาด้วย AI ใน browser sidebar",
     "ab_test_v5__features_data__search_faster__search_with_ai__desc": "ได้คำตอบที่น่าเชื่อถือและอัพเดท",
-    "ab_test_v5__features_data__read_faster": "อ่านได้เร็วขึ้น"
+    "ab_test_v5__features_data__read_faster": "อ่านได้เร็วขึ้น",
+    "ab_test_v5__features_data__write_faster": "เขียนดีขึ้น"
   },
   "features__common": {
     "components__upload_button_drop_title": "วางที่นี่"

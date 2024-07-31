@@ -1432,7 +1432,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "Přístup k nejchytřejším modelům AI, vše na jednom místě.",
     "ab_test_v5__features_data__image_ai_queries": "Dotazy na obrázky AI",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "Zvětšete svou kreativitu a produktivitu o 10x s nejmodernějšími modely umělé inteligence pro tvorbu umění.",
-    "ab_test_v5__features_data__search_faster": "Vyhledávejte rychleji",
+    "ab_test_v5__features_data__search_faster": "Získejte odpovědi",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Zeptejte se AI na cokoli v postranní liště prohlížeče",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Chatujte s nejlepšími AI na jednom místě",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Vyhledávejte s AI v postranní liště prohlížeče",
@@ -1454,7 +1454,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Přeložit",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Vysvětlit",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Dvojjazyčný překlad celé stránky",
-    "ab_test_v5__features_data__write_faster": "Psát rychleji",
+    "ab_test_v5__features_data__write_faster": "Pište lépe",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "AI přepisovač na libovolné stránce",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Vylepšit psaní",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Kontrolovat pravopis",
@@ -1518,7 +1518,9 @@
     "ab_test_v5__features_data__discord__tooltip": "Ušetřete čas při korespondenci zprávami na Discordu. Odpovídejte na zprávy během vteřin s krátkými poznámkami. Zlepšete tón, zkontrolujte pravopis a gramatiku. Komunikujte efektivněji a efektivněji.",
     "ab_test_v5__features_data__messenger__tooltip": "Ušetřete čas při korespondenci zprávami na Messengeru. Odpovídejte na zprávy během vteřin s krátkými poznámkami. Zlepšete tón, zkontrolujte pravopis a gramatiku. Komunikujte efektivněji a efektivněji.",
     "ab_test_v5__features_data__telegram__tooltip": "Ušetřete čas při korespondenci zprávami na Telegramu. Odpovídejte na zprávy během vteřin s krátkými poznámkami. Zlepšete tón, zkontrolujte pravopis a gramatiku. Komunikujte efektivněji a efektivněji.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Vytvořte své vlastní nástroje, organizujte je a učiňte je snadno přístupnými a opakovaně využitelnými, pro sebe i váš tým."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Vytvořte své vlastní nástroje, organizujte je a učiňte je snadno přístupnými a opakovaně využitelnými, pro sebe i váš tým.",
+    "features_data__llama_3_1_70b__tooltip": "Poháněno Meta. 128 000 maximálních tokenů. Výkonný vícejazyčný model s výrazně rozšířenou délkou kontextu a zdokonalenými schopnostmi uvažování. Podporuje pokročilé použití jako shrnutí textu ve formě dlouhého textu, vícejazyčné konverzační agenty a asistenci při programování.",
+    "features_data__llama_3_1_405b__tooltip": "Poháněno Meta. 128 000 maximálních tokenů. Největší otevřeně dostupný model základů na světě, konkuruje nejlepším uzavřeným zdrojům umělé inteligence v obecných znalostech, řiditelnosti a matematice. Podporuje 8 jazyků a umožňuje pokročilé schopnosti jako generování syntetických dat a destilaci modelu. Ideální pro shrnutí ve formě dlouhého textu, vícejazyčné konverzační agenty a asistenty při programování."
   },
   "features__common": {
     "components__upload_button_drop_title": "Přetáhněte sem"

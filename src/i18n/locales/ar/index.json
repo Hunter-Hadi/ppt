@@ -1432,7 +1432,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "الوصول إلى أذكى نماذج الذكاء الاصطناعي، كلها في مكان واحد.",
     "ab_test_v5__features_data__image_ai_queries": "استعلامات الصور الذكاء الاصطناعي",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "10 مرات إبداعك وإنتاجيتك مع أكثر نماذج الفن الذكاء الاصطناعي تقدمًا.",
-    "ab_test_v5__features_data__search_faster": "البحث بشكل أسرع",
+    "ab_test_v5__features_data__search_faster": "الحصول على الإجابات",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "اسأل الذكاء الاصطناعي عن أي شيء في شريط الجانب للمتصفح",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "دردش مع أفضل الذكاء الاصطناعي في مكان واحد",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "ابحث بمساعدة الذكاء الاصطناعي في شريط الجانب للمتصفح",
@@ -1454,7 +1454,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "ترجمة",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "شرح",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "ترجمة ثنائية الصفحة كاملة",
-    "ab_test_v5__features_data__write_faster": "الكتابة بسرعة",
+    "ab_test_v5__features_data__write_faster": "كتابة أفضل",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "إعادة صياغة AI على أي صفحة",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "تحسين الكتابة",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "مراجعة",
@@ -1518,7 +1518,9 @@
     "ab_test_v5__features_data__discord__tooltip": "وفر الوقت في المراسلة عبر رسائل Discord. ارد على الرسائل في ثوانٍ بملاحظات موجزة. قم بتحسين اللهجة، وتحقق من الإملاء والنحو. تواصل بفعالية وكفاءة أكبر.",
     "ab_test_v5__features_data__messenger__tooltip": "وفر الوقت في المراسلة عبر رسائل Messenger. ارد على الرسائل في ثوانٍ بملاحظات موجزة. قم بتحسين اللهجة، وتحقق من الإملاء والنحو. تواصل بفعالية وكفاءة أكبر.",
     "ab_test_v5__features_data__telegram__tooltip": "وفر الوقت في المراسلة عبر رسائل Telegram. ارد على الرسائل في ثوانٍ بملاحظات موجزة. قم بتحسين اللهجة، وتحقق من الإملاء والنحو. تواصل بفعالية وكفاءة أكبر.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "أنشئ معادك الخاص، ونظمها، واجعلها سهلة الوصول وإعادة الاستخام، لنفسك وفريقك."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "أنشئ معادك الخاص، ونظمها، واجعلها سهلة الوصول وإعادة الاستخام، لنفسك وفريقك.",
+    "features_data__llama_3_1_70b__tooltip": "مدعوم بواسطة ميتا. 128,000 رمزًا كحد أقصى. نموذج متعدد اللغات قوي بطول سياق موسع بشكل كبير وقدرات استدلال محسنة. يدعم حالات الاستخدام المتقدمة مثل تلخيص النصوص طويلة الشكل، ووكلاء المحادثة متعددي اللغات، ومساعدة البرمجة.",
+    "features_data__llama_3_1_405b__tooltip": "مدعوم بواسطة ميتا. 128,000 رمزًا كحد أقصى. أكبر نموذج أساسي متاح بشكل مفتوح في العالم، ينافس أعلى نماذج الذكاء الاصطناعي المغلقة في المعرفة العامة، والقابلية للتوجيه والرياضيات. يدعم 8 لغات ويمكنه تمكين قدرات متقدمة مثل توليد البيانات الاصطناعية وتقليص النموذج. مثالي لتلخيص النصوص طويلة الشكل، ووكلاء المحادثة متعددي اللغات، ومساعدي البرمجة."
   },
   "features__common": {
     "components__upload_button_drop_title": "اسحب هنا"

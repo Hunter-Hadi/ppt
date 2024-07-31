@@ -1432,7 +1432,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "Dostęp do najinteligentniejszych modeli AI, wszystko w jednym miejscu.",
     "ab_test_v5__features_data__image_ai_queries": "Zapytania AI obrazów",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "Zwiększ swoją kreatywność i produktywność dziesięciokrotnie dzięki najbardziej zaawansowanym modelom sztuki AI.",
-    "ab_test_v5__features_data__search_faster": "Szybsze wyszukiwanie",
+    "ab_test_v5__features_data__search_faster": "Uzyskaj odpowiedzi",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Zapytaj AI cokolwiek w pasku bocznym przeglądarki",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Rozmawiaj z najlepszymi modelami AI w jednym miejscu",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Wyszukaj z AI w pasku bocznym przeglądarki",
@@ -1454,7 +1454,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Tłumacz",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Wyjaśnij",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Tłumaczenie dwujęzyczne całej strony",
-    "ab_test_v5__features_data__write_faster": "Pisz szybciej",
+    "ab_test_v5__features_data__write_faster": "Pisz lepiej",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "Przepisywacz AI na dowolnej stronie",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Popraw pisanie",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Korekta",
@@ -1518,7 +1518,9 @@
     "ab_test_v5__features_data__discord__tooltip": "Oszczędź czas na korespondencji wiadomości w Discordzie. Odpowiadaj na wiadomości w sekundach za pomocą krótkich notatek. Popraw ton, sprawdź pisownię i gramatykę. Komunikuj się skuteczniej i efektywniej.",
     "ab_test_v5__features_data__messenger__tooltip": "Oszczędź czas na korespondencji wiadomości w Messengerze. Odpowiadaj na wiadomości w sekundach za pomocą krótkich notatek. Popraw ton, sprawdź pisownię i gramatykę. Komunikuj się skuteczniej i efektywniej.",
     "ab_test_v5__features_data__telegram__tooltip": "Oszczędź czas na korespondencji wiadomości w Telegramie. Odpowiadaj na wiadomości w sekundach za pomocą krótkich notatek. Popraw ton, sprawdź pisownię i gramatykę. Komunikuj się skuteczniej i efektywniej.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Stwórz własne podpowiedzi, zorganizuj je i ułatw dostęp i ponowne wykorzystanie, dla siebie i swojego zespołu."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Stwórz własne podpowiedzi, zorganizuj je i ułatw dostęp i ponowne wykorzystanie, dla siebie i swojego zespołu.",
+    "features_data__llama_3_1_70b__tooltip": "Napędzany przez Meta. Maksymalnie 128 000 tokenów. Potężny wielojęzyczny model z znacznie zwiększoną długością kontekstu i ulepszonymi zdolnościami wnioskowania. Obsługuje zaawansowane przypadki użycia, takie jak podsumowywanie tekstu w formie długiej, wielojęzyczne agenty konwersacyjne i pomoc w kodowaniu.",
+    "features_data__llama_3_1_405b__tooltip": "Napędzany przez Meta. Maksymalnie 128 000 tokenów. Największy na świecie otwarty model bazowy, dorównujący najlepszym zamkniętym źródłom AI pod względem wiedzy ogólnej, sterowalności i matematyki. Obsługuje 8 języków i umożliwia zaawansowane możliwości, takie jak generowanie danych syntetycznych i destylacja modelu. Idealny do podsumowywania tekstu w formie długiej, wielojęzycznych agentów konwersacyjnych i asystentów do kodowania."
   },
   "features__common": {
     "components__upload_button_drop_title": "Upuść tutaj"

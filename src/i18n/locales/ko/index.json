@@ -1432,7 +1432,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "한 곳에서 가장 스마트한 AI 모델에 액세스하세요.",
     "ab_test_v5__features_data__image_ai_queries": "이미지 AI 쿼리",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "가장 고급 AI 아트 모델로 창의성과 생산성을 10배 높이세요.",
-    "ab_test_v5__features_data__search_faster": "빠른 검색",
+    "ab_test_v5__features_data__search_faster": "답변 얻기",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "브라우저 사이드바에서 AI에게 무엇이든 물어보세요",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "한 곳에서 최고의 AI와 채팅",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "브라우저 사이드바에서 AI로 검색",
@@ -1454,7 +1454,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "번역",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "설명",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "전체 페이지 이중 언어 번역",
-    "ab_test_v5__features_data__write_faster": "빠르게 쓰기",
+    "ab_test_v5__features_data__write_faster": "더 나은 글쓰기",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "모든 페이지의 AI 리라이터",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "글쓰기 개선",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "교정",
@@ -1518,7 +1518,9 @@
     "ab_test_v5__features_data__discord__tooltip": "Discord 메시지 대화에 시간을 절약하세요. 간단한 노트로 메시지에 빠르게 회신하세요. 어조를 개선하고 맞춤법을 확인하세요. 효과적이고 효율적으로 소통하세요.",
     "ab_test_v5__features_data__messenger__tooltip": "Messenger 메시지 대화에 시간을 절약하세요. 간단한 노트로 메시지에 빠르게 회신하세요. 어조를 개선하고 맞춤법을 확인하세요. 효과적이고 효율적으로 소통하세요.",
     "ab_test_v5__features_data__telegram__tooltip": "Telegram 메시지 대화에 시간을 절약하세요. 간단한 노트로 메시지에 빠르게 회신하세요. 어조를 개선하고 맞춤법을 확인하세요. 효과적이고 효율적으로 소통하세요.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "자신만의 프롬프트를 만들고 정리하여 쉽게 접근하고 재사용하기 쉽게 만들어서 팀원들과 함께 사용하세요."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "자신만의 프롬프트를 만들고 정리하여 쉽게 접근하고 재사용하기 쉽게 만들어서 팀원들과 함께 사용하세요.",
+    "features_data__llama_3_1_70b__tooltip": "메타에서 제공. 최대 128,000 토큰. 확장된 컨텍스트 길이와 향상된 추론 능력을 갖춘 강력한 다국어 모델. 긴 형식의 텍스트 요약, 다국어 대화형 에이전트, 코딩 지원과 같은 고급 사용 사례를 지원합니다.",
+    "features_data__llama_3_1_405b__tooltip": "메타에서 제공. 최대 128,000 토큰. 세계에서 가장 큰 공개된 재단 모델로, 일반적인 지식, 조종성 및 수학에서 최고의 폐쇄형 AI와 경쟁합니다. 8개 언어를 지원하며, 합성 데이터 생성 및 모델 증류와 같은 고급 기능을 가능하게 합니다. 긴 형식 요약, 다국어 대화형 에이전트, 코딩 어시스턴트에 이상적입니다."
   },
   "features__common": {
     "components__upload_button_drop_title": "여기에 놓으세요"

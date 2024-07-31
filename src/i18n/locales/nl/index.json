@@ -1432,7 +1432,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "Toegang tot de slimste AI-modellen, allemaal op één plek.",
     "ab_test_v5__features_data__image_ai_queries": "Afbeelding AI-vragen",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "Verhoog uw creativiteit en productiviteit met de meest geavanceerde AI-kunstmodellen.",
-    "ab_test_v5__features_data__search_faster": "Sneller zoeken",
+    "ab_test_v5__features_data__search_faster": "Krijg antwoorden",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Vraag AI iets in de browser zijbalk",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Chat met alle beste AI op één plek",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Zoek met AI in de browser zijbalk",
@@ -1454,7 +1454,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Vertalen",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Uitleggen",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Volledige tweetalige vertaling",
-    "ab_test_v5__features_data__write_faster": "Sneller schrijven",
+    "ab_test_v5__features_data__write_faster": "Schrijf beter",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "AI herschrijver op elke pagina",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Schrijven verbeteren",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Controleren",
@@ -1518,7 +1518,9 @@
     "ab_test_v5__features_data__telegram__tooltip": "Bespaar tijd bij Telegram-berichtcorrespondentie. Reageer op berichten in enkele seconden met korte notities. Verbeter toon, controleer spelling en grammatica. Communiceer effectiever en efficiënter.",
     "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Maak je eigen prompts, organiseer ze en maak ze gemakkelijk toegankelijk en herbruikbaar, voor jezelf en je team.",
     "ab_test_v5__features_data__write_faster__social_media_instant_reply": "Direct antwoord op sociale media",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply": "Direct antwoord op berichten"
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply": "Direct antwoord op berichten",
+    "features_data__llama_3_1_70b__tooltip": "Aangedreven door Meta. 128.000 max tokens. Een krachtig meertalig model met aanzienlijk uitgebreide contextlengte en verbeterde redeneervermogen. Ondersteunt geavanceerde gebruiksscenario's zoals samenvatting van lange teksten, meertalige conversatie-agenten en coderingsondersteuning.",
+    "features_data__llama_3_1_405b__tooltip": "Aangedreven door Meta. 128.000 max tokens. 's Werelds grootste openlijk beschikbare foundation model, dat de top gesloten-source AI evenaart in algemene kennis, stuurbaarheid en wiskunde. Ondersteunt 8 talen en maakt geavanceerde mogelijkheden mogelijk zoals generatie van synthetische data en modeldestillatie. Ideaal voor samenvatting van lange teksten, meertalige conversatie-agenten en coderingsassistenten."
   },
   "features__common": {
     "components__upload_button_drop_title": "Plaats hier"
