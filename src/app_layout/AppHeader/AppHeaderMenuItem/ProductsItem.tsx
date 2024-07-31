@@ -194,7 +194,9 @@ const ProductsItem: FC<IProps> = ({ isSmallScreen }) => {
                         fontWeight={400}
                         color='text.primary'
                       >
-                        {t(secondaryMenuItem.title)}
+                        {secondaryMenuItem.title.includes(':')
+                          ? t(secondaryMenuItem.title)
+                          : secondaryMenuItem.title}
                       </Typography>
                     </ProLink>
                   </MenuItem>
@@ -240,7 +242,9 @@ const ProductsItem: FC<IProps> = ({ isSmallScreen }) => {
                     }
                   >
                     <Typography variant='custom' fontSize={16} lineHeight={1.5}>
-                      {t(secondaryMenuItem.title)}
+                      {secondaryMenuItem.title.includes(':')
+                        ? t(secondaryMenuItem.title)
+                        : secondaryMenuItem.title}
                     </Typography>
                   </ProLink>
                 ))}

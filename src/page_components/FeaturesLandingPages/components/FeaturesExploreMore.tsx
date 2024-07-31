@@ -6,7 +6,6 @@ import { useRouter } from 'next/router'
 import { useTranslation } from 'next-i18next'
 import React, { FC, useEffect } from 'react'
 
-import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester'
 import CallToActionSection from '@/features/landing/components/CallToActionSection'
 import FeaturesContentAbTestV7AutoVideo from '@/features/landing/components/FeaturesCarousel/FeaturesContentAbTestV7SlideAutoVideo'
 import HeroSection from '@/features/landing/components/HeroSection'
@@ -23,8 +22,6 @@ interface IProps {
 const FeaturesExploreMore: FC<IProps> = ({ propRef, sx }) => {
   const { t } = useTranslation()
   const { isReady, asPath } = useRouter()
-
-  useLandingABTester(true)
 
   useEffect(() => {
     if (isReady && asPath) {

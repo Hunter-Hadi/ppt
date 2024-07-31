@@ -18,15 +18,19 @@ import HeroSection from './HeroSection'
 
 const HowItWork = dynamic(() => import('./HowItWork'), {
   loading: () => <AppLoadingLayout loading />,
+  ssr: false,
 })
 const MaxAIInNumbers = dynamic(() => import('./MaxAIInNumbers'), {
   loading: () => <AppLoadingLayout loading />,
+  ssr: false,
 })
 const TrustedBy = dynamic(() => import('./TrustedBy'), {
   loading: () => <AppLoadingLayout loading />,
+  ssr: false,
 })
 const UserComment = dynamic(() => import('./UserComment'), {
   loading: () => <AppLoadingLayout loading />,
+  ssr: false,
 })
 
 interface IProps {

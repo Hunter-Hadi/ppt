@@ -129,13 +129,13 @@ const AppFooter = () => {
                   title={t('app_footer:download__title')}
                   data={[
                     {
-                      label: 'MaxAI for Chrome',
+                      label: () => 'MaxAI for Chrome',
                       // icon: <CustomIcon icon='Chrome' />,
                       target: '_blank',
                       link: APP_EXTERNAL_LINKS.CHROME_EXTENSION,
                     },
                     {
-                      label: 'MaxAI for Edge',
+                      label: () => 'MaxAI for Edge',
                       // icon: <CustomIcon icon='Edge' />,
                       target: '_blank',
                       link: APP_EXTERNAL_LINKS.EDGE_EXTENSION,

@@ -37,7 +37,11 @@ const useAutoRedirectLanguage = () => {
   const { pathname, isReady, asPath } = useRouter()
 
   useEffect(() => {
-    if (!isReady || !checkNeedAutoRedirect(pathname)) {
+    if (
+      typeof window === 'undefined' ||
+      !checkNeedAutoRedirect(pathname) ||
+      !isReady
+    ) {
       setAutoRedirectDone(true)
       return
     }
