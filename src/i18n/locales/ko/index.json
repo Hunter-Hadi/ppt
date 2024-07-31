@@ -1773,7 +1773,8 @@
     "components__unlock_pdf_detail_input_placeholder": "암호",
     "components__unlock_pdf_detail__button__unlock": "해제",
     "components__unlock_pdf_detail__button__convert": "다른 파일 변환",
-    "components__unlock_pdf_detail__incorrect_password_tips": "잘못된 암호"
+    "components__unlock_pdf_detail__incorrect_password_tips": "잘못된 암호",
+    "components__unlock_pdf_detail__use_tips": "암호 및 PDF 파일이 서버에 업로드되지 않아 보안이 보장됩니다."
   },
   "pages__pdf_tools__protect_pdf": {
     "title": "PDF 보호",
@@ -1808,6 +1809,7 @@
     "components__protect_pdf_detail__type_password": " 암호 입력",
     "components__protect_pdf_detail__repeat_type_password": "암호 반복",
     "components__protect_pdf_detail__input__placeholder": "암호를 설정하세요",
-    "components__protect_pdf_detail__repeat_input__placeholder": "비밀번호를 확인하세요"
+    "components__protect_pdf_detail__repeat_input__placeholder": "비밀번호를 확인하세요",
+    "components__protect_pdf_detail__use_tips": "암호 및 PDF 파일이 서버에 업로드되지 않아 보안이 보장됩니다."
   }
 }

@@ -216,6 +216,17 @@ const FunctionalityUnlockPdfDetail: FC<IFunctionalityUnlockPdfDetail> = ({
                   ),
                 }}
               />
+              <Box sx={{ mt: 0.5 }}>
+                <Typography
+                  variant='custom'
+                  color='text.secondary'
+                  fontSize={14}
+                >
+                  {t(
+                    'functionality__unlock_pdf:components__unlock_pdf_detail__use_tips',
+                  )}
+                </Typography>
+              </Box>
             </Box>
           </Grid>
         </Grid>

@@ -1773,7 +1773,8 @@
     "components__unlock_pdf_detail_input_placeholder": "Wachtwoord",
     "components__unlock_pdf_detail__button__unlock": "Ontgrendelen",
     "components__unlock_pdf_detail__button__convert": "Een ander converteren",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Onjuist wachtwoord"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Onjuist wachtwoord",
+    "components__unlock_pdf_detail__use_tips": "Het wachtwoord en PDF-bestanden worden niet geüpload naar de server, wat zorgt voor beveiliging."
   },
   "pages__pdf_tools__protect_pdf": {
     "title": "Beveilig PDF",
@@ -1808,6 +1809,7 @@
     "components__protect_pdf_detail__type_password": " Typ wachtwoord",
     "components__protect_pdf_detail__repeat_type_password": "Herhaal wachtwoord",
     "components__protect_pdf_detail__input__placeholder": "Stel uw wachtwoord in",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Bevestig uw wachtwoord"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Bevestig uw wachtwoord",
+    "components__protect_pdf_detail__use_tips": "Het wachtwoord en PDF-bestanden worden niet geüpload naar de server, wat zorgt voor beveiliging."
   }
 }

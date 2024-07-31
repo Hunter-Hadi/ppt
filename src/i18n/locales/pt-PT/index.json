@@ -1773,7 +1773,8 @@
     "components__unlock_pdf_detail_input_placeholder": "Palavra-passe",
     "components__unlock_pdf_detail__button__unlock": "Desbloquear",
     "components__unlock_pdf_detail__button__convert": "Converter outro",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Palavra-passe incorreta"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Palavra-passe incorreta",
+    "components__unlock_pdf_detail__use_tips": "A palavra-passe e os ficheiros PDF não serão carregados para o servidor, garantindo segurança."
   },
   "pages__pdf_tools__protect_pdf": {
     "title": "Proteger PDF",
@@ -1808,6 +1809,7 @@
     "components__protect_pdf_detail__type_password": " Digite a senha",
     "components__protect_pdf_detail__repeat_type_password": "Repetir senha",
     "components__protect_pdf_detail__input__placeholder": "Defina sua senha",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Confirme a sua palavra-passe"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Confirme a sua palavra-passe",
+    "components__protect_pdf_detail__use_tips": "A palavra-passe e os ficheiros PDF não serão carregados para o servidor, garantindo segurança."
   }
 }

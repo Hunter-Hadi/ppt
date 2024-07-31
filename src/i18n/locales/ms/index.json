@@ -1773,7 +1773,8 @@
     "components__unlock_pdf_detail_input_placeholder": "Kata Laluan",
     "components__unlock_pdf_detail__button__unlock": "Buka",
     "components__unlock_pdf_detail__button__convert": "Alihkan yang lain",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Kata laluan tidak betul"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Kata laluan tidak betul",
+    "components__unlock_pdf_detail__use_tips": "Kata laluan dan fail PDF tidak akan dimuat naik ke pelayan, memastikan keselamatan."
   },
   "pages__pdf_tools__protect_pdf": {
     "title": "Lindungi PDF",
@@ -1808,6 +1809,7 @@
     "components__protect_pdf_detail__type_password": " Taip kata laluan",
     "components__protect_pdf_detail__repeat_type_password": "Ulang kata laluan",
     "components__protect_pdf_detail__input__placeholder": "Tetapkan kata laluan anda",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Sahkan kata laluan anda"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Sahkan kata laluan anda",
+    "components__protect_pdf_detail__use_tips": "Kata laluan dan fail PDF tidak akan dimuat naik ke pelayan, memastikan keselamatan."
   }
 }

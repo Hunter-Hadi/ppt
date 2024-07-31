@@ -1773,7 +1773,8 @@
     "components__unlock_pdf_detail_input_placeholder": "Mật khẩu",
     "components__unlock_pdf_detail__button__unlock": "Mở Khóa",
     "components__unlock_pdf_detail__button__convert": "Chuyển đổi khác",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Mật khẩu không chính xác"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Mật khẩu không chính xác",
+    "components__unlock_pdf_detail__use_tips": "Mật khẩu và tệp PDF sẽ không được tải lên máy chủ, đảm bảo an toàn."
   },
   "pages__pdf_tools__protect_pdf": {
     "title": "Bảo vệ PDF",
@@ -1808,6 +1809,7 @@
     "components__protect_pdf_detail__type_password": " Nhập mật khẩu",
     "components__protect_pdf_detail__repeat_type_password": "Nhập lại mật khẩu",
     "components__protect_pdf_detail__input__placeholder": "Đặt mật khẩu của bạn",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Xác nhận mật khẩu của bạn"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Xác nhận mật khẩu của bạn",
+    "components__protect_pdf_detail__use_tips": "Mật khẩu và tệp PDF sẽ không được tải lên máy chủ, đảm bảo an toàn."
   }
 }

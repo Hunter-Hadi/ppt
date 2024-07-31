@@ -231,6 +231,13 @@ const FunctionalityProtectPdfDetail: FC<
               }}
             />
           </Box>
+          <Box sx={{ mt: 0.5 }}>
+            <Typography variant='custom' color='text.secondary' fontSize={14}>
+              {t(
+                'functionality__protect_pdf:components__protect_pdf_detail__use_tips',
+              )}
+            </Typography>
+          </Box>
         </Grid>
       </Grid>
       <Box mt={5}>

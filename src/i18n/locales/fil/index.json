@@ -1773,7 +1773,8 @@
     "components__unlock_pdf_detail_input_placeholder": "Password",
     "components__unlock_pdf_detail__button__unlock": "Buksan",
     "components__unlock_pdf_detail__button__convert": "I-convert ang isa pa",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Maling password"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Maling password",
+    "components__unlock_pdf_detail__use_tips": "Ang password at mga file ng PDF ay hindi ia-upload sa server, tiyaking ligtas."
   },
   "pages__pdf_tools__protect_pdf": {
     "title": "Protektahan ang PDF",
@@ -1808,6 +1809,7 @@
     "components__protect_pdf_detail__type_password": " Magtakda ng password",
     "components__protect_pdf_detail__repeat_type_password": "Ulitin ang password",
     "components__protect_pdf_detail__input__placeholder": "Itakda ang iyong password",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Kumpirmahin ang iyong password"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Kumpirmahin ang iyong password",
+    "components__protect_pdf_detail__use_tips": "Ang password at mga file ng PDF ay hindi ia-upload sa server, tiyaking ligtas."
   }
 }

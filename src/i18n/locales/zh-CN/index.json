@@ -1773,7 +1773,8 @@
     "components__unlock_pdf_detail_input_placeholder": "密码",
     "components__unlock_pdf_detail__button__unlock": "解锁",
     "components__unlock_pdf_detail__button__convert": "转换另一个",
-    "components__unlock_pdf_detail__incorrect_password_tips": "密码错误"
+    "components__unlock_pdf_detail__incorrect_password_tips": "密码错误",
+    "components__unlock_pdf_detail__use_tips": "密码和PDF文件不会上传到服务器，确保安全。"
   },
   "pages__pdf_tools__protect_pdf": {
     "title": "保护PDF",
@@ -1808,6 +1809,7 @@
     "components__protect_pdf_detail__type_password": " 输入密码",
     "components__protect_pdf_detail__repeat_type_password": "重复密码",
     "components__protect_pdf_detail__input__placeholder": "设置您的密码",
-    "components__protect_pdf_detail__repeat_input__placeholder": "确认您的密码"
+    "components__protect_pdf_detail__repeat_input__placeholder": "确认您的密码",
+    "components__protect_pdf_detail__use_tips": "密码和PDF文件不会上传到服务器，确保安全。"
   }
 }

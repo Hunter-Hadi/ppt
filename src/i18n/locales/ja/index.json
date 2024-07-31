@@ -1773,7 +1773,8 @@
     "components__unlock_pdf_detail_input_placeholder": "パスワード",
     "components__unlock_pdf_detail__button__unlock": "解除",
     "components__unlock_pdf_detail__button__convert": "別のファイルに変換",
-    "components__unlock_pdf_detail__incorrect_password_tips": "パスワードが間違っています"
+    "components__unlock_pdf_detail__incorrect_password_tips": "パスワードが間違っています",
+    "components__unlock_pdf_detail__use_tips": "パスワードとPDFファイルはサーバーにアップロードされず、セキュリティが確保されます。"
   },
   "pages__pdf_tools__protect_pdf": {
     "title": "PDF 保護",
@@ -1808,6 +1809,7 @@
     "components__protect_pdf_detail__type_password": " パスワードを入力",
     "components__protect_pdf_detail__repeat_type_password": "パスワードを再入力",
     "components__protect_pdf_detail__input__placeholder": "パスワードを設定",
-    "components__protect_pdf_detail__repeat_input__placeholder": "パスワードを確認"
+    "components__protect_pdf_detail__repeat_input__placeholder": "パスワードを確認",
+    "components__protect_pdf_detail__use_tips": "パスワードとPDFファイルはサーバーにアップロードされず、セキュリティが確保されます。"
   }
 }

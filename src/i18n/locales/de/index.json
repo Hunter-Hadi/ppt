@@ -1773,7 +1773,8 @@
     "components__unlock_pdf_detail_input_placeholder": "Passwort",
     "components__unlock_pdf_detail__button__unlock": "Entsperren",
     "components__unlock_pdf_detail__button__convert": "Ein anderes konvertieren",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Falsches Passwort"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Falsches Passwort",
+    "components__unlock_pdf_detail__use_tips": "Das Passwort und die PDF-Dateien werden nicht auf den Server hochgeladen, um die Sicherheit zu gewährleisten."
   },
   "pages__pdf_tools__protect_pdf": {
     "title": "PDF schützen",
@@ -1808,6 +1809,7 @@
     "components__protect_pdf_detail__type_password": " Passwort eingeben",
     "components__protect_pdf_detail__repeat_type_password": "Passwort wiederholen",
     "components__protect_pdf_detail__input__placeholder": "Legen Sie Ihr Passwort fest",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Bestätigen Sie Ihr Passwort"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Bestätigen Sie Ihr Passwort",
+    "components__protect_pdf_detail__use_tips": "Das Passwort und die PDF-Dateien werden nicht auf den Server hochgeladen, um die Sicherheit zu gewährleisten."
   }
 }

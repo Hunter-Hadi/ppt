@@ -1773,7 +1773,8 @@
     "components__unlock_pdf_detail_input_placeholder": "Пароль",
     "components__unlock_pdf_detail__button__unlock": "Разблокировать",
     "components__unlock_pdf_detail__button__convert": "Преобразовать другой",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Неверный пароль"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Неверный пароль",
+    "components__unlock_pdf_detail__use_tips": "Пароль и файлы PDF не будут загружены на сервер, обеспечивая безопасность."
   },
   "pages__pdf_tools__protect_pdf": {
     "title": "Защитить PDF",
@@ -1808,6 +1809,7 @@
     "components__protect_pdf_detail__type_password": " Введите пароль",
     "components__protect_pdf_detail__repeat_type_password": "Повторите пароль",
     "components__protect_pdf_detail__input__placeholder": "Установите ваш пароль",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Подтвердите ваш пароль"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Подтвердите ваш пароль",
+    "components__protect_pdf_detail__use_tips": "Пароль и файлы PDF не будут загружены на сервер, обеспечивая безопасность."
   }
 }

@@ -1773,7 +1773,8 @@
     "components__unlock_pdf_detail_input_placeholder": "Hasło",
     "components__unlock_pdf_detail__button__unlock": "Odblokuj",
     "components__unlock_pdf_detail__button__convert": "Konwertuj inny",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Nieprawidłowe hasło"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Nieprawidłowe hasło",
+    "components__unlock_pdf_detail__use_tips": "Hasło i pliki PDF nie zostaną przesłane na serwer, co zapewnia bezpieczeństwo."
   },
   "pages__pdf_tools__protect_pdf": {
     "title": "Zabezpiecz plik PDF",
@@ -1808,6 +1809,7 @@
     "components__protect_pdf_detail__type_password": " Wprowadź hasło",
     "components__protect_pdf_detail__repeat_type_password": "Powtórz hasło",
     "components__protect_pdf_detail__input__placeholder": "Ustaw swoje hasło",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Potwierdź hasło"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Potwierdź hasło",
+    "components__protect_pdf_detail__use_tips": "Hasło i pliki PDF nie zostaną przesłane na serwer, co zapewnia bezpieczeństwo."
   }
 }

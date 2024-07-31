@@ -1773,7 +1773,8 @@
     "components__unlock_pdf_detail_input_placeholder": "Heslo",
     "components__unlock_pdf_detail__button__unlock": "Odemknout",
     "components__unlock_pdf_detail__button__convert": "Převést další",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Nesprávné heslo"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Nesprávné heslo",
+    "components__unlock_pdf_detail__use_tips": "Heslo a soubory PDF nebudou nahrány na server, což zajišťuje bezpečnost."
   },
   "pages__pdf_tools__protect_pdf": {
     "title": "Ochrana PDF",
@@ -1808,6 +1809,7 @@
     "components__protect_pdf_detail__type_password": " Zadejte heslo",
     "components__protect_pdf_detail__repeat_type_password": "Zopakujte heslo",
     "components__protect_pdf_detail__input__placeholder": "Nastavte své heslo",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Potvrďte své heslo"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Potvrďte své heslo",
+    "components__protect_pdf_detail__use_tips": "Heslo a soubory PDF nebudou nahrány na server, což zajišťuje bezpečnost."
   }
 }

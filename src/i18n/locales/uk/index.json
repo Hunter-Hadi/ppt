@@ -1773,7 +1773,8 @@
     "components__unlock_pdf_detail_input_placeholder": "پاسورڈ",
     "components__unlock_pdf_detail__button__unlock": "کھولیں",
     "components__unlock_pdf_detail__button__convert": "دوسرا تبدیل کریں",
-    "components__unlock_pdf_detail__incorrect_password_tips": "غلط پاسورڈ"
+    "components__unlock_pdf_detail__incorrect_password_tips": "غلط پاسورڈ",
+    "components__unlock_pdf_detail__use_tips": "پاسورڈ اور پی ڈی ایف فائلیں سرور پر اپ لوڈ نہیں ہوں گی، توازن کی یقینیت۔"
   },
   "pages__pdf_tools__protect_pdf": {
     "title": "پی ڈی ایف کی حفاظت",
@@ -1808,6 +1809,7 @@
     "components__protect_pdf_detail__type_password": " پاسورڈ ٹائپ کریں",
     "components__protect_pdf_detail__repeat_type_password": "پاسورڈ دوبارہ ٹائپ کریں",
     "components__protect_pdf_detail__input__placeholder": "اپنا پاسورڈ سیٹ کریں",
-    "components__protect_pdf_detail__repeat_input__placeholder": "آپنا پاس ورڈ تصدیق کریں"
+    "components__protect_pdf_detail__repeat_input__placeholder": "آپنا پاس ورڈ تصدیق کریں",
+    "components__protect_pdf_detail__use_tips": "پاسورڈ اور پی ڈی ایف فائلیں سرور پر اپ لوڈ نہیں ہوں گی، توازن کی یقینیت۔"
   }
 }

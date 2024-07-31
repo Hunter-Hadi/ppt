@@ -1037,7 +1037,9 @@
     "components__unlock_pdf_detail_input_placeholder": "Password",
     "components__unlock_pdf_detail__button__unlock": "Unlock",
     "components__unlock_pdf_detail__button__convert": "Convert another",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Incorrect password"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Incorrect password",
+    "components__unlock_pdf_detail__use_tips": "The password and PDF files will not be uploaded to the server, ensuring security."
+
   },
   "functionality__protect_pdf": {
     "components__protect_pdf_detail__button__protect": "Protect",
@@ -1045,7 +1047,8 @@
     "components__protect_pdf_detail__type_password": " Type password",
     "components__protect_pdf_detail__repeat_type_password": "Repeat password",
     "components__protect_pdf_detail__input__placeholder": "Set your password",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Confirm your password"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Confirm your password",
+    "components__protect_pdf_detail__use_tips": "The password and PDF files will not be uploaded to the server, ensuring security."
   },
   "prompt_library": {
     "use_prompt_library__title": "High quality AI prompt library",

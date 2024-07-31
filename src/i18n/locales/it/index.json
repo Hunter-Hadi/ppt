@@ -1772,7 +1772,8 @@
     "components__unlock_pdf_detail_input_placeholder": "Password",
     "components__unlock_pdf_detail__button__unlock": "Sblocca",
     "components__unlock_pdf_detail__button__convert": "Converti un altro",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Password incorretta"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Password incorretta",
+    "components__unlock_pdf_detail__use_tips": "La password e i file PDF non verranno caricati sul server, garantendo sicurezza."
   },
   "pages__pdf_tools__protect_pdf": {
     "title": "Proteggi PDF",
@@ -1807,6 +1808,7 @@
     "components__protect_pdf_detail__type_password": " Inserisci password",
     "components__protect_pdf_detail__repeat_type_password": "Ripeti password",
     "components__protect_pdf_detail__input__placeholder": "Imposta la tua password",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Conferma la tua password"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Conferma la tua password",
+    "components__protect_pdf_detail__use_tips": "La password e i file PDF non verranno caricati sul server, garantendo sicurezza."
   }
 }

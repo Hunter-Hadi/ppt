@@ -1773,7 +1773,8 @@
     "components__unlock_pdf_detail_input_placeholder": "Adgangskode",
     "components__unlock_pdf_detail__button__unlock": "Lås op",
     "components__unlock_pdf_detail__button__convert": "Konverter en anden",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Forkert adgangskode"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Forkert adgangskode",
+    "components__unlock_pdf_detail__use_tips": "Adgangskoden og PDF-filerne vil ikke blive uploadet til serveren, hvilket sikrer sikkerheden."
   },
   "pages__pdf_tools__protect_pdf": {
     "title": "Beskyt PDF",
@@ -1808,6 +1809,7 @@
     "components__protect_pdf_detail__type_password": " Indtast adgangskode",
     "components__protect_pdf_detail__repeat_type_password": "Gentag adgangskode",
     "components__protect_pdf_detail__input__placeholder": "Angiv din adgangskode",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Bekræft din adgangskode"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Bekræft din adgangskode",
+    "components__protect_pdf_detail__use_tips": "Adgangskoden og PDF-filerne vil ikke blive uploadet til serveren, hvilket sikrer sikkerheden."
   }
 }

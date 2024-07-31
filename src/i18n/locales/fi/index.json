@@ -1773,7 +1773,8 @@
     "components__unlock_pdf_detail_input_placeholder": "Salasana",
     "components__unlock_pdf_detail__button__unlock": "Avaa",
     "components__unlock_pdf_detail__button__convert": "Muunna toinen",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Väärä salasana"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Väärä salasana",
+    "components__unlock_pdf_detail__use_tips": "Salasanaa ja PDF-tiedostoja ei lähetetä palvelimelle, mikä varmistaa turvallisuuden."
   },
   "pages__pdf_tools__protect_pdf": {
     "title": "Suojaa PDF",
@@ -1808,6 +1809,7 @@
     "components__protect_pdf_detail__type_password": " Kirjoita salasana",
     "components__protect_pdf_detail__repeat_type_password": "Toista salasana",
     "components__protect_pdf_detail__input__placeholder": "Aseta salasanasi",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Vahvista salasanasi"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Vahvista salasanasi",
+    "components__protect_pdf_detail__use_tips": "Salasanaa ja PDF-tiedostoja ei lähetetä palvelimelle, mikä varmistaa turvallisuuden."
   }
 }

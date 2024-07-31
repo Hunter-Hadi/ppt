@@ -1773,7 +1773,8 @@
     "components__unlock_pdf_detail_input_placeholder": "Sandi",
     "components__unlock_pdf_detail__button__unlock": "Buka",
     "components__unlock_pdf_detail__button__convert": "Konversi lainnya",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Sandi salah"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Sandi salah",
+    "components__unlock_pdf_detail__use_tips": "Kata sandi dan file PDF tidak akan diunggah ke server, memastikan keamanan."
   },
   "pages__pdf_tools__protect_pdf": {
     "title": "Lindungi PDF",
@@ -1808,6 +1809,7 @@
     "components__protect_pdf_detail__type_password": " Ketik sandi",
     "components__protect_pdf_detail__repeat_type_password": "Ulangi sandi",
     "components__protect_pdf_detail__input__placeholder": "Atur sandi Anda",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Konfirmasi kata sandi Anda"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Konfirmasi kata sandi Anda",
+    "components__protect_pdf_detail__use_tips": "Kata sandi dan file PDF tidak akan diunggah ke server, memastikan keamanan."
   }
 }

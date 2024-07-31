@@ -1772,7 +1772,8 @@
     "components__unlock_pdf_detail_input_placeholder": "סיסמה",
     "components__unlock_pdf_detail__button__unlock": "פתח",
     "components__unlock_pdf_detail__button__convert": "המר לקובץ אחר",
-    "components__unlock_pdf_detail__incorrect_password_tips": "סיסמה שגויה"
+    "components__unlock_pdf_detail__incorrect_password_tips": "סיסמה שגויה",
+    "components__unlock_pdf_detail__use_tips": "הסיסמה וקבצי PDF לא ייטענו לשרת, מבטיח בטיחות."
   },
   "pages__pdf_tools__protect_pdf": {
     "title": "הגנה על PDF",
@@ -1807,6 +1808,7 @@
     "components__protect_pdf_detail__type_password": "הזן סיסמה",
     "components__protect_pdf_detail__repeat_type_password": "חזור על הסיסמה",
     "components__protect_pdf_detail__input__placeholder": "הגדר את הסיסמה שלך",
-    "components__protect_pdf_detail__repeat_input__placeholder": "אשר את הסיסמה שלך"
+    "components__protect_pdf_detail__repeat_input__placeholder": "אשר את הסיסמה שלך",
+    "components__protect_pdf_detail__use_tips": "הסיסמה וקבצי PDF לא ייטענו לשרת, מבטיח בטיחות."
   }
 }
