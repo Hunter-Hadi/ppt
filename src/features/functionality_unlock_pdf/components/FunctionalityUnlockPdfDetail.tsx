@@ -13,6 +13,7 @@ import { useTranslation } from 'next-i18next'
 import React, { useCallback } from 'react'
 import { FC, useEffect, useMemo, useRef, useState } from 'react'
 
+import { copyPdfAllPagesToNewPDF } from '@/features/common/utils/pdflibUtils'
 import {
   FunctionalityCommonButtonListView,
   IButtonConfig,
@@ -22,7 +23,6 @@ import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/fun
 import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool'
 
 import {
-  copyPdfAllPagesToNewPDF,
   fileGetPdfDocument,
   uintArrayGetPdfDocument,
 } from '../utils/unlockPdfTool'
