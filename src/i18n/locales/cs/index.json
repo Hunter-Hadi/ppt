@@ -1774,5 +1774,40 @@
     "components__unlock_pdf_detail__button__unlock": "Odemknout",
     "components__unlock_pdf_detail__button__convert": "Převést další",
     "components__unlock_pdf_detail__incorrect_password_tips": "Nesprávné heslo"
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "Ochrana PDF",
+    "description": "Přidejte ochranu heslem a šifrování do svých PDF souborů pro zvýšenou bezpečnost.",
+    "seo_title": "Ochrana PDF - Přidejte šifrování hesel do PDF souborů online zdarma | MaxAI.me",
+    "seo_description": "Snadno přidejte ochranu heslem do svých PDF souborů online zdarma. Nejsou vyžadovány vodoznaky, limity velikosti souboru, stahování ani registrace.",
+    "detail_description_object__protect_pdf__top_left": "Snadno ochraňujte své PDF soubory online zdarma přidáním šifrování hesel. S naším nástrojem zůstanou vaše soubory lokální pro ochranu soukromí a neexistují žádná omezení velikosti.",
+    "detail_description_object__protect_pdf__top_right_1": "Rychle zabezpečte své PDF soubory během několika sekund.",
+    "detail_description_object__protect_pdf__top_right_2": "Jednoduše nahrajte své PDF soubory a začněte.",
+    "detail_description_object__protect_pdf__top_right_3": "Kompatibilní s Macem, Windowsem, Androidem a iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "Jednoduchý online nástroj na ochranu PDF",
+    "detail_description_object__protect_pdf__middle_1_description": "Náš nástroj na ochranu PDF vám umožňuje snadno přidat ochranu heslem do vašich PDF souborů. Stačí nahrát váš dokument, nastavit heslo a stáhnout zašifrované PDF. Je to neuvěřitelně uživatelsky přívětivé, zcela zdarma a nevyžaduje účet.",
+    "detail_description_object__protect_pdf__middle_2_title": "Lokální bezpečná ochrana PDF",
+    "detail_description_object__protect_pdf__middle_2_description": "Všechny soubory, které nahráváte, jsou zpracovány přímo ve vašem prohlížeči, což zajišťuje ochranu vašeho soukromí. Žádné soubory nejsou nahrány do cloudu, což zaručuje bezpečnost dat.",
+    "detail_description_object__protect_pdf__middle_3_title": "Kompatibilita mezi platformami",
+    "detail_description_object__protect_pdf__middle_3_description": "Náš nástroj na ochranu PDF je založený na prohlížeči, což znamená, že funguje bezproblémově na Macu, Windows a Linuxu, stejně jako na mobilních zařízeních. Můžete snadno chránit své PDF soubory odkudkoli.",
+    "detail_description_object__protect_pdf__middle_4_title": "Jednoduchý operační proces",
+    "detail_description_object__protect_pdf__middle_4_description": "Ochrana vašich PDF souborů je jednoduchá: nahrajte soubor, nastavte heslo a poté stáhněte verzi chráněnou heslem. Dokonce i začátečníci mohou tento jednoduchý proces snadno sledovat.",
+    "detail_description_object__protect_pdf__middle_5_title": "Spolehlivý nástroj na ochranu PDF",
+    "detail_description_object__protect_pdf__middle_5_description": "Nemusíte kupovat drahý software na ochranu vašich PDF souborů. Náš online nástroj na ochranu PDF je k dispozici zdarma, což zajišťuje, že vaše soubory a data jsou vždy zabezpečeny bez potřeby zpracování v cloudu.",
+    "detail_description_object__protect_pdf__middle_6_title": "Lokální zpracování pro zvýšenou bezpečnost",
+    "detail_description_object__protect_pdf__middle_6_description": "Naše ochranná služba zajišťuje, že všechny operace jsou prováděny lokálně. To zvyšuje bezpečnost a zrychluje zpracování, udržujíc vaše soubory v bezpečí.",
+    "detail_description_object__protect_pdf__bottom_right_title": "Jak chránit PDF soubory online:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Nahrajte PDF soubor, který chcete chránit.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Nastavte heslo pro PDF soubor.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Klikněte na 'Chránit', abyste stáhli PDF soubor chráněný heslem.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Jakmile je chráněn, pouze ti s heslem mohou přistupovat a upravovat vaše PDF soubory na jakémkoli zařízení."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Ochrana",
+    "components__protect_pdf_detail__button__convert": "Převést další",
+    "components__protect_pdf_detail__type_password": " Zadejte heslo",
+    "components__protect_pdf_detail__repeat_type_password": "Zopakujte heslo",
+    "components__protect_pdf_detail__input__placeholder": "Nastavte své heslo",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Převést další"
   }
 }

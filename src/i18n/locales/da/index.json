@@ -1774,5 +1774,40 @@
     "components__unlock_pdf_detail__button__unlock": "Lås op",
     "components__unlock_pdf_detail__button__convert": "Konverter en anden",
     "components__unlock_pdf_detail__incorrect_password_tips": "Forkert adgangskode"
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "Beskyt PDF",
+    "description": "Tilføj adgangskodebeskyttelse og kryptering til dine PDF-filer for forbedret sikkerhed.",
+    "seo_title": "Beskyt PDF - Tilføj adgangskodekryptering til PDF-filer online gratis | MaxAI.me",
+    "seo_description": "Tilføj nemt adgangskodebeskyttelse til dine PDF-filer online gratis. Ingen vandmærker, filstørrelsesbegrænsninger, downloads eller tilmeldinger er påkrævet.",
+    "detail_description_object__protect_pdf__top_left": "Beskyt nemt dine PDF-filer online gratis ved at tilføje adgangskodekryptering. Med vores værktøj forbliver dine filer lokale for privatlivets fred, og der er ingen størrelsesbegrænsninger.",
+    "detail_description_object__protect_pdf__top_right_1": "Sikre hurtigt dine PDF-filer på få sekunder.",
+    "detail_description_object__protect_pdf__top_right_2": "Upload blot dine PDF-filer for at komme i gang.",
+    "detail_description_object__protect_pdf__top_right_3": "Kompatibel med Mac, Windows, Android og iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "Enkel online værktøj til beskyttelse af PDF'er",
+    "detail_description_object__protect_pdf__middle_1_description": "Vores PDF-beskyttelsesværktøj giver dig mulighed for nemt at tilføje adgangskodebeskyttelse til dine PDF-filer. Bare upload dit dokument, angiv din adgangskode, og download den krypterede PDF. Det er utroligt brugervenligt, helt gratis og kræver ikke en konto.",
+    "detail_description_object__protect_pdf__middle_2_title": "Lokal sikker PDF-beskyttelse",
+    "detail_description_object__protect_pdf__middle_2_description": "Alle filer, du uploader, behandles direkte i din browser, hvilket sikrer, at dit privatliv er beskyttet. Ingen filer uploades til skyen, hvilket garanterer datasikkerhed.",
+    "detail_description_object__protect_pdf__middle_3_title": "Tværplatformskompatibilitet",
+    "detail_description_object__protect_pdf__middle_3_description": "Vores PDF-beskyttelsesværktøj er browserbaseret, hvilket betyder, at det fungerer problemfrit på Mac, Windows og Linux samt mobile enheder. Du kan nemt beskytte dine PDF-filer fra ethvert sted.",
+    "detail_description_object__protect_pdf__middle_4_title": "Enkel betjeningsproces",
+    "detail_description_object__protect_pdf__middle_4_description": "Beskyttelse af dine PDF-filer er ligetil: upload filen, angiv din adgangskode, og download derefter den adgangskodebeskyttede version. Selv begyndere kan følge denne nemme proces ubesværet.",
+    "detail_description_object__protect_pdf__middle_5_title": "Pålideligt PDF-beskyttelsesværktøj",
+    "detail_description_object__protect_pdf__middle_5_description": "Du behøver ikke at købe dyre software til at beskytte dine PDF-filer. Vores online PDF-beskyttelsesværktøj er tilgængeligt gratis og sikrer, at dine filer og data altid er sikre uden behov for skybehandling.",
+    "detail_description_object__protect_pdf__middle_6_title": "Lokal behandling for forbedret sikkerhed",
+    "detail_description_object__protect_pdf__middle_6_description": "Vores beskyttelsestjeneste sikrer, at alle operationer udføres lokalt. Dette forbedrer sikkerheden og fremskynder behandlingstiden, så dine filer er sikre.",
+    "detail_description_object__protect_pdf__bottom_right_title": "Sådan beskytter du PDF-filer online:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Upload den PDF-fil, du vil beskytte.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Angiv en adgangskode for PDF-filen.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Klik på 'Beskyt' for at downloade den adgangskodebeskyttede PDF-fil.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Når den er beskyttet, kan kun dem med adgangskoden få adgang til og redigere dine PDF-filer på enhver enhed."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Beskyt",
+    "components__protect_pdf_detail__button__convert": "Konverter en anden",
+    "components__protect_pdf_detail__type_password": " Indtast adgangskode",
+    "components__protect_pdf_detail__repeat_type_password": "Gentag adgangskode",
+    "components__protect_pdf_detail__input__placeholder": "Angiv din adgangskode",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Konverter en anden"
   }
 }

@@ -1774,5 +1774,40 @@
     "components__unlock_pdf_detail__button__unlock": "Odblokuj",
     "components__unlock_pdf_detail__button__convert": "Konwertuj inny",
     "components__unlock_pdf_detail__incorrect_password_tips": "Nieprawidłowe hasło"
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "Zabezpiecz plik PDF",
+    "description": "Dodaj ochronę hasłem i szyfrowanie do swoich plików PDF w celu zwiększenia bezpieczeństwa.",
+    "seo_title": "Zabezpiecz plik PDF - Dodaj szyfrowanie hasłem do plików PDF online za darmo | MaxAI.me",
+    "seo_description": "Łatwo dodaj ochronę hasłem do swoich plików PDF online za darmo. Nie ma wymogu znaków wodnych, limitów wielkości plików, pobierania ani rejestracji.",
+    "detail_description_object__protect_pdf__top_left": "Łatwo zabezpiecz swoje pliki PDF online za darmo, dodając szyfrowanie hasłem. Dzięki naszemu narzędziu Twoje pliki pozostają lokalnie dla zachowania prywatności, a nie ma ograniczeń wielkości plików.",
+    "detail_description_object__protect_pdf__top_right_1": "Szybko zabezpiecz swoje pliki PDF w zaledwie kilka sekund.",
+    "detail_description_object__protect_pdf__top_right_2": "Po prostu załaduj swoje pliki PDF, aby rozpocząć.",
+    "detail_description_object__protect_pdf__top_right_3": "Kompatybilny z systemami Mac, Windows, Android i iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "Proste narzędzie online do zabezpieczania plików PDF",
+    "detail_description_object__protect_pdf__middle_1_description": "Nasze narzędzie do ochrony plików PDF pozwala łatwo dodać ochronę hasłem do swoich plików PDF. Wystarczy załadować dokument, ustawić hasło i pobrać zaszyfrowany plik PDF. Jest niezwykle przyjazny dla użytkownika, całkowicie darmowy i nie wymaga konta.",
+    "detail_description_object__protect_pdf__middle_2_title": "Lokalne bezpieczne zabezpieczenie plików PDF",
+    "detail_description_object__protect_pdf__middle_2_description": "Wszystkie pliki, które przesyłasz, są przetwarzane bezpośrednio w przeglądarce, zapewniając ochronę Twojej prywatności. Żadne pliki nie są przesyłane do chmury, co gwarantuje bezpieczeństwo danych.",
+    "detail_description_object__protect_pdf__middle_3_title": "Kompatybilność między platformami",
+    "detail_description_object__protect_pdf__middle_3_description": "Nasze narzędzie do ochrony plików PDF działa w przeglądarce, co oznacza, że działa płynnie na systemach Mac, Windows i Linux, a także na urządzeniach mobilnych. Możesz łatwo zabezpieczyć swoje pliki PDF z dowolnego miejsca.",
+    "detail_description_object__protect_pdf__middle_4_title": "Proces operacyjny łatwy w obsłudze",
+    "detail_description_object__protect_pdf__middle_4_description": "Zabezpieczanie plików PDF jest proste: załaduj plik, ustaw hasło, a następnie pobierz zabezpieczoną hasłem wersję. Nawet początkujący mogą śledzić ten prosty proces bez wysiłku.",
+    "detail_description_object__protect_pdf__middle_5_title": "Narzędzie do niezawodnej ochrony plików PDF",
+    "detail_description_object__protect_pdf__middle_5_description": "Nie musisz kupować drogiego oprogramowania do ochrony plików PDF. Nasze narzędzie do ochrony plików PDF online jest dostępne za darmo, zapewniając, że Twoje pliki i dane zawsze są bezpieczne bez konieczności przetwarzania w chmurze.",
+    "detail_description_object__protect_pdf__middle_6_title": "Lokalne przetwarzanie dla zwiększenia bezpieczeństwa",
+    "detail_description_object__protect_pdf__middle_6_description": "Nasza usługa ochrony zapewnia, że wszystkie operacje są przeprowadzane lokalnie. To zwiększa bezpieczeństwo i przyspiesza czas przetwarzania, chroniąc Twoje pliki.",
+    "detail_description_object__protect_pdf__bottom_right_title": "Jak zabezpieczyć pliki PDF online:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Załaduj plik PDF, który chcesz zabezpieczyć.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Ustaw hasło dla pliku PDF.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Kliknij „Zabezpiecz”, aby pobrać zabezpieczony hasłem plik PDF.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Po zabezpieczeniu tylko osoby posiadające hasło mogą uzyskać dostęp i edytować Twoje pliki PDF na dowolnym urządzeniu."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Zabezpiecz",
+    "components__protect_pdf_detail__button__convert": "Konwertuj inny",
+    "components__protect_pdf_detail__type_password": " Wprowadź hasło",
+    "components__protect_pdf_detail__repeat_type_password": "Powtórz hasło",
+    "components__protect_pdf_detail__input__placeholder": "Ustaw swoje hasło",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Konwertuj inny"
   }
 }

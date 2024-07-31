@@ -1774,5 +1774,40 @@
     "components__unlock_pdf_detail__button__unlock": "Déverrouiller",
     "components__unlock_pdf_detail__button__convert": "Convertir un autre",
     "components__unlock_pdf_detail__incorrect_password_tips": "Mot de passe incorrect"
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "Protéger PDF",
+    "description": "Ajoutez une protection par mot de passe et un chiffrement à vos fichiers PDF pour une sécurité renforcée.",
+    "seo_title": "Protéger PDF - Ajouter un chiffrement par mot de passe aux fichiers PDF en ligne gratuitement | MaxAI.me",
+    "seo_description": "Ajoutez facilement une protection par mot de passe à vos fichiers PDF en ligne gratuitement. Aucun filigrane, limite de taille de fichier, téléchargement ou inscription requis.",
+    "detail_description_object__protect_pdf__top_left": "Protégez facilement vos fichiers PDF en ligne gratuitement en ajoutant un chiffrement par mot de passe. Avec notre outil, vos fichiers restent locaux pour plus de confidentialité, et il n'y a aucune limitation de taille.",
+    "detail_description_object__protect_pdf__top_right_1": "Sécurisez rapidement vos fichiers PDF en quelques secondes.",
+    "detail_description_object__protect_pdf__top_right_2": "Il vous suffit de télécharger vos fichiers PDF pour commencer.",
+    "detail_description_object__protect_pdf__top_right_3": "Compatible avec Mac, Windows, Android et iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "Outil en ligne simple pour protéger les PDF",
+    "detail_description_object__protect_pdf__middle_1_description": "Notre outil de protection PDF vous permet d'ajouter facilement une protection par mot de passe à vos fichiers PDF. Il vous suffit de télécharger votre document, définir votre mot de passe et télécharger le PDF chiffré. Il est incroyablement convivial, totalement gratuit et ne nécessite pas de compte.",
+    "detail_description_object__protect_pdf__middle_2_title": "Protection PDF sécurisée locale",
+    "detail_description_object__protect_pdf__middle_2_description": "Tous les fichiers que vous téléchargez sont traités directement dans votre navigateur, garantissant la protection de votre vie privée. Aucun fichier n'est téléchargé sur le cloud, garantissant la sécurité des données.",
+    "detail_description_object__protect_pdf__middle_3_title": "Compatibilité multiplateforme",
+    "detail_description_object__protect_pdf__middle_3_description": "Notre outil de protection PDF est basé sur le navigateur, ce qui signifie qu'il fonctionne parfaitement sur Mac, Windows et Linux, ainsi que sur les appareils mobiles. Vous pouvez facilement protéger vos fichiers PDF de n'importe où.",
+    "detail_description_object__protect_pdf__middle_4_title": "Processus d'opération simple",
+    "detail_description_object__protect_pdf__middle_4_description": "Protéger vos fichiers PDF est simple : téléchargez le fichier, définissez votre mot de passe, puis téléchargez la version protégée par mot de passe. Même les débutants peuvent suivre ce processus facilement.",
+    "detail_description_object__protect_pdf__middle_5_title": "Outil fiable de protection PDF",
+    "detail_description_object__protect_pdf__middle_5_description": "Vous n'avez pas besoin d'acheter un logiciel coûteux pour protéger vos fichiers PDF. Notre outil de protection PDF en ligne est disponible gratuitement, garantissant que vos fichiers et données sont toujours sécurisés sans nécessiter de traitement sur le cloud.",
+    "detail_description_object__protect_pdf__middle_6_title": "Traitement local pour une sécurité renforcée",
+    "detail_description_object__protect_pdf__middle_6_description": "Notre service de protection garantit que toutes les opérations sont effectuées localement. Cela renforce la sécurité et accélère le traitement, en gardant vos fichiers en sécurité.",
+    "detail_description_object__protect_pdf__bottom_right_title": "Comment protéger les fichiers PDF en ligne :",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Téléchargez le fichier PDF que vous souhaitez protéger.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Définissez un mot de passe pour le fichier PDF.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Cliquez sur 'Protéger' pour télécharger le fichier PDF protégé par mot de passe.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Une fois protégé, seules les personnes ayant le mot de passe peuvent accéder et modifier vos fichiers PDF sur n'importe quel appareil."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Protéger",
+    "components__protect_pdf_detail__button__convert": "Convertir un autre",
+    "components__protect_pdf_detail__type_password": " Saisir le mot de passe",
+    "components__protect_pdf_detail__repeat_type_password": "Répéter le mot de passe",
+    "components__protect_pdf_detail__input__placeholder": "Définir votre mot de passe",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Convertir un autre"
   }
 }

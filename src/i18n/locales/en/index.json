@@ -757,6 +757,33 @@
     "detail_description_object__unlock_pdf__bottom_right_description_3": "Click ‘Unlock’ to download the unlocked PDF file.",
     "detail_description_object__unlock_pdf__bottom_right_description_4": "Once unlocked, you can freely access and edit your PDF files on any device."
   },
+ "pages__pdf_tools__protect_pdf": {
+    "title": "Protect PDF",
+    "description": "Add password protection and encryption to your PDF files for enhanced security.",
+    "seo_title": "Protect PDF - Add Password Encryption to PDF Files Online for Free | MaxAI.me",
+    "seo_description": "Easily add password protection to your PDF files online for free. No watermarks, file size limits, downloads, or sign-ups are required.",
+    "detail_description_object__protect_pdf__top_left": "Easily protect your PDF files online for free by adding password encryption. With our tool, your files remain local for privacy, and there are no size limitations.",
+    "detail_description_object__protect_pdf__top_right_1": "Quickly secure your PDF files in just a few seconds.",
+    "detail_description_object__protect_pdf__top_right_2": "Simply upload your PDF files to get started.",
+    "detail_description_object__protect_pdf__top_right_3": "Compatible with Mac, Windows, Android, and iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "Simple Online Tool to Protect PDFs",
+    "detail_description_object__protect_pdf__middle_1_description": "Our PDF protection tool allows you to easily add password protection to your PDF files. Just upload your document, set your password, and download the encrypted PDF. It’s incredibly user-friendly, completely free, and doesn’t require an account.",
+    "detail_description_object__protect_pdf__middle_2_title": "Local Secure PDF Protection",
+    "detail_description_object__protect_pdf__middle_2_description": "All files you upload are processed directly in your browser, ensuring your privacy is protected. No files are uploaded to the cloud, guaranteeing data security.",
+    "detail_description_object__protect_pdf__middle_3_title": "Cross-Platform Compatibility",
+    "detail_description_object__protect_pdf__middle_3_description": "Our PDF protection tool is browser-based, meaning it works seamlessly on Mac, Windows, and Linux, as well as mobile devices. You can easily protect your PDF files from anywhere.",
+    "detail_description_object__protect_pdf__middle_4_title": "Easy Operation Process",
+    "detail_description_object__protect_pdf__middle_4_description": "Protecting your PDF files is straightforward: upload the file, set your password, and then download the password-protected version. Even beginners can follow this easy process effortlessly.",
+    "detail_description_object__protect_pdf__middle_5_title": "Reliable PDF Protection Tool",
+    "detail_description_object__protect_pdf__middle_5_description": "You don’t need to purchase expensive software to protect your PDF files. Our online PDF protection tool is available for free, ensuring your files and data are always secure without the need for cloud processing.",
+    "detail_description_object__protect_pdf__middle_6_title": "Local Processing for Enhanced Security",
+    "detail_description_object__protect_pdf__middle_6_description": "Our protection service ensures that all operations are conducted locally. This enhances security and speeds up processing time, keeping your files safe.",
+    "detail_description_object__protect_pdf__bottom_right_title": "How to Protect PDF Files Online:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Upload the PDF file you want to protect.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Set a password for the PDF file.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Click ‘Protect’ to download the password-protected PDF file.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Once protected, only those with the password can access and edit your PDF files on any device."
+},
   "use_cases_pages": {
     "research__title": "Supercharge your browser with AI Research 10x faster",
     "research__description": "Summarize and chat with web articles, PDFs, and YouTube videos to save time. Ask AI questions for quick answers to speed up your research.",
@@ -1011,6 +1038,14 @@
     "components__unlock_pdf_detail__button__unlock": "Unlock",
     "components__unlock_pdf_detail__button__convert": "Convert another",
     "components__unlock_pdf_detail__incorrect_password_tips": "Incorrect password"
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Protect",
+    "components__protect_pdf_detail__button__convert": "Convert another",
+    "components__protect_pdf_detail__type_password": " Type password",
+    "components__protect_pdf_detail__repeat_type_password": "Repeat password",
+    "components__protect_pdf_detail__input__placeholder": "Set your password",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Convert another"
   },
   "prompt_library": {
     "use_prompt_library__title": "High quality AI prompt library",

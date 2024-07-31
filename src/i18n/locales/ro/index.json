@@ -1774,5 +1774,40 @@
     "components__unlock_pdf_detail__button__unlock": "Deblochează",
     "components__unlock_pdf_detail__button__convert": "Convertește altul",
     "components__unlock_pdf_detail__incorrect_password_tips": "Parolă incorectă"
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "Protejează PDF-ul",
+    "description": "Adaugă protecție cu parolă și criptare la fișierele tale PDF pentru securitate sporită.",
+    "seo_title": "Protejează PDF-ul - Adaugă Criptare cu Parolă la Fișierele PDF Online Gratuit | MaxAI.me",
+    "seo_description": "Adaugă ușor protecție cu parolă la fișierele tale PDF online gratuit. Nu sunt necesare filigrane, limite de dimensiune a fișierului, descărcări sau înregistrări.",
+    "detail_description_object__protect_pdf__top_left": "Protejează ușor fișierele tale PDF online gratuit prin adăugarea criptării cu parolă. Cu instrumentul nostru, fișierele tale rămân locale pentru confidențialitate, și nu există limite de dimensiune.",
+    "detail_description_object__protect_pdf__top_right_1": "Securizează rapid fișierele tale PDF în doar câteva secunde.",
+    "detail_description_object__protect_pdf__top_right_2": "Încarcă pur și simplu fișierele tale PDF pentru a începe.",
+    "detail_description_object__protect_pdf__top_right_3": "Compatibil cu Mac, Windows, Android și iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "Instrument Online Simplu pentru Protejarea PDF-urilor",
+    "detail_description_object__protect_pdf__middle_1_description": "Instrumentul nostru de protecție PDF îți permite să adaugi ușor protecție cu parolă la fișierele tale PDF. Doar încarcă documentul tău, setează-ți parola și descarcă PDF-ul criptat. Este incredibil de ușor de utilizat, complet gratuit și nu necesită un cont.",
+    "detail_description_object__protect_pdf__middle_2_title": "Protecție PDF Sigură Local",
+    "detail_description_object__protect_pdf__middle_2_description": "Toate fișierele pe care le încarci sunt procesate direct în browserul tău, asigurându-ți confidențialitatea. Niciun fișier nu este încărcat în cloud, garantând securitatea datelor.",
+    "detail_description_object__protect_pdf__middle_3_title": "Compatibilitate Interplatformă",
+    "detail_description_object__protect_pdf__middle_3_description": "Instrumentul nostru de protecție PDF este bazat pe browser, ceea ce înseamnă că funcționează perfect pe Mac, Windows și Linux, precum și pe dispozitivele mobile. Poți proteja ușor fișierele tale PDF de oriunde.",
+    "detail_description_object__protect_pdf__middle_4_title": "Proces de Operare Simplu",
+    "detail_description_object__protect_pdf__middle_4_description": "Protejarea fișierelor tale PDF este simplă: încarcă fișierul, setează-ți parola, și apoi descarcă versiunea protejată cu parolă. Chiar și începătorii pot urma acest proces ușor fără efort.",
+    "detail_description_object__protect_pdf__middle_5_title": "Instrument de Protecție PDF Fiabil",
+    "detail_description_object__protect_pdf__middle_5_description": "Nu trebuie să achiziționezi software scump pentru a-ți proteja fișierele PDF. Instrumentul nostru online de protecție PDF este disponibil gratuit, asigurând că fișierele și datele tale sunt întotdeauna în siguranță fără a avea nevoie de procesare în cloud.",
+    "detail_description_object__protect_pdf__middle_6_title": "Procesare Locală pentru Securitate Sporită",
+    "detail_description_object__protect_pdf__middle_6_description": "Serviciul nostru de protecție se asigură că toate operațiunile sunt efectuate local. Acest lucru îmbunătățește securitatea și accelerează timpul de procesare, păstrându-ți fișierele în siguranță.",
+    "detail_description_object__protect_pdf__bottom_right_title": "Cum să Protejezi Fișierele PDF Online:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Încarcă fișierul PDF pe care vrei să-l protejezi.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Setează o parolă pentru fișierul PDF.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Apasă pe 'Protejează' pentru a descărca fișierul PDF protejat cu parolă.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Odată protejat, doar cei cu parola pot accesa și edita fișierele tale PDF de pe orice dispozitiv."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Protejează",
+    "components__protect_pdf_detail__button__convert": "Convertește altul",
+    "components__protect_pdf_detail__type_password": " Introdu parola",
+    "components__protect_pdf_detail__repeat_type_password": "Repetă parola",
+    "components__protect_pdf_detail__input__placeholder": "Setează-ți parola",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Convertește altul"
   }
 }

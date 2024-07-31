@@ -7,6 +7,7 @@ import { FC, Suspense, useMemo } from 'react'
 import AppContainer from '@/app_layout/AppContainer'
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
+import FunctionalityProtectPdfMain from '@/features/functionality_protect_pdf/components/FunctionalityProtectPdfMain'
 import ToolsBanner from '@/page_components/PdfToolsPages/components/ToolsBanner'
 import ToolsCards from '@/page_components/PdfToolsPages/components/ToolsCards'
 import ToolsDetailDescription from '@/page_components/PdfToolsPages/components/ToolsDetailDescription'
@@ -189,6 +190,10 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       title: t('pages__pdf_tools__unlock_pdf:seo_title'),
       description: t('pages__pdf_tools__unlock_pdf:seo_description'),
     },
+    'protect-pdf': {
+      title: t('pages__pdf_tools__protect_pdf:seo_title'),
+      description: t('pages__pdf_tools__protect_pdf:seo_description'),
+    },
   }
   const toolsDetailDescriptionData = allPdfToolsDetailDescriptionObject[urlKey]
   const toolList = useMemo(
@@ -242,6 +247,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
             {urlKey === 'rotate-pdf' && <FunctionalityRotatePdfMain />}
             {urlKey === 'rotate-pdf' && <FunctionalityRotatePdfMain />}
             {urlKey === 'unlock-pdf' && <FunctionalityUnlockPdfMain />}
+            {urlKey === 'protect-pdf' && <FunctionalityProtectPdfMain />}
           </Suspense>
         </Box>
         {toolsDetailDescriptionData && (

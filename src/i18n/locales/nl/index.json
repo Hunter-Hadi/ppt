@@ -1774,5 +1774,40 @@
     "components__unlock_pdf_detail__button__unlock": "Ontgrendelen",
     "components__unlock_pdf_detail__button__convert": "Een ander converteren",
     "components__unlock_pdf_detail__incorrect_password_tips": "Onjuist wachtwoord"
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "Beveilig PDF",
+    "description": "Voeg wachtwoordbeveiliging en versleuteling toe aan uw PDF-bestanden voor verbeterde beveiliging.",
+    "seo_title": "Beveilig PDF - Voeg Wachtwoordversleuteling toe aan PDF-bestanden Online Gratis | MaxAI.me",
+    "seo_description": "Voeg eenvoudig wachtwoordbeveiliging toe aan uw PDF-bestanden online gratis. Geen watermerken, bestandsgroottelimieten, downloads of aanmeldingen vereist.",
+    "detail_description_object__protect_pdf__top_left": "Beveilig eenvoudig uw PDF-bestanden online gratis door wachtwoordversleuteling toe te voegen. Met onze tool blijven uw bestanden lokaal voor privacy en er zijn geen groottebeperkingen.",
+    "detail_description_object__protect_pdf__top_right_1": "Beveilig snel uw PDF-bestanden in slechts een paar seconden.",
+    "detail_description_object__protect_pdf__top_right_2": "Upload eenvoudig uw PDF-bestanden om te beginnen.",
+    "detail_description_object__protect_pdf__top_right_3": "Compatibel met Mac, Windows, Android en iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "Eenvoudige Online Tool om PDF's te Beveiligen",
+    "detail_description_object__protect_pdf__middle_1_description": "Onze PDF-beveiligingstool stelt u in staat om eenvoudig wachtwoordbeveiliging toe te voegen aan uw PDF-bestanden. Upload gewoon uw document, stel uw wachtwoord in en download de versleutelde PDF. Het is ongelooflijk gebruiksvriendelijk, volledig gratis en vereist geen account.",
+    "detail_description_object__protect_pdf__middle_2_title": "Lokale Veilige PDF-beveiliging",
+    "detail_description_object__protect_pdf__middle_2_description": "Alle bestanden die u uploadt worden rechtstreeks in uw browser verwerkt, waardoor uw privacy wordt beschermd. Er worden geen bestanden geüpload naar de cloud, wat zorgt voor gegevensbeveiliging.",
+    "detail_description_object__protect_pdf__middle_3_title": "Cross-Platform Compatibiliteit",
+    "detail_description_object__protect_pdf__middle_3_description": "Onze PDF-beveiligingstool is op browser gebaseerd, wat betekent dat het naadloos werkt op Mac, Windows en Linux, evenals op mobiele apparaten. U kunt eenvoudig uw PDF-bestanden vanaf elke locatie beveiligen.",
+    "detail_description_object__protect_pdf__middle_4_title": "Eenvoudig Bedieningsproces",
+    "detail_description_object__protect_pdf__middle_4_description": "Het beveiligen van uw PDF-bestanden is eenvoudig: upload het bestand, stel uw wachtwoord in en download vervolgens de met wachtwoord beveiligde versie. Zelfs beginners kunnen dit eenvoudige proces moeiteloos volgen.",
+    "detail_description_object__protect_pdf__middle_5_title": "Betrouwbare PDF-beveiligingstool",
+    "detail_description_object__protect_pdf__middle_5_description": "U hoeft geen dure software aan te schaffen om uw PDF-bestanden te beveiligen. Onze online PDF-beveiligingstool is gratis beschikbaar en zorgt ervoor dat uw bestanden en gegevens altijd veilig zijn zonder de noodzaak van cloudverwerking.",
+    "detail_description_object__protect_pdf__middle_6_title": "Lokale Verwerking voor Verbeterde Beveiliging",
+    "detail_description_object__protect_pdf__middle_6_description": "Onze beveiligingsservice zorgt ervoor dat alle bewerkingen lokaal worden uitgevoerd. Dit verbetert de beveiliging en versnelt de verwerkingstijd, waardoor uw bestanden veilig blijven.",
+    "detail_description_object__protect_pdf__bottom_right_title": "Hoe PDF-bestanden Online te Beveiligen:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Upload het PDF-bestand dat u wilt beveiligen.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Stel een wachtwoord in voor het PDF-bestand.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Klik op 'Beveiligen' om het met een wachtwoord beveiligde PDF-bestand te downloaden.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Eenmaal beveiligd, kunnen alleen degenen met het wachtwoord uw PDF-bestanden openen en bewerken op elk apparaat."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Beveiligen",
+    "components__protect_pdf_detail__button__convert": "Een ander converteren",
+    "components__protect_pdf_detail__type_password": " Typ wachtwoord",
+    "components__protect_pdf_detail__repeat_type_password": "Herhaal wachtwoord",
+    "components__protect_pdf_detail__input__placeholder": "Stel uw wachtwoord in",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Een ander converteren"
   }
 }

@@ -1774,5 +1774,40 @@
     "components__unlock_pdf_detail__button__unlock": "Buka",
     "components__unlock_pdf_detail__button__convert": "Alihkan yang lain",
     "components__unlock_pdf_detail__incorrect_password_tips": "Kata laluan tidak betul"
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "Lindungi PDF",
+    "description": "Tambah perlindungan kata laluan dan enkripsi ke fail PDF anda untuk keselamatan yang dipertingkatkan.",
+    "seo_title": "Lindungi PDF - Tambah Enkripsi Kata Laluan ke Fail PDF Secara Dalam Talian secara Percuma | MaxAI.me",
+    "seo_description": "Tambah perlindungan kata laluan ke fail PDF anda secara dalam talian secara percuma. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan.",
+    "detail_description_object__protect_pdf__top_left": "Lindungi fail PDF anda secara dalam talian secara percuma dengan menambah enkripsi kata laluan. Dengan alat kami, fail anda kekal tempatan untuk privasi, dan tiada had saiz.",
+    "detail_description_object__protect_pdf__top_right_1": "Selamatkan fail PDF anda dengan pantas hanya dalam beberapa saat.",
+    "detail_description_object__protect_pdf__top_right_2": "Hanya muat naik fail PDF anda untuk memulakan.",
+    "detail_description_object__protect_pdf__top_right_3": "Selaras dengan Mac, Windows, Android, dan iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "Alat Dalam Talian Mudah untuk Melindungi PDF",
+    "detail_description_object__protect_pdf__middle_1_description": "Alat perlindungan PDF kami membolehkan anda dengan mudah menambah perlindungan kata laluan ke fail PDF anda. Hanya muat naik dokumen anda, tetapkan kata laluan anda, dan muat turun PDF yang dienkripsi. Ia sangat mesra pengguna, benar-benar percuma, dan tidak memerlukan akaun.",
+    "detail_description_object__protect_pdf__middle_2_title": "Perlindungan PDF Selamat Tempatan",
+    "detail_description_object__protect_pdf__middle_2_description": "Semua fail yang anda muat naik diproses terus dalam pelayar anda, memastikan privasi anda dilindungi. Tiada fail yang dimuat naik ke awan, menjamin keselamatan data.",
+    "detail_description_object__protect_pdf__middle_3_title": "Kecocokan Pelantar Silang",
+    "detail_description_object__protect_pdf__middle_3_description": "Alat perlindungan PDF kami berdasarkan pelayar, bermakna ia berfungsi dengan lancar di Mac, Windows, dan Linux, serta peranti mudah alih. Anda boleh dengan mudah melindungi fail PDF anda dari mana-mana sahaja.",
+    "detail_description_object__protect_pdf__middle_4_title": "Proses Operasi Mudah",
+    "detail_description_object__protect_pdf__middle_4_description": "Melindungi fail PDF anda adalah mudah: muat naik fail, tetapkan kata laluan anda, dan kemudian muat turun versi yang dilindungi kata laluan. Malah pemula pun boleh mengikuti proses mudah ini dengan lancar.",
+    "detail_description_object__protect_pdf__middle_5_title": "Alat Perlindungan PDF Yang Dipercayai",
+    "detail_description_object__protect_pdf__middle_5_description": "Anda tidak perlu membeli perisian mahal untuk melindungi fail PDF anda. Alat perlindungan PDF dalam talian kami boleh didapati secara percuma, memastikan fail dan data anda sentiasa selamat tanpa perlu pemprosesan awan.",
+    "detail_description_object__protect_pdf__middle_6_title": "Pemprosesan Tempatan untuk Keselamatan Dipertingkatkan",
+    "detail_description_object__protect_pdf__middle_6_description": "Perkhidmatan perlindungan kami memastikan semua operasi dijalankan secara tempatan. Ini meningkatkan keselamatan dan mempercepatkan masa pemprosesan, menjaga fail anda dengan selamat.",
+    "detail_description_object__protect_pdf__bottom_right_title": "Cara Melindungi Fail PDF Secara Dalam Talian:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Muat naik fail PDF yang anda ingin lindungi.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Tetapkan kata laluan untuk fail PDF.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Klik 'Lindungi' untuk muat turun fail PDF yang dilindungi kata laluan.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Setelah dilindungi, hanya mereka yang mempunyai kata laluan boleh mengakses dan mengedit fail PDF anda pada mana-mana peranti."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Lindungi",
+    "components__protect_pdf_detail__button__convert": "Tukar yang lain",
+    "components__protect_pdf_detail__type_password": " Taip kata laluan",
+    "components__protect_pdf_detail__repeat_type_password": "Ulang kata laluan",
+    "components__protect_pdf_detail__input__placeholder": "Tetapkan kata laluan anda",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Tukar yang lain"
   }
 }

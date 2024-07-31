@@ -1773,5 +1773,40 @@
     "components__unlock_pdf_detail__button__unlock": "פתח",
     "components__unlock_pdf_detail__button__convert": "המר לקובץ אחר",
     "components__unlock_pdf_detail__incorrect_password_tips": "סיסמה שגויה"
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "הגנה על PDF",
+    "description": "הוסף הגנת סיסמה והצפנה לקבצי ה- PDF שלך לשיפור האבטחה.",
+    "seo_title": "הגנה על PDF - הוסף הצפנת סיסמה לקבצי PDF באינטרנט בחינם | MaxAI.me",
+    "seo_description": "הוסף בקלות הגנת סיסמה לקבצי ה- PDF שלך באינטרנט בחינם. אין סימני מים, מגבלות גודל קובץ, הורדות או הרשמות נדרשות.",
+    "detail_description_object__protect_pdf__top_left": "הגן בקלות על קבצי ה- PDF שלך באינטרנט בחינם על ידי הוספת הצפנת סיסמה. עם הכלי שלנו, הקבצים שלך נשמרים מקומית לפרטיות, ואין מגבלות גודל.",
+    "detail_description_object__protect_pdf__top_right_1": "אבטח את קבצי ה- PDF שלך בשניות ספורות בלבד.",
+    "detail_description_object__protect_pdf__top_right_2": "פשוט העלה את קבצי ה- PDF שלך כדי להתחיל.",
+    "detail_description_object__protect_pdf__top_right_3": "תואם עם Mac, Windows, Android ו- iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "כלי מקוון פשוט להגנת PDF",
+    "detail_description_object__protect_pdf__middle_1_description": "כלי ההגנה על PDF שלנו מאפשר לך להוסיף בקלות הגנת סיסמה לקבצי ה- PDF שלך. פשוט העלה את המסמך שלך, הגדר את הסיסמה שלך, והורד את ה- PDF המוצפן. זה מאוד ידידותי למשתמש, לחלוטין בחינם, ואינו דורש חשבון.",
+    "detail_description_object__protect_pdf__middle_2_title": "הגנת PDF מקומית ומאובטחת",
+    "detail_description_object__protect_pdf__middle_2_description": "כל הקבצים שתעלה מעובדים ישירות בדפדפן שלך, מבטיחים שהפרטיות שלך מוגנת. אין העלאת קבצים לענן, מבטיחים אבטחת נתונים.",
+    "detail_description_object__protect_pdf__middle_3_title": "תאימות חוצת פלטפורמות",
+    "detail_description_object__protect_pdf__middle_3_description": "כלי ההגנה על PDF שלנו מבוסס דפדפן, מה שמשמע שהוא עובד בצורה חלקה על Mac, Windows, ו- Linux, כמו גם על מכשירים ניידים. תוכל להגן בקלות על קבצי ה- PDF שלך מכל מקום.",
+    "detail_description_object__protect_pdf__middle_4_title": "תהליך פעולה פשוט",
+    "detail_description_object__protect_pdf__middle_4_description": "הגנת קבצי ה- PDF שלך היא פשוטה: העלה את הקובץ, הגדר את הסיסמה שלך, ואז הורד את הגרסה המוגנת בסיסמה. גם מתחילים יכולים לעקוב אחרי תהליך זה בקלות.",
+    "detail_description_object__protect_pdf__middle_5_title": "כלי הגנה אמין על PDF",
+    "detail_description_object__protect_pdf__middle_5_description": "אין צורך לרכוש תוכנה יקרה כדי להגן על קבצי ה- PDF שלך. כלי ההגנה על PDF שלנו באינטרנט זמין בחינם, מבטיח שהקבצים והנתונים שלך תמיד יהיו מאובטחים ללא צורך בעיבוד בענן.",
+    "detail_description_object__protect_pdf__middle_6_title": "עיבוד מקומי לאבטחה משופרת",
+    "detail_description_object__protect_pdf__middle_6_description": "השירות שלנו להגנה מבטיח שכל הפעולות מבוצעות מקומית. זה משפר את האבטחה ומאיץ את זמן העיבוד, שומר על קבצים שלך בטוחים.",
+    "detail_description_object__protect_pdf__bottom_right_title": "איך להגן על קבצי PDF באינטרנט:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "העלה את קובץ ה- PDF שברצונך להגן עליו.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "הגדר סיסמה עבור קובץ ה- PDF.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "לחץ על 'הגן' כדי להוריד את קובץ ה- PDF המוגן בסיסמה.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "לאחר ההגנה, רק אלה עם הסיסמה יכולים לגשת ולערוך את קבצי ה- PDF שלך בכל מכשיר."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "הגן",
+    "components__protect_pdf_detail__button__convert": "המרת קובץ נוסף",
+    "components__protect_pdf_detail__type_password": "הזן סיסמה",
+    "components__protect_pdf_detail__repeat_type_password": "חזור על הסיסמה",
+    "components__protect_pdf_detail__input__placeholder": "הגדר את הסיסמה שלך",
+    "components__protect_pdf_detail__repeat_input__placeholder": "המרת קובץ נוסף"
   }
 }

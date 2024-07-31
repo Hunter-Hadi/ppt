@@ -1774,5 +1774,40 @@
     "components__unlock_pdf_detail__button__unlock": "Mở Khóa",
     "components__unlock_pdf_detail__button__convert": "Chuyển đổi khác",
     "components__unlock_pdf_detail__incorrect_password_tips": "Mật khẩu không chính xác"
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "Bảo vệ PDF",
+    "description": "Thêm bảo vệ mật khẩu và mã hóa vào tệp PDF của bạn để tăng cường bảo mật.",
+    "seo_title": "Bảo vệ PDF - Thêm Mã Hóa Mật Khẩu vào Tệp PDF Trực Tuyến Miễn Phí | MaxAI.me",
+    "seo_description": "Dễ dàng thêm bảo vệ mật khẩu vào tệp PDF của bạn trực tuyến miễn phí. Không cần dấu nước, giới hạn kích thước tệp, tải xuống hoặc đăng ký.",
+    "detail_description_object__protect_pdf__top_left": "Dễ dàng bảo vệ tệp PDF của bạn trực tuyến miễn phí bằng cách thêm mã hóa mật khẩu. Với công cụ của chúng tôi, tệp của bạn vẫn ở cục bộ để bảo vệ quyền riêng tư, và không có giới hạn về kích thước.",
+    "detail_description_object__protect_pdf__top_right_1": "Nhanh chóng bảo vệ tệp PDF của bạn chỉ trong vài giây.",
+    "detail_description_object__protect_pdf__top_right_2": "Chỉ cần tải lên tệp PDF của bạn để bắt đầu.",
+    "detail_description_object__protect_pdf__top_right_3": "Tương thích với Mac, Windows, Android và iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "Công cụ Trực Tuyến Đơn Giản để Bảo vệ PDF",
+    "detail_description_object__protect_pdf__middle_1_description": "Công cụ bảo vệ PDF của chúng tôi cho phép bạn dễ dàng thêm bảo vệ mật khẩu vào tệp PDF của bạn. Chỉ cần tải lên tài liệu của bạn, đặt mật khẩu và tải xuống PDF đã mã hóa. Nó rất dễ sử dụng, hoàn toàn miễn phí và không cần tài khoản.",
+    "detail_description_object__protect_pdf__middle_2_title": "Bảo vệ PDF An Toàn Cục Bộ",
+    "detail_description_object__protect_pdf__middle_2_description": "Tất cả các tệp bạn tải lên được xử lý trực tiếp trong trình duyệt của bạn, đảm bảo quyền riêng tư của bạn được bảo vệ. Không có tệp nào được tải lên đám mây, đảm bảo an toàn dữ liệu.",
+    "detail_description_object__protect_pdf__middle_3_title": "Tương Thích Trên Nhiều Nền Tảng",
+    "detail_description_object__protect_pdf__middle_3_description": "Công cụ bảo vệ PDF của chúng tôi dựa trên trình duyệt, có nghĩa là nó hoạt động mượt mà trên Mac, Windows và Linux, cũng như trên thiết bị di động. Bạn có thể dễ dàng bảo vệ tệp PDF của mình từ bất kỳ đâu.",
+    "detail_description_object__protect_pdf__middle_4_title": "Quy Trình Vận Hành Dễ Dàng",
+    "detail_description_object__protect_pdf__middle_4_description": "Bảo vệ tệp PDF của bạn là một quy trình đơn giản: tải lên tệp, đặt mật khẩu và sau đó tải xuống phiên bản được bảo vệ bằng mật khẩu. Ngay cả người mới bắt đầu cũng có thể theo dõi quy trình dễ dàng này một cách dễ dàng.",
+    "detail_description_object__protect_pdf__middle_5_title": "Công Cụ Bảo Vệ PDF Đáng Tin Cậy",
+    "detail_description_object__protect_pdf__middle_5_description": "Bạn không cần mua phần mềm đắt tiền để bảo vệ tệp PDF của mình. Công cụ bảo vệ PDF trực tuyến của chúng tôi có sẵn miễn phí, đảm bảo tệp và dữ liệu của bạn luôn được bảo vệ mà không cần xử lý trên đám mây.",
+    "detail_description_object__protect_pdf__middle_6_title": "Xử Lý Cục Bộ để Tăng Cường Bảo Mật",
+    "detail_description_object__protect_pdf__middle_6_description": "Dịch vụ bảo vệ của chúng tôi đảm bảo rằng tất cả các hoạt động được thực hiện cục bộ. Điều này tăng cường bảo mật và tăng tốc thời gian xử lý, giữ cho tệp của bạn an toàn.",
+    "detail_description_object__protect_pdf__bottom_right_title": "Cách Bảo Vệ Tệp PDF Trực Tuyến:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Tải lên tệp PDF bạn muốn bảo vệ.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Đặt mật khẩu cho tệp PDF.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Nhấp vào 'Bảo vệ' để tải xuống tệp PDF đã được bảo vệ bằng mật khẩu.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Sau khi được bảo vệ, chỉ những người có mật khẩu mới có thể truy cập và chỉnh sửa tệp PDF của bạn trên bất kỳ thiết bị nào."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Bảo vệ",
+    "components__protect_pdf_detail__button__convert": "Chuyển đổi khác",
+    "components__protect_pdf_detail__type_password": " Nhập mật khẩu",
+    "components__protect_pdf_detail__repeat_type_password": "Nhập lại mật khẩu",
+    "components__protect_pdf_detail__input__placeholder": "Đặt mật khẩu của bạn",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Chuyển đổi khác"
   }
 }
