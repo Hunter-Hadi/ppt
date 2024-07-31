@@ -1807,6 +1807,6 @@
     "components__protect_pdf_detail__type_password": " Inserisci password",
     "components__protect_pdf_detail__repeat_type_password": "Ripeti password",
     "components__protect_pdf_detail__input__placeholder": "Imposta la tua password",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Converti un altro"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Conferma la tua password"
   }
 }

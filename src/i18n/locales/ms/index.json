@@ -1808,6 +1808,6 @@
     "components__protect_pdf_detail__type_password": " Taip kata laluan",
     "components__protect_pdf_detail__repeat_type_password": "Ulang kata laluan",
     "components__protect_pdf_detail__input__placeholder": "Tetapkan kata laluan anda",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Tukar yang lain"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Sahkan kata laluan anda"
   }
 }

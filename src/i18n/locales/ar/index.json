@@ -1808,6 +1808,6 @@
     "components__protect_pdf_detail__type_password": " أدخل كلمة المرور",
     "components__protect_pdf_detail__repeat_type_password": "كرر كلمة المرور",
     "components__protect_pdf_detail__input__placeholder": "قم بتعيين كلمة المرور الخاصة بك",
-    "components__protect_pdf_detail__repeat_input__placeholder": "تحويل آخر"
+    "components__protect_pdf_detail__repeat_input__placeholder": "تأكيد كلمة المرور"
   }
 }

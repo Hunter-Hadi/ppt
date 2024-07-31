@@ -1808,6 +1808,6 @@
     "components__protect_pdf_detail__type_password": " Passwort eingeben",
     "components__protect_pdf_detail__repeat_type_password": "Passwort wiederholen",
     "components__protect_pdf_detail__input__placeholder": "Legen Sie Ihr Passwort fest",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Ein anderes konvertieren"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Bestätigen Sie Ihr Passwort"
   }
 }

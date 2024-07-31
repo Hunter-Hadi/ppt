@@ -1808,6 +1808,6 @@
     "components__protect_pdf_detail__type_password": " Wprowadź hasło",
     "components__protect_pdf_detail__repeat_type_password": "Powtórz hasło",
     "components__protect_pdf_detail__input__placeholder": "Ustaw swoje hasło",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Konwertuj inny"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Potwierdź hasło"
   }
 }

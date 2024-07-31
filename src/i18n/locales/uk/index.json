@@ -1808,6 +1808,6 @@
     "components__protect_pdf_detail__type_password": " پاسورڈ ٹائپ کریں",
     "components__protect_pdf_detail__repeat_type_password": "پاسورڈ دوبارہ ٹائپ کریں",
     "components__protect_pdf_detail__input__placeholder": "اپنا پاسورڈ سیٹ کریں",
-    "components__protect_pdf_detail__repeat_input__placeholder": "دوسرا تبدیل کریں"
+    "components__protect_pdf_detail__repeat_input__placeholder": "آپنا پاس ورڈ تصدیق کریں"
   }
 }

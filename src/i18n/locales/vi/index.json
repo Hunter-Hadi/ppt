@@ -1808,6 +1808,6 @@
     "components__protect_pdf_detail__type_password": " Nhập mật khẩu",
     "components__protect_pdf_detail__repeat_type_password": "Nhập lại mật khẩu",
     "components__protect_pdf_detail__input__placeholder": "Đặt mật khẩu của bạn",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Chuyển đổi khác"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Xác nhận mật khẩu của bạn"
   }
 }

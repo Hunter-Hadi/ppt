@@ -1808,6 +1808,6 @@
     "components__protect_pdf_detail__type_password": " Şifre girin",
     "components__protect_pdf_detail__repeat_type_password": "Şifreyi tekrar girin",
     "components__protect_pdf_detail__input__placeholder": "Şifrenizi belirleyin",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Başka bir dosya dönüştür"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Şifrenizi onaylayın"
   }
 }

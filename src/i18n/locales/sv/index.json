@@ -1808,6 +1808,6 @@
     "components__protect_pdf_detail__type_password": " Ange lösenord",
     "components__protect_pdf_detail__repeat_type_password": "Upprepa lösenord",
     "components__protect_pdf_detail__input__placeholder": "Ange ditt lösenord",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Konvertera en annan"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Bekräfta ditt lösenord"
   }
 }

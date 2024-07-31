@@ -1808,6 +1808,6 @@
     "components__protect_pdf_detail__type_password": " Typ wachtwoord",
     "components__protect_pdf_detail__repeat_type_password": "Herhaal wachtwoord",
     "components__protect_pdf_detail__input__placeholder": "Stel uw wachtwoord in",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Een ander converteren"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Bevestig uw wachtwoord"
   }
 }

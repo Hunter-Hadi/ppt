@@ -1808,6 +1808,6 @@
     "components__protect_pdf_detail__type_password": " Saisir le mot de passe",
     "components__protect_pdf_detail__repeat_type_password": "Répéter le mot de passe",
     "components__protect_pdf_detail__input__placeholder": "Définir votre mot de passe",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Convertir un autre"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Confirmez votre mot de passe"
   }
 }

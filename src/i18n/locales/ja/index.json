@@ -1808,6 +1808,6 @@
     "components__protect_pdf_detail__type_password": " パスワードを入力",
     "components__protect_pdf_detail__repeat_type_password": "パスワードを再入力",
     "components__protect_pdf_detail__input__placeholder": "パスワードを設定",
-    "components__protect_pdf_detail__repeat_input__placeholder": "別のファイルに変換"
+    "components__protect_pdf_detail__repeat_input__placeholder": "パスワードを確認"
   }
 }

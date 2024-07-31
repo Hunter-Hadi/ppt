@@ -1808,6 +1808,6 @@
     "components__protect_pdf_detail__type_password": " 輸入密碼",
     "components__protect_pdf_detail__repeat_type_password": "重複密碼",
     "components__protect_pdf_detail__input__placeholder": "設置您的密碼",
-    "components__protect_pdf_detail__repeat_input__placeholder": "轉換另一個"
+    "components__protect_pdf_detail__repeat_input__placeholder": "確認您的密碼"
   }
 }

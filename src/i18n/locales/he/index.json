@@ -1807,6 +1807,6 @@
     "components__protect_pdf_detail__type_password": "הזן סיסמה",
     "components__protect_pdf_detail__repeat_type_password": "חזור על הסיסמה",
     "components__protect_pdf_detail__input__placeholder": "הגדר את הסיסמה שלך",
-    "components__protect_pdf_detail__repeat_input__placeholder": "המרת קובץ נוסף"
+    "components__protect_pdf_detail__repeat_input__placeholder": "אשר את הסיסמה שלך"
   }
 }

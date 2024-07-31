@@ -1045,7 +1045,7 @@
     "components__protect_pdf_detail__type_password": " Type password",
     "components__protect_pdf_detail__repeat_type_password": "Repeat password",
     "components__protect_pdf_detail__input__placeholder": "Set your password",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Convert another"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Confirm your password"
   },
   "prompt_library": {
     "use_prompt_library__title": "High quality AI prompt library",

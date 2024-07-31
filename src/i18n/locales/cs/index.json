@@ -1808,6 +1808,6 @@
     "components__protect_pdf_detail__type_password": " Zadejte heslo",
     "components__protect_pdf_detail__repeat_type_password": "Zopakujte heslo",
     "components__protect_pdf_detail__input__placeholder": "Nastavte své heslo",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Převést další"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Potvrďte své heslo"
   }
 }

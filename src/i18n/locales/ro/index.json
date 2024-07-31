@@ -1808,6 +1808,6 @@
     "components__protect_pdf_detail__type_password": " Introdu parola",
     "components__protect_pdf_detail__repeat_type_password": "Repetă parola",
     "components__protect_pdf_detail__input__placeholder": "Setează-ți parola",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Convertește altul"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Confirmați parola dvs."
   }
 }

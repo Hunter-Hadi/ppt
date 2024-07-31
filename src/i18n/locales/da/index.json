@@ -1808,6 +1808,6 @@
     "components__protect_pdf_detail__type_password": " Indtast adgangskode",
     "components__protect_pdf_detail__repeat_type_password": "Gentag adgangskode",
     "components__protect_pdf_detail__input__placeholder": "Angiv din adgangskode",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Konverter en anden"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Bekræft din adgangskode"
   }
 }

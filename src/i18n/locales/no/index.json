@@ -1808,6 +1808,6 @@
     "components__protect_pdf_detail__type_password": " Skriv passord",
     "components__protect_pdf_detail__repeat_type_password": "Gjenta passord",
     "components__protect_pdf_detail__input__placeholder": "Angi passordet ditt",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Konverter en annen"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Bekreft passordet ditt"
   }
 }

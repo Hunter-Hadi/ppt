@@ -1808,6 +1808,6 @@
     "components__protect_pdf_detail__type_password": " Ketik sandi",
     "components__protect_pdf_detail__repeat_type_password": "Ulangi sandi",
     "components__protect_pdf_detail__input__placeholder": "Atur sandi Anda",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Konversi lainnya"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Konfirmasi kata sandi Anda"
   }
 }

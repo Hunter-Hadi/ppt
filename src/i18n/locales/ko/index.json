@@ -1808,6 +1808,6 @@
     "components__protect_pdf_detail__type_password": " 암호 입력",
     "components__protect_pdf_detail__repeat_type_password": "암호 반복",
     "components__protect_pdf_detail__input__placeholder": "암호를 설정하세요",
-    "components__protect_pdf_detail__repeat_input__placeholder": "다른 파일 변환"
+    "components__protect_pdf_detail__repeat_input__placeholder": "비밀번호를 확인하세요"
   }
 }

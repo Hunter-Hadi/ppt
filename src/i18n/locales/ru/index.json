@@ -1808,6 +1808,6 @@
     "components__protect_pdf_detail__type_password": " Введите пароль",
     "components__protect_pdf_detail__repeat_type_password": "Повторите пароль",
     "components__protect_pdf_detail__input__placeholder": "Установите ваш пароль",
-    "components__protect_pdf_detail__repeat_input__placeholder": "Конвертировать другой"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Подтвердите ваш пароль"
   }
 }

@@ -1808,6 +1808,6 @@
     "components__protect_pdf_detail__type_password": " Magtakda ng password",
     "components__protect_pdf_detail__repeat_type_password": "Ulitin ang password",
     "components__protect_pdf_detail__input__placeholder": "Itakda ang iyong password",
-    "components__protect_pdf_detail__repeat_input__placeholder": "I-convert ang isa pa"
+    "components__protect_pdf_detail__repeat_input__placeholder": "Kumpirmahin ang iyong password"
   }
 }
