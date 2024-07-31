@@ -1294,7 +1294,8 @@
     "components__common__drag__dropping_tip": "U kunt de volgorde aanpassen door te slepen en neer te zetten",
     "components__common__upload_button_tips": "of plaats bestanden hier",
     "components__common__upload_button_title": "KIES BESTANDEN",
-    "components__common__upload_button__unsupported_file_type_tip": "Upload het gespecificeerde PDF-bestandstype"
+    "components__common__upload_button__unsupported_file_type_tip": "Upload het gespecificeerde PDF-bestandstype",
+    "components__common__select_other_file": "Kies een ander bestand"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Alleen afbeeldingen van het type afbeelding kunnen worden geüpload",
@@ -1772,7 +1773,6 @@
     "components__unlock_pdf_detail_input_password": "Voer het wachtwoord in om je PDF te ontgrendelen",
     "components__unlock_pdf_detail_input_placeholder": "Wachtwoord",
     "components__unlock_pdf_detail__button__unlock": "Ontgrendelen",
-    "components__unlock_pdf_detail__button__convert": "Een ander converteren",
     "components__unlock_pdf_detail__incorrect_password_tips": "Onjuist wachtwoord",
     "components__unlock_pdf_detail__use_tips": "Het wachtwoord en PDF-bestanden worden niet geüpload naar de server, wat zorgt voor beveiliging."
   },
@@ -1805,7 +1805,6 @@
   },
   "functionality__protect_pdf": {
     "components__protect_pdf_detail__button__protect": "Beveiligen",
-    "components__protect_pdf_detail__button__convert": "Een ander converteren",
     "components__protect_pdf_detail__type_password": " Typ wachtwoord",
     "components__protect_pdf_detail__repeat_type_password": "Herhaal wachtwoord",
     "components__protect_pdf_detail__input__placeholder": "Stel uw wachtwoord in",

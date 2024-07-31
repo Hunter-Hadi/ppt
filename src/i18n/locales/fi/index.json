@@ -1294,7 +1294,8 @@
     "components__common__drag__dropping_tip": "Voit säätää järjestystä vetämällä ja pudottamalla",
     "components__common__upload_button_tips": "tai pudota tiedostot tähän",
     "components__common__upload_button_title": "VALITSE TIEDOSTOT",
-    "components__common__upload_button__unsupported_file_type_tip": "Lataa vain määritetty PDF-tiedostotyyppi"
+    "components__common__upload_button__unsupported_file_type_tip": "Lataa vain määritetty PDF-tiedostotyyppi",
+    "components__common__select_other_file": "Valitse toinen tiedosto"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Vain kuvatyyppiset kuvat voidaan ladata",
@@ -1772,7 +1773,6 @@
     "components__unlock_pdf_detail_input_password": "Syötä salasana avataksesi PDF-tiedostosi",
     "components__unlock_pdf_detail_input_placeholder": "Salasana",
     "components__unlock_pdf_detail__button__unlock": "Avaa",
-    "components__unlock_pdf_detail__button__convert": "Muunna toinen",
     "components__unlock_pdf_detail__incorrect_password_tips": "Väärä salasana",
     "components__unlock_pdf_detail__use_tips": "Salasanaa ja PDF-tiedostoja ei lähetetä palvelimelle, mikä varmistaa turvallisuuden."
   },
@@ -1805,7 +1805,6 @@
   },
   "functionality__protect_pdf": {
     "components__protect_pdf_detail__button__protect": "Suojaa",
-    "components__protect_pdf_detail__button__convert": "Muunna toinen",
     "components__protect_pdf_detail__type_password": " Kirjoita salasana",
     "components__protect_pdf_detail__repeat_type_password": "Toista salasana",
     "components__protect_pdf_detail__input__placeholder": "Aseta salasanasi",

@@ -1294,7 +1294,8 @@
     "components__common__drag__dropping_tip": "Puteți ajusta ordinea prin tragere și fixare",
     "components__common__upload_button_tips": "sau lăsați fișierele aici",
     "components__common__upload_button_title": "ALEGEȚI FIȘIERELE",
-    "components__common__upload_button__unsupported_file_type_tip": "Vă rugăm să încărcați tipul de fișier PDF specificat"
+    "components__common__upload_button__unsupported_file_type_tip": "Vă rugăm să încărcați tipul de fișier PDF specificat",
+    "components__common__select_other_file": "Alegeți alt fișier"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Pot fi încărcate doar imagini de tip imagine",
@@ -1772,7 +1773,6 @@
     "components__unlock_pdf_detail_input_password": "Te rog introdu parola pentru a debloca PDF-ul tău",
     "components__unlock_pdf_detail_input_placeholder": "Parolă",
     "components__unlock_pdf_detail__button__unlock": "Deblochează",
-    "components__unlock_pdf_detail__button__convert": "Convertește altul",
     "components__unlock_pdf_detail__incorrect_password_tips": "Parolă incorectă",
     "components__unlock_pdf_detail__use_tips": "Parola și fișierele PDF nu vor fi încărcate pe server, asigurând securitatea."
   },
@@ -1805,7 +1805,6 @@
   },
   "functionality__protect_pdf": {
     "components__protect_pdf_detail__button__protect": "Protejează",
-    "components__protect_pdf_detail__button__convert": "Convertește altul",
     "components__protect_pdf_detail__type_password": " Introdu parola",
     "components__protect_pdf_detail__repeat_type_password": "Repetă parola",
     "components__protect_pdf_detail__input__placeholder": "Setează-ți parola",

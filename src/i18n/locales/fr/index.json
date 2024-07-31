@@ -1294,7 +1294,8 @@
     "components__common__drag__dropping_tip": "Vous pouvez ajuster l'ordre en faisant glisser et déposer",
     "components__common__upload_button_tips": "ou déposez les fichiers ici",
     "components__common__upload_button_title": "CHOISISSEZ DES FICHIERS",
-    "components__common__upload_button__unsupported_file_type_tip": "Veuillez télécharger le type de fichier PDF spécifié"
+    "components__common__upload_button__unsupported_file_type_tip": "Veuillez télécharger le type de fichier PDF spécifié",
+    "components__common__select_other_file": "Choisir un autre fichier"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Seules les images de type image peuvent être téléchargées",
@@ -1772,7 +1773,6 @@
     "components__unlock_pdf_detail_input_password": "Veuillez saisir le mot de passe pour déverrouiller votre PDF",
     "components__unlock_pdf_detail_input_placeholder": "Mot de passe",
     "components__unlock_pdf_detail__button__unlock": "Déverrouiller",
-    "components__unlock_pdf_detail__button__convert": "Convertir un autre",
     "components__unlock_pdf_detail__incorrect_password_tips": "Mot de passe incorrect",
     "components__unlock_pdf_detail__use_tips": "Le mot de passe et les fichiers PDF ne seront pas téléchargés sur le serveur, garantissant la sécurité."
   },
@@ -1805,7 +1805,6 @@
   },
   "functionality__protect_pdf": {
     "components__protect_pdf_detail__button__protect": "Protéger",
-    "components__protect_pdf_detail__button__convert": "Convertir un autre",
     "components__protect_pdf_detail__type_password": " Saisir le mot de passe",
     "components__protect_pdf_detail__repeat_type_password": "Répéter le mot de passe",
     "components__protect_pdf_detail__input__placeholder": "Définir votre mot de passe",

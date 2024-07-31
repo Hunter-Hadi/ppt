@@ -1294,7 +1294,8 @@
     "components__common__drag__dropping_tip": "Możesz dostosować kolejność, przeciągając i upuszczając",
     "components__common__upload_button_tips": "lub upuść pliki tutaj",
     "components__common__upload_button_title": "WYBIERZ PLIKI",
-    "components__common__upload_button__unsupported_file_type_tip": "Proszę przesłać określony typ pliku PDF"
+    "components__common__upload_button__unsupported_file_type_tip": "Proszę przesłać określony typ pliku PDF",
+    "components__common__select_other_file": "Wybierz inny plik"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Można przesyłać tylko obrazy typu obraz",
@@ -1772,7 +1773,6 @@
     "components__unlock_pdf_detail_input_password": "Proszę wprowadź hasło, aby odblokować swój plik PDF",
     "components__unlock_pdf_detail_input_placeholder": "Hasło",
     "components__unlock_pdf_detail__button__unlock": "Odblokuj",
-    "components__unlock_pdf_detail__button__convert": "Konwertuj inny",
     "components__unlock_pdf_detail__incorrect_password_tips": "Nieprawidłowe hasło",
     "components__unlock_pdf_detail__use_tips": "Hasło i pliki PDF nie zostaną przesłane na serwer, co zapewnia bezpieczeństwo."
   },
@@ -1805,7 +1805,6 @@
   },
   "functionality__protect_pdf": {
     "components__protect_pdf_detail__button__protect": "Zabezpiecz",
-    "components__protect_pdf_detail__button__convert": "Konwertuj inny",
     "components__protect_pdf_detail__type_password": " Wprowadź hasło",
     "components__protect_pdf_detail__repeat_type_password": "Powtórz hasło",
     "components__protect_pdf_detail__input__placeholder": "Ustaw swoje hasło",

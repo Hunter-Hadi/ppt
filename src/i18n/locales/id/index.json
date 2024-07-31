@@ -1294,7 +1294,8 @@
     "components__common__drag__dropping_tip": "Anda dapat mengatur urutan dengan menyeret dan meletakkan",
     "components__common__upload_button_tips": "atau letakkan file di sini",
     "components__common__upload_button_title": "PILIH FILE",
-    "components__common__upload_button__unsupported_file_type_tip": "Silakan unggah jenis file PDF yang ditentukan"
+    "components__common__upload_button__unsupported_file_type_tip": "Silakan unggah jenis file PDF yang ditentukan",
+    "components__common__select_other_file": "Pilih file lain"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Hanya gambar dengan jenis gambar yang dapat diunggah",
@@ -1772,7 +1773,6 @@
     "components__unlock_pdf_detail_input_password": "Silakan masukkan sandi untuk membuka PDF Anda",
     "components__unlock_pdf_detail_input_placeholder": "Sandi",
     "components__unlock_pdf_detail__button__unlock": "Buka",
-    "components__unlock_pdf_detail__button__convert": "Konversi lainnya",
     "components__unlock_pdf_detail__incorrect_password_tips": "Sandi salah",
     "components__unlock_pdf_detail__use_tips": "Kata sandi dan file PDF tidak akan diunggah ke server, memastikan keamanan."
   },
@@ -1805,7 +1805,6 @@
   },
   "functionality__protect_pdf": {
     "components__protect_pdf_detail__button__protect": "Lindungi",
-    "components__protect_pdf_detail__button__convert": "Konversi lainnya",
     "components__protect_pdf_detail__type_password": " Ketik sandi",
     "components__protect_pdf_detail__repeat_type_password": "Ulangi sandi",
     "components__protect_pdf_detail__input__placeholder": "Atur sandi Anda",

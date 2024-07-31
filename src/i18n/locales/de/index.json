@@ -1294,7 +1294,8 @@
     "components__common__drag__dropping_tip": "Sie können die Reihenfolge anpassen, indem Sie ziehen und ablegen",
     "components__common__upload_button_tips": "Oder Dateien hier ablegen",
     "components__common__upload_button_title": "DATEIEN AUSWÄHLEN",
-    "components__common__upload_button__unsupported_file_type_tip": "Bitte laden Sie den angegebenen PDF-Dateityp hoch"
+    "components__common__upload_button__unsupported_file_type_tip": "Bitte laden Sie den angegebenen PDF-Dateityp hoch",
+    "components__common__select_other_file": "Wählen Sie eine andere Datei"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Es können nur Bilder vom Bildtyp hochgeladen werden",
@@ -1772,7 +1773,6 @@
     "components__unlock_pdf_detail_input_password": "Bitte geben Sie das Passwort ein, um Ihr PDF zu entsperren",
     "components__unlock_pdf_detail_input_placeholder": "Passwort",
     "components__unlock_pdf_detail__button__unlock": "Entsperren",
-    "components__unlock_pdf_detail__button__convert": "Ein anderes konvertieren",
     "components__unlock_pdf_detail__incorrect_password_tips": "Falsches Passwort",
     "components__unlock_pdf_detail__use_tips": "Das Passwort und die PDF-Dateien werden nicht auf den Server hochgeladen, um die Sicherheit zu gewährleisten."
   },
@@ -1805,7 +1805,6 @@
   },
   "functionality__protect_pdf": {
     "components__protect_pdf_detail__button__protect": "Schützen",
-    "components__protect_pdf_detail__button__convert": "Ein anderes konvertieren",
     "components__protect_pdf_detail__type_password": " Passwort eingeben",
     "components__protect_pdf_detail__repeat_type_password": "Passwort wiederholen",
     "components__protect_pdf_detail__input__placeholder": "Legen Sie Ihr Passwort fest",

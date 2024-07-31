@@ -168,7 +168,7 @@ const FunctionalityUnlockPdfDetail: FC<IFunctionalityUnlockPdfDetail> = ({
         type: 'button',
         buttonProps: {
           children: t(
-            'functionality__unlock_pdf:components__unlock_pdf_detail__button__convert',
+            'functionality__common:components__common__select_other_file',
           ),
           variant: 'outlined',
           disabled: isLoading,

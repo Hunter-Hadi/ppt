@@ -139,7 +139,7 @@ const FunctionalityProtectPdfDetail: FC<
         type: 'button',
         buttonProps: {
           children: t(
-            'functionality__protect_pdf:components__protect_pdf_detail__button__convert',
+            'functionality__common:components__common__select_other_file',
           ),
           variant: 'outlined',
           disabled: isLoading,

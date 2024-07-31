@@ -1294,7 +1294,8 @@
     "components__common__drag__dropping_tip": "Můžete upravit pořadí přetažením",
     "components__common__upload_button_tips": "nebo sem přetáhněte soubory",
     "components__common__upload_button_title": "VYBRAT SOUBORY",
-    "components__common__upload_button__unsupported_file_type_tip": "Nahrajte prosím určený typ souboru PDF"
+    "components__common__upload_button__unsupported_file_type_tip": "Nahrajte prosím určený typ souboru PDF",
+    "components__common__select_other_file": "Vyberte jiný soubor"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Lze nahrát pouze obrázky typu obrázek",
@@ -1772,7 +1773,6 @@
     "components__unlock_pdf_detail_input_password": "Zadejte heslo pro odemčení vašeho PDF",
     "components__unlock_pdf_detail_input_placeholder": "Heslo",
     "components__unlock_pdf_detail__button__unlock": "Odemknout",
-    "components__unlock_pdf_detail__button__convert": "Převést další",
     "components__unlock_pdf_detail__incorrect_password_tips": "Nesprávné heslo",
     "components__unlock_pdf_detail__use_tips": "Heslo a soubory PDF nebudou nahrány na server, což zajišťuje bezpečnost."
   },
@@ -1805,7 +1805,6 @@
   },
   "functionality__protect_pdf": {
     "components__protect_pdf_detail__button__protect": "Ochrana",
-    "components__protect_pdf_detail__button__convert": "Převést další",
     "components__protect_pdf_detail__type_password": " Zadejte heslo",
     "components__protect_pdf_detail__repeat_type_password": "Zopakujte heslo",
     "components__protect_pdf_detail__input__placeholder": "Nastavte své heslo",

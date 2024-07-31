@@ -1294,7 +1294,8 @@
     "components__common__drag__dropping_tip": "Bạn có thể điều chỉnh thứ tự bằng cách kéo và thả",
     "components__common__upload_button_tips": "hoặc thả tệp vào đây",
     "components__common__upload_button_title": "CHỌN TỆP",
-    "components__common__upload_button__unsupported_file_type_tip": "Vui lòng tải lên loại file PDF đã chỉ định"
+    "components__common__upload_button__unsupported_file_type_tip": "Vui lòng tải lên loại file PDF đã chỉ định",
+    "components__common__select_other_file": "Chọn tệp khác"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Chỉ có thể tải lên hình ảnh loại hình ảnh",
@@ -1772,7 +1773,6 @@
     "components__unlock_pdf_detail_input_password": "Vui lòng nhập mật khẩu để mở khóa tập tin PDF của bạn",
     "components__unlock_pdf_detail_input_placeholder": "Mật khẩu",
     "components__unlock_pdf_detail__button__unlock": "Mở Khóa",
-    "components__unlock_pdf_detail__button__convert": "Chuyển đổi khác",
     "components__unlock_pdf_detail__incorrect_password_tips": "Mật khẩu không chính xác",
     "components__unlock_pdf_detail__use_tips": "Mật khẩu và tệp PDF sẽ không được tải lên máy chủ, đảm bảo an toàn."
   },
@@ -1805,7 +1805,6 @@
   },
   "functionality__protect_pdf": {
     "components__protect_pdf_detail__button__protect": "Bảo vệ",
-    "components__protect_pdf_detail__button__convert": "Chuyển đổi khác",
     "components__protect_pdf_detail__type_password": " Nhập mật khẩu",
     "components__protect_pdf_detail__repeat_type_password": "Nhập lại mật khẩu",
     "components__protect_pdf_detail__input__placeholder": "Đặt mật khẩu của bạn",

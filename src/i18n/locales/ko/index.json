@@ -1294,7 +1294,8 @@
     "components__common__drag__dropping_tip": "드래그 앤 드롭으로 순서를 조정할 수 있습니다.",
     "components__common__upload_button_tips": "또는 파일을 여기에 놓으세요",
     "components__common__upload_button_title": "파일 선택",
-    "components__common__upload_button__unsupported_file_type_tip": "지정된 PDF 파일 유형을 업로드해주세요"
+    "components__common__upload_button__unsupported_file_type_tip": "지정된 PDF 파일 유형을 업로드해주세요",
+    "components__common__select_other_file": "다른 파일 선택"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "이미지 유형의 이미지만 업로드할 수 있습니다",
@@ -1772,7 +1773,6 @@
     "components__unlock_pdf_detail_input_password": "PDF를 잠금 해제하려면 암호를 입력하세요",
     "components__unlock_pdf_detail_input_placeholder": "암호",
     "components__unlock_pdf_detail__button__unlock": "해제",
-    "components__unlock_pdf_detail__button__convert": "다른 파일 변환",
     "components__unlock_pdf_detail__incorrect_password_tips": "잘못된 암호",
     "components__unlock_pdf_detail__use_tips": "암호 및 PDF 파일이 서버에 업로드되지 않아 보안이 보장됩니다."
   },
@@ -1805,7 +1805,6 @@
   },
   "functionality__protect_pdf": {
     "components__protect_pdf_detail__button__protect": "보호",
-    "components__protect_pdf_detail__button__convert": "다른 파일 변환",
     "components__protect_pdf_detail__type_password": " 암호 입력",
     "components__protect_pdf_detail__repeat_type_password": "암호 반복",
     "components__protect_pdf_detail__input__placeholder": "암호를 설정하세요",

@@ -1293,7 +1293,8 @@
     "components__common__drag__dropping_tip": "ניתן להתאים את הסדר על ידי גרירה ושחרור",
     "components__common__upload_button_tips": "או שחרר קבצים כאן",
     "components__common__upload_button_title": "בחר קבצים",
-    "components__common__upload_button__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין"
+    "components__common__upload_button__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין",
+    "components__common__select_other_file": "בחר קובץ אחר"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "ניתן להעלות רק תמונות מסוג תמונה",
@@ -1771,7 +1772,6 @@
     "components__unlock_pdf_detail_input_password": "אנא הזן את הסיסמה כדי לפתוח את ה-PDF שלך",
     "components__unlock_pdf_detail_input_placeholder": "סיסמה",
     "components__unlock_pdf_detail__button__unlock": "פתח",
-    "components__unlock_pdf_detail__button__convert": "המר לקובץ אחר",
     "components__unlock_pdf_detail__incorrect_password_tips": "סיסמה שגויה",
     "components__unlock_pdf_detail__use_tips": "הסיסמה וקבצי PDF לא ייטענו לשרת, מבטיח בטיחות."
   },
@@ -1804,7 +1804,6 @@
   },
   "functionality__protect_pdf": {
     "components__protect_pdf_detail__button__protect": "הגן",
-    "components__protect_pdf_detail__button__convert": "המרת קובץ נוסף",
     "components__protect_pdf_detail__type_password": "הזן סיסמה",
     "components__protect_pdf_detail__repeat_type_password": "חזור על הסיסמה",
     "components__protect_pdf_detail__input__placeholder": "הגדר את הסיסמה שלך",
