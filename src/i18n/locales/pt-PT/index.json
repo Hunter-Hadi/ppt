@@ -728,7 +728,13 @@
     "home_page__features_content__all_in_chatbox__description2": "A forma mais rápida de obter respostas instantâneas diretamente na barra lateral do navegador.",
     "home_page__features_content__all_in_chatbox__description3": "Analise qualquer imagem com visão de IA.",
     "home_page__features_content__all_in_chatbox__description4": "Crie arte e imagens de IA com DALLE-3.",
-    "home_page__features_content__ab_test_v4__content2__search__description4": "Exiba respostas de IA ao lado dos resultados de pesquisa do Google."
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Exiba respostas de IA ao lado dos resultados de pesquisa do Google.",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "Adicionar Marca de Água ao PDF",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "Adicione uma marca de água aos seus PDFs",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Adicione marcas d'água em PDFs em segundos",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "Confiado por 2,4 bilhões de pessoas desde 2013",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Forma fácil de adicionar marcas d'água aos PDFs - não é necessária instalação",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Adicione uma marca d'água a documentos PDF com um Watermarker PDF gratuito. Não é necessário baixar um aplicativo - tudo funciona no seu navegador em Mac, Windows, Linux e dispositivos móveis."
   },
   "prompt_library": {
     "use_prompt_library__title": "Biblioteca de sugestões de IA de alta qualidade",
@@ -1059,7 +1065,9 @@
     "use_cases__research__title": "Assistente de pesquisa e resumo de IA | MaxAI.me",
     "use_cases__research__desc": "Adicione IA ao seu navegador para resumir e conversar com artigos da web, PDFs e vídeos do YouTube para economizar tempo. Faça perguntas à IA para obter respostas rápidas e acelerar sua pesquisa. Alimentado por GPT-4o, Claude-3-Opus, Gemini-1.5-Pro.",
     "use_cases__writing__title": "Assistente de escrita de IA | MaxAI.me",
-    "use_cases__writing__desc": "Adicione IA ao seu navegador para melhorar e aprimorar sua escrita em qualquer página da web. Gere e-mails envolventes, artigos, postagens de blog, postagens em redes sociais e trabalhos acadêmicos. Alimentado por GPT-4o, Claude-3-opus, Gemini-1.5-pro."
+    "use_cases__writing__desc": "Adicione IA ao seu navegador para melhorar e aprimorar sua escrita em qualquer página da web. Gere e-mails envolventes, artigos, postagens de blog, postagens em redes sociais e trabalhos acadêmicos. Alimentado por GPT-4o, Claude-3-opus, Gemini-1.5-pro.",
+    "pdf_tools__pdf_watermark_page__title": "Watermarker PDF Gratuito | Marque PDFs em qualquer dispositivo",
+    "pdf_tools__pdf_watermark_page__description": "Adicione facilmente uma marca d'água a documentos PDF. Não é necessário baixar um aplicativo - tudo funciona no seu navegador em Mac, Windows, Linux e dispositivos móveis."
   },
   "features_landing": {
     "cta_text": "Adicionar ao Navegador",

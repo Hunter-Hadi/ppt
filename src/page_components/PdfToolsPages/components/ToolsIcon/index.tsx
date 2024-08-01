@@ -25,6 +25,7 @@ export type ICustomIconType =
   | 'SplitPDF'
   | 'JPEGToPDF'
   | 'CompressPDF'
+  | 'WaterMarkPDF'
 
 const IconsMap: {
   [key in ICustomIconType]: React.ComponentType<SvgIconProps>
@@ -42,6 +43,7 @@ const IconsMap: {
   SplitPDF: dynamic(() => import('./icons/SplitPDF')),
   CompressPDF: dynamic(() => import('./icons/CompressPDF')),
   JPEGToPDF: dynamic(() => import('./icons/JPEGToPDF')),
+  WaterMarkPDF: dynamic(() => import('./icons/WaterMarkPDF')),
 }
 const ToolsIcon: FC<{ name: string } & SvgIconProps> = ({
   name,

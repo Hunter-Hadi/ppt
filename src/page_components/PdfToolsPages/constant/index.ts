@@ -14,6 +14,7 @@ export type IToolUrkKeyType =
   | 'ocr-pdf'
   | 'number-pages'
   | 'rotate-pdf'
+  | 'watermark-pdf'
 export interface IToolData {
   icon: string
   title: string
@@ -159,6 +160,16 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     secondaryDescription:
       'pages:tools__index_page__constant_obj__pdf_page_numbers__secondary_description',
     urlKey: routerChildrenObject['number-pages'],
+    urlPrefixPath: toolsTopUrlKey,
+  },
+  'watermark-pdf': {
+    icon: 'WaterMarkPDF',
+    title: 'pages:tools__index_page__constant_obj__pdf_page_watermark__title',
+    description:
+      'pages:tools__index_page__constant_obj__pdf_page_watermark__main_description',
+    secondaryDescription:
+      '',
+    urlKey: routerChildrenObject['watermark-pdf'],
     urlPrefixPath: toolsTopUrlKey,
   },
 }

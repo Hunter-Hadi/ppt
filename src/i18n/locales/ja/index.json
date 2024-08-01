@@ -728,7 +728,13 @@
     "home_page__features_content__all_in_chatbox__description2": "ブラウザーサイドバーで即座の回答を得る最速の方法。",
     "home_page__features_content__all_in_chatbox__description3": "AIビジョンで任意の画像を分析。",
     "home_page__features_content__all_in_chatbox__description4": "DALLE-3でAIアートと画像を作成。",
-    "home_page__features_content__ab_test_v4__content2__search__description4": "Google検索結果の隣にAI応答を表示します。"
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Google検索結果の隣にAI応答を表示します。",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "PDFに透かしを追加",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "PDFに透かしを追加",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "数秒でPDFに透かしを追加",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "2013年以来24億人に信頼されています",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "PDFに透かしを追加する簡単な方法—インストール不要",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "無料のPDFウォーターマーカーでPDF文書に透かしを追加します。アプリをダウンロードする必要はありません。すべての作業は、Mac、Windows、Linux、モバイルデバイスでブラウザで行われます。"
   },
   "prompt_library": {
     "use_prompt_library__title": "高品質なAIプロンプトライブラリ",
@@ -1059,7 +1065,9 @@
     "use_cases__research__title": "AI研究と要約アシスタント | MaxAI.me",
     "use_cases__research__desc": "時間を節約するために、ウェブ記事、PDF、YouTube動画を要約してチャットできます。AIに質問して迅速な回答を得て、研究を加速させましょう。GPT-4o、Claude-3-Opus、Gemini-1.5-Proによって強化されています。",
     "use_cases__writing__title": "AI執筆アシスタント | MaxAI.me",
-    "use_cases__writing__desc": "ブラウザにAIを追加して、どのウェブページでも執筆を改善し磨きます。魅力的なメール、記事、ブログ投稿、ソーシャルメディア投稿、論文を生成します。GPT-4o、Claude-3-opus、Gemini-1.5-proによって強化されています。"
+    "use_cases__writing__desc": "ブラウザにAIを追加して、どのウェブページでも執筆を改善し磨きます。魅力的なメール、記事、ブログ投稿、ソーシャルメディア投稿、論文を生成します。GPT-4o、Claude-3-opus、Gemini-1.5-proによって強化されています。",
+    "pdf_tools__pdf_watermark_page__title": "無料PDFウォーターマーカー | どんなデバイスでもPDFに透かしを入れる",
+    "pdf_tools__pdf_watermark_page__description": "簡単にPDF文書に透かしを追加します。アプリをダウンロードする必要はありません。すべての作業は、Mac、Windows、Linux、モバイルデバイスでブラウザで行われます。"
   },
   "features_landing": {
     "cta_text": "ブラウザに追加",

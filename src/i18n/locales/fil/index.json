@@ -728,7 +728,13 @@
     "home_page__features_content__all_in_chatbox__description2": "Pinakamabilis na paraan para makakuha ng agad na mga sagot sa gilid ng browser.",
     "home_page__features_content__all_in_chatbox__description3": "Sur iyo anumang larawan gamit ang AI vision.",
     "home_page__features_content__all_in_chatbox__description4": "Lumikha ng AI art at mga larawan gamit ang DALLE-3.",
-    "home_page__features_content__ab_test_v4__content2__search__description4": "Ipakita ang mga tugon ng AI sa tabi ng mga resulta ng Google search."
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Ipakita ang mga tugon ng AI sa tabi ng mga resulta ng Google search.",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "Watermark PDF",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "Magdagdag ng watermark sa iyong mga PDF",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Magdagdag ng watermark sa PDF sa loob ng ilang segundo",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "Pinagkakatiwalaan ng 2.4 bilyong tao mula 2013",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Madaling paraan para sa watermarking ng PDFs—walang kailangang i-install",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Magdagdag ng watermark sa mga dokumento ng PDF gamit ang libreng PDF Watermarker. Walang kailangang i-download na app–lahat ay gumagana sa iyong browser sa Mac, Windows, Linux, at mobile devices."
   },
   "prompt_library": {
     "use_prompt_library__title": "Mataas na kalidad na AI prompt library",
@@ -1059,7 +1065,9 @@
     "use_cases__research__title": "AI research at assistant sa buod | MaxAI.me",
     "use_cases__research__desc": "Magdagdag ng AI sa iyong browser upang magbuod at makipag-chat sa mga web article, PDF, at YouTube video upang makatipid ng oras. Magtanong sa AI para sa mabilis na sagot at mapabilis ang iyong pananaliksik. Powered by GPT-4o, Claude-3-Opus, Gemini-1.5-Pro.",
     "use_cases__writing__title": "AI writing assistant | MaxAI.me",
-    "use_cases__writing__desc": "Magdagdag ng AI sa iyong browser upang ma-improve at ma-polish ang iyong pagsusulat sa anumang web page. Gumawa ng nakakumbinseng mga email, artikulo, blog post, social media post, papel. Powered by GPT-4o, Claude-3-opus, Gemini-1.5-pro."
+    "use_cases__writing__desc": "Magdagdag ng AI sa iyong browser upang ma-improve at ma-polish ang iyong pagsusulat sa anumang web page. Gumawa ng nakakumbinseng mga email, artikulo, blog post, social media post, papel. Powered by GPT-4o, Claude-3-opus, Gemini-1.5-pro.",
+    "pdf_tools__pdf_watermark_page__title": "Libreng PDF Watermarker | Lagyan ng Watermark ang mga PDF sa anumang device",
+    "pdf_tools__pdf_watermark_page__description": "Madaling magdagdag ng watermark sa mga dokumento ng PDF. Walang kailangang i-download na app–lahat ay gumagana sa iyong browser sa Mac, Windows, Linux, at mobile devices."
   },
   "features_landing": {
     "cta_text": "Idagdag sa Browser",

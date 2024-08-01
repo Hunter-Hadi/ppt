@@ -728,7 +728,13 @@
     "home_page__features_content__all_in_chatbox__description2": "La forma más rápida de obtener respuestas instantáneas directamente en la barra lateral del navegador.",
     "home_page__features_content__all_in_chatbox__description3": "Analiza cualquier imagen con visión de IA.",
     "home_page__features_content__all_in_chatbox__description4": "Crea arte e imágenes de IA con DALLE-3.",
-    "home_page__features_content__ab_test_v4__content2__search__description4": "Muestra respuestas de IA junto a los resultados de búsqueda de Google."
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Muestra respuestas de IA junto a los resultados de búsqueda de Google.",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "Marca de agua PDF",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "Agrega una marca de agua a tus PDF",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Agrega marcas de agua a PDF en segundos",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "Confiado por 2.4 mil millones de personas desde 2013",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Forma fácil de marcar PDFs, no se necesita instalación",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Agrega una marca de agua a documentos PDF con un Watermarker PDF gratuito. No es necesario descargar una aplicación, todo funciona en tu navegador en Mac, Windows, Linux y dispositivos móviles."
   },
   "prompt_library": {
     "use_prompt_library__title": "Biblioteca de sugerencias de IA de alta calidad",
@@ -1059,7 +1065,9 @@
     "use_cases__research__title": "Asistente de investigación y resumen de IA | MaxAI.me",
     "use_cases__research__desc": "Agrega IA a tu navegador para resumir y chatear con artículos web, PDF y videos de YouTube y ahorrar tiempo. Haz preguntas a la IA para obtener respuestas rápidas y acelerar tu investigación. Impulsado por GPT-4o, Claude-3-Opus, Gemini-1.5-Pro.",
     "use_cases__writing__title": "Asistente de escritura de IA | MaxAI.me",
-    "use_cases__writing__desc": "Agrega IA a tu navegador para mejorar y pulir tu escritura en cualquier página web. Genera correos electrónicos convincentes, artículos, publicaciones de blog, publicaciones en redes sociales y documentos. Impulsado por GPT-4o, Claude-3-opus, Gemini-1.5-pro."
+    "use_cases__writing__desc": "Agrega IA a tu navegador para mejorar y pulir tu escritura en cualquier página web. Genera correos electrónicos convincentes, artículos, publicaciones de blog, publicaciones en redes sociales y documentos. Impulsado por GPT-4o, Claude-3-opus, Gemini-1.5-pro.",
+    "pdf_tools__pdf_watermark_page__title": "Watermarker PDF gratuito | Marca de agua en PDF en cualquier dispositivo",
+    "pdf_tools__pdf_watermark_page__description": "Agrega fácilmente una marca de agua a documentos PDF. No es necesario descargar una aplicación, todo funciona en tu navegador en Mac, Windows, Linux y dispositivos móviles."
   },
   "features_landing": {
     "cta_text": "Agregar al navegador",
