@@ -160,9 +160,12 @@ const FunctionalityWateMarkPdfShowPdfViewRenderCanvas = (
       })
       editor.current = canvas
       editor.current.setZoom(0.2)
-      if (!isMobile) return //移动端需要的滚动逻辑
+      // if (!isMobile) return //移动端需要的滚动逻辑
       // fabricMobileMove(editor.current)
     }
+  }, [])
+
+  useEffect(() => {
     // 假定您已经有一个引用 `topWrapRef`
     const topWrapRef = document.querySelector(
       `.sample-canvas-wrap-${canvasIndex + 1}`,
@@ -191,7 +194,7 @@ const FunctionalityWateMarkPdfShowPdfViewRenderCanvas = (
         resizeObserver.unobserve(topWrapRef)
       }
     }
-  }, [])
+  }, [topWrapRef])
 
   useEffect(() => {
     try {
