@@ -257,6 +257,28 @@ export const PLAN_FEATURES_V3_DATA_ROWS: IPlanFeaturesV3DataRowType[] = [
   },
   {
     features: {
+      title: 'Mistral-Large-2',
+      icon: 'Mistral-Large-2',
+      tooltip: {
+        desc: 'pricing:features_data__mistral_large_2__tooltip',
+      },
+    },
+    free: { status: 'none' },
+    basic: {
+      status: 'none',
+    },
+    pro: {
+      status: 'none',
+    },
+    elite: {
+      status: 'checked',
+    },
+    meta: {
+      type: 'secondary',
+    },
+  },
+  {
+    features: {
       title: 'pricing:ab_test_v5__features_data__image_ai_queries',
       tooltip: {
         desc: 'pricing:ab_test_v5__features_data__image_ai_queries__tooltip',

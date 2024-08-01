@@ -1520,7 +1520,8 @@
     "ab_test_v5__features_data__telegram__tooltip": "在 Telegram 訊息往來中節省時間。以簡短筆記在幾秒鐘內回覆訊息。改善語氣，檢查拼寫和語法。更有效和高效地溝通。",
     "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "創建您自己的提示，組織它們，並使它們易於訪問和重複使用，為您和您的團隊。",
     "features_data__llama_3_1_70b__tooltip": "由 Meta 提供。128,000 最大標記。功能強大的多語言模型，具有顯著擴展的上下文長度和增強的推理能力。支援長篇本文摘要、多語言對話代理和編碼輔助等高級用例。",
-    "features_data__llama_3_1_405b__tooltip": "由 Meta 提供。128,000 最大標記。全球最大的公開基礎模型，與頂尖封閉式 AI 在一般知識、可操控性和數學方面相媲美。支援 8 種語言，實現合成數據生成和模型提煉等高級功能。適用於長篇摘要、多語言對話代理和編碼助手。"
+    "features_data__llama_3_1_405b__tooltip": "由 Meta 提供。128,000 最大標記。全球最大的公開基礎模型，與頂尖封閉式 AI 在一般知識、可操控性和數學方面相媲美。支援 8 種語言，實現合成數據生成和模型提煉等高級功能。適用於長篇摘要、多語言對話代理和編碼助手。",
+    "features_data__mistral_large_2__tooltip": "採用MistralAI技術。最多128,000個標記。Mistral最新旗艦型號突破速度和性能的極限。Mistral-Large-2擁有1,230億個參數，在數學、程式碼生成和跨數十種語言的推理方面表現卓越。它提供最小的幻覺效應，並為自然語言和編程語言提供令人印象深刻的多語言支持。"
   },
   "features__common": {
     "components__upload_button_drop_title": "拖放至此"

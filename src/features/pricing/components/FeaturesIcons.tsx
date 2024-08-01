@@ -1022,6 +1022,119 @@ const Llama3_1_405B: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
   )
 }
 
+const Mistral_Large_2: FC<IFeatureIconProps> = ({ sx, fontSize = 36 }) => {
+  return (
+    <SvgIcon
+      viewBox='0 0 20 20'
+      sx={{
+        fontSize: fontSize,
+        ...sx,
+      }}
+    >
+      <svg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
+        <g clipPath='url(#clip0_118_102)'>
+          <path
+            d='M0 8C0 3.58172 3.58172 0 8 0H16C20.4183 0 24 3.58172 24 8V16C24 20.4183 20.4183 24 16 24H8C3.58172 24 0 20.4183 0 16V8Z'
+            fill='#F4F4F4'
+          />
+          <rect
+            x='4.20105'
+            y='17.0387'
+            width='3.35933'
+            height='3.36'
+            fill='#FE060F'
+          />
+          <rect x='3' y='3.59955' width='1.19976' height='16.8' fill='black' />
+          <rect
+            x='9.71982'
+            y='13.6799'
+            width='1.19976'
+            height='3.36'
+            fill='black'
+          />
+          <rect
+            x='16.4358'
+            y='13.6789'
+            width='1.19976'
+            height='6.72'
+            fill='black'
+          />
+          <rect
+            x='16.4358'
+            y='3.59955'
+            width='1.19976'
+            height='3.36'
+            fill='black'
+          />
+          <rect
+            x='13.0721'
+            y='6.9584'
+            width='1.19976'
+            height='3.36'
+            fill='black'
+          />
+          <rect
+            x='17.6407'
+            y='17.0387'
+            width='3.35933'
+            height='3.36'
+            fill='#FE060F'
+          />
+          <rect
+            x='4.20105'
+            y='13.6799'
+            width='3.35933'
+            height='3.36'
+            fill='#FE4A0A'
+          />
+          <rect
+            x='10.9171'
+            y='13.6799'
+            width='3.35933'
+            height='3.36'
+            fill='#FE4A0A'
+          />
+          <rect
+            x='17.6407'
+            y='13.6799'
+            width='3.35933'
+            height='3.36'
+            fill='#FE4A0A'
+          />
+          <path
+            d='M4.20105 13.6791V10.3191H10.9127H14.2846H21V13.6791H14.2764H10.9171H4.20105Z'
+            fill='#FE6F00'
+          />
+          <path
+            d='M4.20105 6.9584V10.3184H10.9127V6.9584H4.20105Z'
+            fill='#FEA200'
+          />
+          <path d='M14.2846 6.9584H21V10.3184H14.2846V6.9584Z' fill='#FEA200' />
+          <rect
+            x='4.20105'
+            y='3.59955'
+            width='3.35933'
+            height='3.36'
+            fill='#FECD00'
+          />
+          <rect
+            x='17.6407'
+            y='3.59955'
+            width='3.35933'
+            height='3.36'
+            fill='#FECD00'
+          />
+        </g>
+        <defs>
+          <clipPath id='clip0_118_102'>
+            <rect width='24' height='24' fill='white' />
+          </clipPath>
+        </defs>
+      </svg>
+    </SvgIcon>
+  )
+}
+
 const FeaturesIcons: FC<{ name: string } & IFeatureIconProps> = ({
   name,
   ...restProps
@@ -1166,6 +1279,9 @@ const FeaturesIcons: FC<{ name: string } & IFeatureIconProps> = ({
       }
       case 'Llama-3-1-405B': {
         return <Llama3_1_405B {...restProps} />
+      }
+      case 'Mistral-Large-2': {
+        return <Mistral_Large_2 {...restProps} />
       }
 
       case 'Article': {

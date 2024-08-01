@@ -1520,7 +1520,8 @@
     "ab_test_v5__features_data__telegram__tooltip": "节省Telegram消息往来的时间。用简短的笔记在几秒钟内回复消息。改善语气，检查拼写和语法。更有效和高效地沟通。",
     "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "创建您自己的提示，组织它们，轻松访问和重复使用，为您和您的团队。",
     "features_data__llama_3_1_70b__tooltip": "由 Meta 提供。128,000 最大令牌。功能强大的多语言模型，具有显著扩展的上下文长度和增强的推理能力。支持长篇文本摘要、多语言对话代理和编码辅助等高级用例。",
-    "features_data__llama_3_1_405b__tooltip": "由 Meta 提供。128,000 最大令牌。世界上最大的公开基础模型，与顶级闭源 AI 在一般知识、可操纵性和数学方面相媲美。支持 8 种语言，支持合成数据生成和模型蒸馏等高级功能。非常适合长篇摘要、多语言对话代理和编码助手。"
+    "features_data__llama_3_1_405b__tooltip": "由 Meta 提供。128,000 最大令牌。世界上最大的公开基础模型，与顶级闭源 AI 在一般知识、可操纵性和数学方面相媲美。支持 8 种语言，支持合成数据生成和模型蒸馏等高级功能。非常适合长篇摘要、多语言对话代理和编码助手。",
+    "features_data__mistral_large_2__tooltip": "由 MistralAI 提供。128,000 最大标记。Mistral 的最新旗舰型号突破了速度和性能的界限。拥有 1230 亿参数的 Mistral-Large-2 在代码生成、数学和跨数十种语言的推理方面表现出色。它提供最小的幻觉，并为自然语言和编程语言提供令人印象深刻的多语言支持。"
   },
   "features__common": {
     "components__upload_button_drop_title": "拖放到这里"
