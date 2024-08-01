@@ -10,7 +10,6 @@ import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester'
 import CallToActionSection from '@/features/landing/components/CallToActionSection'
 import FeaturesContentAbTestV7AutoVideo from '@/features/landing/components/FeaturesCarousel/FeaturesContentAbTestV7SlideAutoVideo'
 import HeroSection from '@/features/landing/components/HeroSection'
-import HowItWork from '@/features/landing/components/HowItWork'
 import MaxAIInNumbers from '@/features/landing/components/MaxAIInNumbers'
 import UserComment from '@/features/landing/components/UserComment'
 import { LANDING_PRIMARY_VIDEO_ASSETS_URL } from '@/features/landing/constants'
@@ -91,8 +90,6 @@ const FeaturesExploreMore: FC<IProps> = ({ propRef, sx }) => {
           windowAutoPlay: true,
         }}
       />
-
-      <HowItWork />
 
       {/* feature  */}
       <FeaturesContentAbTestV7AutoVideo />

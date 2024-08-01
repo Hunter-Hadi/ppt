@@ -4,6 +4,7 @@ import React, { FC } from 'react'
 
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
 import HeroSection from '@/features/landing/components/HeroSection'
+import HowItWork from '@/features/landing/components/HowItWork'
 import TrustedBy from '@/features/landing/components/TrustedBy'
 import FunnelSurveyPopup from '@/features/survey/components/FunnelSurveyPopup'
 import FeaturesContentSection from '@/page_components/FeaturesLandingPages/components/FeaturesContentSection'
@@ -35,6 +36,8 @@ const AIArtPages: FC<IProps> = () => {
 
       {/* trusted by */}
       <TrustedBy />
+
+      <HowItWork />
 
       <FeaturesContentSection
         icon='art'

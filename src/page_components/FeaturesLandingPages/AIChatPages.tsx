@@ -4,6 +4,7 @@ import React, { FC } from 'react'
 
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
 import HeroSection from '@/features/landing/components/HeroSection'
+import HowItWork from '@/features/landing/components/HowItWork'
 import TrustedBy from '@/features/landing/components/TrustedBy'
 import FunnelSurveyPopup from '@/features/survey/components/FunnelSurveyPopup'
 import { CLOUD_FLARE_ASSETS_URL } from '@/global_constants'
@@ -46,6 +47,8 @@ const AIChatPages: FC<IProps> = () => {
       />
       {/* trusted by */}
       <TrustedBy />
+      <HowItWork />
+
       <FeaturesContentSection
         icon='open-ai'
         title={t('features_landing:ai_chat_pages__section1__title')}
