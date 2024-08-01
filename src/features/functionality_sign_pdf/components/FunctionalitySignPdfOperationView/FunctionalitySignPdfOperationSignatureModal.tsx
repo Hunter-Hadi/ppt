@@ -102,6 +102,7 @@ const FunctionalitySignPdfOperationSignatureModal: FC<
     boxShadow: 24,
     px: 1,
     minHeight: 300,
+    zIndex: 99999,
   }
   return (
     <Modal
