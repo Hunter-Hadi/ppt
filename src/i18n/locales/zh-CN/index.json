@@ -52,7 +52,8 @@
     "month": "月",
     "unlimited": "无限",
     "most_popular": "最受欢迎",
-    "upgrade_now": "立即升级"
+    "upgrade_now": "立即升级",
+    "choose_another_file": "选择另一个文件"
   },
   "pages": {
     "prompt_detail_page__button__run_this_prompt": "运行此提示",

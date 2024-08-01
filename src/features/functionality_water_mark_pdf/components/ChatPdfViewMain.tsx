@@ -12,7 +12,7 @@ import { useTranslation } from 'next-i18next'
 import { PDFDocument } from 'pdf-lib'
 import React, { FC, useEffect, useMemo, useRef, useState } from 'react'
 
-import ChatPdfViewPage from '@/features/functionality_common/components/FunctionalityCommonPdfViewVirtualScroll/components/ChatPdfViewPage'
+import ChatPdfViewPage from '@/features/functionality_common/components/FunctionalityCommonPdfViewVirtualScroll/components/FunctionalityCommonPdfViewPage'
 import FunctionalityCommonPdfViewVirtualScrollMain from '@/features/functionality_common/components/FunctionalityCommonPdfViewVirtualScroll/components/FunctionalityCommonPdfViewVirtualScrollMain'
 import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex'
@@ -73,11 +73,21 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
 
   const currentViewRef = useRef<number>(0)
   const infintyViewRef = useRef<HTMLElement>()
+  const viewContainerRef = useRef<HTMLElement>()
+  const [overallViewHeight, setOverallViewHeight] = useState<number>(0)
 
   const isMobile = useFunctionalityCommonIsMobile()
   const [width, setWidth] = useState(850)
 
   const { t } = useTranslation()
+
+  const autoSetOverallViewHeight = () => {
+    const distanceFromTop = infintyViewRef.current?.getBoundingClientRect().top
+
+    const overallViewHeight =
+      window.innerHeight - (distanceFromTop || 280) - 10 - (isMobile ? 0 : 0)
+    setOverallViewHeight(overallViewHeight)
+  }
 
   const onChangeTransparency = (value: number) => {
     const convertedValue = (value - 1) / 99 // 转换为 0-1 的范围
@@ -165,7 +175,7 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
     return (
       <FunctionalityCommonPdfViewVirtualScrollMain
         viewWidth={width}
-        viewHeight={750}
+        viewHeight={overallViewHeight}
         file={file}
       >
         {(props) => {
@@ -206,7 +216,7 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
         }}
       </FunctionalityCommonPdfViewVirtualScrollMain>
     )
-  }, [file, waterMarkInfo, width])
+  }, [file, waterMarkInfo, width, overallViewHeight])
 
   useEffect(() => {
     if (infintyViewRef.current) {
@@ -215,7 +225,8 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
         // debugger
         if (infintyViewRef.current?.offsetWidth) {
           // 减去padding
-          setWidth(infintyViewRef.current?.offsetWidth - 128)
+          const refPadding = isMobile ? 0 : 128
+          setWidth(infintyViewRef.current?.offsetWidth - refPadding)
         }
       }
 
@@ -237,6 +248,16 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
     }
   }, [])
 
+  useEffect(() => {
+    if (isMobile) {
+      setTimeout(() => {
+        autoSetOverallViewHeight()
+      }, 500)
+    } else {
+      autoSetOverallViewHeight()
+    }
+  }, [isMobile, infintyViewRef])
+
   return (
     <Stack
       sx={{
@@ -248,15 +269,15 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
         position: 'relative',
       }}
       alignItems={'center'}
+      ref={viewContainerRef}
     >
       <Stack
-        // justifyContent={'center'}
         className='water-mark-pdf__view-title-container'
         sx={{
           height: 75,
           width: isMobile ? 'auto' : '100%',
           justifyContent: 'center',
-          maxWidth: '850px',
+          // maxWidth: '850px',
         }}
       >
         <Stack
@@ -271,13 +292,11 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
               placeholder={t(
                 'functionality__sign_pdf:components__sign_pdf__operation_oBject_default__type__text_field__type_something',
               )}
-              // placeholder='Type here'
             />
             <CloseIcon
               onClick={() => setWaterMarkValue('')}
               sx={{ fontSize: '16px', cursor: 'pointer' }}
             />
-
           </InputContainer>
           <Stack direction={'row'} gap={'8px'} sx={{ ml: 1 }}>
             <Button
@@ -287,15 +306,12 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
                 pdfAddSignCanvasViewReturnUint8Array(file)
               }}
               disabled={downLoadLoading}
-              sx={{ minWidth: '120px' }}
+              sx={{ whiteSpace: 'nowrap' }}
             >
               {downLoadLoading ? (
-                <Box>
-                  {/* {t(
-                    'functionality__image_to_pdf:components__image_to_pdf__download',
-                  )} */}
+                <Stack direction={'row'} alignItems={'center'}>
                   <CircularProgress size={24} />
-                </Box>
+                </Stack>
               ) : (
                 <>
                   {t(
@@ -305,16 +321,16 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
               )}
             </Button>
             <Button
-              variant='contained'
+              color='error'
+              variant='outlined'
               size='large'
               onClick={() => {
-                // pdfAddSignCanvasViewReturnUint8Array(file)
                 onClearReturn()
               }}
-              sx={{ minWidth: '80px' }}
+              sx={{ minWidth: '80px', whiteSpace: 'nowrap' }}
               disabled={downLoadLoading}
             >
-              {t('common:back')}
+              {t('common:choose_another_file')}
             </Button>
           </Stack>
         </Stack>
@@ -324,16 +340,13 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
         sx={{
           zIndex: '2',
           position: isMobile ? 'absolute' : 'absolute',
-          top: isMobile ? '80px' : '100px',
+          top: isMobile ? '78px' : '88px',
         }}
       >
         <Stack
           className='functionality-water-mark-object-tools-popup'
           sx={{
-            // position: isMobile ? 'absolute' : 'absolute',
-            // zIndex: '2',
             mb: isMobile ? 1 : 0,
-            // top: isMobile ? '76px' : '76px',
             button: {
               padding: isMobile ? '5px 3px!important' : '5px 7px!important',
               minWidth: isMobile ? '35px!important' : 40,
@@ -418,12 +431,14 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
       </Box>
       <Box
         sx={{
-          p: 8,
+          pt: 8,
+          px: isMobile ? 0 : 8,
           backgroundColor: '#fafafa',
-          border: '1px solid #e8e8e8',
           overflow: 'hidden',
-          maxWidth: 850,
+          maxWidth: 1280,
           width: '100%',
+          boxSizing: 'border-box',
+          height: overallViewHeight,
         }}
         ref={infintyViewRef}
       >

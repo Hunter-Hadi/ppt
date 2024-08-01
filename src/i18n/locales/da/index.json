@@ -52,7 +52,8 @@
     "month": "måned",
     "unlimited": "Ubegrænset",
     "most_popular": "Mest populære",
-    "upgrade_now": "Opgrader nu"
+    "upgrade_now": "Opgrader nu",
+    "choose_another_file": "Vælg en anden fil"
   },
   "button": {
     "add_to_chrome_for_free": "Tilføj til Chrome - Det er gratis",

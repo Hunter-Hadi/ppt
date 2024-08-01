@@ -52,7 +52,8 @@
     "month": "월",
     "unlimited": "무제한",
     "most_popular": "가장 인기 있는",
-    "upgrade_now": "지금 업그레이드"
+    "upgrade_now": "지금 업그레이드",
+    "choose_another_file": "다른 파일 선택"
   },
   "button": {
     "add_to_chrome_for_free": "크롬에 추가 - 무료입니다",

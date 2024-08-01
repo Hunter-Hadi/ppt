@@ -52,7 +52,8 @@
     "month": "månad",
     "unlimited": "Obegränsad",
     "most_popular": "Mest populär",
-    "upgrade_now": "Uppgradera nu"
+    "upgrade_now": "Uppgradera nu",
+    "choose_another_file": "Välj en annan fil"
   },
   "button": {
     "add_to_chrome_for_free": "Lägg till i Chrome - Det är gratis",

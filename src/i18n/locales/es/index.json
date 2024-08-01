@@ -52,7 +52,8 @@
     "month": "mes",
     "unlimited": "Ilimitado",
     "most_popular": "Más popular",
-    "upgrade_now": "Actualizar ahora"
+    "upgrade_now": "Actualizar ahora",
+    "choose_another_file": "Elegir otro archivo"
   },
   "button": {
     "add_to_chrome_for_free": "Agregar a Chrome - Es gratis",

@@ -6,8 +6,8 @@ const useChatPdfListZoom = (
     max: number
     min: number
   } = {
-    max: 1,
-    min: 0.1,
+    max: 1.5,
+    min: 0.5,
   },
 ) => {
   const [scaleNumber, setScaleNumber] = useState<number>(1)

@@ -1,3 +1,4 @@
+
 const HOST_CONFIG = {
   dev: {
     wwwProjectHost: 'https://main.d35dysdwr52gaf.amplifyapp.com',

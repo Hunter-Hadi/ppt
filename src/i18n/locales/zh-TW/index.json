@@ -52,7 +52,8 @@
     "month": "月",
     "unlimited": "無限制",
     "most_popular": "最受歡迎",
-    "upgrade_now": "立即升級"
+    "upgrade_now": "立即升級",
+    "choose_another_file": "選擇另一個檔案"
   },
   "button": {
     "add_to_chrome_for_free": "免費加入 Chrome",

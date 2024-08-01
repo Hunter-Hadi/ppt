@@ -52,7 +52,8 @@
     "month": "شهر",
     "unlimited": "غير محدود",
     "most_popular": "الأكثر شهرة",
-    "upgrade_now": "ترقية الآن"
+    "upgrade_now": "ترقية الآن",
+    "choose_another_file": "اختر ملفًا آخر"
   },
   "button": {
     "add_to_chrome_for_free": "أضف إلى Chrome - مجانًا",

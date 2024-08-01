@@ -52,7 +52,8 @@
     "month": "kuukausi",
     "unlimited": "Rajaton",
     "most_popular": "Suosituin",
-    "upgrade_now": "Päivitä nyt"
+    "upgrade_now": "Päivitä nyt",
+    "choose_another_file": "Valitse toinen tiedosto"
   },
   "button": {
     "add_to_chrome_for_free": "Lisää Chromeen - Se on ilmainen",
