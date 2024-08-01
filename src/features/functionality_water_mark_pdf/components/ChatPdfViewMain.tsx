@@ -45,9 +45,10 @@ const CustomInput = styled('input')({
   outline: 'none',
   fontSize: '16px',
   padding: '8px 0',
-  marginRight: '36px', // 为了给IconButton留出空间
+  marginRight: '8px', // 为了给IconButton留出空间
   height: '26px', // 输入框高度
   boxSizing: 'border-box',
+  minWidth: '50px',
 })
 
 interface IPdfContainerMainProps {
@@ -182,8 +183,8 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
           const { pdfInfo, index } = props
           const { height, width } = pdfInfo
           const tempPdfInfo = {
-            height: height * 2,
-            width: width * 2,
+            height: height * 4,
+            width: width * 4,
           }
           currentViewRef.current = index
           return (
@@ -275,9 +276,10 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
         className='water-mark-pdf__view-title-container'
         sx={{
           height: 75,
-          width: isMobile ? 'auto' : '100%',
+          width: '100%',
+          // width: isMobile ? 'auto' : '100%',
           justifyContent: 'center',
-          // maxWidth: '850px',
+          minWidth: '300px',
         }}
       >
         <Stack
@@ -285,7 +287,7 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
           alignItems={'center'}
           justifyContent={'space-between'}
         >
-          <InputContainer>
+          <InputContainer sx={{ flex: '0 5 auto' }}>
             <CustomInput
               value={waterMarkValue}
               onChange={(e) => setWaterMarkValue(e.target.value)}
@@ -298,7 +300,11 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
               sx={{ fontSize: '16px', cursor: 'pointer' }}
             />
           </InputContainer>
-          <Stack direction={'row'} gap={'8px'} sx={{ ml: 1 }}>
+          <Stack
+            direction={'row'}
+            gap={'8px'}
+            sx={{ ml: 1, minWidth: 0, flex: '0 1 auto' }}
+          >
             <Button
               variant='contained'
               size='large'
@@ -306,7 +312,6 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
                 pdfAddSignCanvasViewReturnUint8Array(file)
               }}
               disabled={downLoadLoading}
-              sx={{ whiteSpace: 'nowrap' }}
             >
               {downLoadLoading ? (
                 <Stack direction={'row'} alignItems={'center'}>
@@ -327,10 +332,9 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
               onClick={() => {
                 onClearReturn()
               }}
-              sx={{ minWidth: '80px', whiteSpace: 'nowrap' }}
               disabled={downLoadLoading}
             >
-              {t('common:choose_another_file')}
+              {isMobile ? t('common:back') : t('common:choose_another_file')}
             </Button>
           </Stack>
         </Stack>
@@ -339,7 +343,7 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
         className='functionality-water-mark-object-tools-container'
         sx={{
           zIndex: '2',
-          position: isMobile ? 'absolute' : 'absolute',
+          position: 'absolute',
           top: isMobile ? '78px' : '88px',
         }}
       >
