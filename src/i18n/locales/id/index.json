@@ -52,7 +52,8 @@
     "month": "bulan",
     "unlimited": "Tak Terbatas",
     "most_popular": "Paling Populer",
-    "upgrade_now": "Tingkatkan Sekarang"
+    "upgrade_now": "Tingkatkan Sekarang",
+    "choose_another_file": "Pilih file lain"
   },
   "button": {
     "add_to_chrome_for_free": "Tambahkan ke Chrome — Gratis",
@@ -728,7 +729,13 @@
     "home_page__features_content__all_in_chatbox__description2": "Cara tercepat untuk mendapatkan jawaban instan langsung di sisi browser.",
     "home_page__features_content__all_in_chatbox__description3": "Analisis gambar apa pun dengan visi AI.",
     "home_page__features_content__all_in_chatbox__description4": "Buat seni dan gambar AI dengan DALLE-3.",
-    "home_page__features_content__ab_test_v4__content2__search__description4": "Tampilkan respon AI di sebelah hasil pencarian Google."
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Tampilkan respon AI di sebelah hasil pencarian Google.",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "Watermark PDF",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "Tambahkan watermark ke PDF Anda",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Tambahkan watermark PDF dalam hitungan detik",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "Dipercaya oleh 2.4 miliar orang sejak 2013",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Cara mudah untuk memberi watermark pada PDF—tidak perlu instalasi",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Tambahkan watermark ke dokumen PDF dengan PDF Watermarker gratis. Tidak perlu mengunduh aplikasi–semuanya berfungsi di browser Anda pada Mac, Windows, Linux, dan perangkat mobile."
   },
   "prompt_library": {
     "use_prompt_library__title": "Perpustakaan AI berkualitas tinggi",
@@ -1059,7 +1066,9 @@
     "use_cases__research__title": "Asisten penelitian dan ringkasan AI | MaxAI.me",
     "use_cases__research__desc": "Tambahkan AI ke browser Anda untuk merangkum dan berkomunikasi dengan artikel web, PDF, dan video YouTube untuk menghemat waktu. Ajukan pertanyaan kepada AI untuk jawaban cepat guna mempercepat penelitian Anda. Didukung oleh GPT-4o, Claude-3-Opus, Gemini-1.5-Pro.",
     "use_cases__writing__title": "Asisten menulis AI | MaxAI.me",
-    "use_cases__writing__desc": "Tambahkan AI ke browser Anda untuk meningkatkan dan menyempurnakan tulisan Anda di halaman web manapun. Hasilkan email yang meyakinkan, artikel, posting blog, posting media sosial, makalah. Didukung oleh GPT-4o, Claude-3-opus, Gemini-1.5-pro."
+    "use_cases__writing__desc": "Tambahkan AI ke browser Anda untuk meningkatkan dan menyempurnakan tulisan Anda di halaman web manapun. Hasilkan email yang meyakinkan, artikel, posting blog, posting media sosial, makalah. Didukung oleh GPT-4o, Claude-3-opus, Gemini-1.5-pro.",
+    "pdf_tools__pdf_watermark_page__title": "PDF Watermarker Gratis | Watermark PDF di semua perangkat",
+    "pdf_tools__pdf_watermark_page__description": "Mudah menambahkan watermark ke dokumen PDF. Tidak perlu mengunduh aplikasi–semuanya berfungsi di browser Anda pada Mac, Windows, Linux, dan perangkat mobile."
   },
   "features_landing": {
     "cta_text": "Tambahkan ke Browser",

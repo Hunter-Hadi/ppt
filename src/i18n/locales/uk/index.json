@@ -52,7 +52,8 @@
     "month": "مہینہ",
     "unlimited": "غیر محدود",
     "most_popular": "سب سے زیادہ مقبول",
-    "upgrade_now": "ابھی اپ گریڈ کریں"
+    "upgrade_now": "ابھی اپ گریڈ کریں",
+    "choose_another_file": "کوئی دوسرا فائل منتخب کریں"
   },
   "button": {
     "add_to_chrome_for_free": "کروم میں شامل کریں - یہ مفت ہے",
@@ -728,7 +729,13 @@
     "home_page__features_content__all_in_chatbox__description2": "فوری جوابات حاصل کرنے کا سب سے تیز طریقہ براؤزر سائڈبار میں۔",
     "home_page__features_content__all_in_chatbox__description3": "کسی بھی تصویر کا تجزیہ کریں اے آئی وژن کے ساتھ۔",
     "home_page__features_content__all_in_chatbox__description4": "DALLE-3 کے ساتھ اے آئی آرٹ اور تصاویر بنائیں۔",
-    "home_page__features_content__ab_test_v4__content2__search__description4": "Google تلاش کے نتائج کے بائیں طرف AI جوابات دکھائیں۔"
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Google تلاش کے نتائج کے بائیں طرف AI جوابات دکھائیں۔",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "پانی کا نشان PDF",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "اپنے PDFs میں ایک واٹرمارک شامل کریں",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "سیکنڈز میں PDF واٹرمارک شامل کریں",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "2013 سے 2.4 بلین لوگوں کی اعتماد",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "PDFs پر واٹرمارک کرنے کا آسان طریقہ - کوئی انسٹالیشن کی ضرورت نہیں",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "مفت PDF واٹرمارکر کے ساتھ PDF دستاویزات پر واٹرمارک شامل کریں۔ کسی ایپ کو ڈاؤن لوڈ کرنے کی ضرورت نہیں ہے - سب کچھ آپ کے براؤزر میں میک، ونڈوز، لینکس اور موبائل ڈیوائسز پر کام کرتا ہے۔"
   },
   "prompt_library": {
     "use_prompt_library__title": "بلند معیار کی AI پرومپ لائبریری",
@@ -1059,7 +1066,9 @@
     "use_cases__research__title": "AI تحقیق اور خلاصہ معاون | MaxAI.me",
     "use_cases__research__desc": "وقت بچانے کے لئے ویب مضامین، پی ڈی ایف، اور یوٹیوب ویڈیوز کو خلاصہ کرنے اور چیٹ کرنے کے لئے AI شامل کریں۔ تیز تحقیق کے لئے AI سوالات پوچھیں تاکہ آپ کی تحقیق تیز ہو جائے۔ GPT-4o، Claude-3-Opus، Gemini-1.5-Pro کی طاقت سے چلتا ہے۔",
     "use_cases__writing__title": "AI لکھنے کا معاون | MaxAI.me",
-    "use_cases__writing__desc": "ویب صفحے پر اپنی لکھائی کو بہتر بنانے اور پالش کرنے کے لئے AI شامل کریں۔ دلچسپ ای میل، مضامین، بلاگ پوسٹس، سوشل میڈیا پوسٹس، پیپرز بنائیں۔ GPT-4o، Claude-3-opus، Gemini-1.5-pro کی طاقت سے چلتا ہے۔"
+    "use_cases__writing__desc": "ویب صفحے پر اپنی لکھائی کو بہتر بنانے اور پالش کرنے کے لئے AI شامل کریں۔ دلچسپ ای میل، مضامین، بلاگ پوسٹس، سوشل میڈیا پوسٹس، پیپرز بنائیں۔ GPT-4o، Claude-3-opus، Gemini-1.5-pro کی طاقت سے چلتا ہے۔",
+    "pdf_tools__pdf_watermark_page__title": "مفت PDF واٹرمارکر | کسی بھی ڈیوائس پر PDFs پر واٹرمارک کریں",
+    "pdf_tools__pdf_watermark_page__description": "PDF دستاویزات میں آسانی سے واٹرمارک شامل کریں۔ کسی ایپ کو ڈاؤن لوڈ کرنے کی ضرورت نہیں ہے - سب کچھ آپ کے براؤزر میں میک، ونڈوز، لینکس اور موبائل ڈیوائسز پر کام کرتا ہے۔"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "سب کو منتخب کریں",

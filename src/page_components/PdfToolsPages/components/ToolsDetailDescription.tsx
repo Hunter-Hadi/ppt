@@ -20,6 +20,12 @@ const ToolsDetailDescription: FC<IToolsDetailDescriptionProps> = ({
       sx={{
         borderTop: '1px solid #e8e8e8',
         pt: 3,
+        // 兼容没有提示的style
+        pb:
+          descriptionInfo.functionIntroductionList &&
+          descriptionInfo.functionIntroductionList.length === 0
+            ? 3
+            : 0,
       }}
     >
       {/* 顶部 */}
@@ -105,78 +111,80 @@ const ToolsDetailDescription: FC<IToolsDetailDescriptionProps> = ({
         ))}
       </Grid>
       {/* 底部 */}
-      <Grid
-        container
-        mt={10}
-        borderTop='1px solid #e8e8e8'
-        justifyContent='center'
-      >
-        {/* 图标格，当屏幕尺寸是sm或更大时保持在左侧，否则在下方 */}
+      {descriptionInfo.operatingInstructions && (
         <Grid
-          item
-          xs={12}
-          sm={5}
-          lg={5}
-          mb={1}
-          display='flex'
+          container
+          mt={10}
+          borderTop='1px solid #e8e8e8'
           justifyContent='center'
-          alignItems='center'
-          sx={{
-            order: { xs: 2, sm: 1 }, // xs时图案在文字下方
-            fontSize: { xs: 260, sm: 200 }, // xs时图案更大
-          }}
         >
-          <ToolsIcon
-            name={descriptionInfo.operatingInstructions.iconName}
-            color='primary'
-            sx={{ fontSize: 'inherit' }} // 使用Grid级别的font size调整大小
-          />
-        </Grid>
+          {/* 图标格，当屏幕尺寸是sm或更大时保持在左侧，否则在下方 */}
+          <Grid
+            item
+            xs={12}
+            sm={5}
+            lg={5}
+            mb={1}
+            display='flex'
+            justifyContent='center'
+            alignItems='center'
+            sx={{
+              order: { xs: 2, sm: 1 }, // xs时图案在文字下方
+              fontSize: { xs: 260, sm: 200 }, // xs时图案更大
+            }}
+          >
+            <ToolsIcon
+              name={descriptionInfo.operatingInstructions.iconName}
+              color='primary'
+              sx={{ fontSize: 'inherit' }} // 使用Grid级别的font size调整大小
+            />
+          </Grid>
 
-        {/* 文字内容格，当屏幕尺寸是sm或更大时保持在右侧，否则在上方 */}
-        <Grid
-          item
-          xs={12}
-          lg={5}
-          sm={5}
-          my={10}
-          sx={{
-            order: { xs: 1, sm: 2 }, // xs时文字在图案上方
-          }}
-        >
-          <Stack direction='column'>
-            <Typography
-              variant='h2'
-              color='text.primary'
-              sx={{
-                fontSize: {
-                  xs: 20,
-                  lg: 22,
-                },
-                fontWeight: 700,
-              }}
-            >
-              {getTranslation(
-                descriptionInfo.operatingInstructions.operationSteps.title,
+          {/* 文字内容格，当屏幕尺寸是sm或更大时保持在右侧，否则在上方 */}
+          <Grid
+            item
+            xs={12}
+            lg={5}
+            sm={5}
+            my={10}
+            sx={{
+              order: { xs: 1, sm: 2 }, // xs时文字在图案上方
+            }}
+          >
+            <Stack direction='column'>
+              <Typography
+                variant='h2'
+                color='text.primary'
+                sx={{
+                  fontSize: {
+                    xs: 20,
+                    lg: 22,
+                  },
+                  fontWeight: 700,
+                }}
+              >
+                {getTranslation(
+                  descriptionInfo.operatingInstructions.operationSteps.title,
+                )}
+              </Typography>
+              {descriptionInfo.operatingInstructions.operationSteps.descriptionList.map(
+                (item, index) => (
+                  <Typography
+                    key={index}
+                    color='text.secondary'
+                    sx={{
+                      fontSize: { xs: 14, lg: 16 },
+                      mt: 1,
+                    }}
+                  >
+                    {`${index + 1}. ${getTranslation(item)}`}
+                  </Typography>
+                ),
               )}
-            </Typography>
-            {descriptionInfo.operatingInstructions.operationSteps.descriptionList.map(
-              (item, index) => (
-                <Typography
-                  key={index}
-                  color='text.secondary'
-                  sx={{
-                    fontSize: { xs: 14, lg: 16 },
-                    mt: 1,
-                  }}
-                >
-                  {`${index + 1}. ${getTranslation(item)}`}
-                </Typography>
-              ),
-            )}
-          </Stack>
+            </Stack>
+          </Grid>
         </Grid>
-      </Grid>
+      )}
     </Box>
   )
 }

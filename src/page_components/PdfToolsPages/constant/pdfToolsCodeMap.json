@@ -15,6 +15,7 @@
     "rotate-pdf": "rotate-pdf",
     "number-pages": "number-pages",
     "unlock-pdf": "unlock-pdf",
-    "protect-pdf": "protect-pdf"
+    "protect-pdf": "protect-pdf",
+    "watermark-pdf": "watermark-pdf"
   }
 }

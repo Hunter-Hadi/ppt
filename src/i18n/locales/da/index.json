@@ -52,7 +52,8 @@
     "month": "måned",
     "unlimited": "Ubegrænset",
     "most_popular": "Mest populære",
-    "upgrade_now": "Opgrader nu"
+    "upgrade_now": "Opgrader nu",
+    "choose_another_file": "Vælg en anden fil"
   },
   "button": {
     "add_to_chrome_for_free": "Tilføj til Chrome - Det er gratis",
@@ -728,7 +729,13 @@
     "home_page__features_content__all_in_chatbox__description2": "Den hurtigste måde at få øjeblikkelige svar lige i browserens sidebjælke.",
     "home_page__features_content__all_in_chatbox__description3": "Analyser ethvert billede med AI vision.",
     "home_page__features_content__all_in_chatbox__description4": "Skab AI-kunst og billeder med DALLE-3.",
-    "home_page__features_content__ab_test_v4__content2__search__description4": "Vis AI-responser ved siden af Google-søgeresultaterne."
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Vis AI-responser ved siden af Google-søgeresultaterne.",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "Vandmærke PDF",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "Tilføj et vandmærke til dine PDF'er",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Tilføj PDF-vandmærker på sekunder",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "Stoler på af 2,4 milliarder mennesker siden 2013",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "En nem måde at tilføje vandmærker til PDF'er—ingen installation nødvendig",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Tilføj et vandmærke til PDF-dokumenter med en gratis PDF-vandmærke. Ingen grund til at downloade en app–alt fungerer i din browser på Mac, Windows, Linux og mobile enheder."
   },
   "prompt_library": {
     "use_prompt_library__title": "Høj kvalitet AI prompt bibliotek",
@@ -1059,7 +1066,9 @@
     "use_cases__research__title": "AI forskning og resuméassistent | MaxAI.me",
     "use_cases__research__desc": "Tilføj AI til din browser for at resumere og chatte med webartikler, PDF'er og YouTube-videoer for at spare tid. Stil AI-spørgsmål for hurtige svar og fremskynd din forskning. Drevet af GPT-4o, Claude-3-Opus, Gemini-1.5-Pro.",
     "use_cases__writing__title": "AI skriveassistent | MaxAI.me",
-    "use_cases__writing__desc": "Tilføj AI til din browser for at forbedre og polere din skrivning på enhver webside. Generer overbevisende e-mails, artikler, blogindlæg, sociale medieindlæg, papirer. Drevet af GPT-4o, Claude-3-opus, Gemini-1.5-pro."
+    "use_cases__writing__desc": "Tilføj AI til din browser for at forbedre og polere din skrivning på enhver webside. Generer overbevisende e-mails, artikler, blogindlæg, sociale medieindlæg, papirer. Drevet af GPT-4o, Claude-3-opus, Gemini-1.5-pro.",
+    "pdf_tools__pdf_watermark_page__title": "Gratis PDF-vandmærke | Vandmærke PDF'er på enhver enhed",
+    "pdf_tools__pdf_watermark_page__description": "Tilføj let et vandmærke til PDF-dokumenter. Ingen grund til at downloade en app–alt fungerer i din browser på Mac, Windows, Linux og mobile enheder."
   },
   "features_landing": {
     "cta_text": "Tilføj til browser",

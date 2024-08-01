@@ -52,7 +52,8 @@
     "month": "tháng",
     "unlimited": "Không giới hạn",
     "most_popular": "Phổ biến nhất",
-    "upgrade_now": "Nâng cấp ngay"
+    "upgrade_now": "Nâng cấp ngay",
+    "choose_another_file": "Chọn tệp khác"
   },
   "button": {
     "add_to_chrome_for_free": "Thêm vào Chrome - Miễn phí",
@@ -728,7 +729,13 @@
     "home_page__features_content__all_in_chatbox__description2": "Cách nhanh nhất để nhận câu trả lời ngay lập tức ngay trong thanh bên trình duyệt.",
     "home_page__features_content__all_in_chatbox__description3": "Phân tích bất kỳ hình ảnh nào với trí tuệ nhân tạo.",
     "home_page__features_content__all_in_chatbox__description4": "Tạo nghệ thuật và hình ảnh trí tuệ nhân tạo với DALLE-3.",
-    "home_page__features_content__ab_test_v4__content2__search__description4": "Hiển thị phản hồi AI kế bên kết quả tìm kiếm Google."
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Hiển thị phản hồi AI kế bên kết quả tìm kiếm Google.",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "Thêm Watermark vào PDF",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "Thêm watermark vào tệp PDF của bạn",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Thêm watermark vào PDF trong vài giây",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "Được tin cậy bởi 2.4 tỷ người từ năm 2013",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Cách dễ dàng để thêm watermark vào PDF - không cần cài đặt",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Thêm dấu nước vào tài liệu PDF với PDF Watermarker miễn phí. Không cần tải ứng dụng - mọi thứ hoạt động trong trình duyệt của bạn trên Mac, Windows, Linux và thiết bị di động."
   },
   "prompt_library": {
     "use_prompt_library__title": "Thư viện gợi ý AI chất lượng cao",
@@ -1059,7 +1066,9 @@
     "use_cases__research__title": "Trợ lý nghiên cứu và tóm tắt AI | MaxAI.me",
     "use_cases__research__desc": "Thêm AI vào trình duyệt của bạn để tóm tắt và trò chuyện với các bài viết web, PDF và video YouTube để tiết kiệm thời gian. Hỏi AI câu hỏi để nhận câu trả lời nhanh chóng và tăng tốc quá trình nghiên cứu của bạn. Được cung cấp bởi GPT-4o, Claude-3-Opus, Gemini-1.5-Pro.",
     "use_cases__writing__title": "Trợ lý viết AI | MaxAI.me",
-    "use_cases__writing__desc": "Thêm AI vào trình duyệt của bạn để cải thiện và hoàn thiện văn bản trên bất kỳ trang web nào. Tạo ra các email, bài viết, bài đăng blog, bài viết truyền thông xã hội, luận văn hấp dẫn. Được cung cấp bởi GPT-4o, Claude-3-opus, Gemini-1.5-pro."
+    "use_cases__writing__desc": "Thêm AI vào trình duyệt của bạn để cải thiện và hoàn thiện văn bản trên bất kỳ trang web nào. Tạo ra các email, bài viết, bài đăng blog, bài viết truyền thông xã hội, luận văn hấp dẫn. Được cung cấp bởi GPT-4o, Claude-3-opus, Gemini-1.5-pro.",
+    "pdf_tools__pdf_watermark_page__title": "PDF Watermarker Miễn Phí | Đánh dấu PDF trên bất kỳ thiết bị nào",
+    "pdf_tools__pdf_watermark_page__description": "Dễ dàng thêm dấu nước vào tài liệu PDF. Không cần tải ứng dụng - mọi thứ hoạt động trong trình duyệt của bạn trên Mac, Windows, Linux và thiết bị di động."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Chọn tất cả",

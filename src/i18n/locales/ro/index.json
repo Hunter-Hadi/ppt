@@ -52,7 +52,8 @@
     "month": "lună",
     "unlimited": "Nelimitat",
     "most_popular": "Cel mai popular",
-    "upgrade_now": "Upgrade acum"
+    "upgrade_now": "Upgrade acum",
+    "choose_another_file": "Alegeți alt fișier"
   },
   "button": {
     "add_to_chrome_for_free": "Adăugați la Chrome - Este gratuit",
@@ -728,7 +729,13 @@
     "home_page__features_content__all_in_chatbox__description2": "Cel mai rapid mod de a obține răspunsuri instant în bara laterală a browserului.",
     "home_page__features_content__all_in_chatbox__description3": "Analizați orice imagine cu viziune AI.",
     "home_page__features_content__all_in_chatbox__description4": "Creați artă și imagini AI cu DALLE-3.",
-    "home_page__features_content__ab_test_v4__content2__search__description4": "Afișați răspunsurile AI lângă rezultatele căutării Google."
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Afișați răspunsurile AI lângă rezultatele căutării Google.",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "Filigran PDF",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "Adăugați un filigran la fișierele PDF",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Adăugați filigrane PDF în câteva secunde",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "De încredere de 2,4 miliarde de persoane din 2013",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Modalitate ușoară de a adăuga filigrane la PDF-uri - nu este necesară instalarea",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Adăugați o filigramă la documentele PDF cu un Filigran PDF gratuit. Nu este nevoie să descărcați o aplicație - totul funcționează în browserul dvs. pe Mac, Windows, Linux și dispozitive mobile."
   },
   "prompt_library": {
     "use_prompt_library__title": "Bibliotecă de prompt-uri AI de înaltă calitate",
@@ -1059,7 +1066,9 @@
     "use_cases__research__title": "Asistent de cercetare și rezumat AI | MaxAI.me",
     "use_cases__research__desc": "Adaugă AI la browser-ul tău pentru a rezuma și discuta articole web, PDF-uri și videoclipuri YouTube pentru a economisi timp. Pune întrebări AI pentru răspunsuri rapide și accelerează-ți cercetarea. Alimentat de GPT-4o, Claude-3-Opus, Gemini-1.5-Pro.",
     "use_cases__writing__title": "Asistent de scriere AI | MaxAI.me",
-    "use_cases__writing__desc": "Adaugă AI la browser-ul tău pentru a îmbunătăți și poliza scrierea pe orice pagină web. Generează e-mailuri captivante, articole, postări de blog, postări pe rețelele sociale, lucrări. Alimentat de GPT-4o, Claude-3-opus, Gemini-1.5-pro."
+    "use_cases__writing__desc": "Adaugă AI la browser-ul tău pentru a îmbunătăți și poliza scrierea pe orice pagină web. Generează e-mailuri captivante, articole, postări de blog, postări pe rețelele sociale, lucrări. Alimentat de GPT-4o, Claude-3-opus, Gemini-1.5-pro.",
+    "pdf_tools__pdf_watermark_page__title": "Filigran PDF gratuit | Adăugați filigrane PDF pe orice dispozitiv",
+    "pdf_tools__pdf_watermark_page__description": "Adăugați ușor o filigramă la documentele PDF. Nu este nevoie să descărcați o aplicație - totul funcționează în browserul dvs. pe Mac, Windows, Linux și dispozitive mobile."
   },
   "features_landing": {
     "cta_text": "Adaugă în Browser",

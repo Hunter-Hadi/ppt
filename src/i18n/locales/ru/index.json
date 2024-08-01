@@ -52,7 +52,8 @@
     "month": "месяц",
     "unlimited": "Неограниченно",
     "most_popular": "Самый популярный",
-    "upgrade_now": "Обновить сейчас"
+    "upgrade_now": "Обновить сейчас",
+    "choose_another_file": "Выберите другой файл"
   },
   "button": {
     "add_to_chrome_for_free": "Добавить в Chrome — Бесплатно",
@@ -728,7 +729,13 @@
     "home_page__features_content__all_in_chatbox__description2": "Самый быстрый способ получить мгновенные ответы прямо в боковой панели браузера.",
     "home_page__features_content__all_in_chatbox__description3": "Анализируйте любое изображение с помощью ИИ-видения.",
     "home_page__features_content__all_in_chatbox__description4": "Создавайте искусство и изображения с помощью DALLE-3.",
-    "home_page__features_content__ab_test_v4__content2__search__description4": "Отображение ответов ИИ рядом с результатами поиска Google."
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Отображение ответов ИИ рядом с результатами поиска Google.",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "Водяной знак PDF",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "Добавьте водяной знак ваших PDF",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Добавьте водяные знаки в PDF за секунды",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "Доверяют 2.4 миллиарда людей с 2013 года",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Простой способ добавить водяные знаки в PDF - не требуется установка",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Добавьте водяной знак к PDF документам с помощью бесплатного PDF Водяного знака. Не нужно загружать приложение - все работает в вашем браузере на Mac, Windows, Linux и мобильных устройствах."
   },
   "prompt_library": {
     "use_prompt_library__title": "Библиотека высококачественных AI подсказок",
@@ -1059,7 +1066,9 @@
     "use_cases__research__title": "Исследование и помощник по краткому изложению на основе искусственного интеллекта | MaxAI.me",
     "use_cases__research__desc": "Добавьте искусственный интеллект в свой браузер, чтобы суммировать и общаться с веб-статьями, PDF-файлами и видео на YouTube для экономии времени. Задавайте вопросы искусственному интеллекту для быстрых ответов и ускорения исследований. Работает на основе GPT-4o, Claude-3-Opus, Gemini-1.5-Pro.",
     "use_cases__writing__title": "Помощник по написанию на основе искусственного интеллекта | MaxAI.me",
-    "use_cases__writing__desc": "Добавьте искусственный интеллект в свой браузер, чтобы улучшить и отполировать свое письмо на любой веб-странице. Создавайте убедительные электронные письма, статьи, блоги, сообщения в социальных сетях, документы. Работает на основе GPT-4o, Claude-3-opus, Gemini-1.5-pro."
+    "use_cases__writing__desc": "Добавьте искусственный интеллект в свой браузер, чтобы улучшить и отполировать свое письмо на любой веб-странице. Создавайте убедительные электронные письма, статьи, блоги, сообщения в социальных сетях, документы. Работает на основе GPT-4o, Claude-3-opus, Gemini-1.5-pro.",
+    "pdf_tools__pdf_watermark_page__title": "Бесплатный PDF Водяной знак | Водяные знаки PDF на любом устройстве",
+    "pdf_tools__pdf_watermark_page__description": "Легко добавьте водяной знак к PDF документам. Не нужно загружать приложение - все работает в вашем браузере на Mac, Windows, Linux и мобильных устройствах."
   },
   "features_landing": {
     "cta_text": "Добавить в браузер",
