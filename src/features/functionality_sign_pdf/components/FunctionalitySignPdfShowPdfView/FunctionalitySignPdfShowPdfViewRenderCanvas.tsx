@@ -102,7 +102,6 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   ) // 当前选中对象信息
   const deleteObjectKey = useRef<string[]>([])
   useEffect(() => {
-    console.log('simply controlDiv', controlDiv)
     if (isMobile && controlDiv) {
       TopDetailInfoContext.setViewObjectToolsData({
         controlDiv: controlDiv,
@@ -112,7 +111,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
     } else {
       TopDetailInfoContext.setViewObjectToolsData(null)
     }
-  }, [controlDiv, scaleFactor, isMobile, scaleNumber, TopDetailInfoContext])
+  }, [controlDiv, scaleFactor, isMobile, scaleNumber])
   useEffect(() => {
     onChangeObjectNumber && onChangeObjectNumber(objectIdList.length)
   }, [objectIdList])
@@ -477,6 +476,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         previousIsSelectionObject.current = true
       }
       if (event.selected.length === 1) {
+        console.log('handleObjectSelected 1')
         handleObjectSelected(event.selected[0])
       }
     })
@@ -487,12 +487,16 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
       const targetObject = e.target
       targetObject.setCoords()
       constrainWithinCanvas(targetObject)
-      handleObjectSelected(e.target)
+      console.log('handleObjectSelected 2')
+      if (e.target) {
+        handleObjectSelected(e.target)
+      }
       checkAndMoveToAnotherCanvas(e)
     })
     // 对象移动监听 - 保证操作div跟随移动
     editor.current.on('object:scaling', function (e) {
       e.e.preventDefault()
+      console.log('handleObjectSelected 3')
 
       handleObjectSelected(e.target)
     })
@@ -504,6 +508,8 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         previousIsSelectionObject.current = true
       }
       if (event.selected.length === 1) {
+        console.log('handleObjectSelected 4')
+
         handleObjectSelected(event.selected[0])
       }
     })
@@ -513,6 +519,8 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
       if (event.deselected) {
         setSelectLength(0)
       }
+      console.log('handleObjectSelected 4')
+
       handleObjectSelected()
     })
   }

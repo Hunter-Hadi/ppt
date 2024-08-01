@@ -23,6 +23,10 @@ const pdfPageClarity = 3 //越大越清晰，但是性能会下降
 const useChatPdfContainerGetInfo = (props: {
   pdfFile: File
   onDocumentLoadSuccess?: (data: { numPages: number; document: any }) => void
+  onReadPDFState?: (
+    state: 'error' | 'load' | 'success',
+    message?: string,
+  ) => void
 }) => {
   const [errorMessage, setErrorMessage] = useState<string>('') //pdf总页数
   const isInitData = useRef(false)
@@ -44,6 +48,7 @@ const useChatPdfContainerGetInfo = (props: {
   const getFilePdfDocument = async (pdfFile: File) => {
     //根据文件获取PdfDocument开始显示
     try {
+      props.onReadPDFState && props.onReadPDFState('load')
       setIsPdfLoading(true)
       const currentPdfUint8Array = await fileToUInt8Array(pdfFile)
       const pdfDocument = await pdfjs.getDocument(currentPdfUint8Array).promise
@@ -53,6 +58,7 @@ const useChatPdfContainerGetInfo = (props: {
         const pdfNumPages = pdfDocument.numPages
         setPDFNumPages(pdfNumPages)
         setIsPdfLoading(false)
+        props.onReadPDFState && props.onReadPDFState('success')
         props.onDocumentLoadSuccess &&
           props.onDocumentLoadSuccess({
             numPages: pdfNumPages,
@@ -62,6 +68,7 @@ const useChatPdfContainerGetInfo = (props: {
         setIsPdfLoading(false)
       }
     } catch (e: any) {
+      props.onReadPDFState && props.onReadPDFState('error', e.message)
       if (e.message) {
         setErrorMessage(e.message)
       }

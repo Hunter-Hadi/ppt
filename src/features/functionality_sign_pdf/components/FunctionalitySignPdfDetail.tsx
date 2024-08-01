@@ -275,6 +275,13 @@ export const FunctionalitySignPdfDetail: FC<
               overflow: 'hidden',
               height: !isMobile ? '100%' : overallViewHeight,
               position: 'relative',
+              ...(downloadUint8Array
+                ? {
+                    '>div': {
+                      overflow: 'hidden!important',
+                    },
+                  }
+                : {}),
             }}
           >
             <FunctionalitySignPdfShowPdfViewPdfViewMain
@@ -282,6 +289,7 @@ export const FunctionalitySignPdfDetail: FC<
               ref={showPdfHandlesRef}
               isShowBottomOperation={!downloadUint8Array}
               onChangePdfHaveSignObjectNumber={onChangePdfHaveSignObjectNumber}
+              onClearReturn={onClearReturn}
             />
             {downloadUint8Array && (
               <Box
@@ -291,10 +299,7 @@ export const FunctionalitySignPdfDetail: FC<
                   left: 0,
                   right: 10,
                   bottom: 0,
-                  zIndex: 100,
-                  ' .functionality-sign-pdf-scroll-pagination': {
-                    display: 'none',
-                  },
+                  zIndex: 99999,
                 }}
               ></Box>
             )}

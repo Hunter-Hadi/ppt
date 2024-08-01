@@ -78,10 +78,10 @@ const FunctionalityCommonPdfViewPage: FC<
                 '&::after': {
                   content: '" "',
                   position: 'absolute',
-                  bottom: '1px',
-                  left: '1px',
-                  right: '1px',
-                  top: '1px',
+                  bottom: '.1px',
+                  left: '.1px',
+                  right: '.1px',
+                  top: '.1px',
                   boxShadow: '2px 2px 8px 0 rgba(0,0,0,.2)',
                 },
               }}

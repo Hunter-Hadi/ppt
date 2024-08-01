@@ -13,6 +13,7 @@ export const useFunctionalitySignElementWidth = () => {
     if (ref.current) {
       // 定义一个更新宽度的函数
       const updateWidth = () => {
+        window.scrollTo(0, 0)
         if (ref.current?.offsetWidth) {
           setWidth(ref.current?.offsetWidth)
           setHeight(ref.current?.offsetHeight)

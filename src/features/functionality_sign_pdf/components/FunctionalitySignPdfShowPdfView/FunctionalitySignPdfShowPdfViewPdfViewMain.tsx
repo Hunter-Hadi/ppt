@@ -2,6 +2,7 @@ import 'react-pdf/dist/Page/AnnotationLayer.css'
 import 'react-pdf/dist/Page/TextLayer.css'
 
 import { Box, Stack } from '@mui/material'
+import { useTranslation } from 'next-i18next'
 import React, { useMemo } from 'react'
 import {
   forwardRef,
@@ -16,6 +17,7 @@ import FunctionalityCommonPdfViewPage from '@/features/functionality_common/comp
 import FunctionalityCommonVirtualScrollingMain, {
   IFunctionalityCommonVirtualScrollingMainHandles,
 } from '@/features/functionality_common/components/FunctionalityCommonPdfViewVirtualScroll/components/FunctionalityCommonPdfViewVirtualScrollMain'
+import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool'
 
 import { useFunctionalitySignElementWidth } from '../../hooks/useFunctionalitySignElementWidth'
 import { getWrapElementCenterRelativeToRollingElement } from '../../utils/canvasTools'
@@ -38,6 +40,7 @@ interface IFunctionalitySignPdfShowPdfViewProps {
   file: File
   onChangePdfHaveSignObjectNumber?: (number: number) => void
   isShowBottomOperation: boolean
+  onClearReturn: () => void
 }
 /**
  * 签名PDF处的视图
@@ -46,9 +49,16 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
   IFunctionalitySignPdfShowPdfViewHandles,
   IFunctionalitySignPdfShowPdfViewProps
 > = (
-  { file, onChangePdfHaveSignObjectNumber, isShowBottomOperation },
+  {
+    file,
+    onChangePdfHaveSignObjectNumber,
+    isShowBottomOperation,
+    onClearReturn,
+  },
   handleRef,
 ) => {
+  const { t } = useTranslation()
+
   const pdfPageRefs = useRef<HTMLElement[]>([])
   const scrollRef =
     useRef<IFunctionalityCommonVirtualScrollingMainHandles | null>(null)
@@ -167,10 +177,22 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
           ref={scrollRef}
           viewWidth={parentWidth - 10}
           viewHeight={parentHeight - 5}
+          isShowBottomOperation={isShowBottomOperation}
           onViewInfo={(info) => {
             setCurrentPage(info.currentPage)
             setScaleNumber(info.scaleNumber)
             setCurrentScrollOffset(info.currentScrollOffset)
+          }}
+          onReadPDFState={(state) => {
+            if (state === 'error') {
+              //TODO: 读取PDF失败
+              onClearReturn()
+              functionalityCommonSnackNotifications(
+                `${t(
+                  'functionality__common:components__common__pdf_encryption_tip',
+                )}`,
+              )
+            }
           }}
           onDocumentLoadSuccess={(info) => {
             setNumPages(info.numPages)

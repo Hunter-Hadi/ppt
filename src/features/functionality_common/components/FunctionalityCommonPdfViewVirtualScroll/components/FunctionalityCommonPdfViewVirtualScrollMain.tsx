@@ -35,6 +35,10 @@ interface IFunctionalityCommonVirtualScrollingMainProps {
   isSelfAdaptionSize?: boolean //是否自适应父级高宽
   isShowBottomOperation?: boolean
   onDocumentLoadSuccess?: (data: { numPages: number; document: any }) => void
+  onReadPDFState?: (
+    state: 'error' | 'load' | 'success',
+    message?: string,
+  ) => void
   onViewInfo?: (data: {
     currentPage: number
     scaleNumber: number
@@ -62,10 +66,11 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
     viewWidth,
     viewHeight,
     children,
-    isShowBottomOperation,
+    isShowBottomOperation = true,
     onDocumentLoadSuccess,
     onViewInfo,
     isSelfAdaptionSize = false,
+    onReadPDFState,
   },
   handleRef,
 ) => {
@@ -73,12 +78,15 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
   const isMobile = useFunctionalityCommonIsMobile()
   const wrapRef = useRef<HTMLDivElement | null>(null)
   const [currentScrollOffset, setCurrentScrollOffset] = useState<number>(0)
+  const [scrollTime, setScrollTime] = useState(0)
   const { elementWidth, elementHeight } = FunctionalityCommonElementSize(
     isSelfAdaptionSize,
     wrapRef,
   )
   const wrapBoxWidth = elementWidth || viewWidth || 500
   const wrapBoxHeight = elementHeight || viewHeight || 500
+  const [isScrollShowButtonOperation, setIsScrollShowButtonOperation] =
+    useState(false) //是否显示滚动显示底部操作
 
   const scrollListRef = useRef<any>(null)
   const pdfPageRefs = useRef<HTMLElement[]>([])
@@ -95,6 +103,7 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
   } = useChatPdfContainerGetInfo({
     pdfFile: file,
     onDocumentLoadSuccess,
+    onReadPDFState,
   })
   useImperativeHandle(
     handleRef,
@@ -103,6 +112,17 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
     }),
     [],
   )
+  useEffect(() => {
+    let interval = -1
+    const checkScrollTime = () => {
+      setIsScrollShowButtonOperation(scrollTime + 3000 > new Date().valueOf())
+    }
+    checkScrollTime()
+    interval = window.setInterval(checkScrollTime, 1000)
+    return () => {
+      clearInterval(interval)
+    }
+  }, [scrollTime])
   const actualSizeList = useMemo(() => {
     //计算缩放比例,适配分页逻辑
     return pdfInfoList.map((item) => {
@@ -161,7 +181,11 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
       const currentViewport = newPdfInfoList[index] //如数据没有加载就用第一个的viewport
       if (currentViewport) {
         const viewScale = (wrapBoxWidth / currentViewport.width) * scaleNumber //计算缩放比例
-        return currentViewport.height * viewScale + 5
+        return (
+          currentViewport.height * viewScale +
+          5 +
+          (index === pdfNumPages - 1 ? 60 : 0)
+        )
       } else {
         return newPdfInfoList?.[0]?.height || 200
       }
@@ -180,6 +204,7 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
       <div
         style={style}
         key={index}
+        className='functionality-sign-pdf-scroll-pagination-page-item'
         ref={(element) => element && (pdfPageRefs.current[index] = element)}
       >
         <Box
@@ -209,6 +234,7 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
           height={wrapBoxHeight} // 设置 List 高度为浏览器窗口高度
           itemCount={pdfNumPages} // 项目总数
           onScroll={(event) => {
+            setScrollTime(new Date().valueOf())
             setCurrentScrollOffset(event.scrollOffset)
           }}
           ref={(listRef) => {
@@ -260,6 +286,7 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
         color: '#000',
         overflow: 'hidden',
         bgcolor: '#f2f2f2',
+        minHeight: 600,
       }}
     >
       {errorMessage && (
@@ -303,110 +330,122 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
               </div>
             </Box>
             {/* 下面是底部分页工具 */}
-            <Stack
-              direction='row'
-              className='functionality-sign-pdf-scroll-pagination'
-              justifyContent='center'
-              sx={{
-                position: 'absolute',
-                margin: '0 auto',
-                padding: 1,
-                bottom: 10,
-                p: 1,
-                zIndex: 9999,
-                width: '100%',
-                height: isMobile ? 40 : 60,
-                '&:hover': {
-                  '>div': {
-                    display: 'flex',
-                  },
-                },
-              }}
-            >
+            {isShowBottomOperation && (
               <Stack
                 direction='row'
-                alignItems='center'
-                gap={1}
+                className='functionality-sign-pdf-scroll-pagination'
+                justifyContent='center'
                 sx={{
-                  bgcolor: '#ffffff',
-                  display: isMobile && isShowBottomOperation ? 'flex' : 'none',
+                  position: 'absolute',
+                  margin: '0 auto',
+                  padding: 1,
+                  bottom: 15,
                   p: 1,
-                  borderRadius: 2,
+                  zIndex: 9999,
+                  width: '100%',
+                  height: isMobile ? 40 : 60,
+                  '&:hover': {
+                    '>div': {
+                      display: 'flex',
+                    },
+                  },
                 }}
               >
-                <IconButton
-                  size='small'
-                  onClick={() => {
-                    scrollListRef.current.scrollToItem(currentPage - 1, 'start')
-                  }}
-                  disabled={currentPage === 0}
-                >
-                  <FunctionalityCommonPdfViewVirtualScrollIcon name='ArrowBackIos' />
-                </IconButton>
-                <TextField
-                  onKeyDown={onTextInputKeyDown}
-                  sx={{
-                    width: 50,
-                    ' input': {
-                      textAlign: 'center',
-
-                      ...(isMobile
-                        ? {
-                            padding: '5px',
-                          }
-                        : {}),
-                    },
-                  }}
-                  hiddenLabel
-                  key={currentPage}
-                  defaultValue={currentPage + 1}
-                  variant='filled'
-                  size='small'
-                />
-                <IconButton
-                  disabled={currentPage === (pdfNumPages || 0) - 1}
-                  size='small'
-                  onClick={() => {
-                    scrollListRef.current.scrollToItem(currentPage + 1, 'start')
-                  }}
-                >
-                  <FunctionalityCommonPdfViewVirtualScrollIcon name='ArrowForwardIos' />
-                </IconButton>
                 <Stack
-                  sx={{
-                    borderRight: '1px solid #e8e8e8',
-                    height: '100%',
-                    pr: 2,
-                  }}
                   direction='row'
                   alignItems='center'
+                  gap={1}
+                  sx={{
+                    bgcolor: '#ffffff',
+                    display:
+                      isMobile || isScrollShowButtonOperation ? 'flex' : 'none',
+                    p: 1,
+                    borderRadius: 2,
+                  }}
                 >
-                  {t(
-                    'functionality__sign_pdf:components__sign_pdf__operation_view__of',
-                    {
-                      NUMBER: pdfNumPages,
-                    },
-                  )}
-                </Stack>
+                  <IconButton
+                    size='small'
+                    onClick={() => {
+                      scrollListRef.current.scrollToItem(
+                        currentPage - 1,
+                        'start',
+                      )
+                    }}
+                    disabled={currentPage === 0}
+                  >
+                    <FunctionalityCommonPdfViewVirtualScrollIcon name='ArrowBackIos' />
+                  </IconButton>
+                  <TextField
+                    onKeyDown={onTextInputKeyDown}
+                    sx={{
+                      width: 50,
+                      ' input': {
+                        textAlign: 'center',
 
-                <IconButton size='small' onClick={onSelfAdaption}>
-                  <FunctionalityCommonPdfViewVirtualScrollIcon
-                    name={
-                      isSelfAdaption
-                        ? 'ZoomInMapOutlined'
-                        : 'ZoomOutMapOutlined'
-                    }
+                        ...(isMobile
+                          ? {
+                              padding: '5px',
+                            }
+                          : {}),
+                      },
+                    }}
+                    hiddenLabel
+                    key={currentPage}
+                    defaultValue={currentPage + 1}
+                    variant='filled'
+                    size='small'
                   />
-                </IconButton>
+                  <IconButton
+                    disabled={currentPage === (pdfNumPages || 0) - 1}
+                    size='small'
+                    onClick={() => {
+                      scrollListRef.current.scrollToItem(
+                        currentPage + 1,
+                        'start',
+                      )
+                    }}
+                  >
+                    <FunctionalityCommonPdfViewVirtualScrollIcon name='ArrowForwardIos' />
+                  </IconButton>
+                  <Stack
+                    sx={{
+                      borderRight: '1px solid #e8e8e8',
+                      height: '100%',
+                      pr: 2,
+                    }}
+                    direction='row'
+                    alignItems='center'
+                  >
+                    {t(
+                      'functionality__sign_pdf:components__sign_pdf__operation_view__of',
+                      {
+                        NUMBER: pdfNumPages,
+                      },
+                    )}
+                  </Stack>
 
-                <IconButton size='small' onClick={() => onChangeZoom('reduce')}>
-                  <FunctionalityCommonPdfViewVirtualScrollIcon name='RemoveCircleOutlineOutlined' />
-                </IconButton>
-                <IconButton size='small' onClick={() => onChangeZoom('add')}>
-                  <FunctionalityCommonPdfViewVirtualScrollIcon name='AddCircleOutlineOutlined' />
-                </IconButton>
+                  <IconButton size='small' onClick={onSelfAdaption}>
+                    <FunctionalityCommonPdfViewVirtualScrollIcon
+                      name={
+                        isSelfAdaption
+                          ? 'ZoomInMapOutlined'
+                          : 'ZoomOutMapOutlined'
+                      }
+                    />
+                  </IconButton>
+
+                  <IconButton
+                    size='small'
+                    onClick={() => onChangeZoom('reduce')}
+                  >
+                    <FunctionalityCommonPdfViewVirtualScrollIcon name='RemoveCircleOutlineOutlined' />
+                  </IconButton>
+                  <IconButton size='small' onClick={() => onChangeZoom('add')}>
+                    <FunctionalityCommonPdfViewVirtualScrollIcon name='AddCircleOutlineOutlined' />
+                  </IconButton>
+                </Stack>
               </Stack>
-            </Stack>
+            )}
           </Box>
         </AppLoadingLayout>
       )}
