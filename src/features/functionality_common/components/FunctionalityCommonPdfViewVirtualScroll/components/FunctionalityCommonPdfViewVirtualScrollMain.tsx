@@ -20,6 +20,7 @@ import AppLoadingLayout from '@/features/common/components/AppLoadingLayout'
 import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 import { useFunctionalitySignElementWidth } from '@/features/functionality_sign_pdf/hooks/useFunctionalitySignElementWidth'
 
+import { FunctionalityCommonElementSize } from '../hooks/FunctionalityCommonElementSize'
 import useChatPdfContainerGetInfo from '../hooks/usePdfViewContainerGetInfo'
 import useChatPdfListZoom from '../hooks/usePdfViewListZoom'
 import useChatPdfScrollPagination from '../hooks/usePdfViewScrollPagination'
@@ -29,8 +30,9 @@ export interface IFunctionalityCommonVirtualScrollingMainHandles {
 }
 interface IFunctionalityCommonVirtualScrollingMainProps {
   file: File
-  viewWidth: number
-  viewHeight: number
+  viewWidth?: number
+  viewHeight?: number
+  isSelfAdaptionSize?: boolean //是否自适应父级高宽
   isShowBottomOperation?: boolean
   onDocumentLoadSuccess?: (data: { numPages: number; document: any }) => void
   onViewInfo?: (data: {
@@ -63,12 +65,20 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
     isShowBottomOperation,
     onDocumentLoadSuccess,
     onViewInfo,
+    isSelfAdaptionSize = false,
   },
   handleRef,
 ) => {
   const { t } = useTranslation()
   const isMobile = useFunctionalityCommonIsMobile()
+  const wrapRef = useRef<HTMLDivElement | null>(null)
   const [currentScrollOffset, setCurrentScrollOffset] = useState<number>(0)
+  const { elementWidth, elementHeight } = FunctionalityCommonElementSize(
+    isSelfAdaptionSize,
+    wrapRef,
+  )
+  const wrapBoxWidth = elementWidth || viewWidth || 500
+  const wrapBoxHeight = elementHeight || viewHeight || 500
 
   const scrollListRef = useRef<any>(null)
   const pdfPageRefs = useRef<HTMLElement[]>([])
@@ -91,13 +101,13 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
     () => ({
       scrollListRef: scrollListRef,
     }),
-    [scrollListRef],
+    [],
   )
   const actualSizeList = useMemo(() => {
     //计算缩放比例,适配分页逻辑
     return pdfInfoList.map((item) => {
       if (item) {
-        const viewScale = (viewWidth / item.width) * scaleNumber
+        const viewScale = (wrapBoxWidth / item.width) * scaleNumber
         return {
           actualWidth: item.width * viewScale,
           actualHeight: item.height * viewScale,
@@ -105,13 +115,13 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
       }
       return item
     })
-  }, [pdfInfoList, viewWidth])
+  }, [pdfInfoList, wrapBoxWidth])
   const { currentPage } = useChatPdfScrollPagination(
     pdfNumPages || 0,
     currentScrollOffset,
     actualSizeList,
     '.pdf-list-scroll',
-    viewHeight,
+    wrapBoxHeight,
   ) //滚动分页
   useEffect(() => {
     onViewInfo &&
@@ -121,7 +131,13 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
         isSelfAdaption,
         currentScrollOffset,
       })
-  }, [currentPage, onViewInfo])
+  }, [
+    currentPage,
+    currentScrollOffset,
+    isSelfAdaption,
+    onViewInfo,
+    scaleNumber,
+  ])
   const { ref: rollingRef, width: parentWidth } =
     useFunctionalitySignElementWidth() //获取父元素的宽度
 
@@ -144,19 +160,19 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
       //计算每个pdf的高度，给react-window使用
       const currentViewport = newPdfInfoList[index] //如数据没有加载就用第一个的viewport
       if (currentViewport) {
-        const viewScale = (viewWidth / currentViewport.width) * scaleNumber //计算缩放比例
+        const viewScale = (wrapBoxWidth / currentViewport.width) * scaleNumber //计算缩放比例
         return currentViewport.height * viewScale + 5
       } else {
         return newPdfInfoList?.[0]?.height || 200
       }
     },
-    [newPdfInfoList, viewWidth, scaleNumber],
+    [newPdfInfoList, wrapBoxWidth, scaleNumber],
   )
   useEffect(() => {
     if (scrollListRef.current) {
       scrollListRef.current.resetAfterIndex(0) // 自动重置缓存
     }
-  }, [scaleNumber, viewHeight, viewWidth, newPdfInfoList])
+  }, [scaleNumber, wrapBoxHeight, wrapBoxWidth, newPdfInfoList])
 
   const CurrentPage = useCallback(({ index, style, data }) => {
     const info = data[index]
@@ -166,23 +182,23 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
         key={index}
         ref={(element) => element && (pdfPageRefs.current[index] = element)}
       >
-        <Stack alignItems='center'>
-          <Box
-            sx={{
-              height: '100%',
-              width: `${100 * (info?.viewScale || 1)}%`,
-            }}
-          >
-            {info?.children &&
-              info.children({
-                pdfInfo: info,
-                index: index,
-              })}
-          </Box>
-        </Stack>
+        <Box
+          sx={{
+            height: '100%',
+            width: `${100 * (info?.viewScale || 1)}%`,
+            margin: '0 auto',
+          }}
+        >
+          {info?.children &&
+            info.children({
+              pdfInfo: info,
+              index: index,
+            })}
+        </Box>
       </div>
     )
   }, [])
+
   const VariableSizeListElement = useCallback(
     (onItemsRendered?: any, infiniteLoaderRef?: any) => {
       //虚拟滚动
@@ -190,7 +206,7 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
       return (
         <VariableSizeList
           className='pdf-list-scroll functionality-common-pdf-rolling-view'
-          height={viewHeight} // 设置 List 高度为浏览器窗口高度
+          height={wrapBoxHeight} // 设置 List 高度为浏览器窗口高度
           itemCount={pdfNumPages} // 项目总数
           onScroll={(event) => {
             setCurrentScrollOffset(event.scrollOffset)
@@ -202,7 +218,7 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
             }
           }}
           itemSize={scrollItemHeight} // 每项的高度，根据你每个 PDF 页面的实际高度作调整
-          width={viewWidth} //宽度
+          width={wrapBoxWidth} //宽度
           itemData={newPdfInfoList}
           onItemsRendered={onItemsRendered}
           style={{ overflowX: 'auto' }}
@@ -212,10 +228,10 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
       )
     },
     [
-      viewHeight,
+      wrapBoxHeight,
       pdfNumPages,
       scrollItemHeight,
-      viewWidth,
+      wrapBoxWidth,
       newPdfInfoList,
       CurrentPage,
     ],
@@ -237,9 +253,10 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
   //如果没有上面的开始渲染，抓取分页数据，就拿取不到，自然就空白页面了
   return (
     <Box
+      ref={wrapRef}
       sx={{
-        height: viewHeight,
-        width: viewWidth,
+        height: isSelfAdaptionSize ? '100%' : wrapBoxHeight,
+        width: isSelfAdaptionSize ? '100%' : wrapBoxWidth,
         color: '#000',
         overflow: 'hidden',
         bgcolor: '#f2f2f2',
@@ -257,9 +274,9 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
           <Box ref={rollingRef}>
             <Box
               sx={{
-                height: viewHeight,
+                height: wrapBoxHeight,
                 position: 'relative',
-                width: viewWidth,
+                width: wrapBoxWidth,
                 bgcolor: '#f2f2f2',
               }}
             >

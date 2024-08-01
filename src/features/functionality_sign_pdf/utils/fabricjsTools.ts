@@ -61,7 +61,6 @@ export const onFabricAddObject = async (
           // 将图片绘制到画布上
           const imgColor = findFirstNonTransparentPixel(image)
           const zoom = editor.current.getZoom()
-          console.log('simply zoom', editor.current, zoom)
           const fabricImage = new fabric.Image(image, positionData)
 
           let scaleRatioWidth = 1
@@ -147,8 +146,8 @@ export const onFabricAddObject = async (
       createObjectData.setControlsVisibility({ mtr: false })
       editor.current.add(createObjectData)
       editor.current.setActiveObject(createObjectData) // 设置复制的对象为当前活动对象
-      editor?.canvas?.requestRenderAll() // 刷新画布以显示更改
-      editor?.canvas?.renderAll() // 确保变化被渲染
+      editor?.current?.requestRenderAll() // 刷新画布以显示更改
+      editor?.current?.renderAll() // 确保变化被渲染
       return createObjectData
     } else {
       return null

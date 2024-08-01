@@ -36,9 +36,10 @@ const FunctionalitySignPdfShowPdfViewAddToolsPopup: FC<
   const onAddObject = (type: IFabricAddObjectType, value: string) => {
     try {
       if (!editor) return
+
       const positionData = {
-        left: controlDivPosition.left,
-        top: Math.max(controlDivPosition.top, 0),
+        left: controlDivPosition.left / scaleFactor,
+        top: Math.max(controlDivPosition.top, 0) / scaleFactor,
       }
       onFabricAddObject(editor, positionData, type, value)
       onClose(type, value)

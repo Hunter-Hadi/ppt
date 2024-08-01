@@ -16,7 +16,6 @@ const FunctionalityCommonPdfViewPage: FC<
   const isInitData = useRef(false)
   const [scaleFactor, setScaleFactor] = useState(1)
   useEffect(() => {
-    console.log('pdfchat renderPage', pdfInfo, isInitData.current)
     renderPage()
   }, [pdfInfo, canvasRef])
   const renderPage = async () => {
@@ -58,12 +57,7 @@ const FunctionalityCommonPdfViewPage: FC<
     }
   }, [textTopBoxRef.current?.clientWidth, pdfInfo])
   return (
-    <Stack
-      className={`pdf-page-number-${pdfInfo?.pdfIndex}`}
-      alignItems='center'
-      justifyContent='center'
-      zIndex={-1}
-    >
+    <Stack className={`pdf-page-number-${pdfInfo?.pdfIndex}`} zIndex={-1}>
       {pdfInfo && (
         <Stack
           alignItems={pdfInfo.viewScale > 1 ? 'flex-start' : 'center'}
@@ -80,19 +74,17 @@ const FunctionalityCommonPdfViewPage: FC<
             }}
           >
             <Box
-              sx={
-                {
-                  // '&::after': {
-                  //   content: '" "',
-                  //   position: 'absolute',
-                  //   bottom: '1px',
-                  //   left: '1px',
-                  //   right: '1px',
-                  //   top: '1px',
-                  //   boxShadow: '2px 2px 8px 0 rgba(0,0,0,.2)',
-                  // },
-                }
-              }
+              sx={{
+                '&::after': {
+                  content: '" "',
+                  position: 'absolute',
+                  bottom: '1px',
+                  left: '1px',
+                  right: '1px',
+                  top: '1px',
+                  boxShadow: '2px 2px 8px 0 rgba(0,0,0,.2)',
+                },
+              }}
             >
               <canvas
                 ref={canvasRef}

@@ -22,9 +22,6 @@ export const getCanvasBounds = (imageData) => {
 
   return { minX, maxX, minY, maxY }
 }
-const getElementGlobalOffset = (el: HTMLElement) => {
-  return { offsetX: el.offsetLeft, offsetY: el.offsetTop }
-}
 export const getWrapElementCenterRelativeToRollingElement = (
   rollingElement: HTMLElement,
   wrapElement: HTMLElement,
@@ -34,33 +31,22 @@ export const getWrapElementCenterRelativeToRollingElement = (
     return { positionInRollingX: 0, positionInRollingY: 0 }
   }
 
-  // 获取 rollingElement 的尺寸和滚动相关的信息
+  // // 获取 rollingElement 的尺寸和滚动相关的信息
   const rollingRect = rollingElement.getBoundingClientRect()
-  const rollingWidth = rollingRect.width
   const rollingHeight = rollingRect.height
 
-  // 计算 rollingElement 的可视中心点位置
-  const centerX = rollingRect.left + rollingWidth / 2
-  const centerY = rollingRect.top + rollingHeight / 2 // 视口中的中心点
+  // // 计算 rollingElement 的可视中心点位置
+  const centerY = rollingHeight / 2 // 视口中的中心点
 
-  // 获取当前滚动位置
-  const currentScrollTop = rollingElement.scrollTop + currentScrollOffset
+  const wrapElementParent = wrapElement.parentNode?.parentNode?.parentElement
+  const wrapElementParentTop = parseInt(wrapElementParent?.style.top || '0') //距离滚动视图顶部的距离
+  const wrapRect = wrapElement.getBoundingClientRect() //获取wrapElement的位置
+  const wrapCenterX = wrapRect.width / 2
 
-  // 获取 wrapElement 的位置
-  const wrapRect = wrapElement.getBoundingClientRect()
+  const centerYInRolling = wrapElementParentTop - currentScrollOffset - centerY //PDF视图距离-滚动的位置-视口中心点=PDF视图中心点
 
-  // 计算 wrapElement 的中心点
-  const wrapCenterX = wrapRect.left + wrapRect.width / 2
-  const wrapCenterY = wrapRect.top + wrapRect.height / 2
-
-  // 计算 wrapElement 的相对位置
-  const positionInRollingX = wrapCenterX - (rollingRect.left + rollingWidth / 2) // wrapElement X 相对滚动区域中心
-  const positionInRollingY =
-    wrapCenterY - (currentScrollTop + (rollingRect.top + rollingHeight / 2)) // wrapElement Y 相对滚动区域中心
-
-  // 返回 wrapElement 相对于 rollingElement 可视中心的坐标
   return {
-    positionInRollingX: positionInRollingX,
-    positionInRollingY: positionInRollingY,
+    positionInRollingX: wrapCenterX,
+    positionInRollingY: -centerYInRolling,
   }
 }

@@ -28,7 +28,7 @@ import FunctionalitySignPdfShowPdfViewRenderCanvas, {
 export interface IFunctionalitySignPdfShowPdfViewHandles {
   discardAllActiveObject: () => void
   getNumPages: () => number
-  getCanvasBase64List: () => (string | undefined)[]
+  saveCanvasBase64List: () => void
   onAddObject?: (
     canvasObject: ICanvasObjectData & { pdfIndex?: number },
   ) => void
@@ -94,13 +94,11 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
           })
         }
       },
-      getCanvasBase64List: () => {
+      saveCanvasBase64List: () => {
         if (canvasHandlesRefs.current) {
-          return canvasHandlesRefs.current.map((canvasHandlesRef) => {
-            return canvasHandlesRef.getCanvasBase64()
+          canvasHandlesRefs.current.forEach((canvasHandlesRef) => {
+            canvasHandlesRef.saveCanvasBase64()
           })
-        } else {
-          return []
         }
       },
       getNumPages: () => numPages,
@@ -109,10 +107,13 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
         let isAutoObjectSizePosition = false
         if ((!value.x || !value.y) && scrollRef.current) {
           // 如果没有指定位置，则添加到滚动视图中心
-          if (scrollListRef) {
+          const scrollDom = document.querySelector(
+            '.functionality-common-pdf-rolling-view',
+          ) as HTMLElement
+          if (scrollDom) {
             const { positionInRollingX, positionInRollingY } =
               getWrapElementCenterRelativeToRollingElement(
-                scrollListRef,
+                scrollDom,
                 pdfPageRefs.current[currentPage],
                 currentScrollOffset,
               )
@@ -154,7 +155,6 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
     >
       <Box
         sx={{
-          pb: 8,
           width: parentWidth - 15, //-15是因为滚动条导致的横向滚动条出现
           margin: '0 auto',
           ' .functionality-common-pdf-rolling-view': {
@@ -166,7 +166,7 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
           file={file}
           ref={scrollRef}
           viewWidth={parentWidth - 10}
-          viewHeight={parentHeight}
+          viewHeight={parentHeight - 5}
           onViewInfo={(info) => {
             setCurrentPage(info.currentPage)
             setScaleNumber(info.scaleNumber)
@@ -233,7 +233,7 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
                         <FunctionalitySignPdfShowPdfViewRenderCanvas
                           canvasIndex={props.index}
                           scaleNumber={scaleNumber}
-                          topScrollKey={1}
+                          topScrollKey={currentScrollOffset}
                           canvasNumber={numPages}
                           ref={(el) => {
                             if (el) {

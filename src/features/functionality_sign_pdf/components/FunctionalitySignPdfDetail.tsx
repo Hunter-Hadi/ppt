@@ -51,9 +51,13 @@ export type ISignData = {
 export const TopDetailInfo = createContext<{
   viewObjectToolsData: IFunctionalitySignPdfShowPdfViewObjectToolsPopupProps | null
   setViewObjectToolsData: (data: any) => void
+  fabricAllData: string[]
+  setFabricAllData: React.Dispatch<React.SetStateAction<string[]>>
 }>({
   viewObjectToolsData: null,
   setViewObjectToolsData: () => {},
+  fabricAllData: [],
+  setFabricAllData: () => {},
 })
 export const FunctionalitySignPdfDetail: FC<
   IFunctionalitySignPdfDetailProps
@@ -64,7 +68,7 @@ export const FunctionalitySignPdfDetail: FC<
   const [saveButtonLoading, setSaveButtonLoading] = useState(false)
   const [viewObjectToolsData, setViewObjectToolsData] =
     useState<IFunctionalitySignPdfShowPdfViewObjectToolsPopupProps | null>(null)
-
+  const [fabricAllData, setFabricAllData] = useState<string[]>([])
   const [overallViewHeight, setOverallViewHeight] = useState<number>(0)
 
   const dndDragRef = useRef<HTMLElement | null>(null)
@@ -169,18 +173,14 @@ export const FunctionalitySignPdfDetail: FC<
   const onPdfAddViewSave = async () => {
     setSaveButtonLoading(true)
     showPdfHandlesRef.current?.discardAllActiveObject()
-    const pdfPageNumber = showPdfHandlesRef.current?.getNumPages()
-    const canvasImgList = showPdfHandlesRef.current?.getCanvasBase64List()
+    showPdfHandlesRef.current?.saveCanvasBase64List() //通过更新数据
     await new Promise((resolve) => setTimeout(resolve, 500)) //等待1下,防止数据意外
-    if (pdfPageNumber && canvasImgList) {
-      const uint8Array = await pdfAddSignCanvasViewReturnUint8Array(
-        file,
-        pdfPageNumber,
-        canvasImgList,
-      )
-      if (uint8Array) {
-        setDownloadUint8Array(uint8Array)
-      }
+    const uint8Array = await pdfAddSignCanvasViewReturnUint8Array(
+      file,
+      fabricAllData,
+    )
+    if (uint8Array) {
+      setDownloadUint8Array(uint8Array)
     }
     setSaveButtonLoading(false)
   }
@@ -214,7 +214,12 @@ export const FunctionalitySignPdfDetail: FC<
   }
   return (
     <TopDetailInfo.Provider
-      value={{ viewObjectToolsData, setViewObjectToolsData }}
+      value={{
+        viewObjectToolsData,
+        setViewObjectToolsData,
+        fabricAllData,
+        setFabricAllData,
+      }}
     >
       <DndContext
         sensors={sensors}
