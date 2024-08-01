@@ -245,7 +245,6 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
             {urlKey === 'ocr-pdf' && <FunctionalityOcrPdfMain />}
             {urlKey === 'number-pages' && <FunctionalityNumberPagesMain />}
             {urlKey === 'rotate-pdf' && <FunctionalityRotatePdfMain />}
-            {urlKey === 'rotate-pdf' && <FunctionalityRotatePdfMain />}
             {urlKey === 'unlock-pdf' && <FunctionalityUnlockPdfMain />}
             {urlKey === 'protect-pdf' && <FunctionalityProtectPdfMain />}
           </Suspense>
