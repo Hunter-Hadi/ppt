@@ -439,6 +439,8 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
           width: '100%',
           boxSizing: 'border-box',
           height: overallViewHeight,
+          display: 'flex',
+          justifyContent: 'center',
         }}
         ref={infintyViewRef}
       >
