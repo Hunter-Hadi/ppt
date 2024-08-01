@@ -7,7 +7,6 @@ import React, { useMemo } from 'react'
 import {
   forwardRef,
   ForwardRefRenderFunction,
-  useEffect,
   useImperativeHandle,
   useRef,
   useState,
@@ -38,7 +37,6 @@ export interface IFunctionalitySignPdfShowPdfViewHandles {
 
 interface IFunctionalitySignPdfShowPdfViewProps {
   file: File
-  onChangePdfHaveSignObjectNumber?: (number: number) => void
   isShowBottomOperation: boolean
   onClearReturn: () => void
 }
@@ -48,15 +46,7 @@ interface IFunctionalitySignPdfShowPdfViewProps {
 export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunction<
   IFunctionalitySignPdfShowPdfViewHandles,
   IFunctionalitySignPdfShowPdfViewProps
-> = (
-  {
-    file,
-    onChangePdfHaveSignObjectNumber,
-    isShowBottomOperation,
-    onClearReturn,
-  },
-  handleRef,
-) => {
+> = ({ file, isShowBottomOperation, onClearReturn }, handleRef) => {
   const { t } = useTranslation()
 
   const pdfPageRefs = useRef<HTMLElement[]>([])
@@ -85,15 +75,6 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
     height: parentHeight,
   } = useFunctionalitySignElementWidth() //获取父元素的宽度
 
-  useEffect(() => {
-    //通知父级 签名的对象数量
-    onChangePdfHaveSignObjectNumber &&
-      onChangePdfHaveSignObjectNumber(
-        Object.keys(allPageCanvasSignNumberObject)
-          .map((key) => allPageCanvasSignNumberObject[key])
-          .reduce((pre, cur) => pre + cur, 0),
-      )
-  }, [allPageCanvasSignNumberObject])
   useImperativeHandle(
     handleRef,
     () => ({
@@ -262,9 +243,6 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
                               canvasHandlesRefs.current[props.index] = el
                             }
                           }}
-                          onChangeObjectNumber={(number) =>
-                            onChangeObjectNumber(props.index, number)
-                          }
                           addIndexObject={(object, index) => {
                             if (!canvasHandlesRefs.current[index]) return
                             const addObjectFunction =

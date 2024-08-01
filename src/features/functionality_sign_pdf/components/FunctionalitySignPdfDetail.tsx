@@ -9,8 +9,16 @@ import {
   useSensors,
 } from '@dnd-kit/core'
 import { Box, Button, Stack, Typography } from '@mui/material'
+import { debounce } from 'lodash-es'
 import { useTranslation } from 'next-i18next'
-import { createContext, FC, useEffect, useRef, useState } from 'react'
+import {
+  createContext,
+  FC,
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
+} from 'react'
 import React from 'react'
 import { v4 as uuidV4 } from 'uuid'
 
@@ -95,7 +103,31 @@ export const FunctionalitySignPdfDetail: FC<
   const [signNumber, setSignNumber] = useState<number>(0) //当前签名数量
   const [downloadUint8Array, setDownloadUint8Array] =
     useState<null | Uint8Array>(null) //签名数据
-
+  const getSignNumber = useCallback(
+    debounce(() => {
+      try {
+        const signNumber = fabricAllData.filter((item) => {
+          const json = JSON.parse(item)
+          const objects = json.objects
+          if (objects.length > 0) {
+            const signLength = objects.filter((item) => {
+              return item.type === 'Image'
+            }).length
+            return signLength > 0
+          } else {
+            return false
+          }
+        }).length
+        setSignNumber(signNumber)
+      } catch (e) {
+        console.log('getSignNumber', e)
+      }
+    }, 200), // 这里设置为500毫秒
+    [fabricAllData],
+  )
+  useEffect(() => {
+    getSignNumber()
+  }, [getSignNumber])
   const handleDragEnd = (event: DragEndEvent) => {
     try {
       if (event.over && event.over.id) {
@@ -209,9 +241,6 @@ export const FunctionalitySignPdfDetail: FC<
     }
     setActiveDragData(undefined)
   }
-  const onChangePdfHaveSignObjectNumber = (signNumber: number) => {
-    setSignNumber(signNumber)
-  }
   return (
     <TopDetailInfo.Provider
       value={{
@@ -288,7 +317,6 @@ export const FunctionalitySignPdfDetail: FC<
               file={file}
               ref={showPdfHandlesRef}
               isShowBottomOperation={!downloadUint8Array}
-              onChangePdfHaveSignObjectNumber={onChangePdfHaveSignObjectNumber}
               onClearReturn={onClearReturn}
             />
             {downloadUint8Array && (

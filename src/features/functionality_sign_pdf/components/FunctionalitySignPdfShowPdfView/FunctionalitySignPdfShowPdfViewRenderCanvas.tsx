@@ -1,7 +1,7 @@
 /* eslint-disable no-debugger */
 import { Box } from '@mui/material'
 import * as fabric from 'fabric'
-import { without } from 'lodash-es'
+import { cloneDeep, without } from 'lodash-es'
 import React, {
   forwardRef,
   ForwardRefRenderFunction,
@@ -59,7 +59,6 @@ interface IFunctionalitySignPdfShowPdfCanvasProps {
   }
   topScrollKey: number
   addIndexObject?: (object: fabric.Object, index: number) => void //通知父级给上下添加对象
-  onChangeObjectNumber?: (objectNumber: number) => void //通知父级canvas的idList
 }
 /**
  * canvas渲染组件用的fabric_js
@@ -74,7 +73,6 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
     topScrollKey,
     addIndexObject,
     canvasNumber,
-    onChangeObjectNumber,
     scaleNumber,
   },
   handleRef,
@@ -112,9 +110,6 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
       TopDetailInfoContext.setViewObjectToolsData(null)
     }
   }, [controlDiv, scaleFactor, isMobile, scaleNumber])
-  useEffect(() => {
-    onChangeObjectNumber && onChangeObjectNumber(objectIdList.length)
-  }, [objectIdList])
   useEffect(() => {
     if (editor.current) {
       if (isMobile) {
@@ -162,7 +157,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         if (json) {
           TopDetailInfoContext.setFabricAllData((allData) => {
             allData[canvasIndex] = JSON.stringify(json)
-            return allData
+            return cloneDeep(allData)
           })
         }
       } catch (e) {
