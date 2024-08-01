@@ -407,6 +407,20 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
       transparentCorners: false, //激活状态角落的图标是否透明
       selectionDashArray: [20, 20],
     })
+
+    // 设置旋转按钮控制点的可见性
+    fabric.Object.prototype._controlsVisibility = {
+      tl: true,
+      tr: true,
+      br: true,
+      bl: true,
+      ml: false,
+      mt: false,
+      mr: false,
+      mb: false,
+      mtr: false,
+    }
+    // 设置多选旋转按钮控制点的可见性
     fabric.Group.prototype._controlsVisibility = {
       tl: true,
       tr: true,
