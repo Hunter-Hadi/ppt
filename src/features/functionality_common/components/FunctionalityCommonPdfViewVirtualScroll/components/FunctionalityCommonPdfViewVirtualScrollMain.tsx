@@ -30,21 +30,21 @@ export interface IFunctionalityCommonVirtualScrollingMainHandles {
 }
 interface IFunctionalityCommonVirtualScrollingMainProps {
   file: File
-  viewWidth?: number
-  viewHeight?: number
+  viewWidth: number //视图宽度
+  viewHeight: number //视图高度
   isSelfAdaptionSize?: boolean //是否自适应父级高宽
-  isShowBottomOperation?: boolean
-  onDocumentLoadSuccess?: (data: { numPages: number; document: any }) => void
+  isShowBottomOperation?: boolean //废弃使用效果不佳
+  onDocumentLoadSuccess?: (data: { numPages: number; document: any }) => void //pdf加载成功返回的数据
   onReadPDFState?: (
     state: 'error' | 'load' | 'success',
     message?: string,
-  ) => void
+  ) => void //pdf加载状态
   onViewInfo?: (data: {
     currentPage: number
     scaleNumber: number
     isSelfAdaption: boolean
     currentScrollOffset: number
-  }) => void
+  }) => void //pdf视图信息
   children: (props: {
     pdfInfo: {
       viewScale: number
@@ -52,8 +52,7 @@ interface IFunctionalityCommonVirtualScrollingMainProps {
       height: number
     }
     index: number
-  }) => React.ReactNode
-  id?: string
+  }) => React.ReactNode //pdf的显示视图
 }
 //PDF的显示视图
 const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
@@ -61,7 +60,6 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
   IFunctionalityCommonVirtualScrollingMainProps
 > = (
   {
-    id,
     file,
     viewWidth,
     viewHeight,
@@ -341,7 +339,7 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
                   padding: 1,
                   bottom: 15,
                   p: 1,
-                  zIndex: 9999,
+                  zIndex: 2000,
                   width: '100%',
                   height: isMobile ? 40 : 60,
                   '&:hover': {

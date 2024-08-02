@@ -9,12 +9,10 @@ interface IFunctionalityCommonPdfViewPageProps {
 //pdf的单个页面显示视图
 const FunctionalityCommonPdfViewPage: FC<
   IFunctionalityCommonPdfViewPageProps
-> = ({ index, pdfInfo }) => {
+> = ({ pdfInfo }) => {
   const canvasRef = useRef<HTMLCanvasElement>(null)
-  const textTopBoxRef = useRef<HTMLDivElement>(null)
   const [isLoading, setIsLoading] = useState(true)
   const isInitData = useRef(false)
-  const [scaleFactor, setScaleFactor] = useState(1)
   useEffect(() => {
     renderPage()
   }, [pdfInfo, canvasRef])
@@ -49,13 +47,6 @@ const FunctionalityCommonPdfViewPage: FC<
       console.log('pdfchat renderPage error:', e)
     }
   }
-  useEffect(() => {
-    if (textTopBoxRef.current && pdfInfo?.width) {
-      const viewScale =
-        textTopBoxRef.current?.clientWidth / (pdfInfo.width * pdfInfo.viewScale) //计算缩放比例
-      setScaleFactor(viewScale * pdfInfo.viewScale)
-    }
-  }, [textTopBoxRef.current?.clientWidth, pdfInfo])
   return (
     <Stack className={`pdf-page-number-${pdfInfo?.pdfIndex}`} zIndex={-1}>
       {pdfInfo && (

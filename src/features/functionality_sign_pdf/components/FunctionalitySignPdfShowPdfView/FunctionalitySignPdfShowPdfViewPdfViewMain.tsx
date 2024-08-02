@@ -64,10 +64,6 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
   const [scaleNumber, setScaleNumber] = useState<number>(0) //当前页数
   const [currentScrollOffset, setCurrentScrollOffset] = useState<number>(0)
   const [numPages, setNumPages] = useState<number>(0) //PDF的总页数
-  const [allPageCanvasSignNumberObject, setAllPageCanvasSignNumberObject] =
-    useState<{
-      [key in number]: number
-    }>({}) //每一页的签名对象数量,可以知道当前有几个可签名的object
 
   const {
     ref: wrapRef,
@@ -129,11 +125,6 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
     [numPages, currentPage, scrollListRef, currentScrollOffset],
   )
 
-  const onChangeObjectNumber = (index: number, number: number) => {
-    setAllPageCanvasSignNumberObject((pre) => {
-      return { ...pre, [index]: number }
-    })
-  }
   return (
     <Stack
       ref={wrapRef}

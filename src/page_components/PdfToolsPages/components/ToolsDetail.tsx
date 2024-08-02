@@ -189,6 +189,10 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       title: t('pages__pdf_tools__unlock_pdf:seo_title'),
       description: t('pages__pdf_tools__unlock_pdf:seo_description'),
     },
+    'pdf-annotator': {
+      title: t('pages__pdf_tools__pdf_annotator:seo_title'),
+      description: t('pages__pdf_tools__pdf_annotator:seo_description'),
+    },
   }
   const toolsDetailDescriptionData = allPdfToolsDetailDescriptionObject[urlKey]
   const toolList = useMemo(

@@ -15,6 +15,7 @@ export type IToolUrkKeyType =
   | 'number-pages'
   | 'rotate-pdf'
   | 'unlock-pdf'
+  | 'pdf-annotator'
 export interface IToolData {
   icon: string
   title: string
@@ -168,6 +169,14 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     description: 'pages__pdf_tools__unlock_pdf:description',
     secondaryDescription: 'pages__pdf_tools__unlock_pdf:description',
     urlKey: routerChildrenObject['unlock-pdf'],
+    urlPrefixPath: toolsTopUrlKey,
+  },
+  'pdf-annotator': {
+    icon: 'UnlockPDF',
+    title: 'pages__pdf_tools__pdf_annotator:title',
+    description: 'pages__pdf_tools__pdf_annotator:description',
+    secondaryDescription: 'pages__pdf_tools__pdf_annotator:description',
+    urlKey: routerChildrenObject['pdf-annotator'],
     urlPrefixPath: toolsTopUrlKey,
   },
 }
