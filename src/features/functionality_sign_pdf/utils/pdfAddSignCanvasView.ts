@@ -31,8 +31,8 @@ export const pdfAddSignCanvasViewReturnUint8Array = async (
         // 创建 Fabric.js 画布
         const fabricCanvas = new fabric.Canvas(undefined)
         fabricCanvas.setDimensions({
-          width: page.getSize().width * 2,
-          height: page.getSize().height * 2,
+          width: page.getSize().width * 3,
+          height: page.getSize().height * 3,
         })
 
         // 从 JSON 加载对象到 Fabric.js 画布
