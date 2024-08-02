@@ -93,7 +93,10 @@ const FeaturesExploreMore: FC<IProps> = ({ propRef, sx }) => {
       {/* feature  */}
       <Box
         sx={{
-          pt: 12,
+          pt: {
+            xs: 6,
+            md: 12,
+          },
         }}
       >
         <FeaturesContentAbTestV7AutoVideo />
