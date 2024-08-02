@@ -82,25 +82,4 @@ const HomePageContent: FC<IProps> = ({ propRef, sx }) => {
   )
 }
 
-// const FeaturesCarouselSkeleton = () => {
-//   return (
-//     <Box
-//       py={{
-//         xs: 7,
-//         md: 12,
-//       }}
-//       px={2}
-//       sx={{
-//         // 用隐藏的 Skeleton 元素来占位
-//         opacity: 0,
-//         mx: 'auto',
-//         maxWidth: 1312,
-//         width: '100%',
-//       }}
-//     >
-//       <Skeleton variant='rounded' width={'100%'} height={600} />
-//     </Box>
-//   );
-// };
-
 export default HomePageContent

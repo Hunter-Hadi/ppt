@@ -54,10 +54,6 @@ const HeroSection: FC<IProps> = ({
   // const { openVideoPopup } = useVideoPopupController();
 
   const { variant, enabled } = useLandingABTester(inLandingVideoABTest)
-  // const { variant, enabled } = {
-  //   variant: 'cloudflare_video',
-  //   enabled: true,
-  // }
 
   const title = useMemo(() => {
     return propTitle ? (
