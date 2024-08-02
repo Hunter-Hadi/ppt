@@ -1,9 +1,11 @@
 {
-  "name": "multi-blog",
-  "version": "0.1.0",
+  "name": "maxai_www",
+  "version": "4.8.0",
   "private": true,
   "scripts": {
     "dev": "next dev --port=3001",
+    "test-dev": "cross-env NODE_ENV=development node ./scripts/nextjs-build.mjs",
+    "test-build": "cross-env NODE_ENV=production node ./scripts/nextjs-build.mjs",
     "build": "next build && next export",
     "start": "next start",
     "serve": "serve out -p 3001",
@@ -123,6 +125,7 @@
     "prettier": "2.8.3",
     "serve": "^14.2.0",
     "webpack": "^5.75.0",
-    "webpack-obfuscator": "^3.5.1"
+    "webpack-obfuscator": "^3.5.1",
+    "cross-env": "^7.0.3"
   }
 }
