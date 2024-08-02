@@ -16,6 +16,8 @@ export type IToolUrkKeyType =
   | 'rotate-pdf'
   | 'unlock-pdf'
   | 'pdf-annotator'
+  | 'protect-pdf'
+  | 'watermark-pdf'
 export interface IToolData {
   icon: string
   title: string
@@ -177,6 +179,21 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     description: 'pages__pdf_tools__pdf_annotator:description',
     secondaryDescription: 'pages__pdf_tools__pdf_annotator:description',
     urlKey: routerChildrenObject['pdf-annotator'],
+  },
+  'protect-pdf': {
+    icon: 'ProtectPDF',
+    title: 'pages__pdf_tools__protect_pdf:title',
+    description: 'pages__pdf_tools__protect_pdf:description',
+    secondaryDescription: 'pages__pdf_tools__protect_pdf:description',
+    urlKey: routerChildrenObject['protect-pdf'],
+  },
+  'watermark-pdf': {
+    icon: 'WaterMarkPDF',
+    title: 'pages:tools__index_page__constant_obj__pdf_page_watermark__title',
+    description:
+      'pages:tools__index_page__constant_obj__pdf_page_watermark__main_description',
+    secondaryDescription: '',
+    urlKey: routerChildrenObject['watermark-pdf'],
     urlPrefixPath: toolsTopUrlKey,
   },
 }

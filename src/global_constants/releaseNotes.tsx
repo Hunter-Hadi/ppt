@@ -1,5 +1,21 @@
 export const MAXAI_RELEASE_NOTES = [
   {
+    version: '4.8.2',
+    date: '2024-07-31',
+
+    content: [
+      {
+        title: 'Introducing Mistral-Large-2 on MaxAI.me',
+        lists: [
+          {
+            module: 'Access Mistral-Large-2',
+            desc: 'Next-gen flagship by Mistral AI. 123 billion parameters and 128k context window. Good at code generation, math, and reasoning with enhanced multilingual and 80+ coding languages support.',
+          },
+        ],
+      },
+    ],
+  },
+  {
     version: '4.8.0',
     date: '2024-07-28',
 

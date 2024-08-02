@@ -7,6 +7,7 @@ import { FC, Suspense, useMemo } from 'react'
 import AppContainer from '@/app_layout/AppContainer'
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
+import FunctionalityProtectPdfMain from '@/features/functionality_protect_pdf/components/FunctionalityProtectPdfMain'
 import ToolsBanner from '@/page_components/PdfToolsPages/components/ToolsBanner'
 import ToolsCards from '@/page_components/PdfToolsPages/components/ToolsCards'
 import ToolsDetailDescription from '@/page_components/PdfToolsPages/components/ToolsDetailDescription'
@@ -107,10 +108,21 @@ const FunctionalityImageToPdfMain = dynamic(
     loading: () => <AppLoadingLayout loading />,
   },
 )
+
 const FunctionalityUnlockPdfMain = dynamic(
   () =>
     import(
       '@/features/functionality_unlock_pdf/components/FunctionalityUnlockPdfMain'
+    ),
+  {
+    loading: () => <AppLoadingLayout loading />,
+  },
+)
+
+const FunctionalityWaterMarkPdfMain = dynamic(
+  () =>
+    import(
+      '@/features/functionality_water_mark_pdf/components/FunctionalityWaterFramePdfMain'
     ),
   {
     loading: () => <AppLoadingLayout loading />,
@@ -193,6 +205,14 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       title: t('pages__pdf_tools__pdf_annotator:seo_title'),
       description: t('pages__pdf_tools__pdf_annotator:seo_description'),
     },
+    'protect-pdf': {
+      title: t('pages__pdf_tools__protect_pdf:seo_title'),
+      description: t('pages__pdf_tools__protect_pdf:seo_description'),
+    },
+    'watermark-pdf': {
+      title: t('seo:pdf_tools__pdf_watermark_page__title'),
+      description: t('seo:pdf_tools__pdf_watermark_page__description'),
+    },
   }
   const toolsDetailDescriptionData = allPdfToolsDetailDescriptionObject[urlKey]
   const toolList = useMemo(
@@ -244,8 +264,9 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
             {urlKey === 'ocr-pdf' && <FunctionalityOcrPdfMain />}
             {urlKey === 'number-pages' && <FunctionalityNumberPagesMain />}
             {urlKey === 'rotate-pdf' && <FunctionalityRotatePdfMain />}
-            {urlKey === 'rotate-pdf' && <FunctionalityRotatePdfMain />}
             {urlKey === 'unlock-pdf' && <FunctionalityUnlockPdfMain />}
+            {urlKey === 'protect-pdf' && <FunctionalityProtectPdfMain />}
+            {urlKey === 'watermark-pdf' && <FunctionalityWaterMarkPdfMain />}
           </Suspense>
         </Box>
         {toolsDetailDescriptionData && (

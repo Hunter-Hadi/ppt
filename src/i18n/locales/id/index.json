@@ -52,7 +52,8 @@
     "month": "bulan",
     "unlimited": "Tak Terbatas",
     "most_popular": "Paling Populer",
-    "upgrade_now": "Tingkatkan Sekarang"
+    "upgrade_now": "Tingkatkan Sekarang",
+    "choose_another_file": "Pilih file lain"
   },
   "button": {
     "add_to_chrome_for_free": "Tambahkan ke Chrome — Gratis",
@@ -669,7 +670,7 @@
     "home_page__how_it_works__step1__title": "Tambahkan ke browser",
     "home_page__how_it_works__step2__title": "Masuk",
     "home_page__how_it_works__step3__title": "Tingkatkan produktivitas",
-    "home_page__how_it_works__step3__description": "Ringkaskan, cari, baca, dan tulis dengan kecepatan 10x lebih cepat menggunakan AI pada setiap halaman web yang Anda jelajahi. Hemat berjam-jam setiap hari.",
+    "home_page__how_it_works__step3__description": "Baca lebih cepat. Tulis lebih baik. Dapatkan jawaban. Tingkatkan produktivitasmu di seluruh web dengan AI. Hemat jam setiap hari.",
     "home_page__how_it_works__step1__description": "Tambahkan ekstensi MaxAI.me ke browser Anda untuk menghemat waktu di setiap halaman web dengan AI. Gratis dan 100% privasi yang ramah.",
     "home_page__how_it_works__step2__description": "Mudah masuk dengan Google atau email. Sederhana, gratis, dan aman.",
     "home_page__hero_section__title": "Asisten penelitian dan penulisan berbasis AI Anda",
@@ -728,7 +729,13 @@
     "home_page__features_content__all_in_chatbox__description2": "Cara tercepat untuk mendapatkan jawaban instan langsung di sisi browser.",
     "home_page__features_content__all_in_chatbox__description3": "Analisis gambar apa pun dengan visi AI.",
     "home_page__features_content__all_in_chatbox__description4": "Buat seni dan gambar AI dengan DALLE-3.",
-    "home_page__features_content__ab_test_v4__content2__search__description4": "Tampilkan respon AI di sebelah hasil pencarian Google."
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Tampilkan respon AI di sebelah hasil pencarian Google.",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "Watermark PDF",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "Tambahkan watermark ke PDF Anda",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Tambahkan watermark PDF dalam hitungan detik",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "Dipercaya oleh 2.4 miliar orang sejak 2013",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Cara mudah untuk memberi watermark pada PDF—tidak perlu instalasi",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Tambahkan watermark ke dokumen PDF dengan PDF Watermarker gratis. Tidak perlu mengunduh aplikasi–semuanya berfungsi di browser Anda pada Mac, Windows, Linux, dan perangkat mobile."
   },
   "prompt_library": {
     "use_prompt_library__title": "Perpustakaan AI berkualitas tinggi",
@@ -969,8 +976,8 @@
     "faq__question5__description__part2": "untuk melacak kinerja referral Anda."
   },
   "seo": {
-    "default__title": "MaxAI.me: Kecerdasan Buatan dengan 1-Klik di Mana Saja (GPT-4o, Claude 3, Gemini 1.5)",
-    "default__description": "Obrolan AI, pengubah tulisan, ringkasan, balasan instan, asisten membaca, petunjuk, pencarian, seni, dan penerjemah. Didukung oleh GPT-4o, Claude 3, Gemini 1.5.",
+    "default__title": "MaxAI.me: Baca lebih cepat. Tulis lebih baik. Perpanjangan AI gratis.",
+    "default__description": "Ringkas, jawab pertanyaan, dan poles tulisan di seluruh web dengan AI di Chrome dan Edge. Didukung oleh GPT-4o, Claude-3.5, Gemini-1.5, Llama-3.1, Mistral.",
     "maintain__title": "Sedang dalam Pemeliharaan | MaxAI.me",
     "affiliate__title": "Program Afiliasi | MaxAI.me",
     "affiliate__description": "Dapatkan bayaran dengan program afiliasi MaxAI. Bergabunglah dengan program afiliasi kami dan dapatkan komisi 25% untuk berbagi MaxAI!",
@@ -1059,7 +1066,9 @@
     "use_cases__research__title": "Asisten penelitian dan ringkasan AI | MaxAI.me",
     "use_cases__research__desc": "Tambahkan AI ke browser Anda untuk merangkum dan berkomunikasi dengan artikel web, PDF, dan video YouTube untuk menghemat waktu. Ajukan pertanyaan kepada AI untuk jawaban cepat guna mempercepat penelitian Anda. Didukung oleh GPT-4o, Claude-3-Opus, Gemini-1.5-Pro.",
     "use_cases__writing__title": "Asisten menulis AI | MaxAI.me",
-    "use_cases__writing__desc": "Tambahkan AI ke browser Anda untuk meningkatkan dan menyempurnakan tulisan Anda di halaman web manapun. Hasilkan email yang meyakinkan, artikel, posting blog, posting media sosial, makalah. Didukung oleh GPT-4o, Claude-3-opus, Gemini-1.5-pro."
+    "use_cases__writing__desc": "Tambahkan AI ke browser Anda untuk meningkatkan dan menyempurnakan tulisan Anda di halaman web manapun. Hasilkan email yang meyakinkan, artikel, posting blog, posting media sosial, makalah. Didukung oleh GPT-4o, Claude-3-opus, Gemini-1.5-pro.",
+    "pdf_tools__pdf_watermark_page__title": "PDF Watermarker Gratis | Watermark PDF di semua perangkat",
+    "pdf_tools__pdf_watermark_page__description": "Mudah menambahkan watermark ke dokumen PDF. Tidak perlu mengunduh aplikasi–semuanya berfungsi di browser Anda pada Mac, Windows, Linux, dan perangkat mobile."
   },
   "features_landing": {
     "cta_text": "Tambahkan ke Browser",
@@ -1294,7 +1303,8 @@
     "components__common__drag__dropping_tip": "Anda dapat mengatur urutan dengan menyeret dan meletakkan",
     "components__common__upload_button_tips": "atau letakkan file di sini",
     "components__common__upload_button_title": "PILIH FILE",
-    "components__common__upload_button__unsupported_file_type_tip": "Silakan unggah jenis file PDF yang ditentukan"
+    "components__common__upload_button__unsupported_file_type_tip": "Silakan unggah jenis file PDF yang ditentukan",
+    "components__common__select_other_file": "Pilih file lain"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Hanya gambar dengan jenis gambar yang dapat diunggah",
@@ -1431,7 +1441,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "Akses model AI terpintar, semua dalam satu tempat.",
     "ab_test_v5__features_data__image_ai_queries": "Kueri AI gambar",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "Tingkatkan kreativitas dan produktivitas Anda 10x dengan model seni AI paling canggih.",
-    "ab_test_v5__features_data__search_faster": "Cari lebih cepat",
+    "ab_test_v5__features_data__search_faster": "Dapatkan jawaban",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Tanyakan AI apa pun di sisi browser",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Obrolan dengan semua AI terbaik dalam satu tempat",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Cari dengan AI di sisi browser",
@@ -1453,7 +1463,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Terjemahkan",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Jelaskan",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Terjemahan dwibahasa seluruh halaman",
-    "ab_test_v5__features_data__write_faster": "Menulis lebih cepat",
+    "ab_test_v5__features_data__write_faster": "Tulis lebih baik",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "Pengubah AI di halaman apa pun",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Perbaiki penulisan",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Periksa",
@@ -1517,7 +1527,10 @@
     "ab_test_v5__features_data__discord__tooltip": "Hemat waktu dalam korespondensi pesan Discord. Balas pesan dalam hitungan detik dengan catatan singkat. Tingkatkan nada, periksa ejaan dan tata bahasa. Berkomunikasi dengan lebih efektif dan efisien.",
     "ab_test_v5__features_data__messenger__tooltip": "Hemat waktu dalam korespondensi pesan Messenger. Balas pesan dalam hitungan detik dengan catatan singkat. Tingkatkan nada, periksa ejaan dan tata bahasa. Berkomunikasi dengan lebih efektif dan efisien.",
     "ab_test_v5__features_data__telegram__tooltip": "Hemat waktu dalam korespondensi pesan Telegram. Balas pesan dalam hitungan detik dengan catatan singkat. Tingkatkan nada, periksa ejaan dan tata bahasa. Berkomunikasi dengan lebih efektif dan efisien.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Buat promosi Anda sendiri, atur, dan buat mudah diakses dan digunakan kembali, untuk diri Anda sendiri dan tim Anda."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Buat promosi Anda sendiri, atur, dan buat mudah diakses dan digunakan kembali, untuk diri Anda sendiri dan tim Anda.",
+    "features_data__llama_3_1_70b__tooltip": "Ditenagai oleh Meta. 128.000 token maks. Model multibahasa yang kuat dengan panjang konteks yang signifikan dan kemampuan penalaran yang ditingkatkan. Mendukung kasus penggunaan canggih seperti ringkasan teks berbentuk panjang, agen percakapan multibahasa, dan bantuan pengkodean.",
+    "features_data__llama_3_1_405b__tooltip": "Ditenagai oleh Meta. 128.000 token maks. Model dasar terbuka terbesar di dunia, menyaingi kecerdasan buatan sumber tertutup teratas dalam pengetahuan umum, kemampuan pengendalian, dan matematika. Mendukung 8 bahasa dan memungkinkan kemampuan canggih seperti generasi data sintetis dan distilasi model. Ideal untuk ringkasan berbentuk panjang, agen percakapan multibahasa, dan asisten pengkodean.",
+    "features_data__mistral_large_2__tooltip": "Didukung oleh MistralAI. 128.000 token maks. Model andalan terbaru Mistral mendorong batas kecepatan dan kinerja. Dengan 123 miliar parameter, Mistral-Large-2 unggul dalam pembangkitan kode, matematika, dan penalaran di puluhan bahasa. Menawarkan halusinasi minimal dan dukungan multibahasa yang mengesankan untuk bahasa alami dan pemrograman."
   },
   "features__common": {
     "components__upload_button_drop_title": "Letakkan di sini"
@@ -1772,7 +1785,42 @@
     "components__unlock_pdf_detail_input_password": "Silakan masukkan sandi untuk membuka PDF Anda",
     "components__unlock_pdf_detail_input_placeholder": "Sandi",
     "components__unlock_pdf_detail__button__unlock": "Buka",
-    "components__unlock_pdf_detail__button__convert": "Konversi lainnya",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Sandi salah"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Sandi salah",
+    "components__unlock_pdf_detail__use_tips": "Kata sandi dan file PDF tidak akan diunggah ke server, memastikan keamanan."
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "Lindungi PDF",
+    "description": "Tambahkan perlindungan sandi dan enkripsi ke file PDF Anda untuk keamanan yang ditingkatkan.",
+    "seo_title": "Lindungi PDF - Tambahkan Enkripsi Sandi ke File PDF Secara Online Gratis | MaxAI.me",
+    "seo_description": "Mudah menambahkan perlindungan sandi ke file PDF Anda secara online secara gratis. Tidak ada watermark, batasan ukuran file, unduhan, atau pendaftaran yang diperlukan.",
+    "detail_description_object__protect_pdf__top_left": "Mudah melindungi file PDF Anda secara online secara gratis dengan menambahkan enkripsi sandi. Dengan alat kami, file Anda tetap lokal untuk privasi, dan tidak ada batasan ukuran.",
+    "detail_description_object__protect_pdf__top_right_1": "Secara cepat amankan file PDF Anda dalam beberapa detik saja.",
+    "detail_description_object__protect_pdf__top_right_2": "Cukup unggah file PDF Anda untuk memulai.",
+    "detail_description_object__protect_pdf__top_right_3": "Kompatibel dengan Mac, Windows, Android, dan iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "Alat Online Sederhana untuk Melindungi PDF",
+    "detail_description_object__protect_pdf__middle_1_description": "Alat perlindungan PDF kami memungkinkan Anda dengan mudah menambahkan perlindungan sandi ke file PDF Anda. Cukup unggah dokumen Anda, atur sandi Anda, dan unduh PDF yang terenkripsi. Sangat ramah pengguna, benar-benar gratis, dan tidak memerlukan akun.",
+    "detail_description_object__protect_pdf__middle_2_title": "Perlindungan PDF Aman Lokal",
+    "detail_description_object__protect_pdf__middle_2_description": "Semua file yang Anda unggah diproses langsung di browser Anda, memastikan privasi Anda terlindungi. Tidak ada file yang diunggah ke cloud, menjamin keamanan data.",
+    "detail_description_object__protect_pdf__middle_3_title": "Kompatibilitas lintas platform",
+    "detail_description_object__protect_pdf__middle_3_description": "Alat perlindungan PDF kami berbasis browser, artinya berfungsi dengan lancar di Mac, Windows, dan Linux, serta perangkat seluler. Anda dapat dengan mudah melindungi file PDF Anda dari mana saja.",
+    "detail_description_object__protect_pdf__middle_4_title": "Proses Operasi Mudah",
+    "detail_description_object__protect_pdf__middle_4_description": "Melindungi file PDF Anda adalah hal yang mudah: unggah file, atur sandi Anda, dan kemudian unduh versi yang dilindungi sandi. Bahkan pemula pun dapat mengikuti proses ini dengan mudah.",
+    "detail_description_object__protect_pdf__middle_5_title": "Alat Perlindungan PDF yang Handal",
+    "detail_description_object__protect_pdf__middle_5_description": "Anda tidak perlu membeli perangkat lunak mahal untuk melindungi file PDF Anda. Alat perlindungan PDF online kami tersedia secara gratis, memastikan file dan data Anda selalu aman tanpa perlu pemrosesan cloud.",
+    "detail_description_object__protect_pdf__middle_6_title": "Pemrosesan Lokal untuk Keamanan yang Ditingkatkan",
+    "detail_description_object__protect_pdf__middle_6_description": "Layanan perlindungan kami memastikan bahwa semua operasi dilakukan secara lokal. Hal ini meningkatkan keamanan dan mempercepat waktu pemrosesan, menjaga file Anda tetap aman.",
+    "detail_description_object__protect_pdf__bottom_right_title": "Cara Melindungi File PDF Secara Online:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Unggah file PDF yang ingin Anda lindungi.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Atur sandi untuk file PDF.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Klik 'Lindungi' untuk mengunduh file PDF yang dilindungi sandi.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Setelah dilindungi, hanya mereka yang memiliki sandi dapat mengakses dan mengedit file PDF Anda di perangkat apa pun."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Lindungi",
+    "components__protect_pdf_detail__type_password": " Ketik sandi",
+    "components__protect_pdf_detail__repeat_type_password": "Ulangi sandi",
+    "components__protect_pdf_detail__input__placeholder": "Atur sandi Anda",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Konfirmasi kata sandi Anda",
+    "components__protect_pdf_detail__use_tips": "Kata sandi dan file PDF tidak akan diunggah ke server, memastikan keamanan."
   }
 }

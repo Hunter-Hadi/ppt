@@ -52,7 +52,8 @@
     "month": "kuukausi",
     "unlimited": "Rajaton",
     "most_popular": "Suosituin",
-    "upgrade_now": "Päivitä nyt"
+    "upgrade_now": "Päivitä nyt",
+    "choose_another_file": "Valitse toinen tiedosto"
   },
   "button": {
     "add_to_chrome_for_free": "Lisää Chromeen - Se on ilmainen",
@@ -669,7 +670,7 @@
     "home_page__how_it_works__step1__title": "Lisää selaimelle",
     "home_page__how_it_works__step2__title": "Kirjaudu sisään",
     "home_page__how_it_works__step3__title": "Lisää tuottavuutta",
-    "home_page__how_it_works__step3__description": "Tiivistä, hae, lue ja kirjoita 10 kertaa nopeammin tekoälyn avulla millä tahansa selatulla verkkosivulla. Säästä tunteja joka päivä.",
+    "home_page__how_it_works__step3__description": "Lue nopeammin. Kirjoita paremmin. Saat vastauksia. Tehosta tuottavuuttasi verkossa tekoälyn avulla. Säästä tunteja joka päivä.",
     "home_page__how_it_works__step1__description": "Lisää MaxAI.me-laajennus selaimeesi säästääksesi aikaa jokaisella verkkosivulla tekoälyn avulla. Se on ilmainen ja 100% yksityisyyttä kunnioittava.",
     "home_page__how_it_works__step2__description": "Kirjaudu helposti sisään Google-tililläsi tai sähköpostilla. Se on yksinkertaista, ilmaista ja turvallista.",
     "home_page__hero_section__title": "Älykäs tutkimus- ja kirjoitusapuri",
@@ -728,7 +729,13 @@
     "home_page__features_content__all_in_chatbox__description2": "Nopein tapa saada välittömät vastaukset suoraan selaimen sivupalkista.",
     "home_page__features_content__all_in_chatbox__description3": "Analysoi mikä tahansa kuva tekoälyn avulla.",
     "home_page__features_content__all_in_chatbox__description4": "Luo tekoälytaidetta ja kuvia DALLE-3:lla.",
-    "home_page__features_content__ab_test_v4__content2__search__description4": "Näytä tekoälyvastaukset Google-hakutulosten vieressä."
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Näytä tekoälyvastaukset Google-hakutulosten vieressä.",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "Vesileima PDF",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "Lisää vesileima PDF-tiedostoihisi",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Lisää PDF-vesileimat sekunneissa",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "Luotettu 2,4 miljardin ihmisen toimesta vuodesta 2013 lähtien",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Helppo tapa vesileimata PDF-tiedostoja—ei asennusta tarvita",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Lisää vesileima PDF-tiedostoihin ilmaisella PDF-vesileimalla. Ei tarvitse ladata sovellusta–kaikki toimii selaimessasi Macissa, Windowsissa, Linuxissa ja mobiililaitteissa."
   },
   "prompt_library": {
     "use_prompt_library__title": "Korkealaatuinen AI-prompt-kirjasto",
@@ -969,8 +976,8 @@
     "faq__question5__description__part2": "seurataksesi suosittelutoimintaasi."
   },
   "seo": {
-    "default__title": "MaxAI.me: 1-Click AI Kaikkialla (GPT-4o, Claude 3, Gemini 1.5)",
-    "default__description": "AI-keskustelu, uudelleenkirjoitus, yhteenveto, välitön vastaus, lukemisen avustaja, vihjeet, haku, taide ja kääntäjä. Toimii GPT-4o:n, Clauden 3:n ja Geminin 1.5:n voimin.",
+    "default__title": "MaxAI.me: Lue nopeammin. Kirjoita paremmin. Ilmainen tekoälylaajennus.",
+    "default__description": "Tiivistä, vastaa kysymyksiin ja hio kirjoitustasi verkossa tekoälyn avulla Chromessa ja Edgessä. Toimii GPT-4o:n, Claude-3.5:n, Gemini-1.5:n, Llama-3.1:n ja Mistralin voimin.",
     "maintain__title": "Huollossa | MaxAI.me",
     "affiliate__title": "Kumppaniohjelma | MaxAI.me",
     "affiliate__description": "Tienaa rahaa MaxAI:n kumppaniohjelmalla. Liity kumppaniohjelmaamme ja ansaitse 25% provisio jakamalla MaxAI:ta!",
@@ -1059,7 +1066,9 @@
     "use_cases__research__title": "Tekoälytutkimus- ja tiivistelmäapuri | MaxAI.me",
     "use_cases__research__desc": "Lisää tekoäly selaimellesi tiivistääksesi ja keskustellaksesi verkkosivujen, PDF-tiedostojen ja YouTube-videoiden kanssa säästääksesi aikaa. Kysy tekoälyltä kysymyksiä saadaksesi nopeita vastauksia tutkimuksesi nopeuttamiseksi. Toimii GPT-4o:n, Claude-3-Opus:n ja Gemini-1.5-Pro:n voimalla.",
     "use_cases__writing__title": "Tekoälykirjoitusapuri | MaxAI.me",
-    "use_cases__writing__desc": "Lisää tekoäly selaimellesi parantaaksesi ja viimeistelläksesi kirjoitustasi millä tahansa verkkosivulla. Luo vakuuttavia sähköposteja, artikkeleita, blogikirjoituksia, sosiaalisen median viestejä ja papereita. Toimii GPT-4o:n, Claude-3-opus:n ja Gemini-1.5-pro:n voimalla."
+    "use_cases__writing__desc": "Lisää tekoäly selaimellesi parantaaksesi ja viimeistelläksesi kirjoitustasi millä tahansa verkkosivulla. Luo vakuuttavia sähköposteja, artikkeleita, blogikirjoituksia, sosiaalisen median viestejä ja papereita. Toimii GPT-4o:n, Claude-3-opus:n ja Gemini-1.5-pro:n voimalla.",
+    "pdf_tools__pdf_watermark_page__title": "Ilmainen PDF-vesileima | Vesileimaa PDF-tiedostoja millä tahansa laitteella",
+    "pdf_tools__pdf_watermark_page__description": "Lisää helposti vesileima PDF-tiedostoihin. Ei tarvitse ladata sovellusta–kaikki toimii selaimessasi Macissa, Windowsissa, Linuxissa ja mobiililaitteissa."
   },
   "features_landing": {
     "cta_text": "Lisää selaimeen",
@@ -1294,7 +1303,8 @@
     "components__common__drag__dropping_tip": "Voit säätää järjestystä vetämällä ja pudottamalla",
     "components__common__upload_button_tips": "tai pudota tiedostot tähän",
     "components__common__upload_button_title": "VALITSE TIEDOSTOT",
-    "components__common__upload_button__unsupported_file_type_tip": "Lataa vain määritetty PDF-tiedostotyyppi"
+    "components__common__upload_button__unsupported_file_type_tip": "Lataa vain määritetty PDF-tiedostotyyppi",
+    "components__common__select_other_file": "Valitse toinen tiedosto"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Vain kuvatyyppiset kuvat voidaan ladata",
@@ -1431,7 +1441,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "Pääsy älykkäimpiin tekoälymalleihin, kaikki yhdessä paikassa.",
     "ab_test_v5__features_data__image_ai_queries": "Kuvatekoälykyselyt",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "10-kertaista luovuutesi ja tuottavuutesi kehittyneimmillä tekoälytaidemalleilla.",
-    "ab_test_v5__features_data__search_faster": "Hae nopeammin",
+    "ab_test_v5__features_data__search_faster": "Hanki vastauksia",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Kysy tekoälyltä mitä tahansa selaimen sivupalkissa",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Keskustele kaikkien parhaiden tekoälyjen kanssa yhdessä paikassa",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Hae tekoälyllä selaimen sivupalkissa",
@@ -1453,7 +1463,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Käännä",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Selitä",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Koko sivun kaksikielinen käännös",
-    "ab_test_v5__features_data__write_faster": "Kirjoita nopeammin",
+    "ab_test_v5__features_data__write_faster": "Kirjoita paremmin",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "AI-tekstien uudelleenkirjoittaja minkä tahansa sivun kanssa",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Paranna kirjoittamista",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Tarkista oikeinkirjoitus",
@@ -1517,7 +1527,10 @@
     "ab_test_v5__features_data__discord__tooltip": "Säästä aikaa Discord-viestikirjeenvaihdossa. Vastaa viesteihin sekunneissa lyhyillä muistiinpanoilla. Paranna äänensävyä, tarkista oikeinkirjoitus ja kielioppi. Viesti tehokkaammin ja tehokkaammin.",
     "ab_test_v5__features_data__messenger__tooltip": "Säästä aikaa Messenger-viestikirjeenvaihdossa. Vastaa viesteihin sekunneissa lyhyillä muistiinpanoilla. Paranna äänensävyä, tarkista oikeinkirjoitus ja kielioppi. Viesti tehokkaammin ja tehokkaammin.",
     "ab_test_v5__features_data__telegram__tooltip": "Säästä aikaa Telegram-viestikirjeenvaihdossa. Vastaa viesteihin sekunneissa lyhyillä muistiinpanoilla. Paranna äänensävyä, tarkista oikeinkirjoitus ja kielioppi. Viesti tehokkaammin ja tehokkaammin.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Luo omat muistiinpanosi, järjestä ne ja tee niistä helposti käytettäviä ja uudelleenkäytettäviä, itsellesi ja tiimillesi."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Luo omat muistiinpanosi, järjestä ne ja tee niistä helposti käytettäviä ja uudelleenkäytettäviä, itsellesi ja tiimillesi.",
+    "features_data__llama_3_1_70b__tooltip": "Käyttövoimana Meta. 128 000 maksimitunnusta. Tehokas monikielinen malli, jolla on merkittävästi laajennettu kontekstin pituus ja parannetut päättelykyvyt. Tukee edistyneitä käyttötarkoituksia, kuten pitkän muodon tekstien tiivistämistä, monikielisiä keskusteluavustajia ja koodin avustamista.",
+    "features_data__llama_3_1_405b__tooltip": "Käyttövoimana Meta. 128 000 maksimitunnusta. Maailman suurin avoimesti saatavilla oleva perustason malli, kilpailee parhaiden suljettujen lähdekoodi tekoälyn kanssa yleisessä tiedossa, ohjattavuudessa ja matematiikassa. Tukee 8 kieltä ja mahdollistaa edistyneet toiminnot, kuten synteettisen datan tuottamisen ja mallin tiivistämisen. Ihanteellinen pitkän muodon tiivistämiseen, monikielisten keskusteluavustajien ja koodiavustajien käyttöön.",
+    "features_data__mistral_large_2__tooltip": "Käyttövoimana MistralAI. 128 000 maksimitunnusta. Mistrallin viimeisin lippulaivamalli rikkoo nopeuden ja suorituskyvyn rajoja. 123 miljardin parametrin avulla Mistral-Large-2 loistaa koodin luonnissa, matematiikassa ja päättelyssä kymmenissä kielissä. Se tarjoaa vähäisen harhan ja vaikuttavan monikielisen tuen sekä luonnollisille että ohjelmointikielille."
   },
   "features__common": {
     "components__upload_button_drop_title": "Pudota tähän"
@@ -1772,7 +1785,42 @@
     "components__unlock_pdf_detail_input_password": "Syötä salasana avataksesi PDF-tiedostosi",
     "components__unlock_pdf_detail_input_placeholder": "Salasana",
     "components__unlock_pdf_detail__button__unlock": "Avaa",
-    "components__unlock_pdf_detail__button__convert": "Muunna toinen",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Väärä salasana"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Väärä salasana",
+    "components__unlock_pdf_detail__use_tips": "Salasanaa ja PDF-tiedostoja ei lähetetä palvelimelle, mikä varmistaa turvallisuuden."
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "Suojaa PDF",
+    "description": "Lisää salasanasuojaus ja salakirjoitus PDF-tiedostoihisi parannetun turvallisuuden varmistamiseksi.",
+    "seo_title": "Suojaa PDF - Lisää salasanasuojaus PDF-tiedostoihin ilmaiseksi verkossa | MaxAI.me",
+    "seo_description": "Lisää helposti salasanasuojaus PDF-tiedostoihisi ilmaiseksi verkossa. Ei vesileimoja, tiedostokokorajoituksia, latauksia tai rekisteröitymisiä tarvita.",
+    "detail_description_object__protect_pdf__top_left": "Suojaa PDF-tiedostosi helposti ilmaiseksi lisäämällä salakirjoitus. Työkalullamme tiedostosi pysyvät paikallisesti yksityisyyden varmistamiseksi, eikä kokorajoituksia ole.",
+    "detail_description_object__protect_pdf__top_right_1": "Suojaa PDF-tiedostosi nopeasti muutamassa sekunnissa.",
+    "detail_description_object__protect_pdf__top_right_2": "Lataa vain PDF-tiedostosi aloittaaksesi.",
+    "detail_description_object__protect_pdf__top_right_3": "Yhteensopiva Macin, Windowsin, Androidin ja iOS:n kanssa.",
+    "detail_description_object__protect_pdf__middle_1_title": "Yksinkertainen verkkotyökalu PDF-tiedostojen suojaamiseen",
+    "detail_description_object__protect_pdf__middle_1_description": "PDF-suojaustyökalumme mahdollistaa salasanasuojauksen lisäämisen PDF-tiedostoihisi helposti. Lataa vain asiakirjasi, aseta salasanasi ja lataa salattu PDF. Se on uskomattoman käyttäjäystävällinen, täysin ilmainen eikä vaadi tiliä.",
+    "detail_description_object__protect_pdf__middle_2_title": "Paikallinen turvallinen PDF-suojaus",
+    "detail_description_object__protect_pdf__middle_2_description": "Kaikki lataamasi tiedostot käsitellään suoraan selaimessasi, varmistaen yksityisyytesi suojan. Tiedostoja ei lähetetä pilveen, mikä takaa tietoturvan.",
+    "detail_description_object__protect_pdf__middle_3_title": "Ristiinjärjestelmäinen yhteensopivuus",
+    "detail_description_object__protect_pdf__middle_3_description": "PDF-suojaustyökalumme perustuu selaimessa toimivaan, mikä tarkoittaa, että se toimii saumattomasti Macin, Windowsin ja Linuxin sekä mobiililaitteiden kanssa. Voit helposti suojata PDF-tiedostosi mistä tahansa.",
+    "detail_description_object__protect_pdf__middle_4_title": "Helppo toimintaprosessi",
+    "detail_description_object__protect_pdf__middle_4_description": "PDF-tiedostojen suojaaminen on suoraviivaista: lataa tiedosto, aseta salasanasi ja lataa sitten salasanalla suojattu versio. Jopa aloittelijat voivat seurata tätä helppoa prosessia vaivattomasti.",
+    "detail_description_object__protect_pdf__middle_5_title": "Luotettava PDF-suojaustyökalu",
+    "detail_description_object__protect_pdf__middle_5_description": "Sinun ei tarvitse ostaa kallista ohjelmistoa suojataksesi PDF-tiedostosi. Verkkopohjainen PDF-suojaustyökalumme on saatavilla ilmaiseksi, varmistaen että tiedostosi ja tietosi ovat aina turvassa ilman pilviprosessointia.",
+    "detail_description_object__protect_pdf__middle_6_title": "Paikallinen käsittely paremman turvallisuuden varmistamiseksi",
+    "detail_description_object__protect_pdf__middle_6_description": "Palvelumme varmistaa, että kaikki toiminnot suoritetaan paikallisesti. Tämä parantaa turvallisuutta ja nopeuttaa käsittelyaikaa, pitäen tiedostosi turvassa.",
+    "detail_description_object__protect_pdf__bottom_right_title": "Kuinka suojata PDF-tiedostot verkossa:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Lataa PDF-tiedosto, jonka haluat suojata.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Aseta salasana PDF-tiedostolle.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Klikkaa 'Suojaa' ladataksesi salasanalla suojatun PDF-tiedoston.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Kun tiedosto on suojattu, vain ne, joilla on salasana, voivat käyttää ja muokata PDF-tiedostojasi millä tahansa laitteella."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Suojaa",
+    "components__protect_pdf_detail__type_password": " Kirjoita salasana",
+    "components__protect_pdf_detail__repeat_type_password": "Toista salasana",
+    "components__protect_pdf_detail__input__placeholder": "Aseta salasanasi",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Vahvista salasanasi",
+    "components__protect_pdf_detail__use_tips": "Salasanaa ja PDF-tiedostoja ei lähetetä palvelimelle, mikä varmistaa turvallisuuden."
   }
 }

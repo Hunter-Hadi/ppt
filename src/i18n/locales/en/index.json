@@ -52,7 +52,8 @@
     "month": "month",
     "unlimited": "Unlimited",
     "most_popular": "Most popular",
-    "upgrade_now": "Upgrade now"
+    "upgrade_now": "Upgrade now",
+    "choose_another_file": "Choose another file"
   },
   "button": {
     "add_to_chrome_for_free": "Add to Chrome — It's Free",
@@ -240,7 +241,7 @@
     "home_page__how_it_works__step2__title": "Sign in",
     "home_page__how_it_works__step2__description": "Easily sign in with Google or email. It's simple, free, and secure.",
     "home_page__how_it_works__step3__title": "Boost productivity",
-    "home_page__how_it_works__step3__description": "Summarize, search, read, and write 10x faster with AI on any web page you browse. Save hours every day.",
+    "home_page__how_it_works__step3__description": "Read faster. Write better. Get answers. Supercharge your productivity across the web with AI. Save hours every day.",
     "home_page__in_numbers__title": "MaxAI in numbers",
     "home_page__in_numbers__privacy_friendly__title": "100% privacy friendly",
     "home_page__in_numbers__privacy_friendly__description": "MaxAI.me ensures minimal data collection and fortified security. We're unaware of your browsing/chatting details or data beyond login essentials.",
@@ -515,6 +516,12 @@
     "tools__index_page__constant_obj__pdf_page_numbers__title": "Number Pages",
     "tools__index_page__constant_obj__pdf_page_numbers__main_description": "Insert page numbers in PDF with ease",
     "tools__index_page__constant_obj__pdf_page_numbers__secondary_description": "Batch and quick insertion of page numbers in PDF documents",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "Watermark PDF",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "Add a watermark to your PDFs",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Add a watermark to PDF documents with a free PDF Watermarker. No need to download an app–everything works in your browser on Mac, Windows, Linux, and mobile devices.",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Add PDF watermarks in seconds",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "Trusted by 2.4 billion people since 2013",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Easy way to watermark PDFs—no installation needed",
     "pdf_tools__detail_description_object__merge_pdf__top_left": "Combine PDF files to create a single document online for free. It’s easy to merge PDFs with our PDF combiner. No watermarks and no file size limits.",
     "pdf_tools__detail_description_object__merge_pdf__top_right_1": "Merge multiple PDFs into one in seconds.",
     "pdf_tools__detail_description_object__merge_pdf__top_right_2": "Drag & drop your PDFs to start—easy!",
@@ -730,11 +737,11 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Download your PDF with page numbers—that’s it!",
     "uninstall_survey__title": "Help us improve"
   },
-  "pages__pdf_tools__unlock_pdf":{
+  "pages__pdf_tools__unlock_pdf": {
     "title": "Unlock PDF",
-    "description":"Remove password, encryption, and permission from your PDF",
+    "description": "Remove password, encryption, and permission from your PDF",
     "seo_title": "Unlock PDF - Remove Password from PDF Files Online for Free | MaxAI.me",
-    "seo_description":"Easily remove password protection from PDF files online for free. No watermarks, file size limits, downloads, or sign-ups are required.",
+    "seo_description": "Easily remove password protection from PDF files online for free. No watermarks, file size limits, downloads, or sign-ups are required.",
     "detail_description_object__unlock_pdf__top_left": "Easily unlock PDF files online for free by removing passwords. With our unlocking tool, your files will always remain local, ensuring privacy, and there are no file size limits.",
     "detail_description_object__unlock_pdf__top_right_1": "Quickly unlock PDF files in just a few seconds.",
     "detail_description_object__unlock_pdf__top_right_2": "Simply upload your PDF files to get started.",
@@ -783,6 +790,33 @@
     "detail_description_object__pdf_annotator__bottom_right_description_2": "Use the annotation tools to write, draw, or highlight on the document.",
     "detail_description_object__pdf_annotator__bottom_right_description_3": "Click ‘Download’ to save your annotated PDF file.",
     "detail_description_object__pdf_annotator__bottom_right_description_4": "Access your annotated PDF on any device and share it easily."
+ },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "Protect PDF",
+    "description": "Add password protection and encryption to your PDF files for enhanced security.",
+    "seo_title": "Protect PDF - Add Password Encryption to PDF Files Online for Free | MaxAI.me",
+    "seo_description": "Easily add password protection to your PDF files online for free. No watermarks, file size limits, downloads, or sign-ups are required.",
+    "detail_description_object__protect_pdf__top_left": "Easily protect your PDF files online for free by adding password encryption. With our tool, your files remain local for privacy, and there are no size limitations.",
+    "detail_description_object__protect_pdf__top_right_1": "Quickly secure your PDF files in just a few seconds.",
+    "detail_description_object__protect_pdf__top_right_2": "Simply upload your PDF files to get started.",
+    "detail_description_object__protect_pdf__top_right_3": "Compatible with Mac, Windows, Android, and iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "Simple Online Tool to Protect PDFs",
+    "detail_description_object__protect_pdf__middle_1_description": "Our PDF protection tool allows you to easily add password protection to your PDF files. Just upload your document, set your password, and download the encrypted PDF. It’s incredibly user-friendly, completely free, and doesn’t require an account.",
+    "detail_description_object__protect_pdf__middle_2_title": "Local Secure PDF Protection",
+    "detail_description_object__protect_pdf__middle_2_description": "All files you upload are processed directly in your browser, ensuring your privacy is protected. No files are uploaded to the cloud, guaranteeing data security.",
+    "detail_description_object__protect_pdf__middle_3_title": "Cross-Platform Compatibility",
+    "detail_description_object__protect_pdf__middle_3_description": "Our PDF protection tool is browser-based, meaning it works seamlessly on Mac, Windows, and Linux, as well as mobile devices. You can easily protect your PDF files from anywhere.",
+    "detail_description_object__protect_pdf__middle_4_title": "Easy Operation Process",
+    "detail_description_object__protect_pdf__middle_4_description": "Protecting your PDF files is straightforward: upload the file, set your password, and then download the password-protected version. Even beginners can follow this easy process effortlessly.",
+    "detail_description_object__protect_pdf__middle_5_title": "Reliable PDF Protection Tool",
+    "detail_description_object__protect_pdf__middle_5_description": "You don’t need to purchase expensive software to protect your PDF files. Our online PDF protection tool is available for free, ensuring your files and data are always secure without the need for cloud processing.",
+    "detail_description_object__protect_pdf__middle_6_title": "Local Processing for Enhanced Security",
+    "detail_description_object__protect_pdf__middle_6_description": "Our protection service ensures that all operations are conducted locally. This enhances security and speeds up processing time, keeping your files safe.",
+    "detail_description_object__protect_pdf__bottom_right_title": "How to Protect PDF Files Online:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Upload the PDF file you want to protect.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Set a password for the PDF file.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Click ‘Protect’ to download the password-protected PDF file.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Once protected, only those with the password can access and edit your PDF files on any device."
   },
   "use_cases_pages": {
     "research__title": "Supercharge your browser with AI Research 10x faster",
@@ -883,7 +917,8 @@
     "components__common__drag__dropping_tip": "You can adjust the order by dragging and dropping",
     "components__common__upload_button_tips": "or drop files here",
     "components__common__upload_button_title": "CHOOSE FILES",
-    "components__common__upload_button__unsupported_file_type_tip": "Please upload the specified PDF file type"
+    "components__common__upload_button__unsupported_file_type_tip": "Please upload the specified PDF file type",
+    "components__common__select_other_file": "Choose another file"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "Add PDFs",
@@ -1036,8 +1071,16 @@
     "components__unlock_pdf_detail_input_password": "Please enter the password to unlock your PDF",
     "components__unlock_pdf_detail_input_placeholder": "Password",
     "components__unlock_pdf_detail__button__unlock": "Unlock",
-    "components__unlock_pdf_detail__button__convert": "Convert another",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Incorrect password"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Incorrect password",
+    "components__unlock_pdf_detail__use_tips": "The password and PDF files will not be uploaded to the server, ensuring security."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Protect",
+    "components__protect_pdf_detail__type_password": " Type password",
+    "components__protect_pdf_detail__repeat_type_password": "Repeat password",
+    "components__protect_pdf_detail__input__placeholder": "Set your password",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Confirm your password",
+    "components__protect_pdf_detail__use_tips": "The password and PDF files will not be uploaded to the server, ensuring security."
   },
   "prompt_library": {
     "use_prompt_library__title": "High quality AI prompt library",
@@ -1277,8 +1320,8 @@
     "faq__question7__description__part2": "Abuse, gaming, and policy violations will result in having your account banned and any existing and future commissions forfeited."
   },
   "seo": {
-    "default__title": "MaxAI.me: 1-Click AI Everywhere (GPT-4o, Claude 3, Gemini 1.5)",
-    "default__description": "AI chat, rewriter, summary, instant reply, reading assistant, prompts, search, art, and translator. Powered by GPT-4o, Claude 3, Gemini 1.5.",
+    "default__title": "MaxAI.me: Read faster. Write better. Free AI extension.",
+    "default__description": "Summarize, answer questions, and polish writing across the web with AI in Chrome and Edge. Powered by GPT-4o, Claude-3.5, Gemini-1.5, Llama-3.1, Mistral.",
     "maintain__title": "In maintenance | MaxAI.me",
     "affiliate__title": "Affiliate Program | MaxAI.me",
     "affiliate__description": "Get paid with MaxAI affiliate program. Join our affiliate program and earn 25% commission for sharing MaxAI!",
@@ -1367,7 +1410,9 @@
     "pdf_tools__rotate_pdf__title": "Rotate PDF - Easily Rotate Pages in PDF Documents Online | MaxAI.me",
     "pdf_tools__rotate_pdf__description": "Effortlessly rotate pages within your PDF documents online for free. Adjust the orientation of any PDF page with just a click - no file size limits, downloads, or sign-ups necessary.",
     "pdf_tools__pdf_numbers_page__title": "Add Page Numbers to PDF – Fast Online Numbering Tool | MaxAI.me",
-    "pdf_tools__pdf_numbers_page__description": "Quickly add page numbers to PDF files online. No software needed, secure in-browser processing. No watermarks, file size limits, downloads, or sign-ups required."
+    "pdf_tools__pdf_numbers_page__description": "Quickly add page numbers to PDF files online. No software needed, secure in-browser processing. No watermarks, file size limits, downloads, or sign-ups required.",
+    "pdf_tools__pdf_watermark_page__title": "Free PDF Watermarker | Watermark PDFs on any device",
+    "pdf_tools__pdf_watermark_page__description": "Easily add a watermark to PDF documents. No need to download an app–everything works in your browser on Mac, Windows, Linux, and mobile devices."
   },
   "features_landing": {
     "cta_text": "Add to Browser",
@@ -1671,7 +1716,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "Access the smartest AI models, all in one place.",
     "ab_test_v5__features_data__image_ai_queries": "Image AI queries",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "10x your creativity and productivity with the most advanced AI art models.",
-    "ab_test_v5__features_data__search_faster": "Search faster",
+    "ab_test_v5__features_data__search_faster": "Get answers",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Ask AI anything in browser sidebar",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Chat with all the best AI in one place",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Search with AI in browser sidebar",
@@ -1693,7 +1738,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Translate",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Explain",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Full-page bilingual translation",
-    "ab_test_v5__features_data__write_faster": "Write faster",
+    "ab_test_v5__features_data__write_faster": "Write better",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "AI rewriter on any page",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Improve writing",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Proofread",
@@ -1757,7 +1802,10 @@
     "ab_test_v5__features_data__discord__tooltip": "Save time on Discord message correspondence. Reply to messages in seconds with brief notes. Improve tone, check spelling and grammar. Communicate more effectively and efficiently.",
     "ab_test_v5__features_data__messenger__tooltip": "Save time on Messenger message correspondence. Reply to messages in seconds with brief notes. Improve tone, check spelling and grammar. Communicate more effectively and efficiently.",
     "ab_test_v5__features_data__telegram__tooltip": "Save time on Telegram message correspondence. Reply to messages in seconds with brief notes. Improve tone, check spelling and grammar. Communicate more effectively and efficiently.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Create your own prompts, organize them, and make them easy to access and reuse, for yourself and your team."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Create your own prompts, organize them, and make them easy to access and reuse, for yourself and your team.",
+    "features_data__llama_3_1_70b__tooltip": "Powered by Meta. 128,000 max tokens. A powerful multilingual model with significantly expanded context length and enhanced reasoning capabilities. Supports advanced use cases like long-form text summarization, multilingual conversational agents, and coding assistance.",
+    "features_data__llama_3_1_405b__tooltip": "Powered by Meta. 128,000 max tokens. The world's largest openly available foundation model, rivaling top closed-source AI in general knowledge, steerability and math. Supports 8 languages and enables advanced capabilities like synthetic data generation and model distillation. Ideal for long-form summarization, multilingual conversational agents, and coding assistants.",
+    "features_data__mistral_large_2__tooltip": "Powered by MistralAI. 128,000 max tokens. Mistral's latest flagship model pushes the boundaries of speed and performance. With 123 billion parameters, Mistral-Large-2 excels in code generation, mathematics, and reasoning across dozens of languages. It offers minimal hallucination and impressive multilingual support for both natural and programming languages."
   },
   "survey": {
     "funnel_survey__reinstall_cta_btn__text": "Reinstall extension - It's free",

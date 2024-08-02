@@ -50,6 +50,8 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
   const { t } = useTranslation()
 
   const pdfPageRefs = useRef<HTMLElement[]>([])
+  const wrapRef = useRef<HTMLElement>(null)
+
   const scrollRef =
     useRef<IFunctionalityCommonVirtualScrollingMainHandles | null>(null)
   const scrollListRef = useMemo(
@@ -65,11 +67,8 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
   const [currentScrollOffset, setCurrentScrollOffset] = useState<number>(0)
   const [numPages, setNumPages] = useState<number>(0) //PDF的总页数
 
-  const {
-    ref: wrapRef,
-    width: parentWidth,
-    height: parentHeight,
-  } = useFunctionalitySignElementWidth() //获取父元素的宽度
+  const { width: parentWidth, height: parentHeight } =
+    useFunctionalitySignElementWidth(wrapRef) //获取父元素的宽度
 
   useImperativeHandle(
     handleRef,
@@ -124,7 +123,6 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
     }),
     [numPages, currentPage, scrollListRef, currentScrollOffset],
   )
-
   return (
     <Stack
       ref={wrapRef}
@@ -134,6 +132,7 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
         height: '100%',
         overflow: 'hidden',
       }}
+      className='functionality-sign-pdf-show-pdf-view-main'
     >
       <Box
         sx={{
@@ -171,6 +170,8 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
           }}
         >
           {(props) => {
+            // const proportion = (parentWidth - 10) / props.pdfInfo?.width
+            // console.log('proportion', proportion)
             return (
               <Box
                 style={{
@@ -243,8 +244,8 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
                             }
                           }}
                           sizeInfo={{
-                            width: props.pdfInfo?.width * 2,
-                            height: props.pdfInfo?.height * 2,
+                            width: props.pdfInfo?.width * 3,
+                            height: props.pdfInfo?.height * 3,
                           }}
                         />
                       </Box>

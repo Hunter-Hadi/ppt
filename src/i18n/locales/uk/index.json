@@ -52,7 +52,8 @@
     "month": "مہینہ",
     "unlimited": "غیر محدود",
     "most_popular": "سب سے زیادہ مقبول",
-    "upgrade_now": "ابھی اپ گریڈ کریں"
+    "upgrade_now": "ابھی اپ گریڈ کریں",
+    "choose_another_file": "کوئی دوسرا فائل منتخب کریں"
   },
   "button": {
     "add_to_chrome_for_free": "کروم میں شامل کریں - یہ مفت ہے",
@@ -669,7 +670,7 @@
     "home_page__how_it_works__step1__title": "براؤزر میں شامل کریں",
     "home_page__how_it_works__step2__title": "سائن ان کریں",
     "home_page__how_it_works__step3__title": "پیداوار بڑھائیں",
-    "home_page__how_it_works__step3__description": "AI کے ساتھ کسی بھی ویب پیج پر تفصیل، تلاش، پڑھنا اور لکھنا 10 گنا تیز کریں۔ روزانہ گھنٹوں بچائیں۔",
+    "home_page__how_it_works__step3__description": "تیزی سے پڑھیں۔ بہتر لکھیں۔ جوابات حاصل کریں۔ AI کے ساتھ ویب پر اپنی پیداوار کو بڑھائیں۔ ہر دن گھنٹوں بچائیں۔",
     "home_page__how_it_works__step1__description": "AI کے ساتھ ہر ویب پیج پر وقت بچانے کے لئے اپنے براؤزر میں MaxAI.me توسیع شامل کریں۔ یہ مفت اور 100٪ پرائیویسی دوستانہ ہے۔",
     "home_page__how_it_works__step2__description": "آسانی سے گوگل یا ای میل کے ساتھ سائن ان کریں۔ یہ آسان، مفت اور محفوظ ہے۔",
     "home_page__hero_section__title": "آپ کا AI پاورڈ تحقیق اور لکھائی معاون",
@@ -728,7 +729,13 @@
     "home_page__features_content__all_in_chatbox__description2": "فوری جوابات حاصل کرنے کا سب سے تیز طریقہ براؤزر سائڈبار میں۔",
     "home_page__features_content__all_in_chatbox__description3": "کسی بھی تصویر کا تجزیہ کریں اے آئی وژن کے ساتھ۔",
     "home_page__features_content__all_in_chatbox__description4": "DALLE-3 کے ساتھ اے آئی آرٹ اور تصاویر بنائیں۔",
-    "home_page__features_content__ab_test_v4__content2__search__description4": "Google تلاش کے نتائج کے بائیں طرف AI جوابات دکھائیں۔"
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Google تلاش کے نتائج کے بائیں طرف AI جوابات دکھائیں۔",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "پانی کا نشان PDF",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "اپنے PDFs میں ایک واٹرمارک شامل کریں",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "سیکنڈز میں PDF واٹرمارک شامل کریں",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "2013 سے 2.4 بلین لوگوں کی اعتماد",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "PDFs پر واٹرمارک کرنے کا آسان طریقہ - کوئی انسٹالیشن کی ضرورت نہیں",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "مفت PDF واٹرمارکر کے ساتھ PDF دستاویزات پر واٹرمارک شامل کریں۔ کسی ایپ کو ڈاؤن لوڈ کرنے کی ضرورت نہیں ہے - سب کچھ آپ کے براؤزر میں میک، ونڈوز، لینکس اور موبائل ڈیوائسز پر کام کرتا ہے۔"
   },
   "prompt_library": {
     "use_prompt_library__title": "بلند معیار کی AI پرومپ لائبریری",
@@ -969,8 +976,8 @@
     "faq__question5__description__part2": "اپنے ریفرل کی پرفارمنس کو ٹریک کرنے کے لئے۔"
   },
   "seo": {
-    "default__title": "MaxAI.me: 1-Click AI ہر جگہ (GPT-4o، Claude 3، Gemini 1.5)",
-    "default__description": "AI چیٹ، ریتھرائٹر، خلاصہ، فوری جواب، پڑھنے والا معاون، پرومپٹس، تلاش، آرٹ اور ترجمہ کار۔ GPT-4o، Claude 3، Gemini 1.5 کی طاقت سے محرک",
+    "default__title": "MaxAI.me: تیز پڑھیں۔ بہتر لکھیں۔ مفت AI ایکسٹینشن۔",
+    "default__description": "ویب پر AI کے ساتھ خلاصہ کریں، سوالات کا جواب دیں، اور ترتیب دیں۔ کروم اور ایج میں AI سے چلایا گیا۔ GPT-4o، Claude-3.5، Gemini-1.5، Llama-3.1، Mistral کی طاقت سے معاون بنایا گیا۔",
     "maintain__title": "میکینکس | میکس اے آئی",
     "affiliate__title": "افیلیئٹ پروگرام | میکس اے آئی",
     "affiliate__description": "میکس اے کے افیلیئٹ پروگرام سے پیسے کمائیں۔ ہمارے افیلیئٹ پروگرام میں شامل ہوں اور میکس اے کا حصہ بن کر 25٪ کمیشن کمائیں!",
@@ -1059,7 +1066,9 @@
     "use_cases__research__title": "AI تحقیق اور خلاصہ معاون | MaxAI.me",
     "use_cases__research__desc": "وقت بچانے کے لئے ویب مضامین، پی ڈی ایف، اور یوٹیوب ویڈیوز کو خلاصہ کرنے اور چیٹ کرنے کے لئے AI شامل کریں۔ تیز تحقیق کے لئے AI سوالات پوچھیں تاکہ آپ کی تحقیق تیز ہو جائے۔ GPT-4o، Claude-3-Opus، Gemini-1.5-Pro کی طاقت سے چلتا ہے۔",
     "use_cases__writing__title": "AI لکھنے کا معاون | MaxAI.me",
-    "use_cases__writing__desc": "ویب صفحے پر اپنی لکھائی کو بہتر بنانے اور پالش کرنے کے لئے AI شامل کریں۔ دلچسپ ای میل، مضامین، بلاگ پوسٹس، سوشل میڈیا پوسٹس، پیپرز بنائیں۔ GPT-4o، Claude-3-opus، Gemini-1.5-pro کی طاقت سے چلتا ہے۔"
+    "use_cases__writing__desc": "ویب صفحے پر اپنی لکھائی کو بہتر بنانے اور پالش کرنے کے لئے AI شامل کریں۔ دلچسپ ای میل، مضامین، بلاگ پوسٹس، سوشل میڈیا پوسٹس، پیپرز بنائیں۔ GPT-4o، Claude-3-opus، Gemini-1.5-pro کی طاقت سے چلتا ہے۔",
+    "pdf_tools__pdf_watermark_page__title": "مفت PDF واٹرمارکر | کسی بھی ڈیوائس پر PDFs پر واٹرمارک کریں",
+    "pdf_tools__pdf_watermark_page__description": "PDF دستاویزات میں آسانی سے واٹرمارک شامل کریں۔ کسی ایپ کو ڈاؤن لوڈ کرنے کی ضرورت نہیں ہے - سب کچھ آپ کے براؤزر میں میک، ونڈوز، لینکس اور موبائل ڈیوائسز پر کام کرتا ہے۔"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "سب کو منتخب کریں",
@@ -1294,7 +1303,8 @@
     "components__common__drag__dropping_tip": "آپ ترتیب کو ڈریگ کرکے ترتیب دے سکتے ہیں",
     "components__common__upload_button_tips": "یا یہاں فائلیں ڈراپ کریں",
     "components__common__upload_button_title": "فائلیں منتخب کریں",
-    "components__common__upload_button__unsupported_file_type_tip": "براہ کرم مخصوص PDF فائل کو اپ لوڈ کریں"
+    "components__common__upload_button__unsupported_file_type_tip": "براہ کرم مخصوص PDF فائل کو اپ لوڈ کریں",
+    "components__common__select_other_file": "کوئی دوسرا فائل منتخب کریں"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "صرف تصویر قسم کی تصاویر اپلوڈ کی جا سکتی ہیں",
@@ -1431,7 +1441,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "تمام ہوشیار اے آئی ماڈلز تک رسائی حاصل کریں، ایک ہی جگہ میں۔",
     "ab_test_v5__features_data__image_ai_queries": "تصویر اے آئی کوئریز",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "اپنی تخلیقیت اور پیشہ ورانہ پیداوار کو 10 گنا بڑھائیں سب سے تیز اے آئی آرٹ ماڈلز کے ساتھ۔",
-    "ab_test_v5__features_data__search_faster": "تیز تلاش",
+    "ab_test_v5__features_data__search_faster": "جواب حاصل کریں",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "براؤزر سائڈ بار میں کچھ بھی اے آئی سے پوچھیں",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "تمام بہترین اے آئی کے ساتھ چیٹ کریں ایک ہی جگہ میں",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "براؤزر سائڈ بار میں اے آئی کے ساتھ تلاش کریں",
@@ -1453,7 +1463,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "ترجمہ کریں",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "وضاحت کریں",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "پوری صفحے کا دو زبانی ترجمہ",
-    "ab_test_v5__features_data__write_faster": "تیزی سے لکھیں",
+    "ab_test_v5__features_data__write_faster": "بہتر لکھیں",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "کسی بھی صفحے پر اے آئی دوبارہ لکھنے والا",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "لکھائی میں بہتری",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "ثبوت دینا",
@@ -1517,7 +1527,10 @@
     "ab_test_v5__features_data__discord__tooltip": "ڈسکورڈ پر پیغام کرنے کے وقت بچائیں۔",
     "ab_test_v5__features_data__messenger__tooltip": "میسنجر پر پیغام کرنے کے وقت بچائیں۔",
     "ab_test_v5__features_data__telegram__tooltip": "ٹیلیگرام پر پیغام کرنے کے وقت بچائیں۔",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "برائے مہربانی اپنے پرومپٹس بنائیں، انہیں منظم کریں، اور انہیں آسانی سے دستیاب اور دوبارہ استعمال کریں۔"
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "برائے مہربانی اپنے پرومپٹس بنائیں، انہیں منظم کریں، اور انہیں آسانی سے دستیاب اور دوبارہ استعمال کریں۔",
+    "features_data__llama_3_1_70b__tooltip": "میٹا کی طرف سے طاقتور. 128,000 زیادہ سے زیادہ ٹوکن. ایک طاقتور بہاساوی ماڈل جس کی سرسراہٹ کی لمبائی کو بہتر بنایا گیا ہے اور اس کی ترقی یافتہ تجویزی صلاحیتوں کو بڑھایا گیا ہے۔ طویل فارم متن خلاصہ، بہاساوی بات چیت کے ایجنٹس، اور کوڈنگ مدد کی طرح کے پیچیدہ استعمال کی مدد کرتا ہے۔",
+    "features_data__llama_3_1_405b__tooltip": "میٹا کی طرف سے طاقتور. 128,000 زیادہ سے زیادہ ٹوکن. دنیا کا سب سے بڑا علنی دستیاب بنیادی ماڈل، ٹاپ بند کوڈ سورس AI کے ساتھ مقابلہ کرتا ہے جنرل علم، steerability اور ریاضی میں۔ 8 زبانوں کی حمایت کرتا ہے اور سنتھیٹک ڈیٹا تیاری اور ماڈل کی تصفیہ جیسی پیشرفتہ صلاحیتوں کو ممکن بناتا ہے۔ طویل فارم خلاصہ، بہاساوی بات چیت کے ایجنٹس، اور کوڈنگ اسسسٹنٹس کے لیے مثالی ہے۔",
+    "features_data__mistral_large_2__tooltip": "MistralAI کی طاقت سے چلتا ہے۔ 128,000 زیادہ سے زیادہ ٹوکن۔ Mistral کا تازہ ترین پرچم برانڈ ماڈل رفتار اور کارکردگی کی حدوں کو بڑھاتا ہے۔ 123 بلین پیرامیٹرز کے ساتھ، Mistral-Large-2 کوڈ جنریشن، ریاضی اور تجزیہ میں معقولت کے عبور ڈیزنوں زبانوں میں نمایاں ہے۔ یہ دونوں قدرتی اور پروگرامنگ زبانوں کے لیے کم سے کم وسواس اور دلچسپ بہت زیادہ زبانی حمایت پیش کرتا ہے۔"
   },
   "features__common": {
     "components__upload_button_drop_title": "یہاں ڈراپ کریں"
@@ -1772,7 +1785,42 @@
     "components__unlock_pdf_detail_input_password": "براہ کرم اپنے PDF کھولنے کے لئے پاسورڈ درج کریں",
     "components__unlock_pdf_detail_input_placeholder": "پاسورڈ",
     "components__unlock_pdf_detail__button__unlock": "کھولیں",
-    "components__unlock_pdf_detail__button__convert": "دوسرا تبدیل کریں",
-    "components__unlock_pdf_detail__incorrect_password_tips": "غلط پاسورڈ"
+    "components__unlock_pdf_detail__incorrect_password_tips": "غلط پاسورڈ",
+    "components__unlock_pdf_detail__use_tips": "پاسورڈ اور پی ڈی ایف فائلیں سرور پر اپ لوڈ نہیں ہوں گی، توازن کی یقینیت۔"
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "پی ڈی ایف کی حفاظت",
+    "description": "اپنی پی ڈی ایف فائلوں میں پاسورڈ حفاظت اور انکرپشن شامل کریں تاکہ سیکیورٹی میں اضافہ ہو۔",
+    "seo_title": "پی ڈی ایف کی حفاظت - آن لائن مفت میں پی ڈی ایف فائلوں میں پاسورڈ انکرپشن شامل کریں | MaxAI.me",
+    "seo_description": "آسانی سے آن لائن اپنی پی ڈی ایف فائلوں میں پاسورڈ حفاظت شامل کریں۔ کوئی واٹرمارک، فائل سائز کی حدود، ڈاؤن لوڈ، یا سائن اپس کی ضرورت نہیں ہے۔",
+    "detail_description_object__protect_pdf__top_left": "پی ڈی ایف فائلوں کی آسانی سے آن لائن مفت حفاظت کریں، پاسورڈ انکرپشن شامل کرکے۔ ہمارے ٹول کے ساتھ، آپ کی فائلیں پرائیویسی کے لیے محفوظ رہتی ہیں، اور کوئی سائز کی حدود نہیں ہیں۔",
+    "detail_description_object__protect_pdf__top_right_1": "چند سیکنڈوں میں اپنی پی ڈی ایف فائلوں کو فوراً محفوظ بنائیں۔",
+    "detail_description_object__protect_pdf__top_right_2": "بس اپنی پی ڈی ایف فائل اپ لوڈ کریں تاکہ شروع ہو جائے۔",
+    "detail_description_object__protect_pdf__top_right_3": "میک، ونڈوز، اینڈرائیڈ، اور آئی او ایس کے ساتھ ہم آہنگ ہے۔",
+    "detail_description_object__protect_pdf__middle_1_title": "پی ڈی ایف فائلوں کو حفاظت دینے کے لیے آسان آن لائن ٹول",
+    "detail_description_object__protect_pdf__middle_1_description": "ہمارا پی ڈی ایف حفاظتی ٹول آپ کو آسانی سے اپنی پی ڈی ایف فائلوں میں پاسورڈ حفاظت شامل کرنے کی اجازت دیتا ہے۔ بس اپنا دستاویز اپ لوڈ کریں، اپنا پاسورڈ سیٹ کریں، اور انکرپٹڈ پی ڈی ایف ڈاؤن لوڈ کریں۔ یہ بہت ہی صارف دوست ہے، مکمل طور پر مفت ہے، اور اکاؤنٹ کی ضرورت نہیں ہے۔",
+    "detail_description_object__protect_pdf__middle_2_title": "مقامی محفوظ پی ڈی ایف حفاظت",
+    "detail_description_object__protect_pdf__middle_2_description": "آپ جو بھی فائلیں اپ لوڈ کرتے ہیں، وہ سیدھے طور پر آپ کے براؤزر میں پروسیس ہوتی ہیں، یہ یقینی بناتے ہوئے کہ آپ کی پرائیویسی محفوظ ہے۔ کوئی فائلیں کلاؤڈ میں اپ لوڈ نہیں ہوتیں، ڈیٹا سیکیورٹی کی گارنٹی ہے۔",
+    "detail_description_object__protect_pdf__middle_3_title": "کراس پلیٹ فارم ہم آہنگی",
+    "detail_description_object__protect_pdf__middle_3_description": "ہمارا پی ڈی ایف حفاظتی ٹول براؤزر پر مبنی ہے، یعنی یہ میک، ونڈوز، اور لنکس، ساتھ ہی موبائل ڈیوائسز پر بہترین طریقے سے کام کرتا ہے۔ آپ آسانی سے اپنی پی ڈی ایف فائلوں کو کہیں سے بھی حفاظت دے سکتے ہیں۔",
+    "detail_description_object__protect_pdf__middle_4_title": "آسان عمل کارائی کا عمل",
+    "detail_description_object__protect_pdf__middle_4_description": "آپ کی پی ڈی ایف فائلوں کی حفاظت کرنا آسان ہے: فائل اپ لوڈ کریں، اپنا پاسورڈ سیٹ کریں، اور پھر پاسورڈ سے محفوظ شدہ ورژن ڈاؤن لوڈ کریں۔ نوابینہ بھی اس آسان عمل کو آسانی سے پیروی کر سکتے ہیں۔",
+    "detail_description_object__protect_pdf__middle_5_title": "معتبر پی ڈی ایف حفاظتی ٹول",
+    "detail_description_object__protect_pdf__middle_5_description": "آپ کو اپنی پی ڈی ایف فائلوں کو حفاظت دینے کے لیے مہنگے سافٹ ویئر خریدنے کی ضرورت نہیں ہے۔ ہمارا آن لائن پی ڈی ایف حفاظتی ٹول مفت دستیاب ہے، یہ یقینی بناتا ہے کہ آپ کی فائلیں اور ڈیٹا ہمیشہ محفوظ رہتے ہیں بغیر کلاؤڈ پروسیسنگ کی ضرورت کے۔",
+    "detail_description_object__protect_pdf__middle_6_title": "محفوظت میں اضافی مقامی پروسیسنگ",
+    "detail_description_object__protect_pdf__middle_6_description": "ہماری حفاظتی سروس یہ یقینی بناتی ہے کہ تمام عملیات مقامی طور پر کیے جاتے ہیں۔ یہ سیکیورٹی کو بڑھاتا ہے اور پروسیسنگ ٹائم کو تیز کرتا ہے، آپ کی فائلیں محفوظ رکھتا ہے۔",
+    "detail_description_object__protect_pdf__bottom_right_title": "آن لائن پی ڈی ایف فائلوں کی حفاظت کیسے کریں:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "وہ پی ڈی ایف فائل اپ لوڈ کریں جو آپ حفاظت دینا چاہتے ہیں۔",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "پی ڈی ایف فائل کے لیے ایک پاسورڈ سیٹ کریں۔",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "پاسورڈ سے محفوظ شدہ پی ڈی ایف فائل ڈاؤن لوڈ کرنے کے لیے 'حفاظت' پر کلک کریں۔",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "ایک بار محفوظ ہونے کے بعد، صرف ان لوگوں کو رسائی ہو سکتی ہے جن کے پاس پی ڈی ایف فائل کا پاسورڈ ہے اور کسی بھی ڈیوائس پر آپ کی پی ڈی ایف فائلوں کو دیکھنے اور ترتیب دینے کی اجازت ہے۔"
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "حفاظت",
+    "components__protect_pdf_detail__type_password": " پاسورڈ ٹائپ کریں",
+    "components__protect_pdf_detail__repeat_type_password": "پاسورڈ دوبارہ ٹائپ کریں",
+    "components__protect_pdf_detail__input__placeholder": "اپنا پاسورڈ سیٹ کریں",
+    "components__protect_pdf_detail__repeat_input__placeholder": "آپنا پاس ورڈ تصدیق کریں",
+    "components__protect_pdf_detail__use_tips": "پاسورڈ اور پی ڈی ایف فائلیں سرور پر اپ لوڈ نہیں ہوں گی، توازن کی یقینیت۔"
   }
 }

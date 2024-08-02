@@ -669,7 +669,7 @@
     "home_page__how_it_works__step1__title": "הוסף לדפדפן",
     "home_page__how_it_works__step2__title": "התחבר",
     "home_page__how_it_works__step3__title": "הגבר על היצירתיות",
-    "home_page__how_it_works__step3__description": "סיכום, חיפוש, קריאה וכתיבה במהירות 10 פעמים יותר עם AI על כל דף אינטרנט שאתה גולש. חסוך שעות בכל יום.",
+    "home_page__how_it_works__step3__description": "קרא מהר יותר. כתוב טוב יותר. קבל תשובות. הגביר את היציבות שלך ברשת עם AI. חסוך שעות בכל יום.",
     "home_page__how_it_works__step1__description": "הוסף את התוסף MaxAI.me לדפדפן שלך כדי לחסוך זמן בכל דף באמצעות AI. זה חינם וידידותי לפרטיות ב-100%.",
     "home_page__how_it_works__step2__description": "התחבר בקלות עם Google או דוא\"ל. זה פשוט, חינם ומאובטח.",
     "home_page__hero_section__title": "השותף שלך למחקר וכתיבה מופעל על ידי AI",
@@ -968,8 +968,8 @@
     "hide": "הסתר"
   },
   "seo": {
-    "default__title": "MaxAI.me: AI בלחיצה אחת בכל מקום (GPT-4o, Claude 3, Gemini 1.5)",
-    "default__description": "צ'אט של AI, מחדש כתיבה, סיכום, תשובה מיידית, עוזר קריאה, פרומטים, חיפוש, אמנות ומתרגם. מופעל על ידי GPT-4o, Claude 3, Gemini 1.5.",
+    "default__title": "MaxAI.me: קרא מהר יותר. כתוב טוב יותר. תוסף AI חינמי.",
+    "default__description": "סכם, ענה על שאלות, ושפר כתיבה ברחבי האינטרנט עם AI ב-Chrome ו-Edge. מופעל על ידי GPT-4o, Claude-3.5, Gemini-1.5, Llama-3.1, Mistral.",
     "maintain__title": "בתחזוקה | MaxAI.me",
     "affiliate__title": "תוכנית שותפים | MaxAI.me",
     "affiliate__description": "קבל תשלום עם תוכנית השותפים של MaxAI. הצטרף לתוכנית השותפים שלנו והרוויח 25% עמלה על מנת לשתף את MaxAI!",
@@ -1293,7 +1293,8 @@
     "components__common__drag__dropping_tip": "ניתן להתאים את הסדר על ידי גרירה ושחרור",
     "components__common__upload_button_tips": "או שחרר קבצים כאן",
     "components__common__upload_button_title": "בחר קבצים",
-    "components__common__upload_button__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין"
+    "components__common__upload_button__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין",
+    "components__common__select_other_file": "בחר קובץ אחר"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "ניתן להעלות רק תמונות מסוג תמונה",
@@ -1430,7 +1431,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "גישה לדגמי AI החכמים ביותר, הכל במקום אחד.",
     "ab_test_v5__features_data__image_ai_queries": "שאילתות AI לתמונות",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "הכפילו ב-10 את היצירתיות והיציבות שלכם עם דגמי AI לאמנות המתקדמים ביותר.",
-    "ab_test_v5__features_data__search_faster": "חיפוש מהיר יותר",
+    "ab_test_v5__features_data__search_faster": "קבל תשובות",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "שאלו את AI כל דבר בסרגל הדפדפן",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "צ'אט עם כל הדגמי AI הטובים במקום אחד",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "חיפוש עם AI בסרגל הדפדפן",
@@ -1452,7 +1453,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "תרגם",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "הסבר",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "תרגום דו-שפתי בעמוד מלא",
-    "ab_test_v5__features_data__write_faster": "כתוב מהר יותר",
+    "ab_test_v5__features_data__write_faster": "כתוב טוב יותר",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "מחדש AI בכל עמוד",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "שפר כתיבה",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "תקן",
@@ -1516,7 +1517,10 @@
     "ab_test_v5__features_data__discord__tooltip": "חסוך זמן בתגובות בהודעות בדיסקורד. השיב להודעות בשניות עם הערות קצרות. שפר טון, בדוק איות ודקדוק. תקשורת יעילה ויעילה יותר.",
     "ab_test_v5__features_data__messenger__tooltip": "חסוך זמן בתגובות בהודעות במסנג'ר. השיב להודעות בשניות עם הערות קצרות. שפר טון, בדוק איות ודקדוק. תקשורת יעילה ויעילה יותר.",
     "ab_test_v5__features_data__telegram__tooltip": "חסוך זמן בתגובות בהודעות בטלגרם. השיב להודעות בשניות עם הערות קצרות. שפר טון, בדוק איות ודקדוק. תקשורת יעילה ויעילה יותר.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "צור את הגרסאות שלך, ארגן אותם והפוך אותם לקלים לגישה ושימוש, עבורך ועבור צוותך."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "צור את הגרסאות שלך, ארגן אותם והפוך אותם לקלים לגישה ושימוש, עבורך ועבור צוותך.",
+    "features_data__llama_3_1_70b__tooltip": "מופעל על ידי מטה. 128,000 טוקנים מרביים. מודל רב־שפתי עם אורך תכנית מורחב ויכולות רעיוניות משופרות. תומך במקרים מתקדמים כמו סיכום טקסט באורך ארוך, סוכני שיח רב־שפתיים וסיוע בקידוד.",
+    "features_data__llama_3_1_405b__tooltip": "מופעל על ידי מטה. 128,000 טוקנים מרביים. המודל הגדול ביותר בעולם הזמין לציבור, המתחרה במודלי AI סגורים מובילים בידע כללי, יכולת ניתוב ומתמטיקה. תומך ב-8 שפות ומאפשר יכולות מתקדמות כמו יצירת נתונים סינתטיים והבהרת מודל. אידיאלי לסיכום באורך ארוך, סוכני שיח רב־שפתיים ועוזרי קידוד.",
+    "features_data__mistral_large_2__tooltip": "מופעל על ידי MistralAI. 128,000 טוקנים מרביים. הדגם החדש של Mistral משדרג את גבולות המהירות והביצועים. עם 123 מיליארד פרמטרים, Mistral-Large-2 מצוין ביצירת קוד, מתמטיקה והיגיון בעשרות שפות. הוא מציע הזיות מינימליות ותמיכה רבת שפות מרשימה לשפות טבעיות ושפות תכנות."
   },
   "features__common": {
     "components__upload_button_drop_title": "שחרר כאן"
@@ -1771,7 +1775,42 @@
     "components__unlock_pdf_detail_input_password": "אנא הזן את הסיסמה כדי לפתוח את ה-PDF שלך",
     "components__unlock_pdf_detail_input_placeholder": "סיסמה",
     "components__unlock_pdf_detail__button__unlock": "פתח",
-    "components__unlock_pdf_detail__button__convert": "המר לקובץ אחר",
-    "components__unlock_pdf_detail__incorrect_password_tips": "סיסמה שגויה"
+    "components__unlock_pdf_detail__incorrect_password_tips": "סיסמה שגויה",
+    "components__unlock_pdf_detail__use_tips": "הסיסמה וקבצי PDF לא ייטענו לשרת, מבטיח בטיחות."
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "הגנה על PDF",
+    "description": "הוסף הגנת סיסמה והצפנה לקבצי ה- PDF שלך לשיפור האבטחה.",
+    "seo_title": "הגנה על PDF - הוסף הצפנת סיסמה לקבצי PDF באינטרנט בחינם | MaxAI.me",
+    "seo_description": "הוסף בקלות הגנת סיסמה לקבצי ה- PDF שלך באינטרנט בחינם. אין סימני מים, מגבלות גודל קובץ, הורדות או הרשמות נדרשות.",
+    "detail_description_object__protect_pdf__top_left": "הגן בקלות על קבצי ה- PDF שלך באינטרנט בחינם על ידי הוספת הצפנת סיסמה. עם הכלי שלנו, הקבצים שלך נשמרים מקומית לפרטיות, ואין מגבלות גודל.",
+    "detail_description_object__protect_pdf__top_right_1": "אבטח את קבצי ה- PDF שלך בשניות ספורות בלבד.",
+    "detail_description_object__protect_pdf__top_right_2": "פשוט העלה את קבצי ה- PDF שלך כדי להתחיל.",
+    "detail_description_object__protect_pdf__top_right_3": "תואם עם Mac, Windows, Android ו- iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "כלי מקוון פשוט להגנת PDF",
+    "detail_description_object__protect_pdf__middle_1_description": "כלי ההגנה על PDF שלנו מאפשר לך להוסיף בקלות הגנת סיסמה לקבצי ה- PDF שלך. פשוט העלה את המסמך שלך, הגדר את הסיסמה שלך, והורד את ה- PDF המוצפן. זה מאוד ידידותי למשתמש, לחלוטין בחינם, ואינו דורש חשבון.",
+    "detail_description_object__protect_pdf__middle_2_title": "הגנת PDF מקומית ומאובטחת",
+    "detail_description_object__protect_pdf__middle_2_description": "כל הקבצים שתעלה מעובדים ישירות בדפדפן שלך, מבטיחים שהפרטיות שלך מוגנת. אין העלאת קבצים לענן, מבטיחים אבטחת נתונים.",
+    "detail_description_object__protect_pdf__middle_3_title": "תאימות חוצת פלטפורמות",
+    "detail_description_object__protect_pdf__middle_3_description": "כלי ההגנה על PDF שלנו מבוסס דפדפן, מה שמשמע שהוא עובד בצורה חלקה על Mac, Windows, ו- Linux, כמו גם על מכשירים ניידים. תוכל להגן בקלות על קבצי ה- PDF שלך מכל מקום.",
+    "detail_description_object__protect_pdf__middle_4_title": "תהליך פעולה פשוט",
+    "detail_description_object__protect_pdf__middle_4_description": "הגנת קבצי ה- PDF שלך היא פשוטה: העלה את הקובץ, הגדר את הסיסמה שלך, ואז הורד את הגרסה המוגנת בסיסמה. גם מתחילים יכולים לעקוב אחרי תהליך זה בקלות.",
+    "detail_description_object__protect_pdf__middle_5_title": "כלי הגנה אמין על PDF",
+    "detail_description_object__protect_pdf__middle_5_description": "אין צורך לרכוש תוכנה יקרה כדי להגן על קבצי ה- PDF שלך. כלי ההגנה על PDF שלנו באינטרנט זמין בחינם, מבטיח שהקבצים והנתונים שלך תמיד יהיו מאובטחים ללא צורך בעיבוד בענן.",
+    "detail_description_object__protect_pdf__middle_6_title": "עיבוד מקומי לאבטחה משופרת",
+    "detail_description_object__protect_pdf__middle_6_description": "השירות שלנו להגנה מבטיח שכל הפעולות מבוצעות מקומית. זה משפר את האבטחה ומאיץ את זמן העיבוד, שומר על קבצים שלך בטוחים.",
+    "detail_description_object__protect_pdf__bottom_right_title": "איך להגן על קבצי PDF באינטרנט:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "העלה את קובץ ה- PDF שברצונך להגן עליו.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "הגדר סיסמה עבור קובץ ה- PDF.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "לחץ על 'הגן' כדי להוריד את קובץ ה- PDF המוגן בסיסמה.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "לאחר ההגנה, רק אלה עם הסיסמה יכולים לגשת ולערוך את קבצי ה- PDF שלך בכל מכשיר."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "הגן",
+    "components__protect_pdf_detail__type_password": "הזן סיסמה",
+    "components__protect_pdf_detail__repeat_type_password": "חזור על הסיסמה",
+    "components__protect_pdf_detail__input__placeholder": "הגדר את הסיסמה שלך",
+    "components__protect_pdf_detail__repeat_input__placeholder": "אשר את הסיסמה שלך",
+    "components__protect_pdf_detail__use_tips": "הסיסמה וקבצי PDF לא ייטענו לשרת, מבטיח בטיחות."
   }
 }

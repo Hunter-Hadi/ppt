@@ -8,8 +8,7 @@ import {
   useSensor,
   useSensors,
 } from '@dnd-kit/core'
-import { Box, Button, Stack, Typography } from '@mui/material'
-import { debounce } from 'lodash-es'
+import { Box, Button, debounce, Stack, Typography } from '@mui/material'
 import { useTranslation } from 'next-i18next'
 import {
   createContext,
@@ -122,7 +121,7 @@ export const FunctionalitySignPdfDetail: FC<
       } catch (e) {
         console.log('getSignNumber', e)
       }
-    }, 200), // 这里设置为500毫秒
+    }, 1000),
     [fabricAllData],
   )
   useEffect(() => {

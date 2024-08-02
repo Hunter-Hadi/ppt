@@ -52,7 +52,8 @@
     "month": "월",
     "unlimited": "무제한",
     "most_popular": "가장 인기 있는",
-    "upgrade_now": "지금 업그레이드"
+    "upgrade_now": "지금 업그레이드",
+    "choose_another_file": "다른 파일 선택"
   },
   "button": {
     "add_to_chrome_for_free": "크롬에 추가 - 무료입니다",
@@ -669,7 +670,7 @@
     "home_page__how_it_works__step1__title": "브라우저에 추가",
     "home_page__how_it_works__step2__title": "로그인",
     "home_page__how_it_works__step3__title": "생산성 향상",
-    "home_page__how_it_works__step3__description": "인공지능을 사용하여 검색, 요약, 읽기 및 쓰기를 웹 페이지에서 10배 더 빠르게 할 수 있습니다. 매일 몇 시간을 절약하세요.",
+    "home_page__how_it_works__step3__description": "빠르게 읽고, 더 나은 글 쓰기. 답변 받기. AI로 웹 전반에서 생산성을 급속히 향상시키세요. 매일 몇 시간을 절약하세요.",
     "home_page__how_it_works__step1__description": "AI와 함께 모든 웹 페이지에서 시간을 절약하기 위해 MaxAI.me 확장 프로그램을 브라우저에 추가하세요. 무료이며 100% 개인 정보 보호를 지킵니다.",
     "home_page__how_it_works__step2__description": "Google 또는 이메일로 간편하게 로그인하세요. 간단하고 무료이며 안전합니다.",
     "home_page__hero_section__title": "당신의 AI 기반 연구 및 작문 도우미",
@@ -728,7 +729,13 @@
     "home_page__features_content__all_in_chatbox__description2": "브라우저 사이드바에서 즉각적인 답변을 얻는 가장 빠른 방법.",
     "home_page__features_content__all_in_chatbox__description3": "AI 비전으로 어떤 이미지든 분석합니다.",
     "home_page__features_content__all_in_chatbox__description4": "DALLE-3로 AI 아트 및 이미지를 생성합니다.",
-    "home_page__features_content__ab_test_v4__content2__search__description4": "Google 검색 결과 옆에 AI 응답 표시."
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Google 검색 결과 옆에 AI 응답 표시.",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "PDF 워터마크",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "PDF에 워터마크 추가",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "몇 초 안에 PDF 워터마크 추가",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "2013년 이후로 24억 명의 신뢰를 받는 서비스",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "PDF에 워터마크를 쉽게 추가할 수 있는 방법—설치가 필요 없음",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "무료 PDF 워터마커로 PDF 문서에 워터마크를 추가하세요. 앱을 다운로드할 필요 없이 모든 것이 Mac, Windows, Linux 및 모바일 기기에서 브라우저에서 작동합니다."
   },
   "prompt_library": {
     "use_prompt_library__title": "고품질 AI 프롬프트 라이브러리",
@@ -969,8 +976,8 @@
     "faq__question5__description__part2": "추천 성과를 추적할 수 있습니다."
   },
   "seo": {
-    "default__title": "MaxAI.me: 1-Click AI Everywhere (GPT-4o, Claude 3, Gemini 1.5)",
-    "default__description": "AI 채팅, 리라이터, 요약, 즉각적인 답변, 독서 보조, 프롬프트, 검색, 예술 및 번역기. GPT-4o, Claude 3, Gemini 1.5로 구동됩니다.",
+    "default__title": "MaxAI.me: 빠르게 읽고, 더 나은 글쓰기. 무료 AI 확장 프로그램.",
+    "default__description": "웹 전체에서 AI로 요약, 질문에 답변하고 글을 다듬어보세요. Chrome 및 Edge에서 제공되는 GPT-4o, Claude-3.5, Gemini-1.5, Llama-3.1, Mistral로 구동됩니다.",
     "maintain__title": "유지 보수 중 | MaxAI.me",
     "affiliate__title": "제휴 프로그램 | MaxAI.me",
     "affiliate__description": "MaxAI 제휴 프로그램으로 수익을 올리세요. 저희 제휴 프로그램에 가입하고 MaxAI를 공유하여 25%의 커미션을 받으세요!",
@@ -1059,7 +1066,9 @@
     "use_cases__research__title": "AI 연구 및 요약 보조 | MaxAI.me",
     "use_cases__research__desc": "시간을 절약하기 위해 웹 기사, PDF 및 YouTube 동영상을 요약하고 채팅할 수 있는 AI를 브라우저에 추가하세요. AI에 질문하여 빠른 답변으로 연구 속도를 높이세요. GPT-4o, Claude-3-Opus, Gemini-1.5-Pro로 구동됩니다.",
     "use_cases__writing__title": "AI 글쓰기 보조 | MaxAI.me",
-    "use_cases__writing__desc": "웹 페이지에서 글을 개선하고 다듬을 수 있는 AI를 브라우저에 추가하세요. 흥미로운 이메일, 기사, 블로그 글, 소셜 미디어 게시물, 논문을 생성하세요. GPT-4o, Claude-3-opus, Gemini-1.5-pro로 구동됩니다."
+    "use_cases__writing__desc": "웹 페이지에서 글을 개선하고 다듬을 수 있는 AI를 브라우저에 추가하세요. 흥미로운 이메일, 기사, 블로그 글, 소셜 미디어 게시물, 논문을 생성하세요. GPT-4o, Claude-3-opus, Gemini-1.5-pro로 구동됩니다.",
+    "pdf_tools__pdf_watermark_page__title": "무료 PDF 워터마커 | 모든 기기에서 PDF에 워터마크 추가",
+    "pdf_tools__pdf_watermark_page__description": "PDF 문서에 워터마크를 쉽게 추가하세요. 앱을 다운로드할 필요 없이 모든 것이 Mac, Windows, Linux 및 모바일 기기에서 브라우저에서 작동합니다."
   },
   "features_landing": {
     "cta_text": "브라우저에 추가",
@@ -1294,7 +1303,8 @@
     "components__common__drag__dropping_tip": "드래그 앤 드롭으로 순서를 조정할 수 있습니다.",
     "components__common__upload_button_tips": "또는 파일을 여기에 놓으세요",
     "components__common__upload_button_title": "파일 선택",
-    "components__common__upload_button__unsupported_file_type_tip": "지정된 PDF 파일 유형을 업로드해주세요"
+    "components__common__upload_button__unsupported_file_type_tip": "지정된 PDF 파일 유형을 업로드해주세요",
+    "components__common__select_other_file": "다른 파일 선택"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "이미지 유형의 이미지만 업로드할 수 있습니다",
@@ -1431,7 +1441,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "한 곳에서 가장 스마트한 AI 모델에 액세스하세요.",
     "ab_test_v5__features_data__image_ai_queries": "이미지 AI 쿼리",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "가장 고급 AI 아트 모델로 창의성과 생산성을 10배 높이세요.",
-    "ab_test_v5__features_data__search_faster": "빠른 검색",
+    "ab_test_v5__features_data__search_faster": "답변 얻기",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "브라우저 사이드바에서 AI에게 무엇이든 물어보세요",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "한 곳에서 최고의 AI와 채팅",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "브라우저 사이드바에서 AI로 검색",
@@ -1453,7 +1463,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "번역",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "설명",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "전체 페이지 이중 언어 번역",
-    "ab_test_v5__features_data__write_faster": "빠르게 쓰기",
+    "ab_test_v5__features_data__write_faster": "더 나은 글쓰기",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "모든 페이지의 AI 리라이터",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "글쓰기 개선",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "교정",
@@ -1517,7 +1527,10 @@
     "ab_test_v5__features_data__discord__tooltip": "Discord 메시지 대화에 시간을 절약하세요. 간단한 노트로 메시지에 빠르게 회신하세요. 어조를 개선하고 맞춤법을 확인하세요. 효과적이고 효율적으로 소통하세요.",
     "ab_test_v5__features_data__messenger__tooltip": "Messenger 메시지 대화에 시간을 절약하세요. 간단한 노트로 메시지에 빠르게 회신하세요. 어조를 개선하고 맞춤법을 확인하세요. 효과적이고 효율적으로 소통하세요.",
     "ab_test_v5__features_data__telegram__tooltip": "Telegram 메시지 대화에 시간을 절약하세요. 간단한 노트로 메시지에 빠르게 회신하세요. 어조를 개선하고 맞춤법을 확인하세요. 효과적이고 효율적으로 소통하세요.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "자신만의 프롬프트를 만들고 정리하여 쉽게 접근하고 재사용하기 쉽게 만들어서 팀원들과 함께 사용하세요."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "자신만의 프롬프트를 만들고 정리하여 쉽게 접근하고 재사용하기 쉽게 만들어서 팀원들과 함께 사용하세요.",
+    "features_data__llama_3_1_70b__tooltip": "메타에서 제공. 최대 128,000 토큰. 확장된 컨텍스트 길이와 향상된 추론 능력을 갖춘 강력한 다국어 모델. 긴 형식의 텍스트 요약, 다국어 대화형 에이전트, 코딩 지원과 같은 고급 사용 사례를 지원합니다.",
+    "features_data__llama_3_1_405b__tooltip": "메타에서 제공. 최대 128,000 토큰. 세계에서 가장 큰 공개된 재단 모델로, 일반적인 지식, 조종성 및 수학에서 최고의 폐쇄형 AI와 경쟁합니다. 8개 언어를 지원하며, 합성 데이터 생성 및 모델 증류와 같은 고급 기능을 가능하게 합니다. 긴 형식 요약, 다국어 대화형 에이전트, 코딩 어시스턴트에 이상적입니다.",
+    "features_data__mistral_large_2__tooltip": "MistralAI 기반. 128,000 최대 토큰. Mistral의 최신 플래그십 모델은 속도와 성능의 경계를 넓혀줍니다. 123 억 개의 매개변수로 Mistral-Large-2는 수십 개의 언어에서 코드 생성, 수학 및 추론에 뛰어납니다. 최소한의 환각과 자연 및 프로그래밍 언어에 대한 인상적인 다국어 지원을 제공합니다."
   },
   "features__common": {
     "components__upload_button_drop_title": "여기에 놓으세요"
@@ -1772,7 +1785,42 @@
     "components__unlock_pdf_detail_input_password": "PDF를 잠금 해제하려면 암호를 입력하세요",
     "components__unlock_pdf_detail_input_placeholder": "암호",
     "components__unlock_pdf_detail__button__unlock": "해제",
-    "components__unlock_pdf_detail__button__convert": "다른 파일 변환",
-    "components__unlock_pdf_detail__incorrect_password_tips": "잘못된 암호"
+    "components__unlock_pdf_detail__incorrect_password_tips": "잘못된 암호",
+    "components__unlock_pdf_detail__use_tips": "암호 및 PDF 파일이 서버에 업로드되지 않아 보안이 보장됩니다."
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "PDF 보호",
+    "description": "PDF 파일에 암호 보호 및 암호화를 추가하여 보안을 강화합니다.",
+    "seo_title": "PDF 보호 - 무료 온라인으로 PDF 파일에 암호 암호화 추가 | MaxAI.me",
+    "seo_description": "PDF 파일에 무료로 암호 보호를 쉽게 추가하세요. 워터마크, 파일 크기 제한, 다운로드 또는 가입이 필요하지 않습니다.",
+    "detail_description_object__protect_pdf__top_left": "PDF 파일에 암호 암호화를 추가하여 무료로 보호하세요. 당사의 도구를 사용하면 파일이 로컬에 유지되어 개인 정보가 보호되며 크기 제한이 없습니다.",
+    "detail_description_object__protect_pdf__top_right_1": "몇 초 만에 PDF 파일을 신속하게 보호하세요.",
+    "detail_description_object__protect_pdf__top_right_2": "시작하려면 PDF 파일을 간단히 업로드하세요.",
+    "detail_description_object__protect_pdf__top_right_3": "Mac, Windows, Android 및 iOS와 호환됩니다.",
+    "detail_description_object__protect_pdf__middle_1_title": "PDF 보호를 위한 간단한 온라인 도구",
+    "detail_description_object__protect_pdf__middle_1_description": "PDF 보호 도구를 사용하면 PDF 파일에 쉽게 암호 보호를 추가할 수 있습니다. 문서를 업로드하고 암호를 설정한 다음 암호화된 PDF를 다운로드하세요. 매우 사용자 친화적이며 완전히 무료이며 계정이 필요하지 않습니다.",
+    "detail_description_object__protect_pdf__middle_2_title": "로컬 보안 PDF 보호",
+    "detail_description_object__protect_pdf__middle_2_description": "업로드하는 모든 파일은 브라우저에서 직접 처리되어 개인 정보가 보호됩니다. 파일은 클라우드에 업로드되지 않으므로 데이터 보안이 보장됩니다.",
+    "detail_description_object__protect_pdf__middle_3_title": "크로스 플랫폼 호환성",
+    "detail_description_object__protect_pdf__middle_3_description": "PDF 보호 도구는 브라우저 기반으로 작동하므로 Mac, Windows 및 Linux뿐만 아니라 모바일 기기에서도 원활하게 작동합니다. 어디서든 쉽게 PDF 파일을 보호할 수 있습니다.",
+    "detail_description_object__protect_pdf__middle_4_title": "쉬운 작업 프로세스",
+    "detail_description_object__protect_pdf__middle_4_description": "PDF 파일을 보호하는 것은 간단합니다: 파일을 업로드하고 암호를 설정한 다음 암호가 지정된 버전을 다운로드하세요. 초보자도 이 쉬운 프로세스를 쉽게 따를 수 있습니다.",
+    "detail_description_object__protect_pdf__middle_5_title": "신뢰할 수 있는 PDF 보호 도구",
+    "detail_description_object__protect_pdf__middle_5_description": "비싼 소프트웨어를 구매할 필요가 없습니다. 무료로 제공되는 온라인 PDF 보호 도구를 사용하여 파일과 데이터가 항상 안전하게 보호되며 클라우드 처리가 필요하지 않습니다.",
+    "detail_description_object__protect_pdf__middle_6_title": "향상된 보안을 위한 로컬 처리",
+    "detail_description_object__protect_pdf__middle_6_description": "당사의 보호 서비스는 모든 작업이 로컬에서 수행되도록 보장합니다. 이로써 보안이 강화되고 처리 시간이 단축되어 파일이 안전하게 보호됩니다.",
+    "detail_description_object__protect_pdf__bottom_right_title": "온라인으로 PDF 파일을 보호하는 방법:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "보호하려는 PDF 파일을 업로드하세요.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "PDF 파일에 암호를 설정하세요.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "‘보호’를 클릭하여 암호가 지정된 PDF 파일을 다운로드하세요.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "보호된 후에는 암호를 알고 있는 사람만 모든 기기에서 PDF 파일에 액세스하고 편집할 수 있습니다."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "보호",
+    "components__protect_pdf_detail__type_password": " 암호 입력",
+    "components__protect_pdf_detail__repeat_type_password": "암호 반복",
+    "components__protect_pdf_detail__input__placeholder": "암호를 설정하세요",
+    "components__protect_pdf_detail__repeat_input__placeholder": "비밀번호를 확인하세요",
+    "components__protect_pdf_detail__use_tips": "암호 및 PDF 파일이 서버에 업로드되지 않아 보안이 보장됩니다."
   }
 }
