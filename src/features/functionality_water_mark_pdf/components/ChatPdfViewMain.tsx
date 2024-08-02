@@ -14,12 +14,17 @@ import React, { FC, useEffect, useMemo, useRef, useState } from 'react'
 
 import ChatPdfViewPage from '@/features/functionality_common/components/FunctionalityCommonPdfViewVirtualScroll/components/FunctionalityCommonPdfViewPage'
 import FunctionalityCommonPdfViewVirtualScrollMain from '@/features/functionality_common/components/FunctionalityCommonPdfViewVirtualScroll/components/FunctionalityCommonPdfViewVirtualScrollMain'
+// import FunctionalitySignPdfColorButtonPopover from '@/features/functionality_sign_pdf/components/FunctionalitySignPdfButtonPopover/FunctionalitySignPdfColorButtonPopover'
+// import FunctionalitySignPdfFontsButtonPopover from '@/features/functionality_sign_pdf/components/FunctionalitySignPdfButtonPopover/FunctionalitySignPdfFontsButtonPopover'
+// import FunctionalitySignPdfIcon from '@/features/functionality_sign_pdf/components/FunctionalitySignPdfIcon'
+// import { SIGN_TEXT_FONT_FAMILY_LIST } from '@/features/functionality_sign_pdf/constant/index'
+import FunctionalitySignPdfColorButtonPopover from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonColorButtonPopover'
+import FunctionalityCommonColorTransparencyPopover from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonColorTransparencyPopover'
+import FunctionalitySignPdfFontsButtonPopover from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonFontsButtonPopover'
+import FunctionalitySignPdfIcon from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalitySignPdfIcon'
+import { SIGN_TEXT_FONT_FAMILY_LIST } from '@/features/functionality_common/constants'
 import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex'
-import FunctionalitySignPdfColorButtonPopover from '@/features/functionality_sign_pdf/components/FunctionalitySignPdfButtonPopover/FunctionalitySignPdfColorButtonPopover'
-import FunctionalitySignPdfFontsButtonPopover from '@/features/functionality_sign_pdf/components/FunctionalitySignPdfButtonPopover/FunctionalitySignPdfFontsButtonPopover'
-import FunctionalitySignPdfIcon from '@/features/functionality_sign_pdf/components/FunctionalitySignPdfIcon'
-import { SIGN_TEXT_FONT_FAMILY_LIST } from '@/features/functionality_sign_pdf/constant/index'
 
 import FunctionalityWateMarkPdfShowPdfViewRenderCanvas from './FunctionalityWateMarkPdfShowPdfViewRenderCanvas'
 
@@ -66,7 +71,7 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
   const [waterMarkValue, setWaterMarkValue] = useState('Watermark')
   const [waterMarkColor, setWaterMarkColor] = useState('red')
   const [waterMarkFontSize, setWaterMarkFontSize] = useState<number>(48)
-  const [transparencyNumber, setTransparencyNumber] = useState<number>(0.8)
+  const [transparencyNumber, setTransparencyNumber] = useState<number>(0.5)
   const [waterMarkFontFamily, setWaterMarkFontFamily] =
     useState<string>('Concert One')
   const [downLoadLoading, setDownLoadLoading] = useState(false)
@@ -429,6 +434,14 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
                 currentTransparency={transparencyNumber * 100}
                 currentColor={waterMarkColor}
               />
+            </Button>
+
+            <Button>
+              <FunctionalityCommonColorTransparencyPopover
+                onChangeTransparency={onChangeTransparency}
+                currentTransparency={transparencyNumber * 100}
+                sx={{width: 300}}
+              ></FunctionalityCommonColorTransparencyPopover>
             </Button>
           </ButtonGroup>
         </Stack>

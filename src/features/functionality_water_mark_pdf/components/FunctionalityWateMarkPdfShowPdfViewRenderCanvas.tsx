@@ -120,7 +120,7 @@ const FunctionalityWateMarkPdfShowPdfViewRenderCanvas = (
       left: (editor.current.width - 300) / 2,
       top: editor.current.height / 2,
       fontFamily: waterMarkInfo.fontFamily,
-      fontSize: waterMarkInfo.fontSize * 3,
+      fontSize: waterMarkInfo.fontSize * 6,
       fill: waterMarkInfo.color,
       opacity: waterMarkInfo.opciaty,
       originX: 'center',
