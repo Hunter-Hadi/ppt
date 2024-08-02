@@ -1,4 +1,5 @@
 import SouthOutlinedIcon from '@mui/icons-material/SouthOutlined'
+import Box from '@mui/material/Box'
 import Stack from '@mui/material/Stack'
 import { SxProps } from '@mui/material/styles'
 import Typography from '@mui/material/Typography'
@@ -75,7 +76,6 @@ const FeaturesExploreMore: FC<IProps> = ({ propRef, sx }) => {
           <SouthOutlinedIcon />
         </Stack>
       </ProLink>
-
       {/* heroSection */}
       <HeroSection
         titleComponent={'h2'}
@@ -90,16 +90,18 @@ const FeaturesExploreMore: FC<IProps> = ({ propRef, sx }) => {
           windowAutoPlay: true,
         }}
       />
-
       {/* feature  */}
-      <FeaturesContentAbTestV7AutoVideo />
-
+      <Box
+        sx={{
+          pt: 12,
+        }}
+      >
+        <FeaturesContentAbTestV7AutoVideo />
+      </Box>
       {/* maxai in numbers */}
       <MaxAIInNumbers />
-
       {/* user comment */}
       <UserComment />
-
       {/* call to action section */}
       <CallToActionSection propRef={propRef} />
     </Stack>
