@@ -306,7 +306,7 @@ const FunctionalitySignPdfColorButtonPopover: FC<
         open={openSelector}
         aria-labelledby='alert-dialog-title'
         aria-describedby='alert-dialog-description'
-        onClose={(event, reason) => {
+        onClose={(event: any, reason) => {
           console.log(`close外部`)
           if (reason === 'backdropClick') {
             console.log(`close背景外部`)
