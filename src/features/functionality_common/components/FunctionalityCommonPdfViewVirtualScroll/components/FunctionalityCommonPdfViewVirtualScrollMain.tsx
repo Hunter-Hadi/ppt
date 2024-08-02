@@ -49,6 +49,7 @@ interface IFunctionalityCommonVirtualScrollingMainProps {
       viewScale: number
       width: number
       height: number
+      pdfViewScale: number
     }
     index: number
   }) => React.ReactNode
@@ -69,7 +70,7 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
     onViewInfo,
     isSelfAdaptionSize = false,
     onReadPDFState,
-    bgcolor,
+    bgcolor = '#f2f2f2',
   },
   handleRef,
 ) => {
@@ -166,15 +167,20 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
   )
   const newPdfInfoList = useMemo(() => {
     return pdfInfoList.map((pdfInfoItem) => {
+      const viewScale = (wrapBoxWidth / pdfInfoItem.width) * scaleNumber //计算缩放比例
       return pdfInfoItem
         ? {
             viewScale: scaleNumber,
+            pdfViewScale: viewScale,
             children: children,
             ...pdfInfoItem,
           }
         : undefined
     })
-  }, [pdfInfoList, scaleNumber, children])
+  }, [pdfInfoList, wrapBoxWidth, scaleNumber, children])
+  const estimatedItemSize = useMemo(() => {
+    return newPdfInfoList?.[1]?.height || 500
+  }, [newPdfInfoList])
   const scrollItemHeight = useCallback(
     (index: number) => {
       //计算每个pdf的高度，给react-window使用
@@ -234,6 +240,7 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
           height={wrapBoxHeight} // 设置 List 高度为浏览器窗口高度
           itemCount={pdfNumPages} // 项目总数
           onScroll={(event) => {
+            console.log('eventevent', event)
             setScrollTime(new Date().valueOf())
             setCurrentScrollOffset(event.scrollOffset)
           }}
@@ -243,6 +250,7 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
               infiniteLoaderRef(listRef)
             }
           }}
+          estimatedItemSize={estimatedItemSize} // 估计每项的高度
           itemSize={scrollItemHeight} // 每项的高度，根据你每个 PDF 页面的实际高度作调整
           width={wrapBoxWidth} //宽度
           itemData={newPdfInfoList}
@@ -256,6 +264,7 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
     [
       wrapBoxHeight,
       pdfNumPages,
+      estimatedItemSize,
       scrollItemHeight,
       wrapBoxWidth,
       newPdfInfoList,
@@ -302,6 +311,7 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
         color: '#000',
         overflow: 'hidden',
         bgcolor: bgcolor,
+        position: 'relative',
       }}
     >
       {errorMessage && (
@@ -345,9 +355,10 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
                   margin: '0 auto',
                   padding: 1,
                   bottom: 10,
+                  left: '10%',
                   p: 1,
                   zIndex: 1000,
-                  width: '100%',
+                  width: '80%',
                   height: isMobile ? 40 : 60,
                   '&:hover': {
                     '>div': {

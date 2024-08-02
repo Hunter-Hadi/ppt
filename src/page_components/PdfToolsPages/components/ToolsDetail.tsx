@@ -128,6 +128,15 @@ const FunctionalityWaterMarkPdfMain = dynamic(
     loading: () => <AppLoadingLayout loading />,
   },
 )
+const FunctionalityPdfAnnotatorMain = dynamic(
+  () =>
+    import(
+      '@/features/functionality_pdf_annotator/components/FunctionalityPdfAnnotatorMain'
+    ),
+  {
+    loading: () => <AppLoadingLayout loading />,
+  },
+)
 interface IToolsDetailProps {
   urlKey: IToolUrkKeyType
 }
@@ -267,6 +276,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
             {urlKey === 'unlock-pdf' && <FunctionalityUnlockPdfMain />}
             {urlKey === 'protect-pdf' && <FunctionalityProtectPdfMain />}
             {urlKey === 'watermark-pdf' && <FunctionalityWaterMarkPdfMain />}
+            {urlKey === 'pdf-annotator' && <FunctionalityPdfAnnotatorMain />}
           </Suspense>
         </Box>
         {toolsDetailDescriptionData && (

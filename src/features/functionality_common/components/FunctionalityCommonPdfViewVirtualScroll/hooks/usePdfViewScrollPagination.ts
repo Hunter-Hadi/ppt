@@ -1,4 +1,4 @@
-import { debounce } from 'lodash-es'
+import { throttle } from 'lodash-es'
 import { useCallback, useEffect, useState } from 'react'
 
 const useChatPdfScrollPagination = (
@@ -26,7 +26,7 @@ const useChatPdfScrollPagination = (
   }, [scrollTime])
 
   const handleScroll = useCallback(
-    debounce(() => {
+    throttle(() => {
       try {
         console.log('handleScroll')
         setScrollTime(new Date().valueOf())

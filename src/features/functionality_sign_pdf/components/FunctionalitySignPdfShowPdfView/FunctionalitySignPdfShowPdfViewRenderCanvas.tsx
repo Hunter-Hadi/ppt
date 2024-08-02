@@ -49,7 +49,6 @@ export interface IFunctionalitySignPdfShowPdfCanvasHandles {
   saveCanvasBase64: () => void
 }
 interface IFunctionalitySignPdfShowPdfCanvasProps {
-  renderList?: ICanvasObjectData[]
   canvasIndex: number
   canvasNumber: number
   scaleNumber: number
@@ -180,7 +179,6 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
           canvas.loadFromJSON(savedData, canvas.renderAll.bind(canvas)) //加载数据
         }
         editor.current = canvas
-        editor.current.setZoom(0.2)
         editorOperateSet()
         if (!isMobile) return //移动端需要的滚动逻辑
         fabricMobileMove(editor.current)

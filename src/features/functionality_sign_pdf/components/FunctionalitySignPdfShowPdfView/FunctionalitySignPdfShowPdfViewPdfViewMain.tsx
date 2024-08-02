@@ -13,7 +13,7 @@ import {
 } from 'react'
 
 import FunctionalityCommonPdfViewPage from '@/features/functionality_common/components/FunctionalityCommonPdfViewVirtualScroll/components/FunctionalityCommonPdfViewPage'
-import FunctionalityCommonVirtualScrollingMain, {
+import FunctionalityCommonPdfViewVirtualScrollMain, {
   IFunctionalityCommonVirtualScrollingMainHandles,
 } from '@/features/functionality_common/components/FunctionalityCommonPdfViewVirtualScroll/components/FunctionalityCommonPdfViewVirtualScrollMain'
 import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool'
@@ -143,7 +143,7 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
           },
         }}
       >
-        <FunctionalityCommonVirtualScrollingMain
+        <FunctionalityCommonPdfViewVirtualScrollMain
           file={file}
           ref={scrollRef}
           viewWidth={parentWidth - 10}
@@ -255,7 +255,7 @@ export const FunctionalitySignPdfShowPdfViewPdfViewMain: ForwardRefRenderFunctio
               </Box>
             )
           }}
-        </FunctionalityCommonVirtualScrollingMain>
+        </FunctionalityCommonPdfViewVirtualScrollMain>
       </Box>
     </Stack>
   )
