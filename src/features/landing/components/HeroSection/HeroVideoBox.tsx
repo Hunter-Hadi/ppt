@@ -7,7 +7,7 @@ import React, { FC, useEffect, useMemo, useRef } from 'react'
 import ResponsiveImage from '@/components/ResponsiveImage'
 import YoutubePlayerBox from '@/components/YoutubePlayerBox'
 import useABTestVisibilityAutoPlayVideo from '@/features/ab_tester/hooks/useABTestVisibilityAutoPlayVideo'
-import { PRIMARY_VIDEO_ASSETS_URL } from '@/features/landing/constants'
+import { LANDING_PRIMARY_VIDEO_ASSETS_URL } from '@/features/landing/constants'
 import useVideoPopupController from '@/features/video_popup/hooks/useVideoPopupController'
 
 export interface IHeroVideoProps {
@@ -26,7 +26,7 @@ export interface IHeroVideoProps {
 
 const HeroVideoBox: FC<IHeroVideoProps> = ({
   disabledVideo: propDisabledVideo = false,
-  videoSrc = PRIMARY_VIDEO_ASSETS_URL,
+  videoSrc = LANDING_PRIMARY_VIDEO_ASSETS_URL,
   imageCover = '/assets/landing/hero-section/video-cover.png',
   variant = 'autoplay',
   windowAutoPlay = false,

@@ -1,4 +1,5 @@
 import SouthOutlinedIcon from '@mui/icons-material/SouthOutlined'
+import Box from '@mui/material/Box'
 import Stack from '@mui/material/Stack'
 import { SxProps } from '@mui/material/styles'
 import Typography from '@mui/material/Typography'
@@ -9,10 +10,9 @@ import React, { FC, useEffect } from 'react'
 import CallToActionSection from '@/features/landing/components/CallToActionSection'
 import FeaturesContentAbTestV7AutoVideo from '@/features/landing/components/FeaturesCarousel/FeaturesContentAbTestV7SlideAutoVideo'
 import HeroSection from '@/features/landing/components/HeroSection'
-import HowItWork from '@/features/landing/components/HowItWork'
 import MaxAIInNumbers from '@/features/landing/components/MaxAIInNumbers'
 import UserComment from '@/features/landing/components/UserComment'
-import { RESOURCES_URL } from '@/global_constants'
+import { LANDING_PRIMARY_VIDEO_ASSETS_URL } from '@/features/landing/constants'
 import ProLink from '@/packages/base-ui/components/ProLink'
 interface IProps {
   propRef?: string
@@ -73,7 +73,6 @@ const FeaturesExploreMore: FC<IProps> = ({ propRef, sx }) => {
           <SouthOutlinedIcon />
         </Stack>
       </ProLink>
-
       {/* heroSection */}
       <HeroSection
         titleComponent={'h2'}
@@ -82,24 +81,27 @@ const FeaturesExploreMore: FC<IProps> = ({ propRef, sx }) => {
         // loading={!loaded}
         inLandingVideoABTest
         heroVideoProps={{
-          videoSrc: `${RESOURCES_URL}/video/landing-page-primary.mp4`,
+          videoSrc: LANDING_PRIMARY_VIDEO_ASSETS_URL,
           videoPosterUrl: `/assets/landing/hero-section/video-cover.png`,
           variant: 'autoplay',
           windowAutoPlay: true,
         }}
       />
-
-      <HowItWork />
-
       {/* feature  */}
-      <FeaturesContentAbTestV7AutoVideo />
-
+      <Box
+        sx={{
+          pt: {
+            xs: 6,
+            md: 12,
+          },
+        }}
+      >
+        <FeaturesContentAbTestV7AutoVideo />
+      </Box>
       {/* maxai in numbers */}
       <MaxAIInNumbers />
-
       {/* user comment */}
       <UserComment />
-
       {/* call to action section */}
       <CallToActionSection propRef={propRef} />
     </Stack>

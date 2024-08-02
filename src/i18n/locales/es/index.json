@@ -52,7 +52,8 @@
     "month": "mes",
     "unlimited": "Ilimitado",
     "most_popular": "Más popular",
-    "upgrade_now": "Actualizar ahora"
+    "upgrade_now": "Actualizar ahora",
+    "choose_another_file": "Elegir otro archivo"
   },
   "button": {
     "add_to_chrome_for_free": "Agregar a Chrome - Es gratis",
@@ -669,7 +670,7 @@
     "home_page__how_it_works__step1__title": "Añadir al navegador",
     "home_page__how_it_works__step2__title": "Iniciar sesión",
     "home_page__how_it_works__step3__title": "Aumenta la productividad",
-    "home_page__how_it_works__step3__description": "Resuma, busque, lea y escriba 10 veces más rápido con IA en cualquier página web que navegue. Ahorre horas todos los días.",
+    "home_page__how_it_works__step3__description": "Lee más rápido. Escribe mejor. Obtén respuestas. Potencia tu productividad en la web con IA. Ahorra horas cada día.",
     "home_page__how_it_works__step1__description": "Agregue la extensión MaxAI.me a su navegador para ahorrar tiempo en cada página web con IA. Es gratis y 100% respetuoso con la privacidad.",
     "home_page__how_it_works__step2__description": "Inicie sesión fácilmente con Google o correo electrónico. Es simple, gratuito y seguro.",
     "home_page__hero_section__title": "Tu asistente de investigación y escritura impulsado por IA",
@@ -728,7 +729,13 @@
     "home_page__features_content__all_in_chatbox__description2": "La forma más rápida de obtener respuestas instantáneas directamente en la barra lateral del navegador.",
     "home_page__features_content__all_in_chatbox__description3": "Analiza cualquier imagen con visión de IA.",
     "home_page__features_content__all_in_chatbox__description4": "Crea arte e imágenes de IA con DALLE-3.",
-    "home_page__features_content__ab_test_v4__content2__search__description4": "Muestra respuestas de IA junto a los resultados de búsqueda de Google."
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Muestra respuestas de IA junto a los resultados de búsqueda de Google.",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "Marca de agua PDF",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "Agrega una marca de agua a tus PDF",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Agrega marcas de agua a PDF en segundos",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "Confiado por 2.4 mil millones de personas desde 2013",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Forma fácil de marcar PDFs, no se necesita instalación",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Agrega una marca de agua a documentos PDF con un Watermarker PDF gratuito. No es necesario descargar una aplicación, todo funciona en tu navegador en Mac, Windows, Linux y dispositivos móviles."
   },
   "prompt_library": {
     "use_prompt_library__title": "Biblioteca de sugerencias de IA de alta calidad",
@@ -969,8 +976,8 @@
     "faq__question5__description__part2": "para hacer un seguimiento de tu rendimiento de referidos."
   },
   "seo": {
-    "default__title": "MaxAI.me: IA en un clic en todas partes (GPT-4o, Claude 3, Gemini 1.5)",
-    "default__description": "Chat de IA, reescritor, resumen, respuesta instantánea, asistente de lectura, sugerencias, búsqueda, arte y traductor. Potenciado por GPT-4o, Claude 3, Gemini 1.5.",
+    "default__title": "MaxAI.me: Lee más rápido. Escribe mejor. Extensión de IA gratuita.",
+    "default__description": "Resume, responde preguntas y mejora la escritura en la web con IA en Chrome y Edge. Potenciado por GPT-4o, Claude-3.5, Gemini-1.5, Llama-3.1, Mistral.",
     "maintain__title": "En mantenimiento | MaxAI.me",
     "affiliate__title": "Programa de afiliados | MaxAI.me",
     "affiliate__description": "¡Gana dinero con el programa de afiliados de MaxAI! ¡Únete a nuestro programa de afiliados y gana un 25% de comisión por compartir MaxAI!",
@@ -1059,7 +1066,9 @@
     "use_cases__research__title": "Asistente de investigación y resumen de IA | MaxAI.me",
     "use_cases__research__desc": "Agrega IA a tu navegador para resumir y chatear con artículos web, PDF y videos de YouTube y ahorrar tiempo. Haz preguntas a la IA para obtener respuestas rápidas y acelerar tu investigación. Impulsado por GPT-4o, Claude-3-Opus, Gemini-1.5-Pro.",
     "use_cases__writing__title": "Asistente de escritura de IA | MaxAI.me",
-    "use_cases__writing__desc": "Agrega IA a tu navegador para mejorar y pulir tu escritura en cualquier página web. Genera correos electrónicos convincentes, artículos, publicaciones de blog, publicaciones en redes sociales y documentos. Impulsado por GPT-4o, Claude-3-opus, Gemini-1.5-pro."
+    "use_cases__writing__desc": "Agrega IA a tu navegador para mejorar y pulir tu escritura en cualquier página web. Genera correos electrónicos convincentes, artículos, publicaciones de blog, publicaciones en redes sociales y documentos. Impulsado por GPT-4o, Claude-3-opus, Gemini-1.5-pro.",
+    "pdf_tools__pdf_watermark_page__title": "Watermarker PDF gratuito | Marca de agua en PDF en cualquier dispositivo",
+    "pdf_tools__pdf_watermark_page__description": "Agrega fácilmente una marca de agua a documentos PDF. No es necesario descargar una aplicación, todo funciona en tu navegador en Mac, Windows, Linux y dispositivos móviles."
   },
   "features_landing": {
     "cta_text": "Agregar al navegador",
@@ -1294,7 +1303,8 @@
     "components__common__drag__dropping_tip": "Puedes ajustar el orden arrastrando y soltando",
     "components__common__upload_button_tips": "o soltar archivos aquí",
     "components__common__upload_button_title": "ELEGIR ARCHIVOS",
-    "components__common__upload_button__unsupported_file_type_tip": "Por favor, sube el tipo de archivo PDF especificado"
+    "components__common__upload_button__unsupported_file_type_tip": "Por favor, sube el tipo de archivo PDF especificado",
+    "components__common__select_other_file": "Seleccionar otro archivo"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Solo se pueden subir imágenes de tipo imagen",
@@ -1431,7 +1441,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "Accede a los modelos de IA más inteligentes, todos en un solo lugar.",
     "ab_test_v5__features_data__image_ai_queries": "Consultas de IA de imágenes",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "Aumenta tu creatividad y productividad 10 veces con los modelos de arte de IA más avanzados.",
-    "ab_test_v5__features_data__search_faster": "Buscar más rápido",
+    "ab_test_v5__features_data__search_faster": "Obtener respuestas",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Pregunta a la IA cualquier cosa en la barra lateral del navegador",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Chatea con todas las mejores IA en un solo lugar",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Buscar con IA en la barra lateral del navegador",
@@ -1453,7 +1463,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Traducir",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Explicar",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Traducción bilingüe de página completa",
-    "ab_test_v5__features_data__write_faster": "Escribir más rápido",
+    "ab_test_v5__features_data__write_faster": "Escribir mejor",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "Reescritor de IA en cualquier página",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Mejorar escritura",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Corregir",
@@ -1517,7 +1527,10 @@
     "ab_test_v5__features_data__discord__tooltip": "Ahorra tiempo en la correspondencia de mensajes de Discord. Responde a mensajes en segundos con notas breves. Mejora el tono, verifica la ortografía y la gramática. Comunícate de manera más efectiva y eficiente.",
     "ab_test_v5__features_data__messenger__tooltip": "Ahorra tiempo en la correspondencia de mensajes de Messenger. Responde a mensajes en segundos con notas breves. Mejora el tono, verifica la ortografía y la gramática. Comunícate de manera más efectiva y eficiente.",
     "ab_test_v5__features_data__telegram__tooltip": "Ahorra tiempo en la correspondencia de mensajes de Telegram. Responde a mensajes en segundos con notas breves. Mejora el tono, verifica la ortografía y la gramática. Comunícate de manera más efectiva y eficiente.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Crea tus propias indicaciones, organízalas y hazlas fáciles de acceder y reutilizar, para ti y tu equipo."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Crea tus propias indicaciones, organízalas y hazlas fáciles de acceder y reutilizar, para ti y tu equipo.",
+    "features_data__llama_3_1_70b__tooltip": "Impulsado por Meta. 128,000 tokens máximos. Un modelo multilingüe potente con longitud de contexto significativamente ampliada y capacidades de razonamiento mejoradas. Admite casos de uso avanzados como resúmenes de texto de larga duración, agentes conversacionales multilingües y asistencia en la codificación.",
+    "features_data__llama_3_1_405b__tooltip": "Impulsado por Meta. 128,000 tokens máximos. El modelo de base abierta más grande del mundo, rivalizando con la IA de código cerrado superior en conocimiento general, maniobrabilidad y matemáticas. Admite 8 idiomas y habilita capacidades avanzadas como generación de datos sintéticos y destilación de modelos. Ideal para resúmenes de larga duración, agentes conversacionales multilingües y asistentes de codificación.",
+    "features_data__mistral_large_2__tooltip": "Impulsado por MistralAI. 128,000 tokens máximos. El último modelo estrella de Mistral empuja los límites de velocidad y rendimiento. Con 123 mil millones de parámetros, Mistral-Large-2 sobresale en generación de código, matemáticas y razonamiento en docenas de idiomas. Ofrece una alucinación mínima e impresionante soporte multilingüe tanto para idiomas naturales como de programación."
   },
   "features__common": {
     "components__upload_button_drop_title": "Soltar aquí"
@@ -1740,5 +1753,74 @@
     "upgrade_alert__cta_txt": "Visita el Administrador de Extensiones del Navegador",
     "extension_detection_alert__desc": "Para seguir usando esta función, instala nuestra extensión de Chrome para una funcionalidad óptima.",
     "mobile_alert__desc": "La búsqueda de IA actualmente solo es compatible con navegadores de escritorio o portátiles. El soporte móvil llegará pronto. Por ahora, cambia a un escritorio o portátil."
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "Desbloquear PDF",
+    "description": "Elimina contraseña, cifrado y permisos de tu PDF",
+    "seo_title": "Desbloquear PDF - Elimina Contraseña de Archivos PDF en Línea Gratis | MaxAI.me",
+    "seo_description": "Elimina fácilmente la protección por contraseña de archivos PDF en línea de forma gratuita. No se requieren marcas de agua, límites de tamaño de archivo, descargas ni registros.",
+    "detail_description_object__unlock_pdf__top_left": "Desbloquea fácilmente archivos PDF en línea de forma gratuita eliminando contraseñas. Con nuestra herramienta de desbloqueo, tus archivos siempre permanecerán locales, garantizando la privacidad, y no hay límites de tamaño de archivo.",
+    "detail_description_object__unlock_pdf__top_right_1": "Desbloquea rápidamente archivos PDF en solo unos segundos.",
+    "detail_description_object__unlock_pdf__top_right_2": "Simplemente carga tus archivos PDF para comenzar.",
+    "detail_description_object__unlock_pdf__top_right_3": "Compatible con Mac, Windows, Android e iOS.",
+    "detail_description_object__unlock_pdf__middle_1_title": "Herramienta en Línea Simple para Desbloquear PDFs",
+    "detail_description_object__unlock_pdf__middle_1_description": "Nuestra herramienta de desbloqueo de PDF te permite eliminar rápidamente la protección por contraseña de archivos PDF. Simplemente carga tu archivo, ingresa la contraseña y descarga el PDF desbloqueado. Es increíblemente fácil, completamente gratis y no se requiere registro de cuenta.",
+    "detail_description_object__unlock_pdf__middle_2_title": "Desbloqueo Seguro Local de PDF",
+    "detail_description_object__unlock_pdf__middle_2_description": "Todos los archivos que cargues se procesan directamente en tu navegador, garantizando completa privacidad. Ningún archivo se carga en la nube, lo que garantiza la seguridad de los datos.",
+    "detail_description_object__unlock_pdf__middle_3_title": "Compatibilidad Multiplataforma",
+    "detail_description_object__unlock_pdf__middle_3_description": "Nuestra herramienta de desbloqueo de PDF es basada en navegador, lo que significa que funciona perfectamente en Mac, Windows y Linux, así como en dispositivos móviles. Puedes desbloquear fácilmente tus archivos PDF desde cualquier lugar.",
+    "detail_description_object__unlock_pdf__middle_4_title": "Proceso de Operación Sencillo",
+    "detail_description_object__unlock_pdf__middle_4_description": "Desbloquear tus archivos PDF es simple: carga el archivo, ingresa la contraseña y luego descarga la versión desbloqueada. Incluso los principiantes pueden dominar este proceso sin esfuerzo.",
+    "detail_description_object__unlock_pdf__middle_5_title": "Herramienta Confiable de Desbloqueo de PDF",
+    "detail_description_object__unlock_pdf__middle_5_description": "No es necesario comprar software costoso para desbloquear archivos PDF. Nuestra herramienta de desbloqueo de PDF está disponible de forma gratuita para uso en línea sin necesidad de procesamiento en la nube, garantizando que tus archivos y datos estén siempre seguros.",
+    "detail_description_object__unlock_pdf__middle_6_title": "Procesamiento Local para una Seguridad Reforzada",
+    "detail_description_object__unlock_pdf__middle_6_description": "Nuestro servicio de desbloqueo garantiza que todas las operaciones se realicen localmente. Esta característica clave mejora la seguridad y reduce el tiempo de procesamiento, asegurando que tus archivos estén siempre protegidos.",
+    "detail_description_object__unlock_pdf__bottom_right_title": "Cómo Desbloquear Archivos PDF en Línea:",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "Carga el archivo PDF que deseas desbloquear.",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "Ingresa la contraseña del archivo PDF que conoces.",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Una vez desbloqueado, puedes acceder y editar libremente tus archivos PDF en cualquier dispositivo.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Haz clic en 'Desbloquear' para descargar el archivo PDF desbloqueado."
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "Ingresa la contraseña para desbloquear tu PDF",
+    "components__unlock_pdf_detail_input_placeholder": "Contraseña",
+    "components__unlock_pdf_detail__button__unlock": "Desbloquear",
+    "components__unlock_pdf_detail__incorrect_password_tips": "Contraseña incorrecta",
+    "components__unlock_pdf_detail__use_tips": "La contraseña y los archivos PDF no se subirán al servidor, garantizando seguridad."
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "Proteger PDF",
+    "description": "Agrega protección con contraseña y cifrado a tus archivos PDF para una seguridad mejorada.",
+    "seo_title": "Proteger PDF - Agregar Cifrado de Contraseña a Archivos PDF en Línea de Forma Gratuita | MaxAI.me",
+    "seo_description": "Agrega fácilmente protección con contraseña a tus archivos PDF en línea de forma gratuita. No se requieren marcas de agua, límites de tamaño de archivo, descargas ni registros.",
+    "detail_description_object__protect_pdf__top_left": "Protege fácilmente tus archivos PDF en línea de forma gratuita agregando cifrado con contraseña. Con nuestra herramienta, tus archivos permanecen locales para privacidad y no hay limitaciones de tamaño.",
+    "detail_description_object__protect_pdf__top_right_1": "Asegura rápidamente tus archivos PDF en solo unos segundos.",
+    "detail_description_object__protect_pdf__top_right_2": "Simplemente carga tus archivos PDF para comenzar.",
+    "detail_description_object__protect_pdf__top_right_3": "Compatible con Mac, Windows, Android e iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "Herramienta en Línea Simple para Proteger PDFs",
+    "detail_description_object__protect_pdf__middle_1_description": "Nuestra herramienta de protección de PDF te permite agregar fácilmente protección con contraseña a tus archivos PDF. Simplemente carga tu documento, establece tu contraseña y descarga el PDF cifrado. Es increíblemente fácil de usar, completamente gratuito y no requiere una cuenta.",
+    "detail_description_object__protect_pdf__middle_2_title": "Protección de PDF Segura Local",
+    "detail_description_object__protect_pdf__middle_2_description": "Todos los archivos que cargues se procesan directamente en tu navegador, asegurando que tu privacidad esté protegida. Ningún archivo se carga en la nube, garantizando la seguridad de los datos.",
+    "detail_description_object__protect_pdf__middle_3_title": "Compatibilidad Multiplataforma",
+    "detail_description_object__protect_pdf__middle_3_description": "Nuestra herramienta de protección de PDF es basada en el navegador, lo que significa que funciona perfectamente en Mac, Windows y Linux, así como en dispositivos móviles. Puedes proteger fácilmente tus archivos PDF desde cualquier lugar.",
+    "detail_description_object__protect_pdf__middle_4_title": "Proceso de Operación Sencillo",
+    "detail_description_object__protect_pdf__middle_4_description": "Proteger tus archivos PDF es sencillo: carga el archivo, establece tu contraseña y luego descarga la versión protegida con contraseña. Incluso los principiantes pueden seguir este proceso fácilmente.",
+    "detail_description_object__protect_pdf__middle_5_title": "Herramienta Confiable de Protección de PDF",
+    "detail_description_object__protect_pdf__middle_5_description": "No necesitas comprar software costoso para proteger tus archivos PDF. Nuestra herramienta de protección de PDF en línea está disponible de forma gratuita, asegurando que tus archivos y datos estén siempre seguros sin necesidad de procesamiento en la nube.",
+    "detail_description_object__protect_pdf__middle_6_title": "Procesamiento Local para una Seguridad Mejorada",
+    "detail_description_object__protect_pdf__middle_6_description": "Nuestro servicio de protección garantiza que todas las operaciones se realicen localmente. Esto mejora la seguridad y acelera el tiempo de procesamiento, manteniendo tus archivos seguros.",
+    "detail_description_object__protect_pdf__bottom_right_title": "Cómo Proteger Archivos PDF en Línea:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Carga el archivo PDF que deseas proteger.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Establece una contraseña para el archivo PDF.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Haz clic en 'Proteger' para descargar el archivo PDF protegido con contraseña.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Una vez protegido, solo aquellos con la contraseña pueden acceder y editar tus archivos PDF en cualquier dispositivo."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Proteger",
+    "components__protect_pdf_detail__type_password": " Ingresar contraseña",
+    "components__protect_pdf_detail__repeat_type_password": "Repetir contraseña",
+    "components__protect_pdf_detail__input__placeholder": "Establece tu contraseña",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Confirma tu contraseña",
+    "components__protect_pdf_detail__use_tips": "La contraseña y los archivos PDF no se subirán al servidor, garantizando seguridad."
   }
 }

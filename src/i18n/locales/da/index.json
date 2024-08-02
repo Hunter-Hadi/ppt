@@ -52,7 +52,8 @@
     "month": "måned",
     "unlimited": "Ubegrænset",
     "most_popular": "Mest populære",
-    "upgrade_now": "Opgrader nu"
+    "upgrade_now": "Opgrader nu",
+    "choose_another_file": "Vælg en anden fil"
   },
   "button": {
     "add_to_chrome_for_free": "Tilføj til Chrome - Det er gratis",
@@ -669,7 +670,7 @@
     "home_page__how_it_works__step1__title": "Tilføj til browseren",
     "home_page__how_it_works__step2__title": "Log ind",
     "home_page__how_it_works__step3__title": "Øg produktiviteten",
-    "home_page__how_it_works__step3__description": "Opsummer, søg, læs og skriv 10x hurtigere med AI på enhver webside, du browser. Spar timer hver dag.",
+    "home_page__how_it_works__step3__description": "Læs hurtigere. Skriv bedre. Få svar. Optimer din produktivitet på tværs af nettet med AI. Spar timer hver dag.",
     "home_page__how_it_works__step1__description": "Tilføj MaxAI.me-udvidelsen til din browser for at spare tid på hver webside med AI. Det er gratis og 100% privatlivsvenligt.",
     "home_page__how_it_works__step2__description": "Log nemt ind med Google eller e-mail. Det er enkelt, gratis og sikkert.",
     "home_page__hero_section__title": "Din AI-drevne forsknings- og skriveassistent",
@@ -728,7 +729,13 @@
     "home_page__features_content__all_in_chatbox__description2": "Den hurtigste måde at få øjeblikkelige svar lige i browserens sidebjælke.",
     "home_page__features_content__all_in_chatbox__description3": "Analyser ethvert billede med AI vision.",
     "home_page__features_content__all_in_chatbox__description4": "Skab AI-kunst og billeder med DALLE-3.",
-    "home_page__features_content__ab_test_v4__content2__search__description4": "Vis AI-responser ved siden af Google-søgeresultaterne."
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Vis AI-responser ved siden af Google-søgeresultaterne.",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "Vandmærke PDF",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "Tilføj et vandmærke til dine PDF'er",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Tilføj PDF-vandmærker på sekunder",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "Stoler på af 2,4 milliarder mennesker siden 2013",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "En nem måde at tilføje vandmærker til PDF'er—ingen installation nødvendig",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Tilføj et vandmærke til PDF-dokumenter med en gratis PDF-vandmærke. Ingen grund til at downloade en app–alt fungerer i din browser på Mac, Windows, Linux og mobile enheder."
   },
   "prompt_library": {
     "use_prompt_library__title": "Høj kvalitet AI prompt bibliotek",
@@ -969,8 +976,8 @@
     "faq__question5__description__part2": "for at følge din henvisningspræstation."
   },
   "seo": {
-    "default__title": "MaxAI.me: 1-Klik AI Overalt (GPT-4o, Claude 3, Gemini 1.5)",
-    "default__description": "AI chat, omskrivning, resumé, øjeblikkelig svar, læseassistent, prompts, søgning, kunst og oversætter. Drevet af GPT-4o, Claude 3, Gemini 1.5.",
+    "default__title": "MaxAI.me: Læs hurtigere. Skriv bedre. Gratis AI-udvidelse.",
+    "default__description": "Opsummer, besvar spørgsmål og forbedr skrivning på tværs af nettet med AI i Chrome og Edge. Drevet af GPT-4o, Claude-3.5, Gemini-1.5, Llama-3.1, Mistral.",
     "maintain__title": "I vedligeholdelse | MaxAI.me",
     "affiliate__title": "Affiliateprogram | MaxAI.me",
     "affiliate__description": "Få betalt med MaxAI's affiliate program. Bliv en del af vores affiliate program og tjen 25% provision ved at dele MaxAI!",
@@ -1059,7 +1066,9 @@
     "use_cases__research__title": "AI forskning og resuméassistent | MaxAI.me",
     "use_cases__research__desc": "Tilføj AI til din browser for at resumere og chatte med webartikler, PDF'er og YouTube-videoer for at spare tid. Stil AI-spørgsmål for hurtige svar og fremskynd din forskning. Drevet af GPT-4o, Claude-3-Opus, Gemini-1.5-Pro.",
     "use_cases__writing__title": "AI skriveassistent | MaxAI.me",
-    "use_cases__writing__desc": "Tilføj AI til din browser for at forbedre og polere din skrivning på enhver webside. Generer overbevisende e-mails, artikler, blogindlæg, sociale medieindlæg, papirer. Drevet af GPT-4o, Claude-3-opus, Gemini-1.5-pro."
+    "use_cases__writing__desc": "Tilføj AI til din browser for at forbedre og polere din skrivning på enhver webside. Generer overbevisende e-mails, artikler, blogindlæg, sociale medieindlæg, papirer. Drevet af GPT-4o, Claude-3-opus, Gemini-1.5-pro.",
+    "pdf_tools__pdf_watermark_page__title": "Gratis PDF-vandmærke | Vandmærke PDF'er på enhver enhed",
+    "pdf_tools__pdf_watermark_page__description": "Tilføj let et vandmærke til PDF-dokumenter. Ingen grund til at downloade en app–alt fungerer i din browser på Mac, Windows, Linux og mobile enheder."
   },
   "features_landing": {
     "cta_text": "Tilføj til browser",
@@ -1294,7 +1303,8 @@
     "components__common__drag__dropping_tip": "Du kan justere rækkefølgen ved at trække og slippe",
     "components__common__upload_button_tips": "eller slip filer her",
     "components__common__upload_button_title": "VÆLG FILER",
-    "components__common__upload_button__unsupported_file_type_tip": "Venligst upload den specificerede PDF-filtype"
+    "components__common__upload_button__unsupported_file_type_tip": "Venligst upload den specificerede PDF-filtype",
+    "components__common__select_other_file": "Vælg en anden fil"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Kun billeder af billedtypen kan uploades",
@@ -1431,7 +1441,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "Få adgang til de klogeste AI-modeller, alle på ét sted.",
     "ab_test_v5__features_data__image_ai_queries": "Billed AI-forespørgsler",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "10x din kreativitet og produktivitet med de mest avancerede AI-kunstmodeller.",
-    "ab_test_v5__features_data__search_faster": "Søg hurtigere",
+    "ab_test_v5__features_data__search_faster": "Få svar",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Spørg AI noget i browserens sidepanel",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Chat med alle de bedste AI på ét sted",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Søg med AI i browserens sidepanel",
@@ -1453,7 +1463,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Oversæt",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Forklar",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Fuldsides tosproget oversættelse",
-    "ab_test_v5__features_data__write_faster": "Skriv hurtigere",
+    "ab_test_v5__features_data__write_faster": "Skriv bedre",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "AI omskriver på enhver side",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Forbedr skrivning",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Korrekturlæs",
@@ -1517,7 +1527,10 @@
     "ab_test_v5__features_data__discord__tooltip": "Spar tid på Discord-beskedskorrespondance. Svar på beskeder på sekunder med korte noter. Forbedr tone, tjek stavefejl og grammatik. Kommuniker mere effektivt og effektivt.",
     "ab_test_v5__features_data__messenger__tooltip": "Spar tid på Messenger-beskedskorrespondance. Svar på beskeder på sekunder med korte noter. Forbedr tone, tjek stavefejl og grammatik. Kommuniker mere effektivt og effektivt.",
     "ab_test_v5__features_data__telegram__tooltip": "Spar tid på Telegram-beskedskorrespondance. Svar på beskeder på sekunder med korte noter. Forbedr tone, tjek stavefejl og grammatik. Kommuniker mere effektivt og effektivt.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Opret dine egne prompts, organiser dem og gør dem nemme at få adgang til og genbruge, for dig selv og dit team."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Opret dine egne prompts, organiser dem og gør dem nemme at få adgang til og genbruge, for dig selv og dit team.",
+    "features_data__llama_3_1_70b__tooltip": "Drevet af Meta. 128.000 maks. tokens. En kraftfuld flersproget model med markant udvidet kontekstlængde og forbedrede resoneringsevner. Understøtter avancerede brugssituationer som opsummering af lang tekst, flersprogede samtaleagenter og kodningshjælp.",
+    "features_data__llama_3_1_405b__tooltip": "Drevet af Meta. 128.000 maks. tokens. Verdens største åbent tilgængelige grundlagsmodel, der matcher top lukket kilde AI inden for generel viden, styrbarhed og matematik. Understøtter 8 sprog og muliggør avancerede funktioner som syntetisk datagenerering og modeldestillering. Ideel til opsummering af lang tekst, flersprogede samtaleagenter og kodningsassistenter.",
+    "features_data__mistral_large_2__tooltip": "Drevet af MistralAI. 128.000 maksimale tokens. Mistral's nyeste flagskibsmodel skubber grænserne for hastighed og ydeevne. Med 123 milliarder parametre excellerer Mistral-Large-2 i kodegenerering, matematik og resonnering på tværs af dusinvis af sprog. Det tilbyder minimal hallucination og imponerende flersproget support til både naturlige og programmeringssprog."
   },
   "features__common": {
     "components__upload_button_drop_title": "Slip her"
@@ -1740,5 +1753,74 @@
     "upgrade_alert__cta_txt": "Besøg Browserudvidelsesadministrator",
     "extension_detection_alert__desc": "For at fortsætte med at bruge denne funktion, skal du installere vores Chrome-udvidelse for optimal funktionalitet.",
     "mobile_alert__desc": "AI-søgning understøttes i øjeblikket kun på desktop- eller bærbare browsere. Mobil support kommer snart. Indtil videre skal du skifte til en desktop- eller bærbar computer."
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "Fjern PDF-lås",
+    "description": "Fjern adgangskode, kryptering og tilladelse fra din PDF",
+    "seo_title": "Fjern PDF-lås - Fjern adgangskode fra PDF-filer online gratis | MaxAI.me",
+    "seo_description": "Fjern nemt adgangskodebeskyttelse fra PDF-filer online gratis. Ingen vandmærker, filstørrelsesbegrænsninger, downloads eller tilmeldinger er påkrævet.",
+    "detail_description_object__unlock_pdf__top_left": "Lås nemt PDF-filer op online gratis ved at fjerne adgangskoder. Med vores låseværktøj forbliver dine filer altid lokale, hvilket sikrer privatliv, og der er ingen filstørrelsesbegrænsninger.",
+    "detail_description_object__unlock_pdf__top_right_1": "Lås hurtigt PDF-filer op på få sekunder.",
+    "detail_description_object__unlock_pdf__top_right_2": "Upload blot dine PDF-filer for at komme i gang.",
+    "detail_description_object__unlock_pdf__top_right_3": "Kompatibel med Mac, Windows, Android og iOS.",
+    "detail_description_object__unlock_pdf__middle_1_title": "Simpelt online værktøj til at låse PDF'er op",
+    "detail_description_object__unlock_pdf__middle_1_description": "Vores PDF-låseværktøj giver dig mulighed for hurtigt at fjerne adgangskodebeskyttelse fra PDF-filer. Bare upload din fil, indtast adgangskoden, og download den ulåste PDF. Det er utroligt nemt, helt gratis, og der kræves ingen kontoregistrering.",
+    "detail_description_object__unlock_pdf__middle_2_title": "Lokal sikker PDF-låsning",
+    "detail_description_object__unlock_pdf__middle_2_description": "Alle filer, du uploader, behandles direkte i din browser, hvilket sikrer fuldstændig privatliv. Ingen filer uploades til skyen, hvilket garanterer datasikkerhed.",
+    "detail_description_object__unlock_pdf__middle_3_title": "Tværplatformskompatibilitet",
+    "detail_description_object__unlock_pdf__middle_3_description": "Vores PDF-låseværktøj er browserbaseret, hvilket betyder, at det fungerer problemfrit på Mac, Windows og Linux samt mobile enheder. Du kan nemt låse dine PDF-filer op fra ethvert sted.",
+    "detail_description_object__unlock_pdf__middle_4_title": "Enkel betjeningsproces",
+    "detail_description_object__unlock_pdf__middle_4_description": "At låse dine PDF-filer op er enkelt: upload filen, indtast adgangskoden, og download derefter den ulåste version. Selv begyndere kan mestre denne proces ubesværet.",
+    "detail_description_object__unlock_pdf__middle_5_title": "Pålideligt PDF-låseværktøj",
+    "detail_description_object__unlock_pdf__middle_5_description": "Der er ingen grund til at købe dyre programmer for at låse PDF-filer op. Vores PDF-låseværktøj er tilgængeligt til gratis online brug uden behov for skybehandling, hvilket sikrer, at dine filer og data altid er sikre.",
+    "detail_description_object__unlock_pdf__middle_6_title": "Lokal behandling for forbedret sikkerhed",
+    "detail_description_object__unlock_pdf__middle_6_description": "Vores låseservice sikrer, at alle operationer udføres lokalt. Denne nøglefunktion forbedrer sikkerheden og reducerer behandlingstiden, hvilket sikrer, at dine filer altid er beskyttede.",
+    "detail_description_object__unlock_pdf__bottom_right_title": "Sådan låser du PDF-filer op online:",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "Upload den PDF-fil, du vil låse op.",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "Indtast adgangskoden til den PDF-fil, du kender.",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Når den er låst op, kan du frit få adgang til og redigere dine PDF-filer på enhver enhed.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Klik på 'Lås op' for at downloade den ulåste PDF-fil."
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "Indtast venligst adgangskoden for at låse din PDF op",
+    "components__unlock_pdf_detail_input_placeholder": "Adgangskode",
+    "components__unlock_pdf_detail__button__unlock": "Lås op",
+    "components__unlock_pdf_detail__incorrect_password_tips": "Forkert adgangskode",
+    "components__unlock_pdf_detail__use_tips": "Adgangskoden og PDF-filerne vil ikke blive uploadet til serveren, hvilket sikrer sikkerheden."
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "Beskyt PDF",
+    "description": "Tilføj adgangskodebeskyttelse og kryptering til dine PDF-filer for forbedret sikkerhed.",
+    "seo_title": "Beskyt PDF - Tilføj adgangskodekryptering til PDF-filer online gratis | MaxAI.me",
+    "seo_description": "Tilføj nemt adgangskodebeskyttelse til dine PDF-filer online gratis. Ingen vandmærker, filstørrelsesbegrænsninger, downloads eller tilmeldinger er påkrævet.",
+    "detail_description_object__protect_pdf__top_left": "Beskyt nemt dine PDF-filer online gratis ved at tilføje adgangskodekryptering. Med vores værktøj forbliver dine filer lokale for privatlivets fred, og der er ingen størrelsesbegrænsninger.",
+    "detail_description_object__protect_pdf__top_right_1": "Sikre hurtigt dine PDF-filer på få sekunder.",
+    "detail_description_object__protect_pdf__top_right_2": "Upload blot dine PDF-filer for at komme i gang.",
+    "detail_description_object__protect_pdf__top_right_3": "Kompatibel med Mac, Windows, Android og iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "Enkel online værktøj til beskyttelse af PDF'er",
+    "detail_description_object__protect_pdf__middle_1_description": "Vores PDF-beskyttelsesværktøj giver dig mulighed for nemt at tilføje adgangskodebeskyttelse til dine PDF-filer. Bare upload dit dokument, angiv din adgangskode, og download den krypterede PDF. Det er utroligt brugervenligt, helt gratis og kræver ikke en konto.",
+    "detail_description_object__protect_pdf__middle_2_title": "Lokal sikker PDF-beskyttelse",
+    "detail_description_object__protect_pdf__middle_2_description": "Alle filer, du uploader, behandles direkte i din browser, hvilket sikrer, at dit privatliv er beskyttet. Ingen filer uploades til skyen, hvilket garanterer datasikkerhed.",
+    "detail_description_object__protect_pdf__middle_3_title": "Tværplatformskompatibilitet",
+    "detail_description_object__protect_pdf__middle_3_description": "Vores PDF-beskyttelsesværktøj er browserbaseret, hvilket betyder, at det fungerer problemfrit på Mac, Windows og Linux samt mobile enheder. Du kan nemt beskytte dine PDF-filer fra ethvert sted.",
+    "detail_description_object__protect_pdf__middle_4_title": "Enkel betjeningsproces",
+    "detail_description_object__protect_pdf__middle_4_description": "Beskyttelse af dine PDF-filer er ligetil: upload filen, angiv din adgangskode, og download derefter den adgangskodebeskyttede version. Selv begyndere kan følge denne nemme proces ubesværet.",
+    "detail_description_object__protect_pdf__middle_5_title": "Pålideligt PDF-beskyttelsesværktøj",
+    "detail_description_object__protect_pdf__middle_5_description": "Du behøver ikke at købe dyre software til at beskytte dine PDF-filer. Vores online PDF-beskyttelsesværktøj er tilgængeligt gratis og sikrer, at dine filer og data altid er sikre uden behov for skybehandling.",
+    "detail_description_object__protect_pdf__middle_6_title": "Lokal behandling for forbedret sikkerhed",
+    "detail_description_object__protect_pdf__middle_6_description": "Vores beskyttelsestjeneste sikrer, at alle operationer udføres lokalt. Dette forbedrer sikkerheden og fremskynder behandlingstiden, så dine filer er sikre.",
+    "detail_description_object__protect_pdf__bottom_right_title": "Sådan beskytter du PDF-filer online:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Upload den PDF-fil, du vil beskytte.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Angiv en adgangskode for PDF-filen.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Klik på 'Beskyt' for at downloade den adgangskodebeskyttede PDF-fil.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Når den er beskyttet, kan kun dem med adgangskoden få adgang til og redigere dine PDF-filer på enhver enhed."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Beskyt",
+    "components__protect_pdf_detail__type_password": " Indtast adgangskode",
+    "components__protect_pdf_detail__repeat_type_password": "Gentag adgangskode",
+    "components__protect_pdf_detail__input__placeholder": "Angiv din adgangskode",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Bekræft din adgangskode",
+    "components__protect_pdf_detail__use_tips": "Adgangskoden og PDF-filerne vil ikke blive uploadet til serveren, hvilket sikrer sikkerheden."
   }
 }

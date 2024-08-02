@@ -52,7 +52,8 @@
     "month": "Monat",
     "unlimited": "Unbegrenzt",
     "most_popular": "Am beliebtesten",
-    "upgrade_now": "Jetzt upgraden"
+    "upgrade_now": "Jetzt upgraden",
+    "choose_another_file": "Wählen Sie eine andere Datei"
   },
   "button": {
     "add_to_chrome_for_free": "Zu Chrome hinzufügen - Kostenlos",
@@ -669,7 +670,7 @@
     "home_page__how_it_works__step1__title": "Zum Browser hinzufügen",
     "home_page__how_it_works__step2__title": "Anmelden",
     "home_page__how_it_works__step3__title": "Produktivität steigern",
-    "home_page__how_it_works__step3__description": "Mit KI können Sie jede Webseite, die Sie durchsuchen, 10-mal schneller zusammenfassen, suchen, lesen und schreiben. Sparen Sie jeden Tag Stunden.",
+    "home_page__how_it_works__step3__description": "Lesen Sie schneller. Schreiben Sie besser. Erhalten Sie Antworten. Steigern Sie Ihre Produktivität im Web mit KI. Sparen Sie jeden Tag Stunden.",
     "home_page__how_it_works__step1__description": "Fügen Sie die MaxAI.me-Erweiterung Ihrem Browser hinzu, um mit KI Zeit auf jeder Webseite zu sparen. Es ist kostenlos und zu 100% datenschutzfreundlich.",
     "home_page__how_it_works__step2__description": "Melden Sie sich einfach mit Google oder E-Mail an. Es ist einfach, kostenlos und sicher.",
     "home_page__hero_section__title": "Ihr KI-gesteuerter Forschungs- und Schreibassistent",
@@ -728,7 +729,13 @@
     "home_page__features_content__all_in_chatbox__description2": "Der schnellste Weg, um sofortige Antworten direkt in der Browser-Sidebar zu erhalten.",
     "home_page__features_content__all_in_chatbox__description3": "Analysieren Sie jedes Bild mit KI-Vision.",
     "home_page__features_content__all_in_chatbox__description4": "Erstellen Sie KI-Kunst und Bilder mit DALLE-3.",
-    "home_page__features_content__ab_test_v4__content2__search__description4": "Zeigen Sie KI-Antworten neben den Google-Suchergebnissen an."
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Zeigen Sie KI-Antworten neben den Google-Suchergebnissen an.",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "Wasserzeichen PDF",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "Fügen Sie Ihren PDFs ein Wasserzeichen hinzu",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Fügen Sie PDF-Wasserzeichen in Sekunden hinzu",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "Vertraut von 2,4 Milliarden Menschen seit 2013",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Einfacher Weg, PDFs zu kennzeichnen - keine Installation erforderlich",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Fügen Sie mit einem kostenlosen PDF-Wasserzeichen ein Wasserzeichen zu PDF-Dokumenten hinzu. Keine Notwendigkeit, eine App herunterzuladen - alles funktioniert in Ihrem Browser auf Mac, Windows, Linux und mobilen Geräten."
   },
   "prompt_library": {
     "use_prompt_library__title": "Hochwertige KI-Prompt-Bibliothek",
@@ -969,8 +976,8 @@
     "faq__question5__description__part2": "Ihre Empfehlungsleistung zu verfolgen."
   },
   "seo": {
-    "default__title": "MaxAI.me: KI überall mit nur einem Klick (GPT-4o, Claude 3, Gemini 1.5)",
-    "default__description": "KI-Chat, Umformulierer, Zusammenfassung, Sofortantwort, Lesehilfe, Anregungen, Suche, Kunst und Übersetzer. Angetrieben von GPT-4o, Claude 3, Gemini 1.5.",
+    "default__title": "MaxAI.me: Schneller lesen. Besser schreiben. Kostenlose KI-Erweiterung.",
+    "default__description": "Fassen Sie zusammen, beantworten Sie Fragen und verbessern Sie das Schreiben im Web mit KI in Chrome und Edge. Angetrieben von GPT-4o, Claude-3.5, Gemini-1.5, Llama-3.1, Mistral.",
     "maintain__title": "In Wartung | MaxAI.me",
     "affiliate__title": "Partnerprogramm | MaxAI.me",
     "affiliate__description": "Verdienen Sie mit dem MaxAI-Partnerprogramm Geld. Treten Sie unserem Partnerprogramm bei und verdienen Sie 25% Provision, indem Sie MaxAI teilen!",
@@ -1059,7 +1066,9 @@
     "use_cases__research__title": "KI-Forschungs- und Zusammenfassungsassistent | MaxAI.me",
     "use_cases__research__desc": "Fügen Sie Ihrem Browser KI hinzu, um Zeit zu sparen, indem Sie Webartikel, PDFs und YouTube-Videos zusammenfassen und chatten. Stellen Sie KI-Fragen für schnelle Antworten, um Ihre Recherche zu beschleunigen. Angetrieben von GPT-4o, Claude-3-Opus, Gemini-1.5-Pro.",
     "use_cases__writing__title": "KI-Schreibassistent | MaxAI.me",
-    "use_cases__writing__desc": "Fügen Sie Ihrem Browser KI hinzu, um Ihr Schreiben auf jeder Webseite zu verbessern und zu polieren. Generieren Sie überzeugende E-Mails, Artikel, Blog-Beiträge, Social-Media-Beiträge und Papiere. Angetrieben von GPT-4o, Claude-3-opus, Gemini-1.5-pro."
+    "use_cases__writing__desc": "Fügen Sie Ihrem Browser KI hinzu, um Ihr Schreiben auf jeder Webseite zu verbessern und zu polieren. Generieren Sie überzeugende E-Mails, Artikel, Blog-Beiträge, Social-Media-Beiträge und Papiere. Angetrieben von GPT-4o, Claude-3-opus, Gemini-1.5-pro.",
+    "pdf_tools__pdf_watermark_page__title": "Kostenloser PDF-Wasserzeichen | Wasserzeichen PDFs auf jedem Gerät",
+    "pdf_tools__pdf_watermark_page__description": "Fügen Sie ganz einfach ein Wasserzeichen zu PDF-Dokumenten hinzu. Keine Notwendigkeit, eine App herunterzuladen - alles funktioniert in Ihrem Browser auf Mac, Windows, Linux und mobilen Geräten."
   },
   "features_landing": {
     "cta_text": "Zum Browser hinzufügen",
@@ -1294,7 +1303,8 @@
     "components__common__drag__dropping_tip": "Sie können die Reihenfolge anpassen, indem Sie ziehen und ablegen",
     "components__common__upload_button_tips": "Oder Dateien hier ablegen",
     "components__common__upload_button_title": "DATEIEN AUSWÄHLEN",
-    "components__common__upload_button__unsupported_file_type_tip": "Bitte laden Sie den angegebenen PDF-Dateityp hoch"
+    "components__common__upload_button__unsupported_file_type_tip": "Bitte laden Sie den angegebenen PDF-Dateityp hoch",
+    "components__common__select_other_file": "Wählen Sie eine andere Datei"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Es können nur Bilder vom Bildtyp hochgeladen werden",
@@ -1431,7 +1441,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "Zugriff auf die intelligentesten KI-Modelle, alles an einem Ort.",
     "ab_test_v5__features_data__image_ai_queries": "Bild-KI-Abfragen",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "Steigern Sie Ihre Kreativität und Produktivität um das 10-fache mit den fortschrittlichsten KI-Kunstmodellen.",
-    "ab_test_v5__features_data__search_faster": "Schneller suchen",
+    "ab_test_v5__features_data__search_faster": "Erhalte Antworten",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Fragen Sie KI etwas in der Browser-Seitenleiste",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Chatten Sie mit allen besten KI an einem Ort",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Suchen Sie mit KI in der Browser-Seitenleiste",
@@ -1453,7 +1463,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Übersetzen",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Erklären",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Vollständige zweisprachige Übersetzung",
-    "ab_test_v5__features_data__write_faster": "Schneller schreiben",
+    "ab_test_v5__features_data__write_faster": "Besser schreiben",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "KI-Umschreiber auf jeder Seite",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Schreiben verbessern",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Korrekturlesen",
@@ -1517,7 +1527,10 @@
     "ab_test_v5__features_data__discord__tooltip": "Sparen Sie Zeit bei der Discord-Nachrichtenkorrespondenz. Antworten Sie in Sekunden auf Nachrichten mit kurzen Notizen. Verbessern Sie den Ton, überprüfen Sie Rechtschreibung und Grammatik. Kommunizieren Sie effektiver und effizienter.",
     "ab_test_v5__features_data__messenger__tooltip": "Sparen Sie Zeit bei der Messenger-Nachrichtenkorrespondenz. Antworten Sie in Sekunden auf Nachrichten mit kurzen Notizen. Verbessern Sie den Ton, überprüfen Sie Rechtschreibung und Grammatik. Kommunizieren Sie effektiver und effizienter.",
     "ab_test_v5__features_data__telegram__tooltip": "Sparen Sie Zeit bei der Telegram-Nachrichtenkorrespondenz. Antworten Sie in Sekunden auf Nachrichten mit kurzen Notizen. Verbessern Sie den Ton, überprüfen Sie Rechtschreibung und Grammatik. Kommunizieren Sie effektiver und effizienter.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Erstellen Sie Ihre eigenen Hinweise, organisieren Sie sie und machen Sie sie leicht zugänglich und wiederverwendbar, für sich selbst und Ihr Team."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Erstellen Sie Ihre eigenen Hinweise, organisieren Sie sie und machen Sie sie leicht zugänglich und wiederverwendbar, für sich selbst und Ihr Team.",
+    "features_data__llama_3_1_70b__tooltip": "Angetrieben von Meta. 128.000 maximale Token. Ein leistungsstarkes mehrsprachiges Modell mit deutlich erweiterter Kontextlänge und verbesserten Denkfähigkeiten. Unterstützt fortgeschrittene Anwendungsfälle wie Langform-Textzusammenfassung, mehrsprachige Konversationsagenten und Kodierungshilfe.",
+    "features_data__llama_3_1_405b__tooltip": "Angetrieben von Meta. 128.000 maximale Token. Das weltweit größte offen verfügbare Grundlagenmodell, das geschlossene KI-Modelle in Allgemeinwissen, Steuerbarkeit und Mathematik herausfordert. Unterstützt 8 Sprachen und ermöglicht fortgeschrittene Fähigkeiten wie die Generierung synthetischer Daten und Modelldestillation. Ideal für Langform-Zusammenfassungen, mehrsprachige Konversationsagenten und Kodierungsassistenten.",
+    "features_data__mistral_large_2__tooltip": "Angetrieben von MistralAI. 128.000 maximale Token. Mistral's neuestes Flaggschiffmodell stößt an die Grenzen von Geschwindigkeit und Leistung. Mit 123 Milliarden Parametern glänzt Mistral-Large-2 in der Codegenerierung, Mathematik und Argumentation in Dutzenden von Sprachen. Es bietet minimale Halluzination und beeindruckende mehrsprachige Unterstützung für natürliche und Programmiersprachen."
   },
   "features__common": {
     "components__upload_button_drop_title": "Hier ablegen"
@@ -1740,5 +1753,74 @@
     "upgrade_alert__cta_txt": "Browser-Erweiterungs-Manager besuchen",
     "extension_detection_alert__desc": "Um diese Funktion weiterhin zu nutzen, installieren Sie bitte unsere Chrome-Erweiterung für optimale Funktionalität.",
     "mobile_alert__desc": "Die KI-Suche wird derzeit nur auf Desktop- oder Laptop-Browsern unterstützt. Die Unterstützung für Mobilgeräte kommt bald. Bitte wechseln Sie vorerst zu einem Desktop- oder Laptop."
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "PDF entsperren",
+    "description": "Entfernen Sie Passwort, Verschlüsselung und Berechtigungen von Ihrem PDF",
+    "seo_title": "PDF entsperren - Passwort aus PDF-Dateien online kostenlos entfernen | MaxAI.me",
+    "seo_description": "Entfernen Sie ganz einfach den Passwortschutz von PDF-Dateien online kostenlos. Keine Wasserzeichen, Dateigrößenbeschränkungen, Downloads oder Anmeldungen erforderlich.",
+    "detail_description_object__unlock_pdf__top_left": "Entsperren Sie PDF-Dateien online kostenlos, indem Sie Passwörter entfernen. Mit unserem Entsperrwerkzeug bleiben Ihre Dateien immer lokal, um die Privatsphäre zu gewährleisten, und es gibt keine Dateigrößenbeschränkungen.",
+    "detail_description_object__unlock_pdf__top_right_1": "Entsperren Sie PDF-Dateien in nur wenigen Sekunden.",
+    "detail_description_object__unlock_pdf__top_right_2": "Laden Sie einfach Ihre PDF-Dateien hoch, um zu beginnen.",
+    "detail_description_object__unlock_pdf__top_right_3": "Kompatibel mit Mac, Windows, Android und iOS.",
+    "detail_description_object__unlock_pdf__middle_1_title": "Einfaches Online-Tool zum Entsperren von PDFs",
+    "detail_description_object__unlock_pdf__middle_1_description": "Unser PDF-Entsperrwerkzeug ermöglicht es Ihnen, den Passwortschutz von PDF-Dateien schnell zu entfernen. Laden Sie einfach Ihre Datei hoch, geben Sie das Passwort ein und laden Sie das entsperrte PDF herunter. Es ist unglaublich einfach, völlig kostenlos und keine Kontoanmeldung erforderlich.",
+    "detail_description_object__unlock_pdf__middle_2_title": "Lokales sicheres Entsperren von PDFs",
+    "detail_description_object__unlock_pdf__middle_2_description": "Alle von Ihnen hochgeladenen Dateien werden direkt in Ihrem Browser verarbeitet, um die vollständige Privatsphäre zu gewährleisten. Keine Dateien werden in die Cloud hochgeladen, was die Datensicherheit garantiert.",
+    "detail_description_object__unlock_pdf__middle_3_title": "Plattformübergreifende Kompatibilität",
+    "detail_description_object__unlock_pdf__middle_3_description": "Unser PDF-Entsperrwerkzeug basiert auf dem Browser und funktioniert nahtlos auf Mac, Windows und Linux sowie auf mobilen Geräten. Sie können Ihre PDF-Dateien von überall aus einfach entsperren.",
+    "detail_description_object__unlock_pdf__middle_4_title": "Einfacher Betriebsprozess",
+    "detail_description_object__unlock_pdf__middle_4_description": "Das Entsperren Ihrer PDF-Dateien ist einfach: Laden Sie die Datei hoch, geben Sie das Passwort ein und laden Sie dann die entsperrte Version herunter. Selbst Anfänger können diesen Prozess mühelos meistern.",
+    "detail_description_object__unlock_pdf__middle_5_title": "Zuverlässiges PDF-Entsperrwerkzeug",
+    "detail_description_object__unlock_pdf__middle_5_description": "Es ist nicht erforderlich, teure Software zum Entsperren von PDF-Dateien zu kaufen. Unser PDF-Entsperrwerkzeug steht kostenlos zur Online-Nutzung zur Verfügung, ohne dass eine Cloud-Verarbeitung erforderlich ist, um sicherzustellen, dass Ihre Dateien und Daten immer sicher sind.",
+    "detail_description_object__unlock_pdf__middle_6_title": "Lokale Verarbeitung für erhöhte Sicherheit",
+    "detail_description_object__unlock_pdf__middle_6_description": "Unser Entsperrdienst stellt sicher, dass alle Operationen lokal durchgeführt werden. Dieses Schlüsselfeature erhöht die Sicherheit und reduziert die Verarbeitungszeit, um sicherzustellen, dass Ihre Dateien immer geschützt sind.",
+    "detail_description_object__unlock_pdf__bottom_right_title": "So entsperren Sie PDF-Dateien online:",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "Laden Sie die PDF-Datei hoch, die Sie entsperren möchten.",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "Geben Sie das Passwort für die PDF-Datei ein, das Sie kennen.",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Nach dem Entsperren können Sie auf Ihre PDF-Dateien auf jedem Gerät frei zugreifen und sie bearbeiten.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Klicken Sie auf 'Entsperren', um die entsperrte PDF-Datei herunterzuladen."
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "Bitte geben Sie das Passwort ein, um Ihr PDF zu entsperren",
+    "components__unlock_pdf_detail_input_placeholder": "Passwort",
+    "components__unlock_pdf_detail__button__unlock": "Entsperren",
+    "components__unlock_pdf_detail__incorrect_password_tips": "Falsches Passwort",
+    "components__unlock_pdf_detail__use_tips": "Das Passwort und die PDF-Dateien werden nicht auf den Server hochgeladen, um die Sicherheit zu gewährleisten."
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "PDF schützen",
+    "description": "Fügen Sie Passwortschutz und Verschlüsselung zu Ihren PDF-Dateien hinzu, um die Sicherheit zu erhöhen.",
+    "seo_title": "PDF schützen - Fügen Sie Passwortverschlüsselung zu PDF-Dateien online kostenlos hinzu | MaxAI.me",
+    "seo_description": "Fügen Sie ganz einfach Passwortschutz zu Ihren PDF-Dateien online kostenlos hinzu. Es sind keine Wasserzeichen, Dateigrößenbeschränkungen, Downloads oder Anmeldungen erforderlich.",
+    "detail_description_object__protect_pdf__top_left": "Schützen Sie Ihre PDF-Dateien ganz einfach online kostenlos, indem Sie eine Passwortverschlüsselung hinzufügen. Mit unserem Tool bleiben Ihre Dateien lokal für mehr Privatsphäre, und es gibt keine Größenbeschränkungen.",
+    "detail_description_object__protect_pdf__top_right_1": "Sichern Sie schnell Ihre PDF-Dateien in nur wenigen Sekunden.",
+    "detail_description_object__protect_pdf__top_right_2": "Laden Sie einfach Ihre PDF-Dateien hoch, um loszulegen.",
+    "detail_description_object__protect_pdf__top_right_3": "Kompatibel mit Mac, Windows, Android und iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "Einfaches Online-Tool zum Schutz von PDFs",
+    "detail_description_object__protect_pdf__middle_1_description": "Unser PDF-Schutztool ermöglicht es Ihnen, ganz einfach Passwortschutz zu Ihren PDF-Dateien hinzuzufügen. Laden Sie einfach Ihr Dokument hoch, setzen Sie Ihr Passwort und laden Sie das verschlüsselte PDF herunter. Es ist unglaublich benutzerfreundlich, komplett kostenlos und erfordert kein Konto.",
+    "detail_description_object__protect_pdf__middle_2_title": "Lokaler sicherer PDF-Schutz",
+    "detail_description_object__protect_pdf__middle_2_description": "Alle von Ihnen hochgeladenen Dateien werden direkt in Ihrem Browser verarbeitet, um Ihre Privatsphäre zu schützen. Keine Dateien werden in die Cloud hochgeladen, was die Datensicherheit garantiert.",
+    "detail_description_object__protect_pdf__middle_3_title": "Plattformübergreifende Kompatibilität",
+    "detail_description_object__protect_pdf__middle_3_description": "Unser PDF-Schutztool basiert auf dem Browser und funktioniert nahtlos auf Mac, Windows und Linux sowie auf mobilen Geräten. Sie können Ihre PDF-Dateien von überall aus einfach schützen.",
+    "detail_description_object__protect_pdf__middle_4_title": "Einfacher Bedienungsprozess",
+    "detail_description_object__protect_pdf__middle_4_description": "Der Schutz Ihrer PDF-Dateien ist einfach: Laden Sie die Datei hoch, setzen Sie Ihr Passwort und laden Sie dann die passwortgeschützte Version herunter. Selbst Anfänger können diesem einfachen Prozess mühelos folgen.",
+    "detail_description_object__protect_pdf__middle_5_title": "Zuverlässiges PDF-Schutztool",
+    "detail_description_object__protect_pdf__middle_5_description": "Sie müssen keine teure Software kaufen, um Ihre PDF-Dateien zu schützen. Unser Online-PDF-Schutztool ist kostenlos verfügbar und gewährleistet, dass Ihre Dateien und Daten immer sicher sind, ohne dass eine Cloud-Verarbeitung erforderlich ist.",
+    "detail_description_object__protect_pdf__middle_6_title": "Lokale Verarbeitung für erhöhte Sicherheit",
+    "detail_description_object__protect_pdf__middle_6_description": "Unser Schutzservice stellt sicher, dass alle Operationen lokal durchgeführt werden. Dies erhöht die Sicherheit und beschleunigt die Verarbeitungszeit, um Ihre Dateien sicher zu halten.",
+    "detail_description_object__protect_pdf__bottom_right_title": "So schützen Sie PDF-Dateien online:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Laden Sie die PDF-Datei hoch, die Sie schützen möchten.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Legen Sie ein Passwort für die PDF-Datei fest.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Klicken Sie auf 'Schützen', um die passwortgeschützte PDF-Datei herunterzuladen.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Sobald geschützt, können nur diejenigen mit dem Passwort auf Ihre PDF-Dateien auf jedem Gerät zugreifen und sie bearbeiten."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Schützen",
+    "components__protect_pdf_detail__type_password": " Passwort eingeben",
+    "components__protect_pdf_detail__repeat_type_password": "Passwort wiederholen",
+    "components__protect_pdf_detail__input__placeholder": "Legen Sie Ihr Passwort fest",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Bestätigen Sie Ihr Passwort",
+    "components__protect_pdf_detail__use_tips": "Das Passwort und die PDF-Dateien werden nicht auf den Server hochgeladen, um die Sicherheit zu gewährleisten."
   }
 }

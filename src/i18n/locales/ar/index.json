@@ -52,7 +52,8 @@
     "month": "شهر",
     "unlimited": "غير محدود",
     "most_popular": "الأكثر شهرة",
-    "upgrade_now": "ترقية الآن"
+    "upgrade_now": "ترقية الآن",
+    "choose_another_file": "اختر ملفًا آخر"
   },
   "button": {
     "add_to_chrome_for_free": "أضف إلى Chrome - مجانًا",
@@ -669,7 +670,7 @@
     "home_page__how_it_works__step1__title": "أضف إلى المتصفح",
     "home_page__how_it_works__step2__title": "تسجيل الدخول",
     "home_page__how_it_works__step3__title": "زيادة الإنتاجية",
-    "home_page__how_it_works__step3__description": "قم بتلخيص والبحث والقراءة والكتابة بسرعة 10 مرات أكبر باستخدام الذكاء الاصطناعي على أي صفحة ويب تتصفحها. احفظ ساعات كل يوم.",
+    "home_page__how_it_works__step3__description": "اقرأ بسرعة. اكتب بشكل أفضل. احصل على إجابات. قم بتعزيز إنتاجيتك عبر الويب باستخدام الذكاء الاصطناعي. وفر ساعات كل يوم.",
     "home_page__how_it_works__step1__description": "أضف تمديد MaxAI.me إلى متصفحك لتوفير الوقت في كل صفحة ويب باستخدام الذكاء الاصطناعي. مجاني وودية للخصوصية بنسبة 100٪.",
     "home_page__how_it_works__step2__description": "سجّل الدخول بسهولة باستخدام Google أو البريد الإلكتروني. إنه بسيط ومجاني وآمن.",
     "home_page__hero_section__title": "مساعد البحث والكتابة المدعوم بالذكاء الاصطناعي الخاص بك",
@@ -728,7 +729,13 @@
     "home_page__features_content__all_in_chatbox__description2": "أسرع طريقة للحصول على إجابات فورية مباشرة في شريط التصفح.",
     "home_page__features_content__all_in_chatbox__description3": "تحليل أي صورة باستخدام رؤية الذكاء الاصطناعي.",
     "home_page__features_content__all_in_chatbox__description4": "إنشاء فنون وصور ذكاء اصطناعي مع DALLE-3.",
-    "home_page__features_content__ab_test_v4__content2__search__description4": "عرض ردود AI بجوار نتائج بحث Google."
+    "home_page__features_content__ab_test_v4__content2__search__description4": "عرض ردود AI بجوار نتائج بحث Google.",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "إضافة علامة مائية لملف PDF",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "أضف علامة مائية إلى ملفات PDF الخاصة بك",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "إضافة علامات مائية لملفات PDF في ثوانٍ",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "موثوق به من قبل 2.4 مليار شخص منذ عام 2013",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "طريقة سهلة لوضع علامات مائية على ملفات PDF - لا حاجة للتثبيت",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "أضف علامة مائية إلى مستندات PDF باستخدام PDF Watermarker المجاني. لا حاجة لتنزيل تطبيق - كل شيء يعمل في متصفحك على نظام Mac و Windows و Linux والأجهزة المحمولة."
   },
   "prompt_library": {
     "use_prompt_library__title": "مكتبة نصوص AI عالية الجودة",
@@ -969,8 +976,8 @@
     "faq__question5__description__part2": "لتتبع أداء الإحالة الخاص بك."
   },
   "seo": {
-    "default__title": "MaxAI.me: الذكاء الاصطناعي بنقرة واحدة في كل مكان (GPT-4o، Claude 3، Gemini 1.5)",
-    "default__description": "محادثة ذكاء اصطناعي، إعادة صياغة، ملخص، رد فوري، مساعد قراءة، تلميحات، بحث، فن، ومترجم. يعمل بواسطة GPT-4o، Claude 3، Gemini 1.5.",
+    "default__title": "MaxAI.me: اقرأ بسرعة. اكتب بشكل أفضل. تمديد AI مجاني.",
+    "default__description": "تلخيص، الإجابة على الأسئلة، وتنقيح الكتابة عبر الويب باستخدام AI في Chrome و Edge. مدعوم بواسطة GPT-4o، Claude-3.5، Gemini-1.5، Llama-3.1، Mistral.",
     "maintain__title": "في الصيانة | MaxAI.me",
     "affiliate__title": "برنامج الشراكة | MaxAI.me",
     "affiliate__description": "احصل على أموال مع برنامج الشركاء في MaxAI. انضم إلى برنامج الشركاء لدينا واكسب عمولة بنسبة 25٪ عند مشاركة MaxAI!",
@@ -1059,7 +1066,9 @@
     "use_cases__research__title": "مساعد البحث والتلخيص الذكاء الاصطناعي | MaxAI.me",
     "use_cases__research__desc": "أضف الذكاء الاصطناعي إلى متصفحك لتلخيص والدردشة مع المقالات على الويب وملفات PDF ومقاطع فيديو يوتيوب لتوفير الوقت. اسأل الذكاء الاصطناعي للحصول على إجابات سريعة لتسريع بحثك. مدعوم بـ GPT-4o و Claude-3-Opus و Gemini-1.5-Pro.",
     "use_cases__writing__title": "مساعد الكتابة الذكاء الاصطناعي | MaxAI.me",
-    "use_cases__writing__desc": "أضف الذكاء الاصطناعي إلى متصفحك لتحسين وتلميع كتابتك على أي صفحة ويب. إنشاء رسائل بريد إلكتروني مقنعة ومقالات ومشاركات المدونات ومشاركات وسائل التواصل الاجتماعي وأوراق. مدعوم بـ GPT-4o و Claude-3-opus و Gemini-1.5-pro."
+    "use_cases__writing__desc": "أضف الذكاء الاصطناعي إلى متصفحك لتحسين وتلميع كتابتك على أي صفحة ويب. إنشاء رسائل بريد إلكتروني مقنعة ومقالات ومشاركات المدونات ومشاركات وسائل التواصل الاجتماعي وأوراق. مدعوم بـ GPT-4o و Claude-3-opus و Gemini-1.5-pro.",
+    "pdf_tools__pdf_watermark_page__title": "PDF Watermarker مجاني | قم بوضع علامة مائية على ملفات PDF على أي جهاز",
+    "pdf_tools__pdf_watermark_page__description": "أضف بسهولة علامة مائية إلى مستندات PDF. لا حاجة لتنزيل تطبيق - كل شيء يعمل في متصفحك على نظام Mac و Windows و Linux والأجهزة المحمولة."
   },
   "features_landing": {
     "cta_text": "أضف إلى المتصفح",
@@ -1294,7 +1303,8 @@
     "components__common__drag__dropping_tip": "يمكنك ضبط الترتيب عن طريق سحب وإفلات",
     "components__common__upload_button_tips": "أو اسحب الملفات هنا",
     "components__common__upload_button_title": "اختر الملفات",
-    "components__common__upload_button__unsupported_file_type_tip": "يرجى تحميل نوع الملف PDF المحدد"
+    "components__common__upload_button__unsupported_file_type_tip": "يرجى تحميل نوع الملف PDF المحدد",
+    "components__common__select_other_file": "اختر ملفًا آخر"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "يمكن تحميل صور من نوع الصورة فقط",
@@ -1431,7 +1441,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "الوصول إلى أذكى نماذج الذكاء الاصطناعي، كلها في مكان واحد.",
     "ab_test_v5__features_data__image_ai_queries": "استعلامات الصور الذكاء الاصطناعي",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "10 مرات إبداعك وإنتاجيتك مع أكثر نماذج الفن الذكاء الاصطناعي تقدمًا.",
-    "ab_test_v5__features_data__search_faster": "البحث بشكل أسرع",
+    "ab_test_v5__features_data__search_faster": "الحصول على الإجابات",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "اسأل الذكاء الاصطناعي عن أي شيء في شريط الجانب للمتصفح",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "دردش مع أفضل الذكاء الاصطناعي في مكان واحد",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "ابحث بمساعدة الذكاء الاصطناعي في شريط الجانب للمتصفح",
@@ -1453,7 +1463,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "ترجمة",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "شرح",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "ترجمة ثنائية الصفحة كاملة",
-    "ab_test_v5__features_data__write_faster": "الكتابة بسرعة",
+    "ab_test_v5__features_data__write_faster": "كتابة أفضل",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "إعادة صياغة AI على أي صفحة",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "تحسين الكتابة",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "مراجعة",
@@ -1517,7 +1527,10 @@
     "ab_test_v5__features_data__discord__tooltip": "وفر الوقت في المراسلة عبر رسائل Discord. ارد على الرسائل في ثوانٍ بملاحظات موجزة. قم بتحسين اللهجة، وتحقق من الإملاء والنحو. تواصل بفعالية وكفاءة أكبر.",
     "ab_test_v5__features_data__messenger__tooltip": "وفر الوقت في المراسلة عبر رسائل Messenger. ارد على الرسائل في ثوانٍ بملاحظات موجزة. قم بتحسين اللهجة، وتحقق من الإملاء والنحو. تواصل بفعالية وكفاءة أكبر.",
     "ab_test_v5__features_data__telegram__tooltip": "وفر الوقت في المراسلة عبر رسائل Telegram. ارد على الرسائل في ثوانٍ بملاحظات موجزة. قم بتحسين اللهجة، وتحقق من الإملاء والنحو. تواصل بفعالية وكفاءة أكبر.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "أنشئ معادك الخاص، ونظمها، واجعلها سهلة الوصول وإعادة الاستخام، لنفسك وفريقك."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "أنشئ معادك الخاص، ونظمها، واجعلها سهلة الوصول وإعادة الاستخام، لنفسك وفريقك.",
+    "features_data__llama_3_1_70b__tooltip": "مدعوم بواسطة ميتا. 128,000 رمزًا كحد أقصى. نموذج متعدد اللغات قوي بطول سياق موسع بشكل كبير وقدرات استدلال محسنة. يدعم حالات الاستخدام المتقدمة مثل تلخيص النصوص طويلة الشكل، ووكلاء المحادثة متعددي اللغات، ومساعدة البرمجة.",
+    "features_data__llama_3_1_405b__tooltip": "مدعوم بواسطة ميتا. 128,000 رمزًا كحد أقصى. أكبر نموذج أساسي متاح بشكل مفتوح في العالم، ينافس أعلى نماذج الذكاء الاصطناعي المغلقة في المعرفة العامة، والقابلية للتوجيه والرياضيات. يدعم 8 لغات ويمكنه تمكين قدرات متقدمة مثل توليد البيانات الاصطناعية وتقليص النموذج. مثالي لتلخيص النصوص طويلة الشكل، ووكلاء المحادثة متعددي اللغات، ومساعدي البرمجة.",
+    "features_data__mistral_large_2__tooltip": "مدعوم بواسطة MistralAI. 128,000 رمزًا كحد أقصى. يدفع نموذج Mistral الرائد الحدود في السرعة والأداء. بـ 123 مليار معلمة، يتفوق Mistral-Large-2 في إنشاء الشفرات، والرياضيات، والاستدلال عبر العشرات من اللغات. يقدم دعمًا دوليًا مذهلاً للغات الطبيعية ولغات البرمجة على حد سواء بدون هلوسة ودعمًا متعدد اللغات مذهلاً."
   },
   "features__common": {
     "components__upload_button_drop_title": "اسحب هنا"
@@ -1740,5 +1753,74 @@
     "upgrade_alert__cta_txt": "زيارة مدير امتدادات المتصفح",
     "extension_detection_alert__desc": "لمواصلة استخدام هذه الميزة، يرجى تثبيت إضافة Chrome لدينا للحصول على الوظائف الأمثل.",
     "mobile_alert__desc": "يتم دعم البحث بالذكاء الاصطناعي حاليًا فقط على متصفحات سطح المكتب أو الكمبيوتر المحمول. الدعم على الهواتف النقالة قادم قريبًا. للآن، يرجى التبديل إلى جهاز كمبيوتر محمول أو سطح المكتب."
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "إلغاء قفل PDF",
+    "description": "إزالة كلمة المرور والتشفير والإذن من ملف PDF الخاص بك",
+    "seo_title": "إلغاء قفل PDF - إزالة كلمة المرور من ملفات PDF عبر الإنترنت مجانًا | MaxAI.me",
+    "seo_description": "قم بإزالة حماية كلمة المرور من ملفات PDF عبر الإنترنت بسهولة ومجانًا. لا توجد علامات مائية أو حدود لحجم الملف أو تنزيلات أو تسجيلات مطلوبة.",
+    "detail_description_object__unlock_pdf__top_left": "إلغاء قفل ملفات PDF عبر الإنترنت مجانًا عن طريق إزالة كلمات المرور. باستخدام أداة الإلغاء الخاصة بنا، ستظل ملفاتك دائمًا محلية، مما يضمن الخصوصية، ولا توجد حدود لحجم الملفات.",
+    "detail_description_object__unlock_pdf__top_right_1": "إلغاء قفل ملفات PDF بسرعة في بضع ثوانٍ فقط.",
+    "detail_description_object__unlock_pdf__top_right_2": "قم ببساطة بتحميل ملفات PDF الخاصة بك للبدء.",
+    "detail_description_object__unlock_pdf__top_right_3": "متوافق مع Mac و Windows و Android و iOS.",
+    "detail_description_object__unlock_pdf__middle_1_title": "أداة عبر الإنترنت بسيطة لإلغاء قفل ملفات PDF",
+    "detail_description_object__unlock_pdf__middle_1_description": "تتيح لك أداة إلغاء قفل PDF لدينا إزالة حماية كلمة المرور من ملفات PDF بسرعة. قم بتحميل ملفك، أدخل كلمة المرور، وقم بتنزيل الملف PDF المفتوح. إنها سهلة للغاية، مجانية تمامًا، ولا تتطلب تسجيل الدخول.",
+    "detail_description_object__unlock_pdf__middle_2_title": "إلغاء قفل PDF بأمان محلي",
+    "detail_description_object__unlock_pdf__middle_2_description": "يتم معالجة جميع الملفات التي تقوم بتحميلها مباشرة في متصفحك، مما يضمن الخصوصية التامة. لا تتم تحميل الملفات إلى السحابة، مما يضمن أمان البيانات.",
+    "detail_description_object__unlock_pdf__middle_3_title": "توافق متعدد المنصات",
+    "detail_description_object__unlock_pdf__middle_3_description": "أداة إلغاء قفل PDF لدينا تعتمد على المتصفح، مما يعني أنها تعمل بسلاسة على Mac و Windows و Linux، بالإضافة إلى الأجهزة المحمولة. يمكنك بسهولة إلغاء قفل ملفات PDF الخاصة بك من أي مكان.",
+    "detail_description_object__unlock_pdf__middle_4_title": "عملية تشغيل سهلة",
+    "detail_description_object__unlock_pdf__middle_4_description": "إلغاء قفل ملفات PDF الخاصة بك بسيط: قم بتحميل الملف، أدخل كلمة المرور، ثم قم بتنزيل النسخة المفتوحة. حتى المبتدئين يمكنهم تقديم هذه العملية بسهولة.",
+    "detail_description_object__unlock_pdf__middle_5_title": "أداة إلغاء قفل PDF موثوقة",
+    "detail_description_object__unlock_pdf__middle_5_description": "لا حاجة لشراء برامج مكلفة لإلغاء قفل ملفات PDF. أداة إلغاء قفل PDF الخاصة بنا متاحة للاستخدام المجاني عبر الإنترنت دون الحاجة إلى معالجة سحابية، مما يضمن أمان ملفاتك وبياناتك دائمًا.",
+    "detail_description_object__unlock_pdf__middle_6_title": "معالجة محلية لتعزيز الأمان",
+    "detail_description_object__unlock_pdf__middle_6_description": "تضمن خدمتنا لإلغاء القفل أن جميع العمليات تتم محليًا. تعزز هذه الميزة الرئيسية الأمان وتقلل من وقت المعالجة، مما يضمن حماية ملفاتك دائمًا.",
+    "detail_description_object__unlock_pdf__bottom_right_title": "كيفية إلغاء قفل ملفات PDF عبر الإنترنت:",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "قم بتحميل ملف PDF الذي تريد إلغاء قفله.",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "أدخل كلمة المرور لملف PDF التي تعرفها.",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "بمجرد الإلغاء، يمكنك الوصول إلى ملفات PDF الخاصة بك وتحريرها بحرية على أي جهاز.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "انقر على 'إلغاء القفل' لتنزيل ملف PDF المفتوح."
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "الرجاء إدخال كلمة المرور لإلغاء قفل ملف PDF الخاص بك",
+    "components__unlock_pdf_detail_input_placeholder": "كلمة المرور",
+    "components__unlock_pdf_detail__button__unlock": "إلغاء القفل",
+    "components__unlock_pdf_detail__incorrect_password_tips": "كلمة المرور غير صحيحة",
+    "components__unlock_pdf_detail__use_tips": "لن يتم رفع كلمة المرور وملفات PDF إلى الخادم، مما يضمن الأمان."
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "حماية PDF",
+    "description": "أضف حماية بكلمة مرور وتشفير لملفات PDF الخاصة بك لتعزيز الأمان.",
+    "seo_title": "حماية PDF - إضافة تشفير كلمة مرور لملفات PDF عبر الإنترنت مجانًا | MaxAI.me",
+    "seo_description": "أضف بسهولة حماية بكلمة مرور لملفات PDF الخاصة بك عبر الإنترنت مجانًا. لا توجد علامات مائية، أو حدود لحجم الملف، أو تنزيلات، أو تسجيلات مطلوبة.",
+    "detail_description_object__protect_pdf__top_left": "حماية ملفات PDF الخاصة بك بسهولة عبر الإنترنت مجانًا عن طريق إضافة تشفير بكلمة مرور. مع أداتنا، تظل ملفاتك محلية للخصوصية، ولا توجد قيود على الحجم.",
+    "detail_description_object__protect_pdf__top_right_1": "آمن ملفات PDF الخاصة بك بسرعة في بضع ثوانٍ فقط.",
+    "detail_description_object__protect_pdf__top_right_2": "قم ببساطة بتحميل ملفات PDF الخاصة بك للبدء.",
+    "detail_description_object__protect_pdf__top_right_3": "متوافق مع نظامي التشغيل Mac و Windows و Android و iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "أداة عبر الإنترنت بسيطة لحماية ملفات PDF",
+    "detail_description_object__protect_pdf__middle_1_description": "تتيح لك أداة حماية PDF الخاصة بنا إضافة حماية بكلمة مرور بسهولة لملفات PDF الخاصة بك. قم بتحميل مستندك، ثبت كلمة المرور الخاصة بك، وقم بتنزيل ملف PDF المشفر. إنها سهلة الاستخدام للغاية، مجانية تمامًا، ولا تتطلب حسابًا.",
+    "detail_description_object__protect_pdf__middle_2_title": "حماية PDF محلية آمنة",
+    "detail_description_object__protect_pdf__middle_2_description": "يتم معالجة جميع الملفات التي تقوم بتحميلها مباشرة في متصفحك، مما يضمن حماية خصوصيتك. لا تتم تحميل الملفات إلى السحابة، مما يضمن أمان البيانات.",
+    "detail_description_object__protect_pdf__middle_3_title": "توافق متعدد المنصات",
+    "detail_description_object__protect_pdf__middle_3_description": "تعتمد أداة حماية PDF الخاصة بنا على المتصفح، مما يعني أنها تعمل بسلاسة على نظامي التشغيل Mac و Windows و Linux، بالإضافة إلى الأجهزة المحمولة. يمكنك حماية ملفات PDF الخاصة بك بسهولة من أي مكان.",
+    "detail_description_object__protect_pdf__middle_4_title": "عملية تشغيل سهلة",
+    "detail_description_object__protect_pdf__middle_4_description": "حماية ملفات PDF الخاصة بك بسيطة: قم بتحميل الملف، ثبت كلمة المرور الخاصة بك، ثم قم بتنزيل النسخة المحمية بكلمة المرور. حتى المبتدئين يمكنهم اتباع هذه العملية بسهولة.",
+    "detail_description_object__protect_pdf__middle_5_title": "أداة حماية PDF موثوقة",
+    "detail_description_object__protect_pdf__middle_5_description": "لا تحتاج إلى شراء برامج باهظة لحماية ملفات PDF الخاصة بك. تتوفر أداة حماية PDF الخاصة بنا عبر الإنترنت مجانًا، مما يضمن أن ملفاتك وبياناتك دائمًا آمنة دون الحاجة إلى معالجة سحابية.",
+    "detail_description_object__protect_pdf__middle_6_title": "معالجة محلية لتعزيز الأمان",
+    "detail_description_object__protect_pdf__middle_6_description": "تضمن خدمتنا للحماية أن جميع العمليات تتم محليًا. يعزز ذلك الأمان ويسرع من وقت المعالجة، مما يحافظ على سلامة ملفاتك.",
+    "detail_description_object__protect_pdf__bottom_right_title": "كيفية حماية ملفات PDF عبر الإنترنت:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "قم بتحميل ملف PDF الذي ترغب في حمايته.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "قم بتعيين كلمة مرور لملف PDF.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "انقر على 'حماية' لتنزيل ملف PDF المحمي بكلمة المرور.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "بمجرد الحماية، يمكن لأولئك الذين يمتلكون كلمة المرور الوصول إلى ملفات PDF الخاصة بك وتحريرها على أي جهاز."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "حماية",
+    "components__protect_pdf_detail__type_password": " أدخل كلمة المرور",
+    "components__protect_pdf_detail__repeat_type_password": "كرر كلمة المرور",
+    "components__protect_pdf_detail__input__placeholder": "قم بتعيين كلمة المرور الخاصة بك",
+    "components__protect_pdf_detail__repeat_input__placeholder": "تأكيد كلمة المرور",
+    "components__protect_pdf_detail__use_tips": "لن يتم رفع كلمة المرور وملفات PDF إلى الخادم، مما يضمن الأمان."
   }
 }

@@ -52,7 +52,8 @@
     "month": "bulan",
     "unlimited": "Tidak Terhad",
     "most_popular": "Paling Popular",
-    "upgrade_now": "Naik Taraf Sekarang"
+    "upgrade_now": "Naik Taraf Sekarang",
+    "choose_another_file": "Pilih fail lain"
   },
   "button": {
     "add_to_chrome_for_free": "Tambahkan ke Chrome - Percuma",
@@ -669,7 +670,7 @@
     "home_page__how_it_works__step1__title": "Tambah ke pelayar",
     "home_page__how_it_works__step2__title": "Log masuk",
     "home_page__how_it_works__step3__title": "Tingkatkan produktiviti",
-    "home_page__how_it_works__step3__description": "Ringkaskan, cari, baca, dan tulis 10x lebih cepat dengan AI pada setiap halaman web yang anda jelajahi. Jimat berjam-jam setiap hari.",
+    "home_page__how_it_works__step3__description": "Baca lebih cepat. Tulis lebih baik. Dapatkan jawapan. Tingkatkan produktiviti anda di seluruh web dengan AI. Jimat jam setiap hari.",
     "home_page__how_it_works__step1__description": "Tambah sambungan MaxAI.me ke pelayar anda untuk menjimatkan masa pada setiap halaman web dengan AI. Ia percuma dan 100% privasi mesra.",
     "home_page__how_it_works__step2__description": "Mudah log masuk dengan Google atau e-mel. Ia mudah, percuma, dan selamat.",
     "home_page__hero_section__title": "Penasihat penyelidikan dan penulisan berkuasa AI anda",
@@ -728,7 +729,13 @@
     "home_page__features_content__all_in_chatbox__description2": "Cara terpantas untuk mendapatkan jawapan segera di sidebar pelayar.",
     "home_page__features_content__all_in_chatbox__description3": "Menganalisis mana-mana imej dengan visi AI.",
     "home_page__features_content__all_in_chatbox__description4": "Mencipta seni dan imej AI dengan DALLE-3.",
-    "home_page__features_content__ab_test_v4__content2__search__description4": "Papar respon AI di sebelah hasil carian Google."
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Papar respon AI di sebelah hasil carian Google.",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "Tanda Air PDF",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "Tambahkan tanda air ke PDF anda",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Tambahkan tanda air PDF dalam beberapa saat",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "Dipercayai oleh 2.4 bilion orang sejak 2013",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Cara mudah untuk memberi tanda air kepada PDF—tiada pemasangan diperlukan",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Tambahkan cap air ke dokumen PDF dengan PDF Watermarker percuma. Tiada keperluan untuk memuat turun aplikasi–semuanya berfungsi dalam pelayar anda di Mac, Windows, Linux, dan peranti mudah alih."
   },
   "prompt_library": {
     "use_prompt_library__title": "Pustaka prompt AI berkualiti tinggi",
@@ -969,8 +976,8 @@
     "faq__question5__description__part2": "untuk mengesan prestasi rujukan anda."
   },
   "seo": {
-    "default__title": "MaxAI.me: AI dengan 1-Klik di Mana-mana (GPT-4o, Claude 3, Gemini 1.5)",
-    "default__description": "Obrolan AI, penulis ulang, ringkasan, balasan instan, asisten membaca, petunjuk, pencarian, seni, dan penterjemah. Didukung oleh GPT-4o, Claude 3, Gemini 1.5.",
+    "default__title": "MaxAI.me: Baca lebih pantas. Tulis lebih baik. Sambungan AI percuma.",
+    "default__description": "Ringkaskan, jawab soalan, dan perbaiki penulisan di seluruh web dengan AI di Chrome dan Edge. Dikuasakan oleh GPT-4o, Claude-3.5, Gemini-1.5, Llama-3.1, Mistral.",
     "maintain__title": "Dalam Penyelenggaraan | MaxAI.me",
     "affiliate__title": "Program Rakan Kongsi | MaxAI.me",
     "affiliate__description": "Dapatkan bayaran dengan program rakan kongsi MaxAI. Sertai program rakan kongsi kami dan dapatkan komisen 25% untuk berkongsi MaxAI!",
@@ -1059,7 +1066,9 @@
     "use_cases__research__title": "Pembantu penyelidikan dan ringkasan AI | MaxAI.me",
     "use_cases__research__desc": "Tambahkan AI ke pelayar anda untuk meringkaskan dan berbual dengan artikel web, PDF, dan video YouTube bagi menjimatkan masa. Tanyakan soalan kepada AI untuk mendapatkan jawapan cepat bagi mempercepatkan penyelidikan anda. Dikuasakan oleh GPT-4o, Claude-3-Opus, Gemini-1.5-Pro.",
     "use_cases__writing__title": "Pembantu penulisan AI | MaxAI.me",
-    "use_cases__writing__desc": "Tambahkan AI ke pelayar anda untuk meningkatkan dan menyempurnakan penulisan anda pada apa-apa laman web. Hasilkan e-mel yang memikat, artikel, catatan blog, pos media sosial, kertas. Dikuasakan oleh GPT-4o, Claude-3-opus, Gemini-1.5-pro."
+    "use_cases__writing__desc": "Tambahkan AI ke pelayar anda untuk meningkatkan dan menyempurnakan penulisan anda pada apa-apa laman web. Hasilkan e-mel yang memikat, artikel, catatan blog, pos media sosial, kertas. Dikuasakan oleh GPT-4o, Claude-3-opus, Gemini-1.5-pro.",
+    "pdf_tools__pdf_watermark_page__title": "PDF Watermarker Percuma | Cap Air PDF pada mana-mana peranti",
+    "pdf_tools__pdf_watermark_page__description": "Tambahkan cap air ke dokumen PDF dengan mudah. Tiada keperluan untuk memuat turun aplikasi–semuanya berfungsi dalam pelayar anda di Mac, Windows, Linux, dan peranti mudah alih."
   },
   "features_landing": {
     "cta_text": "Tambah ke Pelayar",
@@ -1294,7 +1303,8 @@
     "components__common__drag__dropping_tip": "Anda boleh mengubah susunan dengan menyeret dan menjatuhkan",
     "components__common__upload_button_tips": "atau letakkan fail di sini",
     "components__common__upload_button_title": "PILIH FAIL",
-    "components__common__upload_button__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditetapkan"
+    "components__common__upload_button__unsupported_file_type_tip": "Sila muat naik jenis fail PDF yang ditetapkan",
+    "components__common__select_other_file": "Pilih fail lain"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Hanya gambar jenis imej boleh dimuat naik",
@@ -1431,7 +1441,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "Akses model AI terpintar, semua di satu tempat.",
     "ab_test_v5__features_data__image_ai_queries": "Pertanyaan AI imej",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "10x kreativiti dan produktiviti anda dengan model seni AI yang paling canggih.",
-    "ab_test_v5__features_data__search_faster": "Carian lebih cepat",
+    "ab_test_v5__features_data__search_faster": "Dapatkan jawapan",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Tanya AI apa sahaja di sidebar pelayar",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Berbual dengan semua AI terbaik di satu tempat",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Cari dengan AI di sidebar pelayar",
@@ -1453,7 +1463,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Terjemah",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Terangkan",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Terjemahan dwibahasa sepenuh halaman",
-    "ab_test_v5__features_data__write_faster": "Menulis dengan cepat",
+    "ab_test_v5__features_data__write_faster": "Tulis dengan lebih baik",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "Penulis semula AI pada mana-mana halaman",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Perbaiki penulisan",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Sunting",
@@ -1517,7 +1527,10 @@
     "ab_test_v5__features_data__discord__tooltip": "Jimat masa dalam perbualan mesej Discord. Balas kepada mesej dalam beberapa saat dengan nota ringkas. Tingkatkan nada, periksa ejaan dan tatabahasa. Berkomunikasi dengan lebih efektif dan cekap.",
     "ab_test_v5__features_data__messenger__tooltip": "Jimat masa dalam perbualan mesej Messenger. Balas kepada mesej dalam beberapa saat dengan nota ringkas. Tingkatkan nada, periksa ejaan dan tatabahasa. Berkomunikasi dengan lebih efektif dan cekap.",
     "ab_test_v5__features_data__telegram__tooltip": "Jimat masa dalam perbualan mesej Telegram. Balas kepada mesej dalam beberapa saat dengan nota ringkas. Tingkatkan nada, periksa ejaan dan tatabahasa. Berkomunikasi dengan lebih efektif dan cekap.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Cipta promp sendiri, susun, dan buat mudah untuk capai dan guna semula, untuk diri anda dan pasukan anda."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Cipta promp sendiri, susun, dan buat mudah untuk capai dan guna semula, untuk diri anda dan pasukan anda.",
+    "features_data__llama_3_1_70b__tooltip": "Dikuasakan oleh Meta. 128,000 token maksimum. Model multibahasa yang kuat dengan panjang konteks yang signifikan dan keupayaan penalaran yang diperkukuhkan. Menyokong kes penggunaan canggih seperti ringkasan teks bentuk panjang, ejen perbualan multibahasa, dan bantuan kod.",
+    "features_data__llama_3_1_405b__tooltip": "Dikuasakan oleh Meta. 128,000 token maksimum. Model asas terbuka terbesar di dunia, menandingi kecerdasan buatan sumber tertutup teratas dalam pengetahuan umum, kebolehgerakan dan matematik. Menyokong 8 bahasa dan membolehkan keupayaan canggih seperti generasi data sintetik dan pengekstrakan model. Sesuai untuk ringkasan bentuk panjang, ejen perbualan multibahasa, dan pembantu kod.",
+    "features_data__mistral_large_2__tooltip": "Dikuasakan oleh MistralAI. 128,000 token maksimum. Model unggulan terkini Mistral mendorong batasan kelajuan dan prestasi. Dengan 123 bilion parameter, Mistral-Large-2 unggul dalam penjanaan kod, matematik, dan penalaran merentasi puluhan bahasa. Ia menawarkan halusinasi minimal dan sokongan multibahasa yang mengagumkan untuk kedua-dua bahasa semula jadi dan pengaturcaraan."
   },
   "features__common": {
     "components__upload_button_drop_title": "Letakkan di sini"
@@ -1740,5 +1753,74 @@
     "upgrade_alert__cta_txt": "Lawati Pengurus Sambungan Pelayar",
     "extension_detection_alert__desc": "Untuk terus menggunakan ciri ini, sila pasang sambungan Chrome kami untuk fungsi yang optimum.",
     "mobile_alert__desc": "Carian AI pada masa ini hanya disokong pada pelayar desktop atau laptop. Sokongan mudah alih akan datang tidak lama lagi. Untuk masa ini, sila tukar ke desktop atau laptop."
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "Buka PDF",
+    "description": "Alihkan kata laluan, enkripsi, dan kebenaran dari PDF anda",
+    "seo_title": "Buka PDF - Alihkan Kata Laluan dari Fail PDF Secara Dalam Talian secara Percuma | MaxAI.me",
+    "seo_description": "Alihkan perlindungan kata laluan dari fail PDF secara dalam talian secara percuma. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan.",
+    "detail_description_object__unlock_pdf__top_left": "Alihkan fail PDF secara dalam talian secara percuma dengan mengalihkan kata laluan. Dengan alat pembukaan kami, fail anda akan sentiasa kekal tempatan, memastikan privasi, dan tiada had saiz fail.",
+    "detail_description_object__unlock_pdf__top_right_1": "Alihkan fail PDF dengan pantas hanya dalam beberapa saat.",
+    "detail_description_object__unlock_pdf__top_right_2": "Hanya muat naik fail PDF anda untuk memulakan.",
+    "detail_description_object__unlock_pdf__top_right_3": "Selaras dengan Mac, Windows, Android, dan iOS.",
+    "detail_description_object__unlock_pdf__middle_1_title": "Alat Dalam Talian Mudah untuk Membuka PDF",
+    "detail_description_object__unlock_pdf__middle_1_description": "Alat pembukaan PDF kami membolehkan anda mengalihkan perlindungan kata laluan dari fail PDF dengan cepat. Hanya muat naik fail anda, masukkan kata laluan, dan muat turun PDF yang telah dibuka. Sangat mudah, sepenuhnya percuma, dan tiada pendaftaran akaun diperlukan.",
+    "detail_description_object__unlock_pdf__middle_2_title": "Pembukaan PDF Tempatan Selamat",
+    "detail_description_object__unlock_pdf__middle_2_description": "Semua fail yang anda muat naik diproses terus dalam pelayar anda, memastikan privasi yang lengkap. Tiada fail yang dimuat naik ke awan, menjamin keselamatan data.",
+    "detail_description_object__unlock_pdf__middle_3_title": "Keserasian Pelantar Silang",
+    "detail_description_object__unlock_pdf__middle_3_description": "Alat pembukaan PDF kami berdasarkan pelayar, bermakna ia berfungsi dengan lancar pada Mac, Windows, dan Linux, serta peranti mudah alih. Anda boleh dengan mudah membuka fail PDF anda dari mana-mana sahaja.",
+    "detail_description_object__unlock_pdf__middle_4_title": "Proses Operasi Mudah",
+    "detail_description_object__unlock_pdf__middle_4_description": "Membuka fail PDF anda adalah mudah: muat naik fail, masukkan kata laluan, dan kemudian muat turun versi yang telah dibuka. Malah pemula pun boleh menguasai proses ini dengan mudah.",
+    "detail_description_object__unlock_pdf__middle_5_title": "Alat Pembukaan PDF Yang Dipercayai",
+    "detail_description_object__unlock_pdf__middle_5_description": "Tiada keperluan untuk membeli perisian mahal untuk membuka fail PDF. Alat pembukaan PDF kami boleh digunakan secara percuma dalam talian tanpa perlu pemprosesan awan, memastikan fail dan data anda sentiasa selamat.",
+    "detail_description_object__unlock_pdf__middle_6_title": "Pemprosesan Tempatan untuk Keselamatan Ditingkatkan",
+    "detail_description_object__unlock_pdf__middle_6_description": "Perkhidmatan pembukaan kami memastikan semua operasi dilakukan secara tempatan. Ciri utama ini meningkatkan keselamatan dan mengurangkan masa pemprosesan, memastikan fail anda sentiasa dilindungi.",
+    "detail_description_object__unlock_pdf__bottom_right_title": "Cara Membuka Fail PDF Secara Dalam Talian:",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "Muat naik fail PDF yang ingin anda buka.",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "Masukkan kata laluan untuk fail PDF yang anda tahu.",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Setelah dibuka, anda boleh dengan bebas mengakses dan mengedit fail PDF anda pada mana-mana peranti.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Klik ‘Buka kunci’ untuk muat turun fail PDF yang dibuka."
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "Sila masukkan kata laluan untuk membuka PDF anda",
+    "components__unlock_pdf_detail_input_placeholder": "Kata Laluan",
+    "components__unlock_pdf_detail__button__unlock": "Buka",
+    "components__unlock_pdf_detail__incorrect_password_tips": "Kata laluan tidak betul",
+    "components__unlock_pdf_detail__use_tips": "Kata laluan dan fail PDF tidak akan dimuat naik ke pelayan, memastikan keselamatan."
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "Lindungi PDF",
+    "description": "Tambah perlindungan kata laluan dan enkripsi ke fail PDF anda untuk keselamatan yang dipertingkatkan.",
+    "seo_title": "Lindungi PDF - Tambah Enkripsi Kata Laluan ke Fail PDF Secara Dalam Talian secara Percuma | MaxAI.me",
+    "seo_description": "Tambah perlindungan kata laluan ke fail PDF anda secara dalam talian secara percuma. Tiada cap air, had saiz fail, muat turun, atau pendaftaran diperlukan.",
+    "detail_description_object__protect_pdf__top_left": "Lindungi fail PDF anda secara dalam talian secara percuma dengan menambah enkripsi kata laluan. Dengan alat kami, fail anda kekal tempatan untuk privasi, dan tiada had saiz.",
+    "detail_description_object__protect_pdf__top_right_1": "Selamatkan fail PDF anda dengan pantas hanya dalam beberapa saat.",
+    "detail_description_object__protect_pdf__top_right_2": "Hanya muat naik fail PDF anda untuk memulakan.",
+    "detail_description_object__protect_pdf__top_right_3": "Selaras dengan Mac, Windows, Android, dan iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "Alat Dalam Talian Mudah untuk Melindungi PDF",
+    "detail_description_object__protect_pdf__middle_1_description": "Alat perlindungan PDF kami membolehkan anda dengan mudah menambah perlindungan kata laluan ke fail PDF anda. Hanya muat naik dokumen anda, tetapkan kata laluan anda, dan muat turun PDF yang dienkripsi. Ia sangat mesra pengguna, benar-benar percuma, dan tidak memerlukan akaun.",
+    "detail_description_object__protect_pdf__middle_2_title": "Perlindungan PDF Selamat Tempatan",
+    "detail_description_object__protect_pdf__middle_2_description": "Semua fail yang anda muat naik diproses terus dalam pelayar anda, memastikan privasi anda dilindungi. Tiada fail yang dimuat naik ke awan, menjamin keselamatan data.",
+    "detail_description_object__protect_pdf__middle_3_title": "Kecocokan Pelantar Silang",
+    "detail_description_object__protect_pdf__middle_3_description": "Alat perlindungan PDF kami berdasarkan pelayar, bermakna ia berfungsi dengan lancar di Mac, Windows, dan Linux, serta peranti mudah alih. Anda boleh dengan mudah melindungi fail PDF anda dari mana-mana sahaja.",
+    "detail_description_object__protect_pdf__middle_4_title": "Proses Operasi Mudah",
+    "detail_description_object__protect_pdf__middle_4_description": "Melindungi fail PDF anda adalah mudah: muat naik fail, tetapkan kata laluan anda, dan kemudian muat turun versi yang dilindungi kata laluan. Malah pemula pun boleh mengikuti proses mudah ini dengan lancar.",
+    "detail_description_object__protect_pdf__middle_5_title": "Alat Perlindungan PDF Yang Dipercayai",
+    "detail_description_object__protect_pdf__middle_5_description": "Anda tidak perlu membeli perisian mahal untuk melindungi fail PDF anda. Alat perlindungan PDF dalam talian kami boleh didapati secara percuma, memastikan fail dan data anda sentiasa selamat tanpa perlu pemprosesan awan.",
+    "detail_description_object__protect_pdf__middle_6_title": "Pemprosesan Tempatan untuk Keselamatan Dipertingkatkan",
+    "detail_description_object__protect_pdf__middle_6_description": "Perkhidmatan perlindungan kami memastikan semua operasi dijalankan secara tempatan. Ini meningkatkan keselamatan dan mempercepatkan masa pemprosesan, menjaga fail anda dengan selamat.",
+    "detail_description_object__protect_pdf__bottom_right_title": "Cara Melindungi Fail PDF Secara Dalam Talian:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Muat naik fail PDF yang anda ingin lindungi.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Tetapkan kata laluan untuk fail PDF.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Klik 'Lindungi' untuk muat turun fail PDF yang dilindungi kata laluan.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Setelah dilindungi, hanya mereka yang mempunyai kata laluan boleh mengakses dan mengedit fail PDF anda pada mana-mana peranti."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Lindungi",
+    "components__protect_pdf_detail__type_password": " Taip kata laluan",
+    "components__protect_pdf_detail__repeat_type_password": "Ulang kata laluan",
+    "components__protect_pdf_detail__input__placeholder": "Tetapkan kata laluan anda",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Sahkan kata laluan anda",
+    "components__protect_pdf_detail__use_tips": "Kata laluan dan fail PDF tidak akan dimuat naik ke pelayan, memastikan keselamatan."
   }
 }

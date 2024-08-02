@@ -52,7 +52,8 @@
     "month": "maand",
     "unlimited": "Onbeperkt",
     "most_popular": "Meest populair",
-    "upgrade_now": "Nu upgraden"
+    "upgrade_now": "Nu upgraden",
+    "choose_another_file": "Kies een ander bestand"
   },
   "button": {
     "add_to_chrome_for_free": "Toevoegen aan Chrome - Gratis",
@@ -669,7 +670,7 @@
     "home_page__how_it_works__step1__title": "Voeg toe aan browser",
     "home_page__how_it_works__step2__title": "Aanmelden",
     "home_page__how_it_works__step3__title": "Productiviteit verhogen",
-    "home_page__how_it_works__step3__description": "Samenvatten, zoeken, lezen en schrijven 10x sneller met AI op elke webpagina die je bekijkt. Bespaar elke dag uren.",
+    "home_page__how_it_works__step3__description": "Lees sneller. Schrijf beter. Krijg antwoorden. Stimuleer uw productiviteit op het web met AI. Bespaar elke dag uren.",
     "home_page__how_it_works__step1__description": "Voeg de MaxAI.me-extensie toe aan je browser om tijd te besparen op elke webpagina met AI. Het is gratis en 100% privacyvriendelijk.",
     "home_page__how_it_works__step2__description": "Meld je eenvoudig aan met Google of e-mail. Het is eenvoudig, gratis en veilig.",
     "home_page__hero_section__title": "Uw AI-aangedreven onderzoeks- en schrijfassistent",
@@ -728,7 +729,13 @@
     "home_page__features_content__all_in_chatbox__description2": "De snelste manier om directe antwoorden te krijgen in de browser zijbalk.",
     "home_page__features_content__all_in_chatbox__description3": "Analyseer elke afbeelding met AI-visie.",
     "home_page__features_content__all_in_chatbox__description4": "Creëer AI-kunst en afbeeldingen met DALLE-3.",
-    "home_page__features_content__ab_test_v4__content2__search__description4": "Toon AI-responsen naast Google-zoekresultaten."
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Toon AI-responsen naast Google-zoekresultaten.",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "Watermerk PDF",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "Voeg een watermerk toe aan uw PDF's",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Voeg PDF-watermerken toe in seconden",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "Vertrouwd door 2,4 miljard mensen sinds 2013",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Eenvoudige manier om PDF's te voorzien van een watermerk - geen installatie nodig",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Voeg een watermerk toe aan PDF-documenten met een gratis PDF-watermerk. Geen app downloaden nodig - alles werkt in uw browser op Mac, Windows, Linux en mobiele apparaten."
   },
   "prompt_library": {
     "use_prompt_library__title": "Hoogwaardige AI-promptbibliotheek",
@@ -969,8 +976,8 @@
     "faq__question5__description__part2": "om uw verwijzingsprestaties bij te houden."
   },
   "seo": {
-    "default__title": "MaxAI.me: 1-Klik AI Overal (GPT-4o, Claude 3, Gemini 1.5)",
-    "default__description": "AI chat, herschrijver, samenvatting, direct antwoord, leesassistent, prompts, zoekopdracht, kunst en vertaler. Aangedreven door GPT-4o, Claude 3, Gemini 1.5.",
+    "default__title": "MaxAI.me: Sneller lezen. Beter schrijven. Gratis AI-extensie.",
+    "default__description": "Samenvatten, vragen beantwoorden en schrijven verbeteren op het web met AI in Chrome en Edge. Aangedreven door GPT-4o, Claude-3.5, Gemini-1.5, Llama-3.1, Mistral.",
     "maintain__title": "In onderhoud | MaxAI.me",
     "affiliate__title": "Affiliate Programma | MaxAI.me",
     "affiliate__description": "Word betaald met het MaxAI-partnerprogramma. Doe mee aan ons partnerprogramma en verdien 25% commissie door MaxAI te delen!",
@@ -1059,7 +1066,9 @@
     "use_cases__research__title": "AI-onderzoek en samenvattingsassistent | MaxAI.me",
     "use_cases__research__desc": "Voeg AI toe aan je browser om webartikelen, PDF's en YouTube-video's samen te vatten en ermee te chatten om tijd te besparen. Stel AI-vragen voor snelle antwoorden om je onderzoek te versnellen. Aangedreven door GPT-4o, Claude-3-Opus, Gemini-1.5-Pro.",
     "use_cases__writing__title": "AI-schrijfassistent | MaxAI.me",
-    "use_cases__writing__desc": "Voeg AI toe aan je browser om je schrijven op elke webpagina te verbeteren en te polijsten. Genereer overtuigende e-mails, artikelen, blogposts, social media berichten, papers. Aangedreven door GPT-4o, Claude-3-opus, Gemini-1.5-pro."
+    "use_cases__writing__desc": "Voeg AI toe aan je browser om je schrijven op elke webpagina te verbeteren en te polijsten. Genereer overtuigende e-mails, artikelen, blogposts, social media berichten, papers. Aangedreven door GPT-4o, Claude-3-opus, Gemini-1.5-pro.",
+    "pdf_tools__pdf_watermark_page__title": "Gratis PDF-watermerk | Watermerk PDF's op elk apparaat",
+    "pdf_tools__pdf_watermark_page__description": "Voeg eenvoudig een watermerk toe aan PDF-documenten. Geen app downloaden nodig - alles werkt in uw browser op Mac, Windows, Linux en mobiele apparaten."
   },
   "features_landing": {
     "cta_text": "Toevoegen aan browser",
@@ -1294,7 +1303,8 @@
     "components__common__drag__dropping_tip": "U kunt de volgorde aanpassen door te slepen en neer te zetten",
     "components__common__upload_button_tips": "of plaats bestanden hier",
     "components__common__upload_button_title": "KIES BESTANDEN",
-    "components__common__upload_button__unsupported_file_type_tip": "Upload het gespecificeerde PDF-bestandstype"
+    "components__common__upload_button__unsupported_file_type_tip": "Upload het gespecificeerde PDF-bestandstype",
+    "components__common__select_other_file": "Kies een ander bestand"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Alleen afbeeldingen van het type afbeelding kunnen worden geüpload",
@@ -1431,7 +1441,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "Toegang tot de slimste AI-modellen, allemaal op één plek.",
     "ab_test_v5__features_data__image_ai_queries": "Afbeelding AI-vragen",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "Verhoog uw creativiteit en productiviteit met de meest geavanceerde AI-kunstmodellen.",
-    "ab_test_v5__features_data__search_faster": "Sneller zoeken",
+    "ab_test_v5__features_data__search_faster": "Krijg antwoorden",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Vraag AI iets in de browser zijbalk",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Chat met alle beste AI op één plek",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Zoek met AI in de browser zijbalk",
@@ -1453,7 +1463,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Vertalen",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Uitleggen",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Volledige tweetalige vertaling",
-    "ab_test_v5__features_data__write_faster": "Sneller schrijven",
+    "ab_test_v5__features_data__write_faster": "Schrijf beter",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "AI herschrijver op elke pagina",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Schrijven verbeteren",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Controleren",
@@ -1517,7 +1527,10 @@
     "ab_test_v5__features_data__telegram__tooltip": "Bespaar tijd bij Telegram-berichtcorrespondentie. Reageer op berichten in enkele seconden met korte notities. Verbeter toon, controleer spelling en grammatica. Communiceer effectiever en efficiënter.",
     "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Maak je eigen prompts, organiseer ze en maak ze gemakkelijk toegankelijk en herbruikbaar, voor jezelf en je team.",
     "ab_test_v5__features_data__write_faster__social_media_instant_reply": "Direct antwoord op sociale media",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply": "Direct antwoord op berichten"
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply": "Direct antwoord op berichten",
+    "features_data__llama_3_1_70b__tooltip": "Aangedreven door Meta. 128.000 max tokens. Een krachtig meertalig model met aanzienlijk uitgebreide contextlengte en verbeterde redeneervermogen. Ondersteunt geavanceerde gebruiksscenario's zoals samenvatting van lange teksten, meertalige conversatie-agenten en coderingsondersteuning.",
+    "features_data__llama_3_1_405b__tooltip": "Aangedreven door Meta. 128.000 max tokens. 's Werelds grootste openlijk beschikbare foundation model, dat de top gesloten-source AI evenaart in algemene kennis, stuurbaarheid en wiskunde. Ondersteunt 8 talen en maakt geavanceerde mogelijkheden mogelijk zoals generatie van synthetische data en modeldestillatie. Ideaal voor samenvatting van lange teksten, meertalige conversatie-agenten en coderingsassistenten.",
+    "features_data__mistral_large_2__tooltip": "Aangedreven door MistralAI. 128.000 max tokens. Het nieuwste vlaggenschipmodel van Mistral verlegt de grenzen van snelheid en prestaties. Met 123 miljard parameters blinkt Mistral-Large-2 uit in codegeneratie, wiskunde en redeneren in tientallen talen. Het biedt minimale hallucinatie en indrukwekkende meertalige ondersteuning voor zowel natuurlijke als programmeertalen."
   },
   "features__common": {
     "components__upload_button_drop_title": "Plaats hier"
@@ -1740,5 +1753,74 @@
     "upgrade_alert__cta_txt": "Bezoek Browserextensiebeheerder",
     "extension_detection_alert__desc": "Om deze functie te blijven gebruiken, installeer onze Chrome-extensie voor optimale functionaliteit.",
     "mobile_alert__desc": "AI-zoeken wordt momenteel alleen ondersteund op desktop- of laptopbrowsers. Mobiele ondersteuning komt binnenkort. Schakel voor nu over naar een desktop of laptop."
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "PDF Ontgrendelen",
+    "description": "Verwijder wachtwoord, versleuteling en toestemming van je PDF",
+    "seo_title": "PDF Ontgrendelen - Verwijder Wachtwoord van PDF-bestanden Online Gratis | MaxAI.me",
+    "seo_description": "Verwijder eenvoudig wachtwoordbeveiliging van PDF-bestanden online gratis. Geen watermerken, bestandsgroottelimieten, downloads of aanmeldingen zijn vereist.",
+    "detail_description_object__unlock_pdf__top_left": "Ontgrendel PDF-bestanden eenvoudig online gratis door wachtwoorden te verwijderen. Met onze ontgrendelingstool blijven je bestanden altijd lokaal, wat privacy waarborgt, en er zijn geen bestandsgroottelimieten.",
+    "detail_description_object__unlock_pdf__top_right_1": "Ontgrendel PDF-bestanden snel in slechts een paar seconden.",
+    "detail_description_object__unlock_pdf__top_right_2": "Upload eenvoudig je PDF-bestanden om te beginnen.",
+    "detail_description_object__unlock_pdf__top_right_3": "Compatibel met Mac, Windows, Android en iOS.",
+    "detail_description_object__unlock_pdf__middle_1_title": "Eenvoudige Online Tool om PDF's te Ontgrendelen",
+    "detail_description_object__unlock_pdf__middle_1_description": "Onze PDF-ontgrendelingstool stelt je in staat om wachtwoordbeveiliging van PDF-bestanden snel te verwijderen. Upload gewoon je bestand, voer het wachtwoord in en download de ontgrendelde PDF. Het is ongelooflijk eenvoudig, volledig gratis en er is geen accountregistratie vereist.",
+    "detail_description_object__unlock_pdf__middle_2_title": "Lokale Veilige PDF-ontgrendeling",
+    "detail_description_object__unlock_pdf__middle_2_description": "Alle bestanden die je uploadt worden rechtstreeks in je browser verwerkt, wat volledige privacy garandeert. Er worden geen bestanden naar de cloud geüpload, wat gegevensbeveiliging garandeert.",
+    "detail_description_object__unlock_pdf__middle_3_title": "Cross-Platform Compatibiliteit",
+    "detail_description_object__unlock_pdf__middle_3_description": "Onze PDF-ontgrendelingstool is op de browser gebaseerd, wat betekent dat het naadloos werkt op Mac, Windows en Linux, evenals op mobiele apparaten. Je kunt eenvoudig je PDF-bestanden ontgrendelen vanaf elke locatie.",
+    "detail_description_object__unlock_pdf__middle_4_title": "Eenvoudig Bedieningsproces",
+    "detail_description_object__unlock_pdf__middle_4_description": "Het ontgrendelen van je PDF-bestanden is eenvoudig: upload het bestand, voer het wachtwoord in en download vervolgens de ontgrendelde versie. Zelfs beginners kunnen dit proces moeiteloos beheersen.",
+    "detail_description_object__unlock_pdf__middle_5_title": "Betrouwbare PDF-ontgrendelingstool",
+    "detail_description_object__unlock_pdf__middle_5_description": "Er is geen behoefte om dure software aan te schaffen om PDF-bestanden te ontgrendelen. Onze PDF-ontgrendelingstool is gratis online beschikbaar zonder de noodzaak voor cloudverwerking, wat ervoor zorgt dat je bestanden en gegevens altijd veilig zijn.",
+    "detail_description_object__unlock_pdf__middle_6_title": "Lokale Verwerking voor Verbeterde Beveiliging",
+    "detail_description_object__unlock_pdf__middle_6_description": "Onze ontgrendelingsservice zorgt ervoor dat alle handelingen lokaal worden uitgevoerd. Deze belangrijke functie verbetert de beveiliging en vermindert de verwerkingstijd, waardoor je bestanden altijd beschermd zijn.",
+    "detail_description_object__unlock_pdf__bottom_right_title": "Hoe PDF-bestanden Online te Ontgrendelen:",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "Upload het PDF-bestand dat je wilt ontgrendelen.",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "Voer het wachtwoord in voor het PDF-bestand dat je kent.",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Eenmaal ontgrendeld, kun je vrijelijk toegang krijgen en je PDF-bestanden bewerken op elk apparaat.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Klik op 'Ontgrendelen' om het ontgrendelde PDF-bestand te downloaden."
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "Voer het wachtwoord in om je PDF te ontgrendelen",
+    "components__unlock_pdf_detail_input_placeholder": "Wachtwoord",
+    "components__unlock_pdf_detail__button__unlock": "Ontgrendelen",
+    "components__unlock_pdf_detail__incorrect_password_tips": "Onjuist wachtwoord",
+    "components__unlock_pdf_detail__use_tips": "Het wachtwoord en PDF-bestanden worden niet geüpload naar de server, wat zorgt voor beveiliging."
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "Beveilig PDF",
+    "description": "Voeg wachtwoordbeveiliging en versleuteling toe aan uw PDF-bestanden voor verbeterde beveiliging.",
+    "seo_title": "Beveilig PDF - Voeg Wachtwoordversleuteling toe aan PDF-bestanden Online Gratis | MaxAI.me",
+    "seo_description": "Voeg eenvoudig wachtwoordbeveiliging toe aan uw PDF-bestanden online gratis. Geen watermerken, bestandsgroottelimieten, downloads of aanmeldingen vereist.",
+    "detail_description_object__protect_pdf__top_left": "Beveilig eenvoudig uw PDF-bestanden online gratis door wachtwoordversleuteling toe te voegen. Met onze tool blijven uw bestanden lokaal voor privacy en er zijn geen groottebeperkingen.",
+    "detail_description_object__protect_pdf__top_right_1": "Beveilig snel uw PDF-bestanden in slechts een paar seconden.",
+    "detail_description_object__protect_pdf__top_right_2": "Upload eenvoudig uw PDF-bestanden om te beginnen.",
+    "detail_description_object__protect_pdf__top_right_3": "Compatibel met Mac, Windows, Android en iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "Eenvoudige Online Tool om PDF's te Beveiligen",
+    "detail_description_object__protect_pdf__middle_1_description": "Onze PDF-beveiligingstool stelt u in staat om eenvoudig wachtwoordbeveiliging toe te voegen aan uw PDF-bestanden. Upload gewoon uw document, stel uw wachtwoord in en download de versleutelde PDF. Het is ongelooflijk gebruiksvriendelijk, volledig gratis en vereist geen account.",
+    "detail_description_object__protect_pdf__middle_2_title": "Lokale Veilige PDF-beveiliging",
+    "detail_description_object__protect_pdf__middle_2_description": "Alle bestanden die u uploadt worden rechtstreeks in uw browser verwerkt, waardoor uw privacy wordt beschermd. Er worden geen bestanden geüpload naar de cloud, wat zorgt voor gegevensbeveiliging.",
+    "detail_description_object__protect_pdf__middle_3_title": "Cross-Platform Compatibiliteit",
+    "detail_description_object__protect_pdf__middle_3_description": "Onze PDF-beveiligingstool is op browser gebaseerd, wat betekent dat het naadloos werkt op Mac, Windows en Linux, evenals op mobiele apparaten. U kunt eenvoudig uw PDF-bestanden vanaf elke locatie beveiligen.",
+    "detail_description_object__protect_pdf__middle_4_title": "Eenvoudig Bedieningsproces",
+    "detail_description_object__protect_pdf__middle_4_description": "Het beveiligen van uw PDF-bestanden is eenvoudig: upload het bestand, stel uw wachtwoord in en download vervolgens de met wachtwoord beveiligde versie. Zelfs beginners kunnen dit eenvoudige proces moeiteloos volgen.",
+    "detail_description_object__protect_pdf__middle_5_title": "Betrouwbare PDF-beveiligingstool",
+    "detail_description_object__protect_pdf__middle_5_description": "U hoeft geen dure software aan te schaffen om uw PDF-bestanden te beveiligen. Onze online PDF-beveiligingstool is gratis beschikbaar en zorgt ervoor dat uw bestanden en gegevens altijd veilig zijn zonder de noodzaak van cloudverwerking.",
+    "detail_description_object__protect_pdf__middle_6_title": "Lokale Verwerking voor Verbeterde Beveiliging",
+    "detail_description_object__protect_pdf__middle_6_description": "Onze beveiligingsservice zorgt ervoor dat alle bewerkingen lokaal worden uitgevoerd. Dit verbetert de beveiliging en versnelt de verwerkingstijd, waardoor uw bestanden veilig blijven.",
+    "detail_description_object__protect_pdf__bottom_right_title": "Hoe PDF-bestanden Online te Beveiligen:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Upload het PDF-bestand dat u wilt beveiligen.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Stel een wachtwoord in voor het PDF-bestand.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Klik op 'Beveiligen' om het met een wachtwoord beveiligde PDF-bestand te downloaden.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Eenmaal beveiligd, kunnen alleen degenen met het wachtwoord uw PDF-bestanden openen en bewerken op elk apparaat."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Beveiligen",
+    "components__protect_pdf_detail__type_password": " Typ wachtwoord",
+    "components__protect_pdf_detail__repeat_type_password": "Herhaal wachtwoord",
+    "components__protect_pdf_detail__input__placeholder": "Stel uw wachtwoord in",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Bevestig uw wachtwoord",
+    "components__protect_pdf_detail__use_tips": "Het wachtwoord en PDF-bestanden worden niet geüpload naar de server, wat zorgt voor beveiliging."
   }
 }

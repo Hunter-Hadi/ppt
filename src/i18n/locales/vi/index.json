@@ -52,7 +52,8 @@
     "month": "tháng",
     "unlimited": "Không giới hạn",
     "most_popular": "Phổ biến nhất",
-    "upgrade_now": "Nâng cấp ngay"
+    "upgrade_now": "Nâng cấp ngay",
+    "choose_another_file": "Chọn tệp khác"
   },
   "button": {
     "add_to_chrome_for_free": "Thêm vào Chrome - Miễn phí",
@@ -669,7 +670,7 @@
     "home_page__how_it_works__step1__title": "Thêm vào trình duyệt",
     "home_page__how_it_works__step2__title": "Đăng nhập",
     "home_page__how_it_works__step3__title": "Nâng cao năng suất",
-    "home_page__how_it_works__step3__description": "Tóm tắt, tìm kiếm, đọc và viết nhanh gấp 10 lần với trí tuệ nhân tạo trên bất kỳ trang web nào bạn duyệt. Tiết kiệm hàng giờ mỗi ngày.",
+    "home_page__how_it_works__step3__description": "Đọc nhanh hơn. Viết tốt hơn. Nhận câu trả lời. Tăng cường năng suất của bạn trên web với trí tuệ nhân tạo. Tiết kiệm giờ làm việc mỗi ngày.",
     "home_page__how_it_works__step1__description": "Thêm tiện ích MaxAI.me vào trình duyệt của bạn để tiết kiệm thời gian trên mọi trang web với AI. Miễn phí và bảo mật 100%.",
     "home_page__how_it_works__step2__description": "Dễ dàng đăng nhập bằng Google hoặc email. Đơn giản, miễn phí và an toàn.",
     "home_page__hero_section__title": "Trợ lý nghiên cứu và viết bài của bạn được trang bị trí tuệ nhân tạo",
@@ -728,7 +729,13 @@
     "home_page__features_content__all_in_chatbox__description2": "Cách nhanh nhất để nhận câu trả lời ngay lập tức ngay trong thanh bên trình duyệt.",
     "home_page__features_content__all_in_chatbox__description3": "Phân tích bất kỳ hình ảnh nào với trí tuệ nhân tạo.",
     "home_page__features_content__all_in_chatbox__description4": "Tạo nghệ thuật và hình ảnh trí tuệ nhân tạo với DALLE-3.",
-    "home_page__features_content__ab_test_v4__content2__search__description4": "Hiển thị phản hồi AI kế bên kết quả tìm kiếm Google."
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Hiển thị phản hồi AI kế bên kết quả tìm kiếm Google.",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "Thêm Watermark vào PDF",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "Thêm watermark vào tệp PDF của bạn",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Thêm watermark vào PDF trong vài giây",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "Được tin cậy bởi 2.4 tỷ người từ năm 2013",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Cách dễ dàng để thêm watermark vào PDF - không cần cài đặt",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Thêm dấu nước vào tài liệu PDF với PDF Watermarker miễn phí. Không cần tải ứng dụng - mọi thứ hoạt động trong trình duyệt của bạn trên Mac, Windows, Linux và thiết bị di động."
   },
   "prompt_library": {
     "use_prompt_library__title": "Thư viện gợi ý AI chất lượng cao",
@@ -969,8 +976,8 @@
     "faq__question5__description__part2": "để theo dõi hiệu suất giới thiệu của bạn."
   },
   "seo": {
-    "default__title": "MaxAI.me: AI Mọi Nơi Chỉ Với 1 Nhấp Chuột (GPT-4o, Claude 3, Gemini 1.5)",
-    "default__description": "Trò chuyện AI, viết lại, tóm tắt, trả lời tức thì, trợ lí đọc, gợi ý, tìm kiếm, nghệ thuật và dịch thuật. Được cung cấp bởi GPT-4o, Claude 3, Gemini 1.5.",
+    "default__title": "MaxAI.me: Đọc nhanh hơn. Viết tốt hơn. Tiện ích AI miễn phí.",
+    "default__description": "Tóm tắt, trả lời câu hỏi, và chỉnh sửa văn bản trên web với AI trên Chrome và Edge. Được cung cấp bởi GPT-4o, Claude-3.5, Gemini-1.5, Llama-3.1, Mistral.",
     "maintain__title": "Đang bảo trì | MaxAI.me",
     "affiliate__title": "Chương trình liên kết | MaxAI.me",
     "affiliate__description": "Nhận tiền với chương trình liên kết MaxAI. Tham gia chương trình liên kết của chúng tôi và kiếm 25% hoa hồng khi chia sẻ MaxAI!",
@@ -1059,7 +1066,9 @@
     "use_cases__research__title": "Trợ lý nghiên cứu và tóm tắt AI | MaxAI.me",
     "use_cases__research__desc": "Thêm AI vào trình duyệt của bạn để tóm tắt và trò chuyện với các bài viết web, PDF và video YouTube để tiết kiệm thời gian. Hỏi AI câu hỏi để nhận câu trả lời nhanh chóng và tăng tốc quá trình nghiên cứu của bạn. Được cung cấp bởi GPT-4o, Claude-3-Opus, Gemini-1.5-Pro.",
     "use_cases__writing__title": "Trợ lý viết AI | MaxAI.me",
-    "use_cases__writing__desc": "Thêm AI vào trình duyệt của bạn để cải thiện và hoàn thiện văn bản trên bất kỳ trang web nào. Tạo ra các email, bài viết, bài đăng blog, bài viết truyền thông xã hội, luận văn hấp dẫn. Được cung cấp bởi GPT-4o, Claude-3-opus, Gemini-1.5-pro."
+    "use_cases__writing__desc": "Thêm AI vào trình duyệt của bạn để cải thiện và hoàn thiện văn bản trên bất kỳ trang web nào. Tạo ra các email, bài viết, bài đăng blog, bài viết truyền thông xã hội, luận văn hấp dẫn. Được cung cấp bởi GPT-4o, Claude-3-opus, Gemini-1.5-pro.",
+    "pdf_tools__pdf_watermark_page__title": "PDF Watermarker Miễn Phí | Đánh dấu PDF trên bất kỳ thiết bị nào",
+    "pdf_tools__pdf_watermark_page__description": "Dễ dàng thêm dấu nước vào tài liệu PDF. Không cần tải ứng dụng - mọi thứ hoạt động trong trình duyệt của bạn trên Mac, Windows, Linux và thiết bị di động."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Chọn tất cả",
@@ -1294,7 +1303,8 @@
     "components__common__drag__dropping_tip": "Bạn có thể điều chỉnh thứ tự bằng cách kéo và thả",
     "components__common__upload_button_tips": "hoặc thả tệp vào đây",
     "components__common__upload_button_title": "CHỌN TỆP",
-    "components__common__upload_button__unsupported_file_type_tip": "Vui lòng tải lên loại file PDF đã chỉ định"
+    "components__common__upload_button__unsupported_file_type_tip": "Vui lòng tải lên loại file PDF đã chỉ định",
+    "components__common__select_other_file": "Chọn tệp khác"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Chỉ có thể tải lên hình ảnh loại hình ảnh",
@@ -1431,7 +1441,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "Truy cập các mô hình AI thông minh nhất, tất cả tại một nơi.",
     "ab_test_v5__features_data__image_ai_queries": "Truy vấn AI hình ảnh",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "Tăng gấp 10 lần sự sáng tạo và năng suất với các mô hình nghệ thuật AI tiên tiến nhất.",
-    "ab_test_v5__features_data__search_faster": "Tìm kiếm nhanh hơn",
+    "ab_test_v5__features_data__search_faster": "Nhận câu trả lời",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Hỏi AI bất cứ điều gì trên thanh bên trình duyệt",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Trò chuyện với tất cả các AI hàng đầu tại một nơi",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Tìm kiếm với AI trên thanh bên trình duyệt",
@@ -1453,7 +1463,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Dịch",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Giải thích",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Dịch toàn bộ trang song ngữ",
-    "ab_test_v5__features_data__write_faster": "Viết nhanh hơn",
+    "ab_test_v5__features_data__write_faster": "Viết tốt hơn",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "AI rewriter trên mọi trang",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Cải thiện viết",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Kiểm tra lỗi",
@@ -1517,7 +1527,10 @@
     "ab_test_v5__features_data__discord__tooltip": "Tiết kiệm thời gian trong việc trao đổi tin nhắn Discord. Trả lời tin nhắn trong vài giây với ghi chú ngắn. Cải thiện tông, kiểm tra chính tả và ngữ pháp. Giao tiếp hiệu quả và hiệu quả hơn.",
     "ab_test_v5__features_data__messenger__tooltip": "Tiết kiệm thời gian trong việc trao đổi tin nhắn Messenger. Trả lời tin nhắn trong vài giây với ghi chú ngắn. Cải thiện tông, kiểm tra chính tả và ngữ pháp. Giao tiếp hiệu quả và hiệu quả hơn.",
     "ab_test_v5__features_data__telegram__tooltip": "Tiết kiệm thời gian trong việc trao đổi tin nhắn Telegram. Trả lời tin nhắn trong vài giây với ghi chú ngắn. Cải thiện tông, kiểm tra chính tả và ngữ pháp. Giao tiếp hiệu quả và hiệu quả hơn.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Tạo bộ tạo bản nháp của riêng bạn, tổ chức chúng và dễ dàng truy cập và tái sử dụng, cho bản thân và nhóm của bạn."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Tạo bộ tạo bản nháp của riêng bạn, tổ chức chúng và dễ dàng truy cập và tái sử dụng, cho bản thân và nhóm của bạn.",
+    "features_data__llama_3_1_70b__tooltip": "Được cung cấp bởi Meta. 128,000 mã thông báo tối đa. Một mô hình đa ngôn ngữ mạnh mẽ với độ dài ngữ cảnh mở rộng đáng kể và khả năng lý luận cải thiện. Hỗ trợ các trường hợp sử dụng tiên tiến như tóm tắt văn bản dài, các trợ lý đa ngôn ngữ và hỗ trợ lập trình.",
+    "features_data__llama_3_1_405b__tooltip": "Được cung cấp bởi Meta. 128,000 mã thông báo tối đa. Mô hình nền tảng lớn nhất thế giới có sẵn công khai, đối đầu với trí tuệ nhân tạo nguồn đóng hàng đầu về kiến thức tổng quát, khả năng điều khiển và toán học. Hỗ trợ 8 ngôn ngữ và cho phép các khả năng tiên tiến như tạo dữ liệu tổng hợp và lọc mô hình. Lý tưởng cho việc tóm tắt dài, các trợ lý đa ngôn ngữ và trợ lý lập trình.",
+    "features_data__mistral_large_2__tooltip": "Được cung cấp bởi MistralAI. 128,000 mã thông số tối đa. Mô hình cờ vua hàng đầu mới nhất của Mistral đẩy ranh giới về tốc độ và hiệu suất. Với 123 tỷ tham số, Mistral-Large-2 xuất sắc trong việc tạo mã, toán học và lý do qua hàng chục ngôn ngữ. Nó cung cấp hiệu ứng hấp tấn và hỗ trợ đa ngôn ngữ ấn tượng cho cả ngôn ngữ tự nhiên và lập trình."
   },
   "features__common": {
     "components__upload_button_drop_title": "Thả vào đây"
@@ -1740,5 +1753,74 @@
     "upgrade_alert__cta_txt": "Truy cập Trình quản lý Tiện ích Trình duyệt",
     "extension_detection_alert__desc": "Để tiếp tục sử dụng tính năng này, vui lòng cài đặt tiện ích mở rộng Chrome của chúng tôi để có hiệu suất tối ưu.",
     "mobile_alert__desc": "Tìm kiếm AI hiện chỉ được hỗ trợ trên trình duyệt máy tính hoặc laptop. Hỗ trợ di động sẽ sớm ra mắt. Trong lúc đó, vui lòng chuyển sang máy tính để bàn hoặc laptop."
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "Mở khóa PDF",
+    "description": "Xóa mật khẩu, mã hóa và quyền từ tập tin PDF của bạn",
+    "seo_title": "Mở khóa PDF - Xóa Mật Khẩu từ Tập Tin PDF Trực Tuyến Miễn Phí | MaxAI.me",
+    "seo_description": "Dễ dàng loại bỏ bảo vệ mật khẩu từ tập tin PDF trực tuyến miễn phí. Không cần dấu nước, giới hạn kích thước tập tin, tải xuống hoặc đăng ký.",
+    "detail_description_object__unlock_pdf__top_left": "Dễ dàng mở khóa tập tin PDF trực tuyến miễn phí bằng cách loại bỏ mật khẩu. Với công cụ mở khóa của chúng tôi, tập tin của bạn sẽ luôn ở cục bộ, đảm bảo quyền riêng tư, và không có giới hạn kích thước tập tin.",
+    "detail_description_object__unlock_pdf__top_right_1": "Nhanh chóng mở khóa tập tin PDF chỉ trong vài giây.",
+    "detail_description_object__unlock_pdf__top_right_2": "Chỉ cần tải lên tập tin PDF của bạn để bắt đầu.",
+    "detail_description_object__unlock_pdf__top_right_3": "Tương thích với Mac, Windows, Android và iOS.",
+    "detail_description_object__unlock_pdf__middle_1_title": "Công cụ Trực Tuyến Đơn Giản để Mở Khóa PDF",
+    "detail_description_object__unlock_pdf__middle_1_description": "Công cụ mở khóa PDF của chúng tôi cho phép bạn loại bỏ bảo vệ mật khẩu từ tập tin PDF một cách nhanh chóng. Chỉ cần tải lên tập tin của bạn, nhập mật khẩu, và tải xuống tập tin PDF đã mở khóa. Rất dễ dàng, hoàn toàn miễn phí, và không cần đăng ký tài khoản.",
+    "detail_description_object__unlock_pdf__middle_2_title": "Mở Khóa PDF An Toàn Cục Bộ",
+    "detail_description_object__unlock_pdf__middle_2_description": "Tất cả các tập tin bạn tải lên được xử lý trực tiếp trong trình duyệt của bạn, đảm bảo quyền riêng tư hoàn toàn. Không có tập tin nào được tải lên đám mây, đảm bảo an toàn dữ liệu.",
+    "detail_description_object__unlock_pdf__middle_3_title": "Tương Thích Trên Nhiều Nền Tảng",
+    "detail_description_object__unlock_pdf__middle_3_description": "Công cụ mở khóa PDF của chúng tôi dựa trên trình duyệt, có nghĩa là nó hoạt động mượt mà trên Mac, Windows và Linux, cũng như trên thiết bị di động. Bạn có thể dễ dàng mở khóa tập tin PDF của mình từ bất kỳ đâu.",
+    "detail_description_object__unlock_pdf__middle_4_title": "Quy Trình Vận Hành Dễ Dàng",
+    "detail_description_object__unlock_pdf__middle_4_description": "Mở khóa tập tin PDF của bạn rất đơn giản: tải lên tập tin, nhập mật khẩu, và sau đó tải xuống phiên bản đã mở khóa. Ngay cả người mới bắt đầu cũng có thể làm chủ quy trình này một cách dễ dàng.",
+    "detail_description_object__unlock_pdf__middle_5_title": "Công Cụ Mở Khóa PDF Đáng Tin Cậy",
+    "detail_description_object__unlock_pdf__middle_5_description": "Không cần mua phần mềm đắt tiền để mở khóa tập tin PDF. Công cụ mở khóa PDF của chúng tôi có sẵn để sử dụng trực tuyến miễn phí mà không cần xử lý trên đám mây, đảm bảo tập tin và dữ liệu của bạn luôn an toàn.",
+    "detail_description_object__unlock_pdf__middle_6_title": "Xử Lý Cục Bộ để Tăng Cường Bảo Mật",
+    "detail_description_object__unlock_pdf__middle_6_description": "Dịch vụ mở khóa của chúng tôi đảm bảo rằng tất cả các hoạt động được thực hiện cục bộ. Tính năng chính này tăng cường bảo mật và giảm thời gian xử lý, đảm bảo tập tin của bạn luôn được bảo vệ.",
+    "detail_description_object__unlock_pdf__bottom_right_title": "Cách Mở Khóa Tập Tin PDF Trực Tuyến:",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "Tải lên tập tin PDF bạn muốn mở khóa.",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "Nhập mật khẩu cho tập tin PDF bạn biết.",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Sau khi mở khóa, bạn có thể truy cập và chỉnh sửa tập tin PDF của mình trên bất kỳ thiết bị nào.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Nhấp vào 'Mở khóa' để tải xuống tệp PDF đã được mở khóa."
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "Vui lòng nhập mật khẩu để mở khóa tập tin PDF của bạn",
+    "components__unlock_pdf_detail_input_placeholder": "Mật khẩu",
+    "components__unlock_pdf_detail__button__unlock": "Mở Khóa",
+    "components__unlock_pdf_detail__incorrect_password_tips": "Mật khẩu không chính xác",
+    "components__unlock_pdf_detail__use_tips": "Mật khẩu và tệp PDF sẽ không được tải lên máy chủ, đảm bảo an toàn."
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "Bảo vệ PDF",
+    "description": "Thêm bảo vệ mật khẩu và mã hóa vào tệp PDF của bạn để tăng cường bảo mật.",
+    "seo_title": "Bảo vệ PDF - Thêm Mã Hóa Mật Khẩu vào Tệp PDF Trực Tuyến Miễn Phí | MaxAI.me",
+    "seo_description": "Dễ dàng thêm bảo vệ mật khẩu vào tệp PDF của bạn trực tuyến miễn phí. Không cần dấu nước, giới hạn kích thước tệp, tải xuống hoặc đăng ký.",
+    "detail_description_object__protect_pdf__top_left": "Dễ dàng bảo vệ tệp PDF của bạn trực tuyến miễn phí bằng cách thêm mã hóa mật khẩu. Với công cụ của chúng tôi, tệp của bạn vẫn ở cục bộ để bảo vệ quyền riêng tư, và không có giới hạn về kích thước.",
+    "detail_description_object__protect_pdf__top_right_1": "Nhanh chóng bảo vệ tệp PDF của bạn chỉ trong vài giây.",
+    "detail_description_object__protect_pdf__top_right_2": "Chỉ cần tải lên tệp PDF của bạn để bắt đầu.",
+    "detail_description_object__protect_pdf__top_right_3": "Tương thích với Mac, Windows, Android và iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "Công cụ Trực Tuyến Đơn Giản để Bảo vệ PDF",
+    "detail_description_object__protect_pdf__middle_1_description": "Công cụ bảo vệ PDF của chúng tôi cho phép bạn dễ dàng thêm bảo vệ mật khẩu vào tệp PDF của bạn. Chỉ cần tải lên tài liệu của bạn, đặt mật khẩu và tải xuống PDF đã mã hóa. Nó rất dễ sử dụng, hoàn toàn miễn phí và không cần tài khoản.",
+    "detail_description_object__protect_pdf__middle_2_title": "Bảo vệ PDF An Toàn Cục Bộ",
+    "detail_description_object__protect_pdf__middle_2_description": "Tất cả các tệp bạn tải lên được xử lý trực tiếp trong trình duyệt của bạn, đảm bảo quyền riêng tư của bạn được bảo vệ. Không có tệp nào được tải lên đám mây, đảm bảo an toàn dữ liệu.",
+    "detail_description_object__protect_pdf__middle_3_title": "Tương Thích Trên Nhiều Nền Tảng",
+    "detail_description_object__protect_pdf__middle_3_description": "Công cụ bảo vệ PDF của chúng tôi dựa trên trình duyệt, có nghĩa là nó hoạt động mượt mà trên Mac, Windows và Linux, cũng như trên thiết bị di động. Bạn có thể dễ dàng bảo vệ tệp PDF của mình từ bất kỳ đâu.",
+    "detail_description_object__protect_pdf__middle_4_title": "Quy Trình Vận Hành Dễ Dàng",
+    "detail_description_object__protect_pdf__middle_4_description": "Bảo vệ tệp PDF của bạn là một quy trình đơn giản: tải lên tệp, đặt mật khẩu và sau đó tải xuống phiên bản được bảo vệ bằng mật khẩu. Ngay cả người mới bắt đầu cũng có thể theo dõi quy trình dễ dàng này một cách dễ dàng.",
+    "detail_description_object__protect_pdf__middle_5_title": "Công Cụ Bảo Vệ PDF Đáng Tin Cậy",
+    "detail_description_object__protect_pdf__middle_5_description": "Bạn không cần mua phần mềm đắt tiền để bảo vệ tệp PDF của mình. Công cụ bảo vệ PDF trực tuyến của chúng tôi có sẵn miễn phí, đảm bảo tệp và dữ liệu của bạn luôn được bảo vệ mà không cần xử lý trên đám mây.",
+    "detail_description_object__protect_pdf__middle_6_title": "Xử Lý Cục Bộ để Tăng Cường Bảo Mật",
+    "detail_description_object__protect_pdf__middle_6_description": "Dịch vụ bảo vệ của chúng tôi đảm bảo rằng tất cả các hoạt động được thực hiện cục bộ. Điều này tăng cường bảo mật và tăng tốc thời gian xử lý, giữ cho tệp của bạn an toàn.",
+    "detail_description_object__protect_pdf__bottom_right_title": "Cách Bảo Vệ Tệp PDF Trực Tuyến:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Tải lên tệp PDF bạn muốn bảo vệ.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Đặt mật khẩu cho tệp PDF.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Nhấp vào 'Bảo vệ' để tải xuống tệp PDF đã được bảo vệ bằng mật khẩu.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Sau khi được bảo vệ, chỉ những người có mật khẩu mới có thể truy cập và chỉnh sửa tệp PDF của bạn trên bất kỳ thiết bị nào."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Bảo vệ",
+    "components__protect_pdf_detail__type_password": " Nhập mật khẩu",
+    "components__protect_pdf_detail__repeat_type_password": "Nhập lại mật khẩu",
+    "components__protect_pdf_detail__input__placeholder": "Đặt mật khẩu của bạn",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Xác nhận mật khẩu của bạn",
+    "components__protect_pdf_detail__use_tips": "Mật khẩu và tệp PDF sẽ không được tải lên máy chủ, đảm bảo an toàn."
   }
 }

@@ -2,7 +2,7 @@
  * 传入file Uint8Array进行下载
  */
 export const downloadUrl = (
-  file: Uint8Array | string | Blob,
+  file: Uint8Array | string | Blob | ArrayBuffer,
   name: string,
   type: string = 'application/pdf',
 ) => {

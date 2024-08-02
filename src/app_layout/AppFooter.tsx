@@ -14,6 +14,7 @@ import FooterList from '@/components/Footerlist'
 import ProLink from '@/components/ProLink'
 import { APP_EXTERNAL_LINKS, APP_PROJECT_LINK } from '@/global_constants'
 import AppLogo from '@/page_components/AppLogo'
+import { pdfToolsList } from '@/page_components/PdfToolsPages/constant'
 import usePdfToolPathname from '@/page_components/PdfToolsPages/hooks/usePdfToolPathname'
 
 const footerBlackList = [
@@ -43,7 +44,15 @@ const AppFooter = () => {
       return rule === pathname
     })
   }, [pathname])
-
+  const pdfToolsFooterList = useMemo(
+    () =>
+      pdfToolsList.map((tools) => ({
+        adaptiveLocale: false,
+        link: getPdfToolPathnameWithLocale(tools.key),
+        label: t(tools.title),
+      })),
+    [getPdfToolPathnameWithLocale, t],
+  ) //pdfToolsList直接指向子文件夹了，后续pdfTools抽离项目的时候看看放哪里
   if (!showFooter) {
     return null
   }
@@ -380,99 +389,7 @@ const AppFooter = () => {
               >
                 <FooterList
                   title={t('modules:footer__pdf_tools')}
-                  data={[
-                    {
-                      adaptiveLocale: false,
-                      link: getPdfToolPathnameWithLocale('merge-pdf'),
-                      label: t(
-                        'pages:tools__index_page__constant_obj__merge_pdf__title',
-                      ),
-                    },
-                    {
-                      adaptiveLocale: false,
-                      link: getPdfToolPathnameWithLocale('split-pdf'),
-                      label: t(
-                        'pages:tools__index_page__constant_obj__split_a_pdf__title',
-                      ),
-                    },
-                    {
-                      adaptiveLocale: false,
-                      link: getPdfToolPathnameWithLocale('pdf-to-png'),
-                      label: t(
-                        'pages:tools__index_page__constant_obj__pdf_to_png__title',
-                      ),
-                    },
-                    {
-                      adaptiveLocale: false,
-                      link: getPdfToolPathnameWithLocale('pdf-to-jpeg'),
-                      label: t(
-                        'pages:tools__index_page__constant_obj__pdf_to_jpeg__title',
-                      ),
-                    },
-                    {
-                      adaptiveLocale: false,
-                      link: getPdfToolPathnameWithLocale('png-to-pdf'),
-                      label: t(
-                        'pages:tools__index_page__constant_obj__png_to_pdf__title',
-                      ),
-                    },
-                    {
-                      adaptiveLocale: false,
-                      link: getPdfToolPathnameWithLocale('jpeg-to-pdf'),
-                      label: t(
-                        'pages:tools__index_page__constant_obj__jpeg_to_pdf__title',
-                      ),
-                    },
-                    {
-                      adaptiveLocale: false,
-                      link: getPdfToolPathnameWithLocale('heic-to-pdf'),
-                      label: t(
-                        'pages:tools__index_page__constant_obj__heic_to_pdf__title',
-                      ),
-                    },
-                    {
-                      adaptiveLocale: false,
-                      link: getPdfToolPathnameWithLocale('pdf-to-html'),
-                      label: t(
-                        'pages:tools__index_page__constant_obj__pdf_to_html__title',
-                      ),
-                    },
-                    {
-                      adaptiveLocale: false,
-                      link: getPdfToolPathnameWithLocale('sign-pdf'),
-                      label: t(
-                        'pages:tools__index_page__constant_obj__sign_pdf__title',
-                      ),
-                    },
-                    {
-                      adaptiveLocale: false,
-                      link: getPdfToolPathnameWithLocale('compress-pdf'),
-                      label: t(
-                        'pages:tools__index_page__constant_obj__compress_pdf__title',
-                      ),
-                    },
-                    {
-                      adaptiveLocale: false,
-                      link: getPdfToolPathnameWithLocale('ocr-pdf'),
-                      label: t(
-                        'pages:tools__index_page__constant_obj__ocr_pdf__title',
-                      ),
-                    },
-                    {
-                      adaptiveLocale: false,
-                      link: getPdfToolPathnameWithLocale('rotate-pdf'),
-                      label: t(
-                        'pages:tools__index_page__constant_obj__rotate_pdf__title',
-                      ),
-                    },
-                    {
-                      adaptiveLocale: false,
-                      link: getPdfToolPathnameWithLocale('number-pages'),
-                      label: t(
-                        'pages:tools__index_page__constant_obj__pdf_page_numbers__title',
-                      ),
-                    },
-                  ]}
+                  data={pdfToolsFooterList}
                 />
               </Grid>
             </Grid>

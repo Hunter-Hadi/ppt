@@ -52,7 +52,8 @@
     "month": "месяц",
     "unlimited": "Неограниченно",
     "most_popular": "Самый популярный",
-    "upgrade_now": "Обновить сейчас"
+    "upgrade_now": "Обновить сейчас",
+    "choose_another_file": "Выберите другой файл"
   },
   "button": {
     "add_to_chrome_for_free": "Добавить в Chrome — Бесплатно",
@@ -669,7 +670,7 @@
     "home_page__how_it_works__step1__title": "Добавьте в браузер",
     "home_page__how_it_works__step2__title": "Войдите в систему",
     "home_page__how_it_works__step3__title": "Повышайте производительность",
-    "home_page__how_it_works__step3__description": "Суммируйте, ищите, читайте и пишите в 10 раз быстрее с помощью ИИ на любой веб-странице, которую вы просматриваете. Экономьте часы каждый день.",
+    "home_page__how_it_works__step3__description": "Читайте быстрее. Пишите лучше. Получайте ответы. Увеличьте производительность с помощью искусственного интеллекта. Экономьте часы каждый день.",
     "home_page__how_it_works__step1__description": "Добавьте расширение MaxAI.me в свой браузер, чтобы экономить время на каждой веб-странице с помощью ИИ. Это бесплатно и полностью безопасно для конфиденциальности.",
     "home_page__how_it_works__step2__description": "Легко войдите с помощью Google или электронной почты. Это просто, бесплатно и безопасно.",
     "home_page__hero_section__title": "Ваш исследователь и помощник в написании на основе ИИ",
@@ -728,7 +729,13 @@
     "home_page__features_content__all_in_chatbox__description2": "Самый быстрый способ получить мгновенные ответы прямо в боковой панели браузера.",
     "home_page__features_content__all_in_chatbox__description3": "Анализируйте любое изображение с помощью ИИ-видения.",
     "home_page__features_content__all_in_chatbox__description4": "Создавайте искусство и изображения с помощью DALLE-3.",
-    "home_page__features_content__ab_test_v4__content2__search__description4": "Отображение ответов ИИ рядом с результатами поиска Google."
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Отображение ответов ИИ рядом с результатами поиска Google.",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "Водяной знак PDF",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "Добавьте водяной знак ваших PDF",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Добавьте водяные знаки в PDF за секунды",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "Доверяют 2.4 миллиарда людей с 2013 года",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Простой способ добавить водяные знаки в PDF - не требуется установка",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Добавьте водяной знак к PDF документам с помощью бесплатного PDF Водяного знака. Не нужно загружать приложение - все работает в вашем браузере на Mac, Windows, Linux и мобильных устройствах."
   },
   "prompt_library": {
     "use_prompt_library__title": "Библиотека высококачественных AI подсказок",
@@ -969,8 +976,8 @@
     "faq__question5__description__part2": "чтобы отслеживать свою реферальную активность."
   },
   "seo": {
-    "default__title": "MaxAI.me: Искусственный интеллект в один клик (GPT-4o, Claude 3, Gemini 1.5)",
-    "default__description": "Чат с искусственным интеллектом, переписыватель, резюме, мгновенный ответ, помощник при чтении, подсказки, поиск, искусство и переводчик. Работает на основе GPT-4o, Claude 3, Gemini 1.5.",
+    "default__title": "MaxAI.me: Читайте быстрее. Пишите лучше. Бесплатное расширение ИИ.",
+    "default__description": "Суммируйте, отвечайте на вопросы и улучшайте тексты по всему вебу с помощью ИИ в Chrome и Edge. Работает на GPT-4o, Claude-3.5, Gemini-1.5, Llama-3.1, Mistral.",
     "maintain__title": "На обслуживании | MaxAI.me",
     "affiliate__title": "Партнерская программа | MaxAI.me",
     "affiliate__description": "Получайте оплату с помощью партнерской программы MaxAI. Присоединяйтесь к нашей партнерской программе и получайте комиссию в размере 25% за распространение MaxAI!",
@@ -1059,7 +1066,9 @@
     "use_cases__research__title": "Исследование и помощник по краткому изложению на основе искусственного интеллекта | MaxAI.me",
     "use_cases__research__desc": "Добавьте искусственный интеллект в свой браузер, чтобы суммировать и общаться с веб-статьями, PDF-файлами и видео на YouTube для экономии времени. Задавайте вопросы искусственному интеллекту для быстрых ответов и ускорения исследований. Работает на основе GPT-4o, Claude-3-Opus, Gemini-1.5-Pro.",
     "use_cases__writing__title": "Помощник по написанию на основе искусственного интеллекта | MaxAI.me",
-    "use_cases__writing__desc": "Добавьте искусственный интеллект в свой браузер, чтобы улучшить и отполировать свое письмо на любой веб-странице. Создавайте убедительные электронные письма, статьи, блоги, сообщения в социальных сетях, документы. Работает на основе GPT-4o, Claude-3-opus, Gemini-1.5-pro."
+    "use_cases__writing__desc": "Добавьте искусственный интеллект в свой браузер, чтобы улучшить и отполировать свое письмо на любой веб-странице. Создавайте убедительные электронные письма, статьи, блоги, сообщения в социальных сетях, документы. Работает на основе GPT-4o, Claude-3-opus, Gemini-1.5-pro.",
+    "pdf_tools__pdf_watermark_page__title": "Бесплатный PDF Водяной знак | Водяные знаки PDF на любом устройстве",
+    "pdf_tools__pdf_watermark_page__description": "Легко добавьте водяной знак к PDF документам. Не нужно загружать приложение - все работает в вашем браузере на Mac, Windows, Linux и мобильных устройствах."
   },
   "features_landing": {
     "cta_text": "Добавить в браузер",
@@ -1294,7 +1303,8 @@
     "components__common__drag__dropping_tip": "Вы можете изменить порядок, перетаскивая элементы",
     "components__common__upload_button_tips": "или перетащите файлы сюда",
     "components__common__upload_button_title": "ВЫБРАТЬ ФАЙЛЫ",
-    "components__common__upload_button__unsupported_file_type_tip": "Пожалуйста, загрузите указанный тип файла PDF"
+    "components__common__upload_button__unsupported_file_type_tip": "Пожалуйста, загрузите указанный тип файла PDF",
+    "components__common__select_other_file": "Выберите другой файл"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Можно загружать только изображения типа image",
@@ -1431,7 +1441,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "Доступ к самым умным моделям ИИ в одном месте.",
     "ab_test_v5__features_data__image_ai_queries": "Запросы ИИ для изображений",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "Увеличьте свою креативность и производительность в 10 раз с помощью самых передовых моделей искусственного интеллекта для искусства.",
-    "ab_test_v5__features_data__search_faster": "Ищите быстрее",
+    "ab_test_v5__features_data__search_faster": "Получить ответы",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Спросите ИИ что угодно в боковой панели браузера",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Чат с лучшими ИИ в одном месте",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Поиск с ИИ в боковой панели браузера",
@@ -1453,7 +1463,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Перевести",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Объяснить",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Двуязычный перевод всей страницы",
-    "ab_test_v5__features_data__write_faster": "Писать быстрее",
+    "ab_test_v5__features_data__write_faster": "Писать лучше",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "AI переписыватель на любой странице",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Улучшить письменный стиль",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Проверить правописание",
@@ -1517,7 +1527,10 @@
     "ab_test_v5__features_data__discord__tooltip": "Сэкономьте время на переписке в Discord. Отвечайте на сообщения за секунды с краткими заметками. Улучшите тон, проверьте орфографию и грамматику. Общайтесь более эффективно и эффективно.",
     "ab_test_v5__features_data__messenger__tooltip": "Сэкономьте время на переписке в Messenger. Отвечайте на сообщения за секунды с краткими заметками. Улучшите тон, проверьте орфографию и грамматику. Общайтесь более эффективно и эффективно.",
     "ab_test_v5__features_data__telegram__tooltip": "Сэкономьте время на переписке в Telegram. Отвечайте на сообщения за секунды с краткими заметками. Улучшите тон, проверьте орфографию и грамматику. Общайтесь более эффективно и эффективно.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Создайте свои собственные подсказки, организуйте их и сделайте их легкими в доступе и повторном использовании, для себя и вашей команды."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Создайте свои собственные подсказки, организуйте их и сделайте их легкими в доступе и повторном использовании, для себя и вашей команды.",
+    "features_data__llama_3_1_70b__tooltip": "Работает на Meta. 128 000 макс. токенов. Мощная мультиязычная модель с значительно увеличенной длиной контекста и улучшенными возможностями рассуждения. Поддерживает расширенные случаи использования, такие как суммирование текста большой длины, мультиязычные агенты и помощь в кодировании.",
+    "features_data__llama_3_1_405b__tooltip": "Работает на Meta. 128 000 макс. токенов. Самая крупная общедоступная модель основания в мире, конкурирующая с лучшими закрытыми источниками ИИ в общих знаниях, управляемости и математике. Поддерживает 8 языков и обеспечивает расширенные возможности, такие как генерация синтетических данных и дистилляция моделей. Идеально подходит для суммирования текста большой длины, мультиязычных агентов и помощников по кодированию.",
+    "features_data__mistral_large_2__tooltip": "Питается MistralAI. 128 000 макс. токенов. Последняя флагманская модель Mistral ломает стереотипы скорости и производительности. С 123 миллиардами параметров Mistral-Large-2 отличается в генерации кода, математике и рассуждениях на десятках языков. Предлагает минимальную галлюцинацию и впечатляющую многоязычную поддержку как для естественных, так и для программных языков."
   },
   "features__common": {
     "components__upload_button_drop_title": "Перетащите сюда"
@@ -1740,5 +1753,74 @@
     "upgrade_alert__cta_txt": "Посетите Менеджер расширений браузера",
     "extension_detection_alert__desc": "Чтобы продолжить использовать эту функцию, установите наше расширение для Chrome для оптимальной функциональности.",
     "mobile_alert__desc": "Поиск ИИ в настоящее время поддерживается только на настольных или ноутбуков. Поддержка мобильных устройств скоро появится. Пока что переключитесь на настольный или ноутбук."
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "Разблокировать PDF",
+    "description": "Удалите пароль, шифрование и разрешения из вашего PDF",
+    "seo_title": "Разблокировать PDF - Удалить пароль из PDF-файлов онлайн бесплатно | MaxAI.me",
+    "seo_description": "Легко удалите защиту паролем из PDF-файлов онлайн бесплатно. Не требуется водяные знаки, ограничения по размеру файла, загрузки или регистрации.",
+    "detail_description_object__unlock_pdf__top_left": "Легко разблокируйте PDF-файлы онлайн бесплатно, удалив пароли. С нашим инструментом разблокировки ваши файлы всегда останутся локальными, обеспечивая конфиденциальность, и нет ограничений по размеру файла.",
+    "detail_description_object__unlock_pdf__top_right_1": "Быстро разблокируйте PDF-файлы всего за несколько секунд.",
+    "detail_description_object__unlock_pdf__top_right_2": "Просто загрузите свои PDF-файлы, чтобы начать.",
+    "detail_description_object__unlock_pdf__top_right_3": "Совместим с Mac, Windows, Android и iOS.",
+    "detail_description_object__unlock_pdf__middle_1_title": "Простой онлайн инструмент для разблокировки PDF",
+    "detail_description_object__unlock_pdf__middle_1_description": "Наш инструмент для разблокировки PDF позволяет быстро удалить защиту паролем из PDF-файлов. Просто загрузите файл, введите пароль и загрузите разблокированный PDF. Это невероятно просто, полностью бесплатно, и не требуется регистрация учетной записи.",
+    "detail_description_object__unlock_pdf__middle_2_title": "Локальная безопасная разблокировка PDF",
+    "detail_description_object__unlock_pdf__middle_2_description": "Все загруженные вами файлы обрабатываются непосредственно в вашем браузере, обеспечивая полную конфиденциальность. Никакие файлы не загружаются в облако, гарантируя безопасность данных.",
+    "detail_description_object__unlock_pdf__middle_3_title": "Совместимость с различными платформами",
+    "detail_description_object__unlock_pdf__middle_3_description": "Наш инструмент для разблокировки PDF основан на браузере, что означает, что он отлично работает на Mac, Windows и Linux, а также на мобильных устройствах. Вы можете легко разблокировать свои PDF-файлы откуда угодно.",
+    "detail_description_object__unlock_pdf__middle_4_title": "Простой процесс операции",
+    "detail_description_object__unlock_pdf__middle_4_description": "Разблокировка ваших PDF-файлов проста: загрузите файл, введите пароль, а затем загрузите разблокированную версию. Даже новички могут легко освоить этот процесс.",
+    "detail_description_object__unlock_pdf__middle_5_title": "Надежный инструмент для разблокировки PDF",
+    "detail_description_object__unlock_pdf__middle_5_description": "Нет необходимости покупать дорогое программное обеспечение для разблокировки PDF-файлов. Наш инструмент для разблокировки PDF доступен для бесплатного онлайн использования без необходимости облачной обработки, обеспечивая безопасность ваших файлов и данных.",
+    "detail_description_object__unlock_pdf__middle_6_title": "Локальная обработка для повышения безопасности",
+    "detail_description_object__unlock_pdf__middle_6_description": "Наш сервис разблокировки гарантирует, что все операции выполняются локально. Эта ключевая функция повышает безопасность и сокращает время обработки, обеспечивая защиту ваших файлов.",
+    "detail_description_object__unlock_pdf__bottom_right_title": "Как разблокировать PDF-файлы онлайн:",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "Загрузите PDF-файл, который вы хотите разблокировать.",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "Введите пароль для PDF-файла, который вы знаете.",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "После разблокировки вы можете свободно получить доступ и редактировать свои PDF-файлы на любом устройстве.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "Нажмите 'Разблокировать', чтобы скачать разблокированный PDF-файл."
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "Пожалуйста, введите пароль для разблокировки вашего PDF",
+    "components__unlock_pdf_detail_input_placeholder": "Пароль",
+    "components__unlock_pdf_detail__button__unlock": "Разблокировать",
+    "components__unlock_pdf_detail__incorrect_password_tips": "Неверный пароль",
+    "components__unlock_pdf_detail__use_tips": "Пароль и файлы PDF не будут загружены на сервер, обеспечивая безопасность."
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "Защитить PDF",
+    "description": "Добавьте защиту паролем и шифрование к вашим PDF-файлам для повышения безопасности.",
+    "seo_title": "Защитить PDF - Добавить шифрование пароля к PDF-файлам онлайн бесплатно | MaxAI.me",
+    "seo_description": "Легко добавьте защиту паролем к вашим PDF-файлам онлайн бесплатно. Не требуется водяные знаки, ограничения по размеру файла, загрузки или регистрации.",
+    "detail_description_object__protect_pdf__top_left": "Легко защищайте ваши PDF-файлы онлайн бесплатно, добавляя шифрование пароля. С нашим инструментом ваши файлы остаются локальными для конфиденциальности, и нет ограничений по размеру.",
+    "detail_description_object__protect_pdf__top_right_1": "Быстро защищайте ваши PDF-файлы всего за несколько секунд.",
+    "detail_description_object__protect_pdf__top_right_2": "Просто загрузите ваши PDF-файлы, чтобы начать.",
+    "detail_description_object__protect_pdf__top_right_3": "Совместим с Mac, Windows, Android и iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "Простой онлайн инструмент для защиты PDF",
+    "detail_description_object__protect_pdf__middle_1_description": "Наш инструмент защиты PDF позволяет легко добавить защиту паролем к вашим PDF-файлам. Просто загрузите свой документ, установите пароль и загрузите зашифрованный PDF. Это невероятно удобно для пользователя, полностью бесплатно и не требует учетной записи.",
+    "detail_description_object__protect_pdf__middle_2_title": "Локальная защита PDF",
+    "detail_description_object__protect_pdf__middle_2_description": "Все загруженные вами файлы обрабатываются непосредственно в вашем браузере, обеспечивая защиту вашей конфиденциальности. Никакие файлы не загружаются в облако, гарантируя безопасность данных.",
+    "detail_description_object__protect_pdf__middle_3_title": "Совместимость с различными платформами",
+    "detail_description_object__protect_pdf__middle_3_description": "Наш инструмент защиты PDF основан на браузере, что означает, что он отлично работает на Mac, Windows и Linux, а также на мобильных устройствах. Вы можете легко защитить свои PDF-файлы откуда угодно.",
+    "detail_description_object__protect_pdf__middle_4_title": "Простой процесс операции",
+    "detail_description_object__protect_pdf__middle_4_description": "Защита ваших PDF-файлов проста: загрузите файл, установите пароль, а затем загрузите версию с защитой пароля. Даже новички могут легко следовать этому простому процессу.",
+    "detail_description_object__protect_pdf__middle_5_title": "Надежный инструмент защиты PDF",
+    "detail_description_object__protect_pdf__middle_5_description": "Вам не нужно покупать дорогое программное обеспечение для защиты ваших PDF-файлов. Наш онлайн инструмент защиты PDF доступен бесплатно, обеспечивая безопасность ваших файлов и данных без необходимости обработки в облаке.",
+    "detail_description_object__protect_pdf__middle_6_title": "Локальная обработка для повышения безопасности",
+    "detail_description_object__protect_pdf__middle_6_description": "Наша служба защиты гарантирует, что все операции проводятся локально. Это повышает безопасность и ускоряет время обработки, обеспечивая безопасность ваших файлов.",
+    "detail_description_object__protect_pdf__bottom_right_title": "Как защитить PDF-файлы онлайн:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Загрузите PDF-файл, который вы хотите защитить.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Установите пароль для PDF-файла.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Нажмите 'Защитить', чтобы загрузить защищенный паролем PDF-файл.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "После защиты доступ и редактирование ваших PDF-файлов на любом устройстве доступны только тем, у кого есть пароль."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Защитить",
+    "components__protect_pdf_detail__type_password": " Введите пароль",
+    "components__protect_pdf_detail__repeat_type_password": "Повторите пароль",
+    "components__protect_pdf_detail__input__placeholder": "Установите ваш пароль",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Подтвердите ваш пароль",
+    "components__protect_pdf_detail__use_tips": "Пароль и файлы PDF не будут загружены на сервер, обеспечивая безопасность."
   }
 }

@@ -52,7 +52,8 @@
     "month": "buwan",
     "unlimited": "Walang limitasyon",
     "most_popular": "Pinakasikat",
-    "upgrade_now": "Mag-upgrade ngayon"
+    "upgrade_now": "Mag-upgrade ngayon",
+    "choose_another_file": "Pumili ng ibang file"
   },
   "button": {
     "add_to_chrome_for_free": "Idagdag sa Chrome — Libre ito",
@@ -669,7 +670,7 @@
     "home_page__how_it_works__step1__title": "Idagdag sa browser",
     "home_page__how_it_works__step2__title": "Mag-sign in",
     "home_page__how_it_works__step3__title": "Palakasin ang produktibidad",
-    "home_page__how_it_works__step3__description": "Buod, hanapin, basahin, at sumulat ng 10 beses na mas mabilis gamit ang AI sa anumang web page na iyong binabasa. I-save ang mga oras araw-araw.",
+    "home_page__how_it_works__step3__description": "Magbasa nang mas mabilis. Magsulat nang mas mahusay. Makakuha ng mga sagot. Pataasin ang iyong produktibidad sa buong web gamit ang AI. I-save ang mga oras araw-araw.",
     "home_page__how_it_works__step1__description": "Magdagdag ng MaxAI.me extension sa iyong browser upang makatipid ng oras sa bawat web page gamit ang AI. Libre ito at 100% privacy friendly.",
     "home_page__how_it_works__step2__description": "Madaling mag-sign in gamit ang Google o email. Ito ay simple, libre, at ligtas.",
     "home_page__hero_section__title": "Ang iyong AI-powered na kasangkapang pang-research at pagsusulat",
@@ -728,7 +729,13 @@
     "home_page__features_content__all_in_chatbox__description2": "Pinakamabilis na paraan para makakuha ng agad na mga sagot sa gilid ng browser.",
     "home_page__features_content__all_in_chatbox__description3": "Sur iyo anumang larawan gamit ang AI vision.",
     "home_page__features_content__all_in_chatbox__description4": "Lumikha ng AI art at mga larawan gamit ang DALLE-3.",
-    "home_page__features_content__ab_test_v4__content2__search__description4": "Ipakita ang mga tugon ng AI sa tabi ng mga resulta ng Google search."
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Ipakita ang mga tugon ng AI sa tabi ng mga resulta ng Google search.",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "Watermark PDF",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "Magdagdag ng watermark sa iyong mga PDF",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Magdagdag ng watermark sa PDF sa loob ng ilang segundo",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "Pinagkakatiwalaan ng 2.4 bilyong tao mula 2013",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Madaling paraan para sa watermarking ng PDFs—walang kailangang i-install",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Magdagdag ng watermark sa mga dokumento ng PDF gamit ang libreng PDF Watermarker. Walang kailangang i-download na app–lahat ay gumagana sa iyong browser sa Mac, Windows, Linux, at mobile devices."
   },
   "prompt_library": {
     "use_prompt_library__title": "Mataas na kalidad na AI prompt library",
@@ -969,8 +976,8 @@
     "faq__question5__description__part2": "upang ma-track ang iyong referral performance."
   },
   "seo": {
-    "default__title": "MaxAI.me: 1-Click AI Saanman (GPT-4o, Claude 3, Gemini 1.5)",
-    "default__description": "AI chat, rewriter, summary, instant reply, reading assistant, prompts, search, art, at tagasalin. Pinapagana ng GPT-4o, Claude 3, Gemini 1.5.",
+    "default__title": "MaxAI.me: Magbasa nang mas mabilis. Magsulat nang mas mahusay. Libreng AI extension.",
+    "default__description": "Buod, sagutin ang mga tanong, at ayusin ang pagsusulat sa buong web gamit ang AI sa Chrome at Edge. Pinapatakbo ng GPT-4o, Claude-3.5, Gemini-1.5, Llama-3.1, Mistral.",
     "maintain__title": "Sa Paggawa ng Pansin | MaxAI.me",
     "affiliate__title": "Programa ng Affiliate | MaxAI.me",
     "affiliate__description": "Kumita gamit ang programa ng MaxAI affiliate. Sumali sa aming programa at kumita ng 25% komisyon sa pagbabahagi ng MaxAI!",
@@ -1059,7 +1066,9 @@
     "use_cases__research__title": "AI research at assistant sa buod | MaxAI.me",
     "use_cases__research__desc": "Magdagdag ng AI sa iyong browser upang magbuod at makipag-chat sa mga web article, PDF, at YouTube video upang makatipid ng oras. Magtanong sa AI para sa mabilis na sagot at mapabilis ang iyong pananaliksik. Powered by GPT-4o, Claude-3-Opus, Gemini-1.5-Pro.",
     "use_cases__writing__title": "AI writing assistant | MaxAI.me",
-    "use_cases__writing__desc": "Magdagdag ng AI sa iyong browser upang ma-improve at ma-polish ang iyong pagsusulat sa anumang web page. Gumawa ng nakakumbinseng mga email, artikulo, blog post, social media post, papel. Powered by GPT-4o, Claude-3-opus, Gemini-1.5-pro."
+    "use_cases__writing__desc": "Magdagdag ng AI sa iyong browser upang ma-improve at ma-polish ang iyong pagsusulat sa anumang web page. Gumawa ng nakakumbinseng mga email, artikulo, blog post, social media post, papel. Powered by GPT-4o, Claude-3-opus, Gemini-1.5-pro.",
+    "pdf_tools__pdf_watermark_page__title": "Libreng PDF Watermarker | Lagyan ng Watermark ang mga PDF sa anumang device",
+    "pdf_tools__pdf_watermark_page__description": "Madaling magdagdag ng watermark sa mga dokumento ng PDF. Walang kailangang i-download na app–lahat ay gumagana sa iyong browser sa Mac, Windows, Linux, at mobile devices."
   },
   "features_landing": {
     "cta_text": "Idagdag sa Browser",
@@ -1294,7 +1303,8 @@
     "components__common__drag__dropping_tip": "Maaari mong ayusin ang pagkakasunud-sunod sa pamamagitan ng pag-drag at pag-drop",
     "components__common__upload_button_tips": "o i-drop ang mga file dito",
     "components__common__upload_button_title": "PUMILI NG MGA FILE",
-    "components__common__upload_button__unsupported_file_type_tip": "Mangyaring mag-upload ng tinukoy na uri ng file ng PDF"
+    "components__common__upload_button__unsupported_file_type_tip": "Mangyaring mag-upload ng tinukoy na uri ng file ng PDF",
+    "components__common__select_other_file": "Pumili ng ibang file"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Maaaring i-upload lamang ang mga imahe ng uri ng imahe",
@@ -1431,7 +1441,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "Ma-access ang pinakamatalinong AI models, lahat sa iisang lugar.",
     "ab_test_v5__features_data__image_ai_queries": "Image AI queries",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "Paramihin nang 10 beses ang iyong katalinuhan at produktibidad gamit ang pinakasusing AI art models.",
-    "ab_test_v5__features_data__search_faster": "Maghanap nang mas mabilis",
+    "ab_test_v5__features_data__search_faster": "Kumuha ng mga sagot",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Tanungin ang AI ng anumang bagay sa browser sidebar",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Mag-chat kasama ang lahat ng pinakamahusay na AI sa iisang lugar",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Maghanap gamit ang AI sa browser sidebar",
@@ -1453,7 +1463,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Isalin",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Ipaliwanag",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Buong-pahinang bilingual pagsasalin",
-    "ab_test_v5__features_data__write_faster": "Magsulat nang mas mabilis",
+    "ab_test_v5__features_data__write_faster": "Magsulat nang mas mahusay",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "AI rewriter sa anumang pahina",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Pabutihin ang pagsusulat",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Proofread",
@@ -1517,7 +1527,10 @@
     "ab_test_v5__features_data__discord__tooltip": "Makatipid ng oras sa korespondensya sa mensahe sa Discord. Tumugon sa mga mensahe sa loob ng mga segundo gamit ang maikling mga notes. I-improve ang tono, suriin ang spelling at grammar. Makipag-ugnayan nang mas epektibo at mabilis.",
     "ab_test_v5__features_data__messenger__tooltip": "Makatipid ng oras sa korespondensya sa mensahe sa Messenger. Tumugon sa mga mensahe sa loob ng mga segundo gamit ang maikling mga notes. I-improve ang tono, suriin ang spelling at grammar. Makipag-ugnayan nang mas epektibo at mabilis.",
     "ab_test_v5__features_data__telegram__tooltip": "Makatipid ng oras sa korespondensya sa mensahe sa Telegram. Tumugon sa mga mensahe sa loob ng mga segundo gamit ang maikling mga notes. I-improve ang tono, suriin ang spelling at grammar. Makipag-ugnayan nang mas epektibo at mabilis.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Lumikha ng iyong sariling mga prompts, ayusin ang mga ito, at gawing madali ang pag-access at paggamit, para sa iyo at sa iyong team."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Lumikha ng iyong sariling mga prompts, ayusin ang mga ito, at gawing madali ang pag-access at paggamit, para sa iyo at sa iyong team.",
+    "features_data__llama_3_1_70b__tooltip": "Pinapatakbo ng Meta. 128,000 max tokens. Isang makapangyarihang multilingual model na may malawak na haba ng konteksto at pinahusay na kakayahan sa pagsasaliksik. Sumusuporta sa advanced na mga kaso tulad ng pagsusummarize ng mahabang teksto, multilingual na mga ahente sa usapan, at tulong sa pagko-code.",
+    "features_data__llama_3_1_405b__tooltip": "Pinapatakbo ng Meta. 128,000 max tokens. Ang pinakamalaking openly available foundation model sa mundo, na kasing husay ng nangungunang AI na may sariling source code sa pangkalahatang kaalaman, kakayahang i-steer, at matematika. Sumusuporta sa 8 wika at nagbibigay-daan sa advanced na kakayahan tulad ng pag-generate ng synthetic data at distillation ng model. Angkop para sa pagsusummarize ng mahabang teksto, multilingual na mga ahente sa usapan, at mga assistant sa pagko-code.",
+    "features_data__mistral_large_2__tooltip": "Powered by MistralAI. 128,000 max tokens. Ang pinakabagong pangunahing modelo ng Mistral ay nagtutulak sa mga hangganan ng bilis at performance. Sa 123 bilyong mga parameter, ang Mistral-Large-2 ay mahusay sa paglikha ng code, matematika, at pagsusuri sa maraming wika. Ito ay nag-aalok ng minimal na halusinasyon at kahanga-hangang suporta para sa maraming wika sa natural at programming languages."
   },
   "features__common": {
     "components__upload_button_drop_title": "I-drop dito"
@@ -1740,5 +1753,74 @@
     "upgrade_alert__cta_txt": "Pumunta sa Browser Extension Manager",
     "extension_detection_alert__desc": "Upang magpatuloy sa paggamit ng feature na ito, mangyaring mag-install ng aming Chrome extension para sa optimal na pagganap.",
     "mobile_alert__desc": "Ang AI search ay kasalukuyang suportado lamang sa desktop o laptop browsers. Ang suporta sa mobile ay darating sa lalong madaling panahon. Sa ngayon, mangyaring lumipat sa isang desktop o laptop."
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "Buksan ang PDF",
+    "description": "Tanggalin ang password, encryption, at pahintulot mula sa iyong PDF",
+    "seo_title": "Buksan ang PDF - Tanggalin ang Password mula sa Mga PDF Files Online ng Libre | MaxAI.me",
+    "seo_description": "Madaling tanggalin ang proteksyon ng password mula sa mga file ng PDF online ng libre. Walang watermarks, limitasyon sa laki ng file, pag-download, o pag-sign-up ang kinakailangan.",
+    "detail_description_object__unlock_pdf__top_left": "Madaling buksan ang mga file ng PDF online ng libre sa pamamagitan ng pagtanggal ng mga password. Sa aming tool sa pagbubuksan, ang iyong mga file ay laging mananatiling lokal, pinapangalagaan ang privacy, at walang limitasyon sa laki ng file.",
+    "detail_description_object__unlock_pdf__top_right_1": "Mabilis na buksan ang mga file ng PDF sa loob lamang ng ilang segundo.",
+    "detail_description_object__unlock_pdf__top_right_2": "I-upload lamang ang iyong mga file ng PDF para magsimula.",
+    "detail_description_object__unlock_pdf__top_right_3": "Sakop ang Mac, Windows, Android, at iOS.",
+    "detail_description_object__unlock_pdf__middle_1_title": "Simple Online Tool para sa Pagbubuksan ng PDFs",
+    "detail_description_object__unlock_pdf__middle_1_description": "Ang aming tool sa pagbubuksan ng PDF ay nagbibigay-daan sa iyo na madaling tanggalin ang proteksyon ng password mula sa mga file ng PDF nang mabilis. I-upload lamang ang iyong file, ilagay ang password, at i-download ang buksang PDF. Napakadali, lubos na libre, at walang kinakailangang magparehistro ng account.",
+    "detail_description_object__unlock_pdf__middle_2_title": "Lokal na Ligtas na Pagbubuksan ng PDF",
+    "detail_description_object__unlock_pdf__middle_2_description": "Ang lahat ng mga file na iyong i-uupload ay direktang naiproseso sa iyong browser, pinapangalagaan ang kumpletong privacy. Walang mga file na i-uupload sa ulap, pinagkakatiwalaan ang seguridad ng data.",
+    "detail_description_object__unlock_pdf__middle_3_title": "Cross-Platform Compatibility",
+    "detail_description_object__unlock_pdf__middle_3_description": "Ang aming tool sa pagbubuksan ng PDF ay batay sa browser, kaya't gumagana ito nang walang abala sa Mac, Windows, at Linux, pati na rin sa mga mobile device. Madaling buksan ang iyong mga file ng PDF mula saanman.",
+    "detail_description_object__unlock_pdf__middle_4_title": "Madaling Proseso ng Operasyon",
+    "detail_description_object__unlock_pdf__middle_4_description": "Madali ang pagbubuksan ng iyong mga file ng PDF: i-upload ang file, ilagay ang password, at pagkatapos ay i-download ang buksang bersyon. Kahit ang mga baguhan ay maaaring magamit nang walang kahirap-hirap sa prosesong ito.",
+    "detail_description_object__unlock_pdf__middle_5_title": "Mapagkakatiwalaang Tool sa Pagbubuksan ng PDF",
+    "detail_description_object__unlock_pdf__middle_5_description": "Walang pangangailangang bumili ng mamahaling software para buksan ang mga file ng PDF. Ang aming tool sa pagbubuksan ng PDF ay available para sa libreng online na paggamit nang walang pangangailangang magproseso sa ulap, pinapangalagaan ang seguridad ng iyong mga file at data.",
+    "detail_description_object__unlock_pdf__middle_6_title": "Lokal na Proseso para sa Pinalakas na Seguridad",
+    "detail_description_object__unlock_pdf__middle_6_description": "Ang aming serbisyong pagbubuksan ay nagtitiyak na lahat ng operasyon ay isinasagawa nang lokal. Ang tampok na ito ay nagpapalakas sa seguridad at nagpapabawas ng oras ng pagproseso, pinapangalagaan na laging protektado ang iyong mga file.",
+    "detail_description_object__unlock_pdf__bottom_right_title": "Paano Buksan ang Mga File ng PDF Online:",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "I-upload ang file ng PDF na nais mong buksan.",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "Ilagay ang password para sa file ng PDF na alam mo.",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "Kapag nabuksan na, maaari mong malayang ma-access at i-edit ang iyong mga file ng PDF sa anumang device.",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "I-click ang 'Unlock' para ma-download ang unlocked PDF file."
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "Mangyaring ilagay ang password para buksan ang iyong PDF",
+    "components__unlock_pdf_detail_input_placeholder": "Password",
+    "components__unlock_pdf_detail__button__unlock": "Buksan",
+    "components__unlock_pdf_detail__incorrect_password_tips": "Maling password",
+    "components__unlock_pdf_detail__use_tips": "Ang password at mga file ng PDF ay hindi ia-upload sa server, tiyaking ligtas."
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "Protektahan ang PDF",
+    "description": "Magdagdag ng proteksyon sa password at encryption sa iyong mga PDF file para sa pinatibay na seguridad.",
+    "seo_title": "Protektahan ang PDF - Magdagdag ng Password Encryption sa PDF Files Online ng Libre | MaxAI.me",
+    "seo_description": "Madaling magdagdag ng proteksyon sa password sa iyong mga PDF file online ng libre. Walang watermarks, limitasyon sa laki ng file, downloads, o sign-ups ang kinakailangan.",
+    "detail_description_object__protect_pdf__top_left": "Madaling protektahan ang iyong mga PDF file online ng libre sa pamamagitan ng pagdagdag ng password encryption. Sa aming tool, nananatili ang iyong mga file lokal para sa privacy, at walang limitasyon sa laki.",
+    "detail_description_object__protect_pdf__top_right_1": "Mabilis na protektahan ang iyong mga PDF file sa loob lamang ng ilang segundo.",
+    "detail_description_object__protect_pdf__top_right_2": "I-upload lamang ang iyong mga PDF file para magsimula.",
+    "detail_description_object__protect_pdf__top_right_3": "Sakop ang Mac, Windows, Android, at iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "Simple Online Tool para sa Proteksyon ng PDFs",
+    "detail_description_object__protect_pdf__middle_1_description": "Ang aming tool para sa proteksyon ng PDF ay nagbibigay-daan sa iyo na madaling magdagdag ng proteksyon sa password sa iyong mga PDF file. I-upload lamang ang iyong dokumento, itakda ang iyong password, at i-download ang encrypted PDF. Napakadaling gamitin, ganap na libre, at hindi nangangailangan ng account.",
+    "detail_description_object__protect_pdf__middle_2_title": "Lokal na Ligtas na Proteksyon ng PDF",
+    "detail_description_object__protect_pdf__middle_2_description": "Ang lahat ng i-upload mong file ay naiproseso nang direkta sa iyong browser, na nagtitiyak na ang iyong privacy ay protektado. Walang file na i-uupload sa cloud, na nagbibigay-garantiya ng seguridad ng data.",
+    "detail_description_object__protect_pdf__middle_3_title": "Cross-Platform Compatibility",
+    "detail_description_object__protect_pdf__middle_3_description": "Ang aming tool para sa proteksyon ng PDF ay batay sa browser, ibig sabihin, gumagana ito nang walang abala sa Mac, Windows, at Linux, pati na rin sa mga mobile device. Madaling protektahan ang iyong mga PDF file mula saanman.",
+    "detail_description_object__protect_pdf__middle_4_title": "Madaling Proseso ng Operasyon",
+    "detail_description_object__protect_pdf__middle_4_description": "Ang pagprotekta sa iyong mga PDF file ay simple: i-upload ang file, itakda ang iyong password, at pagkatapos ay i-download ang bersyon na may password-protection. Kahit ang mga baguhan ay maaaring sundan ang simpleng prosesong ito nang walang kahirap-hirap.",
+    "detail_description_object__protect_pdf__middle_5_title": "Maaasahang Tool para sa Proteksyon ng PDF",
+    "detail_description_object__protect_pdf__middle_5_description": "Hindi mo kailangang bumili ng mamahaling software para protektahan ang iyong mga PDF file. Ang aming online na tool para sa proteksyon ng PDF ay available ng libre, na nagtitiyak na laging ligtas ang iyong mga file at data nang walang pangangailangan para sa cloud processing.",
+    "detail_description_object__protect_pdf__middle_6_title": "Lokal na Paghahandle para sa Pinalakas na Seguridad",
+    "detail_description_object__protect_pdf__middle_6_description": "Ang aming serbisyong pang-proteksyon ay nagtitiyak na lahat ng operasyon ay isinasagawa nang lokal. Ito ay nagpapalakas ng seguridad at nagpapabilis ng processing time, na nagpapanatili sa iyong mga file na ligtas.",
+    "detail_description_object__protect_pdf__bottom_right_title": "Paano Protektahan ang PDF Files Online:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "I-upload ang PDF file na nais mong protektahan.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Itakda ang password para sa PDF file.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "I-click ang 'Protektahan' para i-download ang password-protected PDF file.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Kapag naka-protektahan na, tanging ang may password lamang ang makakapag-access at mag-eedit ng iyong mga PDF file sa anumang device."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Protektahan",
+    "components__protect_pdf_detail__type_password": " Magtakda ng password",
+    "components__protect_pdf_detail__repeat_type_password": "Ulitin ang password",
+    "components__protect_pdf_detail__input__placeholder": "Itakda ang iyong password",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Kumpirmahin ang iyong password",
+    "components__protect_pdf_detail__use_tips": "Ang password at mga file ng PDF ay hindi ia-upload sa server, tiyaking ligtas."
   }
 }

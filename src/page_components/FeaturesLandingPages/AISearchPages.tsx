@@ -4,9 +4,10 @@ import React, { FC } from 'react'
 
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
 import HeroSection from '@/features/landing/components/HeroSection'
+import HowItWork from '@/features/landing/components/HowItWork'
 import TrustedBy from '@/features/landing/components/TrustedBy'
 import FunnelSurveyPopup from '@/features/survey/components/FunnelSurveyPopup'
-import { RESOURCES_URL } from '@/global_constants'
+import { CLOUD_FLARE_ASSETS_URL } from '@/global_constants'
 import FeaturesContentSection from '@/page_components/FeaturesLandingPages/components/FeaturesContentSection'
 import FeaturesExploreMore from '@/page_components/FeaturesLandingPages/components/FeaturesExploreMore'
 import FeaturesTextWithMarker from '@/page_components/FeaturesLandingPages/components/FeaturesTextWithMarker'
@@ -26,7 +27,7 @@ const AISearchPages: FC<IProps> = () => {
       {/* hero section */}
       <HeroSection
         heroVideoProps={{
-          videoSrc: `${RESOURCES_URL}/video/features/search-assistant.mp4`,
+          videoSrc: `${CLOUD_FLARE_ASSETS_URL}/videos/search-assistant.mp4`,
           variant: 'autoplay',
           windowAutoPlay: true,
           videoPosterUrl: `/assets/features-landing/video-features/search.png`,
@@ -49,6 +50,7 @@ const AISearchPages: FC<IProps> = () => {
 
       {/* trusted by */}
       <TrustedBy />
+      <HowItWork />
 
       <FeaturesContentSection
         icon='chat'
