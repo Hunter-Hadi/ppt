@@ -27,7 +27,6 @@ import useFunctionalityCommonIsMobile from '@/features/functionality_common/hook
 import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex'
 
 import FunctionalityWateMarkPdfShowPdfViewRenderCanvas from './FunctionalityWateMarkPdfShowPdfViewRenderCanvas'
-
 const InputContainer = styled('div')(({ theme }) => ({
   position: 'relative',
   display: 'flex',
@@ -61,9 +60,6 @@ interface IPdfContainerMainProps {
   onClearReturn: () => void
 }
 
-//PDF的显示视图
-//为什么不用key刷新？保持最新的数据
-//因为key刷新会导致useChatPdfContainerGetInfo的方法，不会停止
 const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
   file,
   onClearReturn,
@@ -73,7 +69,7 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
   const [waterMarkFontSize, setWaterMarkFontSize] = useState<number>(48)
   const [transparencyNumber, setTransparencyNumber] = useState<number>(0.5)
   const [waterMarkFontFamily, setWaterMarkFontFamily] =
-    useState<string>('Concert One')
+    useState<string>('Arial')
   const [downLoadLoading, setDownLoadLoading] = useState(false)
   const canvasHandlesRefs = useRef<any[]>([])
 
@@ -91,6 +87,7 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
     const distanceFromTop = infintyViewRef.current?.getBoundingClientRect().top
 
     const overallViewHeight =
+      // window.innerHeight - (distanceFromTop || 280) - 60 - (isMobile ? 0 : 0)
       window.innerHeight - (distanceFromTop || 280) - 10 - (isMobile ? 0 : 0)
     setOverallViewHeight(overallViewHeight)
   }
@@ -430,9 +427,8 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
                   'gray',
                 ]}
                 onSelectedColor={setWaterMarkColor}
-                onChangeTransparency={onChangeTransparency}
-                currentTransparency={transparencyNumber * 100}
                 currentColor={waterMarkColor}
+                showColorPicker={true}
               />
             </Button>
 
@@ -440,7 +436,7 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
               <FunctionalityCommonColorTransparencyPopover
                 onChangeTransparency={onChangeTransparency}
                 currentTransparency={transparencyNumber * 100}
-                sx={{width: 300}}
+                sx={{ width: isMobile ? 150 : 200 }}
               ></FunctionalityCommonColorTransparencyPopover>
             </Button>
           </ButtonGroup>

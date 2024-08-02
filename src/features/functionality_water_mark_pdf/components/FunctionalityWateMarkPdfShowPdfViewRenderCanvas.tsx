@@ -98,7 +98,6 @@ const FunctionalityWateMarkPdfShowPdfViewRenderCanvas = (
 
     // 将弧度转换为度
     const degree = radian * (180 / Math.PI)
-    console.log(`degree:`, degree)
 
     // 因为问题要求的是从左下到右上的倾斜角度，所以使用负值
     return -degree
@@ -107,9 +106,6 @@ const FunctionalityWateMarkPdfShowPdfViewRenderCanvas = (
   const renderWaterMark = async () => {
     if (!editor.current || !topWrapRef.current) return
     editor.current?.clear()
-    // console.log(`editor.current:`, editor.current)
-    // console.log(`waterMarkInfo:`, waterMarkInfo)
-    // console.log(`topWrapRef.current:`, topWrapRef.current)
     const rotate = getAngleForDiagonal(
       topWrapRef.current.clientWidth,
       topWrapRef.current.clientHeight,
@@ -194,7 +190,7 @@ const FunctionalityWateMarkPdfShowPdfViewRenderCanvas = (
         resizeObserver.unobserve(topWrapRef)
       }
     }
-  }, [topWrapRef])
+  }, [topWrapRef, sizeInfo])
 
   useEffect(() => {
     try {

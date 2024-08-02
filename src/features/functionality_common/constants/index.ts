@@ -7,6 +7,7 @@ export const SIGN_TYPING_FONT_FAMILY_LIST = [
   'Dancing Script',
 ]
 export const SIGN_TEXT_FONT_FAMILY_LIST = [
+  'Arial',
   'Concert One',
   'Roboto',
   'Courier Prime',
