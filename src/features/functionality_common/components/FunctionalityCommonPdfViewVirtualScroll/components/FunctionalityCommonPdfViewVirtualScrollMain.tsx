@@ -54,6 +54,7 @@ interface IFunctionalityCommonVirtualScrollingMainProps {
     index: number
   }) => React.ReactNode
   bgcolor?: string
+  defaultZoom?: number //默认缩放比例
 }
 //PDF的显示视图
 const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
@@ -71,6 +72,7 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
     isSelfAdaptionSize = false,
     onReadPDFState,
     bgcolor = '#f2f2f2',
+    defaultZoom = 0.7,
   },
   handleRef,
 ) => {
@@ -90,7 +92,11 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
 
   const scrollListRef = useRef<any>(null)
   const pdfPageRefs = useRef<HTMLElement[]>([])
-  const { scaleNumber, onChangeZoom, onSelfAdaption } = useChatPdfListZoom() //简单的缩放逻辑
+  const { scaleNumber, onChangeZoom, onSelfAdaption } = useChatPdfListZoom({
+    max: 1.5,
+    min: 0.5,
+    defaultZoom: defaultZoom,
+  }) //简单的缩放逻辑
   const isSelfAdaption = scaleNumber === 1
   const {
     pdfNumPages,

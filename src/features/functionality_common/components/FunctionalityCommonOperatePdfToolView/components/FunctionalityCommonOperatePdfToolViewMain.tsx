@@ -5,7 +5,10 @@ import { useFunctionalitySignElementWidth } from '@/features/functionality_sign_
 
 import FunctionalityCommonPdfViewPage from '../../FunctionalityCommonPdfViewVirtualScroll/components/FunctionalityCommonPdfViewPage'
 import FunctionalityCommonPdfViewVirtualScrollMain from '../../FunctionalityCommonPdfViewVirtualScroll/components/FunctionalityCommonPdfViewVirtualScrollMain'
-import FunctionalityCommonOperateFabricCanvas from './FunctionalityCommonOperateCanvas/FunctionalityCommonOperateFabricCanvas'
+import FunctionalityCommonOperateFabricCanvas, {
+  IFunctionalityCommonOperateFabricCanvasHandles,
+} from './FunctionalityCommonOperateCanvas/FunctionalityCommonOperateFabricCanvas'
+import FunctionalityCommonOperateDroppable from './FunctionalityCommonOperateDroppable'
 interface FunctionalityCommonOperatePdfToolViewMainProps {
   file: File
   isShowBottomOperation: boolean
@@ -14,9 +17,12 @@ const FunctionalityCommonOperatePdfToolViewMain: FC<
   FunctionalityCommonOperatePdfToolViewMainProps
 > = ({ file, isShowBottomOperation }) => {
   const wrapRef = useRef<HTMLElement>(null)
-
+  const canvasHandlesRefs = useRef<
+    IFunctionalityCommonOperateFabricCanvasHandles[]
+  >([])
   const { width: parentWidth, height: parentHeight } =
     useFunctionalitySignElementWidth(wrapRef) //获取父元素的宽度
+
   return (
     <Box
       ref={wrapRef}
@@ -47,10 +53,12 @@ const FunctionalityCommonOperatePdfToolViewMain: FC<
                 height: '100%',
               }}
             >
-              <FunctionalityCommonPdfViewPage
-                pdfInfo={props.pdfInfo}
-                index={props.index}
-              />
+              <FunctionalityCommonOperateDroppable pdfIndex={props.index}>
+                <FunctionalityCommonPdfViewPage
+                  pdfInfo={props.pdfInfo}
+                  index={props.index}
+                />
+              </FunctionalityCommonOperateDroppable>
 
               <div
                 style={{
@@ -65,8 +73,15 @@ const FunctionalityCommonOperatePdfToolViewMain: FC<
                 }}
               >
                 <FunctionalityCommonOperateFabricCanvas
-                  defaultWidth={parentWidth}
+                  defaultWidth={props.pdfInfo.width * 2}
+                  index={props.index}
+                  pdfViewScale={props.pdfInfo.pdfViewScale}
                   canvasScale={props.pdfInfo.height / props.pdfInfo.width}
+                  ref={(el) => {
+                    if (el) {
+                      canvasHandlesRefs.current[props.index] = el
+                    }
+                  }}
                 />
               </div>
             </Box>

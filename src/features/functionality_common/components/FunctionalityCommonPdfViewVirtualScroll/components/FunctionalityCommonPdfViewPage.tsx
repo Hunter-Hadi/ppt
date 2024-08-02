@@ -48,7 +48,10 @@ const FunctionalityCommonPdfViewPage: FC<
     }
   }
   return (
-    <Stack className={`pdf-page-number-${pdfInfo?.pdfIndex}`} zIndex={-1}>
+    <Stack
+      className={`pdf-page-number-${pdfInfo?.pdfIndex} pdf-page-view`}
+      zIndex={-1}
+    >
       {pdfInfo && (
         <Stack
           alignItems={pdfInfo.viewScale > 1 ? 'flex-start' : 'center'}
