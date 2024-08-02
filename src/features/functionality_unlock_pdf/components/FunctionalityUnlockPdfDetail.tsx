@@ -13,6 +13,7 @@ import { useTranslation } from 'next-i18next'
 import React, { useCallback } from 'react'
 import { FC, useEffect, useMemo, useRef, useState } from 'react'
 
+import { copyPdfAllPagesToNewPDF } from '@/features/common/utils/pdflibUtils'
 import {
   FunctionalityCommonButtonListView,
   IButtonConfig,
@@ -22,7 +23,6 @@ import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/fun
 import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool'
 
 import {
-  copyPdfAllPagesToNewPDF,
   fileGetPdfDocument,
   uintArrayGetPdfDocument,
 } from '../utils/unlockPdfTool'
@@ -168,7 +168,7 @@ const FunctionalityUnlockPdfDetail: FC<IFunctionalityUnlockPdfDetail> = ({
         type: 'button',
         buttonProps: {
           children: t(
-            'functionality__unlock_pdf:components__unlock_pdf_detail__button__convert',
+            'functionality__common:components__common__select_other_file',
           ),
           variant: 'outlined',
           disabled: isLoading,
@@ -216,6 +216,17 @@ const FunctionalityUnlockPdfDetail: FC<IFunctionalityUnlockPdfDetail> = ({
                   ),
                 }}
               />
+              <Box sx={{ mt: 0.5 }}>
+                <Typography
+                  variant='custom'
+                  color='text.secondary'
+                  fontSize={14}
+                >
+                  {t(
+                    'functionality__unlock_pdf:components__unlock_pdf_detail__use_tips',
+                  )}
+                </Typography>
+              </Box>
             </Box>
           </Grid>
         </Grid>

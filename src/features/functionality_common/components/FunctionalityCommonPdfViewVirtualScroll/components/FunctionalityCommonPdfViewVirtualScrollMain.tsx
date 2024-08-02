@@ -339,9 +339,9 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
                   position: 'absolute',
                   margin: '0 auto',
                   padding: 1,
-                  bottom: 15,
+                  bottom: 10,
                   p: 1,
-                  zIndex: 9999,
+                  zIndex: 1000,
                   width: '100%',
                   height: isMobile ? 40 : 60,
                   '&:hover': {

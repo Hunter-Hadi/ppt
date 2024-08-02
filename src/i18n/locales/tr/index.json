@@ -52,7 +52,8 @@
     "month": "ay",
     "unlimited": "Sınırsız",
     "most_popular": "En popüler",
-    "upgrade_now": "Şimdi yükselt"
+    "upgrade_now": "Şimdi yükselt",
+    "choose_another_file": "Başka bir dosya seç"
   },
   "button": {
     "add_to_chrome_for_free": "Chrome'a Ekle — Ücretsiz",
@@ -669,7 +670,7 @@
     "home_page__how_it_works__step1__title": "Tarayıcıya ekleyin",
     "home_page__how_it_works__step2__title": "Giriş yapın",
     "home_page__how_it_works__step3__title": "Verimliliği artırın",
-    "home_page__how_it_works__step3__description": "Herhangi bir gezindiğiniz web sayfasında yapay zeka ile özetleyin, arayın, okuyun ve yazın. Her gün saatlerce zaman kazanın.",
+    "home_page__how_it_works__step3__description": "Daha hızlı oku. Daha iyi yaz. Cevapları al. Yapay zeka ile web üzerinde üretkenliğini artır. Her gün saatler kazan.",
     "home_page__how_it_works__step1__description": "AI ile her web sayfasında zaman kazanmak için tarayıcınıza MaxAI.me uzantısını ekleyin. Ücretsiz ve %100 gizlilik dostu.",
     "home_page__how_it_works__step2__description": "Google veya e-posta ile kolayca oturum açın. Basit, ücretsiz ve güvenli.",
     "home_page__hero_section__title": "Yapay zeka destekli araştırma ve yazma asistanınız",
@@ -728,7 +729,13 @@
     "home_page__features_content__all_in_chatbox__description2": "Anında cevapları tarayıcı kenar çubuğunda almanın en hızlı yolu.",
     "home_page__features_content__all_in_chatbox__description3": "Herhangi bir görüntüyü yapay zeka görüşüyle analiz edin.",
     "home_page__features_content__all_in_chatbox__description4": "DALLE-3 ile yapay zeka sanatı ve görüntüleri oluşturun.",
-    "home_page__features_content__ab_test_v4__content2__search__description4": "Google arama sonuçlarının yanında AI yanıtlarını görüntüleyin."
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Google arama sonuçlarının yanında AI yanıtlarını görüntüleyin.",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "PDF'ye Filigran Ekle",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "PDF'lerinize bir filigran ekleyin",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Saniyeler içinde PDF filigranları ekleyin",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "2013'ten beri 2.4 milyar kişi tarafından güvenilen",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "PDF'lere filigran eklemenin kolay yolu–kurulum gerekmez",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Ücretsiz PDF Damgası ile PDF belgelere bir filigran ekleyin. Bir uygulama indirmenize gerek yok–her şey tarayıcınızda Mac, Windows, Linux ve mobil cihazlarda çalışır."
   },
   "prompt_library": {
     "use_prompt_library__title": "Yüksek kaliteli AI prompt kütüphanesi",
@@ -969,8 +976,8 @@
     "faq__question5__description__part2": "bağlantı performansınızı takip etmek için."
   },
   "seo": {
-    "default__title": "MaxAI.me: 1-Tıkla Her Yerde AI (GPT-4o, Claude 3, Gemini 1.5)",
-    "default__description": "AI sohbeti, yeniden yazıcı, özet, anlık yanıt, okuma yardımcısı, ipuçları, arama, sanat ve çevirmen. GPT-4o, Claude 3, Gemini 1.5 tarafından desteklenmektedir.",
+    "default__title": "MaxAI.me: Daha hızlı oku. Daha iyi yaz. Ücretsiz AI eklentisi.",
+    "default__description": "Web'de AI ile özetle, soruları yanıtla ve yazıları parlat Chrome ve Edge'de. GPT-4o, Claude-3.5, Gemini-1.5, Llama-3.1, Mistral tarafından desteklenmektedir.",
     "maintain__title": "Bakımdayız | MaxAI.me",
     "affiliate__title": "Ortaklık Programı | MaxAI.me",
     "affiliate__description": "MaxAI ortaklık programı ile para kazanın. Ortaklık programımıza katılın ve MaxAI'yi paylaşarak %25 komisyon kazanın!",
@@ -1059,7 +1066,9 @@
     "use_cases__research__title": "AI araştırma ve özet asistanı | MaxAI.me",
     "use_cases__research__desc": "Zaman kazanmak için web makaleleri, PDF'ler ve YouTube videolarını özetlemek ve sohbet etmek için tarayıcınıza AI ekleyin. Araştırmanızı hızlandırmak için hızlı cevaplar için AI soruları sorun. GPT-4o, Claude-3-Opus, Gemini-1.5-Pro tarafından desteklenmektedir.",
     "use_cases__writing__title": "AI yazma asistanı | MaxAI.me",
-    "use_cases__writing__desc": "Tarayıcınıza AI ekleyerek herhangi bir web sayfasında yazınızı geliştirin ve cilalayın. Etkileyici e-postalar, makaleler, blog yazıları, sosyal medya gönderileri, makaleler oluşturun. GPT-4o, Claude-3-opus, Gemini-1.5-pro tarafından desteklenmektedir."
+    "use_cases__writing__desc": "Tarayıcınıza AI ekleyerek herhangi bir web sayfasında yazınızı geliştirin ve cilalayın. Etkileyici e-postalar, makaleler, blog yazıları, sosyal medya gönderileri, makaleler oluşturun. GPT-4o, Claude-3-opus, Gemini-1.5-pro tarafından desteklenmektedir.",
+    "pdf_tools__pdf_watermark_page__title": "Ücretsiz PDF Damgası | Herhangi bir cihazda PDF'lere filigran ekleme",
+    "pdf_tools__pdf_watermark_page__description": "PDF belgelere kolayca bir filigran ekleyin. Bir uygulama indirmenize gerek yok–her şey tarayıcınızda Mac, Windows, Linux ve mobil cihazlarda çalışır."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Hepsini Seç",
@@ -1294,7 +1303,8 @@
     "components__common__drag__dropping_tip": "Sıralamayı sürükleyip bırakarak ayarlayabilirsiniz",
     "components__common__upload_button_tips": "veya dosyaları buraya bırakın",
     "components__common__upload_button_title": "DOSYALAR SEÇ",
-    "components__common__upload_button__unsupported_file_type_tip": "Lütfen belirtilen PDF dosya türünü yükleyin"
+    "components__common__upload_button__unsupported_file_type_tip": "Lütfen belirtilen PDF dosya türünü yükleyin",
+    "components__common__select_other_file": "Başka bir dosya seç"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Sadece resim türündeki resimler yüklenebilir",
@@ -1431,7 +1441,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "En akıllı AI modellerine tek bir yerden erişin.",
     "ab_test_v5__features_data__image_ai_queries": "Görüntü AI sorguları",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "En gelişmiş AI sanat modelleri ile yaratıcılığınızı ve üretkenliğinizi 10 kat artırın.",
-    "ab_test_v5__features_data__search_faster": "Daha hızlı arama",
+    "ab_test_v5__features_data__search_faster": "Cevapları Al",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Tarayıcı kenar çubuğunda AI'ya herhangi bir şeyi sorun",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Tüm en iyi AI'larla tek bir yerde sohbet edin",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Tarayıcı kenar çubuğunda AI ile arama yapın",
@@ -1453,7 +1463,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Çevir",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Açıkla",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Tam sayfa çift dil çevirisi",
-    "ab_test_v5__features_data__write_faster": "Daha hızlı yazın",
+    "ab_test_v5__features_data__write_faster": "Daha İyi Yaz",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "Herhangi bir sayfada AI yeniden yazıcı",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Yazmayı geliştirin",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Dilbilgisini kontrol edin",
@@ -1517,7 +1527,10 @@
     "ab_test_v5__features_data__discord__tooltip": "Discord mesaj yazışmalarında zaman kazanın. Kısa notlarla saniyeler içinde mesajlara yanıt verin. Tonu iyileştirin, yazım ve dilbilgisini kontrol edin. Daha etkili ve verimli iletişim kurun.",
     "ab_test_v5__features_data__messenger__tooltip": "Messenger mesaj yazışmalarında zaman kazanın. Kısa notlarla saniyeler içinde mesajlara yanıt verin. Tonu iyileştirin, yazım ve dilbilgisini kontrol edin. Daha etkili ve verimli iletişim kurun.",
     "ab_test_v5__features_data__telegram__tooltip": "Telegram mesaj yazışmalarında zaman kazanın. Kısa notlarla saniyeler içinde mesajlara yanıt verin. Tonu iyileştirin, yazım ve dilbilgisini kontrol edin. Daha etkili ve verimli iletişim kurun.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Kendi ipuçlarınızı oluşturun, düzenleyin ve erişimi ve yeniden kullanımı kolay hale getirin, kendiniz ve ekibiniz için."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Kendi ipuçlarınızı oluşturun, düzenleyin ve erişimi ve yeniden kullanımı kolay hale getirin, kendiniz ve ekibiniz için.",
+    "features_data__llama_3_1_70b__tooltip": "Meta tarafından desteklenir. 128.000 maksimum belirteç. Önemli ölçüde genişletilmiş bağlam uzunluğuna ve geliştirilmiş akıl yürütme yeteneklerine sahip güçlü çok dilli bir model. Uzun metin özetleme, çok dilli konuşma ajanları ve kod yardımı gibi gelişmiş kullanım durumlarını destekler.",
+    "features_data__llama_3_1_405b__tooltip": "Meta tarafından desteklenir. 128.000 maksimum belirteç. Dünyanın en büyük açık kaynaklı temel modeli, en iyi kapalı kaynaklı yapay zeka ile genel bilgi, yönlendirilebilirlik ve matematik alanlarında rekabet eder. 8 dil destekler ve sentetik veri oluşturma ve model sıkıştırma gibi gelişmiş yetenekleri etkinleştirir. Uzun metin özetleme, çok dilli konuşma ajanları ve kod asistanları için idealdir.",
+    "features_data__mistral_large_2__tooltip": "MistralAI tarafından desteklenmektedir. 128.000 maksimum belirteç. Mistral'ın en son amiral gemisi modeli hız ve performans sınırlarını zorlar. 123 milyar parametre ile Mistral-Large-2 kod oluşturma, matematik ve onlarca dilde akıl yürütme konularında başarılıdır. Minimal hayal ürünü sunar ve doğal ve programlama dilleri için etkileyici çok dilli destek sunar."
   },
   "features__common": {
     "components__upload_button_drop_title": "Buraya bırakın"
@@ -1772,7 +1785,42 @@
     "components__unlock_pdf_detail_input_password": "PDF'nizi kilidini açmak için şifreyi girin",
     "components__unlock_pdf_detail_input_placeholder": "Şifre",
     "components__unlock_pdf_detail__button__unlock": "Kilidi Aç",
-    "components__unlock_pdf_detail__button__convert": "Başka bir dosyaya dönüştür",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Yanlış şifre"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Yanlış şifre",
+    "components__unlock_pdf_detail__use_tips": "Parola ve PDF dosyaları sunucuya yüklenmeyecek, güvenliği sağlanacak."
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "PDF Koruma",
+    "description": "PDF dosyalarınıza gelişmiş güvenlik için şifre koruması ve şifreleme ekleyin.",
+    "seo_title": "PDF Koruma - Ücretsiz Olarak PDF Dosyalarına Şifreleme Ekleyin | MaxAI.me",
+    "seo_description": "PDF dosyalarınıza ücretsiz olarak kolayca şifre koruması ekleyin. Filigranlar, dosya boyutu sınırları, indirmeler veya kayıtlar gerektirilmez.",
+    "detail_description_object__protect_pdf__top_left": "PDF dosyalarınıza şifreleme ekleyerek kolayca ücretsiz olarak koruyun. Aracımızla dosyalarınız yerel olarak kalır ve gizlilik için boyut sınırlamaları yoktur.",
+    "detail_description_object__protect_pdf__top_right_1": "PDF dosyalarınızı sadece birkaç saniye içinde güvence altına alın.",
+    "detail_description_object__protect_pdf__top_right_2": "Başlamak için sadece PDF dosyalarınızı yükleyin.",
+    "detail_description_object__protect_pdf__top_right_3": "Mac, Windows, Android ve iOS ile uyumludur.",
+    "detail_description_object__protect_pdf__middle_1_title": "PDF'leri Korumak İçin Basit Çevrimiçi Aracı",
+    "detail_description_object__protect_pdf__middle_1_description": "PDF koruma aracımız, PDF dosyalarınıza kolayca şifre koruması eklemenizi sağlar. Sadece belgenizi yükleyin, şifrenizi belirleyin ve şifrelenmiş PDF'yi indirin. Son derece kullanıcı dostu, tamamen ücretsiz ve hesap gerektirmez.",
+    "detail_description_object__protect_pdf__middle_2_title": "Yerel Güvenli PDF Koruma",
+    "detail_description_object__protect_pdf__middle_2_description": "Yüklediğiniz tüm dosyalar tarayıcınızda doğrudan işlenir, böylece gizliliğiniz korunur. Dosyalar hiçbir şekilde buluta yüklenmez, veri güvenliği garanti altına alınır.",
+    "detail_description_object__protect_pdf__middle_3_title": "Çapraz Platform Uyumluluğu",
+    "detail_description_object__protect_pdf__middle_3_description": "PDF koruma aracımız tarayıcı tabanlıdır, bu da Mac, Windows ve Linux ile birlikte mobil cihazlarda sorunsuz çalıştığı anlamına gelir. PDF dosyalarınızı her yerden kolayca koruyabilirsiniz.",
+    "detail_description_object__protect_pdf__middle_4_title": "Kolay İşlem Süreci",
+    "detail_description_object__protect_pdf__middle_4_description": "PDF dosyalarınızı korumak oldukça basittir: dosyayı yükleyin, şifrenizi belirleyin ve ardından şifre korumalı sürümü indirin. Hatta acemiler bile bu kolay süreci zorlanmadan takip edebilir.",
+    "detail_description_object__protect_pdf__middle_5_title": "Güvenilir PDF Koruma Aracı",
+    "detail_description_object__protect_pdf__middle_5_description": "PDF dosyalarınızı korumak için pahalı yazılımlar satın almanıza gerek yok. Çevrimiçi PDF koruma aracımız ücretsiz olarak sunulmaktadır, dosyalarınız ve verileriniz her zaman bulut işlemine gerek duymadan güvende tutulur.",
+    "detail_description_object__protect_pdf__middle_6_title": "Gelişmiş Güvenlik İçin Yerel İşleme",
+    "detail_description_object__protect_pdf__middle_6_description": "Hizmetimiz, tüm işlemlerin yerel olarak gerçekleştirildiğinden emin olur. Bu, dosyalarınızın güvenliğini artırır ve işleme süresini hızlandırır, dosyalarınızı güvende tutar.",
+    "detail_description_object__protect_pdf__bottom_right_title": "PDF Dosyalarını Nasıl Çevrimiçi Olarak Korursunuz:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Korumak istediğiniz PDF dosyasını yükleyin.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "PDF dosyası için bir şifre belirleyin.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Şifre korumalı PDF dosyasını indirmek için 'Koru'ya tıklayın.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Korunduktan sonra, sadece şifreye sahip olanlar PDF dosyalarınıza herhangi bir cihazda erişebilir ve düzenleyebilir."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Koruma",
+    "components__protect_pdf_detail__type_password": " Şifre girin",
+    "components__protect_pdf_detail__repeat_type_password": "Şifreyi tekrar girin",
+    "components__protect_pdf_detail__input__placeholder": "Şifrenizi belirleyin",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Şifrenizi onaylayın",
+    "components__protect_pdf_detail__use_tips": "Parola ve PDF dosyaları sunucuya yüklenmeyecek, güvenliği sağlanacak."
   }
 }

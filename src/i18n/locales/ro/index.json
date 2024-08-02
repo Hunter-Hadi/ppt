@@ -52,7 +52,8 @@
     "month": "lună",
     "unlimited": "Nelimitat",
     "most_popular": "Cel mai popular",
-    "upgrade_now": "Upgrade acum"
+    "upgrade_now": "Upgrade acum",
+    "choose_another_file": "Alegeți alt fișier"
   },
   "button": {
     "add_to_chrome_for_free": "Adăugați la Chrome - Este gratuit",
@@ -669,7 +670,7 @@
     "home_page__how_it_works__step1__title": "Adaugă în browser",
     "home_page__how_it_works__step2__title": "Conectează-te",
     "home_page__how_it_works__step3__title": "Crește productivitatea",
-    "home_page__how_it_works__step3__description": "Rezumați, căutați, citiți și scrieți de 10 ori mai rapid cu ajutorul IA pe orice pagină web pe care o navigați. Economisiți ore în fiecare zi.",
+    "home_page__how_it_works__step3__description": "Citește mai repede. Scrie mai bine. Obține răspunsuri. Crește-ți productivitatea pe web cu AI. Economisește ore în fiecare zi.",
     "home_page__how_it_works__step1__description": "Adăugați extensia MaxAI.me la browserul dvs. pentru a economisi timp pe fiecare pagină web cu ajutorul AI-ului. Este gratuit și respectă confidențialitatea în proporție de 100%.",
     "home_page__how_it_works__step2__description": "Conectați-vă ușor cu Google sau prin e-mail. Este simplu, gratuit și sigur.",
     "home_page__hero_section__title": "Asistentul tău de cercetare și scriere alimentat de IA",
@@ -728,7 +729,13 @@
     "home_page__features_content__all_in_chatbox__description2": "Cel mai rapid mod de a obține răspunsuri instant în bara laterală a browserului.",
     "home_page__features_content__all_in_chatbox__description3": "Analizați orice imagine cu viziune AI.",
     "home_page__features_content__all_in_chatbox__description4": "Creați artă și imagini AI cu DALLE-3.",
-    "home_page__features_content__ab_test_v4__content2__search__description4": "Afișați răspunsurile AI lângă rezultatele căutării Google."
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Afișați răspunsurile AI lângă rezultatele căutării Google.",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "Filigran PDF",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "Adăugați un filigran la fișierele PDF",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Adăugați filigrane PDF în câteva secunde",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "De încredere de 2,4 miliarde de persoane din 2013",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Modalitate ușoară de a adăuga filigrane la PDF-uri - nu este necesară instalarea",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Adăugați o filigramă la documentele PDF cu un Filigran PDF gratuit. Nu este nevoie să descărcați o aplicație - totul funcționează în browserul dvs. pe Mac, Windows, Linux și dispozitive mobile."
   },
   "prompt_library": {
     "use_prompt_library__title": "Bibliotecă de prompt-uri AI de înaltă calitate",
@@ -969,8 +976,8 @@
     "faq__question5__description__part2": "pentru a urmări performanța referințelor dvs."
   },
   "seo": {
-    "default__title": "MaxAI.me: AI cu un singur clic peste tot (GPT-4o, Claude 3, Gemini 1.5)",
-    "default__description": "Chat AI, rescriere, rezumat, răspuns instant, asistent de lectură, sugestii, căutare, artă și traducător. Propulsat de GPT-4o, Claude 3, Gemini 1.5.",
+    "default__title": "MaxAI.me: Citește mai repede. Scrie mai bine. Extensie AI gratuită.",
+    "default__description": "Rezumă, răspunde la întrebări și îmbunătățește scrierea pe web cu AI în Chrome și Edge. Alimentat de GPT-4o, Claude-3.5, Gemini-1.5, Llama-3.1, Mistral.",
     "maintain__title": "În întreținere | MaxAI.me",
     "affiliate__title": "Program de afiliere | MaxAI.me",
     "affiliate__description": "Obțineți bani cu programul nostru de afiliere MaxAI. Alăturați-vă programului nostru de afiliere și câștigați o comision de 25% pentru partajarea MaxAI!",
@@ -1059,7 +1066,9 @@
     "use_cases__research__title": "Asistent de cercetare și rezumat AI | MaxAI.me",
     "use_cases__research__desc": "Adaugă AI la browser-ul tău pentru a rezuma și discuta articole web, PDF-uri și videoclipuri YouTube pentru a economisi timp. Pune întrebări AI pentru răspunsuri rapide și accelerează-ți cercetarea. Alimentat de GPT-4o, Claude-3-Opus, Gemini-1.5-Pro.",
     "use_cases__writing__title": "Asistent de scriere AI | MaxAI.me",
-    "use_cases__writing__desc": "Adaugă AI la browser-ul tău pentru a îmbunătăți și poliza scrierea pe orice pagină web. Generează e-mailuri captivante, articole, postări de blog, postări pe rețelele sociale, lucrări. Alimentat de GPT-4o, Claude-3-opus, Gemini-1.5-pro."
+    "use_cases__writing__desc": "Adaugă AI la browser-ul tău pentru a îmbunătăți și poliza scrierea pe orice pagină web. Generează e-mailuri captivante, articole, postări de blog, postări pe rețelele sociale, lucrări. Alimentat de GPT-4o, Claude-3-opus, Gemini-1.5-pro.",
+    "pdf_tools__pdf_watermark_page__title": "Filigran PDF gratuit | Adăugați filigrane PDF pe orice dispozitiv",
+    "pdf_tools__pdf_watermark_page__description": "Adăugați ușor o filigramă la documentele PDF. Nu este nevoie să descărcați o aplicație - totul funcționează în browserul dvs. pe Mac, Windows, Linux și dispozitive mobile."
   },
   "features_landing": {
     "cta_text": "Adaugă în Browser",
@@ -1294,7 +1303,8 @@
     "components__common__drag__dropping_tip": "Puteți ajusta ordinea prin tragere și fixare",
     "components__common__upload_button_tips": "sau lăsați fișierele aici",
     "components__common__upload_button_title": "ALEGEȚI FIȘIERELE",
-    "components__common__upload_button__unsupported_file_type_tip": "Vă rugăm să încărcați tipul de fișier PDF specificat"
+    "components__common__upload_button__unsupported_file_type_tip": "Vă rugăm să încărcați tipul de fișier PDF specificat",
+    "components__common__select_other_file": "Alegeți alt fișier"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Pot fi încărcate doar imagini de tip imagine",
@@ -1431,7 +1441,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "Accesează cele mai inteligente modele AI, toate într-un singur loc.",
     "ab_test_v5__features_data__image_ai_queries": "Interogări AI de imagine",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "Creează-ți creativitatea și productivitatea cu cele mai avansate modele AI de artă.",
-    "ab_test_v5__features_data__search_faster": "Caută mai rapid",
+    "ab_test_v5__features_data__search_faster": "Obțineți răspunsuri",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Întreabă AI orice în bara laterală a browserului",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Chat cu toți cei mai buni AI într-un singur loc",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Caută cu AI în bara laterală a browserului",
@@ -1453,7 +1463,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Traducere",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Explicare",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Traducere bilingvă pe întreaga pagină",
-    "ab_test_v5__features_data__write_faster": "Scrie mai rapid",
+    "ab_test_v5__features_data__write_faster": "Scrieți mai bine",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "Reformulare AI pe orice pagină",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Îmbunătățește scrierea",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Corectează",
@@ -1517,7 +1527,10 @@
     "ab_test_v5__features_data__discord__tooltip": "Economisiți timp la corespondența prin mesaje Discord. Răspundeți la mesaje în câteva secunde cu note scurte. Îmbunătățiți tonul, verificați ortografia și gramatica. Comunicați mai eficient și mai eficient.",
     "ab_test_v5__features_data__messenger__tooltip": "Economisiți timp la corespondența prin mesaje Messenger. Răspundeți la mesaje în câteva secunde cu note scurte. Îmbunătățiți tonul, verificați ortografia și gramatica. Comunicați mai eficient și mai eficient.",
     "ab_test_v5__features_data__telegram__tooltip": "Economisiți timp la corespondența prin mesaje Telegram. Răspundeți la mesaje în câteva secunde cu note scurte. Îmbunătățiți tonul, verificați ortografia și gramatica. Comunicați mai eficient și mai eficient.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Creați propriile dvs. prompturi, organizați-le și faceți-le ușor de accesat și reutilizat, pentru dvs. și echipa dvs."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Creați propriile dvs. prompturi, organizați-le și faceți-le ușor de accesat și reutilizat, pentru dvs. și echipa dvs.",
+    "features_data__llama_3_1_70b__tooltip": "Susținut de Meta. 128.000 de jetoni maximi. Un model multilingv puternic cu o lungime a contextului semnificativ extinsă și capacități de raționament îmbunătățite. Susține cazuri de utilizare avansate precum rezumarea textelor pe termen lung, agențiile de conversație multilingve și asistența la codificare.",
+    "features_data__llama_3_1_405b__tooltip": "Susținut de Meta. 128.000 de jetoni maximi. Cel mai mare model de bază disponibil deschis în lume, rivalizând cu IA-urile de top în cunoștințe generale, direcționabilitate și matematică. Susține 8 limbi și permite capacități avansate precum generarea de date sintetice și distilarea modelului. Ideal pentru rezumarea pe termen lung, agenții de conversație multilingve și asistenții la codificare.",
+    "features_data__mistral_large_2__tooltip": "Cu tehnologia MistralAI. 128.000 de token-uri maxime. Cel mai recent model de vârf al lui Mistral împinge limitele vitezei și performanței. Cu 123 de miliarde de parametri, Mistral-Large-2 excel în generarea de cod, matematică și raționament în zeci de limbi. Oferă o halucinație minimă și suport multilingv impresionant atât pentru limbile naturale, cât și pentru limbajele de programare."
   },
   "features__common": {
     "components__upload_button_drop_title": "Așezați aici"
@@ -1772,7 +1785,42 @@
     "components__unlock_pdf_detail_input_password": "Te rog introdu parola pentru a debloca PDF-ul tău",
     "components__unlock_pdf_detail_input_placeholder": "Parolă",
     "components__unlock_pdf_detail__button__unlock": "Deblochează",
-    "components__unlock_pdf_detail__button__convert": "Convertește altul",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Parolă incorectă"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Parolă incorectă",
+    "components__unlock_pdf_detail__use_tips": "Parola și fișierele PDF nu vor fi încărcate pe server, asigurând securitatea."
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "Protejează PDF-ul",
+    "description": "Adaugă protecție cu parolă și criptare la fișierele tale PDF pentru securitate sporită.",
+    "seo_title": "Protejează PDF-ul - Adaugă Criptare cu Parolă la Fișierele PDF Online Gratuit | MaxAI.me",
+    "seo_description": "Adaugă ușor protecție cu parolă la fișierele tale PDF online gratuit. Nu sunt necesare filigrane, limite de dimensiune a fișierului, descărcări sau înregistrări.",
+    "detail_description_object__protect_pdf__top_left": "Protejează ușor fișierele tale PDF online gratuit prin adăugarea criptării cu parolă. Cu instrumentul nostru, fișierele tale rămân locale pentru confidențialitate, și nu există limite de dimensiune.",
+    "detail_description_object__protect_pdf__top_right_1": "Securizează rapid fișierele tale PDF în doar câteva secunde.",
+    "detail_description_object__protect_pdf__top_right_2": "Încarcă pur și simplu fișierele tale PDF pentru a începe.",
+    "detail_description_object__protect_pdf__top_right_3": "Compatibil cu Mac, Windows, Android și iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "Instrument Online Simplu pentru Protejarea PDF-urilor",
+    "detail_description_object__protect_pdf__middle_1_description": "Instrumentul nostru de protecție PDF îți permite să adaugi ușor protecție cu parolă la fișierele tale PDF. Doar încarcă documentul tău, setează-ți parola și descarcă PDF-ul criptat. Este incredibil de ușor de utilizat, complet gratuit și nu necesită un cont.",
+    "detail_description_object__protect_pdf__middle_2_title": "Protecție PDF Sigură Local",
+    "detail_description_object__protect_pdf__middle_2_description": "Toate fișierele pe care le încarci sunt procesate direct în browserul tău, asigurându-ți confidențialitatea. Niciun fișier nu este încărcat în cloud, garantând securitatea datelor.",
+    "detail_description_object__protect_pdf__middle_3_title": "Compatibilitate Interplatformă",
+    "detail_description_object__protect_pdf__middle_3_description": "Instrumentul nostru de protecție PDF este bazat pe browser, ceea ce înseamnă că funcționează perfect pe Mac, Windows și Linux, precum și pe dispozitivele mobile. Poți proteja ușor fișierele tale PDF de oriunde.",
+    "detail_description_object__protect_pdf__middle_4_title": "Proces de Operare Simplu",
+    "detail_description_object__protect_pdf__middle_4_description": "Protejarea fișierelor tale PDF este simplă: încarcă fișierul, setează-ți parola, și apoi descarcă versiunea protejată cu parolă. Chiar și începătorii pot urma acest proces ușor fără efort.",
+    "detail_description_object__protect_pdf__middle_5_title": "Instrument de Protecție PDF Fiabil",
+    "detail_description_object__protect_pdf__middle_5_description": "Nu trebuie să achiziționezi software scump pentru a-ți proteja fișierele PDF. Instrumentul nostru online de protecție PDF este disponibil gratuit, asigurând că fișierele și datele tale sunt întotdeauna în siguranță fără a avea nevoie de procesare în cloud.",
+    "detail_description_object__protect_pdf__middle_6_title": "Procesare Locală pentru Securitate Sporită",
+    "detail_description_object__protect_pdf__middle_6_description": "Serviciul nostru de protecție se asigură că toate operațiunile sunt efectuate local. Acest lucru îmbunătățește securitatea și accelerează timpul de procesare, păstrându-ți fișierele în siguranță.",
+    "detail_description_object__protect_pdf__bottom_right_title": "Cum să Protejezi Fișierele PDF Online:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Încarcă fișierul PDF pe care vrei să-l protejezi.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Setează o parolă pentru fișierul PDF.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Apasă pe 'Protejează' pentru a descărca fișierul PDF protejat cu parolă.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Odată protejat, doar cei cu parola pot accesa și edita fișierele tale PDF de pe orice dispozitiv."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Protejează",
+    "components__protect_pdf_detail__type_password": " Introdu parola",
+    "components__protect_pdf_detail__repeat_type_password": "Repetă parola",
+    "components__protect_pdf_detail__input__placeholder": "Setează-ți parola",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Confirmați parola dvs.",
+    "components__protect_pdf_detail__use_tips": "Parola și fișierele PDF nu vor fi încărcate pe server, asigurând securitatea."
   }
 }

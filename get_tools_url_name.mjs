@@ -6,7 +6,7 @@ import path from 'path'
 const localesDir = path.join(process.cwd(), 'src/i18n/locales')
 
 // 目标key
-const targetKey = 'pages__pdf_tools__unlock_pdf.title' // 例如：pages__pdf_tools__unlock_pdf
+const targetKey = 'pages__pdf_tools__protect_pdf.title' // 例如：pages__pdf_tools__unlock_pdf
 // 存储结果
 const result = {}
 // 函数：根据目标key提取值
@@ -64,9 +64,15 @@ fs.readdir(localesDir, (err, folders) => {
           // 解析JSON
           const jsonData = JSON.parse(data)
           // 根据目标key提取值
-          const title = getValueByKey(jsonData, targetKey) //获取目标key的值
+          let title = getValueByKey(jsonData, targetKey) //获取目标key的值
           if (title) {
-            result[folder] = title.replace(/\s/g, '-').toLowerCase() // 存储到结果对象中，将空格替换为-并转换为小写
+            if (folder === 'zh-TW' || folder === 'zh-CN') {
+              // 繁体中文和简体中文的标题去掉空格,不需要转换为-连接
+              title = title.replace(/\s/g, '').toLowerCase()
+            } else {
+              title = title.replace(/\s/g, '-').toLowerCase()
+            }
+            result[folder] = title
           } else {
             result[folder] = result['en']
           }

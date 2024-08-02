@@ -52,7 +52,8 @@
     "month": "月",
     "unlimited": "無限制",
     "most_popular": "最受歡迎",
-    "upgrade_now": "立即升級"
+    "upgrade_now": "立即升級",
+    "choose_another_file": "選擇另一個檔案"
   },
   "button": {
     "add_to_chrome_for_free": "免費加入 Chrome",
@@ -669,7 +670,7 @@
     "home_page__how_it_works__step1__title": "添加到瀏覽器",
     "home_page__how_it_works__step2__title": "登錄",
     "home_page__how_it_works__step3__title": "提高生產力",
-    "home_page__how_it_works__step3__description": "使用AI在您浏览的任何网页上进行摘要、搜索、阅读和写作，速度提升10倍。每天节省数小时。",
+    "home_page__how_it_works__step3__description": "閱讀更快。寫得更好。獲得答案。透過人工智慧在網路上提升您的生產力。每天節省數小時。",
     "home_page__how_it_works__step1__description": "在您的瀏覽器中添加 MaxAI.me 擴展，以 AI 節省每個網頁上的時間。它是免費的，並且100％保護隱私。",
     "home_page__how_it_works__step2__description": "輕鬆使用 Google 或電子郵件登錄。它簡單、免費且安全。",
     "home_page__hero_section__title": "您的AI動力研究和寫作助手",
@@ -728,7 +729,13 @@
     "home_page__features_content__all_in_chatbox__description2": "在瀏覽器側邊欄中獲得即時答案的最快方式。",
     "home_page__features_content__all_in_chatbox__description3": "使用 AI 視覺分析任何圖像。",
     "home_page__features_content__all_in_chatbox__description4": "使用 DALLE-3 創建 AI 藝術和圖像。",
-    "home_page__features_content__ab_test_v4__content2__search__description4": "在Google搜索結果旁顯示人工智慧回應。"
+    "home_page__features_content__ab_test_v4__content2__search__description4": "在Google搜索結果旁顯示人工智慧回應。",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "PDF浮水印",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "為您的PDF添加浮水印",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "幾秒鐘內添加PDF浮水印",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "自2013年以來，已獲得24億用戶信任",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "輕鬆為PDF添加浮水印-無需安裝",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "使用免費的 PDF 水印工具為 PDF 文件添加水印。無需下載應用程式-一切在您的瀏覽器上運作，支援 Mac、Windows、Linux 和移動設備。"
   },
   "prompt_library": {
     "use_prompt_library__title": "高品質 AI 提示庫",
@@ -969,8 +976,8 @@
     "faq__question5__description__part2": "登入您的聯盟帳戶以追蹤您的推薦表現。"
   },
   "seo": {
-    "default__title": "MaxAI.me：1-Click AI 到處都有（GPT-4o、Claude 3、Gemini 1.5）",
-    "default__description": "AI 聊天、重寫、摘要、即時回覆、閱讀助手、提示、搜索、藝術和翻譯。由 GPT-4o、Claude 3 和 Gemini 1.5 提供動力。",
+    "default__title": "MaxAI.me：閱讀更快。寫作更好。免費AI擴展。",
+    "default__description": "在Chrome和Edge中使用AI總結、回答問題並潤飾網絡上的寫作。由GPT-4o、Claude-3.5、Gemini-1.5、Llama-3.1、Mistral提供動力。",
     "maintain__title": "維護中 | MaxAI.me",
     "affiliate__title": "推廣計劃 | MaxAI.me",
     "affiliate__description": "加入我們的推廣計劃，通過分享MaxAI獲得25%的佣金！",
@@ -1059,7 +1066,9 @@
     "use_cases__research__title": "AI 研究和摘要助手 | MaxAI.me",
     "use_cases__research__desc": "將 AI 添加到您的瀏覽器，以節省時間並摘要和聊天網頁文章、PDF 和 YouTube 影片。提問 AI 可以快速獲得答案，加快研究進度。由 GPT-4o、Claude-3-Opus、Gemini-1.5-Pro 提供支持。",
     "use_cases__writing__title": "AI 寫作助手 | MaxAI.me",
-    "use_cases__writing__desc": "將 AI 添加到您的瀏覽器，以改善和完善您在任何網頁上的寫作。生成引人入勝的電子郵件、文章、博客帖子、社交媒體帖子和論文。由 GPT-4o、Claude-3-opus、Gemini-1.5-pro 提供支持。"
+    "use_cases__writing__desc": "將 AI 添加到您的瀏覽器，以改善和完善您在任何網頁上的寫作。生成引人入勝的電子郵件、文章、博客帖子、社交媒體帖子和論文。由 GPT-4o、Claude-3-opus、Gemini-1.5-pro 提供支持。",
+    "pdf_tools__pdf_watermark_page__title": "免費 PDF 水印工具 | 在任何設備上為 PDF 添加水印",
+    "pdf_tools__pdf_watermark_page__description": "輕鬆為 PDF 文件添加水印。無需下載應用程式-一切在您的瀏覽器上運作，支援 Mac、Windows、Linux 和移動設備。"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "全選",
@@ -1294,7 +1303,8 @@
     "components__common__drag__dropping_tip": "您可以通過拖放來調整順序",
     "components__common__upload_button_tips": "或在此處拖放檔案",
     "components__common__upload_button_title": "選擇檔案",
-    "components__common__upload_button__unsupported_file_type_tip": "請上傳指定的 PDF 檔案類型"
+    "components__common__upload_button__unsupported_file_type_tip": "請上傳指定的 PDF 檔案類型",
+    "components__common__select_other_file": "選擇其他檔案"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "只能上傳圖片類型的圖片",
@@ -1431,7 +1441,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "在一個地方訪問最智能的 AI 模型。",
     "ab_test_v5__features_data__image_ai_queries": "圖像 AI 查詢",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "通過最先進的 AI 藝術模型，將您的創造力和生產力提升 10 倍。",
-    "ab_test_v5__features_data__search_faster": "更快搜索",
+    "ab_test_v5__features_data__search_faster": "獲取答案",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "在瀏覽器側邊欄向 AI 提問",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "在一個地方與所有最佳 AI 聊天",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "在瀏覽器側邊欄搜索 AI",
@@ -1453,7 +1463,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "翻譯",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "解釋",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "全頁雙語翻譯",
-    "ab_test_v5__features_data__write_faster": "更快速地撰寫",
+    "ab_test_v5__features_data__write_faster": "寫得更好",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "在任何頁面上的 AI 重寫器",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "改善寫作",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "校對",
@@ -1517,7 +1527,10 @@
     "ab_test_v5__features_data__discord__tooltip": "在 Discord 訊息往來中節省時間。以簡短筆記在幾秒鐘內回覆訊息。改善語氣，檢查拼寫和語法。更有效和高效地溝通。",
     "ab_test_v5__features_data__messenger__tooltip": "在 Messenger 訊息往來中節省時間。以簡短筆記在幾秒鐘內回覆訊息。改善語氣，檢查拼寫和語法。更有效和高效地溝通。",
     "ab_test_v5__features_data__telegram__tooltip": "在 Telegram 訊息往來中節省時間。以簡短筆記在幾秒鐘內回覆訊息。改善語氣，檢查拼寫和語法。更有效和高效地溝通。",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "創建您自己的提示，組織它們，並使它們易於訪問和重複使用，為您和您的團隊。"
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "創建您自己的提示，組織它們，並使它們易於訪問和重複使用，為您和您的團隊。",
+    "features_data__llama_3_1_70b__tooltip": "由 Meta 提供。128,000 最大標記。功能強大的多語言模型，具有顯著擴展的上下文長度和增強的推理能力。支援長篇本文摘要、多語言對話代理和編碼輔助等高級用例。",
+    "features_data__llama_3_1_405b__tooltip": "由 Meta 提供。128,000 最大標記。全球最大的公開基礎模型，與頂尖封閉式 AI 在一般知識、可操控性和數學方面相媲美。支援 8 種語言，實現合成數據生成和模型提煉等高級功能。適用於長篇摘要、多語言對話代理和編碼助手。",
+    "features_data__mistral_large_2__tooltip": "採用MistralAI技術。最多128,000個標記。Mistral最新旗艦型號突破速度和性能的極限。Mistral-Large-2擁有1,230億個參數，在數學、程式碼生成和跨數十種語言的推理方面表現卓越。它提供最小的幻覺效應，並為自然語言和編程語言提供令人印象深刻的多語言支持。"
   },
   "features__common": {
     "components__upload_button_drop_title": "拖放至此"
@@ -1772,7 +1785,42 @@
     "components__unlock_pdf_detail_input_password": "請輸入密碼以解鎖您的 PDF",
     "components__unlock_pdf_detail_input_placeholder": "密碼",
     "components__unlock_pdf_detail__button__unlock": "解鎖",
-    "components__unlock_pdf_detail__button__convert": "轉換另一個",
-    "components__unlock_pdf_detail__incorrect_password_tips": "密碼不正確"
+    "components__unlock_pdf_detail__incorrect_password_tips": "密碼不正確",
+    "components__unlock_pdf_detail__use_tips": "密碼和PDF檔案將不會上傳到伺服器，確保安全。"
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "保護 PDF",
+    "description": "為您的 PDF 檔案添加密碼保護和加密，提升安全性。",
+    "seo_title": "保護 PDF - 在線免費為 PDF 檔案添加密碼加密 | MaxAI.me",
+    "seo_description": "輕鬆在線免費為您的 PDF 檔案添加密碼保護。無需水印、檔案大小限制、下載或註冊。",
+    "detail_description_object__protect_pdf__top_left": "通過添加密碼加密，輕鬆在線免費保護您的 PDF 檔案。使用我們的工具，您的檔案保持本地隱私，並且沒有大小限制。",
+    "detail_description_object__protect_pdf__top_right_1": "只需幾秒鐘快速保護您的 PDF 檔案。",
+    "detail_description_object__protect_pdf__top_right_2": "只需上傳您的 PDF 檔案即可開始。",
+    "detail_description_object__protect_pdf__top_right_3": "與 Mac、Windows、Android 和 iOS 兼容。",
+    "detail_description_object__protect_pdf__middle_1_title": "簡單的在線工具保護 PDF",
+    "detail_description_object__protect_pdf__middle_1_description": "我們的 PDF 保護工具讓您輕鬆為 PDF 檔案添加密碼保護。只需上傳您的文件，設置密碼，並下載加密的 PDF。非常用戶友好，完全免費，無需帳戶。",
+    "detail_description_object__protect_pdf__middle_2_title": "本地安全 PDF 保護",
+    "detail_description_object__protect_pdf__middle_2_description": "您上傳的所有檔案都在您的瀏覽器中直接處理，確保您的隱私受到保護。不會上傳檔案到雲端，保證數據安全。",
+    "detail_description_object__protect_pdf__middle_3_title": "跨平台兼容性",
+    "detail_description_object__protect_pdf__middle_3_description": "我們的 PDF 保護工具基於瀏覽器，這意味著它在 Mac、Windows 和 Linux 以及移動設備上無縫運行。您可以輕鬆從任何地方保護您的 PDF 檔案。",
+    "detail_description_object__protect_pdf__middle_4_title": "簡單的操作流程",
+    "detail_description_object__protect_pdf__middle_4_description": "保護您的 PDF 檔案很簡單：上傳檔案，設置密碼，然後下載受密碼保護的版本。即使是初學者也可以輕鬆遵循這個簡單的流程。",
+    "detail_description_object__protect_pdf__middle_5_title": "可靠的 PDF 保護工具",
+    "detail_description_object__protect_pdf__middle_5_description": "您無需購買昂貴的軟件來保護您的 PDF 檔案。我們的在線 PDF 保護工具免費提供，確保您的檔案和數據始終安全，無需雲端處理。",
+    "detail_description_object__protect_pdf__middle_6_title": "本地處理以增強安全性",
+    "detail_description_object__protect_pdf__middle_6_description": "我們的保護服務確保所有操作在本地進行。這增強了安全性並加快處理時間，使您的檔案保持安全。",
+    "detail_description_object__protect_pdf__bottom_right_title": "如何在線保護 PDF 檔案：",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "上傳要保護的 PDF 檔案。",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "為 PDF 檔案設置密碼。",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "點擊“保護”下載受密碼保護的 PDF 檔案。",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "一旦受保護，只有知道密碼的人才能在任何設備上訪問和編輯您的 PDF 檔案。"
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "保護",
+    "components__protect_pdf_detail__type_password": " 輸入密碼",
+    "components__protect_pdf_detail__repeat_type_password": "重複密碼",
+    "components__protect_pdf_detail__input__placeholder": "設置您的密碼",
+    "components__protect_pdf_detail__repeat_input__placeholder": "確認您的密碼",
+    "components__protect_pdf_detail__use_tips": "密碼和PDF檔案將不會上傳到伺服器，確保安全。"
   }
 }

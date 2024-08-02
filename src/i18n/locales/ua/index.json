@@ -52,7 +52,8 @@
     "month": "місяць",
     "unlimited": "Необмежено",
     "most_popular": "Найпопулярніший",
-    "upgrade_now": "Оновити зараз"
+    "upgrade_now": "Оновити зараз",
+    "choose_another_file": "Виберіть інший файл"
   },
   "button": {
     "add_to_chrome_for_free": "Додати до Chrome — Безкоштовно",
@@ -669,7 +670,7 @@
     "home_page__how_it_works__step1__title": "Додайте до браузера",
     "home_page__how_it_works__step2__title": "Увійдіть",
     "home_page__how_it_works__step3__title": "Підвищуйте продуктивність",
-    "home_page__how_it_works__step3__description": "Зведіть до мінімуму, шукайте, читайте та пишіть в 10 разів швидше за допомогою штучного інтелекту на будь-якій веб-сторінці, яку ви переглядаєте. Зекономте години кожен день.",
+    "home_page__how_it_works__step3__description": "Читайте швидше. Пишіть краще. Отримуйте відповіді. Підвищуйте продуктивність за допомогою штучного інтелекту. Збережіть години кожен день.",
     "home_page__how_it_works__step1__description": "Додайте розширення MaxAI.me до свого браузера, щоб заощадити час на кожній веб-сторінці за допомогою штучного інтелекту. Це безкоштовно та 100% конфіденційно.",
     "home_page__how_it_works__step2__description": "Легко увійдіть за допомогою облікового запису Google або електронної пошти. Це просто, безкоштовно та безпечно.",
     "home_page__hero_section__title": "Ваш дослідницький та письмовий помічник зі штучним інтелектом",
@@ -723,12 +724,18 @@
     "home_page__hero_section__title__part1": "Читайте, пишіть та шукайте за допомогою штучного інтелекту",
     "home_page__hero_section__title__part2": "Завершуйте роботу в 10 разів швидше",
     "home_page__features_content__ab_test_v4__content2__search__description4": "Показ відповідей ШІ поруч з результатами пошуку Google.",
-    "home_page__features_content__all_in_chatbox__label": "Все-в-одному чат-бот",
+    "home_page__features_content__all_in_chatbox__label": "Все-в-одному чатбот",
     "home_page__features_content__all_in_chatbox__title": "Чат з топовим штучним інтелектом в одному місці",
     "home_page__features_content__all_in_chatbox__description1": "Розмовляйте з GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro та іншими.",
     "home_page__features_content__all_in_chatbox__description2": "Найшвидший спосіб отримати миттєві відповіді прямо в боковій панелі браузера.",
     "home_page__features_content__all_in_chatbox__description3": "Аналізуйте будь-яке зображення за допомогою штучного інтелекту.",
-    "home_page__features_content__all_in_chatbox__description4": "Створюйте мистецтво та зображення з штучним інтелектом DALLE-3."
+    "home_page__features_content__all_in_chatbox__description4": "Створюйте мистецтво та зображення з штучним інтелектом DALLE-3.",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "Водяний знак PDF",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "Додайте водяний знак до ваших PDF-файлів",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Додавайте водяні знаки до PDF за секунди",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "Довірено 2,4 мільярдами людей з 2013 року",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Простий спосіб додавати водяні знаки до PDF - не потрібно встановлювати",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Додайте водяний знак до PDF-документів за допомогою безкоштовного PDF Watermarker. Не потрібно завантажувати додаток - все працює в вашому браузері на Mac, Windows, Linux та мобільних пристроях."
   },
   "prompt_library": {
     "use_prompt_library__title": "Бібліотека високоякісних AI-підказок",
@@ -969,8 +976,8 @@
     "faq__question5__description__part2": "щоб відстежувати вашу реферальну активність."
   },
   "seo": {
-    "default__title": "MaxAI.me: 1-Click AI скрізь (GPT-4o, Claude 3, Gemini 1.5)",
-    "default__description": "AI чат, переписувач, резюме, миттєва відповідь, помічник при читанні, підказки, пошук, мистецтво та перекладач. Працює на основі GPT-4o, Claude 3, Gemini 1.5.",
+    "default__title": "MaxAI.me: Читайте швидше. Пишіть краще. Безкоштовне розширення AI.",
+    "default__description": "Узагальнюйте, відповідайте на питання та поліпшуйте письмо в Інтернеті за допомогою AI в Chrome та Edge. Працює на GPT-4o, Claude-3.5, Gemini-1.5, Llama-3.1, Mistral.",
     "maintain__title": "У режимі обслуговування | MaxAI.me",
     "affiliate__title": "Партнерська програма | MaxAI.me",
     "affiliate__description": "Отримуйте гроші з партнерської програми MaxAI. Приєднуйтесь до нашої партнерської програми та отримуйте 25% комісії за поширення MaxAI!",
@@ -1059,7 +1066,9 @@
     "use_cases__research__title": "Асистент для досліджень та стислих викладок | MaxAI.me",
     "use_cases__research__desc": "Додайте штучний інтелект до свого браузера, щоб стисло резюмувати та чатувати з веб-статтями, PDF-файлами та відео на YouTube, щоб заощадити час. Задавайте питання штучному інтелекту для швидких відповідей та прискорення досліджень. Працює на основі GPT-4o, Claude-3-Opus, Gemini-1.5-Pro.",
     "use_cases__writing__title": "Асистент для письма з використанням штучного інтелекту | MaxAI.me",
-    "use_cases__writing__desc": "Додайте штучний інтелект до свого браузера, щоб вдосконалювати та поліпшувати своє письмо на будь-якій веб-сторінці. Створюйте переконливі електронні листи, статті, блоги, повідомлення в соціальних мережах, наукові роботи. Працює на основі GPT-4o, Claude-3-opus, Gemini-1.5-pro."
+    "use_cases__writing__desc": "Додайте штучний інтелект до свого браузера, щоб вдосконалювати та поліпшувати своє письмо на будь-якій веб-сторінці. Створюйте переконливі електронні листи, статті, блоги, повідомлення в соціальних мережах, наукові роботи. Працює на основі GPT-4o, Claude-3-opus, Gemini-1.5-pro.",
+    "pdf_tools__pdf_watermark_page__title": "Безкоштовний PDF Watermarker | Додавайте водяні знаки до PDF на будь-якому пристрої",
+    "pdf_tools__pdf_watermark_page__description": "Легко додавайте водяний знак до PDF-документів. Не потрібно завантажувати додаток - все працює в вашому браузері на Mac, Windows, Linux та мобільних пристроях."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Вибрати все",
@@ -1246,25 +1255,25 @@
     "ai_chat_pages__section5__description": "Отримуйте миттєві відповіді прямо в бічній панелі браузера - немає потреби переходити між вкладками. Продовжуйте розмову для глибшого розуміння. Відновіть цінні години кожен день.",
     "ai_chat_pages__section4__title": "Створюйте мистецтво та зображення з штучним інтелектом",
     "ai_chat_pages__section4__description": "Швидко перетворюйте свої візії на захоплюючі зображення.",
-    "ai_chat_pages__section5__title": "Найшвидший спосіб запитати у штучного інтелекту",
-    "ai_chat_pages__section6__title": "Зберігайте свої дані конфіденційними",
-    "ai_chat_pages__section6__description": "Не компромітуйте безпеку. Ми ніколи не продаємо ваші дані, не надаємо їх для рекламних цілей або не дозволяємо третім сторонам використовувати їх для навчання своїх моделей.",
+    "ai_chat_pages__section5__title": "Найшвидший спосіб запитати штучний інтелект",
+    "ai_chat_pages__section6__title": "Зберігайте свої дані конфіденційно",
+    "ai_chat_pages__section6__description": "Не компрометуйте безпеку. Ми ніколи не продаємо ваші дані, не надаємо їх для рекламних цілей або не дозволяємо третім сторонам використовувати їх для навчання своїх моделей.",
     "ai_chat_pages__section7__title": "Ваш чіт-код для штучного інтелекту",
-    "ai_chat_pages__section7__description": "Бібліотека високоякісних AI-підказок. Завершуйте щоденні завдання за кілька хвилин, а не годин.",
-    "ai_summary_pages__section1__description": "Розумійте будь-яку веб-сторінку на льоту. Миттєво розумійте довгі або складні статті, онлайн документи, електронні листи, відгуки про продукти та інше.",
+    "ai_chat_pages__section7__description": "Бібліотека високоякісних штучних інтелектуальних промптів. Завершуйте щоденні завдання за кілька хвилин, а не годин.",
+    "ai_summary_pages__section1__description": "Розумійте будь-яку веб-сторінку одним поглядом. Миттєво розумійте довгі або складні статті, онлайн-документи, електронні листи, відгуки про продукти та інше.",
     "ai_summary_pages__section4__title": "Чат з будь-яким PDF",
     "ai_summary_pages__section4__description": "Миттєво відповідайте на питання, знаходьте інформацію, розумійте дослідження та генеруйте звіти за допомогою штучного інтелекту.",
     "ai_summary_pages__section5__title": "Узагальніть будь-яке відео на YouTube",
-    "ai_summary_pages__section5__description": "Зекономте час на розуміння довгих відео для навчання, документальних фільмів, інтерв'ю, оглядів, освітніх лекцій та іншого.",
+    "ai_summary_pages__section5__description": "Зекономте час на розуміння довгих відео для навчання, документальних фільмів, інтерв'ю, відгуків, освітніх лекцій та іншого.",
     "ai_summary_pages__section6__title": "Чат з будь-яким відео на YouTube",
-    "ai_summary_pages__section6__description": "Швидко освоюйте деталі з довгих відео. Отримуйте миттєві відповіді на свої питання. Поглиблюйтеся в будь-яку тему.",
+    "ai_summary_pages__section6__description": "Швидко засвоюйте деталі з довгих відео. Отримуйте миттєві відповіді на свої питання. Поглиблюйтеся в будь-яку тему.",
     "ai_summary_pages__section7__title": "Чат з будь-яким документом",
     "ai_summary_pages__section7__description": "Зекономте години, завантажуючи файл та запитуючи штучний інтелект про допомогу в аналізі даних, узагальненні інформації або створенні діаграми.",
     "ai_summary_pages__section8__title": "Працює там, де ви працюєте",
     "ai_summary_pages__section8__description": "Отримуйте узагальнення та відповіді прямо в боковій панелі браузера - не потрібно перемикатися між вкладками. Відновіть цінні години кожен день.",
     "ai_summary_pages__section9__title": "Створіть свій власний узагальнювач за один клік",
-    "ai_summary_pages__section9__description": "Додайте свої власні підказки, щоб отримати потрібну інформацію та формат з будь-якої сторінки за кілька секунд.",
-    "explore_more_features": "Досліджуйте більше функцій з MaxAI.me"
+    "ai_summary_pages__section9__description": "Додайте свої промпти, щоб отримати точну інформацію та формат, які вам потрібні з будь-якої сторінки за кілька секунд.",
+    "explore_more_features": "Досліджуйте більше функцій на MaxAI.me"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "Додати PDF",
@@ -1294,7 +1303,8 @@
     "components__common__drag__dropping_tip": "Ви можете налаштувати порядок, перетягуючи елементи",
     "components__common__upload_button_tips": "або перетягніть файли сюди",
     "components__common__upload_button_title": "ВИБРАТИ ФАЙЛИ",
-    "components__common__upload_button__unsupported_file_type_tip": "Будь ласка, завантажте вказаний тип файлу PDF"
+    "components__common__upload_button__unsupported_file_type_tip": "Будь ласка, завантажте вказаний тип файлу PDF",
+    "components__common__select_other_file": "Виберіть інший файл"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Можна завантажувати лише зображення типу image",
@@ -1431,7 +1441,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "Отримайте доступ до найрозумніших моделей штучного інтелекту, всі в одному місці.",
     "ab_test_v5__features_data__image_ai_queries": "Зображення запитів штучного інтелекту",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "Збільште свою креативність та продуктивність на 10 разів з найбільш передовими моделями мистецтва штучного інтелекту.",
-    "ab_test_v5__features_data__search_faster": "Швидший пошук",
+    "ab_test_v5__features_data__search_faster": "Отримайте відповіді",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Запитайте штучний інтелект що завгодно у бічній панелі браузера",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Чат з усіма кращими моделями штучного інтелекту в одному місці",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Пошук з штучним інтелектом у бічній панелі браузера",
@@ -1439,9 +1449,9 @@
     "ab_test_v5__features_data__read_faster": "Читайте швидше",
     "ab_test_v5__features_data__read_faster__summary_page": "Узагальніть будь-яку сторінку",
     "ab_test_v5__features_data__read_faster__summary_page__summarize_pdf": "Узагальніть PDF",
-    "ab_test_v5__features_data__read_faster__summary_page__summarize_video": "Узагальнити відео на YouTube",
-    "ab_test_v5__features_data__read_faster__summary_page__summarize_article": "Узагальнити статтю",
-    "ab_test_v5__features_data__read_faster__summary_page__summarize_email": "Узагальнити електронного листа",
+    "ab_test_v5__features_data__read_faster__summary_page__summarize_video": "Узагальніть відео на YouTube",
+    "ab_test_v5__features_data__read_faster__summary_page__summarize_article": "Узагальніть статтю",
+    "ab_test_v5__features_data__read_faster__summary_page__summarize_email": "Узагальніть електронний лист",
     "ab_test_v5__features_data__read_faster__chat_with_page": "Чат з будь-якою сторінкою",
     "ab_test_v5__features_data__read_faster__chat_with_page__chat_with_pdf": "Чат з PDF",
     "ab_test_v5__features_data__read_faster__chat_with_page__chat_with_video": "Чат з відео на YouTube",
@@ -1453,7 +1463,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Перекласти",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Пояснити",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Двомовний переклад на весь екран",
-    "ab_test_v5__features_data__write_faster": "Писати швидше",
+    "ab_test_v5__features_data__write_faster": "Пишіть краще",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "AI переписувач на будь-якій сторінці",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Покращити письмо",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Перевірити правопис",
@@ -1517,7 +1527,10 @@
     "ab_test_v5__features_data__discord__tooltip": "Зекономте час на листуванні в Discord. Відповідайте на повідомлення за кілька секунд короткими нотатками. Покращуйте тон, перевіряйте правопис та граматику. Комунікуйте ефективніше та ефективніше.",
     "ab_test_v5__features_data__messenger__tooltip": "Зекономте час на листуванні в Messenger. Відповідайте на повідомлення за кілька секунд короткими нотатками. Покращуйте тон, перевіряйте правопис та граматику. Комунікуйте ефективніше та ефективніше.",
     "ab_test_v5__features_data__telegram__tooltip": "Зекономте час на листуванні в Telegram. Відповідайте на повідомлення за кілька секунд короткими нотатками. Покращуйте тон, перевіряйте правопис та граматику. Комунікуйте ефективніше та ефективніше.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Створіть свої власні підказки, організуйте їх та зробіть їх легкодоступними та повторно використовуваними, як для себе, так і для вашої команди."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Створіть свої власні підказки, організуйте їх та зробіть їх легкодоступними та повторно використовуваними, як для себе, так і для вашої команди.",
+    "features_data__llama_3_1_70b__tooltip": "За допомогою Meta. 128 000 макс. токенів. Потужна багатомовна модель з значно розширеною довжиною контексту та покращеними можливостями мислення. Підтримує розширені випадки використання, такі як узагальнення довгих текстів, багатомовні розмовні агенти та допомога в програмуванні.",
+    "features_data__llama_3_1_405b__tooltip": "За допомогою Meta. 128 000 макс. токенів. Найбільша в світі відкрита фундаментальна модель, що конкурує з найкращими закритими джерелами штучного інтелекту за загальними знаннями, керованістю та математикою. Підтримує 8 мов та надає розширені можливості, такі як генерація синтетичних даних та дистиляція моделі. Ідеально підходить для узагальнення довгих текстів, багатомовних розмовних агентів та помічників у програмуванні.",
+    "features_data__mistral_large_2__tooltip": "За допомогою MistralAI. 128 000 максимальних токенів. Остання флагманська модель Mistral розширює межі швидкості та продуктивності. З 123 мільярдами параметрів Mistral-Large-2 відмінно справляється з генерацією коду, математикою та мисленням на десятки мов. Він пропонує мінімальну галюцинацію та вражаючу підтримку багатомовності як для природних, так і для програмних мов."
   },
   "features__common": {
     "components__upload_button_drop_title": "Перетягніть сюди"
@@ -1772,7 +1785,42 @@
     "components__unlock_pdf_detail_input_password": "Будь ласка, введіть пароль для розблокування вашого PDF",
     "components__unlock_pdf_detail_input_placeholder": "Пароль",
     "components__unlock_pdf_detail__button__unlock": "Розблокувати",
-    "components__unlock_pdf_detail__button__convert": "Конвертувати ще",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Неправильний пароль"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Неправильний пароль",
+    "components__unlock_pdf_detail__use_tips": "Пароль та файли PDF не будуть завантажені на сервер, що гарантує безпеку."
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "Захист PDF",
+    "description": "Додайте захист паролем та шифрування до ваших PDF-файлів для підвищення безпеки.",
+    "seo_title": "Захист PDF - Додайте шифрування паролем до PDF-файлів онлайн безкоштовно | MaxAI.me",
+    "seo_description": "Легко додайте захист паролем до ваших PDF-файлів онлайн безкоштовно. Не потрібні знаки води, обмеження на розмір файлу, завантаження або реєстрація.",
+    "detail_description_object__protect_pdf__top_left": "Легко захистіть ваші PDF-файли онлайн безкоштовно, додавши шифрування паролем. З нашим інструментом ваші файли залишаються локальними для конфіденційності, і немає обмежень за розміром.",
+    "detail_description_object__protect_pdf__top_right_1": "Швидко захистіть ваші PDF-файли всього за кілька секунд.",
+    "detail_description_object__protect_pdf__top_right_2": "Просто завантажте ваші PDF-файли, щоб почати.",
+    "detail_description_object__protect_pdf__top_right_3": "Сумісний з Mac, Windows, Android та iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "Простий онлайн інструмент для захисту PDF",
+    "detail_description_object__protect_pdf__middle_1_description": "Наш інструмент для захисту PDF дозволяє легко додати захист паролем до ваших PDF-файлів. Просто завантажте свій документ, встановіть пароль та завантажте зашифрований PDF. Це надзвичайно зручно для користувача, абсолютно безкоштовно і не вимагає облікового запису.",
+    "detail_description_object__protect_pdf__middle_2_title": "Локальний захист PDF",
+    "detail_description_object__protect_pdf__middle_2_description": "Усі файли, які ви завантажуєте, обробляються безпосередньо у вашому браузері, що гарантує захист вашої конфіденційності. Ніякі файли не завантажуються в хмару, що гарантує безпеку даних.",
+    "detail_description_object__protect_pdf__middle_3_title": "Сумісність з різними платформами",
+    "detail_description_object__protect_pdf__middle_3_description": "Наш інструмент для захисту PDF базується на браузері, що означає, що він працює безперервно на Mac, Windows, Linux, а також на мобільних пристроях. Ви можете легко захистити свої PDF-файли з будь-якого місця.",
+    "detail_description_object__protect_pdf__middle_4_title": "Простий процес операції",
+    "detail_description_object__protect_pdf__middle_4_description": "Захист ваших PDF-файлів є простим: завантажте файл, встановіть пароль, а потім завантажте версію з паролем. Навіть початківці можуть легко слідувати цьому простому процесу.",
+    "detail_description_object__protect_pdf__middle_5_title": "Надійний інструмент для захисту PDF",
+    "detail_description_object__protect_pdf__middle_5_description": "Вам не потрібно купувати дороге програмне забезпечення для захисту ваших PDF-файлів. Наш онлайн інструмент для захисту PDF доступний безкоштовно, що гарантує, що ваші файли та дані завжди захищені без необхідності обробки в хмарі.",
+    "detail_description_object__protect_pdf__middle_6_title": "Локальна обробка для підвищення безпеки",
+    "detail_description_object__protect_pdf__middle_6_description": "Наш сервіс захисту забезпечує, що всі операції виконуються локально. Це підвищує безпеку та прискорює час обробки, зберігаючи ваші файли в безпеці.",
+    "detail_description_object__protect_pdf__bottom_right_title": "Як захистити PDF-файли онлайн:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Завантажте PDF-файл, який ви хочете захистити.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Встановіть пароль для PDF-файлу.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Клацніть «Захист», щоб завантажити захищений паролем PDF-файл.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Після захисту доступ до вашого PDF-файлу та його редагування матимуть лише ті, у кого є пароль, на будь-якому пристрої."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Захистити",
+    "components__protect_pdf_detail__type_password": " Введіть пароль",
+    "components__protect_pdf_detail__repeat_type_password": "Повторіть пароль",
+    "components__protect_pdf_detail__input__placeholder": "Встановіть свій пароль",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Підтвердіть ваш пароль",
+    "components__protect_pdf_detail__use_tips": "Пароль та файли PDF не будуть завантажені на сервер, що гарантує безпеку."
   }
 }

@@ -52,7 +52,8 @@
     "month": "miesiąc",
     "unlimited": "Bez ograniczeń",
     "most_popular": "Najpopularniejsze",
-    "upgrade_now": "Zaktualizuj teraz"
+    "upgrade_now": "Zaktualizuj teraz",
+    "choose_another_file": "Wybierz inny plik"
   },
   "button": {
     "add_to_chrome_for_free": "Dodaj do Chrome — Jest za darmo",
@@ -669,7 +670,7 @@
     "home_page__how_it_works__step1__title": "Dodaj do przeglądarki",
     "home_page__how_it_works__step2__title": "Zaloguj się",
     "home_page__how_it_works__step3__title": "Zwiększ produktywność",
-    "home_page__how_it_works__step3__description": "Podsumuj, wyszukuj, czytaj i pisz 10 razy szybciej dzięki sztucznej inteligencji na każdej przeglądanej stronie internetowej. Zaoszczędź godziny codziennie.",
+    "home_page__how_it_works__step3__description": "Czytaj szybciej. Pisz lepiej. Zdobądź odpowiedzi. Zwiększ swoją produktywność w sieci dzięki sztucznej inteligencji. Oszczędź godziny każdego dnia.",
     "home_page__how_it_works__step1__description": "Dodaj rozszerzenie MaxAI.me do przeglądarki, aby zaoszczędzić czas na każdej stronie internetowej dzięki sztucznej inteligencji. Jest darmowe i w 100% przyjazne dla prywatności.",
     "home_page__how_it_works__step2__description": "Łatwe logowanie za pomocą konta Google lub adresu e-mail. To proste, darmowe i bezpieczne.",
     "home_page__hero_section__title": "Twój inteligentny asystent do badania i pisania",
@@ -728,7 +729,13 @@
     "home_page__features_content__all_in_chatbox__description2": "Najszybszy sposób na uzyskanie natychmiastowych odpowiedzi bezpośrednio w pasku bocznym przeglądarki.",
     "home_page__features_content__all_in_chatbox__description3": "Analizuj dowolne obrazy za pomocą sztucznej inteligencji.",
     "home_page__features_content__all_in_chatbox__description4": "Twórz sztukę i obrazy za pomocą DALLE-3.",
-    "home_page__features_content__ab_test_v4__content2__search__description4": "Wyświetlaj odpowiedzi AI obok wyników wyszukiwania Google."
+    "home_page__features_content__ab_test_v4__content2__search__description4": "Wyświetlaj odpowiedzi AI obok wyników wyszukiwania Google.",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "Dodaj znak wodny do PDF",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "Dodaj znak wodny do swoich plików PDF",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Dodaj znaki wodne do PDF w kilka sekund",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "Zaufane przez 2,4 miliarda osób od 2013 roku",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Łatwy sposób na znakowanie wodne PDF - nie wymaga instalacji",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Dodaj znak wodny do dokumentów PDF za pomocą darmowego narzędzia do znakowania wodnego PDF. Nie trzeba pobierać aplikacji - wszystko działa w przeglądarce na Macu, Windowsie, Linuxie i urządzeniach mobilnych."
   },
   "prompt_library": {
     "use_prompt_library__title": "Wysokiej jakości biblioteka promptów AI",
@@ -969,8 +976,8 @@
     "faq__question5__description__part2": ", aby śledzić wyniki poleceń."
   },
   "seo": {
-    "default__title": "MaxAI.me: 1-Kliknij AI Wszechobecnie (GPT-4o, Claude 3, Gemini 1.5)",
-    "default__description": "Czat AI, przepisywacz, podsumowanie, natychmiastowa odpowiedź, asystent do czytania, podpowiedzi, wyszukiwanie, sztuka i tłumacz. Zasilane przez GPT-4o, Claude 3, Gemini 1.5.",
+    "default__title": "MaxAI.me: Czytaj szybciej. Pisz lepiej. Darmowe rozszerzenie AI.",
+    "default__description": "Podsumuj, odpowiadaj na pytania i udoskonalaj pisanie w całym internecie dzięki AI w Chrome i Edge. Zasilane przez GPT-4o, Claude-3.5, Gemini-1.5, Llama-3.1, Mistral.",
     "maintain__title": "W trakcie konserwacji | MaxAI.me",
     "affiliate__title": "Program partnerski | MaxAI.me",
     "affiliate__description": "Zarabiaj dzięki programowi partnerskiemu MaxAI. Dołącz do naszego programu partnerskiego i zarabiaj 25% prowizji za udostępnianie MaxAI!",
@@ -1059,7 +1066,9 @@
     "use_cases__research__title": "Asystent badawczy i podsumowujący AI | MaxAI.me",
     "use_cases__research__desc": "Dodaj AI do swojej przeglądarki, aby podsumować i rozmawiać z artykułami internetowymi, plikami PDF i filmami na YouTube, aby zaoszczędzić czas. Zadawaj pytania AI, aby szybko uzyskać odpowiedzi i przyspieszyć swoje badania. Napędzane przez GPT-4o, Claude-3-Opus, Gemini-1.5-Pro.",
     "use_cases__writing__title": "Asystent pisania AI | MaxAI.me",
-    "use_cases__writing__desc": "Dodaj AI do swojej przeglądarki, aby poprawić i udoskonalić swoje pisanie na dowolnej stronie internetowej. Generuj przekonujące e-maile, artykuły, wpisy na blogi, posty na mediach społecznościowych, prace naukowe. Napędzane przez GPT-4o, Claude-3-opus, Gemini-1.5-pro."
+    "use_cases__writing__desc": "Dodaj AI do swojej przeglądarki, aby poprawić i udoskonalić swoje pisanie na dowolnej stronie internetowej. Generuj przekonujące e-maile, artykuły, wpisy na blogi, posty na mediach społecznościowych, prace naukowe. Napędzane przez GPT-4o, Claude-3-opus, Gemini-1.5-pro.",
+    "pdf_tools__pdf_watermark_page__title": "Darmowy znak wodny PDF | Dodawanie znaków wodnych do PDF na dowolnym urządzeniu",
+    "pdf_tools__pdf_watermark_page__description": "Łatwe dodawanie znaku wodnego do dokumentów PDF. Nie trzeba pobierać aplikacji - wszystko działa w przeglądarce na Macu, Windowsie, Linuxie i urządzeniach mobilnych."
   },
   "features_landing": {
     "cta_text": "Dodaj do przeglądarki",
@@ -1294,7 +1303,8 @@
     "components__common__drag__dropping_tip": "Możesz dostosować kolejność, przeciągając i upuszczając",
     "components__common__upload_button_tips": "lub upuść pliki tutaj",
     "components__common__upload_button_title": "WYBIERZ PLIKI",
-    "components__common__upload_button__unsupported_file_type_tip": "Proszę przesłać określony typ pliku PDF"
+    "components__common__upload_button__unsupported_file_type_tip": "Proszę przesłać określony typ pliku PDF",
+    "components__common__select_other_file": "Wybierz inny plik"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Można przesyłać tylko obrazy typu obraz",
@@ -1431,7 +1441,7 @@
     "ab_test_v5__features_data__smart_ai_queries__tooltip": "Dostęp do najinteligentniejszych modeli AI, wszystko w jednym miejscu.",
     "ab_test_v5__features_data__image_ai_queries": "Zapytania AI obrazów",
     "ab_test_v5__features_data__image_ai_queries__tooltip": "Zwiększ swoją kreatywność i produktywność dziesięciokrotnie dzięki najbardziej zaawansowanym modelom sztuki AI.",
-    "ab_test_v5__features_data__search_faster": "Szybsze wyszukiwanie",
+    "ab_test_v5__features_data__search_faster": "Uzyskaj odpowiedzi",
     "ab_test_v5__features_data__search_faster__ask_ai__title": "Zapytaj AI cokolwiek w pasku bocznym przeglądarki",
     "ab_test_v5__features_data__search_faster__ask_ai__desc": "Rozmawiaj z najlepszymi modelami AI w jednym miejscu",
     "ab_test_v5__features_data__search_faster__search_with_ai__title": "Wyszukaj z AI w pasku bocznym przeglądarki",
@@ -1453,7 +1463,7 @@
     "ab_test_v5__features_data__read_faster__reading_assistant__translate": "Tłumacz",
     "ab_test_v5__features_data__read_faster__reading_assistant__explain": "Wyjaśnij",
     "ab_test_v5__features_data__read_faster__reading_assistant__bilingual": "Tłumaczenie dwujęzyczne całej strony",
-    "ab_test_v5__features_data__write_faster": "Pisz szybciej",
+    "ab_test_v5__features_data__write_faster": "Pisz lepiej",
     "ab_test_v5__features_data__write_faster__ai_rewriter": "Przepisywacz AI na dowolnej stronie",
     "ab_test_v5__features_data__write_faster__ai_rewriter__improve_writing": "Popraw pisanie",
     "ab_test_v5__features_data__write_faster__ai_rewriter__proofread": "Korekta",
@@ -1517,7 +1527,10 @@
     "ab_test_v5__features_data__discord__tooltip": "Oszczędź czas na korespondencji wiadomości w Discordzie. Odpowiadaj na wiadomości w sekundach za pomocą krótkich notatek. Popraw ton, sprawdź pisownię i gramatykę. Komunikuj się skuteczniej i efektywniej.",
     "ab_test_v5__features_data__messenger__tooltip": "Oszczędź czas na korespondencji wiadomości w Messengerze. Odpowiadaj na wiadomości w sekundach za pomocą krótkich notatek. Popraw ton, sprawdź pisownię i gramatykę. Komunikuj się skuteczniej i efektywniej.",
     "ab_test_v5__features_data__telegram__tooltip": "Oszczędź czas na korespondencji wiadomości w Telegramie. Odpowiadaj na wiadomości w sekundach za pomocą krótkich notatek. Popraw ton, sprawdź pisownię i gramatykę. Komunikuj się skuteczniej i efektywniej.",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Stwórz własne podpowiedzi, zorganizuj je i ułatw dostęp i ponowne wykorzystanie, dla siebie i swojego zespołu."
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "Stwórz własne podpowiedzi, zorganizuj je i ułatw dostęp i ponowne wykorzystanie, dla siebie i swojego zespołu.",
+    "features_data__llama_3_1_70b__tooltip": "Napędzany przez Meta. Maksymalnie 128 000 tokenów. Potężny wielojęzyczny model z znacznie zwiększoną długością kontekstu i ulepszonymi zdolnościami wnioskowania. Obsługuje zaawansowane przypadki użycia, takie jak podsumowywanie tekstu w formie długiej, wielojęzyczne agenty konwersacyjne i pomoc w kodowaniu.",
+    "features_data__llama_3_1_405b__tooltip": "Napędzany przez Meta. Maksymalnie 128 000 tokenów. Największy na świecie otwarty model bazowy, dorównujący najlepszym zamkniętym źródłom AI pod względem wiedzy ogólnej, sterowalności i matematyki. Obsługuje 8 języków i umożliwia zaawansowane możliwości, takie jak generowanie danych syntetycznych i destylacja modelu. Idealny do podsumowywania tekstu w formie długiej, wielojęzycznych agentów konwersacyjnych i asystentów do kodowania.",
+    "features_data__mistral_large_2__tooltip": "Napędzany przez MistralAI. Maksymalnie 128 000 tokenów. Najnowszy flagowy model Mistrala przesuwa granice prędkości i wydajności. Z 123 miliardami parametrów Mistral-Large-2 wyróżnia się w generowaniu kodu, matematyce i rozumowaniu w dziesiątkach języków. Oferuje minimalne halucynacje i imponujące wsparcie wielojęzyczne zarówno dla języków naturalnych, jak i programowania."
   },
   "features__common": {
     "components__upload_button_drop_title": "Upuść tutaj"
@@ -1772,7 +1785,42 @@
     "components__unlock_pdf_detail_input_password": "Proszę wprowadź hasło, aby odblokować swój plik PDF",
     "components__unlock_pdf_detail_input_placeholder": "Hasło",
     "components__unlock_pdf_detail__button__unlock": "Odblokuj",
-    "components__unlock_pdf_detail__button__convert": "Konwertuj inny",
-    "components__unlock_pdf_detail__incorrect_password_tips": "Nieprawidłowe hasło"
+    "components__unlock_pdf_detail__incorrect_password_tips": "Nieprawidłowe hasło",
+    "components__unlock_pdf_detail__use_tips": "Hasło i pliki PDF nie zostaną przesłane na serwer, co zapewnia bezpieczeństwo."
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "Zabezpiecz plik PDF",
+    "description": "Dodaj ochronę hasłem i szyfrowanie do swoich plików PDF w celu zwiększenia bezpieczeństwa.",
+    "seo_title": "Zabezpiecz plik PDF - Dodaj szyfrowanie hasłem do plików PDF online za darmo | MaxAI.me",
+    "seo_description": "Łatwo dodaj ochronę hasłem do swoich plików PDF online za darmo. Nie ma wymogu znaków wodnych, limitów wielkości plików, pobierania ani rejestracji.",
+    "detail_description_object__protect_pdf__top_left": "Łatwo zabezpiecz swoje pliki PDF online za darmo, dodając szyfrowanie hasłem. Dzięki naszemu narzędziu Twoje pliki pozostają lokalnie dla zachowania prywatności, a nie ma ograniczeń wielkości plików.",
+    "detail_description_object__protect_pdf__top_right_1": "Szybko zabezpiecz swoje pliki PDF w zaledwie kilka sekund.",
+    "detail_description_object__protect_pdf__top_right_2": "Po prostu załaduj swoje pliki PDF, aby rozpocząć.",
+    "detail_description_object__protect_pdf__top_right_3": "Kompatybilny z systemami Mac, Windows, Android i iOS.",
+    "detail_description_object__protect_pdf__middle_1_title": "Proste narzędzie online do zabezpieczania plików PDF",
+    "detail_description_object__protect_pdf__middle_1_description": "Nasze narzędzie do ochrony plików PDF pozwala łatwo dodać ochronę hasłem do swoich plików PDF. Wystarczy załadować dokument, ustawić hasło i pobrać zaszyfrowany plik PDF. Jest niezwykle przyjazny dla użytkownika, całkowicie darmowy i nie wymaga konta.",
+    "detail_description_object__protect_pdf__middle_2_title": "Lokalne bezpieczne zabezpieczenie plików PDF",
+    "detail_description_object__protect_pdf__middle_2_description": "Wszystkie pliki, które przesyłasz, są przetwarzane bezpośrednio w przeglądarce, zapewniając ochronę Twojej prywatności. Żadne pliki nie są przesyłane do chmury, co gwarantuje bezpieczeństwo danych.",
+    "detail_description_object__protect_pdf__middle_3_title": "Kompatybilność między platformami",
+    "detail_description_object__protect_pdf__middle_3_description": "Nasze narzędzie do ochrony plików PDF działa w przeglądarce, co oznacza, że działa płynnie na systemach Mac, Windows i Linux, a także na urządzeniach mobilnych. Możesz łatwo zabezpieczyć swoje pliki PDF z dowolnego miejsca.",
+    "detail_description_object__protect_pdf__middle_4_title": "Proces operacyjny łatwy w obsłudze",
+    "detail_description_object__protect_pdf__middle_4_description": "Zabezpieczanie plików PDF jest proste: załaduj plik, ustaw hasło, a następnie pobierz zabezpieczoną hasłem wersję. Nawet początkujący mogą śledzić ten prosty proces bez wysiłku.",
+    "detail_description_object__protect_pdf__middle_5_title": "Narzędzie do niezawodnej ochrony plików PDF",
+    "detail_description_object__protect_pdf__middle_5_description": "Nie musisz kupować drogiego oprogramowania do ochrony plików PDF. Nasze narzędzie do ochrony plików PDF online jest dostępne za darmo, zapewniając, że Twoje pliki i dane zawsze są bezpieczne bez konieczności przetwarzania w chmurze.",
+    "detail_description_object__protect_pdf__middle_6_title": "Lokalne przetwarzanie dla zwiększenia bezpieczeństwa",
+    "detail_description_object__protect_pdf__middle_6_description": "Nasza usługa ochrony zapewnia, że wszystkie operacje są przeprowadzane lokalnie. To zwiększa bezpieczeństwo i przyspiesza czas przetwarzania, chroniąc Twoje pliki.",
+    "detail_description_object__protect_pdf__bottom_right_title": "Jak zabezpieczyć pliki PDF online:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "Załaduj plik PDF, który chcesz zabezpieczyć.",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "Ustaw hasło dla pliku PDF.",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "Kliknij „Zabezpiecz”, aby pobrać zabezpieczony hasłem plik PDF.",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "Po zabezpieczeniu tylko osoby posiadające hasło mogą uzyskać dostęp i edytować Twoje pliki PDF na dowolnym urządzeniu."
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "Zabezpiecz",
+    "components__protect_pdf_detail__type_password": " Wprowadź hasło",
+    "components__protect_pdf_detail__repeat_type_password": "Powtórz hasło",
+    "components__protect_pdf_detail__input__placeholder": "Ustaw swoje hasło",
+    "components__protect_pdf_detail__repeat_input__placeholder": "Potwierdź hasło",
+    "components__protect_pdf_detail__use_tips": "Hasło i pliki PDF nie zostaną przesłane na serwer, co zapewnia bezpieczeństwo."
   }
 }
