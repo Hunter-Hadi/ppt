@@ -16,7 +16,7 @@ VITE_PUBLIC_MIXPANEL_PROJECT_ID=dc4e4b13d1d423a76e0e10ea377e2949
 VITE_PUBLIC_CALRITY_ID=
 ```
 
-First, run the development server :
+在终端执行 :
 
 ```bash
 npm run dev
@@ -26,27 +26,17 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 注意事项
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+在开发 www 相关项目的时的注意事项
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+1. www 项目全站使用的都是 [SSG](https://nextjs.org/docs/pages/building-your-application/rendering/static-site-generation) 的方式实现，在新增页面时尽可能参考其他页面写法，保持统一的规范。
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+2. www 项目是需要 SEO 支持的，所以在开发页面时需要注意 语义化标签 和 SEO meta 的信息是否正确；同时也需要考虑当前页面路径是否需要 i18n url。（例如：/en/pdf-tools/merge-pdf 和 /zh-CN/pdf-tools/合并pdf）
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. www 项目需要支持移动端展示，在开发网页时可以以 ”移动端优先“ 去实现响应式
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details .
+4. 项目分布: 由于产品功能较多，独立的功能被分到不同的 repo 部署，并且通过代理的方式访问
+  - https://www.maxai.me/prompt/* 部署的是 maxai_www repo 下的 prod_prompt_library_ssg 分支
+  - https://www.maxai.me/ai-tools/search 部署的是 maxai_search 的 prod 分支
+  - https://www.maxai.me/ai-tools/chat-with-pdf/ 部署的是 maxai_doc_chat 的 prod 分支
