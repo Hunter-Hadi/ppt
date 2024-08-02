@@ -19,6 +19,7 @@ const AISummaryPages: FC<IProps> = () => {
 
   const summaryData = [
     {
+      // Summarize any webpage
       icon: '1-click',
       title: 'features_landing:ai_summary_pages__section1__title',
       description: 'features_landing:ai_summary_pages__section1__description',
@@ -26,53 +27,67 @@ const AISummaryPages: FC<IProps> = () => {
       videoUrl: `${CLOUD_FLARE_ASSETS_URL}/videos/summary-assistant.mp4`,
     },
     {
+      // Chat with any webpage
       icon: 'chat',
       title: 'features_landing:ai_summary_pages__section2__title',
       description: 'features_landing:ai_summary_pages__section2__description',
-      imageUrl: `/assets/features-landing/youtubesummary/2.png`,
+      videoPosterUrl: `/assets/features-landing/youtubesummary/2.png`,
+      videoUrl: `${CLOUD_FLARE_ASSETS_URL}/videos/features/ai-summary/chat-with-any-webpage.mp4`,
     },
     {
+      // Summarize any PDF
       icon: 'chat-with-pdf',
       title: 'features_landing:ai_summary_pages__section3__title',
       description: 'features_landing:ai_summary_pages__section3__description',
-      imageUrl: `/assets/features-landing/chatpdf/2.png`,
+      videoPosterUrl: `/assets/features-landing/chatpdf/2.png`,
+      videoUrl: `${CLOUD_FLARE_ASSETS_URL}/videos/features/ai-summary/summarize-any-pdf.mp4`,
     },
     {
+      // Chat with any PDF
       icon: 'chat-with-pdf',
       title: 'features_landing:ai_summary_pages__section4__title',
       description: 'features_landing:ai_summary_pages__section4__description',
       videoPosterUrl: '/assets/features-landing/video-features/chat.png',
-      videoUrl: `${CLOUD_FLARE_ASSETS_URL}/videos/reading-assistant.mp4`,
+      videoUrl: `${CLOUD_FLARE_ASSETS_URL}/videos/features/ai-summary/chat-with-any-pdf.mp4`,
     },
     {
+      // Summarize any YouTube video
       icon: 'chat',
       title: 'features_landing:ai_summary_pages__section5__title',
       description: 'features_landing:ai_summary_pages__section5__description',
-      imageUrl: `/assets/features-landing/youtubesummary/1.png`,
+      videoPosterUrl: `/assets/features-landing/youtubesummary/1.png`,
+      videoUrl: `${CLOUD_FLARE_ASSETS_URL}/videos/features/ai-summary/summarize-any-youtube-video.mp4`,
     },
     {
+      // Chat with any YouTube video
       icon: 'chat',
       title: 'features_landing:ai_summary_pages__section6__title',
       description: 'features_landing:ai_summary_pages__section6__description',
-      imageUrl: `/assets/features-landing/ai-summary/2.png`,
+      videoPosterUrl: `/assets/features-landing/ai-summary/2.png`,
+      videoUrl: `${CLOUD_FLARE_ASSETS_URL}/videos/features/ai-summary/chat-with-youtube-video.mp4`,
     },
     {
+      // Chat with any document
       icon: 'chat-with-pdf',
       title: 'features_landing:ai_summary_pages__section7__title',
       description: 'features_landing:ai_summary_pages__section7__description',
-      imageUrl: `/assets/features-landing/chatpdf/1.png`,
+      videoPosterUrl: `/assets/features-landing/chatpdf/1.png`,
+      videoUrl: `${CLOUD_FLARE_ASSETS_URL}/videos/features/ai-summary/chat-with-any-document.mp4`,
     },
     {
+      // Works where you work
       icon: 'auto-fix',
       title: 'features_landing:ai_summary_pages__section8__title',
       description: 'features_landing:ai_summary_pages__section8__description',
       imageUrl: `/assets/features-landing/ai-summary/1.png`,
     },
     {
+      // Create your own 1-click summarizer
       icon: 'prompt-library',
       title: 'features_landing:ai_summary_pages__section9__title',
       description: 'features_landing:ai_summary_pages__section9__description',
-      imageUrl: `/assets/features-landing/ai-summary/3.png`,
+      videoPosterUrl: `/assets/features-landing/ai-summary/3.png`,
+      videoUrl: `${CLOUD_FLARE_ASSETS_URL}/videos/features/ai-summary/create-your-own-1-click-summarizer.mp4`,
     },
   ]
 
