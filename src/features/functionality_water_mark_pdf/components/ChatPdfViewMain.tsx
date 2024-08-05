@@ -8,7 +8,7 @@ import CircularProgress from '@mui/material/CircularProgress'
 import Input from '@mui/material/Input'
 import Stack from '@mui/material/Stack'
 import { styled } from '@mui/material/styles'
-import * as fabric from 'fabric'
+import html2canvas from 'html2canvas'
 import { useTranslation } from 'next-i18next'
 import { PDFDocument } from 'pdf-lib'
 import React, { FC, useEffect, useMemo, useRef, useState } from 'react'
@@ -73,7 +73,6 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
   const [waterMarkFontFamily, setWaterMarkFontFamily] =
     useState<string>('Arial')
   const [downLoadLoading, setDownLoadLoading] = useState(false)
-  const canvasHandlesRefs = useRef<any[]>([])
 
   const currentViewRef = useRef<number>(0)
   const infintyViewRef = useRef<HTMLElement>()
@@ -107,69 +106,58 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
     setWaterMarkFontSize(size)
   }
 
-  const pdfAddSignCanvasViewReturnUint8Array = async (file: File) => {
-    try {
-      setDownLoadLoading(true)
-      let pdfDoc: PDFDocument | null = null
-      try {
-        const fileBuffer = await file.arrayBuffer()
-        pdfDoc = await PDFDocument.load(fileBuffer)
-      } catch (error) {
-        console.error('Error loading PDF Document:', error)
-        setDownLoadLoading(false)
-        return
-      }
-      const pdfPageNumber = pdfDoc.getPageCount() // 获取 PDF 页数
+  // const pdfAddSignCanvasViewReturnUint8Array = async (file: File) => {
+  //   try {
+  //     setDownLoadLoading(true)
+  //     let pdfDoc: PDFDocument | null = null
+  //     try {
+  //       const fileBuffer = await file.arrayBuffer()
+  //       pdfDoc = await PDFDocument.load(fileBuffer)
+  //     } catch (error) {
+  //       console.error('Error loading PDF Document:', error)
+  //       setDownLoadLoading(false)
+  //       return
+  //     }
+  //     const pdfPageNumber = pdfDoc.getPageCount() // 获取 PDF 页数
 
-      // 虚拟滚动取当前视图的水印
-      const resConvas = await pdfDoc.embedPng(
-        canvasHandlesRefs.current[currentViewRef.current]?.getCanvasBase64(),
-      )
-      console.log(`resConvas:`, resConvas)
-      console.log(`currentViewRef.current:`, currentViewRef.current)
+  //     // 虚拟滚动取当前视图的水印
+  //     const resConvas = await pdfDoc.embedPng(
+  //       canvasHandlesRefs.current[currentViewRef.current]?.getCanvasBase64(),
+  //     )
+  //     console.log(`resConvas:`, resConvas)
+  //     console.log(`currentViewRef.current:`, currentViewRef.current)
 
-      for (let i = 0; i < pdfPageNumber; i++) {
-        const page = pdfDoc.getPage(i)
-        const pdfPageSize = page.getSize()
-        page.drawImage(resConvas, {
-          x: 0,
-          y: 0,
-          width: pdfPageSize.width,
-          height: pdfPageSize.height,
-        })
-        // }
-      }
+  //     for (let i = 0; i < pdfPageNumber; i++) {
+  //       const page = pdfDoc.getPage(i)
+  //       const pdfPageSize = page.getSize()
+  //       page.drawImage(resConvas, {
+  //         x: 0,
+  //         y: 0,
+  //         width: pdfPageSize.width,
+  //         height: pdfPageSize.height,
+  //       })
+  //       // }
+  //     }
 
-      const pdfDocData = await pdfDoc.save()
-      console.log(`pdfDoc:`, pdfDoc)
-      console.log(`pdfDocData:`, pdfDocData)
-      const blob = new Blob([pdfDocData], { type: 'application/pdf' })
-      const url = URL.createObjectURL(blob)
-      const fileName = functionalityCommonFileNameRemoveAndAddExtension(
-        file.name,
-      ) //获取文件名
-      const link = document.createElement('a')
-      link.href = url
-      link.download = fileName
-      link.click()
-      URL.revokeObjectURL(url)
-      setDownLoadLoading(false)
-    } catch (e) {
-      setDownLoadLoading(false)
-      console.log(e)
-    }
-  }
-  const getAngleForDiagonal = (width, height) => {
-    // 计算反正切值，得到的结果是弧度
-    const radian = Math.atan(height / width)
-
-    // 将弧度转换为度
-    const degree = radian * (180 / Math.PI)
-
-    // 因为问题要求的是从左下到右上的倾斜角度，所以使用负值
-    return -degree
-  }
-  
+  //     const pdfDocData = await pdfDoc.save()
+  //     console.log(`pdfDoc:`, pdfDoc)
+  //     console.log(`pdfDocData:`, pdfDocData)
+  //     const blob = new Blob([pdfDocData], { type: 'application/pdf' })
+  //     const url = URL.createObjectURL(blob)
+  //     const fileName = functionalityCommonFileNameRemoveAndAddExtension(
+  //       file.name,
+  //     ) //获取文件名
+  //     const link = document.createElement('a')
+  //     link.href = url
+  //     link.download = fileName
+  //     link.click()
+  //     URL.revokeObjectURL(url)
+  //     setDownLoadLoading(false)
+  //   } catch (e) {
+  //     setDownLoadLoading(false)
+  //     console.log(e)
+  //   }
+  // }
   const pdfAddSignCanvasViewReturnUint8ArrayTest = async (file: File) => {
     try {
       setDownLoadLoading(true)
@@ -184,33 +172,15 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
       }
       const pdfPageNumber = pdfDoc.getPageCount() // 获取 PDF 页数
 
-      const rotate = getAngleForDiagonal(
-        topWrapRef.current.clientWidth,
-        topWrapRef.current.clientHeight,
-      )
-  
-
-      const text = new fabric.Text(waterMarkInfo.textValue, {
-        left: (editor.current.width - 300) / 2,
-        top: editor.current.height / 2,
-        fontFamily: waterMarkInfo.fontFamily,
-        fontSize: waterMarkInfo.fontSize * 6,
-        fill: waterMarkInfo.color,
-        opacity: waterMarkInfo.opciaty,
-        originX: 'center',
-        originY: 'center',
-        angle: rotate,
-        selectable: false,
-        hoverCursor: 'default',
-      })
-
-      // 虚拟滚动取当前视图的水印
-      const resConvas = await pdfDoc.embedPng(
-        canvasHandlesRefs.current[currentViewRef.current]?.getCanvasBase64(),
-      )
-      console.log(`resConvas:`, resConvas)
       console.log(`currentViewRef.current:`, currentViewRef.current)
-
+      // 使用 html2canvas 库将 div 绘制到 canvas
+      const topDiv = document.getElementById('chat-test-canvas') as any
+      const canvas = await html2canvas(topDiv, {
+        backgroundColor: null, // 设置背景为透明
+      })
+      const base64Image = canvas.toDataURL('image/png')
+      // 虚拟滚动取当前视图的水印
+      const resConvas = await pdfDoc.embedPng(base64Image)
       for (let i = 0; i < pdfPageNumber; i++) {
         const page = pdfDoc.getPage(i)
         const pdfPageSize = page.getSize()
@@ -220,12 +190,11 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
           width: pdfPageSize.width,
           height: pdfPageSize.height,
         })
-        // }
       }
 
       const pdfDocData = await pdfDoc.save()
-      console.log(`pdfDoc:`, pdfDoc)
-      console.log(`pdfDocData:`, pdfDocData)
+      // console.log(`pdfDoc:`, pdfDoc)
+      // console.log(`pdfDocData:`, pdfDocData)
       const blob = new Blob([pdfDocData], { type: 'application/pdf' })
       const url = URL.createObjectURL(blob)
       const fileName = functionalityCommonFileNameRemoveAndAddExtension(
@@ -305,7 +274,6 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
               ></FunctionalityWateMarkPdfShowPdfViewRenderCanvas> */}
               <FunctionalityWateMarkPdfShowPdfWaterMarkRender
                 sizeInfo={tempPdfInfo}
-                pdfIndx={props.index}
                 waterMarkInfo={waterMarkInfo}
               ></FunctionalityWateMarkPdfShowPdfWaterMarkRender>
             </Box>
@@ -405,7 +373,7 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
               variant='contained'
               size='large'
               onClick={() => {
-                pdfAddSignCanvasViewReturnUint8Array(file)
+                pdfAddSignCanvasViewReturnUint8ArrayTest(file)
                 // pdfAddSignCanvasViewReturnUint8Array(file)
               }}
               disabled={downLoadLoading}
