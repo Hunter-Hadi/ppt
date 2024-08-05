@@ -272,27 +272,6 @@ sm3_sign: ${sm3_sign}\n
           APP_AES_ENCRYPTION_KEY,
         ),
       )
-
-      console.log(
-        `zztest`,
-        {
-          // X-Client-Domain
-          [convertHexToString(`582d436c69656e742d446f6d61696e`)]: domain,
-          // X-Client-Path
-          [convertHexToString(`582d436c69656e742d50617468`)]: path,
-          // t
-          [convertHexToString(`74`)]: req_time,
-          // p
-          [convertHexToString(`70`)]: payloadHash,
-          // D
-          [convertHexToString(`64`)]:
-            // 插件这里传递的是插件的ID
-            // 网页这里用 client user id 代替
-            getClientUserId(),
-          // await getMaxAIChromeExtensionInstalledDeviceId(),
-        },
-        APP_AES_ENCRYPTION_KEY,
-      )
     } catch (e) {
       console.error(e)
     }
