@@ -89,7 +89,7 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
   const wrapBoxHeight = elementHeight || viewHeight || 500
   const [isScrollShowButtonOperation, setIsScrollShowButtonOperation] =
     useState(false) //是否显示滚动显示底部操作
-
+  const [isFocusInput, setIsFocusInput] = useState(false)
   const scrollListRef = useRef<any>(null)
   const pdfPageRefs = useRef<HTMLElement[]>([])
   const { scaleNumber, onChangeZoom, onSelfAdaption } = useChatPdfListZoom({
@@ -146,9 +146,12 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
     pdfNumPages || 0,
     currentScrollOffset,
     actualSizeList,
-    '.pdf-list-scroll',
+    scrollListRef,
     wrapBoxHeight,
   ) //滚动分页
+  useEffect(() => {
+    setIsFocusInput(false)
+  }, [currentPage])
   useEffect(() => {
     onViewInfo &&
       onViewInfo({
@@ -164,7 +167,11 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
     onViewInfo,
     scaleNumber,
   ])
-
+  useEffect(() => {
+    if (scrollListRef.current) {
+      scrollListRef.current.resetAfterIndex(0) // 自动重置缓存
+    }
+  }, [scaleNumber, viewHeight, viewWidth])
   const isItemLoaded = useCallback(
     (index) => {
       return !!pdfIsLoadingObj[index]
@@ -217,6 +224,7 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
         style={style}
         key={index}
         className='functionality-sign-pdf-scroll-pagination-page-item'
+        data-index={index}
         ref={(element) => element && (pdfPageRefs.current[index] = element)}
       >
         <Box
@@ -380,7 +388,9 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
                   sx={{
                     bgcolor: '#ffffff',
                     display:
-                      isMobile || isScrollShowButtonOperation ? 'flex' : 'none',
+                      isMobile || isScrollShowButtonOperation || isFocusInput
+                        ? 'flex'
+                        : 'none',
                     p: 1,
                     borderRadius: 2,
                   }}
@@ -403,16 +413,18 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
                       width: 50,
                       ' input': {
                         textAlign: 'center',
-
-                        ...(isMobile
-                          ? {
-                              padding: '5px',
-                            }
-                          : {}),
+                        fontSize: '14px!important',
+                        padding: '5px',
                       },
                     }}
                     hiddenLabel
                     key={currentPage}
+                    onFocus={() => {
+                      setIsFocusInput(true)
+                    }}
+                    onBlur={() => {
+                      setIsFocusInput(false)
+                    }}
                     defaultValue={currentPage + 1}
                     variant='filled'
                     size='small'

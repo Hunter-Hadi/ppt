@@ -164,6 +164,9 @@ dependencies:
   pureimage:
     specifier: ^0.3.17
     version: 0.3.17
+  rangy:
+    specifier: ^1.3.1
+    version: 1.3.1
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -9154,6 +9157,10 @@ packages:
   /range-parser@1.2.1:
     resolution: {integrity: sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==}
     engines: {node: '>= 0.6'}
+    dev: false
+
+  /rangy@1.3.1:
+    resolution: {integrity: sha512-gfo1FOzdvcrcCR+wf0XMKPJBD3p2nHUw2wvNtuKsaHoI2dXQ9vH2QIpSQMV+mWLvKSqPfDNThhlyK8UN1hJijw==}
     dev: false
 
   /rc@1.2.8:

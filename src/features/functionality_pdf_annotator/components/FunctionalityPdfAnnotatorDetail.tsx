@@ -55,7 +55,7 @@ const FunctionalityPdfAnnotatorDetail: ForwardRefRenderFunction<
         <Box
           sx={{
             width: 1000,
-            height: 600,
+            height: 500,
           }}
         >
           <FunctionalityCommonOperatePdfToolViewMain

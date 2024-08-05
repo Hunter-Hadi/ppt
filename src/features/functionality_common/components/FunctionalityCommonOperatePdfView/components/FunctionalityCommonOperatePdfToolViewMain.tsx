@@ -12,6 +12,7 @@ import eventEmitter, {
 import FunctionalityCommonOperateFabricCanvas, {
   IFunctionalityCommonOperateFabricCanvasHandles,
 } from './FunctionalityCommonOperateCanvas/FunctionalityCommonOperateFabricCanvas'
+import FunctionalityCommonTextContentPage from './FunctionalityCommonOperateCanvas/FunctionalityCommonTextContentPage'
 import FunctionalityCommonOperateDroppable from './FunctionalityCommonOperateDroppable'
 interface FunctionalityCommonOperatePdfToolViewMainProps {
   file: File
@@ -79,7 +80,10 @@ const FunctionalityCommonOperatePdfToolViewMain: FC<
                   index={props.index}
                 />
               </FunctionalityCommonOperateDroppable>
-
+              <FunctionalityCommonTextContentPage
+                pdfInfo={props.pdfInfo}
+                index={props.index}
+              ></FunctionalityCommonTextContentPage>
               <div
                 style={{
                   position: 'absolute',

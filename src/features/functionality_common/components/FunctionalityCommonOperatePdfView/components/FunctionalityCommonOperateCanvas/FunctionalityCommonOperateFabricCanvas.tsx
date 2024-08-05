@@ -68,7 +68,7 @@ const FunctionalityCommonOperateFabricCanvas: ForwardRefRenderFunction<
     }
   }, [canvasScale, topViewWidth])
   const canvasChangeScale = useMemo(() => {
-    const width = defaultWidth //写死一个宽度，按比例
+    const width = defaultWidth
     // 计算新的缩放比例
     const scale = currentCanvasSize.width / width
     return scale
@@ -168,6 +168,26 @@ const FunctionalityCommonOperateFabricCanvas: ForwardRefRenderFunction<
     const handleNotify = (data) => {
       onAddObject(data)
     }
+    const handleTestNotify = (data) => {
+      console.log('handleTestNotify')
+      if (fabricCanvas.current) {
+        const zoom = fabricCanvas.current.getZoom()
+        data.left = data.left / zoom
+        data.top = data.top / zoom
+        data.width = data.width / zoom
+        data.height = data.height / zoom
+        fabricCanvas.current.add(data)
+        fabricCanvas.current.renderAll() // 重新渲染画布
+      }
+    }
+    eventEmitter.off(
+      'eventEmitterAddFabricTestTextCanvasKey-' + index,
+      handleTestNotify,
+    )
+    eventEmitter.on(
+      'eventEmitterAddFabricTestTextCanvasKey-' + index,
+      handleTestNotify,
+    )
     eventEmitter.off(eventEmitterAddFabricIndexCanvasKey + index, handleNotify)
     // 订阅事件
     eventEmitter.on(eventEmitterAddFabricIndexCanvasKey + index, handleNotify)
@@ -213,6 +233,7 @@ const FunctionalityCommonOperateFabricCanvas: ForwardRefRenderFunction<
   ])
   return (
     <Box
+      className='FunctionalityCommonOperateFabricCanvas'
       sx={{
         width: '100%',
         height: '100%',
