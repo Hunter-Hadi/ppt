@@ -8,6 +8,7 @@ import CircularProgress from '@mui/material/CircularProgress'
 import Input from '@mui/material/Input'
 import Stack from '@mui/material/Stack'
 import { styled } from '@mui/material/styles'
+import * as fabric from 'fabric'
 import { useTranslation } from 'next-i18next'
 import { PDFDocument } from 'pdf-lib'
 import React, { FC, useEffect, useMemo, useRef, useState } from 'react'
@@ -26,7 +27,8 @@ import { SIGN_TEXT_FONT_FAMILY_LIST } from '@/features/functionality_common/cons
 import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex'
 
-import FunctionalityWateMarkPdfShowPdfViewRenderCanvas from './FunctionalityWateMarkPdfShowPdfViewRenderCanvas'
+import FunctionalityWateMarkPdfShowPdfWaterMarkRender from './FunctionalityWateMarkPdfShowPdfWaterMarkRender'
+
 const InputContainer = styled('div')(({ theme }) => ({
   position: 'relative',
   display: 'flex',
@@ -157,6 +159,89 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
       console.log(e)
     }
   }
+  const getAngleForDiagonal = (width, height) => {
+    // 计算反正切值，得到的结果是弧度
+    const radian = Math.atan(height / width)
+
+    // 将弧度转换为度
+    const degree = radian * (180 / Math.PI)
+
+    // 因为问题要求的是从左下到右上的倾斜角度，所以使用负值
+    return -degree
+  }
+  
+  const pdfAddSignCanvasViewReturnUint8ArrayTest = async (file: File) => {
+    try {
+      setDownLoadLoading(true)
+      let pdfDoc: PDFDocument | null = null
+      try {
+        const fileBuffer = await file.arrayBuffer()
+        pdfDoc = await PDFDocument.load(fileBuffer)
+      } catch (error) {
+        console.error('Error loading PDF Document:', error)
+        setDownLoadLoading(false)
+        return
+      }
+      const pdfPageNumber = pdfDoc.getPageCount() // 获取 PDF 页数
+
+      const rotate = getAngleForDiagonal(
+        topWrapRef.current.clientWidth,
+        topWrapRef.current.clientHeight,
+      )
+  
+
+      const text = new fabric.Text(waterMarkInfo.textValue, {
+        left: (editor.current.width - 300) / 2,
+        top: editor.current.height / 2,
+        fontFamily: waterMarkInfo.fontFamily,
+        fontSize: waterMarkInfo.fontSize * 6,
+        fill: waterMarkInfo.color,
+        opacity: waterMarkInfo.opciaty,
+        originX: 'center',
+        originY: 'center',
+        angle: rotate,
+        selectable: false,
+        hoverCursor: 'default',
+      })
+
+      // 虚拟滚动取当前视图的水印
+      const resConvas = await pdfDoc.embedPng(
+        canvasHandlesRefs.current[currentViewRef.current]?.getCanvasBase64(),
+      )
+      console.log(`resConvas:`, resConvas)
+      console.log(`currentViewRef.current:`, currentViewRef.current)
+
+      for (let i = 0; i < pdfPageNumber; i++) {
+        const page = pdfDoc.getPage(i)
+        const pdfPageSize = page.getSize()
+        page.drawImage(resConvas, {
+          x: 0,
+          y: 0,
+          width: pdfPageSize.width,
+          height: pdfPageSize.height,
+        })
+        // }
+      }
+
+      const pdfDocData = await pdfDoc.save()
+      console.log(`pdfDoc:`, pdfDoc)
+      console.log(`pdfDocData:`, pdfDocData)
+      const blob = new Blob([pdfDocData], { type: 'application/pdf' })
+      const url = URL.createObjectURL(blob)
+      const fileName = functionalityCommonFileNameRemoveAndAddExtension(
+        file.name,
+      ) //获取文件名
+      const link = document.createElement('a')
+      link.href = url
+      link.download = fileName
+      link.click()
+      URL.revokeObjectURL(url)
+      setDownLoadLoading(false)
+    } catch (e) {
+      setDownLoadLoading(false)
+      console.log(e)
+    }
+  }
 
   const waterMarkInfo = useMemo(() => {
     return {
@@ -178,15 +263,19 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
     return (
       <FunctionalityCommonPdfViewVirtualScrollMain
         viewWidth={width}
-        viewHeight={overallViewHeight}
+        viewHeight={overallViewHeight - 50}
         file={file}
       >
         {(props) => {
           const { pdfInfo, index } = props
           const { height, width } = pdfInfo
+          // const tempPdfInfo = {
+          //   height: height * 4,
+          //   width: width * 4,
+          // }
           const tempPdfInfo = {
-            height: height * 4,
-            width: width * 4,
+            height: height,
+            width: width,
           }
           currentViewRef.current = index
           return (
@@ -204,7 +293,7 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
               }}
             >
               <ChatPdfViewPage pdfInfo={props.pdfInfo} index={props.index} />
-              <FunctionalityWateMarkPdfShowPdfViewRenderCanvas
+              {/* <FunctionalityWateMarkPdfShowPdfViewRenderCanvas
                 sizeInfo={tempPdfInfo}
                 canvasIndex={props.index}
                 ref={(el) => {
@@ -213,7 +302,12 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
                   }
                 }}
                 waterMarkInfo={waterMarkInfo}
-              ></FunctionalityWateMarkPdfShowPdfViewRenderCanvas>
+              ></FunctionalityWateMarkPdfShowPdfViewRenderCanvas> */}
+              <FunctionalityWateMarkPdfShowPdfWaterMarkRender
+                sizeInfo={tempPdfInfo}
+                pdfIndx={props.index}
+                waterMarkInfo={waterMarkInfo}
+              ></FunctionalityWateMarkPdfShowPdfWaterMarkRender>
             </Box>
           )
         }}
@@ -312,6 +406,7 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
               size='large'
               onClick={() => {
                 pdfAddSignCanvasViewReturnUint8Array(file)
+                // pdfAddSignCanvasViewReturnUint8Array(file)
               }}
               disabled={downLoadLoading}
             >
@@ -455,6 +550,7 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
           display: 'flex',
           justifyContent: 'center',
         }}
+        className='functionality-water-mark--object-infinity-view'
         ref={infintyViewRef}
       >
         {InfinityList}

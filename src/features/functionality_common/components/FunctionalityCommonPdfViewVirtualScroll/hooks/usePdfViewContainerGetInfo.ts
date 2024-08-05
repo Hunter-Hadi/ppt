@@ -4,7 +4,7 @@
 //   PDFDocumentLoadingTask,
 //   PDFDocumentProxy,
 // } from 'pdfjs-dist';
-import { useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import { pdfjs } from 'react-pdf'
 
 import { fileToUInt8Array } from '@/features/functionality_common/utils/functionalityCommonFileToUInt8Array'
@@ -37,13 +37,8 @@ const useChatPdfContainerGetInfo = (props: {
 
   const currentRollingPageLoadTask = useRef<any | null>(null) //当前加载任务分配器
   const [pdfInfoList, setPdfInfoList] = useState<any[]>([])
-  const [pdfSizeList, setPdfSizeList] = useState<
-    {
-      width: number
-      height: number
-    }[]
-  >([])
   const pdfIsLoadingObj = useRef<{ [key in string]: boolean }>({}) //pdf页面加载状态
+  const pdfIsReadObj = useRef<{ [key in string]: boolean }>({}) //pdf页面加载状态
 
   const getFilePdfDocument = async (pdfFile: File) => {
     //根据文件获取PdfDocument开始显示
@@ -92,58 +87,66 @@ const useChatPdfContainerGetInfo = (props: {
   }, [])
 
   //根据虚拟滚动加载数据，用户滚动的位置开始加载
-  const onLoadRangeData = (startIndex, stopIndex) => {
-    try {
-      if (currentRollingPageLoadTask.current) {
-        currentRollingPageLoadTask.current.cancel()
-      }
-      currentRollingPageLoadTask.current = createRollingPageLoadTask(
-        pdfSizeList,
-        startIndex,
-        stopIndex,
-        (index, isActive) => {
-          pdfIsLoadingObj.current[index] = isActive
-        },
-        async (index) => {
-          if (currentPdfDocument.current) {
-            try {
-              const page = await currentPdfDocument.current.getPage(index + 1)
-              page.getTextContent()
-              const viewport = page.getViewport({ scale: pdfPageClarity })
-              const textContent = await page.getTextContent()
-              setPdfInfoList((prev) => {
-                let newList = [...prev]
-                if (newList.length === 0) {
-                  //第一次拿数据默认渲染全部的高度宽度信息，让虚拟滚动可以正常加载
-                  newList = Array.from({ length: pdfNumPages }, (_, index) => {
-                    return {
-                      pdfIndex: index,
-                      width: viewport.width / pdfPageClarity,
-                      height: viewport.height / pdfPageClarity,
-                    }
-                  })
-                }
-                newList[index] = {
-                  pdfIndex: index + 1,
-                  page,
-                  textContent,
-                  viewport,
-                  width: viewport.width / pdfPageClarity,
-                  height: viewport.height / pdfPageClarity,
-                }
-                return newList
-              })
-            } catch (e) {
-              console.error('loadPage async error', e)
+  const onLoadRangeData = useCallback(
+    (startIndex, stopIndex) => {
+      try {
+        if (currentRollingPageLoadTask.current) {
+          currentRollingPageLoadTask.current.cancel()
+        }
+        currentRollingPageLoadTask.current = createRollingPageLoadTask(
+          pdfIsLoadingObj,
+          startIndex,
+          stopIndex,
+          (index, isActive) => {
+            pdfIsLoadingObj.current[index] = isActive
+          },
+          async (index) => {
+            if (currentPdfDocument.current && !pdfIsReadObj.current[index]) {
+              try {
+                const page = await currentPdfDocument.current.getPage(index + 1)
+                page.getTextContent()
+                const viewport = page.getViewport({ scale: pdfPageClarity })
+                const textContent = await page.getTextContent()
+                pdfIsReadObj.current[index] = true
+                setPdfInfoList((prev) => {
+                  let newList = [...prev]
+                  if (newList.length === 0) {
+                    //第一次拿数据默认渲染全部的高度宽度信息，让虚拟滚动可以正常加载
+                    newList = Array.from(
+                      { length: pdfNumPages },
+                      (_, index) => {
+                        return {
+                          pdfIndex: index,
+                          width: viewport.width / pdfPageClarity,
+                          height: viewport.height / pdfPageClarity,
+                        }
+                      },
+                    )
+                  }
+                  newList[index] = {
+                    pdfIndex: index + 1,
+                    page,
+                    textContent,
+                    viewport,
+                    width: viewport.width / pdfPageClarity,
+                    height: viewport.height / pdfPageClarity,
+                    isRead: true,
+                  }
+                  return newList
+                })
+              } catch (e) {
+                console.error('loadPage async error', e)
+              }
             }
-          }
-        },
-      )
-      currentRollingPageLoadTask.current.start()
-    } catch (e) {
-      console.log('pdfchat onLoadRangeData error:', e)
-    }
-  }
+          },
+        )
+        currentRollingPageLoadTask.current.start()
+      } catch (e) {
+        console.log('pdfchat onLoadRangeData error:', e)
+      }
+    },
+    [pdfNumPages],
+  )
   return {
     pdfIsLoadingObj,
     onReadPDF,
