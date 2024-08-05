@@ -4,7 +4,7 @@ import {
   getBrowserAgent,
   getBrowserVersion,
 } from '@/features/common/utils/dataHelper/browserInfoHelper'
-import { aesJsonEncrypt } from '@/features/common/utils/dataHelper/encryptionHelper'
+import { aesJsonEncrypt } from '@/features/security/utils'
 import { API_HOST } from '@/global_constants'
 
 export type botUuid =
