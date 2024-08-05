@@ -1,15 +1,15 @@
 import { Alert, AlertTitle, Paper } from '@mui/material'
 import axios, { AxiosRequestConfig } from 'axios'
-import dayjs from 'dayjs'
+import isUndefined from 'lodash-es/isUndefined'
+import omitBy from 'lodash-es/omitBy'
 import getConfig from 'next/config'
 import { SnackbarKey, useSnackbar } from 'notistack'
 import React from 'react'
 
+import { securityRequestInitHandler } from '@/features/security/utils'
 import { API_HOST } from '@/global_constants'
-import { getFingerPrint } from '@/utils/fingerPrint'
 import snackNotifications from '@/utils/globalSnackbar'
-import { getLocalStorage, setLocalStorage } from '@/utils/localStorage'
-import { api_signature_manager } from '@/utils/utils'
+import { setLocalStorage } from '@/utils/localStorage'
 
 // 扩展AxiosRequestConfig以包含自定义配置
 export interface CustomAxiosRequestConfig extends AxiosRequestConfig {
@@ -175,59 +175,33 @@ appAxios.interceptors.response.use(
 )
 appAxios.interceptors.request.use(
   async (config: AxiosRequestConfig) => {
-    config.headers = {
-      ...config.headers,
-      'X-API-MODULE': getCurrentPathNameModule(),
-      'X-IS-CRX': 'false',
-      'X-IS-FOCUS': getCurrentVisibility() ? 'true' : 'false',
-      'X-FULL-REFERER': getCurrentFullReferer(),
-      'X-FID': getFingerPrint(),
-    }
-    // 签名路径添加api版本号
-    let api_path = config.url?.replace(API_HOST || '', '') || ''
-    const sign_header_prefix = ''
-    let json_data = {}
-    const data: { [key: string]: FormDataEntryValue } = {}
-    const isForm =
-      config.headers?.['Content-Type'] === 'application/x-www-form-urlencoded'
-    if (isForm) {
-      if (
-        config['data'] &&
-        ['put', 'post', 'patch'].includes(
-          config['method']?.toLocaleLowerCase() || '',
-        ) &&
-        config['data'] instanceof FormData
-      ) {
-        config['data'].forEach((value, key) => (data[key] = value))
+    // const accessToken = getAccessToken()
+    // const fp = await getFingerPrintAsync()
+    let securityHeaders: Record<string, string> = {}
+    try {
+      const newSecurityRequestConfig = await securityRequestInitHandler(
+        `${config?.baseURL}${config?.url}`,
+        {
+          ...config,
+          headers: omitBy({ ...config.headers }, isUndefined),
+          // 模拟 RequestInit 中的 body
+          body: JSON.stringify(config?.data ?? {}),
+        } as RequestInit,
+      )
+
+      if (newSecurityRequestConfig.headers) {
+        securityHeaders = Object.fromEntries(
+          newSecurityRequestConfig.headers as any,
+        )
       }
-    } else {
-      //这是json数据post的情况，将post,put等的json data数据赋值给待签名变量
-      if (config['data']) {
-        json_data = config['data']
-      }
-    }
-    if (config.params) {
-      //如果在这个里面存在查询参数，我们应该将查询参数添加到url中，并且将params置为空，这样才能避免有的查询参数漏掉了签名，导致请求失败
-      api_path = splice_uri(api_path, config.params)
-      config.params = undefined //必需重置参数，避免最终产生重复参数
-      config.url = api_path //将添加了新参数的链接地址赋值url地址
-    }
-    const sign_headers = api_signature_manager({
-      api_path: `${sign_header_prefix}${api_path.replace(/[?]$/, '')}`,
-      authorization: (config.headers?.['Authorization'] || '') as string,
-      userAgent:
-        typeof window !== 'undefined'
-          ? window?.navigator?.userAgent
-          : 'unknown',
-      data,
-      json_data,
-      apiTime: (+dayjs() + +(getLocalStorage('timediff') || 0)).toString(),
-    })
-    config.headers = {
-      ...config.headers,
-      ...sign_headers,
+    } catch (error) {
+      securityHeaders = {}
     }
 
+    config.headers = {
+      ...config.headers,
+      ...securityHeaders,
+    }
     return config as any
   },
   (error) => {

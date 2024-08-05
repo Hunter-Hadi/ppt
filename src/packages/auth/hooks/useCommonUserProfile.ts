@@ -20,6 +20,7 @@ import {
   getAccessToken,
   renderRoleName,
 } from '@/packages/auth/utils'
+import maxAIClientSafeFetch from '@/utils/maxAIClientSafeFetch'
 
 // TODO: 功能type
 type RENDER_PLAN_TYPE =
@@ -51,7 +52,7 @@ export const useCommonUserProfile = () => {
   const syncUserInfo = async () => {
     try {
       setUserProfile((pre) => ({ ...pre, loading: true }))
-      const response = await fetch(
+      const response = await maxAIClientSafeFetch(
         COMMON_AUTH_API_HOST + '/user/get_user_info',
         {
           method: 'GET',
