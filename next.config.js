@@ -3,11 +3,13 @@
 const WebpackObfuscatorPlugin = require('webpack-obfuscator')
 /** @type {import('next').NextConfig} */
 
-const SAFE_ON = process.env.NEXT_PUBLIC_SAFE_ON === 'true'
 
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
+/** @type {import('next').NextConfig} */
+
+const SAFE_ON = process.env.NEXT_PUBLIC_SAFE_ON === 'true'
 
 const obfuscatorOptions = {
   compact: true,
@@ -37,9 +39,23 @@ const obfuscatorOptions = {
   unicodeEscapeSequence: false,
 }
 
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const { getHostConfig } = require('./scripts/host.js')
 const { WWW_PROJECT_HOST, APP_PROJECT_HOST, API_PROJECT_HOST } = getHostConfig()
 
+const getSecurityKeysInEnv = () => {
+  try {
+    const securityKeys = JSON.parse(process.env.SECURITY_KEYS)
+    return securityKeys
+  } catch (e) {
+    return {
+      aes_key: '',
+      sign_key: '',
+    }
+  }
+}
+
+const securityKeys = getSecurityKeysInEnv()
 const basePath = undefined
 
 const nextConfig = {
@@ -76,6 +92,9 @@ const nextConfig = {
     NEXT_PUBLIC_APP_PROJECT_HOST: APP_PROJECT_HOST,
     NEXT_PUBLIC_API_PROJECT_HOST: API_PROJECT_HOST,
     NEXT_PUBLIC_BASE_PATH: String(basePath || ''),
+    NEXT_PUBLIC__SECURITY_KEYS__AES_KEY: `${securityKeys.aes_key}`,
+    NEXT_PUBLIC__SECURITY_KEYS__SIGN_KEY: `${securityKeys.sign_key}`,
+    NEXT_PUBLIC__APP_VERSION: `${process.env.APP_VERSION}`,
   },
 }
 

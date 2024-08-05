@@ -8,20 +8,26 @@ import CircularProgress from '@mui/material/CircularProgress'
 import Input from '@mui/material/Input'
 import Stack from '@mui/material/Stack'
 import { styled } from '@mui/material/styles'
+import html2canvas from 'html2canvas'
 import { useTranslation } from 'next-i18next'
 import { PDFDocument } from 'pdf-lib'
 import React, { FC, useEffect, useMemo, useRef, useState } from 'react'
 
 import ChatPdfViewPage from '@/features/functionality_common/components/FunctionalityCommonPdfViewVirtualScroll/components/FunctionalityCommonPdfViewPage'
 import FunctionalityCommonPdfViewVirtualScrollMain from '@/features/functionality_common/components/FunctionalityCommonPdfViewVirtualScroll/components/FunctionalityCommonPdfViewVirtualScrollMain'
+// import FunctionalitySignPdfColorButtonPopover from '@/features/functionality_sign_pdf/components/FunctionalitySignPdfButtonPopover/FunctionalitySignPdfColorButtonPopover'
+// import FunctionalitySignPdfFontsButtonPopover from '@/features/functionality_sign_pdf/components/FunctionalitySignPdfButtonPopover/FunctionalitySignPdfFontsButtonPopover'
+// import FunctionalitySignPdfIcon from '@/features/functionality_sign_pdf/components/FunctionalitySignPdfIcon'
+// import { SIGN_TEXT_FONT_FAMILY_LIST } from '@/features/functionality_sign_pdf/constant/index'
+import FunctionalitySignPdfColorButtonPopover from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonColorButtonPopover'
+import FunctionalityCommonColorTransparencyPopover from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonColorTransparencyPopover'
+import FunctionalitySignPdfFontsButtonPopover from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonFontsButtonPopover'
+import FunctionalitySignPdfIcon from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalitySignPdfIcon'
+import { SIGN_TEXT_FONT_FAMILY_LIST } from '@/features/functionality_common/constants'
 import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex'
-import FunctionalitySignPdfColorButtonPopover from '@/features/functionality_sign_pdf/components/FunctionalitySignPdfButtonPopover/FunctionalitySignPdfColorButtonPopover'
-import FunctionalitySignPdfFontsButtonPopover from '@/features/functionality_sign_pdf/components/FunctionalitySignPdfButtonPopover/FunctionalitySignPdfFontsButtonPopover'
-import FunctionalitySignPdfIcon from '@/features/functionality_sign_pdf/components/FunctionalitySignPdfIcon'
-import { SIGN_TEXT_FONT_FAMILY_LIST } from '@/features/functionality_sign_pdf/constant/index'
 
-import FunctionalityWateMarkPdfShowPdfViewRenderCanvas from './FunctionalityWateMarkPdfShowPdfViewRenderCanvas'
+import FunctionalityWateMarkPdfShowPdfWaterMarkRender from './FunctionalityWateMarkPdfShowPdfWaterMarkRender'
 
 const InputContainer = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -56,9 +62,6 @@ interface IPdfContainerMainProps {
   onClearReturn: () => void
 }
 
-//PDF的显示视图
-//为什么不用key刷新？保持最新的数据
-//因为key刷新会导致useChatPdfContainerGetInfo的方法，不会停止
 const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
   file,
   onClearReturn,
@@ -66,11 +69,10 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
   const [waterMarkValue, setWaterMarkValue] = useState('Watermark')
   const [waterMarkColor, setWaterMarkColor] = useState('red')
   const [waterMarkFontSize, setWaterMarkFontSize] = useState<number>(48)
-  const [transparencyNumber, setTransparencyNumber] = useState<number>(0.8)
+  const [transparencyNumber, setTransparencyNumber] = useState<number>(0.5)
   const [waterMarkFontFamily, setWaterMarkFontFamily] =
-    useState<string>('Concert One')
+    useState<string>('Arial')
   const [downLoadLoading, setDownLoadLoading] = useState(false)
-  const canvasHandlesRefs = useRef<any[]>([])
 
   const currentViewRef = useRef<number>(0)
   const infintyViewRef = useRef<HTMLElement>()
@@ -86,6 +88,7 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
     const distanceFromTop = infintyViewRef.current?.getBoundingClientRect().top
 
     const overallViewHeight =
+      // window.innerHeight - (distanceFromTop || 280) - 60 - (isMobile ? 0 : 0)
       window.innerHeight - (distanceFromTop || 280) - 10 - (isMobile ? 0 : 0)
     setOverallViewHeight(overallViewHeight)
   }
@@ -103,7 +106,59 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
     setWaterMarkFontSize(size)
   }
 
-  const pdfAddSignCanvasViewReturnUint8Array = async (file: File) => {
+  // const pdfAddSignCanvasViewReturnUint8Array = async (file: File) => {
+  //   try {
+  //     setDownLoadLoading(true)
+  //     let pdfDoc: PDFDocument | null = null
+  //     try {
+  //       const fileBuffer = await file.arrayBuffer()
+  //       pdfDoc = await PDFDocument.load(fileBuffer)
+  //     } catch (error) {
+  //       console.error('Error loading PDF Document:', error)
+  //       setDownLoadLoading(false)
+  //       return
+  //     }
+  //     const pdfPageNumber = pdfDoc.getPageCount() // 获取 PDF 页数
+
+  //     // 虚拟滚动取当前视图的水印
+  //     const resConvas = await pdfDoc.embedPng(
+  //       canvasHandlesRefs.current[currentViewRef.current]?.getCanvasBase64(),
+  //     )
+  //     console.log(`resConvas:`, resConvas)
+  //     console.log(`currentViewRef.current:`, currentViewRef.current)
+
+  //     for (let i = 0; i < pdfPageNumber; i++) {
+  //       const page = pdfDoc.getPage(i)
+  //       const pdfPageSize = page.getSize()
+  //       page.drawImage(resConvas, {
+  //         x: 0,
+  //         y: 0,
+  //         width: pdfPageSize.width,
+  //         height: pdfPageSize.height,
+  //       })
+  //       // }
+  //     }
+
+  //     const pdfDocData = await pdfDoc.save()
+  //     console.log(`pdfDoc:`, pdfDoc)
+  //     console.log(`pdfDocData:`, pdfDocData)
+  //     const blob = new Blob([pdfDocData], { type: 'application/pdf' })
+  //     const url = URL.createObjectURL(blob)
+  //     const fileName = functionalityCommonFileNameRemoveAndAddExtension(
+  //       file.name,
+  //     ) //获取文件名
+  //     const link = document.createElement('a')
+  //     link.href = url
+  //     link.download = fileName
+  //     link.click()
+  //     URL.revokeObjectURL(url)
+  //     setDownLoadLoading(false)
+  //   } catch (e) {
+  //     setDownLoadLoading(false)
+  //     console.log(e)
+  //   }
+  // }
+  const pdfAddSignCanvasViewReturnUint8ArrayTest = async (file: File) => {
     try {
       setDownLoadLoading(true)
       let pdfDoc: PDFDocument | null = null
@@ -117,13 +172,15 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
       }
       const pdfPageNumber = pdfDoc.getPageCount() // 获取 PDF 页数
 
-      // 虚拟滚动取当前视图的水印
-      const resConvas = await pdfDoc.embedPng(
-        canvasHandlesRefs.current[currentViewRef.current]?.getCanvasBase64(),
-      )
-      console.log(`resConvas:`, resConvas)
       console.log(`currentViewRef.current:`, currentViewRef.current)
-
+      // 使用 html2canvas 库将 div 绘制到 canvas
+      const topDiv = document.getElementById('chat-test-canvas') as any
+      const canvas = await html2canvas(topDiv, {
+        backgroundColor: null, // 设置背景为透明
+      })
+      const base64Image = canvas.toDataURL('image/png')
+      // 虚拟滚动取当前视图的水印
+      const resConvas = await pdfDoc.embedPng(base64Image)
       for (let i = 0; i < pdfPageNumber; i++) {
         const page = pdfDoc.getPage(i)
         const pdfPageSize = page.getSize()
@@ -133,12 +190,11 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
           width: pdfPageSize.width,
           height: pdfPageSize.height,
         })
-        // }
       }
 
       const pdfDocData = await pdfDoc.save()
-      console.log(`pdfDoc:`, pdfDoc)
-      console.log(`pdfDocData:`, pdfDocData)
+      // console.log(`pdfDoc:`, pdfDoc)
+      // console.log(`pdfDocData:`, pdfDocData)
       const blob = new Blob([pdfDocData], { type: 'application/pdf' })
       const url = URL.createObjectURL(blob)
       const fileName = functionalityCommonFileNameRemoveAndAddExtension(
@@ -176,15 +232,19 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
     return (
       <FunctionalityCommonPdfViewVirtualScrollMain
         viewWidth={width}
-        viewHeight={overallViewHeight}
+        viewHeight={overallViewHeight - 50}
         file={file}
       >
         {(props) => {
           const { pdfInfo, index } = props
           const { height, width } = pdfInfo
+          // const tempPdfInfo = {
+          //   height: height * 4,
+          //   width: width * 4,
+          // }
           const tempPdfInfo = {
-            height: height * 4,
-            width: width * 4,
+            height: height,
+            width: width,
           }
           currentViewRef.current = index
           return (
@@ -202,7 +262,7 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
               }}
             >
               <ChatPdfViewPage pdfInfo={props.pdfInfo} index={props.index} />
-              <FunctionalityWateMarkPdfShowPdfViewRenderCanvas
+              {/* <FunctionalityWateMarkPdfShowPdfViewRenderCanvas
                 sizeInfo={tempPdfInfo}
                 canvasIndex={props.index}
                 ref={(el) => {
@@ -211,7 +271,11 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
                   }
                 }}
                 waterMarkInfo={waterMarkInfo}
-              ></FunctionalityWateMarkPdfShowPdfViewRenderCanvas>
+              ></FunctionalityWateMarkPdfShowPdfViewRenderCanvas> */}
+              <FunctionalityWateMarkPdfShowPdfWaterMarkRender
+                sizeInfo={tempPdfInfo}
+                waterMarkInfo={waterMarkInfo}
+              ></FunctionalityWateMarkPdfShowPdfWaterMarkRender>
             </Box>
           )
         }}
@@ -309,7 +373,8 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
               variant='contained'
               size='large'
               onClick={() => {
-                pdfAddSignCanvasViewReturnUint8Array(file)
+                pdfAddSignCanvasViewReturnUint8ArrayTest(file)
+                // pdfAddSignCanvasViewReturnUint8Array(file)
               }}
               disabled={downLoadLoading}
             >
@@ -425,10 +490,17 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
                   'gray',
                 ]}
                 onSelectedColor={setWaterMarkColor}
+                currentColor={waterMarkColor}
+                showColorPicker={true}
+              />
+            </Button>
+
+            <Button>
+              <FunctionalityCommonColorTransparencyPopover
                 onChangeTransparency={onChangeTransparency}
                 currentTransparency={transparencyNumber * 100}
-                currentColor={waterMarkColor}
-              />
+                sx={{ width: isMobile ? 150 : 200 }}
+              ></FunctionalityCommonColorTransparencyPopover>
             </Button>
           </ButtonGroup>
         </Stack>
@@ -446,6 +518,7 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
           display: 'flex',
           justifyContent: 'center',
         }}
+        className='functionality-water-mark--object-infinity-view'
         ref={infintyViewRef}
       >
         {InfinityList}

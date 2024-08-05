@@ -1,3 +1,5 @@
+import { UAParser } from 'ua-parser-js'
+
 /**
  *
  * 获取 浏览器 类型
@@ -84,4 +86,15 @@ export const isLikelyBot = () => {
   const isHeadless = /HeadlessChrome/.test(navigator.userAgent)
 
   return isHeadless || knownBots.some((bot) => userAgent.includes(bot))
+}
+
+/**
+ * 获取浏览器信息给
+ */
+export const getBrowserUAInfo = async () => {
+  const { getBrowser, getOS } = new UAParser()
+  return {
+    browser: getBrowser(),
+    os: getOS(),
+  }
 }

@@ -88,3 +88,5 @@ export const PROMPT_LIBRARY_PROXY_BASE_PATH = '/prompt'
 export const SUPPORT_PROXY_BASE_PATHS = [
   PROMPT_LIBRARY_PROXY_BASE_PATH,
 ] as const
+
+export const APP_VERSION = process.env.NEXT_PUBLIC__APP_VERSION ?? '1.0.0'

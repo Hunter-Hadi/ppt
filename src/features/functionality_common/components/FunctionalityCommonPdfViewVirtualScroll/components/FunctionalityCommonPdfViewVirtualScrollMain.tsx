@@ -18,7 +18,6 @@ import InfiniteLoader from 'react-window-infinite-loader'
 
 import AppLoadingLayout from '@/features/common/components/AppLoadingLayout'
 import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
-import { useFunctionalitySignElementWidth } from '@/features/functionality_sign_pdf/hooks/useFunctionalitySignElementWidth'
 
 import { FunctionalityCommonElementSize } from '../hooks/FunctionalityCommonElementSize'
 import useChatPdfContainerGetInfo from '../hooks/usePdfViewContainerGetInfo'
@@ -30,21 +29,21 @@ export interface IFunctionalityCommonVirtualScrollingMainHandles {
 }
 interface IFunctionalityCommonVirtualScrollingMainProps {
   file: File
-  viewWidth?: number
-  viewHeight?: number
+  viewWidth: number //视图宽度
+  viewHeight: number //视图高度
   isSelfAdaptionSize?: boolean //是否自适应父级高宽
-  isShowBottomOperation?: boolean
-  onDocumentLoadSuccess?: (data: { numPages: number; document: any }) => void
+  isShowBottomOperation?: boolean //废弃使用效果不佳
+  onDocumentLoadSuccess?: (data: { numPages: number; document: any }) => void //pdf加载成功返回的数据
   onReadPDFState?: (
     state: 'error' | 'load' | 'success',
     message?: string,
-  ) => void
+  ) => void //pdf加载状态
   onViewInfo?: (data: {
     currentPage: number
     scaleNumber: number
     isSelfAdaption: boolean
     currentScrollOffset: number
-  }) => void
+  }) => void //pdf视图信息
   children: (props: {
     pdfInfo: {
       viewScale: number
@@ -53,7 +52,7 @@ interface IFunctionalityCommonVirtualScrollingMainProps {
     }
     index: number
   }) => React.ReactNode
-  id?: string
+  bgcolor?: string
 }
 //PDF的显示视图
 const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
@@ -61,7 +60,6 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
   IFunctionalityCommonVirtualScrollingMainProps
 > = (
   {
-    id,
     file,
     viewWidth,
     viewHeight,
@@ -71,6 +69,7 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
     onViewInfo,
     isSelfAdaptionSize = false,
     onReadPDFState,
+    bgcolor = '#f2f2f2',
   },
   handleRef,
 ) => {
@@ -158,12 +157,13 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
     onViewInfo,
     scaleNumber,
   ])
-  const { ref: rollingRef, width: parentWidth } =
-    useFunctionalitySignElementWidth() //获取父元素的宽度
 
-  const isItemLoaded = (index) => {
-    return !!pdfIsLoadingObj[index]
-  }
+  const isItemLoaded = useCallback(
+    (index) => {
+      return !!pdfIsLoadingObj[index]
+    },
+    [pdfIsLoadingObj],
+  )
   const newPdfInfoList = useMemo(() => {
     return pdfInfoList.map((pdfInfoItem) => {
       return pdfInfoItem
@@ -175,6 +175,9 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
         : undefined
     })
   }, [pdfInfoList, scaleNumber, children])
+  const estimatedItemSize = useMemo(() => {
+    return newPdfInfoList?.[1]?.height || 500
+  }, [newPdfInfoList])
   const scrollItemHeight = useCallback(
     (index: number) => {
       //计算每个pdf的高度，给react-window使用
@@ -184,13 +187,13 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
         return (
           currentViewport.height * viewScale +
           5 +
-          (index === pdfNumPages - 1 ? 60 : 0)
+          (index === pdfNumPages - 1 ? (isMobile ? 30 : 60) : 0)
         )
       } else {
         return newPdfInfoList?.[0]?.height || 200
       }
     },
-    [newPdfInfoList, wrapBoxWidth, scaleNumber],
+    [newPdfInfoList, wrapBoxWidth, scaleNumber, pdfNumPages, isMobile],
   )
   useEffect(() => {
     if (scrollListRef.current) {
@@ -204,6 +207,7 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
       <div
         style={style}
         key={index}
+        className='functionality-sign-pdf-scroll-pagination-page-item'
         ref={(element) => element && (pdfPageRefs.current[index] = element)}
       >
         <Box
@@ -233,6 +237,7 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
           height={wrapBoxHeight} // 设置 List 高度为浏览器窗口高度
           itemCount={pdfNumPages} // 项目总数
           onScroll={(event) => {
+            console.log('eventevent', event)
             setScrollTime(new Date().valueOf())
             setCurrentScrollOffset(event.scrollOffset)
           }}
@@ -242,6 +247,7 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
               infiniteLoaderRef(listRef)
             }
           }}
+          estimatedItemSize={estimatedItemSize} // 估计每项的高度
           itemSize={scrollItemHeight} // 每项的高度，根据你每个 PDF 页面的实际高度作调整
           width={wrapBoxWidth} //宽度
           itemData={newPdfInfoList}
@@ -255,11 +261,28 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
     [
       wrapBoxHeight,
       pdfNumPages,
+      estimatedItemSize,
       scrollItemHeight,
       wrapBoxWidth,
       newPdfInfoList,
       CurrentPage,
     ],
+  )
+  const InfiniteLoaderElement = useMemo(
+    () => (
+      <InfiniteLoader
+        isItemLoaded={isItemLoaded}
+        itemCount={pdfNumPages} // 设置列表项目总数
+        loadMoreItems={onLoadRangeData}
+        minimumBatchSize={5} // 设置每次加载的数据量为5
+        threshold={2} // 设置触发加载的临界值
+      >
+        {({ onItemsRendered, ref: infiniteLoaderRef }) =>
+          VariableSizeListElement(onItemsRendered, infiniteLoaderRef)
+        }
+      </InfiniteLoader>
+    ),
+    [VariableSizeListElement, isItemLoaded, onLoadRangeData, pdfNumPages],
   )
   //输入页数跳转
   const onTextInputKeyDown = (event) => {
@@ -284,7 +307,8 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
         width: isSelfAdaptionSize ? '100%' : wrapBoxWidth,
         color: '#000',
         overflow: 'hidden',
-        bgcolor: '#f2f2f2',
+        bgcolor: bgcolor,
+        position: 'relative',
       }}
     >
       {errorMessage && (
@@ -296,13 +320,13 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
         <AppLoadingLayout
           loading={!pdfDocument || !pdfNumPages || isPdfLoading}
         >
-          <Box ref={rollingRef}>
+          <Box>
             <Box
               sx={{
                 height: wrapBoxHeight,
                 position: 'relative',
                 width: wrapBoxWidth,
-                bgcolor: '#f2f2f2',
+                bgcolor: bgcolor,
               }}
             >
               <div
@@ -314,17 +338,7 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
                   border: '1px solid #f2f2f2',
                 }}
               >
-                <InfiniteLoader
-                  isItemLoaded={isItemLoaded}
-                  itemCount={pdfNumPages} // 设置列表项目总数
-                  loadMoreItems={onLoadRangeData}
-                  minimumBatchSize={5} // 设置每次加载的数据量为5
-                  threshold={2} // 设置触发加载的临界值
-                >
-                  {({ onItemsRendered, ref: infiniteLoaderRef }) =>
-                    VariableSizeListElement(onItemsRendered, infiniteLoaderRef)
-                  }
-                </InfiniteLoader>
+                {InfiniteLoaderElement}
               </div>
             </Box>
             {/* 下面是底部分页工具 */}
@@ -338,9 +352,10 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
                   margin: '0 auto',
                   padding: 1,
                   bottom: 10,
+                  left: '10%',
                   p: 1,
                   zIndex: 1000,
-                  width: '100%',
+                  width: '80%',
                   height: isMobile ? 40 : 60,
                   '&:hover': {
                     '>div': {
