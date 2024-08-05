@@ -101,31 +101,29 @@ export const fabricInitStyleSet = (fabricCanvas) => {
 
 //自动的检查top是否超出画布范围
 const autoCheckTopIsAbnormal = (
-  editor,
+  fabricCanvas,
   top: number,
   canvasObject: fabric.Object,
   isAutoObjectSizePosition?: boolean,
 ) => {
-  const canvasHeight = canvasObject.height * canvasObject.scaleX
+  const zoom = fabricCanvas.current.getZoom() || 1
+  const canvasHeight = fabricCanvas.current.height / zoom
+  const canvasObjectHeight = (canvasObject.height * canvasObject.scaleX) / zoom
   let currentTop = top
   if (isAutoObjectSizePosition) {
-    currentTop = top - canvasHeight / 2
+    currentTop = currentTop - canvasObjectHeight / 2
   }
   if (currentTop < 0) {
     return 0
-  } else if (currentTop + canvasHeight > editor.current.height) {
-    console.log(
-      'simply editor.current.height',
-      editor.current.height - canvasHeight,
-    )
-    return editor.current.height - canvasHeight
+  } else if (currentTop + canvasObjectHeight > canvasHeight) {
+    return fabricCanvas.current.height - canvasObjectHeight
   }
   return currentTop
 }
 export type IFabricAddObjectType = 'image' | 'text-box' | 'text' | 'i-text'
 //根据位置/信息添加Fabric对象
 export const onFabricAddObject = async (
-  editor,
+  fabricCanvas,
   position: {
     left: number
     top: number
@@ -135,8 +133,9 @@ export const onFabricAddObject = async (
   isAutoObjectSizePosition?: boolean,
   isMobile: boolean = false,
 ) => {
+  debugger
   try {
-    if (!editor) return null
+    if (!fabricCanvas) return null
     let createObjectData: fabric.Object | null = null
     const positionData = {
       left: position.left,
@@ -152,22 +151,30 @@ export const onFabricAddObject = async (
         image.onload = function () {
           // 将图片绘制到画布上
           const imgColor = findFirstNonTransparentPixel(image)
-          const zoom = editor.current.getZoom()
+          const zoom = fabricCanvas.current.getZoom()
           const fabricImage = new fabric.Image(image, positionData)
 
           let scaleRatioWidth = 1
           let scaleRatioHeight = 1
 
           // 判断图片宽度是否过大
-          if (fabricImage.width > (editor.current.width * zoom) / imgScale) {
+          if (
+            fabricImage.width >
+            (fabricCanvas.current.width * zoom) / imgScale
+          ) {
             scaleRatioWidth =
-              (editor.current.width * zoom) / imgScale / fabricImage.width
+              (fabricCanvas.current.width * zoom) / imgScale / fabricImage.width
           }
 
           // 判断图片高度是否过高
-          if (fabricImage.height > (editor.current.height * zoom) / imgScale) {
+          if (
+            fabricImage.height >
+            (fabricCanvas.current.height * zoom) / imgScale
+          ) {
             scaleRatioHeight =
-              (editor.current.height * zoom) / imgScale / fabricImage.height
+              (fabricCanvas.current.height * zoom) /
+              imgScale /
+              fabricImage.height
           }
 
           // 选择最小的比例，以确保图片整体被缩小，且不会超出画布的宽度或高度
@@ -230,16 +237,16 @@ export const onFabricAddObject = async (
       ;(createObjectData as any).mtr = false
       ;(createObjectData as any).id = uuidV4()
       createObjectData.top = autoCheckTopIsAbnormal(
-        editor,
+        fabricCanvas,
         positionData.top,
         createObjectData,
         isAutoObjectSizePosition,
       )
       createObjectData.setControlsVisibility({ mtr: false })
-      editor.current.add(createObjectData)
-      editor.current.setActiveObject(createObjectData) // 设置复制的对象为当前活动对象
-      editor?.current?.requestRenderAll() // 刷新画布以显示更改
-      editor?.current?.renderAll() // 确保变化被渲染
+      fabricCanvas.current.add(createObjectData)
+      fabricCanvas.current.setActiveObject(createObjectData) // 设置复制的对象为当前活动对象
+      fabricCanvas?.current?.requestRenderAll() // 刷新画布以显示更改
+      fabricCanvas?.current?.renderAll() // 确保变化被渲染
       return createObjectData
     } else {
       return null

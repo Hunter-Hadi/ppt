@@ -1,3 +1,4 @@
+/* eslint-disable no-debugger */
 import { Box } from '@mui/material'
 import * as fabric from 'fabric'
 import React, {
@@ -12,10 +13,12 @@ import React, {
 } from 'react'
 import { v4 as uuidV4 } from 'uuid'
 
-import eventEmitter from '@/features/functionality_common/components/FunctionalityCommonOperatePdfToolView/utils/eventEmitter'
 import { useFunctionalityCommonElementSize } from '@/features/functionality_common/hooks/useFunctionalityCommonElementSize'
 
 import { ICanvasObjectData } from '../../types'
+import eventEmitter, {
+  eventEmitterAddFabricIndexCanvasKey,
+} from '../../utils/eventEmitter'
 import { fabricInitStyleSet, onFabricAddObject } from '../../utils/fabricCanvas'
 export interface IControlDiv {
   left: number
@@ -125,7 +128,7 @@ const FunctionalityCommonOperateFabricCanvas: ForwardRefRenderFunction<
           }
           return
         }
-
+        debugger
         if (canvasObject && fabricCanvas.current) {
           setControlAddNewDiv(null)
           const centerX = fabricCanvas.current.width / 2
@@ -168,11 +171,11 @@ const FunctionalityCommonOperateFabricCanvas: ForwardRefRenderFunction<
       onAddObject(data)
     }
     // 订阅事件
-    eventEmitter.on('fabricCanvasAddIndexObject-' + index, handleNotify)
+    eventEmitter.on(eventEmitterAddFabricIndexCanvasKey + index, handleNotify)
 
     // 清理订阅
     return () => {
-      eventEmitter.off('fabricCanvasAddIndexObject-', handleNotify)
+      eventEmitter.off(eventEmitterAddFabricIndexCanvasKey, handleNotify)
     }
   }, [])
   useEffect(() => {

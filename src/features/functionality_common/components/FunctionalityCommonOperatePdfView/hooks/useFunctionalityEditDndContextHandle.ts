@@ -2,7 +2,7 @@ import { DragEndEvent, DragStartEvent } from '@dnd-kit/core'
 import { useState } from 'react'
 import { v4 as uuidV4 } from 'uuid'
 
-import { addFabricIndexCanvas } from '../utils/eventEmitter'
+import { eventEmitterAddFabricIndexCanvas } from '../utils/eventEmitter'
 
 const useFunctionalityEditDndContextHandle = (props: {
   onStart?: (event: DragStartEvent) => void
@@ -51,7 +51,7 @@ const useFunctionalityEditDndContextHandle = (props: {
         delta.y -
         (rollingView?.scrollTop || 0), //拖动的元素的顶部距离-目标元素的顶部距离+鼠标移动的距离+滚动的距离
     } //得到scroll中的位置
-    addFabricIndexCanvas(pdfIndex, {
+    eventEmitterAddFabricIndexCanvas(pdfIndex, {
       ...signaturePositionData,
       ...newSignaturePosition,
     })

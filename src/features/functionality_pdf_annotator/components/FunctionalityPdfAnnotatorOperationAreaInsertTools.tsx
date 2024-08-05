@@ -3,7 +3,7 @@ import { FC, useState } from 'react'
 import React from 'react'
 
 import UploadButton from '@/features/common/components/UploadButton'
-import { addFabricIndexCanvas } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfToolView/utils/eventEmitter'
+import { eventEmitterAddFabricIndexCanvas } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/utils/eventEmitter'
 import FunctionalityCommonSignaturePopoverView from '@/features/functionality_common/components/FunctionalityCommonOperateTestView/FunctionalityCommonSignaturePopoverView'
 
 import { convertFileToBase64Png } from '../utils/convertPNGToBase64'
@@ -22,7 +22,7 @@ const FunctionalityOperationAreaCanvasTools: FC<
     const file = fileList[0]
     if (!file) return
     const { base64String, width, height } = await convertFileToBase64Png(file)
-    addFabricIndexCanvas(0, {
+    eventEmitterAddFabricIndexCanvas(0, {
       type: 'image',
       value: base64String,
       width,
@@ -34,7 +34,7 @@ const FunctionalityOperationAreaCanvasTools: FC<
     width: number
     height: number
   }) => {
-    addFabricIndexCanvas(0, {
+    eventEmitterAddFabricIndexCanvas(0, {
       type: 'image',
       value: params.value,
       width: params.width,

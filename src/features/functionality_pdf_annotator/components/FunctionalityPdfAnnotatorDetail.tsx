@@ -10,8 +10,8 @@ import {
 import { Box } from '@mui/material'
 import React, { forwardRef, ForwardRefRenderFunction } from 'react'
 
-import FunctionalityCommonOperatePdfToolViewMain from '@/features/functionality_common/components/FunctionalityCommonOperatePdfToolView/components/FunctionalityCommonOperatePdfToolViewMain'
-import useFunctionalityEditDndContextHandle from '@/features/functionality_common/components/FunctionalityCommonOperatePdfToolView/hooks/useFunctionalityEditDndContextHandle'
+import FunctionalityCommonOperatePdfToolViewMain from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/components/FunctionalityCommonOperatePdfToolViewMain'
+import useFunctionalityEditDndContextHandle from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/hooks/useFunctionalityEditDndContextHandle'
 
 import FunctionalityPdfAnnotatorOperationAreaInsertTools from './FunctionalityPdfAnnotatorOperationAreaInsertTools'
 export interface IFunctionalityPdfAnnotatorDetailHandles {}
