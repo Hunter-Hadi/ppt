@@ -128,13 +128,12 @@ const FunctionalityCommonOperateFabricCanvas: ForwardRefRenderFunction<
           }
           return
         }
-        debugger
         if (canvasObject && fabricCanvas.current) {
           setControlAddNewDiv(null)
-          const centerX = fabricCanvas.current.width / 2
-          const centerY = fabricCanvas.current.height / 2
-          // 计算当前缩放的比例
           const zoom = fabricCanvas.current.getZoom()
+          const centerX = fabricCanvas.current.width / zoom / 2
+          const centerY = fabricCanvas.current.height / zoom / 2
+          // 计算当前缩放的比例
           const positionData = {
             left: canvasObject.x ? canvasObject.x / zoom : centerX,
             top: canvasObject.y ? canvasObject.y / zoom : centerY,
@@ -167,17 +166,12 @@ const FunctionalityCommonOperateFabricCanvas: ForwardRefRenderFunction<
     if (isInitEventEmitter.current) return
     isInitEventEmitter.current = true
     const handleNotify = (data) => {
-      console.log('fabricCanvasAddIndexObject handleNotify', index, data)
       onAddObject(data)
     }
+    eventEmitter.off(eventEmitterAddFabricIndexCanvasKey + index, handleNotify)
     // 订阅事件
     eventEmitter.on(eventEmitterAddFabricIndexCanvasKey + index, handleNotify)
-
-    // 清理订阅
-    return () => {
-      eventEmitter.off(eventEmitterAddFabricIndexCanvasKey, handleNotify)
-    }
-  }, [])
+  }, [index, onAddObject])
   useEffect(() => {
     try {
       if (
