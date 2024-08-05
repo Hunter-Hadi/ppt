@@ -11,7 +11,6 @@ import {
 
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
-import { RESOURCES_URL } from '@/global_constants'
 import AppBar from '@/packages/base-ui/components/AppBar'
 import MaxAILazyLoadImage from '@/packages/base-ui/components/MaxAILazyLoadImage'
 import MaxAIVideoPlayer from '@/packages/base-ui/components/MaxAIVideoPlayer'
@@ -180,8 +179,8 @@ const TestSyncLogin = () => {
           <Box height={2000} bgcolor='#000' />
 
           <Box
-            width={800}
-            height={450}
+            width={630}
+            height={360}
             p={2}
             my={2}
             ml={2}
@@ -192,7 +191,9 @@ const TestSyncLogin = () => {
           >
             <MaxAIVideoPlayer
               lazyLoad
-              videoSrc={`${RESOURCES_URL}/video/landing-page-primary.mp4`}
+              variant='youtube'
+              videoSrc={`https://www.youtube.com/embed/XfiZMwAD_KU?si=2augGW9ea-vZzJK6`}
+              // videoSrc={`${CLOUD_FLARE_ASSETS_URL}/videos/landing-page-primary.mp4`}
               videoPosterUrl={`/assets/landing/hero-section/video-cover.png`}
             />
           </Box>

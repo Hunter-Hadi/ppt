@@ -7,6 +7,7 @@ import React, { FC, useEffect, useMemo, useRef, useState } from 'react'
 import MaxAIResponsiveImage from '@/packages/base-ui/components/MaxAIResponsiveImage'
 
 import useVideoLazyLoader from './useVideoLazyLoader'
+import useYoutubeEmbedLazyLoader from './useYoutubeEmbedLazyLoader'
 
 interface IYoutubeVideoPlayerProps {
   variant?: 'youtube'
@@ -51,10 +52,6 @@ const MaxAIVideoPlayer: FC<IVideoPlayerProps> = ({
   const [youtubeVideoLoading, setYoutubeVideoLoading] = useState(true)
   const videoRef = useRef<HTMLVideoElement | null>(null)
   const youtubeIframeRef = useRef<HTMLIFrameElement | null>(null)
-  useVideoLazyLoader(
-    variant === 'normal' ? videoRef : youtubeIframeRef,
-    lazyLoad,
-  )
 
   const fixedVideoSrc = useMemo(() => {
     if (variant === 'youtube') {
@@ -92,6 +89,14 @@ const MaxAIVideoPlayer: FC<IVideoPlayerProps> = ({
 
     return videoSrc
   }, [videoSrc, variant, autoplay, muted, loop, otherYoutubeParams])
+
+  useVideoLazyLoader(fixedVideoSrc, videoRef, lazyLoad && variant === 'normal')
+
+  useYoutubeEmbedLazyLoader(
+    fixedVideoSrc,
+    youtubeIframeRef,
+    lazyLoad && variant === 'youtube',
+  )
 
   useEffect(() => {
     const video = videoRef.current
@@ -164,7 +169,7 @@ const MaxAIVideoPlayer: FC<IVideoPlayerProps> = ({
           >
             <source
               src={lazyLoad ? undefined : fixedVideoSrc} //开启懒加载时，不设置 src
-              data-video-src={fixedVideoSrc}
+              // data-video-src={fixedVideoSrc}
               type='video/mp4'
             />
             {"Sorry, your browser doesn't support embedded videos"}
@@ -172,41 +177,43 @@ const MaxAIVideoPlayer: FC<IVideoPlayerProps> = ({
         </Box>
       )}
       {variant === 'youtube' && (
-        <Box
-          sx={{
-            position: 'relative',
-            paddingBottom: '56.25%' /* 16:9 */,
-            height: 0,
-            width: '100%',
-            ...boxSx,
-          }}
-        >
-          {youtubeVideoLoading && (
-            <VideoPlayerPlaceholder videoPosterUrl={videoPosterUrl} />
-          )}
-
-          <iframe
-            ref={youtubeIframeRef}
-            title='YouTube video player'
-            src={lazyLoad ? undefined : fixedVideoSrc} //开启懒加载时，不设置 src
-            data-video-src={fixedVideoSrc}
-            frameBorder='0'
-            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-            allowFullScreen
-            onLoad={() => {
-              setYoutubeVideoLoading(false)
-            }}
-            style={{
-              borderRadius: '16px',
-              position: 'absolute',
-              top: 0,
-              left: 0,
+        <>
+          <Box
+            sx={{
+              position: 'relative',
+              paddingBottom: '56.25%' /* 16:9 */,
+              height: 0,
               width: '100%',
-              height: '100%',
-              ...videoStyle,
+              ...boxSx,
             }}
-          />
-        </Box>
+          >
+            {youtubeVideoLoading && (
+              <VideoPlayerPlaceholder videoPosterUrl={videoPosterUrl} />
+            )}
+
+            <iframe
+              ref={youtubeIframeRef}
+              title='YouTube video player'
+              src={lazyLoad ? undefined : fixedVideoSrc} //开启懒加载时，不设置 src
+              // data-video-src={fixedVideoSrc}
+              frameBorder='0'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+              allowFullScreen
+              onLoad={() => {
+                setYoutubeVideoLoading(false)
+              }}
+              style={{
+                borderRadius: '16px',
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                width: '100%',
+                height: '100%',
+                ...videoStyle,
+              }}
+            />
+          </Box>
+        </>
       )}
     </Stack>
   )
@@ -217,27 +224,32 @@ export default MaxAIVideoPlayer
 const VideoPlayerPlaceholder: FC<{ videoPosterUrl?: string }> = ({
   videoPosterUrl,
 }) => {
-  return (
-    <Stack
-      sx={{
-        position: 'absolute',
-        justifyContent: 'center',
-        width: '100%',
-        height: '100%',
-        background: '#f5f5f5',
-        borderRadius: 2,
-      }}
-    >
-      {videoPosterUrl ? (
-        <MaxAIResponsiveImage
-          width={1600}
-          height={900}
-          alt='video placeholder'
-          src={videoPosterUrl}
-        />
-      ) : (
+  if (videoPosterUrl) {
+    return (
+      <MaxAIResponsiveImage
+        width={1600}
+        height={900}
+        alt='video placeholder'
+        src={videoPosterUrl}
+        style={{
+          borderRadius: '16px',
+        }}
+      />
+    )
+  } else {
+    return (
+      <Stack
+        sx={{
+          position: 'absolute',
+          justifyContent: 'center',
+          width: '100%',
+          height: '100%',
+          background: '#f5f5f5',
+          borderRadius: 2,
+        }}
+      >
         <CircularProgress size={30} sx={{ m: '0 auto' }} />
-      )}
-    </Stack>
-  )
+      </Stack>
+    )
+  }
 }

@@ -25,7 +25,19 @@ const MaxAIResponsiveImage: FC<IResponsiveImageProps> = ({
       paddingTop: `${(height / width) * 100}%`,
     }}
   >
-    <img src={src} alt={alt} {...rest} />
+    <img
+      src={src}
+      alt={alt}
+      {...rest}
+      style={{
+        position: 'absolute',
+        height: '100%',
+        width: '100%',
+        inset: '0px',
+        color: 'transparent',
+        ...rest?.style,
+      }}
+    />
   </div>
 )
 

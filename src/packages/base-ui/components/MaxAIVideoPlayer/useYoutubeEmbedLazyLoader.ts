@@ -1,42 +1,40 @@
 import { useEffect, useRef, useState } from 'react'
 
-const useVideoLazyLoader = (
-  videoSrc: string,
-  videoRef: React.MutableRefObject<HTMLVideoElement | null>,
+const useYoutubeEmbedLazyLoader = (
+  youtubeSrc: string,
+  videoRef: React.MutableRefObject<HTMLIFrameElement | null>,
   enable: boolean,
 ) => {
   // 元素是否在 可视窗口中
   const [elementVisible, setElementVisible] = useState(false)
-  // 是否已经加载了 videoSrc
+  // 是否已经加载了 youtubeSrc
   const isLoadedVideoSrcRef = useRef(false)
 
   useEffect(() => {
     if (enable) {
-      const videoElement = videoRef.current
+      const embedElement = videoRef.current
 
-      if (videoElement && videoSrc) {
+      if (embedElement && youtubeSrc) {
         if (elementVisible && isLoadedVideoSrcRef.current === false) {
-          videoElement.src = videoSrc
-          videoElement.currentTime = 0
-          videoElement.play()
+          embedElement.src = youtubeSrc
           isLoadedVideoSrcRef.current = true
         }
-
-        if (elementVisible && isLoadedVideoSrcRef.current === true) {
-          videoElement.play()
-        }
-        if (!elementVisible && isLoadedVideoSrcRef.current === true) {
-          videoElement.pause()
-        }
+        // 暂时不支持 play/pause，想支持的话需要引入（youtube Player API）
+        // if (elementVisible && isLoadedVideoSrcRef.current === true) {
+        //   embedElement.play()
+        // }
+        // if (!elementVisible && isLoadedVideoSrcRef.current === true) {
+        //   embedElement.pause()
+        // }
       }
     }
-  }, [enable, videoRef, videoSrc, elementVisible])
+  }, [enable, videoRef, youtubeSrc, elementVisible])
 
   useEffect(() => {
-    const videoElement = videoRef.current
+    const embedElement = videoRef.current
     let observer: IntersectionObserver | null = null
 
-    if (!videoElement || !enable) {
+    if (!embedElement || !enable) {
       return () => {
         observer && observer.disconnect()
       }
@@ -61,7 +59,7 @@ const useVideoLazyLoader = (
         },
       )
 
-      observer.observe(videoElement)
+      observer.observe(embedElement)
     } catch (e) {
       console.log('IntersectionObserver is not supported Error:', e)
     }
@@ -74,4 +72,4 @@ const useVideoLazyLoader = (
   return null
 }
 
-export default useVideoLazyLoader
+export default useYoutubeEmbedLazyLoader
