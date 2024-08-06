@@ -735,7 +735,31 @@
     "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "إضافة علامات مائية لملفات PDF في ثوانٍ",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "موثوق به من قبل 2.4 مليار شخص منذ عام 2013",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "طريقة سهلة لوضع علامات مائية على ملفات PDF - لا حاجة للتثبيت",
-    "pdf_tools__detail_description_object__watermark_pages__top_left": "أضف علامة مائية إلى مستندات PDF باستخدام PDF Watermarker المجاني. لا حاجة لتنزيل تطبيق - كل شيء يعمل في متصفحك على نظام Mac و Windows و Linux والأجهزة المحمولة."
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "أضف علامة مائية إلى مستندات PDF باستخدام PDF Watermarker المجاني. لا حاجة لتنزيل تطبيق - كل شيء يعمل في متصفحك على نظام Mac و Windows و Linux والأجهزة المحمولة.",
+    "tools__index_page__constant_obj__pdf_page_deletepage__title": "حذف صفحات PDF",
+    "tools__index_page__constant_obj__pdf_page_deletepage__main_description": "إزالة صفحة واحدة أو عدة صفحات من ملف PDF الخاص بك",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_title": "إزالة الصفحات غير الضرورية",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_description": "يمكن استخدام هذه الأداة عبر الإنترنت لإزالة صفحات فردية أو متعددة من مستند PDF الخاص بك بسرعة. لا داعي للقلق بشأن مستندات PDF غير مثالية. قم بحل المشكلة ببضع نقرات سهلة.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_title": "أداة إزالة صفحات PDF آمنة",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_description": "لا يوجد أي خطر عند إزالة صفحات PDF معنا. يتم حفظ خصوصيتك حيث يحدث عملية ترقيم الصفحات بالكامل محليًا على جهازك.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_title": "حذف صفحات PDF على أي جهاز",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_description": "احذف صفحات PDF عبر الإنترنت باستخدام أي متصفح على نظام Mac أو Windows أو Linux. يمكنك حتى استخدام أداة إزالة صفحات PDF على هاتفك المحمول، سواء كان Android أو iOS.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_title": "إزالة صفحة من مستند PDF مجانًا",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_description": "تتيح لك أداة حذف صفحات PDF إزالة صفحة من أي مكان في ملفك. نحن نقدم معاينة مفيدة لك لتحديد الصفحات الزائدة بسرعة.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_title": "حذف صفحات PDF بسهولة",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_description": "مع أداة إزالة صفحات PDF سهلة الاستخدام لدينا، يمكنك تصحيح الأخطاء وتحسين مستند PDF الخاص بك بسرعة. النتيجة؟ مستند PDF جاهز للمشاركة مع وقت كافٍ لتناول فنجان من القهوة.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_title": "الوصول من أي مكان",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_description": "لحذف صفحة أو أكثر من مستند PDF، لا تحتاج إلى برامج باهظة الثمن. قم فقط بتحميل ملفك، حذف الصفحات، وقم بالتنزيل أو التصدير.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_title": "كيفية حذف الصفحات من ملفات PDF:",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_1": "استيراد أو سحب وإفلات ملف PDF الخاص بك إلى أداة حذف الصفحات لدينا.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_2": "انقر على رموز الحذف لإزالة صفحات المستند غير المرغوب فيها.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_3": "إضافة مستندات إضافية إذا لزم الأمر.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_4": "انقر على 'تأكيد الحذف' وانتظر لحظة واحدة فقط.",
+    "pdf_tools__detail_description_object__deletepage_pages__top_left": "أداة PDF مجانية وسهلة الاستخدام عبر الإنترنت لإزالة الصفحات من ملفات PDF. لا حاجة للتسجيل أو التثبيت.",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "يعمل بأمان وببساطة في متصفحك",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "حذف صفحات متعددة من ملف PDF في عملية واحدة",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "يعمل في متصفحك - لا حاجة لبرنامج",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "قم بتنزيل ملف PDF الجديد الخاص بك - هذا كل شيء!"
   },
   "prompt_library": {
     "use_prompt_library__title": "مكتبة نصوص AI عالية الجودة",
@@ -1068,7 +1092,9 @@
     "use_cases__writing__title": "مساعد الكتابة الذكاء الاصطناعي | MaxAI.me",
     "use_cases__writing__desc": "أضف الذكاء الاصطناعي إلى متصفحك لتحسين وتلميع كتابتك على أي صفحة ويب. إنشاء رسائل بريد إلكتروني مقنعة ومقالات ومشاركات المدونات ومشاركات وسائل التواصل الاجتماعي وأوراق. مدعوم بـ GPT-4o و Claude-3-opus و Gemini-1.5-pro.",
     "pdf_tools__pdf_watermark_page__title": "PDF Watermarker مجاني | قم بوضع علامة مائية على ملفات PDF على أي جهاز",
-    "pdf_tools__pdf_watermark_page__description": "أضف بسهولة علامة مائية إلى مستندات PDF. لا حاجة لتنزيل تطبيق - كل شيء يعمل في متصفحك على نظام Mac و Windows و Linux والأجهزة المحمولة."
+    "pdf_tools__pdf_watermark_page__description": "أضف بسهولة علامة مائية إلى مستندات PDF. لا حاجة لتنزيل تطبيق - كل شيء يعمل في متصفحك على نظام Mac و Windows و Linux والأجهزة المحمولة.",
+    "pdf_tools__pdf_deletepages_page__title": "أداة حذف الصفحات من ملف PDF | احذف الصفحات من PDF عبر الإنترنت مجانًا",
+    "pdf_tools__pdf_deletepages_page__description": "هل تحتاج إلى حذف صفحات من ملف PDF؟ يمكنك حذف صفحات PDF باستخدام أداةنا البسيطة عبر الإنترنت. قم بتحميل ملف PDF، احذف الصفحات، واحفظ التغييرات الخاصة بك. لا حاجة للتسجيل."
   },
   "features_landing": {
     "cta_text": "أضف إلى المتصفح",
@@ -1822,5 +1848,9 @@
     "components__protect_pdf_detail__input__placeholder": "قم بتعيين كلمة المرور الخاصة بك",
     "components__protect_pdf_detail__repeat_input__placeholder": "تأكيد كلمة المرور",
     "components__protect_pdf_detail__use_tips": "لن يتم رفع كلمة المرور وملفات PDF إلى الخادم، مما يضمن الأمان."
+  },
+  "pages__pdf_tools__deletepage_pdf": {
+    "confirm_to_delete": "تأكيد الحذف",
+    "delete_download": "حذف وتنزيل PDF"
   }
 }
