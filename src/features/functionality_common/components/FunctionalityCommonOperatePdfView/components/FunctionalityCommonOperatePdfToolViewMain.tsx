@@ -5,14 +5,15 @@ import { useFunctionalitySignElementWidth } from '@/features/functionality_sign_
 
 import FunctionalityCommonPdfViewPage from '../../FunctionalityCommonPdfViewVirtualScroll/components/FunctionalityCommonPdfViewPage'
 import FunctionalityCommonPdfViewVirtualScrollMain from '../../FunctionalityCommonPdfViewVirtualScroll/components/FunctionalityCommonPdfViewVirtualScrollMain'
+import { ITextContentHighlighterPageRectangle } from '../types/TextContentHighlighter'
 import eventEmitter, {
   eventEmitterAddFabricCanvasKey,
   eventEmitterAddFabricIndexCanvas,
 } from '../utils/eventEmitter'
 import FunctionalityCommonOperateFabricCanvas, {
   IFunctionalityCommonOperateFabricCanvasHandles,
-} from './FunctionalityCommonOperateCanvas/FunctionalityCommonOperateFabricCanvas'
-import FunctionalityCommonTextContentPage from './FunctionalityCommonOperateCanvas/FunctionalityCommonTextContentPage'
+} from './FunctionalityCommonOperateCanvas/FunctionalityCommonOperateFabricCanvas/FunctionalityCommonOperateFabricCanvasMain'
+import FunctionalityCommonTextContentPage from './FunctionalityCommonOperateCanvas/FunctionalityCommonTextContentPage/FunctionalityCommonTextContentPageMain'
 import FunctionalityCommonOperateDroppable from './FunctionalityCommonOperateDroppable'
 interface FunctionalityCommonOperatePdfToolViewMainProps {
   file: File
@@ -23,6 +24,10 @@ const FunctionalityCommonOperatePdfToolViewMain: FC<
 > = ({ file, isShowBottomOperation }) => {
   const initEventEmitter = useRef(false)
   const [currentPage, setCurrentPage] = React.useState(0)
+  const [textHighlightParts, setTextHighlightParts] = React.useState<
+    ITextContentHighlighterPageRectangle[]
+  >([])
+
   const wrapRef = useRef<HTMLElement>(null)
   const canvasHandlesRefs = useRef<
     IFunctionalityCommonOperateFabricCanvasHandles[]

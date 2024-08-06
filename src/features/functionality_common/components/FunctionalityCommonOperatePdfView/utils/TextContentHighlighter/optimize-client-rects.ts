@@ -1,6 +1,6 @@
-import { LTWHP } from './types'
+import { ITextContentHighlighterPageRectangle } from '../../types/TextContentHighlighter'
 
-const sort = (rects: Array<LTWHP>) =>
+const sort = (rects: Array<ITextContentHighlighterPageRectangle>) =>
   rects.sort((A, B) => {
     const top = (A.pageNumber || 0) * A.top - (B.pageNumber || 0) * B.top
 
@@ -11,24 +11,38 @@ const sort = (rects: Array<LTWHP>) =>
     return top
   })
 
-const overlaps = (A: LTWHP, B: LTWHP) =>
+const overlaps = (
+  A: ITextContentHighlighterPageRectangle,
+  B: ITextContentHighlighterPageRectangle,
+) =>
   A.pageNumber === B.pageNumber &&
   A.left <= B.left &&
   B.left <= A.left + A.width
 
-const sameLine = (A: LTWHP, B: LTWHP, yMargin = 5) =>
+const sameLine = (
+  A: ITextContentHighlighterPageRectangle,
+  B: ITextContentHighlighterPageRectangle,
+  yMargin = 5,
+) =>
   A.pageNumber === B.pageNumber &&
   Math.abs(A.top - B.top) < yMargin &&
   Math.abs(A.height - B.height) < yMargin
 
-const inside = (A: LTWHP, B: LTWHP) =>
+const inside = (
+  A: ITextContentHighlighterPageRectangle,
+  B: ITextContentHighlighterPageRectangle,
+) =>
   A.pageNumber === B.pageNumber &&
   A.top > B.top &&
   A.left > B.left &&
   A.top + A.height < B.top + B.height &&
   A.left + A.width < B.left + B.width
 
-const nextTo = (A: LTWHP, B: LTWHP, xMargin = 10) => {
+const nextTo = (
+  A: ITextContentHighlighterPageRectangle,
+  B: ITextContentHighlighterPageRectangle,
+  xMargin = 10,
+) => {
   const Aright = A.left + A.width
   const Bright = B.left + B.width
 
@@ -40,12 +54,17 @@ const nextTo = (A: LTWHP, B: LTWHP, xMargin = 10) => {
   )
 }
 
-const extendWidth = (A: LTWHP, B: LTWHP) => {
+const extendWidth = (
+  A: ITextContentHighlighterPageRectangle,
+  B: ITextContentHighlighterPageRectangle,
+) => {
   // extend width of A to cover B
   A.width = Math.max(B.width - A.left + B.left, A.width)
 }
 
-const optimizeClientRects = (clientRects: Array<LTWHP>): Array<LTWHP> => {
+const optimizeClientRects = (
+  clientRects: Array<ITextContentHighlighterPageRectangle>,
+): Array<ITextContentHighlighterPageRectangle> => {
   const rects = sort(clientRects)
 
   const toRemove = new Set()

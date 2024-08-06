@@ -20,13 +20,19 @@ import AppLoadingLayout from '@/features/common/components/AppLoadingLayout'
 import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 
 import { FunctionalityCommonElementSize } from '../hooks/FunctionalityCommonElementSize'
-import useChatPdfContainerGetInfo from '../hooks/usePdfViewContainerGetInfo'
+import useChatPdfContainerGetInfo, {
+  IChatPdfContainerPdfInfo,
+} from '../hooks/usePdfViewContainerGetInfo'
 import useChatPdfListZoom from '../hooks/usePdfViewListZoom'
 import useChatPdfScrollPagination from '../hooks/usePdfViewScrollPagination'
 import FunctionalityCommonPdfViewVirtualScrollIcon from './FunctionalityCommonPdfViewVirtualScrollIcon'
 export interface IFunctionalityCommonVirtualScrollingMainHandles {
   scrollListRef: any
 }
+export type IFunctionalityCommonVirtualScrollingPdfInfo = {
+  viewScale: number
+  pdfViewScale: number
+} & IChatPdfContainerPdfInfo
 interface IFunctionalityCommonVirtualScrollingMainProps {
   file: File
   viewWidth: number //视图宽度
@@ -45,12 +51,7 @@ interface IFunctionalityCommonVirtualScrollingMainProps {
     currentScrollOffset: number
   }) => void //pdf视图信息
   children: (props: {
-    pdfInfo: {
-      viewScale: number
-      width: number
-      height: number
-      pdfViewScale: number
-    }
+    pdfInfo: IFunctionalityCommonVirtualScrollingPdfInfo
     index: number
   }) => React.ReactNode
   bgcolor?: string
@@ -180,7 +181,7 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
   )
   const newPdfInfoList = useMemo(() => {
     return pdfInfoList.map((pdfInfoItem) => {
-      const viewScale = (wrapBoxWidth / pdfInfoItem.width) * scaleNumber //计算缩放比例
+      const viewScale = pdfInfoItem.width / wrapBoxWidth //计算缩放比例
       return pdfInfoItem
         ? {
             viewScale: scaleNumber,

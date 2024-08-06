@@ -15,11 +15,14 @@ import { v4 as uuidV4 } from 'uuid'
 
 import { useFunctionalityCommonElementSize } from '@/features/functionality_common/hooks/useFunctionalityCommonElementSize'
 
-import { ICanvasObjectData } from '../../types'
+import { ICanvasObjectData } from '../../../types'
 import eventEmitter, {
   eventEmitterAddFabricIndexCanvasKey,
-} from '../../utils/eventEmitter'
-import { fabricInitStyleSet, onFabricAddObject } from '../../utils/fabricCanvas'
+} from '../../../utils/eventEmitter'
+import {
+  fabricInitStyleSet,
+  onFabricAddObject,
+} from '../../../utils/fabricCanvas'
 export interface IControlDiv {
   left: number
   top: number

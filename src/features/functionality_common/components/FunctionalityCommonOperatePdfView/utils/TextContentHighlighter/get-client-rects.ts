@@ -1,5 +1,8 @@
+import {
+  ITextContentHighlighterPage,
+  ITextContentHighlighterPageRectangle,
+} from '../../types/TextContentHighlighter'
 import optimizeClientRects from './optimize-client-rects'
-import { LTWHP, Page } from './types'
 
 const isClientRectInsidePageRect = (clientRect: DOMRect, pageRect: DOMRect) => {
   if (clientRect.top < pageRect.top) {
@@ -20,12 +23,12 @@ const isClientRectInsidePageRect = (clientRect: DOMRect, pageRect: DOMRect) => {
 
 const getClientRects = (
   range: Range,
-  pages: Page[],
+  pages: ITextContentHighlighterPage[],
   shouldOptimize = true,
-): Array<LTWHP> => {
+): Array<ITextContentHighlighterPageRectangle> => {
   const clientRects = Array.from(range.getClientRects())
 
-  const rects: LTWHP[] = []
+  const rects: ITextContentHighlighterPageRectangle[] = []
 
   for (const clientRect of clientRects) {
     for (const page of pages) {
@@ -44,7 +47,7 @@ const getClientRects = (
           width: clientRect.width,
           height: clientRect.height,
           pageNumber: page.number,
-        } as LTWHP
+        } as ITextContentHighlighterPageRectangle
 
         rects.push(highlightedRect)
       }
