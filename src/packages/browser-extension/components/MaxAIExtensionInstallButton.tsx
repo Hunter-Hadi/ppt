@@ -1,31 +1,31 @@
-import Button, { buttonClasses, ButtonProps } from '@mui/material/Button';
-import { SxProps, useTheme } from '@mui/material/styles';
-import SvgIcon, { SvgIconProps } from '@mui/material/SvgIcon';
-import useMediaQuery from '@mui/material/useMediaQuery';
-import React, { FC, HTMLAttributeAnchorTarget, useMemo } from 'react';
+import Button, { buttonClasses, ButtonProps } from '@mui/material/Button'
+import { SxProps, useTheme } from '@mui/material/styles'
+import SvgIcon, { SvgIconProps } from '@mui/material/SvgIcon'
+import useMediaQuery from '@mui/material/useMediaQuery'
+import React, { FC, HTMLAttributeAnchorTarget, useMemo } from 'react'
 
 import {
   CHROME_EXTENSION_INSTALL_LINK,
   EDGE_EXTENSION_INSTALL_LINK,
-} from '@/packages/browser-extension/constants';
-import { useMaxAITranslation } from '@/packages/common';
-import useBrowserAgent from '@/packages/common/hooks/useBrowserAgent';
+} from '@/packages/browser-extension/constants'
+import { useMaxAITranslation } from '@/packages/common'
+import useBrowserAgent from '@/packages/common/hooks/useBrowserAgent'
 
 export interface IMaxAIExtensionInstallButtonProps {
-  sx?: SxProps;
-  target?: HTMLAttributeAnchorTarget;
-  variant?: ButtonProps['variant'];
-  showAgent?: 'Edge' | 'Chrome';
-  iconSize?: number;
-  text?: string;
+  sx?: SxProps
+  target?: HTMLAttributeAnchorTarget
+  variant?: ButtonProps['variant']
+  showAgent?: 'Edge' | 'Chrome'
+  iconSize?: number
+  text?: string
 
   // 是否开启 label 自适应长度（屏幕宽度变小，文本变短）
-  adaptiveLabel?: boolean;
+  adaptiveLabel?: boolean
 
-  startIcon?: ButtonProps['startIcon'];
-  endIcon?: ButtonProps['endIcon'];
+  startIcon?: ButtonProps['startIcon']
+  endIcon?: ButtonProps['endIcon']
 
-  onClick?: (e: React.MouseEvent) => void;
+  onClick?: (e: React.MouseEvent) => void
 }
 
 const MaxAIExtensionInstallButton: FC<IMaxAIExtensionInstallButtonProps> = ({
@@ -40,21 +40,21 @@ const MaxAIExtensionInstallButton: FC<IMaxAIExtensionInstallButtonProps> = ({
   endIcon,
   onClick,
 }) => {
-  const theme = useTheme();
+  const theme = useTheme()
   // const isDownSm = useMediaQuery(theme.breakpoints.down('sm')); // 屏幕宽度小于 768 时为 true
-  const isDownLg = useMediaQuery(theme.breakpoints.down('lg')); // 屏幕宽度小于 1280 时为 true
+  const isDownLg = useMediaQuery(theme.breakpoints.down('lg')) // 屏幕宽度小于 1280 时为 true
 
-  const { t } = useMaxAITranslation();
+  const { t } = useMaxAITranslation()
 
-  const { browserAgent } = useBrowserAgent();
+  const { browserAgent } = useBrowserAgent()
 
-  const agent = showAgent ?? browserAgent;
+  const agent = showAgent ?? browserAgent
 
-  const iconName = agent === 'Edge' ? 'EdgeColor' : 'ChromeColor';
+  const iconName = agent === 'Edge' ? 'EdgeColor' : 'ChromeColor'
 
   const label = useMemo(() => {
     if (text || text === '') {
-      return text;
+      return text
     }
 
     if (adaptiveLabel && isDownLg) {
@@ -64,54 +64,63 @@ const MaxAIExtensionInstallButton: FC<IMaxAIExtensionInstallButtonProps> = ({
           )
         : t(
             'package__browser_extension:install_button__add_to_chrome_for_free__mini',
-          );
+          )
     }
 
     return agent === 'Edge'
       ? t('package__browser_extension:install_button__add_to_edge_for_free')
-      : t('package__browser_extension:install_button__add_to_chrome_for_free');
-  }, [agent, t, adaptiveLabel, isDownLg, text]);
+      : t('package__browser_extension:install_button__add_to_chrome_for_free')
+  }, [agent, t, adaptiveLabel, isDownLg, text])
 
   const href = useMemo(() => {
     if (agent === 'Edge') {
-      return EDGE_EXTENSION_INSTALL_LINK;
+      return EDGE_EXTENSION_INSTALL_LINK
     }
 
-    return CHROME_EXTENSION_INSTALL_LINK;
-  }, [agent]);
+    return CHROME_EXTENSION_INSTALL_LINK
+  }, [agent])
 
   const sxCache = useMemo(() => {
-    return {
-      // width: { xs: '100%', sm: 300 },
-      height: 64,
-      fontSize: {
-        xs: 14,
-        lg: 18,
-      },
-      fontWeight: 600,
-      px: {
-        xs: 1.5,
-        lg: 3,
-      },
-      py: 1.5,
-      borderRadius: 2,
+    return [
+      {
+        // width: { xs: '100%', sm: 300 },
+        height: {
+          xs: 48,
+          sm: 56,
+        },
+        fontSize: {
+          xs: 16,
+          sm: 18,
+        },
+        fontWeight: 600,
+        px: {
+          xs: 1.5,
+          lg: 3,
+        },
+        py: 1.5,
+        borderRadius: 2,
 
-      [`.${buttonClasses.startIcon}`]:
-        label.length <= 0
-          ? {
-              m: 0,
-            }
-          : {
-              mr: 1.5,
+        [`.${buttonClasses.startIcon}`]: {
+          mr: label.length <= 0 ? 0 : 1.5,
+        },
+      },
+      sx,
+      adaptiveLabel
+        ? {
+            [`& .${buttonClasses.startIcon}`]: {
+              display: {
+                xs: 'none',
+                sm: 'inherit',
+              },
             },
-
-      ...sx,
-    };
-  }, [sx, label]);
+          }
+        : {},
+    ]
+  }, [sx, label, adaptiveLabel])
 
   const handleClick = (e: React.MouseEvent) => {
-    onClick && onClick(e);
-  };
+    onClick && onClick(e)
+  }
 
   return (
     <Button
@@ -137,13 +146,13 @@ const MaxAIExtensionInstallButton: FC<IMaxAIExtensionInstallButtonProps> = ({
       }
       endIcon={endIcon}
       variant={variant}
-      sx={sxCache}
+      sx={sxCache as SxProps}
       onClick={handleClick}
     >
       {label}
     </Button>
-  );
-};
+  )
+}
 
 // TODO: EdgeColor、ChromeColor 需要等 packages CustomIcon 实现后移出
 const EdgeColor: FC<SvgIconProps> = (props) => {
@@ -253,8 +262,8 @@ const EdgeColor: FC<SvgIconProps> = (props) => {
         </defs>
       </svg>
     </SvgIcon>
-  );
-};
+  )
+}
 const ChromeColor: FC<SvgIconProps> = (props) => {
   return (
     <SvgIcon viewBox='0 0 20 20' sx={props.sx}>
@@ -293,6 +302,6 @@ const ChromeColor: FC<SvgIconProps> = (props) => {
         />
       </svg>
     </SvgIcon>
-  );
-};
-export default MaxAIExtensionInstallButton;
+  )
+}
+export default MaxAIExtensionInstallButton

@@ -13,7 +13,6 @@ import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
 import AppBar from '@/packages/base-ui/components/AppBar'
 import MaxAILazyLoadImage from '@/packages/base-ui/components/MaxAILazyLoadImage'
-import MaxAIVideoPlayer from '@/packages/base-ui/components/MaxAIVideoPlayer'
 import { useExtensionDetectionAlert } from '@/packages/browser-extension/components/ExtensionDetectionAlert'
 import MaxAIExtensionWrapper from '@/packages/browser-extension/components/MaxAIExtensionWrapper'
 import useMaxAIExtensionState from '@/packages/browser-extension/hooks/useMaxAIExtensionState'
@@ -65,7 +64,14 @@ const TestSyncLogin = () => {
           <AppBar
             MenuListComponents={
               <Stack flex={1}>
-                <Box>
+                <Box
+                  sx={{
+                    display: {
+                      xs: 'none',
+                      sm: 'block',
+                    },
+                  }}
+                >
                   <LanguageSelector />
                 </Box>
               </Stack>
@@ -173,7 +179,7 @@ const TestSyncLogin = () => {
             height={144}
           />
         </Stack>
-        <Stack pt={10}>
+        {/* <Stack pt={10}>
           <h3>maxai VideoPlayer:</h3>
 
           <Box height={2000} bgcolor='#000' />
@@ -197,7 +203,7 @@ const TestSyncLogin = () => {
               videoPosterUrl={`/assets/landing/hero-section/video-cover.png`}
             />
           </Box>
-        </Stack>
+        </Stack> */}
       </Stack>
     </MaxAICommonRoot>
   )
