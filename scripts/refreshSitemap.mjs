@@ -10,7 +10,7 @@ import pdfToolsKeyI18nMap from '../src/page_components/PdfToolsPages/constant/pd
 
 const localeCode = Object.keys(languageCodeMap)
 
-const IS_DEBUG = true
+const IS_DEBUG = false
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
@@ -213,6 +213,50 @@ async function generatePdfToolsPages() {
 
   return pdfToolsPages
 }
+// ==== pdf tools utils start ====
+/**
+ * 传入 任意语言 pdfToolKey 和 currentLocale 获取 指定语言版本的 pdfToolKey
+ * @param enPdfToolKey
+ * @param locale
+ * @returns string
+ */
+const getPdfToolKeyWithLocale = (
+  anyLangPdfToolKey,
+  currentLocale = 'en',
+  targetLocale = 'en',
+) => {
+  const enPdfToolKey = findEnPdfToolKeyWithLocale(
+    anyLangPdfToolKey,
+    currentLocale,
+  )
+  if (enPdfToolKey) {
+    return pdfToolsKeyI18nMap[enPdfToolKey][targetLocale]
+  }
+
+  return null
+}
+/**
+ * 传入 翻译后的 pdfToolKey 和 currentLocale 获取对应的 en pdfToolKey
+ * @param anyLangPdfToolKey
+ * @param locale
+ * @returns string | null
+ */
+const findEnPdfToolKeyWithLocale = (
+  anyLangPdfToolKey,
+  currentLocale = 'en',
+) => {
+  const pdfToolKeys = Object.keys(pdfToolsKeyI18nMap)
+
+  for (let i = 0; i < pdfToolKeys.length; i++) {
+    const enPdfToolKey = pdfToolKeys[i]
+    if (pdfToolsKeyI18nMap[enPdfToolKey][currentLocale] === anyLangPdfToolKey) {
+      return enPdfToolKey
+    }
+  }
+
+  return null
+}
+// ==== pdf tools utils end ====
 
 // 生成 docs (wordpress) 页面
 async function generateDocsPages() {
@@ -244,7 +288,6 @@ async function generateDocsPages() {
 
 function addHrefLangToSitemap(propPath) {
   const localeCodes = Object.keys(languageCodeMap)
-  // const localeCodes = ['zh-CN', 'en-US']
 
   // 删除 url 上的 locale
   const inUrlLocale = localeCodes.find((locale) =>
@@ -274,6 +317,26 @@ function addHrefLangToSitemap(propPath) {
         IS_DEBUG ? '\n' : ''
       }`
     })
+  } else if (url.startsWith(`/${pdfToolsCodeMap.topUrlKey}`)) {
+    const pdfToolKey = url.split('/')[2]
+    const enPdfToolKey = findEnPdfToolKeyWithLocale(pdfToolKey, inUrlLocale)
+    if (pdfToolKey) {
+      hrefLangs = ''
+      hrefLangs += `<xhtml:link rel="alternate" hreflang="x-default" href="${wwwDomain}/${pdfToolsCodeMap.topUrlKey}/${enPdfToolKey}/" />`
+      localeCodes.forEach((locale) => {
+        hrefLangs += `<xhtml:link rel="alternate" hreflang="${locale}" href="${wwwDomain}/${locale}/${
+          pdfToolsCodeMap.topUrlKey
+        }/${getPdfToolKeyWithLocale(enPdfToolKey, 'en', locale)}/" />${
+          IS_DEBUG ? '\n' : ''
+        }`
+      })
+    } else {
+      localeCodes.forEach((locale) => {
+        hrefLangs += `<xhtml:link rel="alternate" hreflang="${locale}" href="${wwwDomain}/${locale}${url}" />${
+          IS_DEBUG ? '\n' : ''
+        }`
+      })
+    }
   } else {
     localeCodes.forEach((locale) => {
       hrefLangs += `<xhtml:link rel="alternate" hreflang="${locale}" href="${wwwDomain}/${locale}${url}" />${
