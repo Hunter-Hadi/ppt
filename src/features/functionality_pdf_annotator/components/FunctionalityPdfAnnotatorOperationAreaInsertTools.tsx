@@ -1,22 +1,22 @@
-import { Button, Stack, Typography } from '@mui/material'
-// 引入 rangy
-import rangy from 'rangy'
+import { Box, Button, Stack, Typography } from '@mui/material'
 import { FC, useState } from 'react'
 import React from 'react'
-// 初始化 rangy
-rangy.init()
+
 import UploadButton from '@/features/common/components/UploadButton'
 import { eventEmitterAddFabricCanvas } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/utils/eventEmitter'
 import FunctionalityCommonSignaturePopoverViewMain from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonSignaturePopoverView/FunctionalityCommonSignaturePopoverViewMain'
 
 import { convertFileToBase64Png } from '../utils/convertPNGToBase64'
-import FunctionalitySignPdfOperationDraggableView from './FunctionalityCommonOperateDraggable/FunctionalitySignPdfOperationDraggableView'
 import FunctionalityPdfAnnotatorIcon from './FunctionalityPdfAnnotatorIcon'
 
-interface IFunctionalityOperationAreaCanvasTools {}
+interface IFunctionalityOperationAreaCanvasTools {
+  editType: 'annotator' | 'insert'
+  onChangeType: (type?: 'annotator' | 'insert') => void
+  children?: React.ReactNode
+}
 const FunctionalityOperationAreaCanvasTools: FC<
   IFunctionalityOperationAreaCanvasTools
-> = () => {
+> = ({ editType, onChangeType, children }) => {
   const [uploadKey, setUploadKey] = useState(0)
   const isOpenPagePainter = false
   const isEraser = false
@@ -31,6 +31,7 @@ const FunctionalityOperationAreaCanvasTools: FC<
       width,
       height,
     })
+    onChangeType('insert')
   }
   const onAddImg = (params: {
     value: string
@@ -43,133 +44,25 @@ const FunctionalityOperationAreaCanvasTools: FC<
       width: params.width,
       height: params.height,
     })
+    onChangeType('insert')
   }
-  // function getParentTopByClass(element, targetClass, maxLevels) {
-  //   let currentElement = element
-  //   let levelCount = 0 // 设置级别计数器
-
-  //   // 向上查找，直到找到指定 class 的元素或达到最大级别
-  //   while (currentElement && levelCount < maxLevels) {
-  //     if (currentElement.classList?.contains(targetClass)) {
-  //       return currentElement
-  //     }
-  //     currentElement = currentElement.parentNode // 移动到上一个父元素
-  //     levelCount++ // 计数器 +1
-  //   }
-
-  //   // 如果没有找到目标类的父元素，返回 0
-  //   return 0
-  // }
-
-  // const onAddTextTest = () => {
-  //   console.log('rangy', rangy)
-  //   const selection = rangy.getSelection() // 获取选中文本
-  //   console.log('selection', selection)
-  //   const rectangles: any[] = []
-
-  //   if (selection.rangeCount > 0) {
-  //     for (let i = 0; i < selection.rangeCount; i++) {
-  //       const range = selection.getRangeAt(i)
-  //       console.log('range', range)
-  //       const rects = range.getClientRects() // 获取选区的矩形
-
-  //       for (let j = 0; j < rects.length; j++) {
-  //         const rect = rects[j]
-  //         rectangles.push({
-  //           left: rect.left,
-  //           top: rect.top,
-  //           width: rect.width,
-  //           height: rect.height,
-  //         })
-  //       }
-  //     }
-  //   }
-
-  //   // console.log(rectangles) // 输出所有矩形信息
-  // }
   return (
-    <Stack
-      direction='row'
-      alignItems='center'
-      sx={{
-        overflow: 'hidden',
-      }}
-      gap={1}
-    >
-      <Button
-        sx={{
-          flexDirection: 'column',
-        }}
-        size='small'
-      >
-        <FunctionalityPdfAnnotatorIcon
-          fontSize='inherit'
-          color='primary'
-          name='Brush'
-        />
-        <Typography variant='custom' fontSize={12} color='primary.main'>
-          ADD TEXT Box
-        </Typography>
-      </Button>
-      <UploadButton
-        key={uploadKey}
-        buttonProps={{
-          sx: {
-            flexDirection: 'column',
-          },
-        }}
-        inputProps={{
-          accept: 'image/png,image/heic,image/jpg,image/jpeg',
-        }}
-        onChange={uploadImg}
-      >
-        <FunctionalityPdfAnnotatorIcon
-          fontSize='inherit'
-          color='primary'
-          name='Image'
-        />
-        <Typography variant='custom' fontSize={12} color='primary.main'>
-          图片
-        </Typography>
-      </UploadButton>
-      <FunctionalityCommonSignaturePopoverViewMain onAddImg={onAddImg}>
-        <Button
-          sx={{
-            flexDirection: 'column',
-          }}
-          size='small'
-        >
-          <FunctionalityPdfAnnotatorIcon
-            fontSize='inherit'
-            color='primary'
-            name='Brush'
-          />
-          <Typography variant='custom' fontSize={12} color='primary.main'>
-            签名
-          </Typography>
-        </Button>
-      </FunctionalityCommonSignaturePopoverViewMain>
-
+    <Stack direction='row' alignItems='center' justifyContent='space-between'>
       <Stack
-        flexDirection='row'
-        sx={
-          isOpenPagePainter
-            ? {
-                border: '1px solid #00000033',
-                borderRadius: 1,
-                gap: 0.5,
-                padding: '2px',
-              }
-            : undefined
-        }
+        direction='row'
+        alignItems='center'
+        sx={{
+          overflow: 'hidden',
+        }}
+        gap={1}
       >
         <Button
+          onClick={() => onChangeType()}
           sx={{
             flexDirection: 'column',
-            bgcolor: isOpenPagePainter ? '#f5f5f5' : 'transparent',
+            bgcolor: editType === 'annotator' ? '#f5f5f5' : 'transparent',
           }}
           size='small'
-          onClick={() => {}}
         >
           <FunctionalityPdfAnnotatorIcon
             fontSize='inherit'
@@ -177,14 +70,65 @@ const FunctionalityOperationAreaCanvasTools: FC<
             name='Brush'
           />
           <Typography variant='custom' fontSize={12} color='primary.main'>
-            随意画
+            批注
           </Typography>
         </Button>
-        {isOpenPagePainter && (
+        <UploadButton
+          key={uploadKey}
+          buttonProps={{
+            sx: {
+              flexDirection: 'column',
+            },
+          }}
+          inputProps={{
+            accept: 'image/png,image/heic,image/jpg,image/jpeg',
+          }}
+          onChange={uploadImg}
+        >
+          <FunctionalityPdfAnnotatorIcon
+            fontSize='inherit'
+            color='primary'
+            name='Image'
+          />
+          <Typography variant='custom' fontSize={12} color='primary.main'>
+            图片
+          </Typography>
+        </UploadButton>
+        <FunctionalityCommonSignaturePopoverViewMain onAddImg={onAddImg}>
           <Button
             sx={{
               flexDirection: 'column',
-              bgcolor: isEraser ? '#f5f5f5' : 'transparent',
+            }}
+            size='small'
+          >
+            <FunctionalityPdfAnnotatorIcon
+              fontSize='inherit'
+              color='primary'
+              name='Brush'
+            />
+            <Typography variant='custom' fontSize={12} color='primary.main'>
+              签名
+            </Typography>
+          </Button>
+        </FunctionalityCommonSignaturePopoverViewMain>
+
+        <Stack
+          flexDirection='row'
+          sx={
+            isOpenPagePainter
+              ? {
+                  border: '1px solid #00000033',
+                  borderRadius: 1,
+                  gap: 0.5,
+                  padding: '2px',
+                }
+              : undefined
+          }
+        >
+          <Button
+            sx={{
+              flexDirection: 'column',
+              bgcolor: isOpenPagePainter ? '#f5f5f5' : 'transparent',
             }}
             size='small'
             onClick={() => {}}
@@ -192,31 +136,43 @@ const FunctionalityOperationAreaCanvasTools: FC<
             <FunctionalityPdfAnnotatorIcon
               fontSize='inherit'
               color='primary'
-              name='BackspaceIcon'
+              name='Brush'
             />
-            <Typography variant='custom' fontSize={8} color='primary.main'>
-              橡皮擦
+            <Typography variant='custom' fontSize={12} color='primary.main'>
+              随意画
             </Typography>
           </Button>
-        )}
-      </Stack>
-
-      {/* {activeInfo && (
-        <React.Fragment>
-          <Button onClick={onDeleteText}>
-            <FunctionalityPdfAnnotatorIcon name='DeleteForeverOutlined' />
-          </Button>
-        </React.Fragment>
-      )} */}
-      <FunctionalitySignPdfOperationDraggableView
+          {isOpenPagePainter && (
+            <Button
+              sx={{
+                flexDirection: 'column',
+                bgcolor: isEraser ? '#f5f5f5' : 'transparent',
+              }}
+              size='small'
+              onClick={() => {}}
+            >
+              <FunctionalityPdfAnnotatorIcon
+                fontSize='inherit'
+                color='primary'
+                name='BackspaceIcon'
+              />
+              <Typography variant='custom' fontSize={8} color='primary.main'>
+                橡皮擦
+              </Typography>
+            </Button>
+          )}
+        </Stack>
+        {/* <FunctionalitySignPdfOperationDraggableView
         id='abcd123456'
         data={{
           type: 'text',
           value: '2323',
         }}
       >
-        <div>2323</div>
-      </FunctionalitySignPdfOperationDraggableView>
+        <div>移动到下面的DEMO</div>
+      </FunctionalitySignPdfOperationDraggableView> */}
+      </Stack>
+      <Box>{children}</Box>
     </Stack>
   )
 }

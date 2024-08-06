@@ -7,11 +7,16 @@ import {
   useSensor,
   useSensors,
 } from '@dnd-kit/core'
-import { Box } from '@mui/material'
+import { Box, Button } from '@mui/material'
+import { PDFDocument } from 'pdf-lib'
 import React, { forwardRef, ForwardRefRenderFunction } from 'react'
+import { useRecoilValue } from 'recoil'
 
 import FunctionalityCommonOperatePdfToolViewMain from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/components/FunctionalityCommonOperatePdfToolViewMain'
 import useFunctionalityEditDndContextHandle from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/hooks/useFunctionalityEditDndContextHandle'
+import { textAnnotatorRecoilList } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/store/setTextContentAnnotator'
+import { textContentHighlighterPdfLibEmbedSave } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/utils/TextContentHighlighter/pdfLibEmbedSave'
+import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload'
 
 import FunctionalityPdfAnnotatorOperationAreaInsertTools from './FunctionalityPdfAnnotatorOperationAreaInsertTools'
 export interface IFunctionalityPdfAnnotatorDetailHandles {}
@@ -23,6 +28,10 @@ const FunctionalityPdfAnnotatorDetail: ForwardRefRenderFunction<
   IFunctionalityPdfAnnotatorDetailHandles,
   IFunctionalityPdfAnnotatorDetailProps
 > = ({ file, onClearFile }) => {
+  const [editType, setEditType] = React.useState<'annotator' | 'insert'>(
+    'annotator',
+  )
+  const textAnnotatorList = useRecoilValue(textAnnotatorRecoilList)
   const sensors = useSensors(
     useSensor(MouseSensor, {
       activationConstraint: {
@@ -42,16 +51,42 @@ const FunctionalityPdfAnnotatorDetail: ForwardRefRenderFunction<
       onStart: () => {},
       onEnd: () => {},
     })
-
+  const onSave = async () => {
+    console.log('textAnnotatorList', textAnnotatorList)
+    let pdfDoc: PDFDocument | null = null
+    try {
+      const fileBuffer = await file.arrayBuffer()
+      pdfDoc = await PDFDocument.load(fileBuffer)
+    } catch (error) {
+      console.error('Error loading PDF Document:', error)
+      return
+    }
+    await textContentHighlighterPdfLibEmbedSave(pdfDoc, textAnnotatorList)
+    pdfDoc.save().then((blob) => {
+      downloadUrl(blob, 'newFileName.pdf')
+    })
+  }
   return (
     <Box>
       <DndContext
         sensors={sensors}
         onDragStart={onDragStart}
         onDragEnd={onDragEnd}
-        // modifiers={[restrictToFirstScrollableAncestor]}
       >
-        <FunctionalityPdfAnnotatorOperationAreaInsertTools />
+        <FunctionalityPdfAnnotatorOperationAreaInsertTools
+          editType={editType}
+          onChangeType={(type) => {
+            if (type) {
+              setEditType(type)
+              return
+            }
+            setEditType(editType === 'insert' ? 'annotator' : 'insert')
+          }}
+        >
+          <Button variant='contained' onClick={onSave}>
+            你好，我要保存
+          </Button>
+        </FunctionalityPdfAnnotatorOperationAreaInsertTools>
         <Box
           sx={{
             width: 1000,
@@ -61,6 +96,7 @@ const FunctionalityPdfAnnotatorDetail: ForwardRefRenderFunction<
           <FunctionalityCommonOperatePdfToolViewMain
             file={file}
             isShowBottomOperation={true}
+            currentEditType={editType}
           />
         </Box>
 

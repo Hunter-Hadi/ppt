@@ -63,11 +63,17 @@ export interface ITextContentHighlighterIHighlight
   extends ITextContentHighlighterNewHighlight {
   // 高亮接口
 }
+export interface ITextContentHighlighterAnnotationInfo {
+  type: 'highlight' | 'underline' | 'strikethrough'
+  color: string
+  transparency?: number
+}
 
 export interface ITextContentHighlighterViewportHighlight {
   // 视口高亮接口
   position: ITextContentHighlighterPosition // 位置
   id: string // 高亮唯一标识
+  annotation?: ITextContentHighlighterAnnotationInfo[]
 }
 
 export interface ITextContentHighlighterViewport {

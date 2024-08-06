@@ -1,7 +1,10 @@
 import { Box } from '@mui/material'
-import React, { FC } from 'react'
+import React, { FC, useCallback } from 'react'
 
-import { ITextContentHighlighterViewportHighlight } from '../../../types/TextContentHighlighter'
+import {
+  ITextContentHighlighterAnnotationInfo,
+  ITextContentHighlighterViewportHighlight,
+} from '../../../types/TextContentHighlighter'
 interface IFunctionalityCommonTextContentPageHighlight {
   viewHighlights: ITextContentHighlighterViewportHighlight[]
   pdfViewScale: number
@@ -9,12 +12,30 @@ interface IFunctionalityCommonTextContentPageHighlight {
 const FunctionalityCommonTextContentPageHighlight: FC<
   IFunctionalityCommonTextContentPageHighlight
 > = ({ viewHighlights, pdfViewScale }) => {
+  const boxStyle = useCallback(
+    (data?: ITextContentHighlighterAnnotationInfo) => {
+      if (data) {
+        if (data.type === 'highlight') {
+          return { backgroundColor: data.color, opacity: 0.5 }
+        } else if (data.type === 'underline') {
+          return {
+            borderBottom: `2px solid ${data.color}`,
+          }
+        } else if (data.type === 'strikethrough') {
+          return null
+        }
+      }
+      return undefined
+    },
+    [],
+  )
   return (
     <Box className='FunctionalityCommonTextContentPageHighlight'>
-      {viewHighlights.map((item) => {
+      {viewHighlights.map((viewHighlight) => {
+        const annotationInfo = viewHighlight?.annotation?.[0]
         return (
-          <Box key={item.id}>
-            {item.position.rects.map((rect, index) => (
+          <Box key={viewHighlight.id}>
+            {viewHighlight.position.rects.map((rect, index) => (
               <Box
                 key={index}
                 sx={{
@@ -23,11 +44,24 @@ const FunctionalityCommonTextContentPageHighlight: FC<
                   top: rect.top * pdfViewScale,
                   width: rect.width * pdfViewScale,
                   height: rect.height * pdfViewScale,
-                  backgroundColor: '#b1407f75',
                   position: 'absolute',
-                  zIndex: 9999,
+                  zIndex: 1000,
+                  ...boxStyle(annotationInfo),
                 }}
-              ></Box>
+              >
+                {annotationInfo && annotationInfo.type === 'strikethrough' && (
+                  <Box
+                    sx={{
+                      position: 'absolute',
+                      left: 0,
+                      top: 'calc(50% - 2px)',
+                      width: '100%',
+                      height: '2px',
+                      backgroundColor: annotationInfo.color,
+                    }}
+                  ></Box>
+                )}
+              </Box>
             ))}
           </Box>
         )

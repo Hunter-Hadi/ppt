@@ -1,11 +1,10 @@
 import { Box } from '@mui/material'
-import React, { FC, useEffect, useRef } from 'react'
+import React, { FC, useCallback, useEffect, useMemo, useRef } from 'react'
 
 import { useFunctionalitySignElementWidth } from '@/features/functionality_sign_pdf/hooks/useFunctionalitySignElementWidth'
 
 import FunctionalityCommonPdfViewPage from '../../FunctionalityCommonPdfViewVirtualScroll/components/FunctionalityCommonPdfViewPage'
 import FunctionalityCommonPdfViewVirtualScrollMain from '../../FunctionalityCommonPdfViewVirtualScroll/components/FunctionalityCommonPdfViewVirtualScrollMain'
-import { ITextContentHighlighterPageRectangle } from '../types/TextContentHighlighter'
 import eventEmitter, {
   eventEmitterAddFabricCanvasKey,
   eventEmitterAddFabricIndexCanvas,
@@ -18,15 +17,18 @@ import FunctionalityCommonOperateDroppable from './FunctionalityCommonOperateDro
 interface FunctionalityCommonOperatePdfToolViewMainProps {
   file: File
   isShowBottomOperation: boolean
+  enableEditTypes?: ('annotator' | 'insert')[]
+  currentEditType?: 'annotator' | 'insert' //一次之内操作一种类型
 }
 const FunctionalityCommonOperatePdfToolViewMain: FC<
   FunctionalityCommonOperatePdfToolViewMainProps
-> = ({ file, isShowBottomOperation }) => {
+> = ({ file, isShowBottomOperation, enableEditTypes, currentEditType }) => {
   const initEventEmitter = useRef(false)
   const [currentPage, setCurrentPage] = React.useState(0)
-  const [textHighlightParts, setTextHighlightParts] = React.useState<
-    ITextContentHighlighterPageRectangle[]
-  >([])
+  const definedEnableEditTypes = useMemo(
+    () => enableEditTypes || ['annotator', 'insert'],
+    [enableEditTypes],
+  )
 
   const wrapRef = useRef<HTMLElement>(null)
   const canvasHandlesRefs = useRef<
@@ -41,9 +43,15 @@ const FunctionalityCommonOperatePdfToolViewMain: FC<
     const forwardData = (data) => {
       eventEmitterAddFabricIndexCanvas(currentPage, data)
     }
-    eventEmitter.off(eventEmitterAddFabricCanvasKey, forwardData)
     eventEmitter.on(eventEmitterAddFabricCanvasKey, forwardData)
+    return () => {
+      eventEmitter.off(eventEmitterAddFabricCanvasKey, forwardData)
+    }
   }, [currentPage])
+  const isEnableType = useCallback(
+    (type: 'annotator' | 'insert') => definedEnableEditTypes?.includes(type),
+    [definedEnableEditTypes],
+  )
   return (
     <Box
       ref={wrapRef}
@@ -85,33 +93,51 @@ const FunctionalityCommonOperatePdfToolViewMain: FC<
                   index={props.index}
                 />
               </FunctionalityCommonOperateDroppable>
-              <FunctionalityCommonTextContentPage
-                pdfInfo={props.pdfInfo}
-                index={props.index}
-              ></FunctionalityCommonTextContentPage>
-              <div
-                style={{
-                  position: 'absolute',
-                  top: 0,
-                  left: 0,
-                  bottom: 0,
-                  right: 0,
-                  zIndex: 999,
-                  width: '100%',
-                  height: '100%',
-                }}
-              >
-                <FunctionalityCommonOperateFabricCanvas
-                  defaultWidth={props.pdfInfo.width * 2}
-                  index={props.index}
-                  canvasScale={props.pdfInfo.height / props.pdfInfo.width}
-                  ref={(el) => {
-                    if (el) {
-                      canvasHandlesRefs.current[props.index] = el
-                    }
+              {isEnableType('annotator') && (
+                <Box
+                  className='pdf-annotator-view'
+                  sx={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    bottom: 0,
+                    right: 0,
+                    zIndex: currentEditType === 'annotator' ? 999 : 1,
                   }}
-                />
-              </div>
+                >
+                  <FunctionalityCommonTextContentPage
+                    pdfInfo={props.pdfInfo}
+                    index={props.index}
+                    isEdit={currentEditType === 'annotator'}
+                  ></FunctionalityCommonTextContentPage>
+                </Box>
+              )}
+              {isEnableType('insert') && (
+                <div
+                  className='pdf-insert-view'
+                  style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    bottom: 0,
+                    right: 0,
+                    zIndex: currentEditType === 'insert' ? 999 : 1,
+                    width: '100%',
+                    height: '100%',
+                  }}
+                >
+                  <FunctionalityCommonOperateFabricCanvas
+                    defaultWidth={props.pdfInfo.width * 2}
+                    index={props.index}
+                    canvasScale={props.pdfInfo.height / props.pdfInfo.width}
+                    ref={(el) => {
+                      if (el) {
+                        canvasHandlesRefs.current[props.index] = el
+                      }
+                    }}
+                  />
+                </div>
+              )}
             </Box>
           )
         }}

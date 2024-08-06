@@ -32,7 +32,7 @@ const getClientRects = (
 
   for (const clientRect of clientRects) {
     for (const page of pages) {
-      const pageRect = page.node.getBoundingClientRect()
+      const pageRect = page.node?.getBoundingClientRect()
 
       if (
         isClientRectInsidePageRect(clientRect, pageRect) &&

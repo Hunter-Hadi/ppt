@@ -57,27 +57,18 @@ const useFunctionalityCommonTextSelection = (props: {
   }
   const onSelectionChange = debounce(() => {
     const selection = window.getSelection()
-    console.log('selection', selection)
-
     if (selection) {
       const selectedText = selection.toString() // 获取选中的文本
 
       if (selectedText) {
         const range = selection.getRangeAt(0) // 获取选区的范围
-        // const selectedElement = range // 获取最近的共同祖先元素
-        // const wrapContainer = getParentTopByClass(
-        //   selectedElement.commonAncestorContainer,
-        //   'textLayer',
-        //   10,
-        // ) as HTMLDivElement
         const wrapContainer = document.querySelector(
           '.text-layer-' + props.index,
         ) as HTMLDivElement
-        console.log(
-          'wrapContainer',
-          wrapContainer,
-          wrapContainer.getBoundingClientRect(),
-        )
+        if (!wrapContainer) {
+          setHighlighterPosition(undefined)
+          return
+        }
         const page = [
           {
             node: wrapContainer,
@@ -85,8 +76,10 @@ const useFunctionalityCommonTextSelection = (props: {
           },
         ]
         const rects = getClientRects(range, page) // 调用 getClientRects 方法获取矩形区域
-        console.log('rects', rects)
-        if (!rects.length) return
+        if (!rects.length) {
+          setHighlighterPosition(undefined)
+          return
+        }
         const boundingRect = getBoundingRect(rects)
         const viewportPosition: ITextContentHighlighterPosition = {
           boundingRect,
@@ -108,7 +101,7 @@ const useFunctionalityCommonTextSelection = (props: {
     } else {
       setHighlighterPosition(undefined)
     }
-  }, 500)
+  }, 200)
   useEffect(() => {
     document.addEventListener('selectionchange', onSelectionChange)
     return () => {
@@ -117,6 +110,7 @@ const useFunctionalityCommonTextSelection = (props: {
   }, [])
   return {
     highlighterPosition,
+    setHighlighterPosition,
   }
 }
 export default useFunctionalityCommonTextSelection

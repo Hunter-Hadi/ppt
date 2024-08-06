@@ -30,6 +30,7 @@ interface IFunctionalitySignPdfColorButtonPopoverProps {
   titleText?: string
   showColorPicker?: boolean
   isClickClose?: boolean // 点击弹窗内部是否关闭
+  children?: (props: { color: string }) => React.ReactNode
 }
 /**
  * 签名颜色选择按钮
@@ -47,6 +48,7 @@ const FunctionalitySignPdfColorButtonPopover: FC<
   titleText,
   showColorPicker = false,
   isClickClose = true, // 点击弹窗内部是否关闭
+  children,
 }) => {
   const [currentShowColor, setShowCurrentColor] = useState('black')
   const [transparencyNumber, setTransparencyNumber] = useState(100)
@@ -143,7 +145,9 @@ const FunctionalitySignPdfColorButtonPopover: FC<
       }
       {...buttonProps}
     >
-      {titleText && (
+      {children && children({ color: currentShowColor })}
+
+      {!children && titleText && (
         <Stack
           sx={{
             width: '100%',
@@ -170,7 +174,7 @@ const FunctionalitySignPdfColorButtonPopover: FC<
           />
         </Stack>
       )}
-      {!titleText && (
+      {!children && !titleText && (
         <Box
           sx={{
             width: 20,
