@@ -735,7 +735,31 @@
     "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Tambahkan watermark PDF dalam hitungan detik",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "Dipercaya oleh 2.4 miliar orang sejak 2013",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Cara mudah untuk memberi watermark pada PDF—tidak perlu instalasi",
-    "pdf_tools__detail_description_object__watermark_pages__top_left": "Tambahkan watermark ke dokumen PDF dengan PDF Watermarker gratis. Tidak perlu mengunduh aplikasi–semuanya berfungsi di browser Anda pada Mac, Windows, Linux, dan perangkat mobile."
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Tambahkan watermark ke dokumen PDF dengan PDF Watermarker gratis. Tidak perlu mengunduh aplikasi–semuanya berfungsi di browser Anda pada Mac, Windows, Linux, dan perangkat mobile.",
+    "tools__index_page__constant_obj__pdf_page_deletepage__title": "Hapus Halaman PDF",
+    "tools__index_page__constant_obj__pdf_page_deletepage__main_description": "Hapus satu atau beberapa halaman dari PDF Anda",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_title": "Hapus Halaman yang Tidak Diperlukan",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_description": "Alat online ini dapat digunakan untuk menghapus satu atau beberapa halaman dari dokumen PDF Anda dengan cepat. Jangan khawatir tentang PDF yang tidak sempurna. Perbaiki masalahnya dengan beberapa klik mudah.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_title": "Penghapus Halaman PDF Aman",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_description": "Tidak ada risiko yang terlibat saat Anda menghapus halaman PDF dengan kami. Privasi Anda terjamin karena proses penomoran halaman terjadi secara lokal di mesin Anda.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_title": "Hapus Halaman PDF di Semua Perangkat",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_description": "Hapus halaman PDF secara online dengan browser apa pun di Mac, Windows, atau Linux. Anda bahkan dapat menggunakan penghapus halaman PDF di ponsel Anda, baik itu perangkat Android atau iOS.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_title": "Hapus Halaman dari PDF Secara Gratis",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_description": "Alat Hapus Halaman PDF memungkinkan Anda menghapus halaman dari mana saja dalam file Anda. Kami menawarkan pratinjau yang berguna agar Anda dapat mengidentifikasi halaman yang tidak diperlukan dengan cepat.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_title": "Hapus Halaman PDF dengan Mudah",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_description": "Dengan penghapus halaman PDF yang mudah digunakan, Anda dapat memperbaiki kesalahan dan menyempurnakan PDF Anda dengan cepat. Hasilnya? Sebuah PDF siap untuk dibagikan dengan waktu luang untuk secangkir kopi.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_title": "Akses dari Mana Saja",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_description": "Untuk menghapus satu atau beberapa halaman dari PDF, Anda tidak memerlukan perangkat lunak mahal. Cukup unggah file Anda, hapus halaman, dan unduh atau ekspor.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_title": "Cara Menghapus Halaman dari File PDF:",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_1": "Impor atau seret & lepas file PDF Anda ke alat penghapusan halaman kami.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_2": "Klik ikon hapus untuk menghapus halaman dokumen yang tidak diinginkan.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_3": "Tambahkan dokumen tambahan jika diperlukan.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_4": "Klik “Konfirmasi untuk menghapus” dan tunggu sebentar.",
+    "pdf_tools__detail_description_object__deletepage_pages__top_left": "Alat PDF online gratis dan mudah digunakan untuk menghapus halaman dari PDF. Tidak perlu registrasi atau instalasi.",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "Berjalan dengan aman dan mudah di browser Anda",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "Hapus beberapa halaman dari PDF sekaligus",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "Berfungsi di browser Anda—tidak perlu perangkat lunak",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Unduh file PDF baru Anda—itu saja!"
   },
   "prompt_library": {
     "use_prompt_library__title": "Perpustakaan AI berkualitas tinggi",
@@ -1068,7 +1092,9 @@
     "use_cases__writing__title": "Asisten menulis AI | MaxAI.me",
     "use_cases__writing__desc": "Tambahkan AI ke browser Anda untuk meningkatkan dan menyempurnakan tulisan Anda di halaman web manapun. Hasilkan email yang meyakinkan, artikel, posting blog, posting media sosial, makalah. Didukung oleh GPT-4o, Claude-3-opus, Gemini-1.5-pro.",
     "pdf_tools__pdf_watermark_page__title": "PDF Watermarker Gratis | Watermark PDF di semua perangkat",
-    "pdf_tools__pdf_watermark_page__description": "Mudah menambahkan watermark ke dokumen PDF. Tidak perlu mengunduh aplikasi–semuanya berfungsi di browser Anda pada Mac, Windows, Linux, dan perangkat mobile."
+    "pdf_tools__pdf_watermark_page__description": "Mudah menambahkan watermark ke dokumen PDF. Tidak perlu mengunduh aplikasi–semuanya berfungsi di browser Anda pada Mac, Windows, Linux, dan perangkat mobile.",
+    "pdf_tools__pdf_deletepages_page__title": "Penghapus Halaman PDF | Hapus Halaman dari PDF Online Gratis",
+    "pdf_tools__pdf_deletepages_page__description": "Perlu menghapus halaman dari PDF? Anda dapat menghapus halaman PDF dengan alat online sederhana kami. Cukup unggah PDF, hapus halaman, dan simpan perubahan Anda. Tidak perlu mendaftar."
   },
   "features_landing": {
     "cta_text": "Tambahkan ke Browser",
@@ -1822,5 +1848,9 @@
     "components__protect_pdf_detail__input__placeholder": "Atur sandi Anda",
     "components__protect_pdf_detail__repeat_input__placeholder": "Konfirmasi kata sandi Anda",
     "components__protect_pdf_detail__use_tips": "Kata sandi dan file PDF tidak akan diunggah ke server, memastikan keamanan."
+  },
+  "pages__pdf_tools__deletepage_pdf": {
+    "confirm_to_delete": "Konfirmasi untuk menghapus",
+    "delete_download": "Hapus dan unduh PDF"
   }
 }

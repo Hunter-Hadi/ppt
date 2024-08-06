@@ -735,7 +735,31 @@
     "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Fügen Sie PDF-Wasserzeichen in Sekunden hinzu",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "Vertraut von 2,4 Milliarden Menschen seit 2013",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Einfacher Weg, PDFs zu kennzeichnen - keine Installation erforderlich",
-    "pdf_tools__detail_description_object__watermark_pages__top_left": "Fügen Sie mit einem kostenlosen PDF-Wasserzeichen ein Wasserzeichen zu PDF-Dokumenten hinzu. Keine Notwendigkeit, eine App herunterzuladen - alles funktioniert in Ihrem Browser auf Mac, Windows, Linux und mobilen Geräten."
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Fügen Sie mit einem kostenlosen PDF-Wasserzeichen ein Wasserzeichen zu PDF-Dokumenten hinzu. Keine Notwendigkeit, eine App herunterzuladen - alles funktioniert in Ihrem Browser auf Mac, Windows, Linux und mobilen Geräten.",
+    "tools__index_page__constant_obj__pdf_page_deletepage__title": "PDF-Seiten löschen",
+    "tools__index_page__constant_obj__pdf_page_deletepage__main_description": "Entfernen Sie eine oder mehrere Seiten aus Ihrem PDF",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_title": "Entfernen Sie unerwünschte Seiten",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_description": "Dieses Online-Tool kann verwendet werden, um einzelne oder mehrere Seiten aus Ihrem PDF-Dokument im Handumdrehen zu entfernen. Machen Sie sich keine Sorgen über unvollkommene PDFs. Beheben Sie das Problem mit nur wenigen Klicks.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_title": "Sicherer PDF-Seitenentferner",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_description": "Es besteht kein Risiko, wenn Sie PDF-Seiten mit uns entfernen. Ihre Privatsphäre ist geschützt, da der gesamte Seitennummerierungsprozess lokal auf Ihrem Gerät stattfindet.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_title": "Löschen Sie PDF-Seiten auf jedem Gerät",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_description": "Löschen Sie PDF-Seiten online mit jedem Browser auf Mac, Windows oder Linux. Sie können den PDF-Seitenentferner sogar auf Ihrem Mobilgerät verwenden, sei es ein Android- oder ein iOS-Gerät.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_title": "Entfernen Sie eine Seite aus einem PDF kostenlos",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_description": "Das Tool zum Löschen von PDF-Seiten ermöglicht es Ihnen, eine Seite aus beliebiger Stelle in Ihrer Datei zu entfernen. Wir bieten eine praktische Vorschau, damit Sie überflüssige Seiten schnell identifizieren können.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_title": "Löschen Sie PDF-Seiten einfach",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_description": "Mit unserem benutzerfreundlichen PDF-Seitenentferner können Sie Fehler korrigieren und Ihr PDF schnell optimieren. Das Ergebnis? Ein PDF, das schnell für den Austausch bereit ist, mit genug Zeit für eine Tasse Kaffee.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_title": "Zugriff von überall",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_description": "Um eine oder mehrere Seiten aus einem PDF zu löschen, benötigen Sie keine teure Software. Laden Sie einfach Ihre Datei hoch, löschen Sie Seiten und laden Sie sie herunter oder exportieren Sie sie.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_title": "Wie man Seiten aus PDF-Dateien löscht:",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_1": "Importieren oder ziehen Sie Ihre PDF-Datei in unser Seitenlösch-Tool.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_2": "Klicken Sie auf die Löschsymbole, um unerwünschte Dokumentenseiten zu entfernen.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_3": "Fügen Sie bei Bedarf zusätzliche Dokumente hinzu.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_4": "Klicken Sie auf „Bestätigen zum Löschen“ und warten Sie nur einen Moment.",
+    "pdf_tools__detail_description_object__deletepage_pages__top_left": "Ein kostenloses und benutzerfreundliches Online-PDF-Tool zum Entfernen von Seiten aus PDFs. Keine Registrierung oder Installation erforderlich.",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "Läuft sicher und einfach in Ihrem Browser",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "Löschen Sie mehrere Seiten aus einem PDF auf einmal",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "Funktioniert in Ihrem Browser - keine Software erforderlich",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Laden Sie Ihre neue PDF-Datei herunter - das war's!"
   },
   "prompt_library": {
     "use_prompt_library__title": "Hochwertige KI-Prompt-Bibliothek",
@@ -1068,7 +1092,9 @@
     "use_cases__writing__title": "KI-Schreibassistent | MaxAI.me",
     "use_cases__writing__desc": "Fügen Sie Ihrem Browser KI hinzu, um Ihr Schreiben auf jeder Webseite zu verbessern und zu polieren. Generieren Sie überzeugende E-Mails, Artikel, Blog-Beiträge, Social-Media-Beiträge und Papiere. Angetrieben von GPT-4o, Claude-3-opus, Gemini-1.5-pro.",
     "pdf_tools__pdf_watermark_page__title": "Kostenloser PDF-Wasserzeichen | Wasserzeichen PDFs auf jedem Gerät",
-    "pdf_tools__pdf_watermark_page__description": "Fügen Sie ganz einfach ein Wasserzeichen zu PDF-Dokumenten hinzu. Keine Notwendigkeit, eine App herunterzuladen - alles funktioniert in Ihrem Browser auf Mac, Windows, Linux und mobilen Geräten."
+    "pdf_tools__pdf_watermark_page__description": "Fügen Sie ganz einfach ein Wasserzeichen zu PDF-Dokumenten hinzu. Keine Notwendigkeit, eine App herunterzuladen - alles funktioniert in Ihrem Browser auf Mac, Windows, Linux und mobilen Geräten.",
+    "pdf_tools__pdf_deletepages_page__title": "PDF Seitenentferner | Löschen von Seiten aus PDF Online kostenlos",
+    "pdf_tools__pdf_deletepages_page__description": "Müssen Sie Seiten aus einem PDF entfernen? Sie können PDF-Seiten mit unserem einfachen Online-Tool löschen. Laden Sie einfach ein PDF hoch, löschen Sie Seiten und speichern Sie Ihre Änderungen. Keine Anmeldung erforderlich."
   },
   "features_landing": {
     "cta_text": "Zum Browser hinzufügen",
@@ -1822,5 +1848,9 @@
     "components__protect_pdf_detail__input__placeholder": "Legen Sie Ihr Passwort fest",
     "components__protect_pdf_detail__repeat_input__placeholder": "Bestätigen Sie Ihr Passwort",
     "components__protect_pdf_detail__use_tips": "Das Passwort und die PDF-Dateien werden nicht auf den Server hochgeladen, um die Sicherheit zu gewährleisten."
+  },
+  "pages__pdf_tools__deletepage_pdf": {
+    "confirm_to_delete": "Bestätigen Sie das Löschen",
+    "delete_download": "PDF löschen und herunterladen"
   }
 }

@@ -735,7 +735,31 @@
     "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "数秒でPDFに透かしを追加",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "2013年以来24億人に信頼されています",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "PDFに透かしを追加する簡単な方法—インストール不要",
-    "pdf_tools__detail_description_object__watermark_pages__top_left": "無料のPDFウォーターマーカーでPDF文書に透かしを追加します。アプリをダウンロードする必要はありません。すべての作業は、Mac、Windows、Linux、モバイルデバイスでブラウザで行われます。"
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "無料のPDFウォーターマーカーでPDF文書に透かしを追加します。アプリをダウンロードする必要はありません。すべての作業は、Mac、Windows、Linux、モバイルデバイスでブラウザで行われます。",
+    "tools__index_page__constant_obj__pdf_page_deletepage__title": "PDF ページを削除",
+    "tools__index_page__constant_obj__pdf_page_deletepage__main_description": "PDF から1つまたは複数のページを削除",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_title": "不要なページを削除",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_description": "このオンラインツールを使用して、PDFドキュメントから単一または複数のページを簡単に削除できます。不完全なPDFに悩まないでください。数回のクリックで問題を修正できます。",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_title": "安全なPDFページ削除",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_description": "当社を使用してPDFページを削除する際には、リスクはありません。プライバシーは保護され、ページ番号付けプロセス全体がローカルで行われます。",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_title": "どんなデバイスでもPDFページを削除",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_description": "Mac、Windows、LinuxのいずれかのブラウザでオンラインでPDFページを削除できます。AndroidまたはiOSデバイスであっても、PDFページ削除ツールを使用できます。",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_title": "PDFからページを無料で削除",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_description": "PDFページ削除ツールを使用して、ファイル内のどこからでもページを削除できます。冗長なページを素早く特定するための便利なプレビューを提供しています。",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_title": "簡単にPDFページを削除",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_description": "使いやすいPDFページ削除ツールで、簡単に間違いを修正し、PDFを素早く完成させることができます。その結果、コーヒーを飲む時間も余裕のある共有用のPDFが完成します。",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_title": "どこからでもアクセス",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_description": "PDFから1つ以上のページを削除するには、高価なソフトウェアは必要ありません。ファイルをアップロードしてページを削除し、ダウンロードまたはエクスポートします。",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_title": "PDFファイルからページを削除する方法：",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_1": "PDFファイルをインポートするか、ドラッグ＆ドロップしてページ削除ツールにアップロードします。",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_2": "不要なドキュメントページを削除するには、削除アイコンをクリックします。",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_3": "必要に応じて追加のドキュメントを追加します。",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_4": "「削除を確認」をクリックして、わずかな時間を待ちます。",
+    "pdf_tools__detail_description_object__deletepage_pages__top_left": "PDFを削除するための無料かつ使いやすいオンラインツール。登録やインストールは不要です。",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "安全にかつ簡単にブラウザで実行します",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "PDFから複数のページを一度に削除",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "ブラウザで動作します—ソフトウェアは不要です",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "新しいPDFファイルをダウンロードします。以上です！"
   },
   "prompt_library": {
     "use_prompt_library__title": "高品質なAIプロンプトライブラリ",
@@ -1068,7 +1092,9 @@
     "use_cases__writing__title": "AI執筆アシスタント | MaxAI.me",
     "use_cases__writing__desc": "ブラウザにAIを追加して、どのウェブページでも執筆を改善し磨きます。魅力的なメール、記事、ブログ投稿、ソーシャルメディア投稿、論文を生成します。GPT-4o、Claude-3-opus、Gemini-1.5-proによって強化されています。",
     "pdf_tools__pdf_watermark_page__title": "無料PDFウォーターマーカー | どんなデバイスでもPDFに透かしを入れる",
-    "pdf_tools__pdf_watermark_page__description": "簡単にPDF文書に透かしを追加します。アプリをダウンロードする必要はありません。すべての作業は、Mac、Windows、Linux、モバイルデバイスでブラウザで行われます。"
+    "pdf_tools__pdf_watermark_page__description": "簡単にPDF文書に透かしを追加します。アプリをダウンロードする必要はありません。すべての作業は、Mac、Windows、Linux、モバイルデバイスでブラウザで行われます。",
+    "pdf_tools__pdf_deletepages_page__title": "PDFページ削除 | 無料でPDFからページを削除",
+    "pdf_tools__pdf_deletepages_page__description": "PDFからページを削除する必要がありますか？当社のシンプルなオンラインツールを使用してPDFページを削除できます。PDFをアップロードして、ページを削除して変更を保存します。サインアップは不要です。"
   },
   "features_landing": {
     "cta_text": "ブラウザに追加",
@@ -1822,5 +1848,9 @@
     "components__protect_pdf_detail__input__placeholder": "パスワードを設定",
     "components__protect_pdf_detail__repeat_input__placeholder": "パスワードを確認",
     "components__protect_pdf_detail__use_tips": "パスワードとPDFファイルはサーバーにアップロードされず、セキュリティが確保されます。"
+  },
+  "pages__pdf_tools__deletepage_pdf": {
+    "confirm_to_delete": "削除を確認",
+    "delete_download": "PDFを削除してダウンロード"
   }
 }

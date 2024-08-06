@@ -50,7 +50,7 @@ const FunctionalityWateMarkPdfShowPdfWaterMarkRender = (
       >
         <Box
           sx={{
-            fontSize: `${waterMarkInfo.fontSize * proportion}px`,
+            fontSize: `${waterMarkInfo.fontSize * proportion * 2}px`,
             fontFamily: `${waterMarkInfo.fontFamily}`,
             color: `${waterMarkInfo.color}`,
             opacity: `${waterMarkInfo.opciaty}`,

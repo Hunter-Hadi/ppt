@@ -735,7 +735,31 @@
     "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Přidejte vodoznaky do PDF za několik sekund",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "Důvěřováno 2,4 miliardami lidí od roku 2013",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Snadný způsob, jak přidat vodoznak do PDF - není potřeba instalace",
-    "pdf_tools__detail_description_object__watermark_pages__top_left": "Přidejte vodoznak do PDF dokumentů pomocí bezplatného PDF Vodoznaku. Nemusíte stahovat aplikaci–vše funguje ve vašem prohlížeči na Macu, Windows, Linuxu a mobilních zařízeních."
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Přidejte vodoznak do PDF dokumentů pomocí bezplatného PDF Vodoznaku. Nemusíte stahovat aplikaci–vše funguje ve vašem prohlížeči na Macu, Windows, Linuxu a mobilních zařízeních.",
+    "tools__index_page__constant_obj__pdf_page_deletepage__title": "Odstranit stránky PDF",
+    "tools__index_page__constant_obj__pdf_page_deletepage__main_description": "Odstraňte jednu nebo více stránek z vašeho PDF",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_title": "Odstraňte nepotřebné stránky",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_description": "Tento online nástroj lze použít k odstranění jedné nebo více stránek z vašeho PDF dokumentu rychle. Nestresujte se kvůli nedokonalým PDF. Problém vyřešíte pár jednoduchými kliknutími.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_title": "Bezpečné odstranění stránky z PDF",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_description": "Při odstraňování stránek z PDF s námi nehrozí žádné riziko. Vaše soukromí je chráněno, protože celý proces číslování stránek probíhá lokálně na vašem zařízení.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_title": "Odstraňte stránky z PDF na jakémkoli zařízení",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_description": "Odstraňte stránky z PDF online s jakýmkoli prohlížečem na Macu, Windows nebo Linuxu. Můžete dokonce použít odstraňovač stránek z PDF na svém mobilním zařízení, ať už je to Android nebo iOS.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_title": "Odstraňte stránku z PDF zdarma",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_description": "Nástroj pro odstranění stránek z PDF vám umožní odstranit stránku odkudkoli ve vašem souboru. Nabízíme užitečný náhled, abyste rychle identifikovali zbytečné stránky.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_title": "Snadné odstranění stránek z PDF",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_description": "S naším snadno použitelným odstraňovačem stránek z PDF můžete rychle opravit chyby a dokonalé vaše PDF. Výsledek? PDF připravené k sdílení s dostatkem času na šálek kávy.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_title": "Přístup odkudkoli",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_description": "Pro odstranění jedné nebo více stránek z PDF nepotřebujete drahý software. Stačí nahrát váš soubor, odstranit stránky a stáhnout nebo exportovat.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_title": "Jak odstranit stránky z PDF souborů:",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_1": "Importujte nebo přetáhněte váš PDF soubor do našeho nástroje pro odstranění stránek.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_2": "Klikněte na ikony odstranit, abyste odstranili nechtěné stránky dokumentu.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_3": "Přidejte další dokumenty, pokud je to potřeba.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_4": "Klikněte na „Potvrdit odstranění“ a počkejte jen chvilku.",
+    "pdf_tools__detail_description_object__deletepage_pages__top_left": "Bezplatný a snadno použitelný online nástroj na odstranění stránek z PDF. Registrace ani instalace není potřeba.",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "Bezpečně a jednoduše běží ve vašem prohlížeči",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "Odstraňte více stránek z PDF najednou",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "Funguje ve vašem prohlížeči—není potřeba žádný software",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Stáhněte si váš nový soubor PDF - hotovo!"
   },
   "prompt_library": {
     "use_prompt_library__title": "Knihovna vysoké kvality pro AI prompty",
@@ -1068,7 +1092,9 @@
     "use_cases__writing__title": "Asistent pro psaní AI | MaxAI.me",
     "use_cases__writing__desc": "Přidejte AI do svého prohlížeče, abyste vylepšili a doladili své psaní na jakékoli webové stránce. Generujte přesvědčivé e-maily, články, blogové příspěvky, příspěvky na sociálních médiích, dokumenty. Poháněno GPT-4o, Claude-3-opus, Gemini-1.5-pro.",
     "pdf_tools__pdf_watermark_page__title": "Bezplatný PDF Vodoznak | Vodoznak PDF na jakémkoli zařízení",
-    "pdf_tools__pdf_watermark_page__description": "Snadno přidejte vodoznak do PDF dokumentů. Nemusíte stahovat aplikaci–vše funguje ve vašem prohlížeči na Macu, Windows, Linuxu a mobilních zařízeních."
+    "pdf_tools__pdf_watermark_page__description": "Snadno přidejte vodoznak do PDF dokumentů. Nemusíte stahovat aplikaci–vše funguje ve vašem prohlížeči na Macu, Windows, Linuxu a mobilních zařízeních.",
+    "pdf_tools__pdf_deletepages_page__title": "Odebrat stránku PDF | Odstraňte stránky z PDF online zdarma",
+    "pdf_tools__pdf_deletepages_page__description": "Potřebujete odstranit stránky z PDF? Můžete odstranit stránky z PDF pomocí našeho jednoduchého online nástroje. Stačí nahrát PDF, odstranit stránky a uložit změny. Registrace není nutná."
   },
   "features_landing": {
     "cta_text": "Přidat do prohlížeče",
@@ -1822,5 +1848,9 @@
     "components__protect_pdf_detail__input__placeholder": "Nastavte své heslo",
     "components__protect_pdf_detail__repeat_input__placeholder": "Potvrďte své heslo",
     "components__protect_pdf_detail__use_tips": "Heslo a soubory PDF nebudou nahrány na server, což zajišťuje bezpečnost."
+  },
+  "pages__pdf_tools__deletepage_pdf": {
+    "confirm_to_delete": "Potvrdit smazání",
+    "delete_download": "Smazat a stáhnout PDF"
   }
 }
