@@ -104,7 +104,6 @@ const FunctionalityCommonOperatePdfToolViewMain: FC<
                 <FunctionalityCommonOperateFabricCanvas
                   defaultWidth={props.pdfInfo.width * 2}
                   index={props.index}
-                  pdfViewScale={props.pdfInfo.pdfViewScale}
                   canvasScale={props.pdfInfo.height / props.pdfInfo.width}
                   ref={(el) => {
                     if (el) {

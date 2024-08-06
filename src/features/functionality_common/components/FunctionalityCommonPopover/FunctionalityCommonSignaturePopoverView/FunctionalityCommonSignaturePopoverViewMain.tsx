@@ -2,16 +2,17 @@ import { Box, Button, Popover, Stack, Typography } from '@mui/material'
 import { useTranslation } from 'next-i18next'
 import React, { FC, useState } from 'react'
 
-import FunctionalitySignPdfIcon from '@/features/functionality_sign_pdf/components/FunctionalitySignPdfIcon'
 import FunctionalitySignPdfOperationSignatureModal, {
   ISignatureType,
 } from '@/features/functionality_sign_pdf/components/FunctionalitySignPdfOperationView/FunctionalitySignPdfOperationSignatureModal'
-interface IFunctionalityCommonSignaturePopoverViewProps {
+
+import FunctionalityCommonIcon from '../../FunctionalityCommonIcon'
+interface IFunctionalityCommonSignaturePopoverViewMainProps {
   children?: React.ReactNode
   onAddImg?: (params: { value: string; width: number; height: number }) => void
 }
-const FunctionalityCommonSignaturePopoverView: FC<
-  IFunctionalityCommonSignaturePopoverViewProps
+const FunctionalityCommonSignaturePopoverViewMain: FC<
+  IFunctionalityCommonSignaturePopoverViewMainProps
 > = ({ children, onAddImg }) => {
   const { t } = useTranslation()
   const [signatureModalOpen, setModalSignatureOpen] = useState(false)
@@ -105,7 +106,7 @@ const FunctionalityCommonSignaturePopoverView: FC<
                   objectFit: 'contain',
                 }}
               />
-              <FunctionalitySignPdfIcon
+              <FunctionalityCommonIcon
                 color='action'
                 onClick={() => {
                   onDelImgVal(index)
@@ -152,4 +153,4 @@ const FunctionalityCommonSignaturePopoverView: FC<
     </Box>
   )
 }
-export default FunctionalityCommonSignaturePopoverView
+export default FunctionalityCommonSignaturePopoverViewMain

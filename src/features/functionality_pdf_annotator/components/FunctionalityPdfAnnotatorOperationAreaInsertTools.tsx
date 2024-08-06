@@ -7,7 +7,7 @@ import React from 'react'
 rangy.init()
 import UploadButton from '@/features/common/components/UploadButton'
 import { eventEmitterAddFabricCanvas } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/utils/eventEmitter'
-import FunctionalityCommonSignaturePopoverView from '@/features/functionality_common/components/FunctionalityCommonOperateTestView/FunctionalityCommonSignaturePopoverView'
+import FunctionalityCommonSignaturePopoverViewMain from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonSignaturePopoverView/FunctionalityCommonSignaturePopoverViewMain'
 
 import { convertFileToBase64Png } from '../utils/convertPNGToBase64'
 import FunctionalitySignPdfOperationDraggableView from './FunctionalityCommonOperateDraggable/FunctionalitySignPdfOperationDraggableView'
@@ -132,7 +132,7 @@ const FunctionalityOperationAreaCanvasTools: FC<
           图片
         </Typography>
       </UploadButton>
-      <FunctionalityCommonSignaturePopoverView onAddImg={onAddImg}>
+      <FunctionalityCommonSignaturePopoverViewMain onAddImg={onAddImg}>
         <Button
           sx={{
             flexDirection: 'column',
@@ -148,7 +148,7 @@ const FunctionalityOperationAreaCanvasTools: FC<
             签名
           </Typography>
         </Button>
-      </FunctionalityCommonSignaturePopoverView>
+      </FunctionalityCommonSignaturePopoverViewMain>
 
       <Stack
         flexDirection='row'

@@ -31,7 +31,7 @@ export interface IFunctionalityCommonVirtualScrollingMainHandles {
 }
 export type IFunctionalityCommonVirtualScrollingPdfInfo = {
   viewScale: number
-  pdfViewScale: number
+  pdfViewScale: number //暂时废弃，并不准确后需优化
 } & IChatPdfContainerPdfInfo
 interface IFunctionalityCommonVirtualScrollingMainProps {
   file: File

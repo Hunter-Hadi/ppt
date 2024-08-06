@@ -42,20 +42,12 @@ interface IFunctionalityCommonOperateFabricCanvasProps {
   isMobile?: boolean //是否是移动端
   defaultWidth: number
   index: number
-  pdfViewScale: number
 }
 const FunctionalityCommonOperateFabricCanvas: ForwardRefRenderFunction<
   IFunctionalityCommonOperateFabricCanvasHandles,
   IFunctionalityCommonOperateFabricCanvasProps
 > = (
-  {
-    canvasScale,
-    maxEnlarge = 1.5,
-    isMobile,
-    defaultWidth = 2000,
-    index,
-    pdfViewScale,
-  },
+  { canvasScale, maxEnlarge = 1.5, isMobile, defaultWidth = 2000, index },
   handleRef,
 ) => {
   const isInitEventEmitter = useRef<boolean>(false)
@@ -231,7 +223,6 @@ const FunctionalityCommonOperateFabricCanvas: ForwardRefRenderFunction<
     currentCanvasSize.width,
     currentCanvasSize.height,
     defaultWidth,
-    pdfViewScale,
     canvasChangeScale,
   ])
   return (
