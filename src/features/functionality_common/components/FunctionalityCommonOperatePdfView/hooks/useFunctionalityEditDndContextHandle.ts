@@ -2,7 +2,7 @@ import { DragEndEvent, DragStartEvent } from '@dnd-kit/core'
 import { useState } from 'react'
 import { v4 as uuidV4 } from 'uuid'
 
-import { eventEmitterAddFabricIndexCanvas } from '../utils/eventEmitter'
+import { eventEmitterAddFabricIndexCanvas } from '../utils/FabricCanvas/eventEmitter'
 
 const useFunctionalityEditDndContextHandle = (props: {
   onStart?: (event: DragStartEvent) => void

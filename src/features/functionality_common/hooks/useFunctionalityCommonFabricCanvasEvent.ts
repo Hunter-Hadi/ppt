@@ -4,6 +4,7 @@ import { useRef, useState } from 'react'
 import { useSetRecoilState } from 'recoil'
 
 import { fabricCanvasSignObjectListRecoil } from '../components/FunctionalityCommonOperatePdfView/store/setOperateFabricCanvas'
+import { checkAndMoveToAnotherCanvas } from '../components/FunctionalityCommonOperatePdfView/utils/FabricCanvas/checkAndMoveToAnotherCanvas'
 import { constrainWithinCanvas } from '../components/FunctionalityCommonOperatePdfView/utils/FabricCanvas/constrainWithinCanvas'
 // import { checkAndMoveToAnotherCanvas } from '../components/FunctionalityCommonOperatePdfView/utils/FabricCanvas/checkAndMoveToAnotherCanvas'
 // import { constrainWithinCanvas } from '../components/FunctionalityCommonOperatePdfView/utils/FabricCanvas/constrainWithinCanvas'
@@ -136,7 +137,7 @@ export const useFunctionalityCommonFabricCanvasEvent = (props: {
       if (e.target) {
         handleObjectSelected(e.target)
       }
-      // checkAndMoveToAnotherCanvas(e, fabricCanvas, canvasIndex, canvasNumber)
+      checkAndMoveToAnotherCanvas(e, fabricCanvas, canvasIndex, canvasNumber)
     })
     // 对象移动监听 - 保证操作div跟随移动
     fabricCanvas.current.on('object:scaling', function (e) {

@@ -1,14 +1,13 @@
 import * as fabric from 'fabric' // 确保导入你使用的 fabric.js
 
+import { eventEmitterAddFabricIndexCanvas } from './eventEmitter'
+
 // 删除对象的 ID 列表
 const deleteObjectKey = {
   current: [] as string[],
 }
 
-// 画布信息
-interface FabricCanvas {
-  height: number
-}
+
 
 // 对象移动方法类型定义
 type AddPositionType = 'top' | 'bottom'
@@ -17,11 +16,14 @@ type AddPositionType = 'top' | 'bottom'
 const addIndexObject = (clone: fabric.Object, index: number): void => {
   // 实际的实现逻辑需要根据你的需求来定义
   console.log(`Adding object to canvas at index: ${index}`, clone)
+  eventEmitterAddFabricIndexCanvas(index, undefined, clone)
 }
 
 // 移动对象到另一个画布的主方法
 const moveToAnotherCanvas = (
-  fabricCanvas: React.RefObject<FabricCanvas | null>,
+  canvasBounds: {
+    height: number;
+  },
   targetObject: fabric.Object,
   addPositionType: AddPositionType,
   canvasIndex: number,
@@ -35,7 +37,7 @@ const moveToAnotherCanvas = (
   if (addPositionType === 'bottom') {
     moveObjectToBottom(targetObject, canvasIndex)
   } else if (addPositionType === 'top') {
-    moveObjectToTop(fabricCanvas, targetObject, canvasIndex)
+    moveObjectToTop(canvasBounds, targetObject, canvasIndex)
   }
 }
 
@@ -55,15 +57,17 @@ const moveObjectToBottom = (
 
 // 将对象移动到顶部的方法
 const moveObjectToTop = (
-  fabricCanvas: React.RefObject<FabricCanvas | null>,
+  canvasBounds: {
+    height: number;
+  },
   targetObject: fabric.Object,
   canvasIndex: number,
 ): void => {
   targetObject.clone().then((clone: fabric.Object) => {
-    if (fabricCanvas.current?.height) {
+    if (canvasBounds.height) {
       clone.set({
         top:
-          fabricCanvas.current.height -
+          canvasBounds.height -
           targetObject.height * targetObject.scaleY,
       })
     }
@@ -77,18 +81,19 @@ const checkAndMoveToAnotherCanvas = (
     target: fabric.Object
     pointer: { y: number }
   },
-  fabricCanvas: React.RefObject<FabricCanvas | null>, // 画布信息
+  fabricCanvas: React.RefObject<fabric.Canvas | null>, // 画布信息
   canvasIndex: number, // 当前画布索引
   canvasNumber: number, // 总画布数量
 ): void => {
   const targetObject = event.target
   const pointerY = event.pointer.y
   const id = (targetObject as unknown as { id: string }).id
-
+  const zoom = fabricCanvas.current?.getZoom() || 1
+  const viewScale = 1 / zoom
   if (deleteObjectKey.current.includes(id)) return
 
   const canvasBounds = {
-    height: fabricCanvas.current?.height || 0,
+    height: (fabricCanvas.current?.height || 0) * viewScale,
   }
   const objBounds = targetObject.getBoundingRect()
   let addPositionType: AddPositionType | null = null
@@ -103,7 +108,7 @@ const checkAndMoveToAnotherCanvas = (
     canvasBounds.height &&
     pointerY > canvasBounds.height + intervalTriggerDistance &&
     objBounds.top + objBounds.height >
-      canvasBounds.height + intervalTriggerDistance &&
+    canvasBounds.height + intervalTriggerDistance &&
     canvasIndex !== canvasNumber - 1
   ) {
     addPositionType = 'bottom'
@@ -112,7 +117,7 @@ const checkAndMoveToAnotherCanvas = (
   // 如果确定要移动到另一个画布
   if (addPositionType !== null) {
     moveToAnotherCanvas(
-      fabricCanvas,
+      canvasBounds,
       targetObject,
       addPositionType,
       canvasIndex,

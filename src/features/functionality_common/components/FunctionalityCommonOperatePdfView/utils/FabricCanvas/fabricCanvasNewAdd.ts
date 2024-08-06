@@ -2,6 +2,8 @@ import dayjs from 'dayjs'
 import * as fabric from 'fabric'
 import { v4 as uuidV4 } from 'uuid'
 
+import { ICanvasObjectData } from '../../types'
+
 const SIGN_TEXT_FONT_FAMILY_LIST = [
   'Concert One',
   'Roboto',
@@ -124,29 +126,32 @@ export type IFabricAddObjectType = 'image' | 'text-box' | 'text' | 'i-text'
 //根据位置/信息添加Fabric对象
 export const onFabricAddObject = async (
   fabricCanvas,
-  position: {
-    left: number
-    top: number
-  },
-  type: 'image' | 'text-box' | 'text' | 'i-text',
-  value: string,
+  canvasObject: ICanvasObjectData,
   isAutoObjectSizePosition?: boolean,
   isMobile: boolean = false,
 ) => {
-  debugger
   try {
+    const zoom = fabricCanvas.current.getZoom();
+
+    const centerX = fabricCanvas.current.width / zoom / 2;
+    const centerY = fabricCanvas.current.height / zoom / 2;
+    // 计算当前缩放的比例
+    const topPositionData = {
+      left: canvasObject.x ? canvasObject.x / zoom : centerX,
+      top: canvasObject.y ? canvasObject.y / zoom : centerY,
+    };
     if (!fabricCanvas) return null
     let createObjectData: fabric.Object | null = null
     const positionData = {
-      left: position.left,
-      top: position.top,
+      left: topPositionData.left,
+      top: topPositionData.top,
       hasRotatingPoint: false, // 禁用旋转控制点
     }
     const defaultTextFontFamily = SIGN_TEXT_FONT_FAMILY_LIST[0]
-    if (type === 'image') {
+    if (canvasObject.type === 'image') {
       const imgScale = isMobile ? 1 : 3 //移动端不需要缩放,因为屏幕已经很小了
       const image = new Image()
-      image.src = value
+      image.src = canvasObject.value
       await new Promise<void>((resolve) => {
         image.onload = function () {
           // 将图片绘制到画布上
@@ -196,14 +201,14 @@ export const onFabricAddObject = async (
             fabricImage.top = positionData.top - fabricImage.height / 2
           }
           console.log('simply fabricImage', fabricImage)
-          ;(fabricImage as any).imgColor = imgColor
+            ; (fabricImage as any).imgColor = imgColor
           createObjectData = fabricImage
           resolve()
         }
       })
-    } else if (type === 'text-box') {
+    } else if (canvasObject.type === 'text-box') {
       positionData.left = positionData.left - 300 / 2
-      const text = new fabric.Textbox(value, {
+      const text = new fabric.Textbox(fabricCanvas.value, {
         ...positionData,
         minScaleLimit: 1,
         maxScaleLimit: 1,
@@ -211,31 +216,31 @@ export const onFabricAddObject = async (
       })
       text.fontFamily = defaultTextFontFamily
       createObjectData = text
-    } else if (type === 'text') {
+    } else if (canvasObject.type === 'text') {
       positionData.left = positionData.left - 50 / 2
 
-      const text = new fabric.Text(value, {
+      const text = new fabric.Text(fabricCanvas.value, {
         ...positionData,
         minScaleLimit: 1,
         maxScaleLimit: 1,
       })
       text.fontFamily = defaultTextFontFamily
       createObjectData = text
-    } else if (type === 'i-text') {
+    } else if (canvasObject.type === 'i-text') {
       positionData.left = positionData.left - 200 / 2
-      const isDateValid = dayjs(value).isValid()
-      const text = new fabric.IText(value, {
+      const isDateValid = dayjs(fabricCanvas.value).isValid()
+      const text = new fabric.IText(fabricCanvas.value, {
         ...positionData,
         minScaleLimit: 1,
         maxScaleLimit: 1,
       })
       text.fontFamily = defaultTextFontFamily
-      ;(text as any).isDateValid = isDateValid
+        ; (text as any).isDateValid = isDateValid
       createObjectData = text
     }
     if (createObjectData) {
-      ;(createObjectData as any).mtr = false
-      ;(createObjectData as any).id = uuidV4()
+      ; (createObjectData as any).mtr = false
+        ; (createObjectData as any).id = uuidV4()
       createObjectData.top = autoCheckTopIsAbnormal(
         fabricCanvas,
         positionData.top,
@@ -309,7 +314,7 @@ export const onChangeFabricColor = (editor: any, color) => {
       return
     }
     if (activeObject && activeObject.type === 'image') {
-      ;(activeObject as any).getElement().onload = () => {
+      ; (activeObject as any).getElement().onload = () => {
         // Access the internal _element where the actual HTMLImageElement resides
         const canvas = document.createElement('canvas')
         const ctx = canvas.getContext('2d')

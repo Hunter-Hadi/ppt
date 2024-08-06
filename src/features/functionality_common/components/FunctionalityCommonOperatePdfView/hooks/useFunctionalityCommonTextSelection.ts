@@ -9,8 +9,8 @@ import {
   scaledToViewport,
   viewportToScaled,
 } from '../utils/TextContentHighlighter/coordinates'
-import getBoundingRect from '../utils/TextContentHighlighter/get-bounding-rect'
-import getClientRects from '../utils/TextContentHighlighter/get-client-rects'
+import getBoundingRect from '../utils/TextContentHighlighter/getBoundingRect'
+import getClientRects from '../utils/TextContentHighlighter/getClientRects'
 const useFunctionalityCommonTextSelection = (props: {
   viewport: {
     width: number

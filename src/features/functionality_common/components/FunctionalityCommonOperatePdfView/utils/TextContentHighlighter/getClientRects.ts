@@ -2,7 +2,7 @@ import {
   ITextContentHighlighterPage,
   ITextContentHighlighterPageRectangle,
 } from '../../types/TextContentHighlighter'
-import optimizeClientRects from './optimize-client-rects'
+import optimizeClientRects from './optimizeClientRects'
 
 const isClientRectInsidePageRect = (clientRect: DOMRect, pageRect: DOMRect) => {
   if (clientRect.top < pageRect.top) {
