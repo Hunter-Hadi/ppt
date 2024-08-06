@@ -735,7 +735,31 @@
     "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Voeg PDF-watermerken toe in seconden",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "Vertrouwd door 2,4 miljard mensen sinds 2013",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Eenvoudige manier om PDF's te voorzien van een watermerk - geen installatie nodig",
-    "pdf_tools__detail_description_object__watermark_pages__top_left": "Voeg een watermerk toe aan PDF-documenten met een gratis PDF-watermerk. Geen app downloaden nodig - alles werkt in uw browser op Mac, Windows, Linux en mobiele apparaten."
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Voeg een watermerk toe aan PDF-documenten met een gratis PDF-watermerk. Geen app downloaden nodig - alles werkt in uw browser op Mac, Windows, Linux en mobiele apparaten.",
+    "tools__index_page__constant_obj__pdf_page_deletepage__title": "Verwijder PDF-pagina's",
+    "tools__index_page__constant_obj__pdf_page_deletepage__main_description": "Verwijder één of meerdere pagina's uit uw PDF",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_title": "Verwijder Pagina's Die Je Niet Nodig Hebt",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_description": "Met deze online tool kun je snel en eenvoudig enkele of meerdere pagina's uit je PDF-document verwijderen. Maak je geen zorgen over onvolmaakte PDF's. Los het probleem op met een paar simpele klikken.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_title": "Veilige PDF Pagina Verwijderaar",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_description": "Er is geen risico verbonden aan het verwijderen van PDF-pagina's bij ons. Je privacy is beschermd omdat het volledige paginanummeringsproces lokaal op je machine plaatsvindt.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_title": "Verwijder PDF Pagina's op Elk Apparaat",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_description": "Verwijder PDF-pagina's online met elke browser op Mac, Windows of Linux. Je kunt de PDF-pagina verwijderaar zelfs gebruiken op je mobiel, of het nu een Android- of een iOS-apparaat is.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_title": "Verwijder een Pagina Uit een PDF Gratis",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_description": "De tool voor het verwijderen van PDF-pagina's stelt je in staat om een pagina vanuit elk deel van je bestand te verwijderen. We bieden een handige preview zodat je snel overbodige pagina's kunt identificeren.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_title": "Verwijder PDF Pagina's Eenvoudig",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_description": "Met onze eenvoudig te gebruiken PDF-pagina verwijderaar kun je fouten corrigeren en je PDF snel perfectioneren. Het resultaat? Een PDF klaar om te delen met tijd over voor een kopje koffie.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_title": "Toegang Vanaf Elke Locatie",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_description": "Om één of meerdere pagina's uit een PDF te verwijderen, heb je geen dure software nodig. Upload gewoon je bestand, verwijder pagina's en download of exporteer.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_title": "Hoe Pagina's Uit PDF-Bestanden Te Verwijderen:",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_1": "Importeer of sleep je PDF-bestand naar onze pagina verwijderingstool.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_2": "Klik op de verwijderingspictogrammen om ongewenste documentpagina's te verwijderen.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_3": "Voeg indien nodig extra documenten toe.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_4": "Klik op 'Bevestigen om te verwijderen' en wacht slechts een seconde.",
+    "pdf_tools__detail_description_object__deletepage_pages__top_left": "Een gratis en eenvoudige online PDF-tool om pagina's uit PDF's te verwijderen. Geen registratie of installatie nodig.",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "Werkt veilig en eenvoudig in uw browser",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "Verwijder meerdere pagina's uit een PDF in één keer",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "Werkt in uw browser - geen software nodig",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Download uw nieuwe PDF-bestand - dat is alles!"
   },
   "prompt_library": {
     "use_prompt_library__title": "Hoogwaardige AI-promptbibliotheek",
@@ -1068,7 +1092,9 @@
     "use_cases__writing__title": "AI-schrijfassistent | MaxAI.me",
     "use_cases__writing__desc": "Voeg AI toe aan je browser om je schrijven op elke webpagina te verbeteren en te polijsten. Genereer overtuigende e-mails, artikelen, blogposts, social media berichten, papers. Aangedreven door GPT-4o, Claude-3-opus, Gemini-1.5-pro.",
     "pdf_tools__pdf_watermark_page__title": "Gratis PDF-watermerk | Watermerk PDF's op elk apparaat",
-    "pdf_tools__pdf_watermark_page__description": "Voeg eenvoudig een watermerk toe aan PDF-documenten. Geen app downloaden nodig - alles werkt in uw browser op Mac, Windows, Linux en mobiele apparaten."
+    "pdf_tools__pdf_watermark_page__description": "Voeg eenvoudig een watermerk toe aan PDF-documenten. Geen app downloaden nodig - alles werkt in uw browser op Mac, Windows, Linux en mobiele apparaten.",
+    "pdf_tools__pdf_deletepages_page__title": "PDF Pagina Verwijderaar | Pagina's Verwijderen uit PDF Online Gratis",
+    "pdf_tools__pdf_deletepages_page__description": "Moet pagina's verwijderen uit een PDF? U kunt PDF-pagina's verwijderen met onze eenvoudige online tool. Upload gewoon een PDF, verwijder pagina's en sla uw wijzigingen op. Geen aanmelding vereist."
   },
   "features_landing": {
     "cta_text": "Toevoegen aan browser",
@@ -1822,5 +1848,9 @@
     "components__protect_pdf_detail__input__placeholder": "Stel uw wachtwoord in",
     "components__protect_pdf_detail__repeat_input__placeholder": "Bevestig uw wachtwoord",
     "components__protect_pdf_detail__use_tips": "Het wachtwoord en PDF-bestanden worden niet geüpload naar de server, wat zorgt voor beveiliging."
+  },
+  "pages__pdf_tools__deletepage_pdf": {
+    "confirm_to_delete": "Bevestig om te verwijderen",
+    "delete_download": "PDF verwijderen en downloaden"
   }
 }

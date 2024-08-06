@@ -735,7 +735,31 @@
     "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Додавайте водяні знаки до PDF за секунди",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "Довірено 2,4 мільярдами людей з 2013 року",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Простий спосіб додавати водяні знаки до PDF - не потрібно встановлювати",
-    "pdf_tools__detail_description_object__watermark_pages__top_left": "Додайте водяний знак до PDF-документів за допомогою безкоштовного PDF Watermarker. Не потрібно завантажувати додаток - все працює в вашому браузері на Mac, Windows, Linux та мобільних пристроях."
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Додайте водяний знак до PDF-документів за допомогою безкоштовного PDF Watermarker. Не потрібно завантажувати додаток - все працює в вашому браузері на Mac, Windows, Linux та мобільних пристроях.",
+    "tools__index_page__constant_obj__pdf_page_deletepage__title": "Видалити сторінки PDF",
+    "tools__index_page__constant_obj__pdf_page_deletepage__main_description": "Видаліть одну або кілька сторінок з вашого PDF",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_title": "Видаліть сторінки, які вам не потрібні",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_description": "Цей онлайн інструмент може бути використаний для видалення однієї або кількох сторінок з вашого PDF-документа миттєво. Не турбуйтеся про недосконалі PDF-файли. Виправте проблему за декілька простих клацань.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_title": "Безпечний видалення сторінок з PDF",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_description": "Немає ризику при видаленні сторінок з PDF з нами. Ваша конфіденційність захищена, оскільки весь процес нумерації сторінок відбувається локально на вашому пристрої.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_title": "Видаліть сторінки з PDF на будь-якому пристрої",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_description": "Видаліть сторінки з PDF онлайн з будь-яким браузером на Mac, Windows або Linux. Ви навіть можете використовувати видалення сторінок з PDF на своєму мобільному пристрої, чи то Android, чи то iOS.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_title": "Видаліть сторінку з PDF безкоштовно",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_description": "Інструмент Видалення сторінок з PDF дозволяє вам видаляти сторінку з будь-якого місця у вашому файлі. Ми пропонуємо зручний попередній перегляд, щоб ви могли швидко виявити зайві сторінки.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_title": "Легко видаляйте сторінки з PDF",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_description": "З нашим простим у використанні видаленням сторінок з PDF ви можете виправити помилки та швидко вдосконалити свій PDF. Результат? PDF готовий для обміну з достатньо часу на чашку кави.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_title": "Доступ з будь-якого місця",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_description": "Щоб видалити одну або кілька сторінок з PDF, вам не потрібне дороге програмне забезпечення. Просто завантажте свій файл, видаліть сторінки та завантажте або експортуйте.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_title": "Як видалити сторінки з PDF-файлів:",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_1": "Імпортуйте або перетягніть ваш PDF-файл до нашого інструменту для видалення сторінок.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_2": "Клацніть на піктограми видалення, щоб видалити непотрібні сторінки документа.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_3": "Додайте додаткові документи за потреби.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_4": "Клацніть «Підтвердити видалення» та зачекайте лише секунду.",
+    "pdf_tools__detail_description_object__deletepage_pages__top_left": "Безкоштовний та простий у використанні онлайн інструмент для видалення сторінок з PDF. Не потрібна реєстрація або встановлення.",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "Працює безпечно та просто у вашому браузері",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "Видаліть кілька сторінок з PDF за один раз",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "Працює у вашому браузері—не потрібне програмне забезпечення",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Завантажте свій новий файл PDF—це все!"
   },
   "prompt_library": {
     "use_prompt_library__title": "Бібліотека високоякісних AI-підказок",
@@ -1068,7 +1092,9 @@
     "use_cases__writing__title": "Асистент для письма з використанням штучного інтелекту | MaxAI.me",
     "use_cases__writing__desc": "Додайте штучний інтелект до свого браузера, щоб вдосконалювати та поліпшувати своє письмо на будь-якій веб-сторінці. Створюйте переконливі електронні листи, статті, блоги, повідомлення в соціальних мережах, наукові роботи. Працює на основі GPT-4o, Claude-3-opus, Gemini-1.5-pro.",
     "pdf_tools__pdf_watermark_page__title": "Безкоштовний PDF Watermarker | Додавайте водяні знаки до PDF на будь-якому пристрої",
-    "pdf_tools__pdf_watermark_page__description": "Легко додавайте водяний знак до PDF-документів. Не потрібно завантажувати додаток - все працює в вашому браузері на Mac, Windows, Linux та мобільних пристроях."
+    "pdf_tools__pdf_watermark_page__description": "Легко додавайте водяний знак до PDF-документів. Не потрібно завантажувати додаток - все працює в вашому браузері на Mac, Windows, Linux та мобільних пристроях.",
+    "pdf_tools__pdf_deletepages_page__title": "Видалення сторінок PDF | Видаліть сторінки з PDF онлайн безкоштовно",
+    "pdf_tools__pdf_deletepages_page__description": "Потрібно видалити сторінки з PDF? Ви можете видалити сторінки PDF за допомогою нашого простого онлайн-інструменту. Просто завантажте PDF, видаліть сторінки та збережіть зміни. Реєстрація не потрібна."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Вибрати все",
@@ -1822,5 +1848,9 @@
     "components__protect_pdf_detail__input__placeholder": "Встановіть свій пароль",
     "components__protect_pdf_detail__repeat_input__placeholder": "Підтвердіть ваш пароль",
     "components__protect_pdf_detail__use_tips": "Пароль та файли PDF не будуть завантажені на сервер, що гарантує безпеку."
+  },
+  "pages__pdf_tools__deletepage_pdf": {
+    "confirm_to_delete": "Підтвердіть видалення",
+    "delete_download": "Видалити та завантажити PDF"
   }
 }

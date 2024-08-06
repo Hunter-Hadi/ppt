@@ -735,7 +735,31 @@
     "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "เพิ่มลายน้ำ PDF ในไม่กี่วินาที",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "ได้รับความไว้วางใจจาก 2.4 พันล้านคนตั้งแต่ปี 2013",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "วิธีง่ายในการใส่ลายน้ำใน PDF - ไม่จำเป็นต้องติดตั้ง",
-    "pdf_tools__detail_description_object__watermark_pages__top_left": "เพิ่มลายน้ำลงในเอกสาร PDF ด้วย PDF Watermarker ฟรี ไม่ต้องดาวน์โหลดแอปพลิเคชัน–ทุกอย่างทำงานในเบราว์เซอร์ของคุณบน Mac, Windows, Linux, และอุปกรณ์เคลื่อนที่"
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "เพิ่มลายน้ำลงในเอกสาร PDF ด้วย PDF Watermarker ฟรี ไม่ต้องดาวน์โหลดแอปพลิเคชัน–ทุกอย่างทำงานในเบราว์เซอร์ของคุณบน Mac, Windows, Linux, และอุปกรณ์เคลื่อนที่",
+    "tools__index_page__constant_obj__pdf_page_deletepage__title": "ลบหน้า PDF",
+    "tools__index_page__constant_obj__pdf_page_deletepage__main_description": "ลบหนึ่งหรือหลายหน้าจาก PDF ของคุณ",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_title": "ลบหน้าที่คุณไม่ต้องการ",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_description": "เครื่องมือออนไลน์นี้สามารถใช้เพื่อลบหน้าเดี่ยวหรือหลายหน้าจากเอกสาร PDF ของคุณได้อย่างรวดเร็ว อย่ากังวลเกี่ยวกับ PDF ที่ไม่สมบูรณ์ แก้ไขปัญหาด้วยไม่กี่คลิกง่ายๆ",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_title": "เครื่องมือลบหน้า PDF ที่ปลอดภัย",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_description": "ไม่มีความเสี่ยงเมื่อคุณลบหน้า PDF กับเรา ความเป็นส่วนตัวของคุณได้รับการป้องกันเนื่องจากระบบการจัดเลขหน้าทั้งหมดเกิดขึ้นบนเครื่องของคุณ",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_title": "ลบหน้า PDF บนอุปกรณ์ใดก็ได้",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_description": "ลบหน้า PDF ออนไลน์ด้วยเบราว์เซอร์ใดก็ได้บน Mac, Windows หรือ Linux คุณยังสามารถใช้เครื่องมือลบหน้า PDF บนมือถือของคุณได้ ไมว่าจะเป็นอุปกรณ์ Android หรือ iOS",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_title": "ลบหน้าจาก PDF ฟรี",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_description": "เครื่องมือลบหน้า PDF ช่วยให้คุณลบหน้าจากทุกที่ในไฟล์ของคุณ เรามีการแสดงตัวอย่างที่ดีสำหรับคุณเพื่อระบุหน้าที่ไม่จำเป็นได้อย่างรวดเร็ว",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_title": "ลบหน้า PDF ได้อย่างง่ายดาย",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_description": "ด้วยเครื่องมือลบหน้า PDF ที่ใช้ง่ายของเรา คุณสามารถแก้ไขข้อผิดพลาดและปรับปรุง PDF ของคุณได้อย่างรวดเร็ว ผลลัพธ์คือ PDF พร้อมแบ่งปันพร้อมเวลาว่างสำหรับแก้วกาแฟ",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_title": "เข้าถึงได้ทุกที่",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_description": "เพื่อลบหน้าหรือหลายหน้าจาก PDF คุณไม่จำเป็นต้องใช้ซอฟต์แวร์ราคาแพง เพียงอัปโหลดไฟล์ของคุณ ลบหน้าและดาวน์โหลดหรือส่งออก",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_title": "วิธีลบหน้าจากไฟล์ PDF:",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_1": "นำเข้าหรือลากและวางไฟล์ PDF ของคุณไปยังเครื่องมือการลบหน้าของเรา",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_2": "คลิกไอคอนลบเพื่อลบหน้าเอกสารที่ไม่ต้องการ",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_3": "เพิ่มเอกสารเพิ่มเติมหากจำเป็น",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_4": "คลิก \"ยืนยันการลบ\" และรอเพียงไม่กี่วินาที",
+    "pdf_tools__detail_description_object__deletepage_pages__top_left": "เครื่องมือ PDF ออนไลน์ฟรีและใช้ง่ายเพื่อลบหน้าจาก PDF ไม่ต้องลงทะเบียนหรือติดตั้ง",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "ทำงานอย่างปลอดภัยและง่ายดายในเบราว์เซอร์ของคุณ",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "ลบหลายหน้าจาก PDF ในคราวเดียว",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "ทำงานในเบราว์เซอร์ของคุณ—ไม่จำเป็นต้องใช้ซอฟต์แวร์",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "ดาวน์โหลดไฟล์ PDF ใหม่ของคุณ—เพียงเท่านั้น!"
   },
   "prompt_library": {
     "use_prompt_library__title": "ไลบรารีคำแนะนำ AI คุณภาพสูง",
@@ -1068,7 +1092,9 @@
     "use_cases__writing__title": "ผู้ช่วยเขียน AI | MaxAI.me",
     "use_cases__writing__desc": "เพิ่ม AI เข้าสู่เบราว์เซอร์ของคุณเพื่อปรับปรุงและเสริมความสวยงามในการเขียนบนหน้าเว็บใดก็ได้ สร้างอีเมลที่น่าสนใจ บทความ โพสต์บล็อก โพสต์สื่อสังคม กระดาษวิชาการ ขับเคลื่อนด้วย GPT-4o, Claude-3-opus, Gemini-1.5-pro",
     "pdf_tools__pdf_watermark_page__title": "PDF Watermarker ฟรี | ใส่ลายน้ำใน PDF บนอุปกรณ์ใดก็ได้",
-    "pdf_tools__pdf_watermark_page__description": "เพิ่มลายน้ำในเอกสาร PDF ได้อย่างง่ายดาย ไม่ต้องดาวน์โหลดแอปพลิเคชัน–ทุกอย่างทำงานในเบราว์เซอร์ของคุณบน Mac, Windows, Linux, และอุปกรณ์เคลื่อนที่"
+    "pdf_tools__pdf_watermark_page__description": "เพิ่มลายน้ำในเอกสาร PDF ได้อย่างง่ายดาย ไม่ต้องดาวน์โหลดแอปพลิเคชัน–ทุกอย่างทำงานในเบราว์เซอร์ของคุณบน Mac, Windows, Linux, และอุปกรณ์เคลื่อนที่",
+    "pdf_tools__pdf_deletepages_page__title": "เครื่องมือลบหน้า PDF | ลบหน้าจาก PDF ออนไลน์ฟรี",
+    "pdf_tools__pdf_deletepages_page__description": "ต้องการลบหน้าจาก PDF หรือไม่? คุณสามารถลบหน้า PDF ด้วยเครื่องมือออนไลน์ที่ง่ายดายของเรา เพียงแค่อัปโหลด PDF ลบหน้า และบันทึกการเปลี่ยนแปลงของคุณ ไม่จำเป็นต้องลงทะเบียน"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "เลือกทั้งหมด",
@@ -1303,7 +1329,8 @@
     "components__common__drag__dropping_tip": "คุณสามารถปรับลำดับได้โดยลากและวาง",
     "components__common__upload_button_tips": "หรือวางไฟล์ที่นี่",
     "components__common__upload_button_title": "เลือกไฟล์",
-    "components__common__upload_button__unsupported_file_type_tip": "โปรดอัปโหลดไฟล์ PDF ที่ระบุ"
+    "components__common__upload_button__unsupported_file_type_tip": "โปรดอัปโหลดไฟล์ PDF ที่ระบุ",
+    "components__common__select_other_file": "เลือกไฟล์อื่น"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "สามารถอัปโหลดภาพเฉพาะชนิดภาพเท่านั้น",
@@ -1526,7 +1553,10 @@
     "ab_test_v5__features_data__discord__tooltip": "ประหยัดเวลาในการตอบกลับข้อความใน Discord ตอบกลับข้อความในไม่กี่วินาทีด้วยบันทึกสั้น ปรับปรุงสไตล์ ตรวจสอบการสะกดคำและไวยากรณ์ สื่อสารอย่างมีประสิทธิภาพและมีประสิทธิภาพมากขึ้น",
     "ab_test_v5__features_data__messenger__tooltip": "ประหยัดเวลาในการตอบกลับข้อความใน Messenger ตอบกลับข้อความในไม่กี่วินาทีด้วยบันทึกสั้น ปรับปรุงสไตล์ ตรวจสอบการสะกดคำและไวยากรณ์ สื่อสารอย่างมีประสิทธิภาพและมีประสิทธิภาพมากขึ้น",
     "ab_test_v5__features_data__telegram__tooltip": "ประหยัดเวลาในการตอบกลับข้อความใน Telegram ตอบกลับข้อความในไม่กี่วินาทีด้วยบันทึกสั้น ปรับปรุงสไตล์ ตรวจสอบการสะกดคำและไวยากรณ์ สื่อสารอย่างมีประสิทธิภาพและมีประสิทธิภาพมากขึ้น",
-    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "สร้างข้อความเริ่มต้นของคุณเอง จัดระเบียบและทำให้ง่ายต่อการเข้าถึงและใช้ซ้ำ สำหรับตัวคุณเองและทีมของคุณ"
+    "ab_test_v5__features_data__write_faster__messaging_instant_reply__create_own_prompts": "สร้างข้อความเริ่มต้นของคุณเอง จัดระเบียบและทำให้ง่ายต่อการเข้าถึงและใช้ซ้ำ สำหรับตัวคุณเองและทีมของคุณ",
+    "features_data__llama_3_1_70b__tooltip": "ขับเคลื่อนโดย Meta 128,000 โทเคนสูงสุด โมเดลหลากภาษาที่มีความยาวของบริบทที่ขยายออกไปอย่างมีนัยสำคัญ รองรับกรณีการใช้ขั้นสูงเช่นสรุปข้อความแบบยาว ตัวช่วยสนทนาหลากภาษา และการช่วยเขียนโค้ด",
+    "features_data__llama_3_1_405b__tooltip": "ขับเคลื่อนโดย Meta 128,000 โทเคนสูงสุด โมเดลรากฐานที่ใหญ่ที่สุดในโลก ที่เทียบเท่ากับ AI ที่ปิดท็อปในความรู้ทั่วไป การควบคุมและคณิตศาสตร์ รองรับ 8 ภาษา และเปิดให้ใช้ความสามารถขั้นสูงเช่นการสร้างข้อมูลเทียบเท่าและการกระจายโมเดล ที่เหมาะสำหรับสรุปข้อความแบบยาว ตัวช่วยสนทนาหลากภาษา และผู้ช่วยในการเขียนโค้ด",
+    "features_data__mistral_large_2__tooltip": "ขับเคลื่อนโดย MistralAI 128,000 โทเคนสูงสุด โมเดลธงชั้นนำของ Mistral ผลักขอบเขตของความเร็วและประสิทธิภาพ ด้วยพารามิเตอร์ 123 พันล้าน Mistral-Large-2 โดดเด่นในการสร้างโค้ด คณิตศาสตร์ และการเหตุผลในภาษาหลายสิบภาษา มันมีการเสพสารเพียงเล็กน้อยและรองรับหลายภาษาอย่างน่าประทับใจสำหรับทั้งภาษาธรรมชาติและภาษาโปรแกรม"
   },
   "features__common": {
     "components__upload_button_drop_title": "วางที่นี่"
@@ -1749,5 +1779,78 @@
     "upgrade_alert__cta_txt": "เข้าชมผู้จัดการส่วนขยายของเบราว์เซอร์",
     "extension_detection_alert__desc": "เพื่อใช้คุณลักษณะนี้ต่อไป โปรดติดตั้งส่วนเสริม Chrome ของเราเพื่อให้ทำงานอย่างเต็มประสิทธิภาพ",
     "mobile_alert__desc": "การค้นหาด้วย AI รองรับเฉพาะบนเบราว์เซอร์ desktop หรือ laptop เท่านั้น การสนับสนุนบนโทรศัพท์มือถือจะมาเร็ว ๆ นี้ ในขณะนี้ โปรดเปลี่ยนไปใช้ desktop หรือ laptop"
+  },
+  "pages__pdf_tools__unlock_pdf": {
+    "title": "ปลดล็อค PDF",
+    "description": "ลบรหัสผ่าน, การเข้ารหัส, และสิทธิ์จาก PDF ของคุณ",
+    "seo_title": "ปลดล็อค PDF - ลบรหัสผ่านจากไฟล์ PDF ออนไลน์ฟรี | MaxAI.me",
+    "seo_description": "ลบการป้องกันด้วยรหัสผ่านจากไฟล์ PDF ออนไลน์ได้อย่างง่ายด้วยฟรี ไม่มีลายน้ำ ขีดจำกัดขนาดไฟล์ การดาวน์โหลด หรือการลงทะเบียน",
+    "detail_description_object__unlock_pdf__top_left": "ปลดล็อคไฟล์ PDF ออนไลน์ได้อย่างง่ายด้วยการลบรหัสผ่าน ด้วยเครื่องมือปลดล็อคของเรา ไฟล์ของคุณจะเก็บไว้ในเครื่องเสมอ รักษาความเป็นส่วนตัว และไม่มีขีดจำกัดขนาดไฟล์",
+    "detail_description_object__unlock_pdf__top_right_1": "ปลดล็อคไฟล์ PDF อย่างรวดเร็วในไม่กี่วินาที",
+    "detail_description_object__unlock_pdf__top_right_2": "อัปโหลดไฟล์ PDF เพื่อเริ่มต้น",
+    "detail_description_object__unlock_pdf__top_right_3": "เข้ากันได้กับ Mac, Windows, Android และ iOS",
+    "detail_description_object__unlock_pdf__middle_1_title": "เครื่องมือออนไลน์ง่ายๆ เพื่อปลดล็อค PDF",
+    "detail_description_object__unlock_pdf__middle_1_description": "เครื่องมือปลดล็อค PDF ของเราช่วยให้คุณลบการป้องกันด้วยรหัสผ่านจากไฟล์ PDF ได้อย่างรวดเร็ว เพียงอัปโหลดไฟล์ของคุณ ป้อนรหัสผ่าน และดาวน์โหลด PDF ที่ถูกปลดล็อค มันง่ายมาก ฟรีอย่างสมบูรณ์และไม่ต้องลงทะเบียนบัญชี",
+    "detail_description_object__unlock_pdf__middle_2_title": "ปลดล็อค PDF อย่างปลอดภัยบนเครื่อง",
+    "detail_description_object__unlock_pdf__middle_2_description": "ไฟล์ทั้งหมดที่คุณอัปโหลดจะถูกประมวลผลโดยตรงในเบราวเซอร์ของคุณ รักษาความเป็นส่วนตัวอย่างสมบูรณ์ ไม่มีไฟล์ถูกอัปโหลดไปยังคลาวด์ รับประกันความปลอดภัยของข้อมูล",
+    "detail_description_object__unlock_pdf__middle_3_title": "เข้ากันได้กับหลายแพลตฟอร์ม",
+    "detail_description_object__unlock_pdf__middle_3_description": "เครื่องมือปลดล็อค PDF ของเราเป็นเบราวเซอร์เบส หมายความว่ามันทำงานได้อย่างเรียบง่ายบน Mac, Windows และ Linux รวมถึงอุปกรณ์เคลื่อนที่ คุณสามารถปลดล็อคไฟล์ PDF ของคุณได้อย่างง่ายดายจากทุกที่",
+    "detail_description_object__unlock_pdf__middle_4_title": "กระบวนการดำเนินการง่ายๆ",
+    "detail_description_object__unlock_pdf__middle_4_description": "การปลดล็อคไฟล์ PDF ของคุณเป็นเรื่องง่าย: อัปโหลดไฟล์ ป้อนรหัสผ่าน และดาวน์โหลดเวอร์ชันที่ถูกปลดล็อค แม้ว่าผู้เริ่มต้นก็สามารถเรียนรู้กระบวนการนี้ได้อย่างง่ายดาย",
+    "detail_description_object__unlock_pdf__middle_5_title": "เครื่องมือปลดล็อค PDF ที่เชื่อถือได้",
+    "detail_description_object__unlock_pdf__middle_5_description": "ไม่จำเป็นต้องซื้อซอฟต์แวร์ราคาแพงเพื่อปลดล็อคไฟล์ PDF เครื่องมือปลดล็อค PDF ของเรามีให้บริการออนไลน์ฟรีโดยไม่ต้องใช้การประมวลผลในคลาวด์ รับประกันว่าไฟล์และข้อมูลของคุณจะมีความปลอดภัยเสมอ",
+    "detail_description_object__unlock_pdf__middle_6_title": "การประมวลผลในเครื่องเพื่อเพิ่มความปลอดภัย",
+    "detail_description_object__unlock_pdf__middle_6_description": "บริการปลดล็อคของเรารับประกันว่าการดำเนินการทั้งหมดจะเกิดขึ้นในเครื่องของคุณ คุณลดเวลาประมวลผลและเพิ่มความปลอดภัยให้ไฟล์ของคุณเสมอ",
+    "detail_description_object__unlock_pdf__bottom_right_title": "วิธีปลดล็อคไฟล์ PDF ออนไลน์",
+    "detail_description_object__unlock_pdf__bottom_right_description_1": "อัปโหลดไฟล์ PDF ที่คุณต้องการปลดล็อค",
+    "detail_description_object__unlock_pdf__bottom_right_description_2": "ป้อนรหัสผ่านสำหรับไฟล์ PDF ที่คุณทราบ",
+    "detail_description_object__unlock_pdf__bottom_right_description_3": "คลิก 'ปลดล็อค' เพื่อดาวน์โหลดไฟล์ PDF ที่ถูกปลดล็อค",
+    "detail_description_object__unlock_pdf__bottom_right_description_4": "หลังจากปลดล็อคคุณสามารถเข้าถึงและแก้ไขไฟล์ PDF ของคุณได้โดยอิสระบนอุปกรณ์ใดก็ได้"
+  },
+  "pages__pdf_tools__protect_pdf": {
+    "title": "ป้องกัน PDF",
+    "description": "เพิ่มการป้องกันด้วยรหัสผ่านและการเข้ารหัสให้กับไฟล์ PDF ของคุณเพื่อเพิ่มความปลอดภัย",
+    "seo_title": "ป้องกัน PDF - เพิ่มการเข้ารหัสด้วยรหัสผ่านในไฟล์ PDF ออนไลน์ฟรี | MaxAI.me",
+    "seo_description": "เพิ่มการป้องกันด้วยรหัสผ่านในไฟล์ PDF ของคุณอย่างง่ายดายออนไลน์ฟรี ไม่ต้องมีลายน้ำ ขีดจำกัดขนาดไฟล์ การดาวน์โหลด หรือการลงทะเบียน",
+    "detail_description_object__protect_pdf__top_left": "ป้องกันไฟล์ PDF ของคุณอย่างง่ายดายออนไลน์ฟรีโดยการเพิ่มการเข้ารหัสด้วยรหัสผ่าน ด้วยเครื่องมือของเรา ไฟล์ของคุณจะยังคงอยู่ในเครื่องสำหรับความเป็นส่วนตัว และไม่มีข้อจำกัดในการขนาด",
+    "detail_description_object__protect_pdf__top_right_1": "ป้องกันไฟล์ PDF ของคุณอย่างรวดเร็วในไม่กี่วินาทีเท่านั้น",
+    "detail_description_object__protect_pdf__top_right_2": "อัปโหลดไฟล์ PDF ของคุณเพื่อเริ่มต้น",
+    "detail_description_object__protect_pdf__top_right_3": "เข้ากันได้กับ Mac, Windows, Android และ iOS",
+    "detail_description_object__protect_pdf__middle_1_title": "เครื่องมือออนไลน์ที่ง่ายในการป้องกัน PDF",
+    "detail_description_object__protect_pdf__middle_1_description": "เครื่องมือป้องกัน PDF ของเราช่วยให้คุณสามารถเพิ่มการป้องกันด้วยรหัสผ่านในไฟล์ PDF ของคุณได้อย่างง่ายดาย เพียงแค่อัปโหลดเอกสารของคุณ ตั้งรหัสผ่านของคุณ และดาวน์โหลดไฟล์ PDF ที่เข้ารหัสแล้ว มันใช้ง่ายมาก ฟรีอย่างสมบูรณ์ และไม่ต้องมีบัญชี",
+    "detail_description_object__protect_pdf__middle_2_title": "การป้องกัน PDF ที่ปลอดภัยในเครื่อง",
+    "detail_description_object__protect_pdf__middle_2_description": "ไฟล์ทั้งหมดที่คุณอัปโหลดจะถูกประมวลผลโดยตรงในเบราว์เซอร์ของคุณ ทำให้ความเป็นส่วนตัวของคุณได้รับการป้องกัน ไม่มีไฟล์ที่ถูกอัปโหลดไปยังคลาวด์ ทำให้มั่นใจได้ว่าข้อมูลของคุณปลอดภัย",
+    "detail_description_object__protect_pdf__middle_3_title": "ความเข้ากันได้กับหลายแพลตฟอร์ม",
+    "detail_description_object__protect_pdf__middle_3_description": "เครื่องมือป้องกัน PDF ของเราเป็นเบราวเซอร์เบส ซึ่งหมายความว่ามันทำงานได้อย่างเรียบง่ายบน Mac, Windows, และ Linux รวมถึงอุปกรณ์เคลื่อนที่ คุณสามารถป้องกันไฟล์ PDF ของคุณได้อย่างง่ายดายจากทุกที่",
+    "detail_description_object__protect_pdf__middle_4_title": "กระบวนการดำเนินงานที่ง่ายดาย",
+    "detail_description_object__protect_pdf__middle_4_description": "การป้องกันไฟล์ PDF ของคุณเป็นเรื่องง่าย: อัปโหลดไฟล์ ตั้งรหัสผ่านของคุณ และดาวน์โหลดเวอร์ชันที่มีการป้องกันด้วยรหัสผ่าน แม้แต่ผู้เริ่มต้นก็สามารถทำตามกระบวนการนี้ได้อย่างง่ายดาย",
+    "detail_description_object__protect_pdf__middle_5_title": "เครื่องมือป้องกัน PDF ที่เชื่อถือได้",
+    "detail_description_object__protect_pdf__middle_5_description": "คุณไม่จำเป็นต้องซื้อซอฟต์แวร์ราคาแพงเพื่อป้องกันไฟล์ PDF ของคุณ เครื่องมือป้องกัน PDF ออนไลน์ของเรามีให้บริการฟรี ทำให้ไฟล์และข้อมูลของคุณมั่นใจว่าจะปลอดภัยเสมอโดยไม่ต้องใช้การประมวลผลในคลาวด์",
+    "detail_description_object__protect_pdf__middle_6_title": "การประมวลผลในเครื่องเพื่อความปลอดภัยที่เพิ่มขึ้น",
+    "detail_description_object__protect_pdf__middle_6_description": "บริการป้องกันของเราทำให้การดำเนินงานทั้งหมดถูกดำเนินการในเครื่องที่คุณใช้ ซึ่งเพิ่มความปลอดภัยและเร่งความเร็วในการประมวลผล ทำให้ไฟล์ของคุณปลอดภัย",
+    "detail_description_object__protect_pdf__bottom_right_title": "วิธีการป้องกันไฟล์ PDF ออนไลน์:",
+    "detail_description_object__protect_pdf__bottom_right_description_1": "อัปโหลดไฟล์ PDF ที่คุณต้องการป้องกัน",
+    "detail_description_object__protect_pdf__bottom_right_description_2": "ตั้งรหัสผ่านสำหรับไฟล์ PDF",
+    "detail_description_object__protect_pdf__bottom_right_description_3": "คลิก 'ป้องกัน' เพื่อดาวน์โหลดไฟล์ PDF ที่มีการป้องกันด้วยรหัสผ่าน",
+    "detail_description_object__protect_pdf__bottom_right_description_4": "หลังจากป้องกันแล้ว ผู้ที่มีรหัสผ่านเท่านั้นที่สามารถเข้าถึงและแก้ไขไฟล์ PDF ของคุณบนอุปกรณ์ใดก็ได้"
+  },
+  "functionality__unlock_pdf": {
+    "components__unlock_pdf_detail_input_password": "โปรดป้อนรหัสผ่านเพื่อปลดล็อคไฟล์ PDF ของคุณ",
+    "components__unlock_pdf_detail_input_placeholder": "รหัสผ่าน",
+    "components__unlock_pdf_detail__button__unlock": "ปลดล็อค",
+    "components__unlock_pdf_detail__incorrect_password_tips": "รหัสผ่านไม่ถูกต้อง",
+    "components__unlock_pdf_detail__use_tips": "รหัสผ่านและไฟล์ PDF จะไม่ถูกอัปโหลดไปยังเซิร์ฟเวอร์ เพื่อความปลอดภัย"
+  },
+  "functionality__protect_pdf": {
+    "components__protect_pdf_detail__button__protect": "ป้องกัน",
+    "components__protect_pdf_detail__type_password": " พิมพ์รหัสผ่าน",
+    "components__protect_pdf_detail__repeat_type_password": "ทำซ้ำรหัสผ่าน",
+    "components__protect_pdf_detail__input__placeholder": "ตั้งรหัสผ่านของคุณ",
+    "components__protect_pdf_detail__repeat_input__placeholder": "ยืนยันรหัสผ่านของคุณ",
+    "components__protect_pdf_detail__use_tips": "รหัสผ่านและไฟล์ PDF จะไม่ถูกอัปโหลดไปยังเซิร์ฟเวอร์ เพื่อความปลอดภัย"
+  },
+  "pages__pdf_tools__deletepage_pdf": {
+    "confirm_to_delete": "ยืนยันการลบ",
+    "delete_download": "ลบและดาวน์โหลด PDF"
   }
 }

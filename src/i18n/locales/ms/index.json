@@ -735,7 +735,31 @@
     "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Tambahkan tanda air PDF dalam beberapa saat",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "Dipercayai oleh 2.4 bilion orang sejak 2013",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Cara mudah untuk memberi tanda air kepada PDF—tiada pemasangan diperlukan",
-    "pdf_tools__detail_description_object__watermark_pages__top_left": "Tambahkan cap air ke dokumen PDF dengan PDF Watermarker percuma. Tiada keperluan untuk memuat turun aplikasi–semuanya berfungsi dalam pelayar anda di Mac, Windows, Linux, dan peranti mudah alih."
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Tambahkan cap air ke dokumen PDF dengan PDF Watermarker percuma. Tiada keperluan untuk memuat turun aplikasi–semuanya berfungsi dalam pelayar anda di Mac, Windows, Linux, dan peranti mudah alih.",
+    "tools__index_page__constant_obj__pdf_page_deletepage__title": "Padam Halaman PDF",
+    "tools__index_page__constant_obj__pdf_page_deletepage__main_description": "Alih satu atau beberapa halaman dari PDF anda",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_title": "Buang Halaman Yang Tidak Diperlukan",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_description": "Alat dalam talian ini boleh digunakan untuk membuang satu atau beberapa halaman dari dokumen PDF anda dengan cepat. Jangan risau tentang PDF yang tidak sempurna. Selesaikan masalah dengan beberapa klik mudah.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_title": "Pemadam Halaman PDF Selamat",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_description": "Tiada risiko apabila anda membuang halaman PDF dengan kami. Privasi anda dijaga kerana proses penomboran halaman berlaku tempatan pada mesin anda.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_title": "Buang Halaman PDF Pada Mana-mana Peranti",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_description": "Buang halaman PDF dalam talian dengan mana-mana pelayar pada Mac, Windows, atau Linux. Anda boleh menggunakan pemadam halaman PDF pada telefon bimbit anda, sama ada Android atau peranti iOS.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_title": "Buang Halaman Dari PDF Secara Percuma",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_description": "Alat Buang Halaman PDF membolehkan anda membuang halaman dari mana-mana bahagian dalam fail anda. Kami menawarkan pratonton yang berguna untuk anda mengenal pasti halaman yang tidak diperlukan dengan cepat.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_title": "Buang Halaman PDF Dengan Mudah",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_description": "Dengan pemadam halaman PDF yang mudah digunakan kami, anda boleh membetulkan kesilapan dan menyempurnakan PDF anda dengan cepat. Hasilnya? Sebuah PDF yang bersedia untuk dikongsi dengan masa lapang untuk secawan kopi.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_title": "Akses Dari Mana-mana",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_description": "Untuk membuang satu atau lebih halaman dari PDF, anda tidak memerlukan perisian yang mahal. Hanya muat naik fail anda, buang halaman, dan muat turun atau eksport.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_title": "Cara Untuk Buang Halaman Dari Fail PDF:",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_1": "Import atau seret & lepas fail PDF anda ke alat pemadaman halaman kami.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_2": "Klik pada ikon pemadam untuk membuang halaman dokumen yang tidak diingini.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_3": "Tambah dokumen tambahan jika diperlukan.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_4": "Klik “Sahkan untuk memadam” dan tunggu sekejap.",
+    "pdf_tools__detail_description_object__deletepage_pages__top_left": "Alat PDF dalam talian percuma dan mudah digunakan untuk membuang halaman daripada PDF. Tiada pendaftaran atau pemasangan diperlukan.",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "Berjalan dengan selamat dan mudah di pelayar anda",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "Padam pelbagai halaman dari PDF dalam satu proses",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "Berfungsi di pelayar anda—tiada perisian diperlukan",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Muat turun fail PDF baru anda—itu sahaja!"
   },
   "prompt_library": {
     "use_prompt_library__title": "Pustaka prompt AI berkualiti tinggi",
@@ -1068,7 +1092,9 @@
     "use_cases__writing__title": "Pembantu penulisan AI | MaxAI.me",
     "use_cases__writing__desc": "Tambahkan AI ke pelayar anda untuk meningkatkan dan menyempurnakan penulisan anda pada apa-apa laman web. Hasilkan e-mel yang memikat, artikel, catatan blog, pos media sosial, kertas. Dikuasakan oleh GPT-4o, Claude-3-opus, Gemini-1.5-pro.",
     "pdf_tools__pdf_watermark_page__title": "PDF Watermarker Percuma | Cap Air PDF pada mana-mana peranti",
-    "pdf_tools__pdf_watermark_page__description": "Tambahkan cap air ke dokumen PDF dengan mudah. Tiada keperluan untuk memuat turun aplikasi–semuanya berfungsi dalam pelayar anda di Mac, Windows, Linux, dan peranti mudah alih."
+    "pdf_tools__pdf_watermark_page__description": "Tambahkan cap air ke dokumen PDF dengan mudah. Tiada keperluan untuk memuat turun aplikasi–semuanya berfungsi dalam pelayar anda di Mac, Windows, Linux, dan peranti mudah alih.",
+    "pdf_tools__pdf_deletepages_page__title": "Pemadam Halaman PDF | Padam Halaman dari PDF Dalam Talian Secara Percuma",
+    "pdf_tools__pdf_deletepages_page__description": "Perlu padam halaman dari PDF? Anda boleh padam halaman PDF dengan alat dalam talian kami yang mudah. Hanya muat naik PDF, padam halaman, dan simpan perubahan anda. Tiada pendaftaran diperlukan."
   },
   "features_landing": {
     "cta_text": "Tambah ke Pelayar",
@@ -1822,5 +1848,9 @@
     "components__protect_pdf_detail__input__placeholder": "Tetapkan kata laluan anda",
     "components__protect_pdf_detail__repeat_input__placeholder": "Sahkan kata laluan anda",
     "components__protect_pdf_detail__use_tips": "Kata laluan dan fail PDF tidak akan dimuat naik ke pelayan, memastikan keselamatan."
+  },
+  "pages__pdf_tools__deletepage_pdf": {
+    "confirm_to_delete": "Sahkan untuk padam",
+    "delete_download": "Padam dan muat turun PDF"
   }
 }

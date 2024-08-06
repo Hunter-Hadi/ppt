@@ -735,7 +735,31 @@
     "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "몇 초 안에 PDF 워터마크 추가",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "2013년 이후로 24억 명의 신뢰를 받는 서비스",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "PDF에 워터마크를 쉽게 추가할 수 있는 방법—설치가 필요 없음",
-    "pdf_tools__detail_description_object__watermark_pages__top_left": "무료 PDF 워터마커로 PDF 문서에 워터마크를 추가하세요. 앱을 다운로드할 필요 없이 모든 것이 Mac, Windows, Linux 및 모바일 기기에서 브라우저에서 작동합니다."
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "무료 PDF 워터마커로 PDF 문서에 워터마크를 추가하세요. 앱을 다운로드할 필요 없이 모든 것이 Mac, Windows, Linux 및 모바일 기기에서 브라우저에서 작동합니다.",
+    "tools__index_page__constant_obj__pdf_page_deletepage__title": "PDF 페이지 삭제",
+    "tools__index_page__constant_obj__pdf_page_deletepage__main_description": "PDF에서 하나 이상의 페이지를 제거합니다",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_title": "필요 없는 페이지 제거",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_description": "이 온라인 도구를 사용하여 PDF 문서에서 단일 또는 여러 페이지를 즉시 제거할 수 있습니다. 불완전한 PDF에 대해 걱정하지 마세요. 몇 번의 쉬운 클릭으로 문제를 해결하세요.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_title": "안전한 PDF 페이지 제거",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_description": "우리와 함께 PDF 페이지를 제거할 때는 어떤 위험도 없습니다. 전체 페이지 번호 매기기 과정은 로컬에서 진행되므로 개인 정보가 안전합니다.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_title": "모든 기기에서 PDF 페이지 삭제",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_description": "Mac, Windows 또는 Linux의 모든 브라우저에서 온라인으로 PDF 페이지를 삭제할 수 있습니다. Android 또는 iOS 기기에서도 PDF 페이지 제거 도구를 사용할 수 있습니다.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_title": "무료로 PDF에서 페이지 제거",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_description": "PDF 페이지 삭제 도구를 사용하여 파일에서 어디서든 페이지를 제거할 수 있습니다. 중복 페이지를 신속하게 식별할 수 있는 편리한 미리보기를 제공합니다.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_title": "PDF 페이지 쉽게 삭제",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_description": "사용하기 쉬운 PDF 페이지 제거 도구로 실수를 수정하고 PDF를 빠르게 완성할 수 있습니다. 결과는 무엇인가요? 커피를 마실 시간이 충분한 PDF!",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_title": "어디서나 접근",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_description": "비싼 소프트웨어가 필요하지 않습니다. PDF에서 하나 이상의 페이지를 삭제하려면 파일을 업로드하고 페이지를 삭제한 다음 다운로드하거나 내보내기만 하면 됩니다.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_title": "PDF 파일에서 페이지 삭제하는 방법:",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_1": "PDF 파일을 가져오거나 끌어다 놓아 페이지 삭제 도구에 업로드합니다.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_2": "원치 않는 문서 페이지를 제거하려면 삭제 아이콘을 클릭합니다.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_3": "필요한 경우 추가 문서를 추가합니다.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_4": "“삭제 확인”을 클릭하고 잠시 기다립니다.",
+    "pdf_tools__detail_description_object__deletepage_pages__top_left": "PDF에서 페이지를 제거하는 무료 및 쉽게 사용할 수 있는 온라인 PDF 도구입니다. 등록이나 설치가 필요하지 않습니다.",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "브라우저에서 안전하고 간편하게 실행됩니다",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "PDF에서 여러 페이지를 한 번에 삭제합니다",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "브라우저에서 작동합니다. 소프트웨어가 필요하지 않습니다",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "새 PDF 파일을 다운로드하세요. 그게 다입니다!"
   },
   "prompt_library": {
     "use_prompt_library__title": "고품질 AI 프롬프트 라이브러리",
@@ -1068,7 +1092,9 @@
     "use_cases__writing__title": "AI 글쓰기 보조 | MaxAI.me",
     "use_cases__writing__desc": "웹 페이지에서 글을 개선하고 다듬을 수 있는 AI를 브라우저에 추가하세요. 흥미로운 이메일, 기사, 블로그 글, 소셜 미디어 게시물, 논문을 생성하세요. GPT-4o, Claude-3-opus, Gemini-1.5-pro로 구동됩니다.",
     "pdf_tools__pdf_watermark_page__title": "무료 PDF 워터마커 | 모든 기기에서 PDF에 워터마크 추가",
-    "pdf_tools__pdf_watermark_page__description": "PDF 문서에 워터마크를 쉽게 추가하세요. 앱을 다운로드할 필요 없이 모든 것이 Mac, Windows, Linux 및 모바일 기기에서 브라우저에서 작동합니다."
+    "pdf_tools__pdf_watermark_page__description": "PDF 문서에 워터마크를 쉽게 추가하세요. 앱을 다운로드할 필요 없이 모든 것이 Mac, Windows, Linux 및 모바일 기기에서 브라우저에서 작동합니다.",
+    "pdf_tools__pdf_deletepages_page__title": "PDF 페이지 제거 | 무료 온라인 PDF 페이지 삭제",
+    "pdf_tools__pdf_deletepages_page__description": "PDF에서 페이지를 제거해야 하나요? 간단한 온라인 도구로 PDF 페이지를 삭제할 수 있습니다. PDF를 업로드하고 페이지를 삭제한 후 변경 사항을 저장하세요. 가입이 필요하지 않습니다."
   },
   "features_landing": {
     "cta_text": "브라우저에 추가",
@@ -1822,5 +1848,9 @@
     "components__protect_pdf_detail__input__placeholder": "암호를 설정하세요",
     "components__protect_pdf_detail__repeat_input__placeholder": "비밀번호를 확인하세요",
     "components__protect_pdf_detail__use_tips": "암호 및 PDF 파일이 서버에 업로드되지 않아 보안이 보장됩니다."
+  },
+  "pages__pdf_tools__deletepage_pdf": {
+    "confirm_to_delete": "삭제 확인",
+    "delete_download": "PDF 삭제 및 다운로드"
   }
 }

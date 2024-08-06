@@ -735,7 +735,31 @@
     "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Saniyeler içinde PDF filigranları ekleyin",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "2013'ten beri 2.4 milyar kişi tarafından güvenilen",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "PDF'lere filigran eklemenin kolay yolu–kurulum gerekmez",
-    "pdf_tools__detail_description_object__watermark_pages__top_left": "Ücretsiz PDF Damgası ile PDF belgelere bir filigran ekleyin. Bir uygulama indirmenize gerek yok–her şey tarayıcınızda Mac, Windows, Linux ve mobil cihazlarda çalışır."
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Ücretsiz PDF Damgası ile PDF belgelere bir filigran ekleyin. Bir uygulama indirmenize gerek yok–her şey tarayıcınızda Mac, Windows, Linux ve mobil cihazlarda çalışır.",
+    "tools__index_page__constant_obj__pdf_page_deletepage__title": "PDF Sayfalarını Sil",
+    "tools__index_page__constant_obj__pdf_page_deletepage__main_description": "PDF'nizden bir veya birden fazla sayfayı kaldırın",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_title": "İhtiyacınız Olmayan Sayfaları Kaldırın",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_description": "Bu çevrimiçi araç, PDF belgenizden tek bir sayfayı veya birden fazla sayfayı hızlıca kaldırmak için kullanılabilir. Kusurlu PDF'lerle uğraşmayın. Sorunu birkaç kolay tıklamayla düzeltin.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_title": "Güvenli PDF Sayfa Kaldırıcı",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_description": "Bizimle PDF sayfalarını kaldırdığınızda hiçbir risk yoktur. Gizliliğiniz, sayfa numaralandırma işlemi tamamen yerel olarak makinenizde gerçekleştiği için korunmaktadır.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_title": "Herhangi Bir Cihazdan PDF Sayfalarını Silin",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_description": "Mac, Windows veya Linux'taki herhangi bir tarayıcıyla çevrimiçi PDF sayfalarını silebilirsiniz. Hatta Android veya iOS cihazınızda da PDF sayfa kaldırıcıyı kullanabilirsiniz.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_title": "Ücretsiz Olarak PDF'den Sayfa Kaldırın",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_description": "PDF Sayfalarını Sil aracı, dosyanızın herhangi bir yerinden bir sayfayı kaldırmanıza olanak tanır. Size gereksiz sayfaları hızlıca tanımlamanız için kullanışlı bir önizleme sunuyoruz.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_title": "PDF Sayfalarını Kolayca Silin",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_description": "Kullanımı kolay PDF sayfa kaldırıcı ile hataları düzeltebilir ve PDF'nizi hızlıca mükemmelleştirebilirsiniz. Sonuç mu? Paylaşmaya hazır bir PDF ve yanında bir fincan kahve içmek için zamanınız olacak.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_title": "Her Yerden Erişim",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_description": "Bir veya daha fazla sayfayı bir PDF'den silmek için pahalı yazılıma ihtiyacınız yok. Dosyanızı yükleyin, sayfaları silin ve indirin veya dışa aktarın.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_title": "PDF Dosyalarından Sayfa Nasıl Silinir:",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_1": "PDF dosyanızı içe aktarın veya sürükleyip bırakın.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_2": "İstenmeyen belge sayfalarını kaldırmak için silme simgelerine tıklayın.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_3": "Gerekirse ek belgeler ekleyin.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_4": "“Silme işlemini onayla” düğmesine tıklayın ve sadece birkaç saniye bekleyin.",
+    "pdf_tools__detail_description_object__deletepage_pages__top_left": "PDF'lerden sayfaları kaldırmak için ücretsiz ve kullanımı kolay bir çevrimiçi PDF aracı. Kayıt veya kurulum gerekmez.",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "Tarayıcınızda güvenli ve basit bir şekilde çalışır",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "Bir seferde PDF'den birden fazla sayfa silme",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "Tarayıcınızda çalışır—herhangi bir yazılım gerekmez",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Yeni PDF dosyanızı indirin—bu kadar!"
   },
   "prompt_library": {
     "use_prompt_library__title": "Yüksek kaliteli AI prompt kütüphanesi",
@@ -1068,7 +1092,9 @@
     "use_cases__writing__title": "AI yazma asistanı | MaxAI.me",
     "use_cases__writing__desc": "Tarayıcınıza AI ekleyerek herhangi bir web sayfasında yazınızı geliştirin ve cilalayın. Etkileyici e-postalar, makaleler, blog yazıları, sosyal medya gönderileri, makaleler oluşturun. GPT-4o, Claude-3-opus, Gemini-1.5-pro tarafından desteklenmektedir.",
     "pdf_tools__pdf_watermark_page__title": "Ücretsiz PDF Damgası | Herhangi bir cihazda PDF'lere filigran ekleme",
-    "pdf_tools__pdf_watermark_page__description": "PDF belgelere kolayca bir filigran ekleyin. Bir uygulama indirmenize gerek yok–her şey tarayıcınızda Mac, Windows, Linux ve mobil cihazlarda çalışır."
+    "pdf_tools__pdf_watermark_page__description": "PDF belgelere kolayca bir filigran ekleyin. Bir uygulama indirmenize gerek yok–her şey tarayıcınızda Mac, Windows, Linux ve mobil cihazlarda çalışır.",
+    "pdf_tools__pdf_deletepages_page__title": "PDF Sayfa Kaldırıcı | Ücretsiz Çevrimiçi PDF'den Sayfaları Sil",
+    "pdf_tools__pdf_deletepages_page__description": "Bir PDF'den sayfaları kaldırmak mı gerekiyor? Basit çevrimiçi aracımızla PDF sayfalarını silebilirsiniz. Sadece bir PDF yükleyin, sayfaları silin ve değişikliklerinizi kaydedin. Kayıt olma gerekmez."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Hepsini Seç",
@@ -1822,5 +1848,9 @@
     "components__protect_pdf_detail__input__placeholder": "Şifrenizi belirleyin",
     "components__protect_pdf_detail__repeat_input__placeholder": "Şifrenizi onaylayın",
     "components__protect_pdf_detail__use_tips": "Parola ve PDF dosyaları sunucuya yüklenmeyecek, güvenliği sağlanacak."
+  },
+  "pages__pdf_tools__deletepage_pdf": {
+    "confirm_to_delete": "Silme işlemini onayla",
+    "delete_download": "PDF'yi sil ve indir"
   }
 }

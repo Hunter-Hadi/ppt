@@ -735,7 +735,31 @@
     "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Aggiungi filigrane PDF in pochi secondi",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "Affidabile da 2,4 miliardi di persone dal 2013",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Modo facile per aggiungere filigrane ai PDF, nessuna installazione necessaria",
-    "pdf_tools__detail_description_object__watermark_pages__top_left": "Aggiungi un watermark ai documenti PDF con un Watermarker PDF gratuito. Non è necessario scaricare un'app, tutto funziona nel tuo browser su Mac, Windows, Linux e dispositivi mobili."
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Aggiungi un watermark ai documenti PDF con un Watermarker PDF gratuito. Non è necessario scaricare un'app, tutto funziona nel tuo browser su Mac, Windows, Linux e dispositivi mobili.",
+    "tools__index_page__constant_obj__pdf_page_deletepage__title": "Elimina pagine PDF",
+    "tools__index_page__constant_obj__pdf_page_deletepage__main_description": "Rimuovi una o più pagine dal tuo PDF",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_title": "Rimuovi Pagine Non Necessarie",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_description": "Questo strumento online può essere utilizzato per rimuovere singole o multiple pagine dal tuo documento PDF in un attimo. Non preoccuparti dei PDF imperfetti. Risolvi il problema con pochi semplici clic.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_title": "Rimuovi Pagine PDF in Modo Sicuro",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_description": "Non ci sono rischi quando rimuovi pagine PDF con noi. La tua privacy è protetta poiché l'intero processo di numerazione delle pagine avviene localmente sul tuo dispositivo.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_title": "Elimina Pagine PDF da Qualsiasi Dispositivo",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_description": "Elimina pagine PDF online con qualsiasi browser su Mac, Windows o Linux. Puoi anche utilizzare il rimuovi pagine PDF sul tuo dispositivo mobile, che sia un dispositivo Android o iOS.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_title": "Rimuovi una Pagina da un PDF Gratuitamente",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_description": "Lo strumento per eliminare pagine PDF ti consente di rimuovere una pagina da qualsiasi parte del tuo file. Offriamo una comoda anteprima per identificare rapidamente le pagine ridondanti.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_title": "Elimina Pagine PDF Facilmente",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_description": "Con il nostro semplice rimuovi pagine PDF, puoi correggere gli errori e perfezionare rapidamente il tuo PDF. Il risultato? Un PDF pronto per la condivisione con il tempo per gustarti una tazza di caffè.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_title": "Accesso da Qualsiasi Luogo",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_description": "Per eliminare una o più pagine da un PDF, non hai bisogno di software costoso. Carica semplicemente il tuo file, elimina le pagine e scarica o esporta.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_title": "Come Eliminare Pagine dai File PDF:",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_1": "Importa o trascina il tuo file PDF nel nostro strumento di eliminazione pagine.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_2": "Clicca sulle icone di eliminazione per rimuovere le pagine non desiderate.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_3": "Aggiungi documenti aggiuntivi se necessario.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_4": "Clicca su “Conferma per eliminare” e attendi solo un istante.",
+    "pdf_tools__detail_description_object__deletepage_pages__top_left": "Uno strumento PDF online gratuito e facile da usare per eliminare pagine dai PDF. Nessuna registrazione o installazione necessaria.",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "Funziona in modo sicuro e semplice nel tuo browser",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "Elimina più pagine da un PDF in una volta",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "Funziona nel tuo browser, nessun software necessario",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Scarica il tuo nuovo file PDF, è tutto!"
   },
   "use_cases_pages": {
     "research__title": "Potenzia il tuo browser con Ricerca AI 10 volte più veloce",
@@ -1316,7 +1340,9 @@
     "pdf_tools__pdf_numbers_page__title": "Aggiungi numeri di pagina a PDF - Strumento di numerazione online veloce | MaxAI.me",
     "pdf_tools__pdf_numbers_page__description": "Aggiungi rapidamente numeri di pagina ai file PDF online. Nessun software necessario, elaborazione sicura nel browser. Nessun watermark, limite di dimensione del file, download o registrazione richiesti.",
     "pdf_tools__pdf_watermark_page__title": "Watermarker PDF gratuito | Watermark PDF su qualsiasi dispositivo",
-    "pdf_tools__pdf_watermark_page__description": "Aggiungi facilmente un watermark ai documenti PDF. Non è necessario scaricare un'app, tutto funziona nel tuo browser su Mac, Windows, Linux e dispositivi mobili."
+    "pdf_tools__pdf_watermark_page__description": "Aggiungi facilmente un watermark ai documenti PDF. Non è necessario scaricare un'app, tutto funziona nel tuo browser su Mac, Windows, Linux e dispositivi mobili.",
+    "pdf_tools__pdf_deletepages_page__title": "Rimuovi Pagina PDF | Elimina Pagine da PDF Online Gratuitamente",
+    "pdf_tools__pdf_deletepages_page__description": "Hai bisogno di rimuovere pagine da un PDF? Puoi eliminare pagine PDF con il nostro semplice strumento online. Carica un PDF, elimina pagine e salva le modifiche. Nessuna registrazione necessaria."
   },
   "features_landing": {
     "cta_text": "Aggiungi al Browser",
@@ -1821,5 +1847,9 @@
     "components__protect_pdf_detail__input__placeholder": "Imposta la tua password",
     "components__protect_pdf_detail__repeat_input__placeholder": "Conferma la tua password",
     "components__protect_pdf_detail__use_tips": "La password e i file PDF non verranno caricati sul server, garantendo sicurezza."
+  },
+  "pages__pdf_tools__deletepage_pdf": {
+    "confirm_to_delete": "Conferma eliminazione",
+    "delete_download": "Elimina e scarica PDF"
   }
 }

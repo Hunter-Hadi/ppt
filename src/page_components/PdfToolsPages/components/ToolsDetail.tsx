@@ -128,6 +128,15 @@ const FunctionalityWaterMarkPdfMain = dynamic(
     loading: () => <AppLoadingLayout loading />,
   },
 )
+const FunctionalityDeletePagePdfMain = dynamic(
+  () =>
+    import(
+      '@/features/functionality_delete_page_pdf/components/FunctionalityDeletePagePdfMain'
+    ),
+  {
+    loading: () => <AppLoadingLayout loading />,
+  },
+)
 interface IToolsDetailProps {
   urlKey: IToolUrkKeyType
 }
@@ -209,6 +218,10 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       title: t('seo:pdf_tools__pdf_watermark_page__title'),
       description: t('seo:pdf_tools__pdf_watermark_page__description'),
     },
+    'delete-page-pdf': {
+      title: t('seo:pdf_tools__pdf_deletepages_page__title'),
+      description: t('seo:pdf_tools__pdf_deletepages_page__description'),
+    }
   }
   const toolsDetailDescriptionData = allPdfToolsDetailDescriptionObject[urlKey]
   const toolList = useMemo(
@@ -263,6 +276,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
             {urlKey === 'unlock-pdf' && <FunctionalityUnlockPdfMain />}
             {urlKey === 'protect-pdf' && <FunctionalityProtectPdfMain />}
             {urlKey === 'watermark-pdf' && <FunctionalityWaterMarkPdfMain />}
+            {urlKey === 'delete-page-pdf' && <FunctionalityDeletePagePdfMain />}
           </Suspense>
         </Box>
         {toolsDetailDescriptionData && (
