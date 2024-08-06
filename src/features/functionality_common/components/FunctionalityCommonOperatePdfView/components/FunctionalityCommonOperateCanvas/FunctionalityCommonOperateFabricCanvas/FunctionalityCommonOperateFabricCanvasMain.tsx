@@ -1,6 +1,7 @@
 /* eslint-disable no-debugger */
 import { Box } from '@mui/material'
 import * as fabric from 'fabric'
+import { cloneDeep } from 'lodash-es'
 import React, {
   forwardRef,
   ForwardRefRenderFunction,
@@ -9,12 +10,14 @@ import React, {
   useImperativeHandle,
   useMemo,
   useRef,
-  useState,
 } from 'react'
+import { useSetRecoilState } from 'recoil'
 import { v4 as uuidV4 } from 'uuid'
 
 import { useFunctionalityCommonElementSize } from '@/features/functionality_common/hooks/useFunctionalityCommonElementSize'
+import { useFunctionalityCommonFabricCanvasEvent } from '@/features/functionality_common/hooks/useFunctionalityCommonFabricCanvasEvent'
 
+import { fabricCanvasJsonStringListRecoil } from '../../../store/setOperateFabricCanvas'
 import { ICanvasObjectData } from '../../../types'
 import eventEmitter, {
   eventEmitterAddFabricIndexCanvasKey,
@@ -42,14 +45,25 @@ interface IFunctionalityCommonOperateFabricCanvasProps {
   isMobile?: boolean //是否是移动端
   defaultWidth: number
   index: number
+  canvasNumber: number
 }
 const FunctionalityCommonOperateFabricCanvas: ForwardRefRenderFunction<
   IFunctionalityCommonOperateFabricCanvasHandles,
   IFunctionalityCommonOperateFabricCanvasProps
 > = (
-  { canvasScale, maxEnlarge = 1.5, isMobile, defaultWidth = 2000, index },
+  {
+    canvasScale,
+    maxEnlarge = 1.5,
+    isMobile,
+    defaultWidth = 2000,
+    index,
+    canvasNumber,
+  },
   handleRef,
 ) => {
+  const setFabricCanvasJsonStringListRecoil = useSetRecoilState(
+    fabricCanvasJsonStringListRecoil,
+  )
   const isInitEventEmitter = useRef<boolean>(false)
   const topWrapRef = useRef<HTMLElement | null>(null)
   const fabricCanvasRef = useRef<HTMLCanvasElement>(null)
@@ -68,10 +82,34 @@ const FunctionalityCommonOperateFabricCanvas: ForwardRefRenderFunction<
     const scale = currentCanvasSize.width / width
     return scale
   }, [currentCanvasSize.width, defaultWidth])
-  const [controlAddNewDiv, setControlAddNewDiv] = useState<IControlDiv | null>(
-    null,
-  ) // 当前选中对象的位置
+  useEffect(() => {
+    console.log('currentCanvasSize', currentCanvasSize)
+    console.log('canvasChangeScale', canvasChangeScale)
+  }, [canvasChangeScale, currentCanvasSize])
   // 添加签名对象
+  const saveCurrentCanvasData = useCallback(() => {
+    try {
+      const json = fabricCanvas.current?.toJSON()
+      if (json) {
+        setFabricCanvasJsonStringListRecoil((list) => {
+          const copyList = cloneDeep(list)
+          copyList[index] = JSON.stringify(json)
+          return copyList
+        })
+      }
+    } catch (e) {
+      console.log('simply saveCurrentCanvasData error', e)
+    }
+  }, [index, setFabricCanvasJsonStringListRecoil])
+  const { initEvent, controlAddNewDiv, selectLength, setControlAddNewDiv } =
+    useFunctionalityCommonFabricCanvasEvent({
+      fabricCanvas,
+      saveCurrentCanvasData,
+      topWrapRef,
+      canvasIndex: index,
+      canvasNumber: canvasNumber,
+      canvasChangeScale: canvasChangeScale,
+    })
   const onAddObject = useCallback(
     async (
       canvasObject?: ICanvasObjectData,
@@ -163,26 +201,25 @@ const FunctionalityCommonOperateFabricCanvas: ForwardRefRenderFunction<
     const handleNotify = (data) => {
       onAddObject(data)
     }
-    const handleTestNotify = (data) => {
-      console.log('handleTestNotify')
-      if (fabricCanvas.current) {
-        const zoom = fabricCanvas.current.getZoom()
-        data.left = data.left / zoom
-        data.top = data.top / zoom
-        data.width = data.width / zoom
-        data.height = data.height / zoom
-        fabricCanvas.current.add(data)
-        fabricCanvas.current.renderAll() // 重新渲染画布
-      }
-    }
-    eventEmitter.off(
-      'eventEmitterAddFabricTestTextCanvasKey-' + index,
-      handleTestNotify,
-    )
-    eventEmitter.on(
-      'eventEmitterAddFabricTestTextCanvasKey-' + index,
-      handleTestNotify,
-    )
+    // const handleTestNotify = (data) => {
+    //   if (fabricCanvas.current) {
+    //     const zoom = fabricCanvas.current.getZoom()
+    //     data.left = data.left / zoom
+    //     data.top = data.top / zoom
+    //     data.width = data.width / zoom
+    //     data.height = data.height / zoom
+    //     fabricCanvas.current.add(data)
+    //     fabricCanvas.current.renderAll() // 重新渲染画布
+    //   }
+    // }
+    // eventEmitter.off(
+    //   'eventEmitterAddFabricTestTextCanvasKey-' + index,
+    //   handleTestNotify,
+    // )
+    // eventEmitter.on(
+    //   'eventEmitterAddFabricTestTextCanvasKey-' + index,
+    //   handleTestNotify,
+    // )
     eventEmitter.off(eventEmitterAddFabricIndexCanvasKey + index, handleNotify)
     // 订阅事件
     eventEmitter.on(eventEmitterAddFabricIndexCanvasKey + index, handleNotify)
@@ -202,6 +239,7 @@ const FunctionalityCommonOperateFabricCanvas: ForwardRefRenderFunction<
           allowTouchScrolling: isMobile, //是否允许触摸滚动
         })
         fabricCanvas.current = canvas
+        initEvent(fabricCanvas)
       }
     } catch (e) {
       console.error('simply Init error', e)

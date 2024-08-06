@@ -25,6 +25,8 @@ const FunctionalityCommonOperatePdfToolViewMain: FC<
 > = ({ file, isShowBottomOperation, enableEditTypes, currentEditType }) => {
   const initEventEmitter = useRef(false)
   const [currentPage, setCurrentPage] = React.useState(0)
+  const [numberPage, setNumberPage] = React.useState(0)
+
   const definedEnableEditTypes = useMemo(
     () => enableEditTypes || ['annotator', 'insert'],
     [enableEditTypes],
@@ -76,7 +78,9 @@ const FunctionalityCommonOperatePdfToolViewMain: FC<
             //TODO: 读取PDF失败
           }
         }}
-        onDocumentLoadSuccess={(info) => {}}
+        onDocumentLoadSuccess={(info) => {
+          setNumberPage(info.numPages)
+        }}
       >
         {(props) => {
           return (
@@ -129,6 +133,7 @@ const FunctionalityCommonOperatePdfToolViewMain: FC<
                   <FunctionalityCommonOperateFabricCanvas
                     defaultWidth={props.pdfInfo.width * 2}
                     index={props.index}
+                    canvasNumber={numberPage}
                     canvasScale={props.pdfInfo.height / props.pdfInfo.width}
                     ref={(el) => {
                       if (el) {
