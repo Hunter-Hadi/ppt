@@ -165,12 +165,12 @@ const AppFooter = () => {
                     {
                       label: t('app_footer:use_cases__research__label'),
                       icon: null,
-                      link: `/use-cases/research`,
+                      link: `/use-cases/research/`,
                     },
                     {
                       label: t('app_footer:use_cases__writing__label'),
                       icon: null,
-                      link: `/use-cases/writing`,
+                      link: `/use-cases/writing/`,
                     },
                     {
                       label: t('app_footer:use_cases__ai_prompt__label'),
@@ -194,7 +194,7 @@ const AppFooter = () => {
                     {
                       label: t('app_footer:resource__affiliate__label'),
                       icon: null,
-                      link: `/affiliate`,
+                      link: `/affiliate/`,
                     },
                     {
                       label: t('app_footer:resource__learning_center__label'),
@@ -230,7 +230,7 @@ const AppFooter = () => {
                       label: t('modules:footer__contact_us'),
                       // icon: <MailOutlineIcon />,
                       icon: null,
-                      link: '/contact-us',
+                      link: '/contact-us/',
                     },
                     {
                       label: 'X/Twitter',
@@ -254,61 +254,61 @@ const AppFooter = () => {
                   title={t('modules:header__menu__products__features')}
                   data={[
                     {
-                      link: '/features/ai-summary',
+                      link: '/features/ai-summary/',
                       label: t(
                         'modules:header__menu__products__features__ai_summary__label',
                       ),
                     },
                     {
-                      link: '/features/ai-reader',
+                      link: '/features/ai-reader/',
                       label: t(
                         'modules:header__menu__products__features__ai_reading_assistant__label',
                       ),
                     },
                     {
-                      link: '/features/ai-vision',
+                      link: '/features/ai-vision/',
                       label: t(
                         'modules:header__menu__products__features__ai_vision__label',
                       ),
                     },
                     {
-                      link: '/features/ai-rewriter',
+                      link: '/features/ai-rewriter/',
                       label: t(
                         'modules:header__menu__products__features__ai_rewriter__label',
                       ),
                     },
                     {
-                      link: '/features/ai-instant-reply',
+                      link: '/features/ai-instant-reply/',
                       label: t(
                         'modules:header__menu__products__features__ai_instant_reply__label',
                       ),
                     },
                     {
-                      link: '/features/ai-chat',
+                      link: '/features/ai-chat/',
                       label: t(
                         'modules:header__menu__products__features__ai_chat__label',
                       ),
                     },
                     {
-                      link: '/features/ai-search',
+                      link: '/features/ai-search/',
                       label: t(
                         'modules:header__menu__products__features__ai_search__label',
                       ),
                     },
                     {
-                      link: '/features/ai-translator',
+                      link: '/features/ai-translator/',
                       label: t(
                         'modules:header__menu__products__features__ai_translator__label',
                       ),
                     },
                     {
-                      link: '/features/ai-prompts',
+                      link: '/features/ai-prompts/',
                       label: t(
                         'modules:header__menu__products__features__ai_prompts__label',
                       ),
                     },
                     {
-                      link: '/features/ai-art',
+                      link: '/features/ai-art/',
                       label: t(
                         'modules:header__menu__products__features__ai_art__label',
                       ),
@@ -328,49 +328,49 @@ const AppFooter = () => {
                   title={t('modules:header__menu__products__industries')}
                   data={[
                     {
-                      link: `/industries/executives`,
+                      link: `/industries/executives/`,
                       label: t(
                         'modules:header__menu__products__industries__executives__label',
                       ),
                     },
                     {
-                      link: `/industries/marketing`,
+                      link: `/industries/marketing/`,
                       label: t(
                         'modules:header__menu__products__industries__marketing__label',
                       ),
                     },
                     {
-                      link: `/industries/education`,
+                      link: `/industries/education/`,
                       label: t(
                         'modules:header__menu__products__industries__education__label',
                       ),
                     },
                     {
-                      link: `/industries/consulting`,
+                      link: `/industries/consulting/`,
                       label: t(
                         'modules:header__menu__products__industries__consulting__label',
                       ),
                     },
                     {
-                      link: `/industries/hr`,
+                      link: `/industries/hr/`,
                       label: t(
                         'modules:header__menu__products__industries__hr__label',
                       ),
                     },
                     {
-                      link: `/industries/finance`,
+                      link: `/industries/finance/`,
                       label: t(
                         'modules:header__menu__products__industries__finance__label',
                       ),
                     },
                     {
-                      link: `/industries/real-estate`,
+                      link: `/industries/real-estate/`,
                       label: t(
                         'modules:header__menu__products__industries__real_estate__label',
                       ),
                     },
                     {
-                      link: `/industries/tech`,
+                      link: `/industries/tech/`,
                       label: t(
                         'modules:header__menu__products__industries__technical__label',
                       ),
