@@ -735,7 +735,31 @@
     "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "幾秒鐘內添加PDF浮水印",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "自2013年以來，已獲得24億用戶信任",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "輕鬆為PDF添加浮水印-無需安裝",
-    "pdf_tools__detail_description_object__watermark_pages__top_left": "使用免費的 PDF 水印工具為 PDF 文件添加水印。無需下載應用程式-一切在您的瀏覽器上運作，支援 Mac、Windows、Linux 和移動設備。"
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "使用免費的 PDF 水印工具為 PDF 文件添加水印。無需下載應用程式-一切在您的瀏覽器上運作，支援 Mac、Windows、Linux 和移動設備。",
+    "tools__index_page__constant_obj__pdf_page_deletepage__title": "刪除PDF頁面",
+    "tools__index_page__constant_obj__pdf_page_deletepage__main_description": "從您的PDF中刪除一個或多個頁面",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_title": "移除不需要的頁面",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_description": "此線上工具可快速移除 PDF 文件中的單個或多個頁面。不必為不完美的 PDF 擔心。輕鬆點擊即可解決問題。",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_title": "安全的 PDF 頁面移除工具",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_description": "使用我們移除 PDF 頁面時沒有風險。您的隱私得到保護，因為整個頁碼處理過程都在您的本機上進行。",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_title": "在任何設備上刪除 PDF 頁面",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_description": "在 Mac、Windows 或 Linux 上使用任何瀏覽器線上刪除 PDF 頁面。您甚至可以在 Android 或 iOS 設備上使用 PDF 頁面移除工具。",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_title": "免費刪除 PDF 中的頁面",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_description": "刪除 PDF 頁面工具可讓您從文件中的任何位置刪除頁面。我們提供方便的預覽，讓您快速識別多餘的頁面。",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_title": "輕鬆刪除 PDF 頁面",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_description": "使用我們易於使用的 PDF 頁面移除工具，您可以快速更正錯誤並完善您的 PDF。結果？一份準備好與他人分享的 PDF，還有時間喝杯咖啡。",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_title": "隨時隨地存取",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_description": "要從 PDF 中刪除一個或多個頁面，您無需昂貴的軟件。只需上傳您的文件，刪除頁面，然後下載或匯出。",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_title": "如何從 PDF 文件中刪除頁面：",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_1": "將 PDF 文件導入或拖放到我們的頁面刪除工具中。",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_2": "點擊刪除圖標以移除不需要的文件頁面。",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_3": "如有需要，添加其他文件。",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_4": "點擊“確認刪除”，稍等片刻。",
+    "pdf_tools__detail_description_object__deletepage_pages__top_left": "一個免費且易於使用的線上 PDF 工具，可從 PDF 中刪除頁面。無需註冊或安裝。",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "安全且簡單地在您的瀏覽器中運行",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "一次從 PDF 中刪除多個頁面",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "在您的瀏覽器中運作，無需軟體",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "下載您的新PDF文件-就是這樣！"
   },
   "prompt_library": {
     "use_prompt_library__title": "高品質 AI 提示庫",
@@ -1068,7 +1092,9 @@
     "use_cases__writing__title": "AI 寫作助手 | MaxAI.me",
     "use_cases__writing__desc": "將 AI 添加到您的瀏覽器，以改善和完善您在任何網頁上的寫作。生成引人入勝的電子郵件、文章、博客帖子、社交媒體帖子和論文。由 GPT-4o、Claude-3-opus、Gemini-1.5-pro 提供支持。",
     "pdf_tools__pdf_watermark_page__title": "免費 PDF 水印工具 | 在任何設備上為 PDF 添加水印",
-    "pdf_tools__pdf_watermark_page__description": "輕鬆為 PDF 文件添加水印。無需下載應用程式-一切在您的瀏覽器上運作，支援 Mac、Windows、Linux 和移動設備。"
+    "pdf_tools__pdf_watermark_page__description": "輕鬆為 PDF 文件添加水印。無需下載應用程式-一切在您的瀏覽器上運作，支援 Mac、Windows、Linux 和移動設備。",
+    "pdf_tools__pdf_deletepages_page__title": "PDF頁面移除器 | 免費線上刪除PDF頁面",
+    "pdf_tools__pdf_deletepages_page__description": "需要從PDF中刪除頁面嗎？您可以使用我們簡單的線上工具刪除PDF頁面。只需上傳PDF，刪除頁面，並保存您的更改。無需註冊。"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "全選",
@@ -1822,5 +1848,9 @@
     "components__protect_pdf_detail__input__placeholder": "設置您的密碼",
     "components__protect_pdf_detail__repeat_input__placeholder": "確認您的密碼",
     "components__protect_pdf_detail__use_tips": "密碼和PDF檔案將不會上傳到伺服器，確保安全。"
+  },
+  "pages__pdf_tools__deletepage_pdf": {
+    "confirm_to_delete": "確認刪除",
+    "delete_download": "刪除並下載 PDF"
   }
 }

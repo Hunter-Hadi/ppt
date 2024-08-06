@@ -735,7 +735,31 @@
     "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Dodaj znaki wodne do PDF w kilka sekund",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "Zaufane przez 2,4 miliarda osób od 2013 roku",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Łatwy sposób na znakowanie wodne PDF - nie wymaga instalacji",
-    "pdf_tools__detail_description_object__watermark_pages__top_left": "Dodaj znak wodny do dokumentów PDF za pomocą darmowego narzędzia do znakowania wodnego PDF. Nie trzeba pobierać aplikacji - wszystko działa w przeglądarce na Macu, Windowsie, Linuxie i urządzeniach mobilnych."
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Dodaj znak wodny do dokumentów PDF za pomocą darmowego narzędzia do znakowania wodnego PDF. Nie trzeba pobierać aplikacji - wszystko działa w przeglądarce na Macu, Windowsie, Linuxie i urządzeniach mobilnych.",
+    "tools__index_page__constant_obj__pdf_page_deletepage__title": "Usuń strony PDF",
+    "tools__index_page__constant_obj__pdf_page_deletepage__main_description": "Usuń jedną lub kilka stron z pliku PDF",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_title": "Usuń niepotrzebne strony",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_description": "Ten narzędzie online pozwala usunąć pojedyncze lub wiele stron z dokumentu PDF w mgnieniu oka. Nie martw się niedoskonałymi plikami PDF. Napraw problem za pomocą kilku łatwych kliknięć.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_title": "Bezpieczne usuwanie stron PDF",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_description": "Nie ma ryzyka związanego z usuwaniem stron PDF z nami. Twoja prywatność jest chroniona, ponieważ cały proces numeracji stron odbywa się lokalnie na Twoim urządzeniu.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_title": "Usuń strony PDF na dowolnym urządzeniu",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_description": "Usuń strony PDF online z dowolnej przeglądarki na Macu, Windowsie lub Linuksie. Możesz nawet użyć narzędzia do usuwania stron PDF na swoim urządzeniu mobilnym, czy to Android, czy iOS.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_title": "Usuń stronę z pliku PDF za darmo",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_description": "Narzędzie do usuwania stron PDF pozwala usunąć stronę z dowolnego miejsca w pliku. Oferujemy wygodny podgląd, dzięki któremu szybko zidentyfikujesz zbędne strony.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_title": "Usuń strony PDF łatwo",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_description": "Dzięki naszemu łatwemu w użyciu narzędziu do usuwania stron PDF, możesz poprawić błędy i doskonalić swój plik PDF szybko. Wynik? PDF gotowy do udostępnienia, pozostawiający czas na filiżankę kawy.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_title": "Dostęp z dowolnego miejsca",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_description": "Aby usunąć jedną lub więcej stron z pliku PDF, nie potrzebujesz drogiego oprogramowania. Po prostu załaduj swój plik, usuń strony i pobierz lub wyeksportuj.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_title": "Jak usunąć strony z plików PDF:",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_1": "Zaimportuj lub przeciągnij i upuść swój plik PDF do naszego narzędzia do usuwania stron.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_2": "Kliknij ikony usuwania, aby usunąć niechciane strony dokumentu.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_3": "Dodaj dodatkowe dokumenty, jeśli jest to konieczne.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_4": "Kliknij „Potwierdź usunięcie” i poczekaj chwilę.",
+    "pdf_tools__detail_description_object__deletepage_pages__top_left": "Darmowe i łatwe w użyciu narzędzie online do usuwania stron z plików PDF. Nie wymaga rejestracji ani instalacji.",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "Działa bezpiecznie i prosto w Twojej przeglądarce",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "Usuń wiele stron z pliku PDF jednocześnie",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "Działa w Twojej przeglądarce—nie potrzebujesz oprogramowania",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Pobierz swój nowy plik PDF—i to wszystko!"
   },
   "prompt_library": {
     "use_prompt_library__title": "Wysokiej jakości biblioteka promptów AI",
@@ -1068,7 +1092,9 @@
     "use_cases__writing__title": "Asystent pisania AI | MaxAI.me",
     "use_cases__writing__desc": "Dodaj AI do swojej przeglądarki, aby poprawić i udoskonalić swoje pisanie na dowolnej stronie internetowej. Generuj przekonujące e-maile, artykuły, wpisy na blogi, posty na mediach społecznościowych, prace naukowe. Napędzane przez GPT-4o, Claude-3-opus, Gemini-1.5-pro.",
     "pdf_tools__pdf_watermark_page__title": "Darmowy znak wodny PDF | Dodawanie znaków wodnych do PDF na dowolnym urządzeniu",
-    "pdf_tools__pdf_watermark_page__description": "Łatwe dodawanie znaku wodnego do dokumentów PDF. Nie trzeba pobierać aplikacji - wszystko działa w przeglądarce na Macu, Windowsie, Linuxie i urządzeniach mobilnych."
+    "pdf_tools__pdf_watermark_page__description": "Łatwe dodawanie znaku wodnego do dokumentów PDF. Nie trzeba pobierać aplikacji - wszystko działa w przeglądarce na Macu, Windowsie, Linuxie i urządzeniach mobilnych.",
+    "pdf_tools__pdf_deletepages_page__title": "Usuwanie Stron PDF | Usuń Strony z PDF Online za Darmo",
+    "pdf_tools__pdf_deletepages_page__description": "Potrzebujesz usunąć strony z pliku PDF? Możesz usunąć strony PDF za pomocą naszego prostego narzędzia online. Po prostu załaduj plik PDF, usuń strony i zapisz zmiany. Nie jest wymagana rejestracja."
   },
   "features_landing": {
     "cta_text": "Dodaj do przeglądarki",
@@ -1822,5 +1848,9 @@
     "components__protect_pdf_detail__input__placeholder": "Ustaw swoje hasło",
     "components__protect_pdf_detail__repeat_input__placeholder": "Potwierdź hasło",
     "components__protect_pdf_detail__use_tips": "Hasło i pliki PDF nie zostaną przesłane na serwer, co zapewnia bezpieczeństwo."
+  },
+  "pages__pdf_tools__deletepage_pdf": {
+    "confirm_to_delete": "Potwierdź usunięcie",
+    "delete_download": "Usuń i pobierz PDF"
   }
 }

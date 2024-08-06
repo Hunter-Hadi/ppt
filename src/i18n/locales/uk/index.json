@@ -735,7 +735,31 @@
     "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "سیکنڈز میں PDF واٹرمارک شامل کریں",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "2013 سے 2.4 بلین لوگوں کی اعتماد",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "PDFs پر واٹرمارک کرنے کا آسان طریقہ - کوئی انسٹالیشن کی ضرورت نہیں",
-    "pdf_tools__detail_description_object__watermark_pages__top_left": "مفت PDF واٹرمارکر کے ساتھ PDF دستاویزات پر واٹرمارک شامل کریں۔ کسی ایپ کو ڈاؤن لوڈ کرنے کی ضرورت نہیں ہے - سب کچھ آپ کے براؤزر میں میک، ونڈوز، لینکس اور موبائل ڈیوائسز پر کام کرتا ہے۔"
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "مفت PDF واٹرمارکر کے ساتھ PDF دستاویزات پر واٹرمارک شامل کریں۔ کسی ایپ کو ڈاؤن لوڈ کرنے کی ضرورت نہیں ہے - سب کچھ آپ کے براؤزر میں میک، ونڈوز، لینکس اور موبائل ڈیوائسز پر کام کرتا ہے۔",
+    "tools__index_page__constant_obj__pdf_page_deletepage__title": "پی ڈی ایف صفحات حذف کریں",
+    "tools__index_page__constant_obj__pdf_page_deletepage__main_description": "اپنے پی ڈی ایف سے ایک یا متعدد صفحات ہٹائیں",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_title": "ضرورت نہیں ہے والی صفحے ہٹائیں",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_description": "اس آن لائن ٹول کا استعمال کر کے آپ اپنے پی ڈی ایف دستاویز سے ایک یا متعدد صفحے فوراً ہٹا سکتے ہیں۔ نا مکمل پی ڈی ایف کے بارے میں پریشان نہ ہوں۔ چند آسان کلکس کے ذریعے مسئلہ حل کریں۔",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_title": "محفوظ پی ڈی ایف صفحہ ہٹانے والا",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_description": "ہمارے ساتھ پی ڈی ایف کے صفحے ہٹانے کے دوران کوئی خطرہ نہیں ہے۔ آپ کی رازداری کی حفاظت ہوتی ہے جبکہ پوری صفحہ نمبرنگ کی پروسیس آپ کی مشین پر ہوتی ہے۔",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_title": "کسی بھی آلہ سے پی ڈی ایف صفحے ہٹائیں",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_description": "میک، ونڈوز یا لینکس پر کسی بھی براؤزر کے ساتھ آن لائن پی ڈی ایف صفحے ہٹائیں۔ آپ اپنے موبائل پر بھی پی ڈی ایف صفحہ ہٹانے کا استعمال کر سکتے ہیں، چاہے وہ ایک اینڈرائیڈ ہو یا آئی او ایس ڈیوائس ہو۔",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_title": "پی ڈی ایف سے صفحہ مفت ہٹائیں",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_description": "پی ڈی ایف صفحات ہٹانے والا ٹول آپ کو فائل کے کسی بھی حصے سے ایک صفحہ ہٹانے کی اجازت دیتا ہے۔ ہم آپ کے لیے ایک مفید پیش نظارہ فراہم کرتے ہیں تاکہ آپ فوراً غیر ضروری صفحات کو شناخت سکیں۔",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_title": "پی ڈی ایف صفحات آسانی سے ہٹائیں",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_description": "ہمارے آسان استعمال پی ڈی ایف صفحہ ہٹانے کے ذریعے آپ غلطیوں کو درست کر سکتے ہیں اور اپنے پی ڈی ایف کو فوراً مکمل کر سکتے ہیں۔ نتیجہ؟ ایک پی ڈی ایف جو شیئر کرنے کے لیے تیار ہو گیا ہو اور ایک کپ کافی کے لیے وقت بچا ہو گا۔",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_title": "کہیں سے بھی رسائی حاصل کریں",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_description": "ایک یا زیادہ صفحات کو پی ڈی ایف سے ہٹانے کے لیے آپ کو مہنگے سافٹ ویئر کی ضرورت نہیں ہے۔ بس اپنی فائل اپ لوڈ کریں، صفحات ہٹائیں، اور ڈاؤن لوڈ یا ایکسپورٹ کریں۔",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_title": "پی ڈی ایف فائلوں سے صفحات کیسے ہٹائیں:",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_1": "اپنی پی ڈی ایف فائل کو درآور یا ڈریگ اینڈ ڈراپ کریں ہمارے صفحہ ہٹانے والے ٹول میں۔",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_2": "غیر مطلوبہ دستاویز صفحات کو ہٹانے کے لیے ڈیلیٹ آئیکن پر کلک کریں۔",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_3": "ضرورت ہو تو اضافی دستاویز شامل کریں۔",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_4": "کلک کریں “تصدیق کریں کہ ہٹائیں” اور صرف ایک لمحہ صبر کریں۔",
+    "pdf_tools__detail_description_object__deletepage_pages__top_left": "PDF کے صفحات ہٹانے کے لئے ایک مفت اور آسان آن لائن PDF ٹول۔ کوئی رجسٹریشن یا انسٹالیشن کی ضرورت نہیں ہے۔",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "آپ کے براؤزر میں محفوظ اور آسانی سے چلتا ہے",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "ایک ہی وقت میں PDF سے متعدد صفحات کو ہٹائیں",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "آپ کے براؤزر میں کام کرتا ہے—کوئی سافٹ ویئر کی ضرورت نہیں ہے",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "آپ کا نیا PDF فائل ڈاؤن لوڈ کریں—بس یہی ہے!"
   },
   "prompt_library": {
     "use_prompt_library__title": "بلند معیار کی AI پرومپ لائبریری",
@@ -1068,7 +1092,9 @@
     "use_cases__writing__title": "AI لکھنے کا معاون | MaxAI.me",
     "use_cases__writing__desc": "ویب صفحے پر اپنی لکھائی کو بہتر بنانے اور پالش کرنے کے لئے AI شامل کریں۔ دلچسپ ای میل، مضامین، بلاگ پوسٹس، سوشل میڈیا پوسٹس، پیپرز بنائیں۔ GPT-4o، Claude-3-opus، Gemini-1.5-pro کی طاقت سے چلتا ہے۔",
     "pdf_tools__pdf_watermark_page__title": "مفت PDF واٹرمارکر | کسی بھی ڈیوائس پر PDFs پر واٹرمارک کریں",
-    "pdf_tools__pdf_watermark_page__description": "PDF دستاویزات میں آسانی سے واٹرمارک شامل کریں۔ کسی ایپ کو ڈاؤن لوڈ کرنے کی ضرورت نہیں ہے - سب کچھ آپ کے براؤزر میں میک، ونڈوز، لینکس اور موبائل ڈیوائسز پر کام کرتا ہے۔"
+    "pdf_tools__pdf_watermark_page__description": "PDF دستاویزات میں آسانی سے واٹرمارک شامل کریں۔ کسی ایپ کو ڈاؤن لوڈ کرنے کی ضرورت نہیں ہے - سب کچھ آپ کے براؤزر میں میک، ونڈوز، لینکس اور موبائل ڈیوائسز پر کام کرتا ہے۔",
+    "pdf_tools__pdf_deletepages_page__title": "منسوخ کریں پیجز فارم پی ڈی ایف | مفت آن لائن",
+    "pdf_tools__pdf_deletepages_page__description": "پی ڈی ایف سے صفحات ہٹانے کی ضرورت ہے؟ آپ ہمارے آسان آن لائن ٹول کے ساتھ پی ڈی ایف کی صفحات کو حذف کرسکتے ہیں۔ بس ایک پی ڈی ایف اپ لوڈ کریں، صفحات کو حذف کریں، اور اپنے تبدیلیاں محفوظ کریں۔ کوئی سائن اپ کی ضرورت نہیں ہے۔"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "سب کو منتخب کریں",
@@ -1822,5 +1848,9 @@
     "components__protect_pdf_detail__input__placeholder": "اپنا پاسورڈ سیٹ کریں",
     "components__protect_pdf_detail__repeat_input__placeholder": "آپنا پاس ورڈ تصدیق کریں",
     "components__protect_pdf_detail__use_tips": "پاسورڈ اور پی ڈی ایف فائلیں سرور پر اپ لوڈ نہیں ہوں گی، توازن کی یقینیت۔"
+  },
+  "pages__pdf_tools__deletepage_pdf": {
+    "confirm_to_delete": "تصدیق کریں کہ حذف کریں",
+    "delete_download": "PDF حذف کریں اور ڈاؤن لوڈ کریں"
   }
 }

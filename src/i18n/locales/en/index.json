@@ -522,6 +522,12 @@
     "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Add PDF watermarks in seconds",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "Trusted by 2.4 billion people since 2013",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Easy way to watermark PDFs—no installation needed",
+    "tools__index_page__constant_obj__pdf_page_deletepage__title": "Delete PDF Pages",
+    "tools__index_page__constant_obj__pdf_page_deletepage__main_description": "Remove one or multiple pages from your PDF",
+    "pdf_tools__detail_description_object__deletepage_pages__top_left": "A free and easy-to-use online PDF tool to remove pages from PDFs. No registration or installation needed.",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "Runs securely and simply in your browser",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "Delete multiple pages from a PDF in one go",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "Works in your browser—no software needed",
     "pdf_tools__detail_description_object__merge_pdf__top_left": "Combine PDF files to create a single document online for free. It’s easy to merge PDFs with our PDF combiner. No watermarks and no file size limits.",
     "pdf_tools__detail_description_object__merge_pdf__top_right_1": "Merge multiple PDFs into one in seconds.",
     "pdf_tools__detail_description_object__merge_pdf__top_right_2": "Drag & drop your PDFs to start—easy!",
@@ -735,7 +741,25 @@
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_3": "Adjust page margins and other options as needed.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_4": "Click “Add & Download” and wait just a second.",
     "pdf_tools__detail_description_object__number_pages__bottom_right_description_5": "Download your PDF with page numbers—that’s it!",
-    "uninstall_survey__title": "Help us improve"
+    "uninstall_survey__title": "Help us improve",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_title": "Remove Pages You Don’t Need",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_description": "This online tool can be used to remove single or multiple pages from your PDF document in a jiffy. Don't stress about imperfect PDFs. Fix the problem with a few easy clicks.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_title": "Secure PDF Page Remover",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_description": "There's no risk involved when you remove PDF pages with us. Your privacy is safeguarded as the entire page numbering process occurs locally on your machine.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_title": "Delete PDF Pages on Any Device",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_description": "Delete PDF pages online with any browser on Mac, Windows, or Linux. You can even use the PDF page remover on your mobile, be it an Android or an iOS device.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_title": "Remove a Page From a PDF for Free",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_description": "The Delete PDF Pages tool lets you remove a page from anywhere in your file. We offer a handy preview for you to identify redundant pages quickly.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_title": "Delete PDF Pages Easily",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_description": "With our easy-to-use PDF page remover, you can correct mistakes and perfect your PDF quickly. The result? A PDF ready for sharing with time to spare for a cup of coffee.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_title": "Access From Anywhere",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_description": "In order to delete one or more pages from a PDF, you don’t need expensive software. Just upload your file, delete pages, and download or export.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_title": "How To Delete Pages From PDF Files:",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_1": "Import or drag & drop your PDF file to our page deletion tool.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_2": "Click the delete icons to remove unwanted document pages.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_3": "Add additional documents if needed.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_4": "Click “Confirm to delete” and wait just a second.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Download your new PDF file—that’s it!"
   },
   "pages__pdf_tools__unlock_pdf": {
     "title": "Unlock PDF",
@@ -763,6 +787,10 @@
     "detail_description_object__unlock_pdf__bottom_right_description_2": "Enter the password for the PDF file you know.",
     "detail_description_object__unlock_pdf__bottom_right_description_3": "Click ‘Unlock’ to download the unlocked PDF file.",
     "detail_description_object__unlock_pdf__bottom_right_description_4": "Once unlocked, you can freely access and edit your PDF files on any device."
+  },
+  "pages__pdf_tools__deletepage_pdf": {
+    "confirm_to_delete": "Confirm to delete",
+    "delete_download": "Delete and download PDF"
   },
   "pages__pdf_tools__protect_pdf": {
     "title": "Protect PDF",
@@ -1385,7 +1413,9 @@
     "pdf_tools__pdf_numbers_page__title": "Add Page Numbers to PDF – Fast Online Numbering Tool | MaxAI.me",
     "pdf_tools__pdf_numbers_page__description": "Quickly add page numbers to PDF files online. No software needed, secure in-browser processing. No watermarks, file size limits, downloads, or sign-ups required.",
     "pdf_tools__pdf_watermark_page__title": "Free PDF Watermarker | Watermark PDFs on any device",
-    "pdf_tools__pdf_watermark_page__description": "Easily add a watermark to PDF documents. No need to download an app–everything works in your browser on Mac, Windows, Linux, and mobile devices."
+    "pdf_tools__pdf_watermark_page__description": "Easily add a watermark to PDF documents. No need to download an app–everything works in your browser on Mac, Windows, Linux, and mobile devices.",
+    "pdf_tools__pdf_deletepages_page__title": "PDF Page Remover | Delete Pages from PDF Online for Free",
+    "pdf_tools__pdf_deletepages_page__description": "Need to remove pages from a PDF? You can delete PDF pages with our simple online tool. Just upload a PDF, delete pages, and save your changes. No signup needed."
   },
   "features_landing": {
     "cta_text": "Add to Browser",

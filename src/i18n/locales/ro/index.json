@@ -735,7 +735,31 @@
     "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "Adăugați filigrane PDF în câteva secunde",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "De încredere de 2,4 miliarde de persoane din 2013",
     "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "Modalitate ușoară de a adăuga filigrane la PDF-uri - nu este necesară instalarea",
-    "pdf_tools__detail_description_object__watermark_pages__top_left": "Adăugați o filigramă la documentele PDF cu un Filigran PDF gratuit. Nu este nevoie să descărcați o aplicație - totul funcționează în browserul dvs. pe Mac, Windows, Linux și dispozitive mobile."
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "Adăugați o filigramă la documentele PDF cu un Filigran PDF gratuit. Nu este nevoie să descărcați o aplicație - totul funcționează în browserul dvs. pe Mac, Windows, Linux și dispozitive mobile.",
+    "tools__index_page__constant_obj__pdf_page_deletepage__title": "Ștergeți paginile PDF",
+    "tools__index_page__constant_obj__pdf_page_deletepage__main_description": "Eliminați una sau mai multe pagini din PDF-ul dvs.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_title": "Eliminați paginile de care nu aveți nevoie",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_1_description": "Acest instrument online poate fi folosit pentru a elimina pagini unice sau multiple din documentul dvs. PDF rapid. Nu vă stresați cu PDF-urile imperfecte. Rezolvați problema cu doar câteva clicuri ușoare.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_title": "Eliminator de pagini PDF securizat",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_2_description": "Nu există niciun risc atunci când eliminați paginile PDF cu noi. Confidențialitatea dvs. este protejată deoarece întregul proces de numerotare a paginilor are loc local pe mașina dvs.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_title": "Ștergeți pagini PDF pe orice dispozitiv",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_3_description": "Ștergeți pagini PDF online cu orice browser pe Mac, Windows sau Linux. Puteți folosi chiar și eliminarea paginilor PDF pe dispozitivul dvs. mobil, fie că este un dispozitiv Android sau iOS.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_title": "Eliminați o pagină dintr-un PDF gratuit",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_4_description": "Instrumentul de ștergere a paginilor PDF vă permite să eliminați o pagină din orice parte a fișierului dvs. Oferim o previzualizare utilă pentru a identifica rapid paginile redundante.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_title": "Ștergeți pagini PDF ușor",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_5_description": "Cu eliminarea noastră ușor de utilizat a paginilor PDF, puteți corecta greșelile și să vă perfecționați PDF-ul rapid. Rezultatul? Un PDF pregătit pentru partajare cu timp suficient pentru o ceașcă de cafea.",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_title": "Accesați de oriunde",
+    "pdf_tools__detail_description_object__deletepage_pages__middle_6_description": "Pentru a șterge una sau mai multe pagini dintr-un PDF, nu aveți nevoie de software scump. Doar încărcați fișierul dvs., ștergeți paginile și descărcați sau exportați.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_title": "Cum să ștergeți pagini din fișierele PDF:",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_1": "Importați sau trageți și plasați fișierul PDF în instrumentul nostru de ștergere a paginilor.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_2": "Faceți clic pe pictogramele de ștergere pentru a elimina paginile nedorite ale documentului.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_3": "Adăugați documente suplimentare dacă este necesar.",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_4": "Faceți clic pe „Confirmare pentru ștergere” și așteptați doar un moment.",
+    "pdf_tools__detail_description_object__deletepage_pages__top_left": "Un instrument PDF online gratuit și ușor de utilizat pentru a elimina pagini din PDF-uri. Nu este necesară înregistrarea sau instalarea.",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "Rulează în siguranță și simplu în browserul tău",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "Șterge mai multe pagini dintr-un PDF odată",
+    "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "Funcționează în browserul tău—nu este necesară nicio aplicație",
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Descărcați noul dvs. fișier PDF—asta e tot!"
   },
   "prompt_library": {
     "use_prompt_library__title": "Bibliotecă de prompt-uri AI de înaltă calitate",
@@ -1068,7 +1092,9 @@
     "use_cases__writing__title": "Asistent de scriere AI | MaxAI.me",
     "use_cases__writing__desc": "Adaugă AI la browser-ul tău pentru a îmbunătăți și poliza scrierea pe orice pagină web. Generează e-mailuri captivante, articole, postări de blog, postări pe rețelele sociale, lucrări. Alimentat de GPT-4o, Claude-3-opus, Gemini-1.5-pro.",
     "pdf_tools__pdf_watermark_page__title": "Filigran PDF gratuit | Adăugați filigrane PDF pe orice dispozitiv",
-    "pdf_tools__pdf_watermark_page__description": "Adăugați ușor o filigramă la documentele PDF. Nu este nevoie să descărcați o aplicație - totul funcționează în browserul dvs. pe Mac, Windows, Linux și dispozitive mobile."
+    "pdf_tools__pdf_watermark_page__description": "Adăugați ușor o filigramă la documentele PDF. Nu este nevoie să descărcați o aplicație - totul funcționează în browserul dvs. pe Mac, Windows, Linux și dispozitive mobile.",
+    "pdf_tools__pdf_deletepages_page__title": "Eliminator de pagini PDF | Șterge pagini din PDF online gratuit",
+    "pdf_tools__pdf_deletepages_page__description": "Trebuie să elimini pagini dintr-un PDF? Poți șterge pagini PDF cu instrumentul nostru online simplu. Încarcă doar un PDF, șterge paginile și salvează-ți modificările. Nu este necesară înregistrarea."
   },
   "features_landing": {
     "cta_text": "Adaugă în Browser",
@@ -1822,5 +1848,9 @@
     "components__protect_pdf_detail__input__placeholder": "Setează-ți parola",
     "components__protect_pdf_detail__repeat_input__placeholder": "Confirmați parola dvs.",
     "components__protect_pdf_detail__use_tips": "Parola și fișierele PDF nu vor fi încărcate pe server, asigurând securitatea."
+  },
+  "pages__pdf_tools__deletepage_pdf": {
+    "confirm_to_delete": "Confirmă ștergerea",
+    "delete_download": "Șterge și descarcă PDF"
   }
 }

@@ -202,7 +202,6 @@ async function generatePromptsPages() {
 // 获取 pdf tools 页面
 async function generatePdfToolsPages() {
   const pdfToolsPages = []
-
   Object.keys(pdfToolsKeyI18nMap).forEach((pdfToolKey) => {
     localeCode.forEach((locale) => {
       pdfToolsPages.push(
@@ -210,7 +209,6 @@ async function generatePdfToolsPages() {
       )
     })
   })
-
   return pdfToolsPages
 }
 
