@@ -24,6 +24,7 @@ const nextConfig = {
     NEXT_PUBLIC_APP_PROJECT_HOST: APP_PROJECT_HOST,
     NEXT_PUBLIC_API_PROJECT_HOST: API_PROJECT_HOST,
     NEXT_PUBLIC_BASE_PATH: String(basePath || ''),
+    // ...
   }
 }
 ```
