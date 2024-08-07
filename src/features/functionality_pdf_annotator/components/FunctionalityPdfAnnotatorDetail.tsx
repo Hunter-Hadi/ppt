@@ -22,12 +22,16 @@ import { useRecoilState } from 'recoil'
 
 import FunctionalityCommonOperatePdfToolViewMain from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/components/FunctionalityCommonOperatePdfToolViewMain'
 import useFunctionalityEditDndContextHandle from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/hooks/useFunctionalityEditDndContextHandle'
-import { fabricCanvasJsonStringListRecoil } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/store/setOperateFabricCanvas'
+import {
+  fabricCanvasJsonStringListRecoil,
+  fabricCanvasSignObjectListRecoil,
+} from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/store/setOperateFabricCanvas'
 import { textAnnotatorRecoilList } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/store/setTextContentAnnotator'
 import { pdfLibFabricCanvasEmbedSave } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/utils/FabricCanvas/pdfLibFabricCanvasEmbedSave'
 import { textContentHighlighterPdfLibEmbedSave } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/utils/TextContentHighlighter/pdfLibEmbedSave'
 import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload'
+import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex'
 
 import FunctionalityPdfAnnotatorOperationAreaInsertTools from './FunctionalityPdfAnnotatorOperationAreaInsertTools'
 export interface IFunctionalityPdfAnnotatorDetailHandles {}
@@ -44,6 +48,9 @@ const FunctionalityPdfAnnotatorDetail: ForwardRefRenderFunction<
 
   const [textAnnotatorList, setTextAnnotatorList] = useRecoilState(
     textAnnotatorRecoilList,
+  )
+  const [, setFabricCanvasSignObjectList] = useRecoilState(
+    fabricCanvasSignObjectListRecoil,
   )
   const [fabricCanvasJsonStringList, setFabricCanvasJsonStringList] =
     useRecoilState(fabricCanvasJsonStringListRecoil)
@@ -111,7 +118,10 @@ const FunctionalityPdfAnnotatorDetail: ForwardRefRenderFunction<
     pdfDoc
       .save()
       .then((blob) => {
-        downloadUrl(blob, 'newFileName.pdf')
+        const newFileName = functionalityCommonFileNameRemoveAndAddExtension(
+          file.name,
+        )
+        downloadUrl(blob, newFileName)
       })
       .finally(() => {
         setDownLoadLoading(false)
@@ -156,8 +166,11 @@ const FunctionalityPdfAnnotatorDetail: ForwardRefRenderFunction<
           variant='outlined'
           size='large'
           onClick={() => {
-            setTextAnnotatorList([])
-            setFabricCanvasJsonStringList([])
+            setTimeout(() => {
+              setTextAnnotatorList([])
+              setFabricCanvasJsonStringList([])
+              setFabricCanvasSignObjectList([])
+            }, 500) //清空画布,暂时这样处理，不然清理不掉
             onClearFile()
           }}
           disabled={downLoadLoading}

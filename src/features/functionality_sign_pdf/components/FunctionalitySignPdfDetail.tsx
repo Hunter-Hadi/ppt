@@ -1,3 +1,4 @@
+/* eslint-disable no-debugger */
 import {
   DndContext,
   DragOverlay,
@@ -12,7 +13,7 @@ import { useTranslation } from 'next-i18next'
 import { PDFDocument } from 'pdf-lib'
 import { FC, useEffect, useMemo, useRef, useState } from 'react'
 import React from 'react'
-import { useRecoilState, useRecoilValue } from 'recoil'
+import { useRecoilState } from 'recoil'
 import { v4 as uuidV4 } from 'uuid'
 
 import FunctionalityCommonOperateFabricToolsPopup from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/components/FunctionalityCommonOperateCanvas/FunctionalityCommonOperateFabricCanvas/FunctionalityCommonOperateFabricToolsPopup'
@@ -62,9 +63,8 @@ export const FunctionalitySignPdfDetail: FC<
   IFunctionalitySignPdfDetailProps
 > = ({ file, onClearReturn }) => {
   const isMobile = useFunctionalityCommonIsMobile()
-  const setFabricCanvasSignObjectList = useRecoilValue(
-    fabricCanvasSignObjectListRecoil,
-  )
+  const [fabricCanvasSignObjectList, setFabricCanvasSignObjectList] =
+    useRecoilState(fabricCanvasSignObjectListRecoil)
   const { t } = useTranslation()
   const [fabricCanvasJsonStringList, setFabricCanvasJsonStringList] =
     useRecoilState(fabricCanvasJsonStringListRecoil)
@@ -94,8 +94,8 @@ export const FunctionalitySignPdfDetail: FC<
     IActiveDragData | undefined
   >(undefined)
   const signNumber = useMemo(
-    () => setFabricCanvasSignObjectList.length,
-    [setFabricCanvasSignObjectList],
+    () => fabricCanvasSignObjectList.length,
+    [fabricCanvasSignObjectList],
   )
   const [downloadUint8Array, setDownloadUint8Array] =
     useState<null | Uint8Array>(null) //签名数据
@@ -152,6 +152,13 @@ export const FunctionalitySignPdfDetail: FC<
     }
 
     setActiveDragData(undefined)
+  }
+  const onClearFile = async () => {
+    setTimeout(() => {
+      setFabricCanvasJsonStringList([])
+      setFabricCanvasSignObjectList([])
+    }, 500) //清空画布,暂时这样处理，不然清理不掉
+    onClearReturn()
   }
   const {
     activeData,
@@ -297,10 +304,7 @@ export const FunctionalitySignPdfDetail: FC<
             {downloadUint8Array && (
               <FunctionalitySignCompleteSignatureInfo
                 fileName={file.name}
-                onClearReturn={() => {
-                  setFabricCanvasJsonStringList([])
-                  onClearReturn()
-                }}
+                onClearReturn={onClearFile}
                 downloadUint8Array={downloadUint8Array}
               />
             )}

@@ -107,7 +107,6 @@ const autoCheckTopIsAbnormal = (
   canvasObject: fabric.Object,
   isAutoObjectSizePosition?: boolean,
 ) => {
-  debugger
   const zoom = 1 / (fabricCanvas.current.getZoom() || 1)
   const canvasHeight = fabricCanvas.current.height * zoom
   const canvasObjectHeight = canvasObject.height * canvasObject.scaleX
