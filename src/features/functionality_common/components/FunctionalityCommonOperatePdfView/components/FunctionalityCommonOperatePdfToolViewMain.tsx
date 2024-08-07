@@ -131,6 +131,9 @@ const FunctionalityCommonOperatePdfToolViewMain: FC<
                     bottom: 0,
                     right: 0,
                     zIndex: currentEditType === 'annotator' ? 999 : 1,
+                    ' > div, >span': {
+                      zIndex: currentEditType === 'annotator' ? 999 : 1,
+                    },
                   }}
                 >
                   <FunctionalityCommonTextContentPage

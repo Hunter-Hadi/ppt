@@ -47,6 +47,13 @@ const FunctionalityOperationAreaCanvasTools: FC<
     })
     onChangeType('insert')
   }
+  const onAddText = () => {
+    eventEmitterAddFabricCanvas({
+      type: 'text-box',
+      value: 'Type something…',
+    })
+    onChangeType('insert')
+  }
   return (
     <Stack direction='row' alignItems='center' justifyContent='space-between'>
       <Stack
@@ -70,8 +77,24 @@ const FunctionalityOperationAreaCanvasTools: FC<
             color='primary'
             name='Brush'
           />
-          <Typography variant='custom' fontSize={12} color='primary.main'>
-            批注
+          <Typography variant='custom' fontSize={14} color='primary.main'>
+            文本批注
+          </Typography>
+        </Button>
+        <Button
+          onClick={() => onAddText()}
+          sx={{
+            flexDirection: 'column',
+          }}
+          size='small'
+        >
+          <FunctionalityPdfAnnotatorIcon
+            fontSize='inherit'
+            color='primary'
+            name='Brush'
+          />
+          <Typography variant='custom' fontSize={14} color='primary.main'>
+            插入文本
           </Typography>
         </Button>
         <UploadButton
@@ -91,8 +114,8 @@ const FunctionalityOperationAreaCanvasTools: FC<
             color='primary'
             name='Image'
           />
-          <Typography variant='custom' fontSize={12} color='primary.main'>
-            图片
+          <Typography variant='custom' fontSize={14} color='primary.main'>
+            插入图片
           </Typography>
         </UploadButton>
         <FunctionalityCommonSignaturePopoverViewMain onAddImg={onAddImg}>
@@ -107,8 +130,8 @@ const FunctionalityOperationAreaCanvasTools: FC<
               color='primary'
               name='Brush'
             />
-            <Typography variant='custom' fontSize={12} color='primary.main'>
-              签名
+            <Typography variant='custom' fontSize={14} color='primary.main'>
+              插入签名
             </Typography>
           </Button>
         </FunctionalityCommonSignaturePopoverViewMain>
@@ -126,7 +149,7 @@ const FunctionalityOperationAreaCanvasTools: FC<
               : undefined
           }
         >
-          <Button
+          {/* <Button
             sx={{
               flexDirection: 'column',
               bgcolor: isOpenPagePainter ? '#f5f5f5' : 'transparent',
@@ -142,7 +165,7 @@ const FunctionalityOperationAreaCanvasTools: FC<
             <Typography variant='custom' fontSize={12} color='primary.main'>
               随意画
             </Typography>
-          </Button>
+          </Button> */}
           {isOpenPagePainter && (
             <Button
               sx={{

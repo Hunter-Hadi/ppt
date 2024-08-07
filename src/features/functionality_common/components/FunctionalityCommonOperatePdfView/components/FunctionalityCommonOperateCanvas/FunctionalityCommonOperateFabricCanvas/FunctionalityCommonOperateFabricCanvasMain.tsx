@@ -1,13 +1,13 @@
 /* eslint-disable no-debugger */
 import { Box } from '@mui/material'
 import * as fabric from 'fabric'
-import { cloneDeep } from 'lodash-es'
+import { cloneDeep, debounce } from 'lodash-es'
 import React, { FC, useCallback, useEffect, useMemo, useRef } from 'react'
 import { useRecoilState } from 'recoil'
 
 import { useFunctionalityCommonElementSize } from '@/features/functionality_common/hooks/useFunctionalityCommonElementSize'
-import { useFunctionalityCommonFabricCanvasEvent } from '@/features/functionality_common/hooks/useFunctionalityCommonFabricCanvasEvent'
 
+import { useFunctionalityCommonFabricCanvasEvent } from '../../../hooks/useFunctionalityCommonFabricCanvasEvent'
 import {
   fabricCanvasJsonStringListRecoil,
   fabricCanvasZoomRecoil,
@@ -75,20 +75,23 @@ const FunctionalityCommonOperateFabricCanvas: FC<
     console.log('canvasChangeScale', canvasChangeScale)
   }, [canvasChangeScale, currentCanvasSize])
   // 添加签名对象
-  const saveCurrentCanvasData = useCallback(() => {
-    try {
-      const json = fabricCanvas.current?.toJSON()
-      if (json) {
-        setFabricCanvasJsonStringList((list) => {
-          const copyList = cloneDeep(list)
-          copyList[index] = JSON.stringify(json)
-          return copyList
-        })
+  const saveCurrentCanvasData = useCallback(
+    debounce(() => {
+      try {
+        const json = fabricCanvas.current?.toJSON() // your fabricCanvas reference
+        if (json) {
+          setFabricCanvasJsonStringList((list) => {
+            const copyList = cloneDeep(list)
+            copyList[index] = JSON.stringify(json)
+            return copyList
+          })
+        }
+      } catch (e) {
+        console.log('simply saveCurrentCanvasData error', e)
       }
-    } catch (e) {
-      console.log('simply saveCurrentCanvasData error', e)
-    }
-  }, [index, setFabricCanvasJsonStringList])
+    }, 500), // 1秒内只执行第一次
+    [index, setFabricCanvasJsonStringList],
+  )
   const {
     initEvent,
     controlAddNewDiv,
@@ -172,6 +175,9 @@ const FunctionalityCommonOperateFabricCanvas: FC<
         initEvent(fabricCanvas)
         if (!isMobile) return //移动端需要的滚动逻辑
         fabricMobileMove(fabricCanvas.current)
+        return () => {
+          saveCurrentCanvasData()
+        }
       }
     } catch (e) {
       console.error('simply Init error', e)
@@ -187,6 +193,7 @@ const FunctionalityCommonOperateFabricCanvas: FC<
       fabricCanvas.current.setZoom(canvasChangeScale) // 设置缩放比例
       setFabricCanvasZoomRecoil(canvasChangeScale)
       fabricCanvas.current.renderAll() // 重新渲染画布
+      saveCurrentCanvasData()
     }
   }, [
     topViewWidth,
@@ -196,6 +203,7 @@ const FunctionalityCommonOperateFabricCanvas: FC<
     defaultWidth,
     canvasChangeScale,
     setFabricCanvasZoomRecoil,
+    saveCurrentCanvasData,
   ])
   const handlePopupClick = (event) => {
     //因为写了点击其它区域关闭，所以这里做了阻止冒泡
@@ -232,6 +240,7 @@ const FunctionalityCommonOperateFabricCanvas: FC<
             controlDiv={controlDiv}
             scaleFactor={canvasChangeScale}
             editor={fabricCanvas}
+            onChangeObject={saveCurrentCanvasData}
           />
         </Box>
       )}

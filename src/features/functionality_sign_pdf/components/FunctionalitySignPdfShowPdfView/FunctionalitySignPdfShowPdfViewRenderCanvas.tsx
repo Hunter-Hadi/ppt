@@ -129,7 +129,6 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
         !event.target.closest('.functionality-sign-pdf-save-view') //不知道为什么，这个点击事件触发两次才有效，所以加了这个
       ) {
         // 点击发生在Box组件外部
-        console.log('simply click outside')
         setUpdateTriggerCloseOpenAllPopupNum((num) => num + 1)
       }
     }
@@ -243,7 +242,7 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
   }, [])
   useEffect(() => {
     closeOpenAllPopup()
-  }, [topScrollKey, updateTriggerCloseOpenAllPopupNum])
+  }, [closeOpenAllPopup, topScrollKey, updateTriggerCloseOpenAllPopupNum])
 
   const changObjectToList = (object: fabric.Object, type: 'add' | 'del') => {
     if (object.type !== 'image') return //只有图片才算正式签名对象
@@ -625,7 +624,6 @@ const FunctionalitySignPdfShowPdfViewRenderCanvas: ForwardRefRenderFunction<
           setControlAddNewDiv(null)
           const centerX = sizeInfo && sizeInfo?.width / 2 //没有就默认居中
           const centerY = sizeInfo && sizeInfo?.height / 2
-          console.log('simply add ', canvasObject)
           const positionData = {
             left: canvasObject.x ? canvasObject.x / scaleFactor : centerX,
             top: canvasObject.y ? canvasObject.y / scaleFactor : centerY,

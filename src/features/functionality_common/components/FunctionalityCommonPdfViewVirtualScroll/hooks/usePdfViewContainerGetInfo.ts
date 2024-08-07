@@ -1,7 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { pdfjs } from 'react-pdf'
 
-import { optimizePDFJsTextSort } from '@/features/functionality_common/hooks/useFunctionalityCommonPdfjs'
 import { fileToUInt8Array } from '@/features/functionality_common/utils/functionalityCommonFileToUInt8Array'
 
 import { createRollingPageLoadTask } from '../utils/createRollingPageLoadTask'
@@ -107,10 +106,8 @@ const useChatPdfContainerGetInfo = (props: {
             if (currentPdfDocument.current && !pdfIsReadObj.current[index]) {
               try {
                 const page = await currentPdfDocument.current.getPage(index + 1)
-                page.getTextContent()
                 const viewport = page.getViewport({ scale: pdfPageClarity })
                 const textContent = await page.getTextContent()
-                optimizePDFJsTextSort(textContent)
                 pdfIsReadObj.current[index] = true
                 setPdfInfoList((prev) => {
                   let newList = [...prev]

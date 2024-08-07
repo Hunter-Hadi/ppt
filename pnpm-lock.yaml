@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@babel/core':
     specifier: ^7.20.12
@@ -40,6 +44,9 @@ dependencies:
   '@tanstack/react-query':
     specifier: ^5.12.2
     version: 5.12.2(react@18.2.0)
+  '@types/color':
+    specifier: ^3.0.6
+    version: 3.0.6
   '@types/mixpanel-browser':
     specifier: ^2.49.0
     version: 2.49.0
@@ -67,6 +74,9 @@ dependencies:
   classnames:
     specifier: ^2.3.2
     version: 2.3.2
+  color:
+    specifier: ^4.2.3
+    version: 4.2.3
   crypto-js:
     specifier: ^4.1.1
     version: 4.1.1
@@ -208,6 +218,9 @@ dependencies:
   recoil:
     specifier: ^0.7.6
     version: 0.7.6(react-dom@18.2.0)(react-native@0.73.2)(react@18.2.0)
+  recoil-persist:
+    specifier: ^5.1.0
+    version: 5.1.0(recoil@0.7.6)
   remark-breaks:
     specifier: ^3.0.3
     version: 3.0.3
@@ -3335,6 +3348,22 @@ packages:
   /@types/bigi@1.4.5:
     resolution: {integrity: sha512-fb5MUzazrD2GRnwlStm91HVu3cZbvolX9kJruqpUBdc24eHBWrLLfyt8XN1/C5JpI0stP/MbaFQp+cJh5WOFfw==}
     dev: true
+
+  /@types/color-convert@2.0.3:
+    resolution: {integrity: sha512-2Q6wzrNiuEvYxVQqhh7sXM2mhIhvZR/Paq4FdsQkOMgWsCIkKvSGj8Le1/XalulrmgOzPMqNa0ix+ePY4hTrfg==}
+    dependencies:
+      '@types/color-name': 1.1.4
+    dev: false
+
+  /@types/color-name@1.1.4:
+    resolution: {integrity: sha512-hulKeREDdLFesGQjl96+4aoJSHY5b2GRjagzzcqCfIrWhe5vkCqIvrLbqzBaI1q94Vg8DNJZZqTR5ocdWmWclg==}
+    dev: false
+
+  /@types/color@3.0.6:
+    resolution: {integrity: sha512-NMiNcZFRUAiUUCCf7zkAelY8eV3aKqfbzyFQlXpPIEeoNDbsEHGpb854V3gzTsGKYj830I5zPuOwU/TP5/cW6A==}
+    dependencies:
+      '@types/color-convert': 2.0.3
+    dev: false
 
   /@types/crypto-js@4.1.1:
     resolution: {integrity: sha512-BG7fQKZ689HIoc5h+6D2Dgq1fABRa0RbBWKBd9SP/MVRVXROflpm5fhwyATX5duFmbStzyzyycPB8qUYKDH3NA==}
@@ -9673,6 +9702,14 @@ packages:
       victory-vendor: 36.8.2
     dev: false
 
+  /recoil-persist@5.1.0(recoil@0.7.6):
+    resolution: {integrity: sha512-sew4k3uBVJjRWKCSFuBw07Y1p1pBOb0UxLJPxn4G2bX/9xNj+r2xlqYy/BRfyofR/ANfqBU04MIvulppU4ZC0w==}
+    peerDependencies:
+      recoil: ^0.7.2
+    dependencies:
+      recoil: 0.7.6(react-dom@18.2.0)(react-native@0.73.2)(react@18.2.0)
+    dev: false
+
   /recoil@0.7.6(react-dom@18.2.0)(react-native@0.73.2)(react@18.2.0):
     resolution: {integrity: sha512-hsBEw7jFdpBCY/tu2GweiyaqHKxVj6EqF2/SfrglbKvJHhpN57SANWvPW+gE90i3Awi+A5gssOd3u+vWlT+g7g==}
     peerDependencies:
@@ -11518,7 +11555,3 @@ packages:
   /zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
     dev: false
-
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false

@@ -1,3 +1,4 @@
+import Color from 'color'
 import { PDFDocument, rgb } from 'pdf-lib'
 
 import { ITextContentHighlighterViewportHighlight } from '../../types/TextContentHighlighter'
@@ -34,9 +35,19 @@ export const textContentHighlighterPdfLibEmbedSave = async (
             color: annotationInfo.color,
             transparency: annotationInfo.transparency,
           }
+          const rgbColor = Color(color).rgb().string() // 转换为RGB
+          // 使用正则表达式提取 RGB 值
+          const rgbValues = rgbColor.match(/\d+/g)?.map(Number) || [0, 0, 0]
+          // 将 RGB 值转换为 pdf-lib 支持的 rgb 格式
+          const pdfRgbColor = rgb(
+            rgbValues[0] / 255,
+            rgbValues[1] / 255,
+            rgbValues[2] / 255,
+          )
+          console.log('pdfRgbColor', pdfRgbColor)
           // 将透明度转换为255的范围
           const fillOpacity = transparency !== undefined ? 1 - transparency : 1
-          const rgbaColor = rgb(0.75, 0.2, 0.2)
+          const rgbaColor = pdfRgbColor || rgb(0.75, 0.2, 0.2)
 
           if (type === 'highlight') {
             // 绘制高亮

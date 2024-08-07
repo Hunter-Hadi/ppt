@@ -29,12 +29,13 @@ const FunctionalityCommonTextContentPageTip: FC<
   const { height: viewWrapHeight, width: viewWrapWidth } =
     useFunctionalityCommonElementSize(viewRef)
   const [highlightColor, setHighlightColor] =
-    useRecoilState(highlightColorState)
+    useRecoilState(highlightColorState) // highlightColorState is a Recoil atom
   const [underlineColor, setUnderlineColor] =
-    useRecoilState(underlineColorState)
+    useRecoilState(underlineColorState) // underlineColorState is a Recoil atom
   const [strikethroughColor, setStrikethroughColor] = useRecoilState(
     strikethroughColorState,
-  )
+  ) // strikethroughColorState is a Recoil atom
+
   const isMobile = useFunctionalityCommonIsMobile()
   const left = useMemo(() => {
     const currentLeft =

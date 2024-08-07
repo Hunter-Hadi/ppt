@@ -3,12 +3,12 @@ import { cloneDeep, without } from 'lodash-es'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { useRecoilValue, useSetRecoilState } from 'recoil'
 
-import { currentScrollOffsetRecoil } from '../components/FunctionalityCommonOperatePdfView/store'
-import { fabricCanvasSignObjectListRecoil } from '../components/FunctionalityCommonOperatePdfView/store/setOperateFabricCanvas'
-import { checkAndMoveToAnotherCanvas } from '../components/FunctionalityCommonOperatePdfView/utils/FabricCanvas/checkAndMoveToAnotherCanvas'
-import { constrainWithinCanvas } from '../components/FunctionalityCommonOperatePdfView/utils/FabricCanvas/constrainWithinCanvas'
-import { KeyboardOperationEvents } from '../components/FunctionalityCommonOperatePdfView/utils/FabricCanvas/KeyboardOperationEvents'
-import { monitorGlobalClickEvents } from '../components/FunctionalityCommonOperatePdfView/utils/FabricCanvas/monitorGlobalClickEvents'
+import { currentScrollOffsetRecoil } from '../store'
+import { fabricCanvasSignObjectListRecoil } from '../store/setOperateFabricCanvas'
+import { checkAndMoveToAnotherCanvas } from '../utils/FabricCanvas/checkAndMoveToAnotherCanvas'
+import { constrainWithinCanvas } from '../utils/FabricCanvas/constrainWithinCanvas'
+import { KeyboardOperationEvents } from '../utils/FabricCanvas/KeyboardOperationEvents'
+import { monitorGlobalClickEvents } from '../utils/FabricCanvas/monitorGlobalClickEvents'
 // import { checkAndMoveToAnotherCanvas } from '../components/FunctionalityCommonOperatePdfView/utils/FabricCanvas/checkAndMoveToAnotherCanvas'
 // import { constrainWithinCanvas } from '../components/FunctionalityCommonOperatePdfView/utils/FabricCanvas/constrainWithinCanvas'
 export interface IControlDiv {
@@ -98,6 +98,19 @@ export const useFunctionalityCommonFabricCanvasEvent = (props: {
     fabricCanvas: React.MutableRefObject<fabric.Canvas | null>,
   ) => {
     if (!fabricCanvas.current) return
+    // 保存原始的 renderAll 方法
+    const originalRenderAll = fabricCanvas.current.renderAll.bind(
+      fabricCanvas.current,
+    )
+
+    // 重写 renderAll 方法
+    fabricCanvas.current.renderAll = function () {
+      // 在这里添加你想要执行的逻辑
+      console.log('RenderAll 被调用')
+      props.saveCurrentCanvasData()
+      // 调用原始的 renderAll 方法
+      originalRenderAll()
+    }
     // 对象添加
     fabricCanvas.current.on('object:modified', function (options) {
       console.log('一个对象被object:modified')

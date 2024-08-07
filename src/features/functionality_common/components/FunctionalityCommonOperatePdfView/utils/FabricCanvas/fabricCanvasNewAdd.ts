@@ -104,14 +104,14 @@ export const fabricInitStyleSet = (fabricCanvas) => {
 //自动的检查top是否超出画布范围
 const autoCheckTopIsAbnormal = (
   fabricCanvas,
-  top: number,
   canvasObject: fabric.Object,
   isAutoObjectSizePosition?: boolean,
 ) => {
+  debugger
   const zoom = 1 / (fabricCanvas.current.getZoom() || 1)
   const canvasHeight = fabricCanvas.current.height * zoom
   const canvasObjectHeight = canvasObject.height * canvasObject.scaleX
-  let currentTop = top
+  let currentTop = canvasObject.top
   if (isAutoObjectSizePosition) {
     currentTop = currentTop - canvasObjectHeight / 2
   }
@@ -156,7 +156,8 @@ export const onFabricAddObject = async (
         image.onload = function () {
           // 将图片绘制到画布上
           const imgColor = findFirstNonTransparentPixel(image)
-          const zoom = 1 / (fabricCanvas.current?.getZoom() || 1)
+          const zoom = fabricCanvas.current?.getZoom() || 1
+          const proportion = 1 / (fabricCanvas.current?.getZoom() || 1)
           const fabricImage = new fabric.Image(image, positionData)
 
           let scaleRatioWidth = 1
@@ -165,42 +166,40 @@ export const onFabricAddObject = async (
           // 判断图片宽度是否过大
           if (
             fabricImage.width >
-            (fabricCanvas.current.width * zoom) / imgScale
+            (fabricCanvas.current.width * proportion) / imgScale
           ) {
             scaleRatioWidth =
-              (fabricCanvas.current.width * zoom) / imgScale / fabricImage.width
+              (fabricCanvas.current.width * proportion) /
+              imgScale /
+              fabricImage.width
           }
 
           // 判断图片高度是否过高
           if (
             fabricImage.height >
-            (fabricCanvas.current.height * zoom) / imgScale
+            (fabricCanvas.current.height * proportion) / imgScale
           ) {
             scaleRatioHeight =
-              (fabricCanvas.current.height * zoom) /
+              (fabricCanvas.current.height * proportion) /
               imgScale /
               fabricImage.height
           }
 
           // 选择最小的比例，以确保图片整体被缩小，且不会超出画布的宽度或高度
           const scaleRatio = Math.min(scaleRatioWidth, scaleRatioHeight)
-
           if (scaleRatio < 1) {
             //只有当需要缩放时才执行
             fabricImage.scaleX = parseFloat(scaleRatio.toFixed(2))
             fabricImage.scaleY = parseFloat(scaleRatio.toFixed(2))
-
             // 调整位置到鼠标中心，同时应用缩放比例
             fabricImage.left =
               positionData.left - fabricImage.getScaledWidth() / 2
-            fabricImage.top =
-              positionData.top - fabricImage.getScaledHeight() / 2
+            fabricImage.top = positionData.top
           } else {
             // 如果不需要缩放, 则只调整位置到鼠标中心
             fabricImage.left = positionData.left - fabricImage.width / 2
             fabricImage.top = positionData.top - fabricImage.height / 2
           }
-          console.log('simply fabricImage', fabricImage)
           ;(fabricImage as any).imgColor = imgColor
           createObjectData = fabricImage
           resolve()
@@ -212,7 +211,7 @@ export const onFabricAddObject = async (
         ...positionData,
         minScaleLimit: 1,
         maxScaleLimit: 1,
-        width: 300,
+        width: 360,
       })
       text.fontFamily = defaultTextFontFamily
       createObjectData = text
@@ -243,7 +242,6 @@ export const onFabricAddObject = async (
       ;(createObjectData as any).id = uuidV4()
       createObjectData.top = autoCheckTopIsAbnormal(
         fabricCanvas,
-        positionData.top,
         createObjectData,
         isAutoObjectSizePosition,
       )

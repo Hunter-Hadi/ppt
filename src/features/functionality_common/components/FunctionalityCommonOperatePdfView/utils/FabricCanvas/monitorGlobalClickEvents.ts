@@ -11,7 +11,6 @@ export const monitorGlobalClickEvents = (
       !event.target.closest('.functionality-sign-pdf-save-view') //不知道为什么，这个点击事件触发两次才有效，所以加了这个
     ) {
       // 点击发生在Box组件外部
-      console.log('simply click outside')
       closeOpenAllPopup()
     }
   }

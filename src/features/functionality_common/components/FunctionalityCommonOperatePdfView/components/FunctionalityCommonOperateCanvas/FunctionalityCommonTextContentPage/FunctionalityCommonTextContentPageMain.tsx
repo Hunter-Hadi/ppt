@@ -1,7 +1,7 @@
 import { Box } from '@mui/material'
 import { cloneDeep } from 'lodash-es'
 import Head from 'next/head'
-import React, { FC, useEffect, useMemo, useRef } from 'react'
+import React, { FC, useEffect, useMemo, useRef, useState } from 'react'
 import { pdfjs } from 'react-pdf'
 import { useRecoilState } from 'recoil'
 import { v4 as uuidV4 } from 'uuid'
@@ -11,7 +11,11 @@ import { useFunctionalityCommonElementSize } from '@/features/functionality_comm
 
 import useFunctionalityCommonTextSelection from '../../../hooks/useFunctionalityCommonTextSelection'
 import { textAnnotatorRecoilList } from '../../../store/setTextContentAnnotator'
-import { ITextContentHighlighterAnnotationInfo } from '../../../types/TextContentHighlighter'
+import {
+  ITextContentHighlighterAnnotationInfo,
+  ITextContentHighlighterViewportHighlight,
+} from '../../../types/TextContentHighlighter'
+import FunctionalityCommonTextContentPageEditTip from './FunctionalityCommonTextContentPageEditTip'
 import FunctionalityCommonTextContentPageHighlight from './FunctionalityCommonTextContentPageHighlight'
 import FunctionalityCommonTextContentPageTip from './FunctionalityCommonTextContentPageTip'
 
@@ -30,6 +34,9 @@ const FunctionalityCommonTextContentPage: FC<
   const initRenderTextLayer = useRef(false)
   const textBoxRef = useRef<HTMLDivElement>(null)
   const textLayerRef = useRef<HTMLDivElement>(null)
+  const [annotationEditInfo, setAnnotationEditInfo] = useState<
+    ITextContentHighlighterViewportHighlight | undefined
+  >(undefined)
   const [textAnnotatorList, setTextAnnotatorList] = useRecoilState(
     textAnnotatorRecoilList,
   )
@@ -42,6 +49,9 @@ const FunctionalityCommonTextContentPage: FC<
         height: pdfInfo.height,
       },
       index,
+      clickOther: () => {
+        setAnnotationEditInfo(undefined)
+      },
     })
   const removeAllRanges = () => {
     setHighlighterPosition(undefined)
@@ -92,6 +102,61 @@ const FunctionalityCommonTextContentPage: FC<
     })
     removeAllRanges()
   }
+  const onChangeHighlight = (
+    annotationEditInfo: ITextContentHighlighterViewportHighlight,
+    annotationInfo: ITextContentHighlighterAnnotationInfo,
+  ) => {
+    const copyAnnotationEditInfo = cloneDeep(annotationEditInfo)
+    copyAnnotationEditInfo.annotation = [annotationInfo]
+    setTextAnnotatorList((list) => {
+      const copyList = cloneDeep(list)
+      if (copyList[index]) {
+        copyList[index] = copyList[index].map((item) => {
+          if (item.id === annotationEditInfo.id) {
+            return copyAnnotationEditInfo
+          }
+          return item
+        })
+      }
+      return copyList
+    })
+    setAnnotationEditInfo(undefined)
+  }
+  const onDeleteHighlight = (
+    annotationEditInfo: ITextContentHighlighterViewportHighlight,
+  ) => {
+    setTextAnnotatorList((list) => {
+      const copyList = cloneDeep(list)
+      if (copyList[index]) {
+        copyList[index] = copyList[index].filter((item) => {
+          return item.id !== annotationEditInfo.id
+        })
+      }
+      return copyList
+    })
+    setAnnotationEditInfo(undefined)
+  }
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        !event.target.closest(
+          '.functionality-common-text-content-page-edit-tip',
+        ) &&
+        !event.target.closest('.MuiPopover-paper') &&
+        !event.target.closest('.MuiDialog-paper')
+      ) {
+        setAnnotationEditInfo(undefined)
+        // 点击发生在Box组件外部
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside)
+    document.addEventListener('touchstart', handleClickOutside)
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside)
+      document.removeEventListener('touchstart', handleClickOutside)
+    }
+  }, [])
   return (
     <Box
       ref={textBoxRef}
@@ -173,10 +238,21 @@ html
             pdfViewScale={widthScale}
           />
         )}
+        {annotationEditInfo && (
+          <FunctionalityCommonTextContentPageEditTip
+            annotationEditInfo={annotationEditInfo}
+            onChange={(info) => onChangeHighlight(annotationEditInfo, info)}
+            pdfViewScale={widthScale}
+            deleteSelected={() => onDeleteHighlight(annotationEditInfo)}
+          />
+        )}
         {currentTextAnnotatorList.length > 0 && (
           <FunctionalityCommonTextContentPageHighlight
             viewHighlights={currentTextAnnotatorList}
             pdfViewScale={widthScale}
+            onEdit={(info) => {
+              setAnnotationEditInfo(info)
+            }}
           />
         )}
       </Box>

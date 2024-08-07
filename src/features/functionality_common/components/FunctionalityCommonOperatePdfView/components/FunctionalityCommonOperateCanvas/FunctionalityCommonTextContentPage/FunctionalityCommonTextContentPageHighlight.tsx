@@ -8,10 +8,11 @@ import {
 interface IFunctionalityCommonTextContentPageHighlight {
   viewHighlights: ITextContentHighlighterViewportHighlight[]
   pdfViewScale: number
+  onEdit: (data: ITextContentHighlighterViewportHighlight) => void
 }
 const FunctionalityCommonTextContentPageHighlight: FC<
   IFunctionalityCommonTextContentPageHighlight
-> = ({ viewHighlights, pdfViewScale }) => {
+> = ({ viewHighlights, pdfViewScale, onEdit }) => {
   const boxStyle = useCallback(
     (data?: ITextContentHighlighterAnnotationInfo) => {
       if (data) {
@@ -38,6 +39,10 @@ const FunctionalityCommonTextContentPageHighlight: FC<
             {viewHighlight.position.rects.map((rect, index) => (
               <Box
                 key={index}
+                onClick={() => {
+                  console.log('click--')
+                  onEdit(viewHighlight)
+                }}
                 sx={{
                   ...rect,
                   left: rect.left * pdfViewScale,
@@ -45,6 +50,7 @@ const FunctionalityCommonTextContentPageHighlight: FC<
                   width: rect.width * pdfViewScale,
                   height: rect.height * pdfViewScale,
                   position: 'absolute',
+                  cursor: 'pointer',
                   zIndex: 1000,
                   ...boxStyle(annotationInfo),
                 }}
