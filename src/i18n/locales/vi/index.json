@@ -1304,7 +1304,8 @@
     "components__common__upload_button_tips": "hoặc thả tệp vào đây",
     "components__common__upload_button_title": "CHỌN TỆP",
     "components__common__upload_button__unsupported_file_type_tip": "Vui lòng tải lên loại file PDF đã chỉ định",
-    "components__common__select_other_file": "Chọn tệp khác"
+    "components__common__select_other_file": "Chọn tệp khác",
+    "components__common__button__download": "Tải Xuống"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Chỉ có thể tải lên hình ảnh loại hình ảnh",
@@ -1822,5 +1823,38 @@
     "components__protect_pdf_detail__input__placeholder": "Đặt mật khẩu của bạn",
     "components__protect_pdf_detail__repeat_input__placeholder": "Xác nhận mật khẩu của bạn",
     "components__protect_pdf_detail__use_tips": "Mật khẩu và tệp PDF sẽ không được tải lên máy chủ, đảm bảo an toàn."
+  },
+  "pages__pdf_tools__pdf_annotator": {
+    "title": "Chú Thích PDF",
+    "description": "Chú thích dễ dàng trên tệp PDF của bạn miễn phí bằng cách viết hoặc vẽ trực tiếp trên chúng.",
+    "seo_title": "Chú Thích PDF Miễn Phí - Viết và Vẽ Trực Tuyến trên Tệp PDF | MaxAI.me",
+    "seo_description": "Sử dụng công cụ chú thích PDF trực tuyến miễn phí của chúng tôi để viết hoặc vẽ trên tệp PDF của bạn. Không cần tải về, không có dấu watermark, không cần đăng ký. Truy cập và chỉnh sửa tài liệu của bạn một cách dễ dàng.",
+    "detail_description_object__pdf_annotator__top_left": "Công cụ chú thích PDF miễn phí của chúng tôi cho phép bạn dễ dàng viết, vẽ và tô sáng trực tiếp trên tài liệu PDF của bạn. Tận hưởng trải nghiệm mượt mà mà không có hạn chế nào.",
+    "detail_description_object__pdf_annotator__top_right_1": "Chú thích nhanh chóng trên tệp PDF của bạn chỉ trong vài cú nhấp chuột.",
+    "detail_description_object__pdf_annotator__top_right_2": "Chỉ cần tải lên tệp PDF của bạn để bắt đầu chú thích.",
+    "detail_description_object__pdf_annotator__top_right_3": "Hoạt động hoàn hảo trên các thiết bị Mac, Windows, Android và iOS.",
+    "detail_description_object__pdf_annotator__middle_1_title": "Công cụ Chú Thích PDF Trực Tuyến Dễ Sử Dụng",
+    "detail_description_object__pdf_annotator__middle_1_description": "Với công cụ chú thích PDF trực tuyến dễ hiểu của chúng tôi, bạn có thể viết hoặc vẽ trên tệp PDF của mình một cách dễ dàng. Tải lên tài liệu của bạn, bắt đầu chú thích và tải xuống phiên bản PDF đã chỉnh sửa trong vài phút, tất cả mà không cần tạo tài khoản.",
+    "detail_description_object__pdf_annotator__middle_2_title": "Chú Thích An Toàn và Riêng Tư",
+    "detail_description_object__pdf_annotator__middle_2_description": "Tất cả các chú thích của bạn được xử lý trực tiếp trong trình duyệt của bạn, đảm bảo tài liệu của bạn luôn được bảo mật và riêng tư. Không có dữ liệu nào được gửi lên đám mây, bảo vệ thông tin nhạy cảm của bạn.",
+    "detail_description_object__pdf_annotator__middle_3_title": "Tương Thích Trên Nhiều Thiết Bị",
+    "detail_description_object__pdf_annotator__middle_3_description": "Công cụ chú thích PDF trực tuyến của chúng tôi có thể truy cập từ bất kỳ thiết bị nào có trình duyệt web, bao gồm máy tính để bàn, laptop và thiết bị di động. Chú thích tệp PDF của bạn bất cứ lúc nào, bất cứ nơi đâu.",
+    "detail_description_object__pdf_annotator__middle_4_title": "Quy Trình Chú Thích Đơn Giản",
+    "detail_description_object__pdf_annotator__middle_4_description": "Chú thích tệp PDF của bạn là một quy trình đơn giản: tải lên tệp của bạn, sử dụng các công cụ tích hợp để viết hoặc vẽ, sau đó tải xuống phiên bản đã chỉnh sửa. Ngay cả người mới bắt đầu cũng có thể điều hướng quy trình này một cách dễ dàng.",
+    "detail_description_object__pdf_annotator__middle_5_title": "Không Tốn Phí, Không Phức Tạp",
+    "detail_description_object__pdf_annotator__middle_5_description": "Không cần mua phần mềm đắt tiền để chú thích tệp PDF của bạn. Công cụ chú thích PDF miễn phí của chúng tôi có sẵn trực tuyến mà không có chi phí ẩn, không cần tải về hoặc đăng ký, đảm bảo một trải nghiệm không rắc rối.",
+    "detail_description_object__pdf_annotator__middle_6_title": "Xử Lý Nhanh Chóng và Hiệu Quả",
+    "detail_description_object__pdf_annotator__middle_6_description": "Dịch vụ chú thích PDF của chúng tôi được thiết kế để tốc độ. Xử lý và tinh chỉnh tài liệu của bạn nhanh chóng với các công cụ hiệu quả của chúng tôi giúp tăng cường quy trình làm việc của bạn.",
+    "detail_description_object__pdf_annotator__bottom_right_title": "Cách Chú Thích Tệp PDF Trực Tuyến:",
+    "detail_description_object__pdf_annotator__bottom_right_description_1": "Tải lên tệp PDF bạn muốn chú thích.",
+    "detail_description_object__pdf_annotator__bottom_right_description_2": "Sử dụng các công cụ chú thích để viết, vẽ hoặc tô sáng trên tài liệu.",
+    "detail_description_object__pdf_annotator__bottom_right_description_3": "Nhấp vào 'Tải xuống' để lưu tệp PDF đã chú thích của bạn.",
+    "detail_description_object__pdf_annotator__bottom_right_description_4": "Truy cập tệp PDF đã chú thích của bạn trên bất kỳ thiết bị nào và chia sẻ một cách dễ dàng."
+  },
+  "functionality__pdf_annotator": {
+    "components__pdf_annotator__insert_tools__text_annotator": "Chú Thích Văn Bản",
+    "components__pdf_annotator__insert_tools__insert_text": "chèn văn bản",
+    "components__pdf_annotator__insert_tools__insert_image": "chèn hình ảnh",
+    "components__pdf_annotator__insert_tools__insert_signature": "Chèn Chữ Ký"
   }
 }

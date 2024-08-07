@@ -1304,7 +1304,8 @@
     "components__common__upload_button_tips": "یا یہاں فائلیں ڈراپ کریں",
     "components__common__upload_button_title": "فائلیں منتخب کریں",
     "components__common__upload_button__unsupported_file_type_tip": "براہ کرم مخصوص PDF فائل کو اپ لوڈ کریں",
-    "components__common__select_other_file": "کوئی دوسرا فائل منتخب کریں"
+    "components__common__select_other_file": "کوئی دوسرا فائل منتخب کریں",
+    "components__common__button__download": "ڈاؤن لوڈ"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "صرف تصویر قسم کی تصاویر اپلوڈ کی جا سکتی ہیں",
@@ -1822,5 +1823,38 @@
     "components__protect_pdf_detail__input__placeholder": "اپنا پاسورڈ سیٹ کریں",
     "components__protect_pdf_detail__repeat_input__placeholder": "آپنا پاس ورڈ تصدیق کریں",
     "components__protect_pdf_detail__use_tips": "پاسورڈ اور پی ڈی ایف فائلیں سرور پر اپ لوڈ نہیں ہوں گی، توازن کی یقینیت۔"
+  },
+  "pages__pdf_tools__pdf_annotator": {
+    "title": "PDF انوٹیٹر",
+    "description": "اپنے PDF فائلوں پر آسانی سے نوٹس لگائیں یا ان پر سیدھے طور پر لکھ کر یا ڈرائیں۔",
+    "seo_title": "مفت PDF انوٹیٹر - PDF فائلوں پر آن لائن لکھیں اور ڈرائیں | MaxAI.me",
+    "seo_description": "ہمارے مفت آن لائن PDF انوٹیٹر کا استعمال کریں تاکہ آپ اپنی PDF فائلوں پر لکھیں یا ڈرائیں۔ ڈاؤن لوڈ، واٹرمارک، یا سائن اپس کی ضرورت نہیں ہے۔ اپنے دستاویزات تک رسائی حاصل کریں اور انہیں آسانی سے ترتیب دیں۔",
+    "detail_description_object__pdf_annotator__top_left": "ہمارا مفت PDF انوٹیٹر آپ کو آسانی سے اپنی PDF دستاویزات پر سیدھے طور پر لکھنے، ڈرانے اور ہائی لائٹ کرنے کی اجازت دیتا ہے۔ کوئی پابندیوں کے ساتھ ایک بے درد تجربہ حاصل کریں۔",
+    "detail_description_object__pdf_annotator__top_right_1": "چند کلکس میں اپنی PDF فائلوں پر نوٹس لگائیں۔",
+    "detail_description_object__pdf_annotator__top_right_2": "بس اپنی PDF فائل اپ لوڈ کریں تاکہ انوٹیٹ کرنا شروع کریں۔",
+    "detail_description_object__pdf_annotator__top_right_3": "میک، ونڈوز، اینڈرائیڈ، اور آئی او ایس آلات پر بالکل ٹھیک کام کرتا ہے۔",
+    "detail_description_object__pdf_annotator__middle_1_title": "صارف دوست آن لائن PDF انوٹیٹر",
+    "detail_description_object__pdf_annotator__middle_1_description": "ہمارے آسان فہم PDF انوٹیٹر کے ساتھ آپ اپنی PDF فائلوں پر آسانی سے لکھ سکتے ہیں یا ڈرا سکتے ہیں۔ اپنے دستاویز کو اپ لوڈ کریں، انوٹیٹ کرنا شروع کریں، اور مدھمنٹس میں ترتیب دی گئی PDF ڈاؤن لوڈ کریں، سب کچھ بغیر اکاؤنٹ بنائے۔",
+    "detail_description_object__pdf_annotator__middle_2_title": "محفوظ اور نجی نوٹس",
+    "detail_description_object__pdf_annotator__middle_2_description": "آپ کے تمام نوٹس آپ کے براؤزر میں براہ راست پراسیس ہوتے ہیں، یہ یقینی بنانے کے لئے کہ آپ کے دستاویزات نجی اور محفوظ رہتے ہیں۔ کوئی ڈیٹا بادل نہیں کیا جاتا، آپ کی حساس معلومات کی حفاظت کی جاتی ہے۔",
+    "detail_description_object__pdf_annotator__middle_3_title": "کراس ڈیوائس موافقت",
+    "detail_description_object__pdf_annotator__middle_3_description": "ہمارا آن لائن PDF انوٹیٹر کسی بھی آلہ کے ساتھ دستیاب ہے جس میں ویب براؤزر شامل ہے، ڈیسک ٹاپ، لیپ ٹاپ، اور موبائل آلات شامل ہیں۔ اپنی PDF فائلوں پر نوٹس کسی بھی وقت، کہیں بھی لگائیں۔",
+    "detail_description_object__pdf_annotator__middle_4_title": "آسان انوٹیشن پروسیس",
+    "detail_description_object__pdf_annotator__middle_4_description": "آپ کی PDF فائلوں پر نوٹس لگانا سیدھا ہے: اپنی فائل اپ لوڈ کریں، لکھنے یا ڈرانے کے لئے بلٹ ان ٹولز استعمال کریں، اور پھر ترتیب دی گئی ورژن ڈاؤن لوڈ کریں۔ حتی کہ مکمل نوویسین اس عمل کو آسانی سے سمجھ سکتے ہیں۔",
+    "detail_description_object__pdf_annotator__middle_5_title": "کوئی لاگت، کوئی پیچیدگیاں نہیں",
+    "detail_description_object__pdf_annotator__middle_5_description": "آپ کو اپنی PDF فائلوں پر نوٹس لگانے کے لئے مہنگا سافٹ ویئر خریدنے کی ضرورت نہیں ہے۔ ہمارا مفت PDF انوٹیٹر آن لائن دستیاب ہے بغیر کسی پوشیدہ لاگت، ڈاؤن لوڈ، یا رجسٹریشن کی ضرورت کے، ایک پریشانی رہتے ہوئے تجربہ یقینی بناتا ہے۔",
+    "detail_description_object__pdf_annotator__middle_6_title": "تیز اور موثر پروسیسنگ",
+    "detail_description_object__pdf_annotator__middle_6_description": "ہماری PDF انوٹیشن سروس تیزی سے تیار کی گئی ہے۔ اپنے فعال اوزار کے ذریعے اپنے دستاویزات کو فوراً پراسیس اور بہتر بنائیں۔",
+    "detail_description_object__pdf_annotator__bottom_right_title": "آن لائن PDF فائلوں پر نوٹس کیسے لگائیں:",
+    "detail_description_object__pdf_annotator__bottom_right_description_1": "وہ PDF فائل اپ لوڈ کریں جس پر آپ نوٹس لگانا چاہتے ہیں۔",
+    "detail_description_object__pdf_annotator__bottom_right_description_2": "نوٹیشن ٹولز استعمال کریں تاکہ دستاویز پر لکھیں، ڈرائیں، یا ہائی لائٹ کریں۔",
+    "detail_description_object__pdf_annotator__bottom_right_description_3": "‘ڈاؤن لوڈ’ پر کلک کریں تاکہ آپ کی نوٹس لگائی گئی PDF فائل کو محفوظ کریں۔",
+    "detail_description_object__pdf_annotator__bottom_right_description_4": "آپ کی نوٹس لگائی گئی PDF کو کسی بھی آلہ پر رسائی حاصل کریں اور آسانی سے اسے شیئر کریں۔"
+  },
+  "functionality__pdf_annotator": {
+    "components__pdf_annotator__insert_tools__text_annotator": "متن انوٹیشن",
+    "components__pdf_annotator__insert_tools__insert_text": "متن درج کریں",
+    "components__pdf_annotator__insert_tools__insert_image": "تصویر درج کریں",
+    "components__pdf_annotator__insert_tools__insert_signature": "دستخط درج کریں"
   }
 }

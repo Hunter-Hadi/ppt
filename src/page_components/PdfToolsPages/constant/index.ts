@@ -173,13 +173,6 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     urlKey: routerChildrenObject['unlock-pdf'],
     urlPrefixPath: toolsTopUrlKey,
   },
-  'pdf-annotator': {
-    icon: 'UnlockPDF',
-    title: 'pages__pdf_tools__pdf_annotator:title',
-    description: 'pages__pdf_tools__pdf_annotator:description',
-    secondaryDescription: 'pages__pdf_tools__pdf_annotator:description',
-    urlKey: routerChildrenObject['pdf-annotator'],
-  },
   'protect-pdf': {
     icon: 'ProtectPDF',
     title: 'pages__pdf_tools__protect_pdf:title',
@@ -195,6 +188,13 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     secondaryDescription: '',
     urlKey: routerChildrenObject['watermark-pdf'],
     urlPrefixPath: toolsTopUrlKey,
+  },
+  'pdf-annotator': {
+    icon: 'PDFAnnotator',
+    title: 'pages__pdf_tools__pdf_annotator:title',
+    description: 'pages__pdf_tools__pdf_annotator:description',
+    secondaryDescription: 'pages__pdf_tools__pdf_annotator:description',
+    urlKey: routerChildrenObject['pdf-annotator'],
   },
 }
 export const pdfToolsList = Object.keys(toolsObjectData).map((key) => ({

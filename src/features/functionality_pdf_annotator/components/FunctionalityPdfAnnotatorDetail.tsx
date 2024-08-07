@@ -14,6 +14,7 @@ import React, {
   ForwardRefRenderFunction,
   useCallback,
   useEffect,
+  useMemo,
   useRef,
   useState,
 } from 'react'
@@ -39,12 +40,13 @@ const FunctionalityPdfAnnotatorDetail: ForwardRefRenderFunction<
   IFunctionalityPdfAnnotatorDetailProps
 > = ({ file, onClearFile }) => {
   const { t } = useTranslation()
+  const isMobile = useFunctionalityCommonIsMobile()
+
   const [textAnnotatorList, setTextAnnotatorList] = useRecoilState(
     textAnnotatorRecoilList,
   )
   const [fabricCanvasJsonStringList, setFabricCanvasJsonStringList] =
     useRecoilState(fabricCanvasJsonStringListRecoil)
-  const isMobile = useFunctionalityCommonIsMobile()
   const topViewRef = useRef<HTMLElement | null>(null)
   const pdfViewRef = useRef<HTMLElement | null>(null)
 
@@ -55,7 +57,9 @@ const FunctionalityPdfAnnotatorDetail: ForwardRefRenderFunction<
   const [editType, setEditType] = React.useState<'annotator' | 'insert'>(
     'annotator',
   )
-
+  const isHaveData = useMemo(() => {
+    return textAnnotatorList.flatMap((item) => item).length > 0
+  }, [textAnnotatorList])
   const autoSetOverallViewHeight = useCallback(() => {
     const distanceFromTop = topViewRef.current?.getBoundingClientRect().top
     const overallViewHeight =
@@ -87,11 +91,10 @@ const FunctionalityPdfAnnotatorDetail: ForwardRefRenderFunction<
     }),
     useSensor(KeyboardSensor),
   )
-  const { activeData, onDragStart, onDragEnd } =
-    useFunctionalityEditDndContextHandle({
-      onStart: () => {},
-      onEnd: () => {},
-    })
+  const { onDragStart, onDragEnd } = useFunctionalityEditDndContextHandle({
+    onStart: () => {},
+    onEnd: () => {},
+  })
   const onSavePDF = async () => {
     setDownLoadLoading(true)
     console.log('textAnnotatorList', textAnnotatorList)
@@ -119,6 +122,63 @@ const FunctionalityPdfAnnotatorDetail: ForwardRefRenderFunction<
     await new Promise((resolve) => setTimeout(resolve, 1000)) //等待canvas数据更新
     onSavePDF()
   }
+  const saveButtonDom = useMemo(
+    () => (
+      <Stack
+        direction={'row'}
+        gap={'8px'}
+        sx={{
+          ml: isMobile ? 0 : 1,
+          minWidth: 0,
+          flex: '0 1 auto',
+          mt: isMobile ? 1 : 0,
+        }}
+      >
+        <Button
+          variant='contained'
+          size='large'
+          onClick={onSavePDFAndAwaitCanvas}
+          fullWidth={isMobile}
+          disabled={downLoadLoading || !isHaveData}
+        >
+          {downLoadLoading ? (
+            <Stack direction={'row'} alignItems={'center'}>
+              <CircularProgress size={24} />
+            </Stack>
+          ) : (
+            <>
+              {t('functionality__common:components__common__button__download')}
+            </>
+          )}
+        </Button>
+        <Button
+          color='error'
+          variant='outlined'
+          size='large'
+          onClick={() => {
+            setTextAnnotatorList([])
+            setFabricCanvasJsonStringList([])
+            onClearFile()
+          }}
+          disabled={downLoadLoading}
+        >
+          {isMobile
+            ? t('common:back')
+            : t('functionality__common:components__common__select_other_file')}
+        </Button>
+      </Stack>
+    ),
+    [
+      downLoadLoading,
+      isHaveData,
+      isMobile,
+      onClearFile,
+      onSavePDFAndAwaitCanvas,
+      setFabricCanvasJsonStringList,
+      setTextAnnotatorList,
+      t,
+    ],
+  )
   return (
     <Stack
       ref={topViewRef}
@@ -135,7 +195,9 @@ const FunctionalityPdfAnnotatorDetail: ForwardRefRenderFunction<
       >
         <FunctionalityPdfAnnotatorOperationAreaInsertTools
           editType={editType}
+          key={editType}
           onChangeType={(type) => {
+            console.log('type', type)
             if (type) {
               setEditType(type)
               return
@@ -143,43 +205,7 @@ const FunctionalityPdfAnnotatorDetail: ForwardRefRenderFunction<
             setEditType(editType === 'insert' ? 'annotator' : 'insert')
           }}
         >
-          <Stack
-            direction={'row'}
-            gap={'8px'}
-            sx={{ ml: 1, minWidth: 0, flex: '0 1 auto' }}
-          >
-            <Button
-              variant='contained'
-              size='large'
-              onClick={onSavePDFAndAwaitCanvas}
-              disabled={downLoadLoading}
-            >
-              {downLoadLoading ? (
-                <Stack direction={'row'} alignItems={'center'}>
-                  <CircularProgress size={24} />
-                </Stack>
-              ) : (
-                <>
-                  {t(
-                    'functionality__image_to_pdf:components__image_to_pdf__download',
-                  )}
-                </>
-              )}
-            </Button>
-            <Button
-              color='error'
-              variant='outlined'
-              size='large'
-              onClick={() => {
-                setTextAnnotatorList([])
-                setFabricCanvasJsonStringList([])
-                onClearFile()
-              }}
-              disabled={downLoadLoading}
-            >
-              {isMobile ? t('common:back') : t('common:choose_another_file')}
-            </Button>
-          </Stack>
+          {!isMobile && saveButtonDom}
         </FunctionalityPdfAnnotatorOperationAreaInsertTools>
         <Box
           sx={{
@@ -195,7 +221,7 @@ const FunctionalityPdfAnnotatorDetail: ForwardRefRenderFunction<
             currentEditType={editType}
           />
         </Box>
-
+        {isMobile && saveButtonDom}
         {/* {activeData && (
           <DragOverlay
             style={{

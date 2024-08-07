@@ -918,7 +918,8 @@
     "components__common__upload_button_tips": "or drop files here",
     "components__common__upload_button_title": "CHOOSE FILES",
     "components__common__upload_button__unsupported_file_type_tip": "Please upload the specified PDF file type",
-    "components__common__select_other_file": "Choose another file"
+    "components__common__select_other_file": "Choose another file",
+    "components__common__button__download": "Download"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "Add PDFs",
@@ -1081,6 +1082,13 @@
     "components__protect_pdf_detail__input__placeholder": "Set your password",
     "components__protect_pdf_detail__repeat_input__placeholder": "Confirm your password",
     "components__protect_pdf_detail__use_tips": "The password and PDF files will not be uploaded to the server, ensuring security."
+  },
+  "functionality__pdf_annotator": {
+    "components__pdf_annotator__insert_tools__text_annotator": "Text Annotation",
+    "components__pdf_annotator__insert_tools__insert_text": "insert text",
+    "components__pdf_annotator__insert_tools__insert_image": "insert picture",
+    "components__pdf_annotator__insert_tools__insert_signature": "Insert Signature"
+
   },
   "prompt_library": {
     "use_prompt_library__title": "High quality AI prompt library",

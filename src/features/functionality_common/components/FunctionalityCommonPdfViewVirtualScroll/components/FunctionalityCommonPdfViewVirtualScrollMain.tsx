@@ -255,7 +255,6 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
           height={wrapBoxHeight} // 设置 List 高度为浏览器窗口高度
           itemCount={pdfNumPages} // 项目总数
           onScroll={(event) => {
-            console.log('eventevent', event)
             setScrollTime(new Date().valueOf())
             setCurrentScrollOffset(event.scrollOffset)
           }}

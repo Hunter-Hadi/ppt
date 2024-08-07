@@ -28,6 +28,7 @@ export type ICustomIconType =
   | 'UnlockPDF'
   | 'ProtectPDF'
   | 'WaterMarkPDF'
+  | 'PDFAnnotator'
 
 const IconsMap: {
   [key in ICustomIconType]: React.ComponentType<SvgIconProps>
@@ -48,6 +49,7 @@ const IconsMap: {
   UnlockPDF: dynamic(() => import('./icons/UnlockPDF')),
   ProtectPDF: dynamic(() => import('./icons/ProtectPDF')),
   WaterMarkPDF: dynamic(() => import('./icons/WaterMarkPDF')),
+  PDFAnnotator: dynamic(() => import('./icons/PDFAnnotator')),
 }
 const ToolsIcon: FC<{ name: string } & SvgIconProps> = ({
   name,

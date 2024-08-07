@@ -80,15 +80,12 @@ export const useFunctionalityCommonFabricCanvasEvent = (props: {
     setControlAddNewDiv(null)
   }, [fabricCanvas])
   useEffect(() => {
-    console.log('simply handleObjectSelected 3')
     closeOpenAllPopup() //滚动后取消一些事件
   }, [scrollPositionNumber])
   useEffect(() => {
     KeyboardOperationEvents(fabricCanvas) //键盘事件
   }, [fabricCanvas])
   useEffect(() => {
-    console.log('simply handleObjectSelected 4')
-
     monitorGlobalClickEvents(topWrapRef, closeOpenAllPopup) //全局点击事件
   }, [topWrapRef])
   const changObjectToList = (object: fabric.Object, type: 'add' | 'del') => {
@@ -118,7 +115,6 @@ export const useFunctionalityCommonFabricCanvasEvent = (props: {
           windowTop: topWrapRefRect?.y || 0,
         })
       } else {
-        console.log('simply handleObjectSelected 1')
         setControlDiv(null)
       }
     } catch (e) {
@@ -138,7 +134,6 @@ export const useFunctionalityCommonFabricCanvasEvent = (props: {
     // 重写 renderAll 方法
     fabricCanvas.current.renderAll = function () {
       // 在这里添加你想要执行的逻辑
-      console.log('RenderAll 被调用')
       props.saveCurrentCanvasData()
       // 调用原始的 renderAll 方法
       originalRenderAll()

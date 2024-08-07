@@ -40,8 +40,8 @@ const FunctionalityCommonTextContentPageTip: FC<
   const left = useMemo(() => {
     const currentLeft =
       selectPosition.boundingRect.left + selectPosition.boundingRect.width
-    if (currentLeft + 184 * 1.5 > viewWrapWidth) {
-      return viewWrapWidth - 184 * 1.5
+    if (currentLeft + 184 * 2.2 > viewWrapWidth) {
+      return viewWrapWidth - 184 * 2.2
     }
     return currentLeft
   }, [

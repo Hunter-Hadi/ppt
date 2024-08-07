@@ -97,7 +97,6 @@ export const FunctionalitySignPdfDetail: FC<
     () => setFabricCanvasSignObjectList.length,
     [setFabricCanvasSignObjectList],
   )
-  console.log('signNumber', signNumber)
   const [downloadUint8Array, setDownloadUint8Array] =
     useState<null | Uint8Array>(null) //签名数据
 

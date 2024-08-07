@@ -1304,7 +1304,8 @@
     "components__common__upload_button_tips": "或在此處拖放檔案",
     "components__common__upload_button_title": "選擇檔案",
     "components__common__upload_button__unsupported_file_type_tip": "請上傳指定的 PDF 檔案類型",
-    "components__common__select_other_file": "選擇其他檔案"
+    "components__common__select_other_file": "選擇其他檔案",
+    "components__common__button__download": "下載"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "只能上傳圖片類型的圖片",
@@ -1822,5 +1823,38 @@
     "components__protect_pdf_detail__input__placeholder": "設置您的密碼",
     "components__protect_pdf_detail__repeat_input__placeholder": "確認您的密碼",
     "components__protect_pdf_detail__use_tips": "密碼和PDF檔案將不會上傳到伺服器，確保安全。"
+  },
+  "pages__pdf_tools__pdf_annotator": {
+    "title": "PDF 注釋工具",
+    "description": "透過直接書寫或繪製在 PDF 檔案上，輕鬆進行免費註釋。",
+    "seo_title": "免費 PDF 注釋工具 - 在 PDF 檔案上線上書寫和繪製 | MaxAI.me",
+    "seo_description": "使用我們的免費線上 PDF 注釋工具在 PDF 檔案上書寫或繪製。無需下載、浮水印或註冊。輕鬆存取和編輯您的文件。",
+    "detail_description_object__pdf_annotator__top_left": "我們的免費 PDF 注釋工具讓您輕鬆在 PDF 文件上直接書寫、繪製和標註。無限制地享受無縫體驗。",
+    "detail_description_object__pdf_annotator__top_right_1": "只需點擊幾下，快速對 PDF 檔案進行註釋。",
+    "detail_description_object__pdf_annotator__top_right_2": "只需上傳您的 PDF 檔案即可開始進行註釋。",
+    "detail_description_object__pdf_annotator__top_right_3": "在 Mac、Windows、Android 和 iOS 設備上完美運作。",
+    "detail_description_object__pdf_annotator__middle_1_title": "用戶友好的線上 PDF 注釋工具",
+    "detail_description_object__pdf_annotator__middle_1_description": "透過我們直觀的 PDF 注釋工具，您可以輕鬆在 PDF 文件上書寫或繪製。上傳您的文件，開始進行註釋，並在幾分鐘內下載編輯後的 PDF，所有這些都無需創建帳戶。",
+    "detail_description_object__pdf_annotator__middle_2_title": "安全和私密的標註",
+    "detail_description_object__pdf_annotator__middle_2_description": "所有您的標註都直接在您的瀏覽器中處理，確保您的文件保持私密和安全。不會將任何數據發送到雲端，保護您的敏感信息。",
+    "detail_description_object__pdf_annotator__middle_3_title": "跨設備兼容性",
+    "detail_description_object__pdf_annotator__middle_3_description": "我們的線上 PDF 注釋工具可從任何具有網頁瀏覽器的設備訪問，包括桌面、筆記本電腦和移動設備。隨時隨地註釋您的 PDF 檔案。",
+    "detail_description_object__pdf_annotator__middle_4_title": "簡單的標註流程",
+    "detail_description_object__pdf_annotator__middle_4_description": "註釋您的 PDF 檔案很簡單：上傳您的文件，使用內置工具進行書寫或繪製，然後下載編輯後的版本。即使是完全的新手也可以輕鬆地完成這個流程。",
+    "detail_description_object__pdf_annotator__middle_5_title": "無成本，無複雜性",
+    "detail_description_object__pdf_annotator__middle_5_description": "無需購買昂貴的軟件來註釋您的 PDF。我們的免費 PDF 注釋工具在線上提供，無隱藏費用、下載或註冊要求，確保無壓力的體驗。",
+    "detail_description_object__pdf_annotator__middle_6_title": "快速高效的處理",
+    "detail_description_object__pdf_annotator__middle_6_description": "我們的 PDF 標註服務設計用於速度。使用我們的高效工具快速處理和優化您的文件。",
+    "detail_description_object__pdf_annotator__bottom_right_title": "如何在線上註釋 PDF 檔案：",
+    "detail_description_object__pdf_annotator__bottom_right_description_1": "上傳您要註釋的 PDF 檔案。",
+    "detail_description_object__pdf_annotator__bottom_right_description_2": "使用註釋工具在文件上書寫、繪製或標註。",
+    "detail_description_object__pdf_annotator__bottom_right_description_3": "點擊「下載」以保存您的註釋 PDF 檔案。",
+    "detail_description_object__pdf_annotator__bottom_right_description_4": "在任何設備上訪問您的註釋 PDF，並輕鬆分享。"
+  },
+  "functionality__pdf_annotator": {
+    "components__pdf_annotator__insert_tools__text_annotator": "文字註釋",
+    "components__pdf_annotator__insert_tools__insert_text": "插入文字",
+    "components__pdf_annotator__insert_tools__insert_image": "插入圖片",
+    "components__pdf_annotator__insert_tools__insert_signature": "插入簽名"
   }
 }

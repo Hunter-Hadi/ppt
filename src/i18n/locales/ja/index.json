@@ -1304,7 +1304,8 @@
     "components__common__upload_button_tips": "またはここにファイルをドロップ",
     "components__common__upload_button_title": "ファイルを選択",
     "components__common__upload_button__unsupported_file_type_tip": "指定されたPDFファイルタイプをアップロードしてください",
-    "components__common__select_other_file": "別のファイルを選択"
+    "components__common__select_other_file": "別のファイルを選択",
+    "components__common__button__download": "ダウンロード"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "アップロードできるのは画像タイプのみです",
@@ -1822,5 +1823,38 @@
     "components__protect_pdf_detail__input__placeholder": "パスワードを設定",
     "components__protect_pdf_detail__repeat_input__placeholder": "パスワードを確認",
     "components__protect_pdf_detail__use_tips": "パスワードとPDFファイルはサーバーにアップロードされず、セキュリティが確保されます。"
+  },
+  "pages__pdf_tools__pdf_annotator": {
+    "title": "PDF注釈",
+    "description": "PDFファイルに直接書いたり描いたりして無料で注釈を付けることが簡単にできます。",
+    "seo_title": "無料PDF注釈 - PDFファイルにオンラインで書いたり描いたり | MaxAI.me",
+    "seo_description": "無料のオンラインPDF注釈ツールを使用して、PDFファイルに書いたり描いたりできます。ダウンロードやウォーターマーク、サインアップは不要です。文書に簡単にアクセスして編集できます。",
+    "detail_description_object__pdf_annotator__top_left": "無料のPDF注釈ツールでPDF文書に直接書いたり描いたりハイライトを付けることができます。制限なしでシームレスな体験をお楽しみください。",
+    "detail_description_object__pdf_annotator__top_right_1": "数回のクリックでPDFファイルに注釈を付けます。",
+    "detail_description_object__pdf_annotator__top_right_2": "PDFファイルをアップロードして注釈を付け始めます。",
+    "detail_description_object__pdf_annotator__top_right_3": "Mac、Windows、Android、iOSデバイスで完璧に動作します。",
+    "detail_description_object__pdf_annotator__middle_1_title": "使いやすいオンラインPDF注釈ツール",
+    "detail_description_object__pdf_annotator__middle_1_description": "直感的なPDF注釈ツールでPDFファイルに簡単に書いたり描いたりできます。アカウントを作成する必要なく、文書をアップロードして注釈を付け、編集済みのPDFを数分でダウンロードできます。",
+    "detail_description_object__pdf_annotator__middle_2_title": "安全でプライベートな注釈",
+    "detail_description_object__pdf_annotator__middle_2_description": "すべての注釈はブラウザ内で処理され、文書がプライベートかつ安全であることを保証します。クラウドにデータが送信されることはなく、機密情報が保護されます。",
+    "detail_description_object__pdf_annotator__middle_3_title": "デバイス間の互換性",
+    "detail_description_object__pdf_annotator__middle_3_description": "Webブラウザを搭載したデバイス（デスクトップ、ラップトップ、モバイルデバイスを含む）からアクセスできるオンラインPDF注釈ツール。いつでもどこでもPDFファイルに注釈を付けられます。",
+    "detail_description_object__pdf_annotator__middle_4_title": "簡単な注釈プロセス",
+    "detail_description_object__pdf_annotator__middle_4_description": "PDFファイルに注釈を付けるプロセスは簡単です：ファイルをアップロードし、組み込みツールを使用して書いたり描いたりし、編集済みのバージョンをダウンロードします。初心者でも簡単に操作できます。",
+    "detail_description_object__pdf_annotator__middle_5_title": "費用なし、複雑さなし",
+    "detail_description_object__pdf_annotator__middle_5_description": "PDFに注釈を付けるために高価なソフトウェアを購入する必要はありません。無料のPDF注釈ツールはオンラインで利用でき、隠れたコストやダウンロード、登録は不要です。ストレスフリーな体験を保証します。",
+    "detail_description_object__pdf_annotator__middle_6_title": "高速かつ効率的な処理",
+    "detail_description_object__pdf_annotator__middle_6_description": "PDF注釈サービスはスピードを重視して設計されています。効率的なツールで素早く文書を処理し、ワークフローを向上させます。",
+    "detail_description_object__pdf_annotator__bottom_right_title": "オンラインでPDFファイルに注釈を付ける方法：",
+    "detail_description_object__pdf_annotator__bottom_right_description_1": "注釈を付けたいPDFファイルをアップロードします。",
+    "detail_description_object__pdf_annotator__bottom_right_description_2": "文書に書いたり描いたりハイライトを付けるための注釈ツールを使用します。",
+    "detail_description_object__pdf_annotator__bottom_right_description_3": "‘ダウンロード’をクリックして注釈付きのPDFファイルを保存します。",
+    "detail_description_object__pdf_annotator__bottom_right_description_4": "注釈付きのPDFにどのデバイスからでもアクセスし、簡単に共有できます。"
+  },
+  "functionality__pdf_annotator": {
+    "components__pdf_annotator__insert_tools__text_annotator": "テキスト注釈",
+    "components__pdf_annotator__insert_tools__insert_text": "テキストを挿入",
+    "components__pdf_annotator__insert_tools__insert_image": "画像を挿入",
+    "components__pdf_annotator__insert_tools__insert_signature": "署名を挿入"
   }
 }

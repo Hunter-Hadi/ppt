@@ -71,10 +71,6 @@ const FunctionalityCommonOperateFabricCanvas: FC<
     const scale = currentCanvasSize.width / width
     return scale
   }, [currentCanvasSize.width, defaultWidth])
-  useEffect(() => {
-    console.log('currentCanvasSize', currentCanvasSize)
-    console.log('canvasChangeScale', canvasChangeScale)
-  }, [canvasChangeScale, currentCanvasSize])
   // 添加签名对象
   const saveCurrentCanvasData = useCallback(
     debounce(() => {

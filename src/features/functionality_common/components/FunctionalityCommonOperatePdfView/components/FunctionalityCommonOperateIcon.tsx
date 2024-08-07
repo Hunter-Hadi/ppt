@@ -14,6 +14,7 @@ import FontDownloadOutlinedIcon from '@mui/icons-material/FontDownloadOutlined'
 import FormatAlignCenterIcon from '@mui/icons-material/FormatAlignCenter'
 import FormatAlignLeftIcon from '@mui/icons-material/FormatAlignLeft'
 import FormatAlignRightIcon from '@mui/icons-material/FormatAlignRight'
+import FormatIndentIncreaseIcon from '@mui/icons-material/FormatIndentIncrease'
 import FormatUnderlinedIcon from '@mui/icons-material/FormatUnderlined'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown'
 import ModeEditIcon from '@mui/icons-material/ModeEdit'
@@ -125,6 +126,9 @@ const FunctionalityCommonOperateIcon: FC<{ name: string } & SvgIconProps> = ({
 
       case 'DateRangeOutlined': {
         return <DateRangeOutlinedIcon {...restProps} />
+      }
+      case 'FormatIndentIncrease': {
+        return <FormatIndentIncreaseIcon {...restProps} />
       }
       default: {
         return null

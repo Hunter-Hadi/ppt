@@ -52,7 +52,8 @@
     "month": "חודש",
     "unlimited": "ללא הגבלה",
     "most_popular": "הכי פופולרי",
-    "upgrade_now": "שדרג עכשיו"
+    "upgrade_now": "שדרג עכשיו",
+    "choose_another_file": "בחר קובץ אחר"
   },
   "button": {
     "add_to_chrome_for_free": "הוסף ל־Chrome - זה חינם",
@@ -728,7 +729,13 @@
     "home_page__features_content__all_in_chatbox__description1": "שוחח עם GPT-4o, Claude-3.5-Sonnet, Gemini-1.5-Pro, ועוד.",
     "home_page__features_content__all_in_chatbox__description2": "הדרך המהירה ביותר לקבל תשובות מיידיות ישירות בסרגל הדפדפן.",
     "home_page__features_content__all_in_chatbox__description3": "ניתן לנתח כל תמונה בעזרת ראיית AI.",
-    "home_page__features_content__all_in_chatbox__description4": "צור אמנות ותמונות AI עם DALLE-3."
+    "home_page__features_content__all_in_chatbox__description4": "צור אמנות ותמונות AI עם DALLE-3.",
+    "tools__index_page__constant_obj__pdf_page_watermark__title": "הוסף סימן מים ל־PDF",
+    "tools__index_page__constant_obj__pdf_page_watermark__main_description": "הוסף סימן מים ל־PDF שלך",
+    "pdf_tools__detail_description_object__watermark_pages__top_left": "הוסף סימן מים למסמכי PDF בעזרת מסמך PDF חינמי להוספת סימן מים. אין צורך להוריד אפליקציה – הכל עובד בדפדפן שלך במערכות Mac, Windows, Linux ובמכשירים ניידים.",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_1": "הוסף סימני מים ל־PDF בשניות",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_2": "נאמן על ידי 2.4 מיליארד אנשים מאז 2013",
+    "pdf_tools__detail_description_object__watermark_pdf__top_right_3": "דרך קלה להוספת סימני מים ל־PDF – אין צורך בהתקנה"
   },
   "prompt_library": {
     "use_prompt_library__title": "ספריית פרומפטים מתקדמת",
@@ -1058,7 +1065,9 @@
     "use_cases__research__title": "עוזר מחקר וסיכום AI | MaxAI.me",
     "use_cases__research__desc": "הוסף AI לדפדפן שלך כדי לסכם ולשוחח עם מאמרים ברשת, PDFים וסרטוני YouTube כדי לחסוך זמן. שאל שאלות לAI לתשובות מהירות יותר ולהאיץ את המחקר שלך. מופעל על ידי GPT-4o, Claude-3-Opus, Gemini-1.5-Pro.",
     "use_cases__writing__title": "עוזר כתיבה AI | MaxAI.me",
-    "use_cases__writing__desc": "הוסף AI לדפדפן שלך כדי לשפר ולשקף את הכתיבה שלך בכל דף אינטרנט. צור אימיילים מרתקים, מאמרים, פוסטים בבלוג, פוסטים ברשתות החברתיות, עבודות. מופעל על ידי GPT-4o, Claude-3-opus, Gemini-1.5-pro."
+    "use_cases__writing__desc": "הוסף AI לדפדפן שלך כדי לשפר ולשקף את הכתיבה שלך בכל דף אינטרנט. צור אימיילים מרתקים, מאמרים, פוסטים בבלוג, פוסטים ברשתות החברתיות, עבודות. מופעל על ידי GPT-4o, Claude-3-opus, Gemini-1.5-pro.",
+    "pdf_tools__pdf_watermark_page__title": "מסמך PDF עם סימן מים חינמי | הוסף סימני מים ל־PDF בכל מכשיר",
+    "pdf_tools__pdf_watermark_page__description": "הוסף בקלות סימן מים למסמכי PDF. אין צורך להוריד אפליקציה – הכל עובד בדפדפן שלך במערכות Mac, Windows, Linux ובמכשירים ניידים."
   },
   "features_landing": {
     "cta_text": "הוסף לדפדפן",
@@ -1294,7 +1303,8 @@
     "components__common__upload_button_tips": "או שחרר קבצים כאן",
     "components__common__upload_button_title": "בחר קבצים",
     "components__common__upload_button__unsupported_file_type_tip": "אנא העלה את סוג הקובץ PDF המצוין",
-    "components__common__select_other_file": "בחר קובץ אחר"
+    "components__common__select_other_file": "בחר קובץ אחר",
+    "components__common__button__download": "הורדה"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "ניתן להעלות רק תמונות מסוג תמונה",
@@ -1812,5 +1822,38 @@
     "components__protect_pdf_detail__input__placeholder": "הגדר את הסיסמה שלך",
     "components__protect_pdf_detail__repeat_input__placeholder": "אשר את הסיסמה שלך",
     "components__protect_pdf_detail__use_tips": "הסיסמה וקבצי PDF לא ייטענו לשרת, מבטיח בטיחות."
+  },
+  "pages__pdf_tools__pdf_annotator": {
+    "title": "מערכת הערות PDF",
+    "description": "הוסף הערות לקבצי ה־PDF שלך בחינם על ידי כתיבה או ציור ישירות עליהם.",
+    "seo_title": "מערכת הערות PDF חינמית - כתוב וצייר באופן מקוון על קבצי PDF | MaxAI.me",
+    "seo_description": "השתמש במערכת הערות PDF החינמית שלנו כדי לכתוב או לצייר על קבצי ה־PDF שלך. אין צורך להוריד, להוסיף סימני מים או להירשם. גישה ועריכה של המסמכים שלך בקלות.",
+    "detail_description_object__pdf_annotator__top_left": "מערכת הערות PDF החינמית שלנו מאפשרת לך לכתוב, לצייר ולהדגיש ישירות על מסמכי ה־PDF שלך. תהנה מחווית גלישה חלקה ללא הגבלות.",
+    "detail_description_object__pdf_annotator__top_right_1": "הערות מהירות על קבצי ה־PDF שלך בכמה לחיצות לחיצה בלבד.",
+    "detail_description_object__pdf_annotator__top_right_2": "הערכה מהירה של קבצי ה־PDF שלך בקלות.",
+    "detail_description_object__pdf_annotator__top_right_3": "עובד באופן מושלם על מערכות Mac, Windows, Android ו־iOS.",
+    "detail_description_object__pdf_annotator__middle_1_title": "מערכת הערות PDF מקוונת ידידותית למשתמש",
+    "detail_description_object__pdf_annotator__middle_1_description": "עם מערכת הערות PDF האינטואיטיבית שלנו, תוכל לכתוב או לצייר על קבצי ה־PDF שלך בקלות. העלה את המסמך שלך, התחל להעיר והורד את ה־PDF שעבר עריכה בדקות, הכל בלי צורך ליצור חשבון.",
+    "detail_description_object__pdf_annotator__middle_2_title": "הערות מאובטחות ופרטיות",
+    "detail_description_object__pdf_annotator__middle_2_description": "כל ההערות שלך מעובדות ישירות בדפדפן שלך, מבטיחות שהמסמכים שלך יישארו פרטיים ומאובטחים. אין שליחת נתונים לענן, מגינים על המידע הרגיש שלך.",
+    "detail_description_object__pdf_annotator__middle_3_title": "תאימות עם מכשירים שונים",
+    "detail_description_object__pdf_annotator__middle_3_description": "מערכת הערות PDF המקוונת שלנו נגישה מכל מכשיר עם דפדפן אינטרנט, כולל מחשבי שולחן, מחשבים ניידים ומכשירים ניידים. הערים על קבצי ה־PDF שלך בכל עת ובכל מקום.",
+    "detail_description_object__pdf_annotator__middle_4_title": "תהליך הערה פשוט",
+    "detail_description_object__pdf_annotator__middle_4_description": "הערת קבצי ה־PDF שלך היא פשוטה: העלה את הקובץ שלך, השתמש בכלי המובנים לכתיבה או ציור, ואז הורד את הגרסה שעברה עריכה. גם מתחילים ללא ניסיון יכולים לנווט בתהליך זה בקלות.",
+    "detail_description_object__pdf_annotator__middle_5_title": "ללא עלות, ללא קושי",
+    "detail_description_object__pdf_annotator__middle_5_description": "אין צורך לרכוש תוכנה יקרה כדי להעיר את קבצי ה־PDF שלך. מערכת הערות PDF החינמית שלנו זמינה מקוון בלי עלויות נסתרות, הורדות או הרשמות, מבטיחה חווית גישה חלקה.",
+    "detail_description_object__pdf_annotator__middle_6_title": "עיבוד מהיר ויעיל",
+    "detail_description_object__pdf_annotator__middle_6_description": "שירות ההערה על קבצי ה־PDF שלנו מיועד למהירות. עבודה מהירה ומשופרת של המסמכים שלך בעזרת הכלים היעילים שלנו שמשפרים את זרימת העבודה שלך.",
+    "detail_description_object__pdf_annotator__bottom_right_title": "איך להעיר קבצי PDF באופן מקוון:",
+    "detail_description_object__pdf_annotator__bottom_right_description_1": "העלה את קובץ ה־PDF שברצונך להעיר.",
+    "detail_description_object__pdf_annotator__bottom_right_description_2": "השתמש בכלי ההערה לכתיבה, ציור או הדגשה על המסמך.",
+    "detail_description_object__pdf_annotator__bottom_right_description_3": "לחץ על 'הורד' כדי לשמור את קובץ ה־PDF שעבר עריכה.",
+    "detail_description_object__pdf_annotator__bottom_right_description_4": "גש לקובץ ה־PDF שעבר עריכה שלך מכל מכשיר ושתף בקלות."
+  },
+  "functionality__pdf_annotator": {
+    "components__pdf_annotator__insert_tools__text_annotator": "הערת טקסט",
+    "components__pdf_annotator__insert_tools__insert_text": "הוסף טקסט",
+    "components__pdf_annotator__insert_tools__insert_image": "הוסף תמונה",
+    "components__pdf_annotator__insert_tools__insert_signature": "הוסף חתימה"
   }
 }

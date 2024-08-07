@@ -1,4 +1,5 @@
 import { Box, Button, Stack, Typography } from '@mui/material'
+import { useTranslation } from 'next-i18next'
 import { FC, useState } from 'react'
 import React from 'react'
 
@@ -17,6 +18,8 @@ interface IFunctionalityOperationAreaCanvasTools {
 const FunctionalityOperationAreaCanvasTools: FC<
   IFunctionalityOperationAreaCanvasTools
 > = ({ editType, onChangeType, children }) => {
+  const { t } = useTranslation()
+
   const [uploadKey, setUploadKey] = useState(0)
   const isOpenPagePainter = false
   const isEraser = false
@@ -73,12 +76,19 @@ const FunctionalityOperationAreaCanvasTools: FC<
           size='small'
         >
           <FunctionalityPdfAnnotatorIcon
-            fontSize='inherit'
+            fontSize='small'
             color='primary'
-            name='Brush'
+            name='DriveFileRenameOutline'
           />
-          <Typography variant='custom' fontSize={14} color='primary.main'>
-            文本批注
+          <Typography
+            variant='custom'
+            fontSize={14}
+            color='primary.main'
+            textAlign='center'
+          >
+            {t(
+              'functionality__pdf_annotator:components__pdf_annotator__insert_tools__text_annotator',
+            )}
           </Typography>
         </Button>
         <Button
@@ -89,12 +99,19 @@ const FunctionalityOperationAreaCanvasTools: FC<
           size='small'
         >
           <FunctionalityPdfAnnotatorIcon
-            fontSize='inherit'
+            fontSize='small'
             color='primary'
-            name='Brush'
+            name='TextFields'
           />
-          <Typography variant='custom' fontSize={14} color='primary.main'>
-            插入文本
+          <Typography
+            variant='custom'
+            fontSize={14}
+            color='primary.main'
+            textAlign='center'
+          >
+            {t(
+              'functionality__pdf_annotator:components__pdf_annotator__insert_tools__insert_text',
+            )}
           </Typography>
         </Button>
         <UploadButton
@@ -110,12 +127,19 @@ const FunctionalityOperationAreaCanvasTools: FC<
           onChange={uploadImg}
         >
           <FunctionalityPdfAnnotatorIcon
-            fontSize='inherit'
+            fontSize='small'
             color='primary'
             name='Image'
           />
-          <Typography variant='custom' fontSize={14} color='primary.main'>
-            插入图片
+          <Typography
+            variant='custom'
+            fontSize={14}
+            color='primary.main'
+            textAlign='center'
+          >
+            {t(
+              'functionality__pdf_annotator:components__pdf_annotator__insert_tools__insert_image',
+            )}
           </Typography>
         </UploadButton>
         <FunctionalityCommonSignaturePopoverViewMain onAddImg={onAddImg}>
@@ -126,12 +150,19 @@ const FunctionalityOperationAreaCanvasTools: FC<
             size='small'
           >
             <FunctionalityPdfAnnotatorIcon
-              fontSize='inherit'
+              fontSize='small'
               color='primary'
-              name='Brush'
+              name='Draw'
             />
-            <Typography variant='custom' fontSize={14} color='primary.main'>
-              插入签名
+            <Typography
+              variant='custom'
+              fontSize={14}
+              color='primary.main'
+              textAlign='center'
+            >
+              {t(
+                'functionality__pdf_annotator:components__pdf_annotator__insert_tools__insert_signature',
+              )}
             </Typography>
           </Button>
         </FunctionalityCommonSignaturePopoverViewMain>
@@ -158,7 +189,7 @@ const FunctionalityOperationAreaCanvasTools: FC<
             onClick={() => {}}
           >
             <FunctionalityPdfAnnotatorIcon
-              fontSize='inherit'
+              fontSize='small'
               color='primary'
               name='Brush'
             />
@@ -176,7 +207,7 @@ const FunctionalityOperationAreaCanvasTools: FC<
               onClick={() => {}}
             >
               <FunctionalityPdfAnnotatorIcon
-                fontSize='inherit'
+                fontSize='small'
                 color='primary'
                 name='BackspaceIcon'
               />

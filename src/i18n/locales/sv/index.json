@@ -1304,7 +1304,8 @@
     "components__common__upload_button_tips": "eller släpp filer här",
     "components__common__upload_button_title": "VÄLJ FILER",
     "components__common__upload_button__unsupported_file_type_tip": "Var god ladda upp den angivna PDF-filtypen",
-    "components__common__select_other_file": "Välj en annan fil"
+    "components__common__select_other_file": "Välj en annan fil",
+    "components__common__button__download": "Ladda ner"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Endast bilder av bildtyp kan laddas upp",
@@ -1822,5 +1823,38 @@
     "components__protect_pdf_detail__input__placeholder": "Ange ditt lösenord",
     "components__protect_pdf_detail__repeat_input__placeholder": "Bekräfta ditt lösenord",
     "components__protect_pdf_detail__use_tips": "Lösenordet och PDF-filerna kommer inte att laddas upp till servern, vilket säkerställer säkerheten."
+  },
+  "pages__pdf_tools__pdf_annotator": {
+    "title": "PDF-anteckning",
+    "description": "Annotera enkelt dina PDF-filer gratis genom att skriva eller rita direkt på dem.",
+    "seo_title": "Gratis PDF-anteckning - Skriv och Rita Online på PDF-filer | MaxAI.me",
+    "seo_description": "Använd vår kostnadsfria online-PDF-anteckning för att skriva eller rita på dina PDF-filer. Inga nedladdningar, vattenstämplar eller registreringar behövs. Få tillgång till och redigera dina dokument utan ansträngning.",
+    "detail_description_object__pdf_annotator__top_left": "Vår kostnadsfria PDF-anteckning låter dig enkelt skriva, rita och markera direkt på dina PDF-dokument. Njut av en sömlös upplevelse utan begränsningar.",
+    "detail_description_object__pdf_annotator__top_right_1": "Annotera snabbt dina PDF-filer med bara några klick.",
+    "detail_description_object__pdf_annotator__top_right_2": "Ladda enkelt upp din PDF-fil för att börja anteckna.",
+    "detail_description_object__pdf_annotator__top_right_3": "Fungerar perfekt på Mac, Windows, Android och iOS-enheter.",
+    "detail_description_object__pdf_annotator__middle_1_title": "Användarvänlig Online PDF-anteckning",
+    "detail_description_object__pdf_annotator__middle_1_description": "Med vår intuitiva PDF-anteckning kan du skriva eller rita på dina PDF-filer utan ansträngning. Ladda upp ditt dokument, börja anteckna och ladda ner den redigerade PDF:en på några minuter, allt utan att behöva skapa ett konto.",
+    "detail_description_object__pdf_annotator__middle_2_title": "Säkra och Privata Anteckningar",
+    "detail_description_object__pdf_annotator__middle_2_description": "Alla dina anteckningar behandlas direkt i din webbläsare, vilket säkerställer att dina dokument förblir privata och säkra. Ingen data skickas till molnet, vilket skyddar din känsliga information.",
+    "detail_description_object__pdf_annotator__middle_3_title": "Korskompatibilitet mellan Enheter",
+    "detail_description_object__pdf_annotator__middle_3_description": "Vår online PDF-anteckning är tillgänglig från vilken enhet som helst med en webbläsare, inklusive stationära datorer, bärbara datorer och mobila enheter. Anteckna dina PDF-filer när som helst, var som helst.",
+    "detail_description_object__pdf_annotator__middle_4_title": "Enkel Anteckningsprocess",
+    "detail_description_object__pdf_annotator__middle_4_description": "Att anteckna dina PDF-filer är enkelt: ladda upp din fil, använd de inbyggda verktygen för att skriva eller rita och ladda sedan ner den redigerade versionen. Även nybörjare kan navigera denna process med lätthet.",
+    "detail_description_object__pdf_annotator__middle_5_title": "Inga Kostnader, Inga Komplikationer",
+    "detail_description_object__pdf_annotator__middle_5_description": "Det finns ingen anledning att köpa dyr programvara för att anteckna dina PDF:er. Vår kostnadsfria PDF-anteckning är tillgänglig online utan dolda kostnader, nedladdningar eller registreringar som krävs, vilket säkerställer en problemfri upplevelse.",
+    "detail_description_object__pdf_annotator__middle_6_title": "Snabb och Effektiv Bearbetning",
+    "detail_description_object__pdf_annotator__middle_6_description": "Vår PDF-anteckningstjänst är utformad för hastighet. Bearbeta och förbättra dina dokument snabbt med våra effektiva verktyg som förbättrar din arbetsflöde.",
+    "detail_description_object__pdf_annotator__bottom_right_title": "Hur man Antecknar PDF-filer Online:",
+    "detail_description_object__pdf_annotator__bottom_right_description_1": "Ladda upp den PDF-fil du vill anteckna.",
+    "detail_description_object__pdf_annotator__bottom_right_description_2": "Använd anteckningsverktygen för att skriva, rita eller markera i dokumentet.",
+    "detail_description_object__pdf_annotator__bottom_right_description_3": "Klicka på 'Ladda ner' för att spara din antecknade PDF-fil.",
+    "detail_description_object__pdf_annotator__bottom_right_description_4": "Få tillgång till din antecknade PDF på vilken enhet som helst och dela den enkelt."
+  },
+  "functionality__pdf_annotator": {
+    "components__pdf_annotator__insert_tools__text_annotator": "Textanteckning",
+    "components__pdf_annotator__insert_tools__insert_text": "infoga text",
+    "components__pdf_annotator__insert_tools__insert_image": "infoga bild",
+    "components__pdf_annotator__insert_tools__insert_signature": "Infoga Signatur"
   }
 }

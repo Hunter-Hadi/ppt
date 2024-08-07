@@ -1304,7 +1304,8 @@
     "components__common__upload_button_tips": "或者在这里拖放文件",
     "components__common__upload_button_title": "选择文件",
     "components__common__upload_button__unsupported_file_type_tip": "请上传指定的PDF文件类型",
-    "components__common__select_other_file": "选择另一个文件"
+    "components__common__select_other_file": "选择另一个文件",
+    "components__common__button__download": "下载"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "只能上传图像类型的图片",
@@ -1822,5 +1823,38 @@
     "components__protect_pdf_detail__input__placeholder": "设置您的密码",
     "components__protect_pdf_detail__repeat_input__placeholder": "确认您的密码",
     "components__protect_pdf_detail__use_tips": "密码和PDF文件不会上传到服务器，确保安全。"
+  },
+  "pages__pdf_tools__pdf_annotator": {
+    "title": "PDF标注工具",
+    "description": "通过直接书写或绘制，轻松在PDF文件上进行免费标注。",
+    "seo_title": "免费PDF标注工具 - 在PDF文件上在线书写和绘制 | MaxAI.me",
+    "seo_description": "使用我们的免费在线PDF标注工具在PDF文件上书写或绘制。无需下载、水印或注册。轻松访问和编辑您的文档。",
+    "detail_description_object__pdf_annotator__top_left": "我们的免费PDF标注工具让您可以轻松在PDF文档上直接书写、绘制和突出显示。无限制地享受无缝体验。",
+    "detail_description_object__pdf_annotator__top_right_1": "仅需几次点击，快速标注您的PDF文件。",
+    "detail_description_object__pdf_annotator__top_right_2": "只需上传您的PDF文件即可开始标注。",
+    "detail_description_object__pdf_annotator__top_right_3": "在Mac、Windows、Android和iOS设备上完美运行。",
+    "detail_description_object__pdf_annotator__middle_1_title": "用户友好的在线PDF标注工具",
+    "detail_description_object__pdf_annotator__middle_1_description": "通过我们直观的PDF标注工具，您可以轻松在PDF文件上书写或绘制。上传您的文档，开始标注，并在几分钟内下载编辑后的PDF，无需创建帐户。",
+    "detail_description_object__pdf_annotator__middle_2_title": "安全和私密的标注",
+    "detail_description_object__pdf_annotator__middle_2_description": "所有您的标注都直接在您的浏览器中处理，确保您的文档保持私密和安全。不会将任何数据发送到云端，保护您的敏感信息。",
+    "detail_description_object__pdf_annotator__middle_3_title": "跨设备兼容性",
+    "detail_description_object__pdf_annotator__middle_3_description": "我们的在线PDF标注工具可在任何带有网络浏览器的设备上访问，包括台式机、笔记本电脑和移动设备。随时随地标注您的PDF文件。",
+    "detail_description_object__pdf_annotator__middle_4_title": "简单的标注流程",
+    "detail_description_object__pdf_annotator__middle_4_description": "标注您的PDF文件非常简单：上传文件，使用内置工具书写或绘制，然后下载编辑后的版本。即使是完全的新手也可以轻松完成此流程。",
+    "detail_description_object__pdf_annotator__middle_5_title": "无成本，无复杂性",
+    "detail_description_object__pdf_annotator__middle_5_description": "无需购买昂贵的软件来标注您的PDF文件。我们的免费PDF标注工具在线提供，无隐藏费用、下载或注册要求，确保无忧体验。",
+    "detail_description_object__pdf_annotator__middle_6_title": "快速高效的处理",
+    "detail_description_object__pdf_annotator__middle_6_description": "我们的PDF标注服务专为速度而设计。使用我们的高效工具快速处理和完善您的文档，提升您的工作流程。",
+    "detail_description_object__pdf_annotator__bottom_right_title": "如何在线标注PDF文件：",
+    "detail_description_object__pdf_annotator__bottom_right_description_1": "上传要标注的PDF文件。",
+    "detail_description_object__pdf_annotator__bottom_right_description_2": "使用标注工具在文档上书写、绘制或突出显示。",
+    "detail_description_object__pdf_annotator__bottom_right_description_3": "单击“下载”以保存您的标注PDF文件。",
+    "detail_description_object__pdf_annotator__bottom_right_description_4": "在任何设备上访问您的标注PDF并轻松分享。"
+  },
+  "functionality__pdf_annotator": {
+    "components__pdf_annotator__insert_tools__text_annotator": "文本标注",
+    "components__pdf_annotator__insert_tools__insert_text": "插入文本",
+    "components__pdf_annotator__insert_tools__insert_image": "插入图片",
+    "components__pdf_annotator__insert_tools__insert_signature": "插入签名"
   }
 }
