@@ -2,7 +2,7 @@ import { Box } from '@mui/material'
 import React, { FC, useCallback, useEffect, useMemo, useRef } from 'react'
 import { useRecoilValue, useSetRecoilState } from 'recoil'
 
-import { useFunctionalitySignElementWidth } from '@/features/functionality_sign_pdf/hooks/useFunctionalitySignElementWidth'
+import { useFunctionalityCommonElementSize } from '@/features/functionality_common/hooks/useFunctionalityCommonElementSize'
 
 import FunctionalityCommonPdfViewPage from '../../FunctionalityCommonPdfViewVirtualScroll/components/FunctionalityCommonPdfViewPage'
 import FunctionalityCommonPdfViewVirtualScrollMain from '../../FunctionalityCommonPdfViewVirtualScroll/components/FunctionalityCommonPdfViewVirtualScrollMain'
@@ -39,7 +39,7 @@ const FunctionalityCommonOperatePdfToolViewMain: FC<
   const wrapRef = useRef<HTMLElement>(null)
 
   const { width: parentWidth, height: parentHeight } =
-    useFunctionalitySignElementWidth(wrapRef) //获取父元素的宽度
+    useFunctionalityCommonElementSize(wrapRef) //获取父元素的宽度
   useEffect(() => {
     //事件转发
     const forwardData = (...args) => {

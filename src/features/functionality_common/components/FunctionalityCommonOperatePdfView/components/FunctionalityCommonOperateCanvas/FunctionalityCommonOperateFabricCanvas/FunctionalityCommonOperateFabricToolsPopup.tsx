@@ -17,12 +17,12 @@ import FunctionalityCommonColorButtonPopover from '@/features/functionality_comm
 import FunctionalityCommonFontsButtonPopover from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonFontsButtonPopover'
 import { SIGN_TEXT_FONT_FAMILY_LIST } from '@/features/functionality_common/constants'
 import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
+
 import {
   copyFabricSelectedObject,
   onChangeFabricColor,
   onChangeFabricFontStyle,
-} from '@/features/functionality_sign_pdf/utils/fabricjsTools'
-
+} from '../../../utils/FabricCanvas/fabricCanvasNewAdd'
 import FunctionalityCommonOperateIcon from '../../FunctionalityCommonOperateIcon'
 import FunctionalitySignPdfShowPdfDateFormatsPopover from './FunctionalityCommonOperateDateFormatsPopover'
 import { IControlDiv } from './FunctionalityCommonOperateFabricCanvasMain'

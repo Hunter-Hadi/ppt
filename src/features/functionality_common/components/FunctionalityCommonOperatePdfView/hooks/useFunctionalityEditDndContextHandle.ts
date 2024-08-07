@@ -19,9 +19,9 @@ const useFunctionalityEditDndContextHandle = (props: {
   onStart?: (event: DragStartEvent) => void
   onEnd?: (event: DragEndEvent) => void
 }) => {
-  const [activeData, setActiveDragData] = useState<IActiveDragData | undefined>(
-    undefined,
-  )
+  const [activeDragData, setActiveDragData] = useState<
+    IActiveDragData | undefined
+  >(undefined)
   const onDragStart = (event: any) => {
     console.log('onDragStart', event)
     setActiveDragData({ dragType: 'start', ...event.active.data.current })
@@ -66,7 +66,7 @@ const useFunctionalityEditDndContextHandle = (props: {
       })
     }
 
-    if (activeData?.dragType === 'start' && !activeData.value) {
+    if (activeDragData?.dragType === 'start' && !activeDragData.value) {
       setActiveDragData({
         dragType: 'end',
         ...newSignaturePosition,
@@ -95,7 +95,8 @@ const useFunctionalityEditDndContextHandle = (props: {
     findScrollViewPostion(event)
   }
   return {
-    activeData,
+    activeDragData,
+    setActiveDragData,
     onDragStart,
     onDragEnd,
   }

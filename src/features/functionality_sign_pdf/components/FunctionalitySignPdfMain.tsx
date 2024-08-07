@@ -5,14 +5,14 @@ import { lazy, Suspense, useState } from 'react'
 import { useRecoilState } from 'recoil'
 
 import AppLoadingLayout from '@/features/common/components/AppLoadingLayout'
+import {
+  FunctionalitySignPdfOperationOBjectAtom,
+  functionalitySignPdfOperationOBjectDefault,
+} from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/store/setOperateFabricCanvas'
 import FunctionalityCommonUploadButton from '@/features/functionality_common/components/FunctionalityCommonUploadButton'
 import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 import { TopToolsDetailView } from '@/page_components/PdfToolsPages/components/ToolsDetail'
 
-import {
-  FunctionalitySignPdfOperationOBjectAtom,
-  functionalitySignPdfOperationOBjectDefault,
-} from '../store'
 const FunctionalitySignPdfDetail = lazy(
   () =>
     import(

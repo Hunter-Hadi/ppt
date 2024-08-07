@@ -1,16 +1,18 @@
 /* eslint-disable no-debugger */
 import { Box } from '@mui/material'
-import React, { forwardRef, useMemo } from 'react'
+import React, { forwardRef, useMemo, useRef } from 'react'
 
-import { useFunctionalitySignElementWidth } from '@/features/functionality_common/hooks/useFunctionalitySignElementWidth'
+import { useFunctionalityCommonElementSize } from '@/features/functionality_common/hooks/useFunctionalityCommonElementSize'
 
 /**
  * canvas渲染组件用的fabric_js
  */
-const FunctionalityWateMarkPdfShowPdfWaterMarkRender = (
-  { sizeInfo, waterMarkInfo },
-) => {
-  const { ref, width } = useFunctionalitySignElementWidth()
+const FunctionalityWateMarkPdfShowPdfWaterMarkRender = ({
+  sizeInfo,
+  waterMarkInfo,
+}) => {
+  const ref = useRef(null)
+  const { width } = useFunctionalityCommonElementSize(ref)
   const proportion = width / sizeInfo.width
 
   const getAngleForDiagonal = useMemo(() => {

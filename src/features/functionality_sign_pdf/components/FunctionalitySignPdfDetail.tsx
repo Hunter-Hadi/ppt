@@ -25,6 +25,7 @@ import {
   IFunctionalitySignPdfShowPdfViewObjectToolsPopupProps,
   TopDetailSignPdfSelectInfoContext,
 } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/store/setOperateFabricCanvas'
+import { IFabricAddObjectType } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/types'
 import {
   eventEmitterAddFabricCanvas,
   eventEmitterAddFabricIndexCanvas,
@@ -32,7 +33,6 @@ import {
 import { pdfLibFabricCanvasEmbedSave } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/utils/FabricCanvas/pdfLibFabricCanvasEmbedSave'
 import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 
-import { IFabricAddObjectType } from '../utils/fabricjsTools'
 import FunctionalitySignCompleteSignatureInfo from './FunctionalitySignCompleteSignatureInfo'
 import FunctionalitySignPdfOperationView from './FunctionalitySignPdfOperationView/FunctionalitySignPdfOperationViewMain'
 
@@ -90,9 +90,6 @@ export const FunctionalitySignPdfDetail: FC<
       autoSetOverallViewHeight()
     }
   }, [isMobile])
-  const [activeDragData, setActiveDragData] = useState<
-    IActiveDragData | undefined
-  >(undefined)
   const signNumber = useMemo(
     () => fabricCanvasSignObjectList.length,
     [fabricCanvasSignObjectList],
@@ -134,14 +131,23 @@ export const FunctionalitySignPdfDetail: FC<
     }),
     useSensor(KeyboardSensor),
   )
+  const {
+    activeDragData,
+    setActiveDragData,
+    onDragStart: onStart,
+    onDragEnd: onEnd,
+  } = useFunctionalityEditDndContextHandle({
+    onStart: () => {},
+    onEnd: () => {},
+  })
   // 右边的点击添加事件
   const onClickAdd = (type: IFabricAddObjectType, value: string) => {
-    if (activeData) {
-      activeData.dragValue.data.type = type
-      activeData.dragValue.data.value = value
+    if (activeDragData) {
+      activeDragData.dragValue.data.type = type
+      activeDragData.dragValue.data.value = value
       eventEmitterAddFabricIndexCanvas(
-        activeData.dragValue.index,
-        activeData.dragValue.data,
+        activeDragData.dragValue.index,
+        activeDragData.dragValue.data,
       )
     } else {
       eventEmitterAddFabricCanvas({
@@ -160,14 +166,7 @@ export const FunctionalitySignPdfDetail: FC<
     }, 500) //清空画布,暂时这样处理，不然清理不掉
     onClearReturn()
   }
-  const {
-    activeData,
-    onDragStart: onStart,
-    onDragEnd: onEnd,
-  } = useFunctionalityEditDndContextHandle({
-    onStart: () => {},
-    onEnd: () => {},
-  })
+
   return (
     <TopDetailSignPdfSelectInfoContext.Provider
       value={{
@@ -275,7 +274,7 @@ export const FunctionalitySignPdfDetail: FC<
                   }}
                 >
                   <FunctionalitySignPdfOperationView
-                    activeDragData={activeData}
+                    activeDragData={activeDragData}
                     onClickAdd={onClickAdd}
                   />
                 </Box>
@@ -318,7 +317,7 @@ export const FunctionalitySignPdfDetail: FC<
           </Stack>
         </Stack>
         {/* 下面是拖动替身 */}
-        {activeData && activeData.dragType === 'start' && (
+        {activeDragData && activeDragData.dragType === 'start' && (
           <DragOverlay
             style={{
               display: 'flex',
@@ -328,45 +327,49 @@ export const FunctionalitySignPdfDetail: FC<
               justifyContent: 'center',
             }}
           >
-            {activeData && activeData.type === 'image' && activeData.value && (
-              <img
-                style={{
-                  maxWidth: isMobile ? '80px' : '200px',
-                  touchAction: 'none',
-                }}
-                onTouchStart={(e) => e.preventDefault()}
-                draggable='false'
-                src={activeData.value}
-                alt=''
-              />
-            )}
-            {activeData && activeData.type === 'image' && !activeData.value && (
-              <Box
-                sx={{
-                  padding: 1,
-                  backgroundColor: '#9065b0a3',
-                  borderRadius: 2,
-                  width: isMobile ? 80 : 'auto',
-                }}
-              >
-                <Typography
+            {activeDragData &&
+              activeDragData.type === 'image' &&
+              activeDragData.value && (
+                <img
+                  style={{
+                    maxWidth: isMobile ? '80px' : '200px',
+                    touchAction: 'none',
+                  }}
+                  onTouchStart={(e) => e.preventDefault()}
+                  draggable='false'
+                  src={activeDragData.value}
+                  alt=''
+                />
+              )}
+            {activeDragData &&
+              activeDragData.type === 'image' &&
+              !activeDragData.value && (
+                <Box
                   sx={{
-                    fontSize: {
-                      xs: isMobile ? 15 : 20,
-                      lg: isMobile ? 15 : 20,
-                    },
+                    padding: 1,
+                    backgroundColor: '#9065b0a3',
+                    borderRadius: 2,
+                    width: isMobile ? 80 : 'auto',
                   }}
                 >
-                  {t(
-                    'functionality__sign_pdf:components__sign_pdf__detail__empty_sign',
-                  )}
-                </Typography>
-              </Box>
-            )}
-            {activeData &&
-              (activeData.type === 'text' ||
-                activeData.type === 'i-text' ||
-                activeData.type === 'text-box') && (
+                  <Typography
+                    sx={{
+                      fontSize: {
+                        xs: isMobile ? 15 : 20,
+                        lg: isMobile ? 15 : 20,
+                      },
+                    }}
+                  >
+                    {t(
+                      'functionality__sign_pdf:components__sign_pdf__detail__empty_sign',
+                    )}
+                  </Typography>
+                </Box>
+              )}
+            {activeDragData &&
+              (activeDragData.type === 'text' ||
+                activeDragData.type === 'i-text' ||
+                activeDragData.type === 'text-box') && (
                 <Typography
                   sx={{
                     fontSize: {
@@ -375,7 +378,7 @@ export const FunctionalitySignPdfDetail: FC<
                     },
                   }}
                 >
-                  {activeData.value ||
+                  {activeDragData.value ||
                     t(
                       'functionality__sign_pdf:components__sign_pdf__detail__empty_text',
                     )}

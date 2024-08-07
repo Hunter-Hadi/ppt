@@ -4,13 +4,13 @@ import { useTranslation } from 'next-i18next'
 import React, { FC, useEffect, useMemo, useRef, useState } from 'react'
 import { useRecoilState } from 'recoil'
 
+import { FunctionalitySignPdfOperationOBjectAtom } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/store/setOperateFabricCanvas'
+import { IFabricAddObjectType } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/types'
 import FunctionalityCommonSignatureModal, {
   ISignatureType,
 } from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonSignaturePopoverView/FunctionalityCommonSignatureModal'
 import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 
-import { FunctionalitySignPdfOperationOBjectAtom } from '../../store'
-import { IFabricAddObjectType } from '../../utils/fabricjsTools'
 import { IActiveDragData } from '../FunctionalitySignPdfDetail'
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon'
 import FunctionalitySignPdfOperationDraggableView from './FunctionalitySignPdfOperationDraggableView'

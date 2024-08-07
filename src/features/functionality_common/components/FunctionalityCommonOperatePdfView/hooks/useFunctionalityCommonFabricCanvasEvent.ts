@@ -90,7 +90,6 @@ export const useFunctionalityCommonFabricCanvasEvent = (props: {
   }, [topWrapRef])
   const changObjectToList = (object: fabric.Object, type: 'add' | 'del') => {
     if (object.type !== 'image') return //只有图片才算正式签名对象
-    console.log('simply object13', object)
     setFabricCanvasSignObjectListRecoil((prevObjectIdList) => {
       const copyPrevObjectIdList = cloneDeep(prevObjectIdList)
       if (type === 'add') {
