@@ -243,8 +243,8 @@ const FunctionalityPdfExtractPageDetail: FC<IFunctionalityPdfMergeDetail> = ({
   const onDownloadPDF = async () => {
     if (pdfPageInfoList) {
       setIsDownloadLoading(true)
-      console.log(`isSeparatePDF:`, isSeparatePDF);
-      
+      console.log(`isSeparatePDF:`, isSeparatePDF)
+
       if (!isSeparatePDF) {
         const { pdfBytes, newDocumentName } = await mergePdfFiles()
         if (pdfBytes) {
@@ -353,8 +353,8 @@ const FunctionalityPdfExtractPageDetail: FC<IFunctionalityPdfMergeDetail> = ({
   const isHavePdfInfoList = pdfPageInfoList.length > 0
 
   //按钮配置列表
-  const buttonConfigs: IButtonConfig[] | any[] = useMemo(() => {
-    const resBtnConfig = [
+  const buttonConfigs: IButtonConfig[] = useMemo(() => {
+    const resBtnConfig: IButtonConfig[] = [
       {
         type: 'upload' as const,
         uploadProps: {
@@ -403,10 +403,13 @@ const FunctionalityPdfExtractPageDetail: FC<IFunctionalityPdfMergeDetail> = ({
       resBtnConfig.push({
         type: 'button',
         buttonProps: {
-          tooltip: t('pages__pdf_tools__extractpage_pdf:extract_download_tooltip'),
+          tooltip: t(
+            'pages__pdf_tools__extractpage_pdf:extract_download_tooltip',
+          ),
           children: t('pages__pdf_tools__extractpage_pdf:confirm_to_extract'),
           variant: 'contained',
-          disabled: pdfPageInfoList.length < 1 || currentIsLoading || noSelectedPage,
+          disabled:
+            pdfPageInfoList.length < 1 || currentIsLoading || noSelectedPage,
           color: 'primary',
           onClick: () => {
             onDownloadPDF()
@@ -414,7 +417,15 @@ const FunctionalityPdfExtractPageDetail: FC<IFunctionalityPdfMergeDetail> = ({
         },
       })
     return resBtnConfig
-  }, [currentIsLoading, isLoading, t, isMobile, pdfPageInfoList, isSeparatePDF, noSelectedPage])
+  }, [
+    currentIsLoading,
+    isLoading,
+    t,
+    isMobile,
+    pdfPageInfoList,
+    isSeparatePDF,
+    noSelectedPage,
+  ])
 
   const BoxViewWrap = useCallback(
     (props) => (
@@ -431,9 +442,12 @@ const FunctionalityPdfExtractPageDetail: FC<IFunctionalityPdfMergeDetail> = ({
     [],
   )
 
-  const hasNumSelected = useCallback((minCount) => {
-    return pdfPageInfoList.filter((pdf) => pdf.isSelected).length > minCount;
-  }, [pdfPageInfoList]);
+  const hasNumSelected = useCallback(
+    (minCount) => {
+      return pdfPageInfoList.filter((pdf) => pdf.isSelected).length > minCount
+    },
+    [pdfPageInfoList],
+  )
 
   useEffect(() => {
     const tagSelectedPdf = pdfPageInfoList.filter((pdf) => pdf.isSelected)
@@ -631,12 +645,18 @@ const FunctionalityPdfExtractPageDetail: FC<IFunctionalityPdfMergeDetail> = ({
         >
           <Grid item xs={10} md={2}>
             <FunctionalityCommonTooltip
-              title={t('pages__pdf_tools__extractpage_pdf:extract_download_tooltip')}
+              title={t(
+                'pages__pdf_tools__extractpage_pdf:extract_download_tooltip',
+              )}
             >
               <Button
                 sx={{ width: '100%', height: 48 }}
                 size='large'
-                disabled={pdfPageInfoList.length < 1 || currentIsLoading || noSelectedPage}
+                disabled={
+                  pdfPageInfoList.length < 1 ||
+                  currentIsLoading ||
+                  noSelectedPage
+                }
                 variant='contained'
                 onClick={() => onDownloadPDF()}
               >
