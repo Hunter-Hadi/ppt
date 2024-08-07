@@ -176,5 +176,7 @@ export const useFunctionalityCommonFabricCanvasEvent = (props: {
     controlAddNewDiv,
     selectLength,
     setControlAddNewDiv,
+    controlDiv,
+    activeObject,
   }
 }

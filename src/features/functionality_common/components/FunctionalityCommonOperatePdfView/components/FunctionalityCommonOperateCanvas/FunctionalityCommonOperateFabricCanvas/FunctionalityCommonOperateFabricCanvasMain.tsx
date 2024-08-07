@@ -1,42 +1,46 @@
 /* eslint-disable no-debugger */
-import { Box } from "@mui/material";
-import * as fabric from "fabric";
-import { cloneDeep } from "lodash-es";
-import React, { FC, useCallback, useEffect, useMemo, useRef } from "react";
-import { useRecoilState } from "recoil";
+import { Box } from '@mui/material'
+import * as fabric from 'fabric'
+import { cloneDeep } from 'lodash-es'
+import React, { FC, useCallback, useEffect, useMemo, useRef } from 'react'
+import { useRecoilState } from 'recoil'
 
-import { useFunctionalityCommonElementSize } from "@/features/functionality_common/hooks/useFunctionalityCommonElementSize";
-import { useFunctionalityCommonFabricCanvasEvent } from "@/features/functionality_common/hooks/useFunctionalityCommonFabricCanvasEvent";
+import { useFunctionalityCommonElementSize } from '@/features/functionality_common/hooks/useFunctionalityCommonElementSize'
+import { useFunctionalityCommonFabricCanvasEvent } from '@/features/functionality_common/hooks/useFunctionalityCommonFabricCanvasEvent'
 
 import {
   fabricCanvasJsonStringListRecoil,
   fabricCanvasZoomRecoil,
-} from "../../../store/setOperateFabricCanvas";
-import { ICanvasObjectData } from "../../../types";
+} from '../../../store/setOperateFabricCanvas'
+import { ICanvasObjectData } from '../../../types'
 import eventEmitter, {
   eventEmitterAddFabricIndexCanvasKey,
-} from "../../../utils/FabricCanvas/eventEmitter";
+} from '../../../utils/FabricCanvas/eventEmitter'
 import {
   fabricInitStyleSet,
   onFabricAddObject,
-} from "../../../utils/FabricCanvas/fabricCanvasNewAdd";
-import { handleNewObjectContinuousMouse } from "../../../utils/FabricCanvas/handleNewObjectContinuousMouse";
+} from '../../../utils/FabricCanvas/fabricCanvasNewAdd'
+import { handleNewObjectContinuousMouse } from '../../../utils/FabricCanvas/handleNewObjectContinuousMouse'
+import FunctionalitySignPdfShowPdfViewAddToolsPopup from './FunctionalityCommonOperateAddToolsPopup'
+import FunctionalityCommonOperateFabricToolsPopup from './FunctionalityCommonOperateFabricToolsPopup'
 export interface IControlDiv {
-  left: number;
-  top: number;
-  windowLeft: number;
-  windowTop: number;
+  left: number
+  top: number
+  windowLeft: number
+  windowTop: number
 }
 
 interface IFunctionalityCommonOperateFabricCanvasProps {
-  canvasScale: number; //width/height 比例 100%填充并且不变形
-  maxEnlarge?: number; //最大放大，防止之前的放大，会大过canvas的宽高
-  isMobile?: boolean; //是否是移动端
-  defaultWidth: number;
-  index: number;
-  canvasNumber: number;
+  canvasScale: number //width/height 比例 100%填充并且不变形
+  maxEnlarge?: number //最大放大，防止之前的放大，会大过canvas的宽高
+  isMobile?: boolean //是否是移动端
+  defaultWidth: number
+  index: number
+  canvasNumber: number
 }
-const FunctionalityCommonOperateFabricCanvas: FC<IFunctionalityCommonOperateFabricCanvasProps> = ({
+const FunctionalityCommonOperateFabricCanvas: FC<
+  IFunctionalityCommonOperateFabricCanvasProps
+> = ({
   canvasScale,
   maxEnlarge = 1.5,
   isMobile,
@@ -44,53 +48,53 @@ const FunctionalityCommonOperateFabricCanvas: FC<IFunctionalityCommonOperateFabr
   index,
   canvasNumber,
 }) => {
-  const [
-    fabricCanvasJsonStringList,
-    setFabricCanvasJsonStringList,
-  ] = useRecoilState(fabricCanvasJsonStringListRecoil);
-  const [, setFabricCanvasZoomRecoil] = useRecoilState(fabricCanvasZoomRecoil);
-  const isInitEventEmitter = useRef<boolean>(false);
-  const topWrapRef = useRef<HTMLElement | null>(null);
-  const fabricCanvasRef = useRef<HTMLCanvasElement>(null);
-  const fabricCanvas = useRef<fabric.Canvas | null>(null);
-  const { width: topViewWidth } = useFunctionalityCommonElementSize(topWrapRef);
+  const [fabricCanvasJsonStringList, setFabricCanvasJsonStringList] =
+    useRecoilState(fabricCanvasJsonStringListRecoil)
+  const [, setFabricCanvasZoomRecoil] = useRecoilState(fabricCanvasZoomRecoil)
+  const isInitEventEmitter = useRef<boolean>(false)
+  const topWrapRef = useRef<HTMLElement | null>(null)
+  const fabricCanvasRef = useRef<HTMLCanvasElement>(null)
+  const fabricCanvas = useRef<fabric.Canvas | null>(null)
+  const { width: topViewWidth } = useFunctionalityCommonElementSize(topWrapRef)
 
   const currentCanvasSize = useMemo(() => {
     return {
       width: topViewWidth,
       height: topViewWidth * canvasScale,
-    };
-  }, [canvasScale, topViewWidth]);
+    }
+  }, [canvasScale, topViewWidth])
   const canvasChangeScale = useMemo(() => {
-    const width = defaultWidth;
+    const width = defaultWidth
     // 计算新的缩放比例
-    const scale = currentCanvasSize.width / width;
-    return scale;
-  }, [currentCanvasSize.width, defaultWidth]);
+    const scale = currentCanvasSize.width / width
+    return scale
+  }, [currentCanvasSize.width, defaultWidth])
   useEffect(() => {
-    console.log("currentCanvasSize", currentCanvasSize);
-    console.log("canvasChangeScale", canvasChangeScale);
-  }, [canvasChangeScale, currentCanvasSize]);
+    console.log('currentCanvasSize', currentCanvasSize)
+    console.log('canvasChangeScale', canvasChangeScale)
+  }, [canvasChangeScale, currentCanvasSize])
   // 添加签名对象
   const saveCurrentCanvasData = useCallback(() => {
     try {
-      const json = fabricCanvas.current?.toJSON();
+      const json = fabricCanvas.current?.toJSON()
       if (json) {
         setFabricCanvasJsonStringList((list) => {
-          const copyList = cloneDeep(list);
-          copyList[index] = JSON.stringify(json);
-          return copyList;
-        });
+          const copyList = cloneDeep(list)
+          copyList[index] = JSON.stringify(json)
+          return copyList
+        })
       }
     } catch (e) {
-      console.log("simply saveCurrentCanvasData error", e);
+      console.log('simply saveCurrentCanvasData error', e)
     }
-  }, [index, setFabricCanvasJsonStringList]);
+  }, [index, setFabricCanvasJsonStringList])
   const {
     initEvent,
     controlAddNewDiv,
     selectLength,
     setControlAddNewDiv,
+    controlDiv,
+    activeObject,
   } = useFunctionalityCommonFabricCanvasEvent({
     fabricCanvas,
     saveCurrentCanvasData,
@@ -98,52 +102,52 @@ const FunctionalityCommonOperateFabricCanvas: FC<IFunctionalityCommonOperateFabr
     canvasIndex: index,
     canvasNumber: canvasNumber,
     canvasChangeScale: canvasChangeScale,
-  });
+  })
   const onAddObject = useCallback(
     async (
       canvasObject?: ICanvasObjectData,
       newObject?: any,
       isAutoObjectPosition?: boolean, //是否自动优化对象位置
-      isAutoObjectDragPosition: boolean = true //是否自动拖动对象位置
+      isAutoObjectDragPosition: boolean = true, //是否自动拖动对象位置
     ) => {
       try {
-        if (!fabricCanvas.current) return;
+        if (!fabricCanvas.current) return
 
         handleNewObjectContinuousMouse(
           newObject,
           fabricCanvas,
           isAutoObjectDragPosition,
           topWrapRef,
-          isMobile
-        );
+          isMobile,
+        )
         if (canvasObject && fabricCanvas.current) {
-          setControlAddNewDiv(null);
+          setControlAddNewDiv(null)
           await onFabricAddObject(
             fabricCanvas,
             canvasObject,
             isAutoObjectPosition,
-            isMobile
-          );
+            isMobile,
+          )
 
-          return;
+          return
         }
       } catch (e) {
-        console.error("simply error", e);
+        console.error('simply error', e)
       }
     },
-    [isMobile, setControlAddNewDiv]
-  );
+    [isMobile, setControlAddNewDiv],
+  )
 
   useEffect(() => {
-    if (isInitEventEmitter.current) return;
-    isInitEventEmitter.current = true;
+    if (isInitEventEmitter.current) return
+    isInitEventEmitter.current = true
     const handleNotify = (...args) => {
-      onAddObject(...args);
-    };
-    eventEmitter.off(eventEmitterAddFabricIndexCanvasKey + index, handleNotify);
+      onAddObject(...args)
+    }
+    eventEmitter.off(eventEmitterAddFabricIndexCanvasKey + index, handleNotify)
     // 订阅事件
-    eventEmitter.on(eventEmitterAddFabricIndexCanvasKey + index, handleNotify);
-  }, [index, onAddObject]);
+    eventEmitter.on(eventEmitterAddFabricIndexCanvasKey + index, handleNotify)
+  }, [index, onAddObject])
   useEffect(() => {
     try {
       if (
@@ -152,35 +156,34 @@ const FunctionalityCommonOperateFabricCanvas: FC<IFunctionalityCommonOperateFabr
         topWrapRef.current
       ) {
         //初始化canvas
-        fabricInitStyleSet(fabric);
+        fabricInitStyleSet(fabric)
         const canvas = new fabric.Canvas(fabricCanvasRef.current, {
           selection: !isMobile, //是否开启多选择
           statefull: true, //是否开启状态存储
           allowTouchScrolling: isMobile, //是否允许触摸滚动
-        });
-        const savedData = fabricCanvasJsonStringList[index]; //获取保存的数据
+        })
+        const savedData = fabricCanvasJsonStringList[index] //获取保存的数据
         if (savedData) {
-          canvas.loadFromJSON(savedData, canvas.renderAll.bind(canvas)); //加载数据
+          canvas.loadFromJSON(savedData, canvas.renderAll.bind(canvas)) //加载数据
         }
-        fabricCanvas.current = canvas;
-        canvas.renderAll();
-        initEvent(fabricCanvas);
+        fabricCanvas.current = canvas
+        canvas.renderAll()
+        initEvent(fabricCanvas)
       }
     } catch (e) {
-      console.error("simply Init error", e);
+      console.error('simply Init error', e)
     }
-  }, [canvasScale, fabricCanvasJsonStringList, index, initEvent, isMobile]);
+  }, [canvasScale, fabricCanvasJsonStringList, index, initEvent, isMobile])
   useEffect(() => {
     if (fabricCanvas.current) {
       fabricCanvas.current.setDimensions({
         width: currentCanvasSize.width,
         height: currentCanvasSize.height,
-      });
+      })
 
-      fabricCanvas.current.setZoom(canvasChangeScale); // 设置缩放比例
-      console.log("canvasChangeScale", canvasChangeScale);
-      setFabricCanvasZoomRecoil(canvasChangeScale);
-      fabricCanvas.current.renderAll(); // 重新渲染画布
+      fabricCanvas.current.setZoom(canvasChangeScale) // 设置缩放比例
+      setFabricCanvasZoomRecoil(canvasChangeScale)
+      fabricCanvas.current.renderAll() // 重新渲染画布
     }
   }, [
     topViewWidth,
@@ -189,14 +192,23 @@ const FunctionalityCommonOperateFabricCanvas: FC<IFunctionalityCommonOperateFabr
     currentCanvasSize.height,
     defaultWidth,
     canvasChangeScale,
-  ]);
+    setFabricCanvasZoomRecoil,
+  ])
+  const handlePopupClick = (event) => {
+    //因为写了点击其它区域关闭，所以这里做了阻止冒泡
+    event.stopPropagation()
+  }
+  //关闭弹窗
+  const onCloseAddToolsPopup = () => {
+    setControlAddNewDiv(null)
+  }
   return (
     <Box
-      className="FunctionalityCommonOperateFabricCanvas"
+      className='FunctionalityCommonOperateFabricCanvas'
       sx={{
-        width: "100%",
-        height: "100%",
-        overflow: "hidden",
+        width: '100%',
+        height: '100%',
+        overflow: 'hidden',
       }}
       ref={topWrapRef}
     >
@@ -204,13 +216,36 @@ const FunctionalityCommonOperateFabricCanvas: FC<IFunctionalityCommonOperateFabr
         sx={{
           width: currentCanvasSize.width,
           height: currentCanvasSize.height, //PDF 原来的高度
-          transformOrigin: "top left" /* 变形基点在右上角 */,
-          border: "1px solid #e8e8e8",
+          transformOrigin: 'top left' /* 变形基点在右上角 */,
+          border: '1px solid #e8e8e8',
         }}
       >
-        <canvas width="500" height="500" ref={fabricCanvasRef} />
+        <canvas width='500' height='500' ref={fabricCanvasRef} />
       </Box>
+      {controlDiv && activeObject && selectLength === 1 && (
+        <Box onMouseDown={handlePopupClick}>
+          <FunctionalityCommonOperateFabricToolsPopup
+            key={(activeObject as any).id}
+            controlDiv={controlDiv}
+            scaleFactor={canvasChangeScale}
+            editor={fabricCanvas}
+          />
+        </Box>
+      )}
+      {!isMobile &&
+        selectLength === 0 &&
+        controlAddNewDiv &&
+        fabricCanvas.current && (
+          <Box onMouseDown={handlePopupClick}>
+            <FunctionalitySignPdfShowPdfViewAddToolsPopup
+              controlDivPosition={controlAddNewDiv}
+              scaleFactor={canvasChangeScale}
+              editor={fabricCanvas}
+              onClose={onCloseAddToolsPopup}
+            />
+          </Box>
+        )}
     </Box>
-  );
-};
-export default FunctionalityCommonOperateFabricCanvas;
+  )
+}
+export default FunctionalityCommonOperateFabricCanvas

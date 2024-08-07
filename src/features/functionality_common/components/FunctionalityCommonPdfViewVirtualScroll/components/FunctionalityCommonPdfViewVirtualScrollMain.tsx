@@ -270,7 +270,7 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
           width={wrapBoxWidth} //宽度
           itemData={newPdfInfoList}
           onItemsRendered={onItemsRendered}
-          style={{ overflowX: 'auto' }}
+          style={{ overflowX: 'auto', willChange: 'auto!important' }} //下面的相对位置异常可以看这个属性willChange
         >
           {CurrentPage}
         </VariableSizeList>
