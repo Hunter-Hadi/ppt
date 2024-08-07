@@ -137,6 +137,16 @@ const FunctionalityDeletePagePdfMain = dynamic(
     loading: () => <AppLoadingLayout loading />,
   },
 )
+
+const FunctionalityExtractPagePdfMain = dynamic(
+  () =>
+    import(
+      '@/features/functionality_extract_page_pdf/components/FunctionalityExtractPagePdfMain'
+    ),
+  {
+    loading: () => <AppLoadingLayout loading />,
+  },
+)
 interface IToolsDetailProps {
   urlKey: IToolUrkKeyType
 }
@@ -221,7 +231,11 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
     'delete-page-pdf': {
       title: t('seo:pdf_tools__pdf_deletepages_page__title'),
       description: t('seo:pdf_tools__pdf_deletepages_page__description'),
-    }
+    },
+    'extract-page-pdf': {
+      title: t('seo:pdf_tools__pdf_extractpages_page__title'),
+      description: t('seo:pdf_tools__pdf_extractpages_page__description'),
+    },
   }
   const toolsDetailDescriptionData = allPdfToolsDetailDescriptionObject[urlKey]
   const toolList = useMemo(
@@ -277,6 +291,9 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
             {urlKey === 'protect-pdf' && <FunctionalityProtectPdfMain />}
             {urlKey === 'watermark-pdf' && <FunctionalityWaterMarkPdfMain />}
             {urlKey === 'delete-page-pdf' && <FunctionalityDeletePagePdfMain />}
+            {urlKey === 'extract-page-pdf' && (
+              <FunctionalityExtractPagePdfMain />
+            )}
           </Suspense>
         </Box>
         {toolsDetailDescriptionData && (

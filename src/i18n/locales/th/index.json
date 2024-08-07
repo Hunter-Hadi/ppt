@@ -759,7 +759,13 @@
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "ทำงานอย่างปลอดภัยและง่ายดายในเบราว์เซอร์ของคุณ",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "ลบหลายหน้าจาก PDF ในคราวเดียว",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "ทำงานในเบราว์เซอร์ของคุณ—ไม่จำเป็นต้องใช้ซอฟต์แวร์",
-    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "ดาวน์โหลดไฟล์ PDF ใหม่ของคุณ—เพียงเท่านั้น!"
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "ดาวน์โหลดไฟล์ PDF ใหม่ของคุณ—เพียงเท่านั้น!",
+    "tools__index_page__constant_obj__pdf_page_extractpage__title": "สร้างสำเนาหน้า PDF",
+    "tools__index_page__constant_obj__pdf_page_extractpage__main_description": "เลือกเฉพาะหน้าที่คุณต้องการจาก PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__top_left": "สร้างหน้าจากเอกสาร PDF ของคุณออนไลน์ฟรี ไม่ต้องดาวน์โหลด สมัครสมาชิก หรือใช้ซอฟต์แวร์ที่แพง ทุกอย่างที่คุณต้องการคือเบราว์เซอร์และการเชื่อมต่ออินเทอร์เน็ต",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "ใช้งานฟรีโดยไม่ต้องลงทะเบียน",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "สกัดเนื้อหา PDF ในไม่กี่วินาที",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "ทำงานอย่างปลอดภัยและง่ายดายในเบราว์เซอร์ของคุณ"
   },
   "prompt_library": {
     "use_prompt_library__title": "ไลบรารีคำแนะนำ AI คุณภาพสูง",
@@ -1094,7 +1100,9 @@
     "pdf_tools__pdf_watermark_page__title": "PDF Watermarker ฟรี | ใส่ลายน้ำใน PDF บนอุปกรณ์ใดก็ได้",
     "pdf_tools__pdf_watermark_page__description": "เพิ่มลายน้ำในเอกสาร PDF ได้อย่างง่ายดาย ไม่ต้องดาวน์โหลดแอปพลิเคชัน–ทุกอย่างทำงานในเบราว์เซอร์ของคุณบน Mac, Windows, Linux, และอุปกรณ์เคลื่อนที่",
     "pdf_tools__pdf_deletepages_page__title": "เครื่องมือลบหน้า PDF | ลบหน้าจาก PDF ออนไลน์ฟรี",
-    "pdf_tools__pdf_deletepages_page__description": "ต้องการลบหน้าจาก PDF หรือไม่? คุณสามารถลบหน้า PDF ด้วยเครื่องมือออนไลน์ที่ง่ายดายของเรา เพียงแค่อัปโหลด PDF ลบหน้า และบันทึกการเปลี่ยนแปลงของคุณ ไม่จำเป็นต้องลงทะเบียน"
+    "pdf_tools__pdf_deletepages_page__description": "ต้องการลบหน้าจาก PDF หรือไม่? คุณสามารถลบหน้า PDF ด้วยเครื่องมือออนไลน์ที่ง่ายดายของเรา เพียงแค่อัปโหลด PDF ลบหน้า และบันทึกการเปลี่ยนแปลงของคุณ ไม่จำเป็นต้องลงทะเบียน",
+    "pdf_tools__pdf_extractpages_page__title": "PDF Extractor | สร้างสำเนาหน้าจากเอกสาร PDF ออนไลน์",
+    "pdf_tools__pdf_extractpages_page__description": "สร้างสำเนาหน้าจาก PDF ออนไลน์ฟรี เพียงอัปโหลดไฟล์ของคุณไปยังเครื่องมือสร้างสำเนา PDF ของเรา จากนั้นส่งออกหน้าที่คุณต้องการ ง่ายดายแค่เท่านั้น"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "เลือกทั้งหมด",
@@ -1852,5 +1860,29 @@
   "pages__pdf_tools__deletepage_pdf": {
     "confirm_to_delete": "ยืนยันการลบ",
     "delete_download": "ลบและดาวน์โหลด PDF"
+  },
+  "pages__pdf_tools__extractpage_pdf": {
+    "select_all": "เลือกทั้งหมด",
+    "separate_pdfs": "แยก PDF",
+    "confirm_to_extract": "ยืนยันการสกัด",
+    "extract_download_tooltip": "สกัดและดาวน์โหลด PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_title": "เริ่มฟรี—เดี๋ยวนี้เลย",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_description": "ไม่ต้องดาวน์โหลด ไม่ต้องสมัครสมาชิก เพียงแค่ลาก PDF ของคุณลงในกล่องด้านบน และเริ่มการสกัดหน้าทันที",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_title": "สกัด PDF อย่างปลอดภัยบนเครื่อง",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_description": "ไฟล์ทั้งหมดที่คุณอัปโหลดจะถูกประมวลผลบนเบราว์เซอร์ของคุณเพื่อความเป็นส่วนตัวอย่างสมบูรณ์ ไม่มีการอัปโหลดไปยังคลาวด์ ทำให้มั่นใจได้ว่ามีความปลอดภัยและเป็นส่วนตัวอย่างสมบูรณ์",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_title": "รัก PDF ครั้งแรก",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_description": "เราทำให้การสกัดหน้า PDF เป็นเรื่องง่ายมาก คนอื่นอาจเบื่อเมื่อได้ยินคุณพูดว่า 'ฉันรัก PDF' มากเกินไป",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_title": "ทำงานกับ PDF หนึ่งไฟล์หรือหลายไฟล์",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_description": "เพิ่มเอกสารเท่าที่คุณต้องการ จากนั้นแยกหน้า PDF ที่คุณต้องการ รวมหน้าจากหลายเอกสารเข้าด้วยกันเป็น PDF เดียวในขณะเดียว",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_title": "ซอฟต์แวร์ออนไลน์ฟรี",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_description": "อย่าใช้เงินที่เก็บออกมาได้ยากบนซอฟต์แวร์พรีเมี่ยมที่คุ้มค่าเพื่อสกัด PDF ของคุณ สำหรับการใช้งานรายวันจำกัด เครื่องสกัด PDF ของเราใช้งานได้ฟรี หากคุณต้องการใช้มากขึ้น แน่นอนว่าคุณสามารถใช้งานได้เต็มรูปแบบโดยไม่เสียค่าใช้จ่าย",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_title": "ประมวลผลบนเครื่อง",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_description": "คุณลักษณะสำคัญของบริการของเราคือการดำเนินการสกัด PDF ทั้งหมดจะทำในเครื่องของคุณโดยตรง นี้จะทำให้กระบวนการประมวลผลทั้งหมดเกิดขึ้นโดยตรงบนอุปกรณ์ของคุณโดยไม่ต้องรอในคลาวด์ มันเสริมความปลอดภัยและรับประกันความเชื่อถือได้",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_title": "วิธีสกัดหน้าจาก PDF ออนไลน์ฟรี:",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_1": "นำเข้าหรือลากและวางไฟล์ของคุณไปยังเครื่องมือสกัดหน้า PDF ของเรา",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_2": "เลือกกล่องสำหรับหน้าที่คุณต้องการสกัด",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "สลับเพื่อสกัดหน้าเป็น PDF เดียวหรือ PDF แยก",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "คลิก 'ยืนยันการสกัด' และรอเพียงไม่กี่วินาที",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "ดาวน์โหลดหน้า PDF ที่คุณสกัดได้—เพียงเท่านี้เอง!"
   }
 }

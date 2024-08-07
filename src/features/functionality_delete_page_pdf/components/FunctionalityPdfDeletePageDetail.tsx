@@ -246,8 +246,8 @@ const FunctionalityPdfMergeDetail: FC<IFunctionalityPdfMergeDetail> = ({
   const isHavePdfInfoList = pdfPageInfoList.length > 0
 
   //按钮配置列表
-  const buttonConfigs: IButtonConfig[] | any[] = useMemo(() => {
-    const resBtnConfig = [
+  const buttonConfigs: IButtonConfig[] = useMemo(() => {
+    const resBtnConfig: IButtonConfig[] = [
       {
         type: 'upload' as const,
         uploadProps: {

@@ -759,7 +759,13 @@
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "Tumatakbo nang ligtas at simpleng sa iyong browser",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "Tanggalin ang maramihang pahina mula sa isang PDF sa isang upuan",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "Gumagana sa iyong browser—walang kailangang software",
-    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "I-download ang bagong PDF file mo—yan lang!"
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "I-download ang bagong PDF file mo—yan lang!",
+    "tools__index_page__constant_obj__pdf_page_extractpage__title": "Mag-Extract ng Mga Pahina ng PDF",
+    "tools__index_page__constant_obj__pdf_page_extractpage__main_description": "Pumili lamang ng mga pahina na kailangan mo mula sa isang PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__top_left": "I-extract ang mga pahina mula sa iyong PDF document online nang libre. Walang kailangang i-download, mag-sign up, o mamahaling software. Ang kailangan mo lang ay isang browser at internet connection.",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Libre gamitin nang walang registration",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "I-extract ang nilalaman ng PDF sa loob ng ilang segundo",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Tumatakbo nang ligtas at simple sa iyong browser"
   },
   "prompt_library": {
     "use_prompt_library__title": "Mataas na kalidad na AI prompt library",
@@ -1094,7 +1100,9 @@
     "pdf_tools__pdf_watermark_page__title": "Libreng PDF Watermarker | Lagyan ng Watermark ang mga PDF sa anumang device",
     "pdf_tools__pdf_watermark_page__description": "Madaling magdagdag ng watermark sa mga dokumento ng PDF. Walang kailangang i-download na app–lahat ay gumagana sa iyong browser sa Mac, Windows, Linux, at mobile devices.",
     "pdf_tools__pdf_deletepages_page__title": "Pang-alis ng Pahina sa PDF | Alisin ang Mga Pahina mula sa PDF Online nang Libre",
-    "pdf_tools__pdf_deletepages_page__description": "Kailangan mong alisin ang mga pahina mula sa isang PDF? Maaari mong alisin ang mga pahina sa PDF gamit ang aming simpleng online na tool. I-upload lamang ang isang PDF, alisin ang mga pahina, at i-save ang iyong mga pagbabago. Walang kailangang mag-sign up."
+    "pdf_tools__pdf_deletepages_page__description": "Kailangan mong alisin ang mga pahina mula sa isang PDF? Maaari mong alisin ang mga pahina sa PDF gamit ang aming simpleng online na tool. I-upload lamang ang isang PDF, alisin ang mga pahina, at i-save ang iyong mga pagbabago. Walang kailangang mag-sign up.",
+    "pdf_tools__pdf_extractpages_page__title": "PDF Extractor | Mag-Extract ng Mga Pahina mula sa Anumang Dokumentong PDF Online",
+    "pdf_tools__pdf_extractpages_page__description": "Mag-Extract ng mga pahina mula sa isang PDF online nang libre. I-upload lamang ang iyong file sa aming extractor ng PDF, pagkatapos i-export ang mga pahina na gusto mo. Ganun kadali mag-extract ng mga pahina ng PDF."
   },
   "features_landing": {
     "cta_text": "Idagdag sa Browser",
@@ -1852,5 +1860,29 @@
   "pages__pdf_tools__deletepage_pdf": {
     "confirm_to_delete": "Kumpirmahin ang pagtanggal",
     "delete_download": "Tanggalin at i-download ang PDF"
+  },
+  "pages__pdf_tools__extractpage_pdf": {
+    "select_all": "Piliin ang lahat",
+    "separate_pdfs": "Hiwalayin ang mga PDF",
+    "confirm_to_extract": "Kumpirmahin ang pag-ekstrak",
+    "extract_download_tooltip": "Ekstrak at i-download ang PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_title": "Magsimula nang Libre—Ngayon Din",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_description": "Walang pag-download, walang pag-signup. I-drop lang ang iyong mga PDF sa kahon sa itaas, at simulan agad ang pag-extract ng pahina.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_title": "Lokal na Ligtas na Pag-extract ng PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_description": "Ang lahat ng mga file na iyong i-upload ay naiproseso sa iyong browser para sa kumpletong privacy. Hindi ito na-upload sa ulap, tiyak na ligtas at pribado.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_title": "Mahalin ang mga PDF sa Unang Pagkakataon",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_description": "Ginawa namin itong napakadali upang i-extract ang mga pahina ng PDF, baka mapagod na sa pakikinig sa iyo na nagsasabing ‘Mahal ko ang PDF.’",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_title": "Magtrabaho sa Isa o Maraming PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_description": "Magdagdag ng kahit ilang dokumento na gusto mo, pagkatapos ihiwalay ang mga pahina ng PDF na kailangan mo. Pagsamahin ang mga pahina mula sa maraming dokumento sa isang PDF nang mabilis.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_title": "Libreng Online na Software",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_description": "Huwag gumastos ng iyong pinaghirapang pera sa mahal na premium na software upang i-extract ang iyong mga PDF. Para sa limitadong araw-araw na paggamit, libre gamitin ang aming PDF Extractor. Kung kailangan mo itong gamitin nang mas madalas, siyempre, maaari kang gumamit nito, na walang bayad.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_title": "Lokal na Paghahanda",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_description": "Isang pangunahing tampok ng aming serbisyo ay ang lahat ng operasyon ng pag-extract ng PDF ay isinasagawa nang lokal. Ito ay tiyak na nagpapalakas sa seguridad at garantiya ng katiyakan.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_title": "Paano I-extract ang mga Pahina mula sa PDF Online ng Libre:",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_1": "I-import o i-drag & i-drop ang iyong file sa aming Tool sa Pag-extract ng PDF Pages.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_2": "Tsekahin ang kahon para sa mga pahinang nais mong i-extract.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "Magpalit upang i-extract ang mga pahina bilang isang PDF o hiwalay na PDFs.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "I-click ang “Kumpirmahin ang pag-extract” at maghintay lang ng isang segundo.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "I-download ang iyong na-extract na mga pahina ng PDF—iyan lang!"
   }
 }

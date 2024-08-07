@@ -759,7 +759,13 @@
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "Tarayıcınızda güvenli ve basit bir şekilde çalışır",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "Bir seferde PDF'den birden fazla sayfa silme",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "Tarayıcınızda çalışır—herhangi bir yazılım gerekmez",
-    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Yeni PDF dosyanızı indirin—bu kadar!"
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Yeni PDF dosyanızı indirin—bu kadar!",
+    "tools__index_page__constant_obj__pdf_page_extractpage__title": "PDF Sayfalarını Çıkar",
+    "tools__index_page__constant_obj__pdf_page_extractpage__main_description": "Bir PDF'den ihtiyacınız olan sayfaları seçin",
+    "pdf_tools__detail_description_object__extractpage_pages__top_left": "PDF belgenizden sayfaları çevrimiçi ücretsiz olarak çıkarın. İndirme, kayıt olma veya pahalı yazılım gerekmez. Tek ihtiyacınız olan bir tarayıcı ve internet bağlantısıdır.",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Kayıt olmadan ücretsiz kullanım",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "PDF içeriğini saniyeler içinde çıkarın",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Tarayıcınızda güvenli ve basit bir şekilde çalışır"
   },
   "prompt_library": {
     "use_prompt_library__title": "Yüksek kaliteli AI prompt kütüphanesi",
@@ -1094,7 +1100,9 @@
     "pdf_tools__pdf_watermark_page__title": "Ücretsiz PDF Damgası | Herhangi bir cihazda PDF'lere filigran ekleme",
     "pdf_tools__pdf_watermark_page__description": "PDF belgelere kolayca bir filigran ekleyin. Bir uygulama indirmenize gerek yok–her şey tarayıcınızda Mac, Windows, Linux ve mobil cihazlarda çalışır.",
     "pdf_tools__pdf_deletepages_page__title": "PDF Sayfa Kaldırıcı | Ücretsiz Çevrimiçi PDF'den Sayfaları Sil",
-    "pdf_tools__pdf_deletepages_page__description": "Bir PDF'den sayfaları kaldırmak mı gerekiyor? Basit çevrimiçi aracımızla PDF sayfalarını silebilirsiniz. Sadece bir PDF yükleyin, sayfaları silin ve değişikliklerinizi kaydedin. Kayıt olma gerekmez."
+    "pdf_tools__pdf_deletepages_page__description": "Bir PDF'den sayfaları kaldırmak mı gerekiyor? Basit çevrimiçi aracımızla PDF sayfalarını silebilirsiniz. Sadece bir PDF yükleyin, sayfaları silin ve değişikliklerinizi kaydedin. Kayıt olma gerekmez.",
+    "pdf_tools__pdf_extractpages_page__title": "PDF Çıkarıcı | Herhangi Bir PDF Belgesinden Sayfaları Çıkarın Çevrimiçi",
+    "pdf_tools__pdf_extractpages_page__description": "Ücretsiz olarak bir PDF'den sayfaları çıkarın. Dosyanızı PDF çıkarıcımıza yükleyin, sonra istediğiniz sayfaları dışa aktarın. PDF sayfalarını çıkarmak bu kadar kolay."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Hepsini Seç",
@@ -1852,5 +1860,29 @@
   "pages__pdf_tools__deletepage_pdf": {
     "confirm_to_delete": "Silme işlemini onayla",
     "delete_download": "PDF'yi sil ve indir"
+  },
+  "pages__pdf_tools__extractpage_pdf": {
+    "select_all": "Hepsini Seç",
+    "separate_pdfs": "PDF'leri Ayır",
+    "confirm_to_extract": "Çıkarmayı Onayla",
+    "extract_download_tooltip": "PDF'yi Çıkar ve İndir",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_title": "Hemen Ücretsiz Başlayın",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_description": "İndirme yapmadan, kayıt olmadan. PDF'lerinizi yukarıdaki kutuya sürükleyin ve hemen sayfa çıkarma işlemine başlayın.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_title": "Yerel Güvenli PDF Çıkarma",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_description": "Yüklediğiniz tüm dosyalar tarayıcınızda işlenir, böylece tam gizlilik sağlanır. Dosyalar buluta yüklenmez, mutlak güvenlik ve gizlilik sağlanır.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_title": "İlk Kez PDF'leri Sevin",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_description": "PDF sayfalarını çıkarmayı çok kolay hale getirdik, insanlar 'PDF'leri seviyorum' demenizden sıkılabilir.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_title": "Tek veya Birden Fazla PDF İle Çalışın",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_description": "İstediğiniz kadar belge ekleyin, sonra ihtiyacınız olan PDF sayfalarını ayırın. Birden fazla belgeden sayfaları tek bir PDF'e hızla birleştirin.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_title": "Ücretsiz Çevrimiçi Yazılım",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_description": "PDF'lerinizi çıkarmak için pahalı premium yazılımlara paranızı harcamayın. Sınırlı günlük kullanım için PDF Çıkarıcımız ücretsizdir. Daha sık kullanmanız gerekiyorsa, tabii ki sınırsız kullanım tamamen ücretsizdir.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_title": "Yerel İşleme",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_description": "Hizmetimizin önemli bir özelliği, tüm PDF çıkarma işlemlerinin yerel olarak gerçekleştirilmesidir. Bu, işleme prosedürünün cihazınızda doğrudan bulut tabanlı bekleme gerektirmeden gerçekleştiğini garanti eder. Güvenliği artırır ve güvenilirliği garanti eder.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_title": "Ücretsiz Çevrimiçi PDF Sayfalarını Nasıl Çıkarırım:",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_1": "Dosyanızı içe aktarın veya sürükleyip bırakın.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_2": "Çıkarmak istediğiniz sayfaları işaretleyin.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "Sayfaları tek bir PDF veya ayrı PDF'ler olarak çıkarmak için geçiş yapın.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "‘Çıkarmak için onayla’ya tıklayın ve sadece birkaç saniye bekleyin.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "Çıkarılan PDF sayfalarınızı indirin—bu kadar!"
   }
 }

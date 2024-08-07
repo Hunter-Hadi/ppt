@@ -745,7 +745,13 @@
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "在您的浏览器中安全简便地运行",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "一次删除多个PDF页面",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "在您的浏览器中运行，无需软件",
-    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "下载您的新PDF文件-就是这样！"
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "下载您的新PDF文件-就是这样！",
+    "tools__index_page__constant_obj__pdf_page_extractpage__title": "提取PDF页面",
+    "tools__index_page__constant_obj__pdf_page_extractpage__main_description": "从PDF中选择您需要的页面",
+    "pdf_tools__detail_description_object__extractpage_pages__top_left": "免费在线提取PDF文档的页面。无需下载、注册或昂贵软件。您只需浏览器和互联网连接。",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "无需注册即可免费使用",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "秒速提取PDF内容",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "在您的浏览器中安全简便地运行"
   },
   "button": {
     "add_to_chrome_for_free": "添加到 Chrome - 免费",
@@ -1094,7 +1100,9 @@
     "pdf_tools__pdf_watermark_page__title": "免费PDF水印工具 | 在任何设备上为PDF添加水印",
     "pdf_tools__pdf_watermark_page__description": "轻松向PDF文档添加水印。无需下载应用程序-一切在您的浏览器上运行，支持Mac、Windows、Linux和移动设备。",
     "pdf_tools__pdf_deletepages_page__title": "PDF页面删除器 | 免费在线删除PDF页面",
-    "pdf_tools__pdf_deletepages_page__description": "需要从PDF中删除页面吗？您可以使用我们简单的在线工具删除PDF页面。只需上传PDF，删除页面，保存更改。无需注册。"
+    "pdf_tools__pdf_deletepages_page__description": "需要从PDF中删除页面吗？您可以使用我们简单的在线工具删除PDF页面。只需上传PDF，删除页面，保存更改。无需注册。",
+    "pdf_tools__pdf_extractpages_page__title": "PDF提取器 | 从任何PDF文档在线提取页面",
+    "pdf_tools__pdf_extractpages_page__description": "免费在线提取PDF页面。只需将文件上传到我们的PDF提取器，然后导出所需的页面。提取PDF页面就是这么简单。"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "全选",
@@ -1852,5 +1860,29 @@
   "pages__pdf_tools__deletepage_pdf": {
     "confirm_to_delete": "确认删除",
     "delete_download": "删除并下载PDF"
+  },
+  "pages__pdf_tools__extractpage_pdf": {
+    "select_all": "全选",
+    "separate_pdfs": "分离PDF",
+    "confirm_to_extract": "确认提取",
+    "extract_download_tooltip": "提取并下载PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_title": "立即免费开始",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_description": "无需下载，无需注册。只需将您的PDF文件拖放到上方的框中，立即开始提取页面。",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_title": "本地安全PDF提取",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_description": "您上传的所有文件都在您的浏览器中处理，确保完全隐私。它们不会上传到云端，确保绝对安全和隐私。",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_title": "第一次爱上PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_description": "我们已经让提取PDF页面变得如此简单，人们可能会厌倦听到您说‘我爱PDF’。",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_title": "处理一个或多个PDF文件",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_description": "添加您想要的文档，然后分离出您需要的PDF页面。轻松将多个文档的页面合并为单个PDF。",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_title": "免费在线软件",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_description": "不要在昂贵的高级软件上花费您辛苦赚来的钱来提取您的PDF文件。对于有限的每日使用，我们的PDF提取工具是免费的。如果您需要更频繁地使用它，当然可以，完全免费无限使用。",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_title": "本地处理",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_description": "我们服务的一个关键特点是所有PDF提取操作都在本地进行。这确保整个处理过程直接在您的设备上进行，无需等待云端。它增强了安全性并保证了可靠性。",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_title": "如何免费在线提取PDF页面：",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_1": "将文件导入或拖放到我们的提取PDF页面工具中。",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_2": "选中您要提取的页面的复选框。",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "切换以将页面提取为单个PDF或单独的PDF。",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "点击“确认提取”并等待片刻。",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "下载您提取的PDF页面，就是这样！"
   }
 }

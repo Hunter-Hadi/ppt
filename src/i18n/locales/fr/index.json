@@ -759,7 +759,13 @@
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "Fonctionne de manière sécurisée et simple dans votre navigateur",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "Supprimez plusieurs pages d'un PDF en une seule fois",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "Fonctionne dans votre navigateur, aucun logiciel requis",
-    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Téléchargez votre nouveau fichier PDF, c'est tout !"
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Téléchargez votre nouveau fichier PDF, c'est tout !",
+    "tools__index_page__constant_obj__pdf_page_extractpage__title": "Extraire les pages PDF",
+    "tools__index_page__constant_obj__pdf_page_extractpage__main_description": "Choisissez uniquement les pages dont vous avez besoin d'un PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__top_left": "Extraire des pages de votre document PDF en ligne gratuitement. Aucun téléchargement, inscription ou logiciel coûteux. Tout ce dont vous avez besoin est un navigateur et une connexion Internet.",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Gratuit à utiliser sans inscription",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "Extraire le contenu du PDF en quelques secondes",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Fonctionne de manière sécurisée et simplement dans votre navigateur"
   },
   "prompt_library": {
     "use_prompt_library__title": "Bibliothèque de prompts IA de haute qualité",
@@ -1094,7 +1100,9 @@
     "pdf_tools__pdf_watermark_page__title": "Watermarker PDF gratuit | Filigranez des PDF sur n'importe quel appareil",
     "pdf_tools__pdf_watermark_page__description": "Ajoutez facilement un filigrane aux documents PDF. Pas besoin de télécharger une application, tout fonctionne dans votre navigateur sur Mac, Windows, Linux et les appareils mobiles.",
     "pdf_tools__pdf_deletepages_page__title": "Supprimer une page PDF | Supprimer des pages de PDF en ligne gratuitement",
-    "pdf_tools__pdf_deletepages_page__description": "Besoin de supprimer des pages d'un PDF? Vous pouvez supprimer des pages PDF avec notre outil en ligne simple. Il vous suffit de télécharger un PDF, de supprimer des pages et d'enregistrer vos modifications. Aucune inscription requise."
+    "pdf_tools__pdf_deletepages_page__description": "Besoin de supprimer des pages d'un PDF? Vous pouvez supprimer des pages PDF avec notre outil en ligne simple. Il vous suffit de télécharger un PDF, de supprimer des pages et d'enregistrer vos modifications. Aucune inscription requise.",
+    "pdf_tools__pdf_extractpages_page__title": "Extracteur PDF | Extraire des pages de n'importe quel document PDF en ligne",
+    "pdf_tools__pdf_extractpages_page__description": "Extraire des pages d'un PDF en ligne gratuitement. Il vous suffit de télécharger votre fichier sur notre extracteur PDF, puis d'exporter les pages souhaitées. C'est aussi simple d'extraire des pages PDF."
   },
   "features_landing": {
     "cta_text": "Ajouter au navigateur",
@@ -1852,5 +1860,29 @@
   "pages__pdf_tools__deletepage_pdf": {
     "confirm_to_delete": "Confirmer la suppression",
     "delete_download": "Supprimer et télécharger le PDF"
+  },
+  "pages__pdf_tools__extractpage_pdf": {
+    "select_all": "Sélectionner tout",
+    "separate_pdfs": "Séparer les PDF",
+    "confirm_to_extract": "Confirmer pour extraire",
+    "extract_download_tooltip": "Extraire et télécharger le PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_title": "Commencez gratuitement dès maintenant",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_description": "Aucun téléchargement, aucune inscription. Il vous suffit de glisser vos PDF dans la zone ci-dessus et de commencer immédiatement l'extraction de vos pages.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_title": "Extraction de PDF en toute sécurité locale",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_description": "Tous les fichiers que vous téléchargez sont traités dans votre navigateur pour une confidentialité totale. Ils ne sont pas téléchargés sur le cloud, garantissant une sécurité et une confidentialité absolues.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_title": "Aimez les PDF pour la première fois",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_description": "Nous avons rendu l'extraction de pages PDF si facile que les gens pourraient se lasser de vous entendre dire 'J'adore les PDF'.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_title": "Travaillez avec un ou plusieurs PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_description": "Ajoutez autant de documents que vous le souhaitez, puis séparez les pages PDF dont vous avez besoin. Combinez des pages de plusieurs documents en un seul PDF en un clin d'œil.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_title": "Logiciel en ligne gratuit",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_description": "Ne dépensez pas votre argent durement gagné dans des logiciels premium coûteux pour extraire vos PDF. Pour une utilisation quotidienne limitée, notre Extracteur de PDF est gratuit. Si vous avez besoin de l'utiliser plus fréquemment, bien sûr, vous le pouvez, avec une utilisation illimitée entièrement gratuite.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_title": "Traitement local",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_description": "Une caractéristique clé de notre service est que toutes les opérations d'extraction de PDF sont effectuées localement. Cela garantit que l'ensemble de la procédure de traitement se déroule directement sur votre appareil sans avoir besoin d'attendre des traitements basés sur le cloud. Cela renforce la sécurité et garantit la fiabilité.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_title": "Comment extraire des pages de PDF en ligne gratuitement :",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_1": "Importez ou faites glisser et déposez votre fichier dans notre outil d'extraction de pages PDF.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_2": "Cochez la case des pages que vous souhaitez extraire.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "Basculez pour extraire les pages en un seul PDF ou en PDF séparés.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "Cliquez sur 'Confirmer l'extraction' et attendez juste une seconde.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "Téléchargez vos pages PDF extraites, c'est tout !"
   }
 }

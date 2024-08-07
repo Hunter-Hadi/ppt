@@ -83,7 +83,7 @@ const FunctionalityCommonImage: FC<IFunctionalitySortableImageProps> = ({
         <Typography
           variant='custom'
           sx={{
-            fontSize: 10,
+            fontSize: 14,
             marginTop: 1,
             width: '100%',
             display: '-webkit-box',
@@ -101,7 +101,7 @@ const FunctionalityCommonImage: FC<IFunctionalitySortableImageProps> = ({
           <Typography
             variant='custom'
             sx={{
-              fontSize: 10,
+              fontSize: 14,
               marginTop: 1,
               width: '100%',
               display: '-webkit-box',

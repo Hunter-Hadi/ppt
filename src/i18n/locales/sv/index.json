@@ -759,7 +759,13 @@
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "Körs säkert och enkelt i din webbläsare",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "Ta bort flera sidor från en PDF i ett svep",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "Fungerar i din webbläsare—ingen programvara behövs",
-    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Ladda ner din nya PDF-fil—det är allt!"
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Ladda ner din nya PDF-fil—det är allt!",
+    "tools__index_page__constant_obj__pdf_page_extractpage__title": "Extrahera PDF-sidor",
+    "tools__index_page__constant_obj__pdf_page_extractpage__main_description": "Välj endast de sidor du behöver från en PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__top_left": "Extrahera sidor från din PDF-dokument online gratis. Inga nedladdningar, registreringar eller dyra program. Allt du behöver är en webbläsare och en internetanslutning.",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Gratis att använda utan registrering",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "Extrahera PDF-innehåll på sekunder",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Körs säkert och enkelt i din webbläsare"
   },
   "prompt_library": {
     "use_prompt_library__title": "Högkvalitativ AI-promptbibliotek",
@@ -1094,7 +1100,9 @@
     "pdf_tools__pdf_watermark_page__title": "Gratis PDF-vattenstämpel | Vattenstämpla PDF:er på valfri enhet",
     "pdf_tools__pdf_watermark_page__description": "Lägg enkelt till en vattenstämpel i PDF-dokument. Inga nedladdningar krävs – allt fungerar i din webbläsare på Mac, Windows, Linux och mobila enheter.",
     "pdf_tools__pdf_deletepages_page__title": "PDF Sidborttagare | Ta bort sidor från PDF online gratis",
-    "pdf_tools__pdf_deletepages_page__description": "Behöver du ta bort sidor från en PDF? Du kan ta bort PDF-sidor med vårt enkla onlineverktyg. Ladda bara upp en PDF, ta bort sidor och spara dina ändringar. Ingen registrering krävs."
+    "pdf_tools__pdf_deletepages_page__description": "Behöver du ta bort sidor från en PDF? Du kan ta bort PDF-sidor med vårt enkla onlineverktyg. Ladda bara upp en PDF, ta bort sidor och spara dina ändringar. Ingen registrering krävs.",
+    "pdf_tools__pdf_extractpages_page__title": "PDF-extraktor | Extrahera sidor från vilken PDF-dokument som helst online",
+    "pdf_tools__pdf_extractpages_page__description": "Extrahera sidor från en PDF online gratis. Ladda bara upp din fil till vår PDF-extraktor, exportera sedan de sidor du vill ha. Det är så enkelt att extrahera PDF-sidor."
   },
   "features_landing": {
     "cta_text": "Lägg till i webbläsaren",
@@ -1852,5 +1860,29 @@
   "pages__pdf_tools__deletepage_pdf": {
     "confirm_to_delete": "Bekräfta radering",
     "delete_download": "Radera och ladda ner PDF"
+  },
+  "pages__pdf_tools__extractpage_pdf": {
+    "select_all": "Välj alla",
+    "separate_pdfs": "Separera PDF:er",
+    "confirm_to_extract": "Bekräfta extrahering",
+    "extract_download_tooltip": "Extrahera och ladda ner PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_title": "Börja gratis—Just Nu",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_description": "Inga nedladdningar, inga registreringar. Släpp bara dina PDF:er i rutan ovan och börja extrahera sidor omedelbart.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_title": "Lokal Säker PDF Extrahering",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_description": "Alla filer du laddar upp behandlas i din webbläsare för fullständig integritet. De laddas inte upp till molnet, vilket garanterar absolut säkerhet och integritet.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_title": "Älska PDF:er för Första Gången",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_description": "Vi har gjort det så enkelt att extrahera PDF-sidor att folk kanske tröttnar på att höra dig säga 'Jag älskar PDF.'",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_title": "Arbeta Med En eller Flera PDF:er",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_description": "Lägg till så många dokument du vill, separera sedan ut de PDF-sidor du behöver. Kombinera sidor från flera dokument till en enda PDF på nolltid.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_title": "Gratis Online Programvara",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_description": "Slösa inte dina hårt intjänade pengar på dyra premiumprogram för att extrahera dina PDF:er. För begränsad daglig användning är vår PDF-extraktor gratis att använda. Om du behöver använda den oftare kan du självklart göra det, med obegränsad användning helt gratis.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_title": "Lokal Bearbetning",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_description": "En nyckelfunktion i vår tjänst är att alla PDF-extraktionsoperationer utförs lokalt. Detta säkerställer att hela bearbetningsproceduren sker direkt på din enhet utan behov av väntetider i molnet. Det förbättrar säkerheten och garanterar tillförlitlighet.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_title": "Hur man Extraherar Sidor från PDF Online Gratis:",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_1": "Importera eller dra & släpp din fil till vårt Extrahera PDF Sidor verktyg.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_2": "Markera rutan för de sidor du vill extrahera.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "Växla för att extrahera sidor som en enda PDF eller separata PDF:er.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "Klicka på 'Bekräfta för att extrahera' och vänta bara en sekund.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "Ladda ner dina extraherade PDF-sidor—det är allt!"
   }
 }

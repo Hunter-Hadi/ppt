@@ -759,7 +759,13 @@
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "Działa bezpiecznie i prosto w Twojej przeglądarce",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "Usuń wiele stron z pliku PDF jednocześnie",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "Działa w Twojej przeglądarce—nie potrzebujesz oprogramowania",
-    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Pobierz swój nowy plik PDF—i to wszystko!"
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Pobierz swój nowy plik PDF—i to wszystko!",
+    "tools__index_page__constant_obj__pdf_page_extractpage__title": "Wyodrębnij strony PDF",
+    "tools__index_page__constant_obj__pdf_page_extractpage__main_description": "Wybierz tylko potrzebne strony z pliku PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__top_left": "Wyodrębnij strony z dokumentu PDF online za darmo. Nie ma potrzeby pobierania, rejestracji ani drogiego oprogramowania. Wystarczy przeglądarka i połączenie internetowe.",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Darmowe w użyciu bez rejestracji",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "Wyodrębnij zawartość PDF w kilka sekund",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Działa bezpiecznie i prosto w Twojej przeglądarce"
   },
   "prompt_library": {
     "use_prompt_library__title": "Wysokiej jakości biblioteka promptów AI",
@@ -1094,7 +1100,9 @@
     "pdf_tools__pdf_watermark_page__title": "Darmowy znak wodny PDF | Dodawanie znaków wodnych do PDF na dowolnym urządzeniu",
     "pdf_tools__pdf_watermark_page__description": "Łatwe dodawanie znaku wodnego do dokumentów PDF. Nie trzeba pobierać aplikacji - wszystko działa w przeglądarce na Macu, Windowsie, Linuxie i urządzeniach mobilnych.",
     "pdf_tools__pdf_deletepages_page__title": "Usuwanie Stron PDF | Usuń Strony z PDF Online za Darmo",
-    "pdf_tools__pdf_deletepages_page__description": "Potrzebujesz usunąć strony z pliku PDF? Możesz usunąć strony PDF za pomocą naszego prostego narzędzia online. Po prostu załaduj plik PDF, usuń strony i zapisz zmiany. Nie jest wymagana rejestracja."
+    "pdf_tools__pdf_deletepages_page__description": "Potrzebujesz usunąć strony z pliku PDF? Możesz usunąć strony PDF za pomocą naszego prostego narzędzia online. Po prostu załaduj plik PDF, usuń strony i zapisz zmiany. Nie jest wymagana rejestracja.",
+    "pdf_tools__pdf_extractpages_page__title": "Ekstraktor PDF | Wyodrębnij Strony z Dowolnego Dokumentu PDF Online",
+    "pdf_tools__pdf_extractpages_page__description": "Wyodrębnij strony z pliku PDF online za darmo. Wystarczy przesłać swój plik do naszego ekstraktora PDF, a następnie wyeksportować wybrane strony. To takie proste w wyodrębnianiu stron PDF."
   },
   "features_landing": {
     "cta_text": "Dodaj do przeglądarki",
@@ -1852,5 +1860,29 @@
   "pages__pdf_tools__deletepage_pdf": {
     "confirm_to_delete": "Potwierdź usunięcie",
     "delete_download": "Usuń i pobierz PDF"
+  },
+  "pages__pdf_tools__extractpage_pdf": {
+    "select_all": "Zaznacz wszystko",
+    "separate_pdfs": "Oddziel PDF-y",
+    "confirm_to_extract": "Potwierdź wyodrębnienie",
+    "extract_download_tooltip": "Wyodrębnij i pobierz PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_title": "Zacznij za darmo—już teraz",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_description": "Bez pobierania, bez rejestracji. Po prostu przeciągnij swoje pliki PDF do powyższego pola i natychmiast rozpocznij ekstrakcję stron.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_title": "Lokalna bezpieczna ekstrakcja PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_description": "Wszystkie pliki, które przesyłasz, są przetwarzane w przeglądarce dla pełnej prywatności. Nie są one przesyłane do chmury, co zapewnia absolutne bezpieczeństwo i prywatność.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_title": "Pierwsze kroki z PDF-ami",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_description": "Ułatwiliśmy ekstrakcję stron PDF, ludzie mogą się zmęczyć słysząc, jak mówisz „Uwielbiam PDF-y”.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_title": "Praca z jednym lub wieloma plikami PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_description": "Dodaj tyle dokumentów, ile chcesz, a następnie wyodrębnij potrzebne strony PDF. Łącz strony z wielu dokumentów w pojedynczy plik PDF w mgnieniu oka.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_title": "Darmowe oprogramowanie online",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_description": "Nie wydawaj pieniędzy na kosztowne oprogramowanie premium do ekstrakcji PDF-ów. Dla ograniczonego codziennego użytku nasz Ekstraktor PDF-ów jest darmowy. Jeśli potrzebujesz korzystać z niego częściej, oczywiście możesz, z nieograniczonym darmowym użytkowaniem.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_title": "Lokalne przetwarzanie",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_description": "Kluczową cechą naszej usługi jest to, że wszystkie operacje ekstrakcji PDF-ów są wykonywane lokalnie. Zapewnia to, że cała procedura przetwarzania odbywa się bezpośrednio na Twoim urządzeniu, bez konieczności oczekiwania na chmurę. Zwiększa to bezpieczeństwo i gwarantuje niezawodność.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_title": "Jak wyodrębnić strony z PDF-a online za darmo:",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_1": "Importuj lub przeciągnij i upuść swój plik do naszego narzędzia do wyodrębniania stron PDF.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_2": "Zaznacz pole wyboru dla stron, które chcesz wyodrębnić.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "Przełącz, aby wyodrębnić strony jako pojedynczy PDF lub oddzielne pliki PDF.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "Kliknij „Potwierdź wyodrębnienie” i poczekaj chwilę.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "Pobierz swoje wyodrębnione strony PDF—to wszystko!"
   }
 }

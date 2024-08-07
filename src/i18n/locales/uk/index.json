@@ -759,7 +759,13 @@
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "آپ کے براؤزر میں محفوظ اور آسانی سے چلتا ہے",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "ایک ہی وقت میں PDF سے متعدد صفحات کو ہٹائیں",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "آپ کے براؤزر میں کام کرتا ہے—کوئی سافٹ ویئر کی ضرورت نہیں ہے",
-    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "آپ کا نیا PDF فائل ڈاؤن لوڈ کریں—بس یہی ہے!"
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "آپ کا نیا PDF فائل ڈاؤن لوڈ کریں—بس یہی ہے!",
+    "tools__index_page__constant_obj__pdf_page_extractpage__title": "پی ڈی ایف صفحات نکالیں",
+    "tools__index_page__constant_obj__pdf_page_extractpage__main_description": "صرف وہ صفحات منتخب کریں جو آپ کو ضرورت ہیں",
+    "pdf_tools__detail_description_object__extractpage_pages__top_left": "آپ کے پی ڈی ایف دستاویز سے صفحات نکالیں آن لائن مفت۔ کوئی ڈاؤن لوڈ، سائن اپ یا مہنگا سافٹ ویئر کی ضرورت نہیں ہے۔ آپ کو صرف ایک براؤزر اور انٹرنیٹ کنیکشن کی ضرورت ہے۔",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "رجسٹریشن کے بغیر استعمال کریں مفت",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "پی ڈی ایف مواد کو سیکنڈوں میں نکالیں",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "آپ کے براؤزر میں محفوظ اور آسانی سے چلتا ہے"
   },
   "prompt_library": {
     "use_prompt_library__title": "بلند معیار کی AI پرومپ لائبریری",
@@ -1094,7 +1100,9 @@
     "pdf_tools__pdf_watermark_page__title": "مفت PDF واٹرمارکر | کسی بھی ڈیوائس پر PDFs پر واٹرمارک کریں",
     "pdf_tools__pdf_watermark_page__description": "PDF دستاویزات میں آسانی سے واٹرمارک شامل کریں۔ کسی ایپ کو ڈاؤن لوڈ کرنے کی ضرورت نہیں ہے - سب کچھ آپ کے براؤزر میں میک، ونڈوز، لینکس اور موبائل ڈیوائسز پر کام کرتا ہے۔",
     "pdf_tools__pdf_deletepages_page__title": "منسوخ کریں پیجز فارم پی ڈی ایف | مفت آن لائن",
-    "pdf_tools__pdf_deletepages_page__description": "پی ڈی ایف سے صفحات ہٹانے کی ضرورت ہے؟ آپ ہمارے آسان آن لائن ٹول کے ساتھ پی ڈی ایف کی صفحات کو حذف کرسکتے ہیں۔ بس ایک پی ڈی ایف اپ لوڈ کریں، صفحات کو حذف کریں، اور اپنے تبدیلیاں محفوظ کریں۔ کوئی سائن اپ کی ضرورت نہیں ہے۔"
+    "pdf_tools__pdf_deletepages_page__description": "پی ڈی ایف سے صفحات ہٹانے کی ضرورت ہے؟ آپ ہمارے آسان آن لائن ٹول کے ساتھ پی ڈی ایف کی صفحات کو حذف کرسکتے ہیں۔ بس ایک پی ڈی ایف اپ لوڈ کریں، صفحات کو حذف کریں، اور اپنے تبدیلیاں محفوظ کریں۔ کوئی سائن اپ کی ضرورت نہیں ہے۔",
+    "pdf_tools__pdf_extractpages_page__title": "پی ڈی ایف ایکسٹریکٹر | کسی بھی پی ڈی ایف دستاویز سے صفحات نکالیں آن لائن",
+    "pdf_tools__pdf_extractpages_page__description": "مفت میں آن لائن پی ڈی ایف سے صفحات نکالیں۔ صرف اپنی فائل کو ہمارے پی ڈی ایف ایکسٹریکٹر پر اپ لوڈ کریں، پھر آپ جو صفحات چاہتے ہیں انہیں نکالیں۔ پی ڈی ایف صفحات نکالنا اتنا آسان ہے۔"
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "سب کو منتخب کریں",
@@ -1852,5 +1860,29 @@
   "pages__pdf_tools__deletepage_pdf": {
     "confirm_to_delete": "تصدیق کریں کہ حذف کریں",
     "delete_download": "PDF حذف کریں اور ڈاؤن لوڈ کریں"
+  },
+  "pages__pdf_tools__extractpage_pdf": {
+    "select_all": "سب کو منتخب کریں",
+    "separate_pdfs": "الگ الگ PDFs",
+    "confirm_to_extract": "تصدیق کریں کہ نکالنا ہے",
+    "extract_download_tooltip": "PDF نکالیں اور ڈاؤن لوڈ کریں",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_title": "ابھی مفت شروع کریں",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_description": "کوئی ڈاؤن لوڈ، کوئی سائن اپس۔ صرف اپنے PDFs کو اوپر بکس میں ڈالیں، اور فوراً اپنی صفحہ نکالنے کی شروعات کریں۔",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_title": "مقامی محفوظ PDF نکالیں",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_description": "آپ جو فائلیں اپ لوڈ کرتے ہیں، وہ آپ کے براؤزر میں پراسیس ہوتی ہیں تاکہ مکمل رازداری ہو۔ یہ بادل میں اپ لوڈ نہیں ہوتیں، جو مکمل حفاظت اور رازداری کی یقینی بناتی ہے۔",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_title": "پہلی بار PDFs سے محبت",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_description": "ہم نے PDF صفحات نکالنا بہت آسان بنا دیا ہے، لوگ شاید تھک جائیں کہ آپ کو کہتے سنیں ‘مجھے PDF سے محبت ہے۔’",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_title": "ایک یا متعدد PDFs کے ساتھ کام کریں",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_description": "جتنے چاہیں دستاویزات شامل کریں، پھر آپ ضرورت کے مطابق PDF صفحات الگ کریں۔ مختلف دستاویزات سے صفحات کو ایک ہی PDF میں ملا کر ایک دم میں بنائیں۔",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_title": "مفت آن لائن سافٹ ویئر",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_description": "اپنے کٹھن کمائی کے پیسے خرچ کرنے کی ضرورت نہیں ہے کہ آپ کے PDFs کو نکالیں۔ محدود روزانہ استعمال کے لیے ہمارا PDF ایکسٹریکٹر استعمال کرنا مفت ہے۔ اگر آپ کو زیادہ استعمال کرنا ہو، تو بالکل، آپ کر سکتے ہیں، بالکل مفت مکمل استعمال کے ساتھ۔",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_title": "مقامی پروسیسنگ",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_description": "ہماری خدمت کی ایک اہم خصوصیت یہ ہے کہ تمام PDF نکالنے کی عملیات مقامی طور پر کی جاتی ہیں۔ یہ یقینی بناتا ہے کہ پورا پروسیسنگ پروسیجر آپ کی ڈیوائس پر ہی ہوتا ہے بغیر کسی بادل کے انتظار کے۔ یہ حفاظت بڑھاتا ہے اور یقینی بناتا ہے۔",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_title": "PDF آن لائن سے صفحات نکالنے کا طریقہ مفت:",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_1": "اپنی فائل کو امپورٹ یا ڈریگ اینڈ ڈراپ کریں ہمارے ایکسٹریکٹ PDF صفحات ٹول میں۔",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_2": "وہ صفحات جنہیں آپ نکالنا چاہتے ہیں کے لیے بکس ٹک کریں۔",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "صفحات کو ایک ہی PDF یا الگ الگ PDFs کے طور پر نکالنے کے لیے ٹوگل کریں۔",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "“نکالنے کی تصدیق” پر کلک کریں اور صرف ایک لمحہ صبر کریں۔",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "اپنے نکالے گؓے PDF صفحات کو ڈاؤن لوڈ کریں—بس یہی تھا!"
   }
 }

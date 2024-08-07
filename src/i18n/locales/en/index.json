@@ -528,6 +528,12 @@
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "Runs securely and simply in your browser",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "Delete multiple pages from a PDF in one go",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "Works in your browser—no software needed",
+    "tools__index_page__constant_obj__pdf_page_extractpage__title": "Extract PDF Pages",
+    "tools__index_page__constant_obj__pdf_page_extractpage__main_description": "Pick only the pages you need from a PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__top_left": "Extract pages from your PDF document online for free. No downloads, signups, or expensive software. All you need is a browser and an internet connection.",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Free to use without registration",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "Extract PDF content in seconds",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Runs securely and simply in your browser",
     "pdf_tools__detail_description_object__merge_pdf__top_left": "Combine PDF files to create a single document online for free. It’s easy to merge PDFs with our PDF combiner. No watermarks and no file size limits.",
     "pdf_tools__detail_description_object__merge_pdf__top_right_1": "Merge multiple PDFs into one in seconds.",
     "pdf_tools__detail_description_object__merge_pdf__top_right_2": "Drag & drop your PDFs to start—easy!",
@@ -791,6 +797,30 @@
   "pages__pdf_tools__deletepage_pdf": {
     "confirm_to_delete": "Confirm to delete",
     "delete_download": "Delete and download PDF"
+  },
+  "pages__pdf_tools__extractpage_pdf": {
+    "select_all": "Select all",
+    "separate_pdfs": "Separate PDFs",
+    "confirm_to_extract": "Confirm to extract",
+    "extract_download_tooltip": "Extract and download PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_title": "Start for Free—Right Now",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_description": "No downloads, no signups. Just drop your PDFs into the box above, and start your page extraction immediately.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_title": "Local Safe PDF Extract",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_description": "All files you upload are processed in your browser for complete privacy. They are not uploaded to the cloud, ensuring absolute security and privacy.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_title": "Love PDFs for the First Time",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_description": "We’ve made it so easy to extract PDF pages, people may get tired of hearing you say ‘I love PDF.’",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_title": "Work With One or Multiple PDFs",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_description": "Add as many documents as you want, then separate out the PDF pages you need. Combine pages from multiple docs into a single PDF in a snap.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_title": "Free Online Software",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_description": "Don't spend your hard-earned money on costly premium software to extract your PDFs. For limited daily usage, our PDF Extractor is free to use. If you need to use it more frequently, of course, you can, with unlimited usage completely free of charge.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_title": "Local Processing",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_description": "A key feature of our service is that all PDF extract operations are carried out locally. This ensures that the entire processing procedure takes place directly on your device without the need for cloud-based waits. It enhances security and guarantees reliability.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_title": "How To Extract Pages from PDF Online for Free:",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_1": "Import or drag & drop your file to our Extract PDF Pages tool.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_2": "Tick the box for the pages you want to extract.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "Toggle to extract pages as a single PDF or separate PDFs.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "Click “Confirm to extract” and wait just a second.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "Download your extracted PDF pages—that’s it!"
   },
   "pages__pdf_tools__protect_pdf": {
     "title": "Protect PDF",
@@ -1415,7 +1445,9 @@
     "pdf_tools__pdf_watermark_page__title": "Free PDF Watermarker | Watermark PDFs on any device",
     "pdf_tools__pdf_watermark_page__description": "Easily add a watermark to PDF documents. No need to download an app–everything works in your browser on Mac, Windows, Linux, and mobile devices.",
     "pdf_tools__pdf_deletepages_page__title": "PDF Page Remover | Delete Pages from PDF Online for Free",
-    "pdf_tools__pdf_deletepages_page__description": "Need to remove pages from a PDF? You can delete PDF pages with our simple online tool. Just upload a PDF, delete pages, and save your changes. No signup needed."
+    "pdf_tools__pdf_deletepages_page__description": "Need to remove pages from a PDF? You can delete PDF pages with our simple online tool. Just upload a PDF, delete pages, and save your changes. No signup needed.",
+    "pdf_tools__pdf_extractpages_page__title": "PDF Extractor | Extract Pages from Any PDF Document Online",
+    "pdf_tools__pdf_extractpages_page__description": "Extract pages from a PDF online for free. Just upload your file to our PDF extractor, then export the pages you want. It's that easy to extract PDF pages."
   },
   "features_landing": {
     "cta_text": "Add to Browser",

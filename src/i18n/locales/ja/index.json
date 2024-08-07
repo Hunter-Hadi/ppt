@@ -759,7 +759,13 @@
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "安全にかつ簡単にブラウザで実行します",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "PDFから複数のページを一度に削除",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "ブラウザで動作します—ソフトウェアは不要です",
-    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "新しいPDFファイルをダウンロードします。以上です！"
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "新しいPDFファイルをダウンロードします。以上です！",
+    "tools__index_page__constant_obj__pdf_page_extractpage__title": "PDFページ抽出",
+    "tools__index_page__constant_obj__pdf_page_extractpage__main_description": "PDFから必要なページのみを選択",
+    "pdf_tools__detail_description_object__extractpage_pages__top_left": "PDFドキュメントからページを無料で抽出します。ダウンロード、サインアップ、高価なソフトウェアは不要です。ブラウザとインターネット接続があればすぐに利用できます。",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "登録不要で無料利用可能",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "数秒でPDFコンテンツを抽出",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "ブラウザで安全かつ簡単に実行"
   },
   "prompt_library": {
     "use_prompt_library__title": "高品質なAIプロンプトライブラリ",
@@ -1094,7 +1100,9 @@
     "pdf_tools__pdf_watermark_page__title": "無料PDFウォーターマーカー | どんなデバイスでもPDFに透かしを入れる",
     "pdf_tools__pdf_watermark_page__description": "簡単にPDF文書に透かしを追加します。アプリをダウンロードする必要はありません。すべての作業は、Mac、Windows、Linux、モバイルデバイスでブラウザで行われます。",
     "pdf_tools__pdf_deletepages_page__title": "PDFページ削除 | 無料でPDFからページを削除",
-    "pdf_tools__pdf_deletepages_page__description": "PDFからページを削除する必要がありますか？当社のシンプルなオンラインツールを使用してPDFページを削除できます。PDFをアップロードして、ページを削除して変更を保存します。サインアップは不要です。"
+    "pdf_tools__pdf_deletepages_page__description": "PDFからページを削除する必要がありますか？当社のシンプルなオンラインツールを使用してPDFページを削除できます。PDFをアップロードして、ページを削除して変更を保存します。サインアップは不要です。",
+    "pdf_tools__pdf_extractpages_page__title": "PDFエクストラクター | 任意のPDFドキュメントからページを抽出",
+    "pdf_tools__pdf_extractpages_page__description": "無料でオンラインでPDFからページを抽出。ファイルをアップロードして、必要なページをエクスポートするだけ。PDFページを抽出するのは簡単です。"
   },
   "features_landing": {
     "cta_text": "ブラウザに追加",
@@ -1852,5 +1860,29 @@
   "pages__pdf_tools__deletepage_pdf": {
     "confirm_to_delete": "削除を確認",
     "delete_download": "PDFを削除してダウンロード"
+  },
+  "pages__pdf_tools__extractpage_pdf": {
+    "select_all": "すべて選択",
+    "separate_pdfs": "PDFを分割",
+    "confirm_to_extract": "抽出を確認",
+    "extract_download_tooltip": "PDFを抽出してダウンロード",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_title": "今すぐ無料で開始",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_description": "ダウンロード不要、サインアップ不要。上のボックスにPDFをドロップして、ページの抽出をすぐに開始します。",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_title": "ローカルセーフPDF抽出",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_description": "アップロードしたすべてのファイルはブラウザ内で処理され、完全なプライバシーが確保されます。クラウドにアップロードされず、絶対的なセキュリティとプライバシーが保証されます。",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_title": "PDFを初めて愛する",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_description": "PDFページの抽出がとても簡単になりました。人々はあなたが「PDFが大好き」と言うのに飽きるかもしれません。",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_title": "1つまたは複数のPDFと連携",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_description": "必要なPDFページを分離するために、必要なだけ多くの文書を追加します。複数の文書からページを組み合わせて、瞬時に1つのPDFにまとめます。",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_title": "無料オンラインソフトウェア",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_description": "高価なプレミアムソフトウェアにお金を使う必要はありません。1日の使用量が制限されている場合、当社のPDFエクストラクターは無料でご利用いただけます。より頻繁に使用する必要がある場合は、無制限の無料利用が可能です。",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_title": "ローカル処理",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_description": "当社のサービスの主要な機能の1つは、すべてのPDF抽出操作がローカルで行われることです。これにより、処理手順全体がクラウド待ちを必要とせずに直接デバイス上で行われます。セキュリティが向上し、信頼性が確保されます。",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_title": "無料でオンラインからPDFページを抽出する方法：",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_1": "ファイルをインポートするかドラッグ＆ドロップして、PDFページ抽出ツールに追加します。",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_2": "抽出したいページのボックスをチェックします。",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "1つのPDFとしてページを抽出するか、別々のPDFとして抽出するかを切り替えます。",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "「抽出を確認」をクリックして、わずかな時間を待ちます。",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "抽出したPDFページをダウンロードします。以上です！"
   }
 }

@@ -759,7 +759,13 @@
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "Berjalan dengan selamat dan mudah di pelayar anda",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "Padam pelbagai halaman dari PDF dalam satu proses",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "Berfungsi di pelayar anda—tiada perisian diperlukan",
-    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Muat turun fail PDF baru anda—itu sahaja!"
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Muat turun fail PDF baru anda—itu sahaja!",
+    "tools__index_page__constant_obj__pdf_page_extractpage__title": "Ekstrak Halaman PDF",
+    "tools__index_page__constant_obj__pdf_page_extractpage__main_description": "Pilih hanya halaman yang anda perlukan dari PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__top_left": "Ekstrak halaman daripada dokumen PDF anda secara dalam talian secara percuma. Tiada muat turun, pendaftaran, atau perisian mahal diperlukan. Semuanya anda perlukan hanyalah pelayar dan sambungan internet.",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Percuma digunakan tanpa pendaftaran",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "Ekstrak kandungan PDF dalam saat",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Berjalan dengan selamat dan mudah di pelayar anda"
   },
   "prompt_library": {
     "use_prompt_library__title": "Pustaka prompt AI berkualiti tinggi",
@@ -1094,7 +1100,9 @@
     "pdf_tools__pdf_watermark_page__title": "PDF Watermarker Percuma | Cap Air PDF pada mana-mana peranti",
     "pdf_tools__pdf_watermark_page__description": "Tambahkan cap air ke dokumen PDF dengan mudah. Tiada keperluan untuk memuat turun aplikasi–semuanya berfungsi dalam pelayar anda di Mac, Windows, Linux, dan peranti mudah alih.",
     "pdf_tools__pdf_deletepages_page__title": "Pemadam Halaman PDF | Padam Halaman dari PDF Dalam Talian Secara Percuma",
-    "pdf_tools__pdf_deletepages_page__description": "Perlu padam halaman dari PDF? Anda boleh padam halaman PDF dengan alat dalam talian kami yang mudah. Hanya muat naik PDF, padam halaman, dan simpan perubahan anda. Tiada pendaftaran diperlukan."
+    "pdf_tools__pdf_deletepages_page__description": "Perlu padam halaman dari PDF? Anda boleh padam halaman PDF dengan alat dalam talian kami yang mudah. Hanya muat naik PDF, padam halaman, dan simpan perubahan anda. Tiada pendaftaran diperlukan.",
+    "pdf_tools__pdf_extractpages_page__title": "Pengekstrak PDF | Ekstrak Halaman dari Mana-mana Dokumen PDF dalam Talian",
+    "pdf_tools__pdf_extractpages_page__description": "Ekstrak halaman dari PDF dalam talian secara percuma. Hanya muat naik fail anda ke pengeluarkan PDF kami, kemudian eksport halaman yang anda mahu. Mudah untuk mengekstrak halaman PDF."
   },
   "features_landing": {
     "cta_text": "Tambah ke Pelayar",
@@ -1852,5 +1860,29 @@
   "pages__pdf_tools__deletepage_pdf": {
     "confirm_to_delete": "Sahkan untuk padam",
     "delete_download": "Padam dan muat turun PDF"
+  },
+  "pages__pdf_tools__extractpage_pdf": {
+    "select_all": "Pilih semua",
+    "separate_pdfs": "Pisahkan PDF",
+    "confirm_to_extract": "Sahkan untuk mengeluarkan",
+    "extract_download_tooltip": "Mengekstrak dan muat turun PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_title": "Mula secara Percuma—Sekarang Juga",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_description": "Tiada muat turun, tiada pendaftaran. Cuma letakkan PDF anda ke dalam kotak di atas, dan mulakan pengeluaran halaman anda dengan serta-merta.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_title": "Pengekstrakan PDF Tempatan Selamat",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_description": "Semua fail yang anda muat naik diproses dalam pelayar anda untuk privasi yang lengkap. Mereka tidak dimuat naik ke awan, memastikan keselamatan dan privasi yang mutlak.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_title": "Cintai PDF untuk Kali Pertama",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_description": "Kami telah menjadikan pengeluaran halaman PDF sangat mudah, orang mungkin bosan mendengar anda berkata ‘Saya suka PDF.’",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_title": "Bekerja Dengan Satu atau Pelbagai PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_description": "Tambahkan seberapa banyak dokumen yang anda mahu, kemudian pisahkan halaman PDF yang anda perlukan. Gabungkan halaman dari beberapa dokumen ke dalam satu PDF dengan cepat.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_title": "Perisian Dalam Talian Percuma",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_description": "Jangan membelanjakan wang yang susah payah anda perolehi untuk perisian premium yang mahal untuk mengekstrak PDF anda. Untuk penggunaan harian yang terhad, Pengekstrak PDF kami adalah percuma untuk digunakan. Jika anda perlu menggunakannya lebih kerap, tentu saja anda boleh, dengan penggunaan tanpa had sepenuhnya percuma.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_title": "Pemprosesan Tempatan",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_description": "Ciri utama perkhidmatan kami adalah semua operasi pengeluaran PDF dilakukan secara tempatan. Ini memastikan bahawa prosedur pemprosesan keseluruhan berlaku terus pada peranti anda tanpa perlu menunggu berasaskan awan. Ia meningkatkan keselamatan dan menjamin kebolehpercayaan.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_title": "Bagaimana Untuk Mengekstrak Halaman dari PDF Dalam Talian secara Percuma:",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_1": "Import atau seret & lepas fail anda ke alat Pengekstrak Halaman PDF kami.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_2": "Tandakan kotak untuk halaman yang anda ingin ekstrak.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "Togol untuk mengekstrak halaman sebagai satu PDF atau PDF berasingan.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "Klik “Sahkan untuk mengeluarkan” dan tunggu hanya beberapa saat.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "Muat turun halaman PDF yang anda ekstrak—itu sahaja!"
   }
 }

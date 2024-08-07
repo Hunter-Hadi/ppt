@@ -759,7 +759,13 @@
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "Berjalan dengan aman dan mudah di browser Anda",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "Hapus beberapa halaman dari PDF sekaligus",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "Berfungsi di browser Anda—tidak perlu perangkat lunak",
-    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Unduh file PDF baru Anda—itu saja!"
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Unduh file PDF baru Anda—itu saja!",
+    "tools__index_page__constant_obj__pdf_page_extractpage__title": "Ekstrak Halaman PDF",
+    "tools__index_page__constant_obj__pdf_page_extractpage__main_description": "Pilih hanya halaman yang Anda butuhkan dari PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__top_left": "Ekstrak halaman dari dokumen PDF Anda secara online secara gratis. Tidak perlu mengunduh, mendaftar, atau menggunakan perangkat lunak mahal. Yang Anda butuhkan hanyalah browser dan koneksi internet.",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Gratis digunakan tanpa registrasi",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "Ekstrak konten PDF dalam hitungan detik",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Berjalan dengan aman dan mudah di browser Anda"
   },
   "prompt_library": {
     "use_prompt_library__title": "Perpustakaan AI berkualitas tinggi",
@@ -1094,7 +1100,9 @@
     "pdf_tools__pdf_watermark_page__title": "PDF Watermarker Gratis | Watermark PDF di semua perangkat",
     "pdf_tools__pdf_watermark_page__description": "Mudah menambahkan watermark ke dokumen PDF. Tidak perlu mengunduh aplikasi–semuanya berfungsi di browser Anda pada Mac, Windows, Linux, dan perangkat mobile.",
     "pdf_tools__pdf_deletepages_page__title": "Penghapus Halaman PDF | Hapus Halaman dari PDF Online Gratis",
-    "pdf_tools__pdf_deletepages_page__description": "Perlu menghapus halaman dari PDF? Anda dapat menghapus halaman PDF dengan alat online sederhana kami. Cukup unggah PDF, hapus halaman, dan simpan perubahan Anda. Tidak perlu mendaftar."
+    "pdf_tools__pdf_deletepages_page__description": "Perlu menghapus halaman dari PDF? Anda dapat menghapus halaman PDF dengan alat online sederhana kami. Cukup unggah PDF, hapus halaman, dan simpan perubahan Anda. Tidak perlu mendaftar.",
+    "pdf_tools__pdf_extractpages_page__title": "Pemisah PDF | Ekstrak Halaman dari Dokumen PDF Apapun Secara Online",
+    "pdf_tools__pdf_extractpages_page__description": "Ekstrak halaman dari PDF secara online secara gratis. Cukup unggah file Anda ke pemisah PDF kami, lalu ekspor halaman yang Anda inginkan. Sangat mudah untuk mengekstrak halaman PDF."
   },
   "features_landing": {
     "cta_text": "Tambahkan ke Browser",
@@ -1852,5 +1860,29 @@
   "pages__pdf_tools__deletepage_pdf": {
     "confirm_to_delete": "Konfirmasi untuk menghapus",
     "delete_download": "Hapus dan unduh PDF"
+  },
+  "pages__pdf_tools__extractpage_pdf": {
+    "select_all": "Pilih semua",
+    "separate_pdfs": "Pisahkan PDF",
+    "confirm_to_extract": "Konfirmasi untuk mengekstrak",
+    "extract_download_tooltip": "Ekstrak dan unduh PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_title": "Mulai Gratis—Sekarang Juga",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_description": "Tidak perlu unduh, tidak perlu mendaftar. Cukup seret PDF Anda ke dalam kotak di atas, dan mulailah ekstraksi halaman Anda segera.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_title": "Ekstraksi PDF Aman Lokal",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_description": "Semua file yang Anda unggah diproses di browser Anda untuk privasi yang lengkap. Mereka tidak diunggah ke cloud, memastikan keamanan dan privasi yang mutlak.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_title": "Cinta PDF untuk Pertama Kalinya",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_description": "Kami telah membuatnya sangat mudah untuk mengekstrak halaman PDF, orang mungkin bosan mendengar Anda berkata ‘Saya suka PDF.’",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_title": "Bekerja dengan Satu atau Beberapa PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_description": "Tambahkan sebanyak dokumen yang Anda inginkan, lalu pisahkan halaman PDF yang Anda butuhkan. Gabungkan halaman dari beberapa dokumen menjadi satu PDF dengan cepat.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_title": "Perangkat Lunak Online Gratis",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_description": "Jangan menghabiskan uang Anda yang susah payah didapat untuk perangkat lunak premium yang mahal untuk mengekstrak PDF Anda. Untuk penggunaan harian terbatas, Pengekstrak PDF kami gratis digunakan. Jika Anda perlu menggunakannya lebih sering, tentu saja, Anda bisa, dengan penggunaan tanpa batas sepenuhnya gratis.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_title": "Pemrosesan Lokal",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_description": "Fitur utama dari layanan kami adalah bahwa semua operasi ekstraksi PDF dilakukan secara lokal. Ini memastikan bahwa seluruh prosedur pemrosesan berlangsung langsung pada perangkat Anda tanpa perlu menunggu berbasis cloud. Ini meningkatkan keamanan dan menjamin keandalan.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_title": "Cara Mengekstrak Halaman dari PDF Online Gratis:",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_1": "Impor atau seret & lepas file Anda ke alat Ekstrak Halaman PDF kami.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_2": "Centang kotak untuk halaman yang ingin Anda ekstrak.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "Alihkan untuk mengekstrak halaman sebagai satu PDF atau PDF terpisah.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "Klik “Konfirmasi untuk mengekstrak” dan tunggu sebentar.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "Unduh halaman PDF yang diekstrak Anda—itu saja!"
   }
 }

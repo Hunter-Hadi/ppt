@@ -759,7 +759,13 @@
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "يعمل بأمان وببساطة في متصفحك",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "حذف صفحات متعددة من ملف PDF في عملية واحدة",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "يعمل في متصفحك - لا حاجة لبرنامج",
-    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "قم بتنزيل ملف PDF الجديد الخاص بك - هذا كل شيء!"
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "قم بتنزيل ملف PDF الجديد الخاص بك - هذا كل شيء!",
+    "tools__index_page__constant_obj__pdf_page_extractpage__title": "استخراج صفحات PDF",
+    "tools__index_page__constant_obj__pdf_page_extractpage__main_description": "اختر فقط الصفحات التي تحتاجها من ملف PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__top_left": "استخراج صفحات من مستند PDF الخاص بك عبر الإنترنت مجانًا. لا تحتاج إلى تنزيل أي برامج أو التسجيل أو استخدام برامج باهظة الثمن. كل ما تحتاجه هو متصفح واتصال بالإنترنت.",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "مجاني للاستخدام بدون تسجيل",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "استخراج محتوى PDF في ثوانٍ",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "يعمل بشكل آمن وبسيط في متصفحك"
   },
   "prompt_library": {
     "use_prompt_library__title": "مكتبة نصوص AI عالية الجودة",
@@ -1094,7 +1100,9 @@
     "pdf_tools__pdf_watermark_page__title": "PDF Watermarker مجاني | قم بوضع علامة مائية على ملفات PDF على أي جهاز",
     "pdf_tools__pdf_watermark_page__description": "أضف بسهولة علامة مائية إلى مستندات PDF. لا حاجة لتنزيل تطبيق - كل شيء يعمل في متصفحك على نظام Mac و Windows و Linux والأجهزة المحمولة.",
     "pdf_tools__pdf_deletepages_page__title": "أداة حذف الصفحات من ملف PDF | احذف الصفحات من PDF عبر الإنترنت مجانًا",
-    "pdf_tools__pdf_deletepages_page__description": "هل تحتاج إلى حذف صفحات من ملف PDF؟ يمكنك حذف صفحات PDF باستخدام أداةنا البسيطة عبر الإنترنت. قم بتحميل ملف PDF، احذف الصفحات، واحفظ التغييرات الخاصة بك. لا حاجة للتسجيل."
+    "pdf_tools__pdf_deletepages_page__description": "هل تحتاج إلى حذف صفحات من ملف PDF؟ يمكنك حذف صفحات PDF باستخدام أداةنا البسيطة عبر الإنترنت. قم بتحميل ملف PDF، احذف الصفحات، واحفظ التغييرات الخاصة بك. لا حاجة للتسجيل.",
+    "pdf_tools__pdf_extractpages_page__title": "مستخرج PDF | استخراج الصفحات من أي مستند PDF عبر الإنترنت",
+    "pdf_tools__pdf_extractpages_page__description": "استخراج صفحات من ملف PDF عبر الإنترنت مجانًا. قم بتحميل ملفك إلى مستخرج PDF الخاص بنا، ثم قم بتصدير الصفحات التي تريدها. من السهل جدًا استخراج صفحات PDF."
   },
   "features_landing": {
     "cta_text": "أضف إلى المتصفح",
@@ -1852,5 +1860,29 @@
   "pages__pdf_tools__deletepage_pdf": {
     "confirm_to_delete": "تأكيد الحذف",
     "delete_download": "حذف وتنزيل PDF"
+  },
+  "pages__pdf_tools__extractpage_pdf": {
+    "select_all": "تحديد الكل",
+    "separate_pdfs": "فصل ملفات PDF",
+    "confirm_to_extract": "تأكيد الاستخراج",
+    "extract_download_tooltip": "استخراج وتحميل PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_title": "ابدأ مجانًا الآن",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_description": "بدون تنزيلات، بدون تسجيل. فقط أسقط ملفات PDF الخاصة بك في المربع أعلاه، وابدأ استخراج الصفحات الخاصة بك على الفور.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_title": "استخراج PDF بأمان محليًا",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_description": "يتم معالجة جميع الملفات التي تقوم بتحميلها في متصفحك لضمان الخصوصية التامة. لا يتم تحميلها إلى السحابة، مما يضمن الأمان والخصوصية المطلقين.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_title": "استمتع بملفات PDF للمرة الأولى",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_description": "لقد جعلنا من السهل جدًا استخراج صفحات PDF، قد يملون من سماعك تقول 'أنا أحب PDF'.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_title": "العمل مع ملف PDF واحد أو متعدد",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_description": "أضف العديد من الوثائق التي تريدها، ثم افصل صفحات PDF التي تحتاجها. اجمع الصفحات من عدة مستندات في ملف PDF واحد بسرعة.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_title": "برنامج مجاني عبر الإنترنت",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_description": "لا تنفق أموالك الثمينة على برامج متميزة باهظة الثمن لاستخراج ملفات PDF الخاصة بك. للاستخدام اليومي المحدود، يمكنك استخدام مستخرج PDF الخاص بنا مجانًا. إذا كنت بحاجة إلى استخدامه بشكل أكثر تكرارًا، بالطبع يمكنك ذلك، مع استخدام غير محدود مجاني تمامًا.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_title": "معالجة محلية",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_description": "ميزة رئيسية لخدمتنا هي أن جميع عمليات استخراج PDF تتم محليًا. يضمن ذلك أن الإجراءات تجري مباشرة على جهازك دون الحاجة إلى انتظارات مستندة إلى السحابة. يعزز الأمان ويضمن الاعتمادية.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_title": "كيفية استخراج الصفحات من PDF عبر الإنترنت مجانًا:",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_1": "استيراد أو سحب وإسقاط ملفك إلى أداة استخراج صفحات PDF الخاصة بنا.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_2": "حدد الصندوق للصفحات التي تريد استخراجها.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "تبديل لاستخراج الصفحات كملف PDF واحد أو PDFs منفصلة.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "انقر على 'تأكيد الاستخراج' وانتظر لحظة واحدة فقط.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "قم بتنزيل صفحات PDF المستخرجة الخاصة بك - هذا كل شيء!"
   }
 }

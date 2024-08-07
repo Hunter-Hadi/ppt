@@ -759,7 +759,13 @@
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "Funziona in modo sicuro e semplice nel tuo browser",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "Elimina più pagine da un PDF in una volta",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "Funziona nel tuo browser, nessun software necessario",
-    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Scarica il tuo nuovo file PDF, è tutto!"
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Scarica il tuo nuovo file PDF, è tutto!",
+    "tools__index_page__constant_obj__pdf_page_extractpage__title": "Estrai Pagine PDF",
+    "tools__index_page__constant_obj__pdf_page_extractpage__main_description": "Scegli solo le pagine di cui hai bisogno da un PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__top_left": "Estrai pagine dal tuo documento PDF online gratuitamente. Nessun download, registrazione o software costoso. Tutto ciò di cui hai bisogno è un browser e una connessione internet.",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Gratuito da usare senza registrazione",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "Estrai contenuti PDF in pochi secondi",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Funziona in modo sicuro e semplice nel tuo browser"
   },
   "use_cases_pages": {
     "research__title": "Potenzia il tuo browser con Ricerca AI 10 volte più veloce",
@@ -1342,7 +1348,9 @@
     "pdf_tools__pdf_watermark_page__title": "Watermarker PDF gratuito | Watermark PDF su qualsiasi dispositivo",
     "pdf_tools__pdf_watermark_page__description": "Aggiungi facilmente un watermark ai documenti PDF. Non è necessario scaricare un'app, tutto funziona nel tuo browser su Mac, Windows, Linux e dispositivi mobili.",
     "pdf_tools__pdf_deletepages_page__title": "Rimuovi Pagina PDF | Elimina Pagine da PDF Online Gratuitamente",
-    "pdf_tools__pdf_deletepages_page__description": "Hai bisogno di rimuovere pagine da un PDF? Puoi eliminare pagine PDF con il nostro semplice strumento online. Carica un PDF, elimina pagine e salva le modifiche. Nessuna registrazione necessaria."
+    "pdf_tools__pdf_deletepages_page__description": "Hai bisogno di rimuovere pagine da un PDF? Puoi eliminare pagine PDF con il nostro semplice strumento online. Carica un PDF, elimina pagine e salva le modifiche. Nessuna registrazione necessaria.",
+    "pdf_tools__pdf_extractpages_page__title": "Estrattore PDF | Estrai Pagine da Qualsiasi Documento PDF Online",
+    "pdf_tools__pdf_extractpages_page__description": "Estrai pagine da un PDF online gratuitamente. Carica il tuo file nel nostro estrattore PDF, quindi esporta le pagine desiderate. E' così facile estrarre pagine PDF."
   },
   "features_landing": {
     "cta_text": "Aggiungi al Browser",
@@ -1851,5 +1859,29 @@
   "pages__pdf_tools__deletepage_pdf": {
     "confirm_to_delete": "Conferma eliminazione",
     "delete_download": "Elimina e scarica PDF"
+  },
+  "pages__pdf_tools__extractpage_pdf": {
+    "select_all": "Seleziona tutto",
+    "separate_pdfs": "Separa PDF",
+    "confirm_to_extract": "Conferma per estrarre",
+    "extract_download_tooltip": "Estrai e scarica PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_title": "Inizia gratuitamente—Ora",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_description": "Nessun download, nessuna registrazione. Basta trascinare i tuoi PDF nella casella qui sopra e inizia immediatamente l'estrazione delle pagine.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_title": "Estrazione PDF Sicura Locale",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_description": "Tutti i file che carichi vengono elaborati nel tuo browser per garantire la massima privacy. Non vengono caricati su cloud, garantendo sicurezza e privacy assolute.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_title": "Ama i PDF per la Prima Volta",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_description": "Abbiamo reso così facile estrarre le pagine PDF che le persone potrebbero stancarsi di sentirti dire 'Amo i PDF'.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_title": "Lavora con Uno o Più PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_description": "Aggiungi quanti documenti desideri, quindi separa le pagine PDF di cui hai bisogno. Unisci pagine da documenti multipli in un unico PDF in un attimo.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_title": "Software Online Gratuito",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_description": "Non spendere i tuoi soldi guadagnati duramente per costosi software premium per estrarre i tuoi PDF. Per un utilizzo giornaliero limitato, il nostro Estrattore PDF è gratuito. Se hai bisogno di usarlo più frequentemente, ovviamente puoi farlo, con un utilizzo illimitato completamente gratuito.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_title": "Elaborazione Locale",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_description": "Una caratteristica chiave del nostro servizio è che tutte le operazioni di estrazione PDF vengono eseguite localmente. Ciò garantisce che l'intera procedura di elaborazione avvenga direttamente sul tuo dispositivo senza dover attendere in cloud. Migliora la sicurezza e garantisce affidabilità.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_title": "Come Estrarre Pagine da PDF Online Gratuitamente:",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_1": "Importa o trascina il tuo file nel nostro strumento Estrarre Pagine PDF.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_2": "Seleziona le pagine che desideri estrarre.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "Attiva l'estrazione delle pagine come un unico PDF o PDF separati.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "Clicca su 'Conferma per estrarre' e attendi solo un secondo.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "Scarica le tue pagine PDF estratte—è tutto!"
   }
 }

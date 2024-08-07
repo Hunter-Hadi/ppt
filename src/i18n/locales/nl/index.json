@@ -759,7 +759,13 @@
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "Werkt veilig en eenvoudig in uw browser",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "Verwijder meerdere pagina's uit een PDF in één keer",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "Werkt in uw browser - geen software nodig",
-    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Download uw nieuwe PDF-bestand - dat is alles!"
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Download uw nieuwe PDF-bestand - dat is alles!",
+    "tools__index_page__constant_obj__pdf_page_extractpage__title": "PDF Pagina's Extraheren",
+    "tools__index_page__constant_obj__pdf_page_extractpage__main_description": "Kies alleen de pagina's die je nodig hebt uit een PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__top_left": "Extracteer pagina's uit uw PDF-document online gratis. Geen downloads, aanmeldingen of dure software nodig. Alles wat u nodig heeft is een browser en een internetverbinding.",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Gratis te gebruiken zonder registratie",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "Extraheren van PDF-inhoud in seconden",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Werkt veilig en eenvoudig in uw browser"
   },
   "prompt_library": {
     "use_prompt_library__title": "Hoogwaardige AI-promptbibliotheek",
@@ -1094,7 +1100,9 @@
     "pdf_tools__pdf_watermark_page__title": "Gratis PDF-watermerk | Watermerk PDF's op elk apparaat",
     "pdf_tools__pdf_watermark_page__description": "Voeg eenvoudig een watermerk toe aan PDF-documenten. Geen app downloaden nodig - alles werkt in uw browser op Mac, Windows, Linux en mobiele apparaten.",
     "pdf_tools__pdf_deletepages_page__title": "PDF Pagina Verwijderaar | Pagina's Verwijderen uit PDF Online Gratis",
-    "pdf_tools__pdf_deletepages_page__description": "Moet pagina's verwijderen uit een PDF? U kunt PDF-pagina's verwijderen met onze eenvoudige online tool. Upload gewoon een PDF, verwijder pagina's en sla uw wijzigingen op. Geen aanmelding vereist."
+    "pdf_tools__pdf_deletepages_page__description": "Moet pagina's verwijderen uit een PDF? U kunt PDF-pagina's verwijderen met onze eenvoudige online tool. Upload gewoon een PDF, verwijder pagina's en sla uw wijzigingen op. Geen aanmelding vereist.",
+    "pdf_tools__pdf_extractpages_page__title": "PDF Extractor | Pagina's Extraheren uit Elk PDF-document Online",
+    "pdf_tools__pdf_extractpages_page__description": "Extraheren van pagina's uit een PDF online gratis. Upload gewoon je bestand naar onze PDF-extractor, exporteer vervolgens de pagina's die je wilt. Zo eenvoudig is het om PDF-pagina's te extraheren."
   },
   "features_landing": {
     "cta_text": "Toevoegen aan browser",
@@ -1852,5 +1860,29 @@
   "pages__pdf_tools__deletepage_pdf": {
     "confirm_to_delete": "Bevestig om te verwijderen",
     "delete_download": "PDF verwijderen en downloaden"
+  },
+  "pages__pdf_tools__extractpage_pdf": {
+    "select_all": "Alles selecteren",
+    "separate_pdfs": "PDF's splitsen",
+    "confirm_to_extract": "Bevestigen om te extraheren",
+    "extract_download_tooltip": "PDF extraheren en downloaden",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_title": "Begin Gratis—Nu Meteen",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_description": "Geen downloads, geen aanmeldingen. Plaats gewoon uw PDF's in het bovenstaande vak en begin direct met het extraheren van uw pagina's.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_title": "Lokaal Veilige PDF Extractie",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_description": "Alle bestanden die u uploadt, worden verwerkt in uw browser voor volledige privacy. Ze worden niet geüpload naar de cloud, wat absolute beveiliging en privacy garandeert.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_title": "Ontdek de Liefde voor PDF's",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_description": "We hebben het zo eenvoudig gemaakt om PDF-pagina's te extraheren dat mensen misschien moe worden van het horen van u zeggen 'Ik hou van PDF'.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_title": "Werk Met Één of Meerdere PDF's",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_description": "Voeg zoveel documenten toe als u wilt en scheid vervolgens de PDF-pagina's die u nodig heeft. Combineer pagina's van meerdere documenten tot één PDF in een handomdraai.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_title": "Gratis Online Software",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_description": "Geef uw zuurverdiende geld niet uit aan dure premium software om uw PDF's te extraheren. Voor beperkt dagelijks gebruik is onze PDF Extractor gratis te gebruiken. Als u het vaker moet gebruiken, kunt u dat natuurlijk doen, met volledig gratis en onbeperkt gebruik.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_title": "Lokale Verwerking",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_description": "Een belangrijke functie van onze service is dat alle PDF-extractiebewerkingen lokaal worden uitgevoerd. Dit zorgt ervoor dat het volledige verwerkingsproces rechtstreeks op uw apparaat plaatsvindt zonder de noodzaak van cloud-gebaseerd wachten. Het verbetert de beveiliging en garandeert betrouwbaarheid.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_title": "Hoe Pagina's uit PDF Online Gratis te Extraheren:",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_1": "Importeer of sleep uw bestand naar onze Extract PDF Pages tool.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_2": "Vink het vakje aan voor de pagina's die u wilt extraheren.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "Schakel om pagina's te extraheren als één PDF of afzonderlijke PDF's.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "Klik op 'Bevestigen om te extraheren' en wacht slechts een seconde.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "Download uw geëxtraheerde PDF-pagina's—dat is alles!"
   }
 }
