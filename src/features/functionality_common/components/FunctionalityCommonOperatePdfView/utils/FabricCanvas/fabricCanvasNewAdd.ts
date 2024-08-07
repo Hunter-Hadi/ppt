@@ -131,15 +131,15 @@ export const onFabricAddObject = async (
   isMobile: boolean = false,
 ) => {
   try {
-    const zoom = fabricCanvas.current.getZoom();
+    const zoom = fabricCanvas.current.getZoom()
 
-    const centerX = fabricCanvas.current.width / zoom / 2;
-    const centerY = fabricCanvas.current.height / zoom / 2;
+    const centerX = fabricCanvas.current.width / zoom / 2
+    const centerY = fabricCanvas.current.height / zoom / 2
     // 计算当前缩放的比例
     const topPositionData = {
       left: canvasObject.x ? canvasObject.x / zoom : centerX,
       top: canvasObject.y ? canvasObject.y / zoom : centerY,
-    };
+    }
     if (!fabricCanvas) return null
     let createObjectData: fabric.Object | null = null
     const positionData = {
@@ -156,7 +156,7 @@ export const onFabricAddObject = async (
         image.onload = function () {
           // 将图片绘制到画布上
           const imgColor = findFirstNonTransparentPixel(image)
-          const zoom = fabricCanvas.current.getZoom()
+          const zoom = 1 / (fabricCanvas.current?.getZoom() || 1)
           const fabricImage = new fabric.Image(image, positionData)
 
           let scaleRatioWidth = 1
@@ -201,14 +201,14 @@ export const onFabricAddObject = async (
             fabricImage.top = positionData.top - fabricImage.height / 2
           }
           console.log('simply fabricImage', fabricImage)
-            ; (fabricImage as any).imgColor = imgColor
+          ;(fabricImage as any).imgColor = imgColor
           createObjectData = fabricImage
           resolve()
         }
       })
     } else if (canvasObject.type === 'text-box') {
       positionData.left = positionData.left - 300 / 2
-      const text = new fabric.Textbox(fabricCanvas.value, {
+      const text = new fabric.Textbox(canvasObject.value, {
         ...positionData,
         minScaleLimit: 1,
         maxScaleLimit: 1,
@@ -219,7 +219,7 @@ export const onFabricAddObject = async (
     } else if (canvasObject.type === 'text') {
       positionData.left = positionData.left - 50 / 2
 
-      const text = new fabric.Text(fabricCanvas.value, {
+      const text = new fabric.Text(canvasObject.value, {
         ...positionData,
         minScaleLimit: 1,
         maxScaleLimit: 1,
@@ -228,19 +228,19 @@ export const onFabricAddObject = async (
       createObjectData = text
     } else if (canvasObject.type === 'i-text') {
       positionData.left = positionData.left - 200 / 2
-      const isDateValid = dayjs(fabricCanvas.value).isValid()
-      const text = new fabric.IText(fabricCanvas.value, {
+      const isDateValid = dayjs(canvasObject.value).isValid()
+      const text = new fabric.IText(canvasObject.value, {
         ...positionData,
         minScaleLimit: 1,
         maxScaleLimit: 1,
       })
       text.fontFamily = defaultTextFontFamily
-        ; (text as any).isDateValid = isDateValid
+      ;(text as any).isDateValid = isDateValid
       createObjectData = text
     }
     if (createObjectData) {
-      ; (createObjectData as any).mtr = false
-        ; (createObjectData as any).id = uuidV4()
+      ;(createObjectData as any).mtr = false
+      ;(createObjectData as any).id = uuidV4()
       createObjectData.top = autoCheckTopIsAbnormal(
         fabricCanvas,
         positionData.top,
@@ -314,7 +314,7 @@ export const onChangeFabricColor = (editor: any, color) => {
       return
     }
     if (activeObject && activeObject.type === 'image') {
-      ; (activeObject as any).getElement().onload = () => {
+      ;(activeObject as any).getElement().onload = () => {
         // Access the internal _element where the actual HTMLImageElement resides
         const canvas = document.createElement('canvas')
         const ctx = canvas.getContext('2d')

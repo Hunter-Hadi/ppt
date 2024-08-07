@@ -1,66 +1,64 @@
-import { Box } from "@mui/material";
-import React, { FC, useCallback, useEffect, useMemo, useRef } from "react";
+import { Box } from '@mui/material'
+import React, { FC, useCallback, useEffect, useMemo, useRef } from 'react'
+import { useSetRecoilState } from 'recoil'
 
-import { useFunctionalitySignElementWidth } from "@/features/functionality_sign_pdf/hooks/useFunctionalitySignElementWidth";
+import { useFunctionalitySignElementWidth } from '@/features/functionality_sign_pdf/hooks/useFunctionalitySignElementWidth'
 
-import FunctionalityCommonPdfViewPage from "../../FunctionalityCommonPdfViewVirtualScroll/components/FunctionalityCommonPdfViewPage";
-import FunctionalityCommonPdfViewVirtualScrollMain from "../../FunctionalityCommonPdfViewVirtualScroll/components/FunctionalityCommonPdfViewVirtualScrollMain";
+import FunctionalityCommonPdfViewPage from '../../FunctionalityCommonPdfViewVirtualScroll/components/FunctionalityCommonPdfViewPage'
+import FunctionalityCommonPdfViewVirtualScrollMain from '../../FunctionalityCommonPdfViewVirtualScroll/components/FunctionalityCommonPdfViewVirtualScrollMain'
+import { currentScrollOffsetRecoil } from '../store'
 import eventEmitter, {
   eventEmitterAddFabricCanvasKey,
   eventEmitterAddFabricIndexCanvas,
-} from "../utils/FabricCanvas/eventEmitter";
-import FunctionalityCommonOperateFabricCanvas from "./FunctionalityCommonOperateCanvas/FunctionalityCommonOperateFabricCanvas/FunctionalityCommonOperateFabricCanvasMain";
-import FunctionalityCommonTextContentPage from "./FunctionalityCommonOperateCanvas/FunctionalityCommonTextContentPage/FunctionalityCommonTextContentPageMain";
-import FunctionalityCommonOperateDroppable from "./FunctionalityCommonOperateDroppable";
+} from '../utils/FabricCanvas/eventEmitter'
+import FunctionalityCommonOperateFabricCanvas from './FunctionalityCommonOperateCanvas/FunctionalityCommonOperateFabricCanvas/FunctionalityCommonOperateFabricCanvasMain'
+import FunctionalityCommonTextContentPage from './FunctionalityCommonOperateCanvas/FunctionalityCommonTextContentPage/FunctionalityCommonTextContentPageMain'
+import FunctionalityCommonOperateDroppable from './FunctionalityCommonOperateDroppable'
 interface FunctionalityCommonOperatePdfToolViewMainProps {
-  file: File;
-  isShowBottomOperation: boolean;
-  enableEditTypes?: ("annotator" | "insert")[];
-  currentEditType?: "annotator" | "insert"; //一次之内操作一种类型
+  file: File
+  isShowBottomOperation: boolean
+  enableEditTypes?: ('annotator' | 'insert')[]
+  currentEditType?: 'annotator' | 'insert' //一次之内操作一种类型
 }
-const FunctionalityCommonOperatePdfToolViewMain: FC<FunctionalityCommonOperatePdfToolViewMainProps> = ({
-  file,
-  isShowBottomOperation,
-  enableEditTypes,
-  currentEditType,
-}) => {
-  const initEventEmitter = useRef(false);
-  const [currentPage, setCurrentPage] = React.useState(0);
-  const [numberPage, setNumberPage] = React.useState(0);
+const FunctionalityCommonOperatePdfToolViewMain: FC<
+  FunctionalityCommonOperatePdfToolViewMainProps
+> = ({ file, isShowBottomOperation, enableEditTypes, currentEditType }) => {
+  const setScrollPositionNumber = useSetRecoilState(currentScrollOffsetRecoil)
+  const initEventEmitter = useRef(false)
+  const [currentPage, setCurrentPage] = React.useState(0)
+  const [numberPage, setNumberPage] = React.useState(0)
 
   const definedEnableEditTypes = useMemo(
-    () => enableEditTypes || ["annotator", "insert"],
-    [enableEditTypes]
-  );
+    () => enableEditTypes || ['annotator', 'insert'],
+    [enableEditTypes],
+  )
 
-  const wrapRef = useRef<HTMLElement>(null);
+  const wrapRef = useRef<HTMLElement>(null)
 
-  const {
-    width: parentWidth,
-    height: parentHeight,
-  } = useFunctionalitySignElementWidth(wrapRef); //获取父元素的宽度
+  const { width: parentWidth, height: parentHeight } =
+    useFunctionalitySignElementWidth(wrapRef) //获取父元素的宽度
   useEffect(() => {
     //事件转发
-    if (initEventEmitter.current) return;
-    initEventEmitter.current = true;
+    if (initEventEmitter.current) return
+    initEventEmitter.current = true
     const forwardData = (data) => {
-      eventEmitterAddFabricIndexCanvas(currentPage, data);
-    };
-    eventEmitter.on(eventEmitterAddFabricCanvasKey, forwardData);
+      eventEmitterAddFabricIndexCanvas(currentPage, data)
+    }
+    eventEmitter.on(eventEmitterAddFabricCanvasKey, forwardData)
     return () => {
-      eventEmitter.off(eventEmitterAddFabricCanvasKey, forwardData);
-    };
-  }, [currentPage]);
+      eventEmitter.off(eventEmitterAddFabricCanvasKey, forwardData)
+    }
+  }, [currentPage])
   const isEnableType = useCallback(
-    (type: "annotator" | "insert") => definedEnableEditTypes?.includes(type),
-    [definedEnableEditTypes]
-  );
+    (type: 'annotator' | 'insert') => definedEnableEditTypes?.includes(type),
+    [definedEnableEditTypes],
+  )
   return (
     <Box
       ref={wrapRef}
       sx={{
-        width: "100%",
-        height: "100%",
+        width: '100%',
+        height: '100%',
       }}
     >
       <FunctionalityCommonPdfViewVirtualScrollMain
@@ -70,27 +68,28 @@ const FunctionalityCommonOperatePdfToolViewMain: FC<FunctionalityCommonOperatePd
         isShowBottomOperation={true}
         onViewInfo={(info) => {
           if (info.currentPage !== currentPage) {
-            initEventEmitter.current = false;
-            setCurrentPage(info.currentPage);
+            initEventEmitter.current = false
+            setCurrentPage(info.currentPage)
           }
+          setScrollPositionNumber(info.currentScrollOffset)
         }}
         onReadPDFState={(state) => {
-          if (state === "error") {
+          if (state === 'error') {
             //TODO: 读取PDF失败
           }
         }}
         onDocumentLoadSuccess={(info) => {
-          setNumberPage(info.numPages);
+          setNumberPage(info.numPages)
         }}
       >
         {(props) => {
           return (
             <Box
               style={{
-                position: "relative",
-                width: "100%",
-                height: "100%",
-                userSelect: currentEditType === "annotator" ? "auto" : "none",
+                position: 'relative',
+                width: '100%',
+                height: '100%',
+                userSelect: currentEditType === 'annotator' ? 'auto' : 'none',
               }}
             >
               <FunctionalityCommonOperateDroppable pdfIndex={props.index}>
@@ -99,37 +98,37 @@ const FunctionalityCommonOperatePdfToolViewMain: FC<FunctionalityCommonOperatePd
                   index={props.index}
                 />
               </FunctionalityCommonOperateDroppable>
-              {isEnableType("annotator") && (
+              {isEnableType('annotator') && (
                 <Box
-                  className="pdf-annotator-view"
+                  className='pdf-annotator-view'
                   sx={{
-                    position: "absolute",
+                    position: 'absolute',
                     top: 0,
                     left: 0,
                     bottom: 0,
                     right: 0,
-                    zIndex: currentEditType === "annotator" ? 999 : 1,
+                    zIndex: currentEditType === 'annotator' ? 999 : 1,
                   }}
                 >
                   <FunctionalityCommonTextContentPage
                     pdfInfo={props.pdfInfo}
                     index={props.index}
-                    isEdit={currentEditType === "annotator"}
+                    isEdit={currentEditType === 'annotator'}
                   ></FunctionalityCommonTextContentPage>
                 </Box>
               )}
-              {isEnableType("insert") && (
+              {isEnableType('insert') && (
                 <div
-                  className="pdf-insert-view"
+                  className='pdf-insert-view'
                   style={{
-                    position: "absolute",
+                    position: 'absolute',
                     top: 0,
                     left: 0,
                     bottom: 0,
                     right: 0,
-                    zIndex: currentEditType === "insert" ? 999 : 1,
-                    width: "100%",
-                    height: "100%",
+                    zIndex: currentEditType === 'insert' ? 999 : 1,
+                    width: '100%',
+                    height: '100%',
                   }}
                 >
                   <FunctionalityCommonOperateFabricCanvas
@@ -141,10 +140,10 @@ const FunctionalityCommonOperatePdfToolViewMain: FC<FunctionalityCommonOperatePd
                 </div>
               )}
             </Box>
-          );
+          )
         }}
       </FunctionalityCommonPdfViewVirtualScrollMain>
     </Box>
-  );
-};
-export default FunctionalityCommonOperatePdfToolViewMain;
+  )
+}
+export default FunctionalityCommonOperatePdfToolViewMain

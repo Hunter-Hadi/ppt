@@ -239,7 +239,7 @@ const FunctionalityCommonOperateFabricCanvas: FC<
           <Box onMouseDown={handlePopupClick}>
             <FunctionalitySignPdfShowPdfViewAddToolsPopup
               controlDivPosition={controlAddNewDiv}
-              scaleFactor={canvasChangeScale}
+              scaleFactor={1}
               editor={fabricCanvas}
               onClose={onCloseAddToolsPopup}
             />
