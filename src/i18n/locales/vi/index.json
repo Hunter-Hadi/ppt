@@ -759,7 +759,13 @@
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "Hoạt động an toàn và đơn giản trên trình duyệt của bạn",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "Xóa nhiều trang từ một tài liệu PDF cùng một lúc",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "Hoạt động trên trình duyệt của bạn—không cần phần mềm",
-    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Tải xuống tệp PDF mới của bạn—đó là tất cả!"
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Tải xuống tệp PDF mới của bạn—đó là tất cả!",
+    "tools__index_page__constant_obj__pdf_page_extractpage__title": "Trích xuất trang PDF",
+    "tools__index_page__constant_obj__pdf_page_extractpage__main_description": "Chọn chỉ những trang bạn cần từ một tập tin PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__top_left": "Trích xuất trang từ tài liệu PDF của bạn trực tuyến miễn phí. Không cần tải xuống, đăng ký, hoặc phần mềm đắt tiền. Bạn chỉ cần một trình duyệt và kết nối internet.",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Miễn phí sử dụng không cần đăng ký",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "Trích xuất nội dung PDF trong vài giây",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Hoạt động an toàn và đơn giản trên trình duyệt của bạn"
   },
   "prompt_library": {
     "use_prompt_library__title": "Thư viện gợi ý AI chất lượng cao",
@@ -1094,7 +1100,9 @@
     "pdf_tools__pdf_watermark_page__title": "PDF Watermarker Miễn Phí | Đánh dấu PDF trên bất kỳ thiết bị nào",
     "pdf_tools__pdf_watermark_page__description": "Dễ dàng thêm dấu nước vào tài liệu PDF. Không cần tải ứng dụng - mọi thứ hoạt động trong trình duyệt của bạn trên Mac, Windows, Linux và thiết bị di động.",
     "pdf_tools__pdf_deletepages_page__title": "Xóa Trang PDF | Xóa Trang từ PDF Trực Tuyến Miễn Phí",
-    "pdf_tools__pdf_deletepages_page__description": "Cần xóa trang từ một tập tin PDF? Bạn có thể xóa trang PDF với công cụ trực tuyến đơn giản của chúng tôi. Chỉ cần tải lên một tập tin PDF, xóa trang và lưu thay đổi của bạn. Không cần đăng ký."
+    "pdf_tools__pdf_deletepages_page__description": "Cần xóa trang từ một tập tin PDF? Bạn có thể xóa trang PDF với công cụ trực tuyến đơn giản của chúng tôi. Chỉ cần tải lên một tập tin PDF, xóa trang và lưu thay đổi của bạn. Không cần đăng ký.",
+    "pdf_tools__pdf_extractpages_page__title": "Trích xuất PDF | Trích xuất trang từ Bất kỳ Tài liệu PDF Nào Trực Tuyến",
+    "pdf_tools__pdf_extractpages_page__description": "Trích xuất trang từ một tài liệu PDF trực tuyến miễn phí. Chỉ cần tải tập tin của bạn lên trình trích xuất PDF của chúng tôi, sau đó xuất ra những trang bạn muốn. Dễ dàng như vậy để trích xuất trang PDF."
   },
   "functionality__pdf_to_image": {
     "components__to_image_detail__select_all": "Chọn tất cả",
@@ -1852,5 +1860,29 @@
   "pages__pdf_tools__deletepage_pdf": {
     "confirm_to_delete": "Xác nhận xóa",
     "delete_download": "Xóa và tải xuống PDF"
+  },
+  "pages__pdf_tools__extractpage_pdf": {
+    "select_all": "Chọn tất cả",
+    "separate_pdfs": "Tách PDFs",
+    "confirm_to_extract": "Xác nhận để trích xuất",
+    "extract_download_tooltip": "Trích xuất và tải xuống PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_title": "Bắt đầu Miễn Phí—Ngay Bây Giờ",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_description": "Không cần tải xuống, không cần đăng ký. Chỉ cần kéo PDF của bạn vào ô phía trên và bắt đầu trích xuất trang ngay lập tức.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_title": "Trích Xuất PDF An Toàn Cục Bộ",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_description": "Tất cả các tệp bạn tải lên được xử lý trong trình duyệt của bạn để đảm bảo quyền riêng tư hoàn toàn. Chúng không được tải lên đám mây, đảm bảo an toàn và bảo mật tuyệt đối.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_title": "Yêu PDF Lần Đầu Tiên",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_description": "Chúng tôi đã làm cho việc trích xuất trang PDF trở nên dễ dàng, người khác có thể chán nghe bạn nói 'Tôi yêu PDF.'",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_title": "Làm Việc Với Một hoặc Nhiều PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_description": "Thêm bất kỳ tài liệu nào bạn muốn, sau đó tách ra các trang PDF bạn cần. Kết hợp các trang từ nhiều tài liệu thành một PDF duy nhất một cách nhanh chóng.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_title": "Phần Mềm Trực Tuyến Miễn Phí",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_description": "Đừng tiêu tiền của bạn vào phần mềm cao cấp đắt tiền để trích xuất PDF của bạn. Đối với việc sử dụng hằng ngày giới hạn, Trích Xuất PDF của chúng tôi là miễn phí. Nếu bạn cần sử dụng nó thường xuyên hơn, tất nhiên bạn có thể, với việc sử dụng không giới hạn hoàn toàn miễn phí.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_title": "Xử Lý Cục Bộ",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_description": "Một tính năng quan trọng của dịch vụ của chúng tôi là tất cả các hoạt động trích xuất PDF được thực hiện cục bộ. Điều này đảm bảo rằng toàn bộ quy trình xử lý diễn ra trực tiếp trên thiết bị của bạn mà không cần chờ đợi dựa trên đám mây. Nó tăng cường bảo mật và đảm bảo đáng tin cậy.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_title": "Cách Trích Xuất Trang từ PDF Trực Tuyến Miễn Phí:",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_1": "Nhập hoặc kéo & thả tệp của bạn vào công cụ Trích Xuất Trang PDF của chúng tôi.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_2": "Chọn vào ô cho các trang bạn muốn trích xuất.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "Chuyển sang trích xuất trang dưới dạng một PDF duy nhất hoặc các PDF riêng lẻ.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "Nhấp vào “Xác nhận để trích xuất” và chờ chỉ một giây.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "Tải xuống các trang PDF đã trích xuất của bạn—đó là tất cả!"
   }
 }

@@ -759,7 +759,13 @@
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "Безопасно и просто в вашем браузере",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "Удалите несколько страниц из PDF за один раз",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "Работает в вашем браузере—нет необходимости в программном обеспечении",
-    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Загрузите свой новый файл PDF—вот и все!"
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Загрузите свой новый файл PDF—вот и все!",
+    "tools__index_page__constant_obj__pdf_page_extractpage__title": "Извлечение страниц PDF",
+    "tools__index_page__constant_obj__pdf_page_extractpage__main_description": "Выберите только нужные страницы из PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__top_left": "Извлеките страницы из своего PDF-документа онлайн бесплатно. Никаких загрузок, регистраций или дорогостоящего программного обеспечения. Вам нужен только браузер и интернет-соединение.",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Бесплатно использовать без регистрации",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "Извлеките содержимое PDF за секунды",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Безопасно и просто работает в вашем браузере"
   },
   "prompt_library": {
     "use_prompt_library__title": "Библиотека высококачественных AI подсказок",
@@ -1094,7 +1100,9 @@
     "pdf_tools__pdf_watermark_page__title": "Бесплатный PDF Водяной знак | Водяные знаки PDF на любом устройстве",
     "pdf_tools__pdf_watermark_page__description": "Легко добавьте водяной знак к PDF документам. Не нужно загружать приложение - все работает в вашем браузере на Mac, Windows, Linux и мобильных устройствах.",
     "pdf_tools__pdf_deletepages_page__title": "Удаление страниц PDF | Удалить страницы из PDF онлайн бесплатно",
-    "pdf_tools__pdf_deletepages_page__description": "Хотите удалить страницы из PDF? Вы можете удалить страницы PDF с помощью нашего простого онлайн-инструмента. Просто загрузите PDF, удалите страницы и сохраните изменения. Регистрация не требуется."
+    "pdf_tools__pdf_deletepages_page__description": "Хотите удалить страницы из PDF? Вы можете удалить страницы PDF с помощью нашего простого онлайн-инструмента. Просто загрузите PDF, удалите страницы и сохраните изменения. Регистрация не требуется.",
+    "pdf_tools__pdf_extractpages_page__title": "Извлечение PDF | Извлечение страниц из любого PDF документа онлайн",
+    "pdf_tools__pdf_extractpages_page__description": "Извлеките страницы из PDF онлайн бесплатно. Просто загрузите файл в наш извлекатель PDF, затем экспортируйте нужные страницы. Так легко извлекать страницы PDF."
   },
   "features_landing": {
     "cta_text": "Добавить в браузер",
@@ -1852,5 +1860,29 @@
   "pages__pdf_tools__deletepage_pdf": {
     "confirm_to_delete": "Подтвердите удаление",
     "delete_download": "Удалить и загрузить PDF"
+  },
+  "pages__pdf_tools__extractpage_pdf": {
+    "select_all": "Выбрать все",
+    "separate_pdfs": "Разделить PDF",
+    "confirm_to_extract": "Подтвердите извлечение",
+    "extract_download_tooltip": "Извлечь и загрузить PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_title": "Начните бесплатно—Прямо сейчас",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_description": "Никаких загрузок, никаких регистраций. Просто перетащите ваши PDF-файлы в поле выше и начните извлечение страниц немедленно.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_title": "Безопасное извлечение PDF локально",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_description": "Все загруженные вами файлы обрабатываются в вашем браузере для полной конфиденциальности. Они не загружаются в облако, обеспечивая абсолютную безопасность и конфиденциальность.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_title": "Любовь к PDF впервые",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_description": "Мы сделали извлечение страниц из PDF настолько простым, что люди могут устать от того, что вы постоянно говорите: «Я люблю PDF».",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_title": "Работа с одним или несколькими PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_description": "Добавьте столько документов, сколько хотите, затем выделите нужные вам страницы PDF. Объедините страницы из нескольких документов в один PDF моментально.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_title": "Бесплатное онлайн-программное обеспечение",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_description": "Не тратьте свои заработанные деньги на дорогостоящее премиальное программное обеспечение для извлечения ваших PDF. Для ограниченного ежедневного использования наш Извлекатель PDF бесплатен. Если вам нужно использовать его чаще, конечно, вы можете, с полностью бесплатным неограниченным использованием.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_title": "Локальная обработка",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_description": "Одной из ключевых особенностей нашего сервиса является то, что все операции по извлечению PDF выполняются локально. Это гарантирует, что весь процесс обработки происходит непосредственно на вашем устройстве без необходимости ожидания в облаке. Это повышает безопасность и гарантирует надежность.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_title": "Как извлечь страницы из PDF онлайн бесплатно:",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_1": "Импортируйте или перетащите ваш файл в наше средство для извлечения страниц PDF.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_2": "Установите флажок для страниц, которые вы хотите извлечь.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "Переключитесь на извлечение страниц как одного PDF или отдельных PDF.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "Нажмите «Подтвердить извлечение» и подождите всего лишь секунду.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "Скачайте извлеченные страницы PDF—вот и все!"
   }
 }

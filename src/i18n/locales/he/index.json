@@ -759,7 +759,13 @@
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "פועל בצורה מאובטחת ופשוטה בדפדפן שלך",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "מוחק עמודים מרבים מקובץ PDF בפעם אחת",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "עובד בדפדפן שלך—לא נדרשת תוכנה",
-    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "הורד את קובץ ה־PDF החדש שלך—זהו!"
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "הורד את קובץ ה־PDF החדש שלך—זהו!",
+    "tools__index_page__constant_obj__pdf_page_extractpage__title": "חלץ עמודי PDF",
+    "tools__index_page__constant_obj__pdf_page_extractpage__main_description": "בחר רק את העמודים שאתה צריך מתוך קובץ PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__top_left": "לחלץ עמודים ממסמך ה- PDF שלך באינטרנט בחינם. ללא הורדות, הרשמות או תוכנה יקרה. כל מה שאתה צריך הוא דפדפן וחיבור לאינטרנט.",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "חינם לשימוש ללא הרשמה",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "לחלץ תוכן מ-PDF בשניות",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "פועל בצורה מאובטחת ופשוטה בדפדפן שלך"
   },
   "prompt_library": {
     "use_prompt_library__title": "ספריית פרומפטים מתקדמת",
@@ -1093,7 +1099,9 @@
     "pdf_tools__pdf_watermark_page__title": "Watermarker חינמי ל-PDF | הוסף Watermark ל-PDF בכל מכשיר",
     "pdf_tools__pdf_watermark_page__description": "הוסף בקלות Watermark למסמכי PDF. אין צורך להוריד אפליקציה - הכל עובד בדפדפן שלך ב-Mac, Windows, Linux ובמכשירים ניידים.",
     "pdf_tools__pdf_deletepages_page__title": "מוחק עמודי PDF | מחיקת עמודים מ-PDF מקוון בחינם",
-    "pdf_tools__pdf_deletepages_page__description": "צריך להסיר עמודים מ-PDF? ניתן למחוק עמודים בעזרת הכלי המקוון והפשוט שלנו. פשוט העלה PDF, מחק עמודים, ושמור את השינויים. לא נדרשת הרשמה."
+    "pdf_tools__pdf_deletepages_page__description": "צריך להסיר עמודים מ-PDF? ניתן למחוק עמודים בעזרת הכלי המקוון והפשוט שלנו. פשוט העלה PDF, מחק עמודים, ושמור את השינויים. לא נדרשת הרשמה.",
+    "pdf_tools__pdf_extractpages_page__title": "מחלץ PDF | חלץ עמודים מכל מסמך PDF באינטרנט",
+    "pdf_tools__pdf_extractpages_page__description": "חלץ עמודים מקובץ PDF באינטרנט בחינם. פשוט העלה את הקובץ שלך למחלץ ה-PDF שלנו, ואז ייצא את העמודים שאתה רוצה. כל כך קל לחלץ עמודי PDF."
   },
   "features_landing": {
     "cta_text": "הוסף לדפדפן",
@@ -1851,5 +1859,29 @@
   "pages__pdf_tools__deletepage_pdf": {
     "confirm_to_delete": "אשר למחוק",
     "delete_download": "מחק והורד PDF"
+  },
+  "pages__pdf_tools__extractpage_pdf": {
+    "select_all": "בחר הכל",
+    "separate_pdfs": "הפרד PDFים",
+    "confirm_to_extract": "לאשר את החילוץ",
+    "extract_download_tooltip": "לחלץ ולהוריד את ה- PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_title": "התחל בחינם—כעת",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_description": "ללא הורדות, ללא הרשמות. פשוט גררו את קבצי ה- PDF שלכם לתיבה למעלה, והתחילו את תהליך החילוץ של העמודים שלכם מיידית.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_title": "חילוץ PDF מקומי ובטוח",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_description": "כל הקבצים שתעלו מעובדים בדפדפן שלכם לפרטיות מוחלטת. הם לא מועלים לענן, מבטיחים אבטחה ופרטיות מוחלטות.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_title": "אהבה ל-PDF לראשונה",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_description": "הפכנו את תהליך חילוץ עמודי PDF לקל כך, שאנשים עשויים להתעייפ מלשמוע אותך אומר 'אני אוהב PDF'.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_title": "עבודה עם קובצי PDF אחד או מרובים",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_description": "הוסיפו כמה מסמכים שתרצו, ואז חלצו את עמודי ה-PDF שאתם זקוקים להם. שלבו עמודים ממסמכים מרובים ל-PDF יחיד בקליק.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_title": "תוכנה מקוונת חינמית",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_description": "אל תבזבזו את הכסף שלכם על תוכנה פרימיום יקרה כדי לחלץ את קבצי ה-PDF שלכם. לשימוש יומיומי מוגבל, מחלץ ה-PDF שלנו חינם לשימוש. אם תזדקקו לשימוש תדיר יותר, כמובן שאתם יכולים, עם שימוש בלתי מוגבל לחלוטין ובחינם.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_title": "עיבוד מקומי",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_description": "תכונה מרכזית של שירות שלנו היא שכל פעולות חילוץ ה-PDF מתבצעות מקומית. זה מבטיח שכל התהליך מתרחש ישירות במכשיר שלכם ללא צורך בהמתנות בענן. זה משפר אבטחה ומבטיח אמינות.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_title": "איך לחלץ עמודים מ-PDF מקוון בחינם:",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_1": "ייבאו או גררו את הקובץ שלכם לכלי חילוץ עמודי ה-PDF שלנו.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_2": "סמנו את התיבה לעמודים שתרצו לחלץ.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "החליפו לחילוץ עמודים כ-PDF יחיד או כ-PDFים נפרדים.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "לחצו על 'אישור לחילוץ' וחכו שניה בלבד.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "הורידו את עמודי ה-PDF שחילצתם—זהו!"
   }
 }

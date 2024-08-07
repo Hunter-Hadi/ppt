@@ -202,7 +202,7 @@ const FunctionalityCommonDragSortableList = <T,>({
           variant='custom'
           color='text.secondary'
           sx={{
-            fontSize: 12,
+            fontSize: 16,
           }}
         >
           {t('functionality__common:components__common__drag__dropping_tip')}

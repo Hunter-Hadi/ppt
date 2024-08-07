@@ -759,7 +759,13 @@
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "Kjører sikkert og enkelt i nettleseren din",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "Slett flere sider fra en PDF på en gang",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "Fungerer i nettleseren din - ingen programvare nødvendig",
-    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Last ned den nye PDF-filen din - det er alt!"
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Last ned den nye PDF-filen din - det er alt!",
+    "tools__index_page__constant_obj__pdf_page_extractpage__title": "Hent ut PDF-sider",
+    "tools__index_page__constant_obj__pdf_page_extractpage__main_description": "Velg bare sidene du trenger fra en PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__top_left": "Hent ut sider fra PDF-dokumentet ditt på nettet gratis. Ingen nedlastinger, påmeldinger eller dyre programmer. Alt du trenger er en nettleser og en internettforbindelse.",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Gratis å bruke uten registrering",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "Hent ut PDF-innhold på sekunder",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Kjører sikkert og enkelt i nettleseren din"
   },
   "prompt_library": {
     "use_prompt_library__title": "Høykvalitets AI-promptbibliotek",
@@ -1094,7 +1100,9 @@
     "pdf_tools__pdf_watermark_page__title": "Gratis PDF-vannmerke | Vannmerke PDF-er på hvilken som helst enhet",
     "pdf_tools__pdf_watermark_page__description": "Legg enkelt til et vannmerke på PDF-dokumenter. Ingen behov for å laste ned en app–alt fungerer i nettleseren din på Mac, Windows, Linux og mobile enheter.",
     "pdf_tools__pdf_deletepages_page__title": "PDF Sidefjerner | Slett Sider fra PDF på Nettet Gratis",
-    "pdf_tools__pdf_deletepages_page__description": "Trenger du å fjerne sider fra en PDF? Du kan slette PDF-sider med vårt enkle nettverktøy. Bare last opp en PDF, slett sider, og lagre endringene dine. Ingen påmelding nødvendig."
+    "pdf_tools__pdf_deletepages_page__description": "Trenger du å fjerne sider fra en PDF? Du kan slette PDF-sider med vårt enkle nettverktøy. Bare last opp en PDF, slett sider, og lagre endringene dine. Ingen påmelding nødvendig.",
+    "pdf_tools__pdf_extractpages_page__title": "PDF-ekstraktor | Hent ut sider fra hvilken som helst PDF-dokument online",
+    "pdf_tools__pdf_extractpages_page__description": "Hent ut sider fra en PDF online gratis. Bare last opp filen din til vår PDF-ekstraktor, og eksporter deretter sidene du vil ha. Det er så enkelt å hente ut PDF-sider."
   },
   "features_landing": {
     "cta_text": "Legg til i nettleseren",
@@ -1852,5 +1860,29 @@
   "pages__pdf_tools__deletepage_pdf": {
     "confirm_to_delete": "Bekreft sletting",
     "delete_download": "Slett og last ned PDF"
+  },
+  "pages__pdf_tools__extractpage_pdf": {
+    "select_all": "Velg alle",
+    "separate_pdfs": "Separate PDF-er",
+    "confirm_to_extract": "Bekreft uttrekk",
+    "extract_download_tooltip": "Uttrekk og last ned PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_title": "Start gratis—Akkurat nå",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_description": "Ingen nedlastinger, ingen registreringer. Bare dra PDF-ene dine inn i boksen ovenfor, og start umiddelbart med uttrekking av sider.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_title": "Lokal Sikker PDF-uttrekking",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_description": "Alle filene du laster opp, behandles i nettleseren din for fullstendig personvern. De lastes ikke opp til skyen, noe som sikrer absolutt sikkerhet og personvern.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_title": "Elsk PDF-er for første gang",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_description": "Vi har gjort det så enkelt å trekke ut PDF-sider, at folk kanskje blir lei av å høre deg si 'Jeg elsker PDF.'",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_title": "Arbeid med én eller flere PDF-er",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_description": "Legg til så mange dokumenter du vil, og separer deretter ut PDF-sidene du trenger. Kombiner sider fra flere dokumenter til én enkelt PDF på et øyeblikk.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_title": "Gratis Online Programvare",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_description": "Ikke bruk dine hardt opptjente penger på kostbar premium programvare for å trekke ut PDF-ene dine. For begrenset daglig bruk er vår PDF-uttrekker gratis å bruke. Hvis du trenger å bruke den mer hyppig, kan du selvfølgelig gjøre det, med ubegrenset bruk helt gratis.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_title": "Lokal Prosessering",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_description": "En nøkkelfunksjon ved tjenesten vår er at alle PDF-uttrekkoperasjoner utføres lokalt. Dette sikrer at hele prosesseringsprosedyren skjer direkte på enheten din uten behov for skybaserte ventetider. Det forbedrer sikkerheten og garanterer pålitelighet.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_title": "Hvordan trekke ut sider fra PDF på nettet gratis:",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_1": "Importer eller dra og slipp filen din til vårt Verktøy for Uttrukne PDF-sider.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_2": "Huk av for sidene du vil trekke ut.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "Bytt for å trekke ut sider som én enkelt PDF eller separate PDF-er.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "Klikk 'Bekreft uttrekking' og vent bare et sekund.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "Last ned de uttrukne PDF-sidene dine—det er alt!"
   }
 }

@@ -759,7 +759,13 @@
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "Rulează în siguranță și simplu în browserul tău",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "Șterge mai multe pagini dintr-un PDF odată",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "Funcționează în browserul tău—nu este necesară nicio aplicație",
-    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Descărcați noul dvs. fișier PDF—asta e tot!"
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Descărcați noul dvs. fișier PDF—asta e tot!",
+    "tools__index_page__constant_obj__pdf_page_extractpage__title": "Extrageți paginile PDF",
+    "tools__index_page__constant_obj__pdf_page_extractpage__main_description": "Alegeți doar paginile de care aveți nevoie dintr-un PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__top_left": "Extrageți paginile din documentul dvs. PDF online gratuit. Fără descărcări, înregistrări sau software costisitor. Tot ce aveți nevoie este un browser și o conexiune la internet.",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Gratuit de utilizat fără înregistrare",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "Extrageți conținutul PDF în câteva secunde",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Rulează în mod sigur și simplu în browserul dvs."
   },
   "prompt_library": {
     "use_prompt_library__title": "Bibliotecă de prompt-uri AI de înaltă calitate",
@@ -1094,7 +1100,9 @@
     "pdf_tools__pdf_watermark_page__title": "Filigran PDF gratuit | Adăugați filigrane PDF pe orice dispozitiv",
     "pdf_tools__pdf_watermark_page__description": "Adăugați ușor o filigramă la documentele PDF. Nu este nevoie să descărcați o aplicație - totul funcționează în browserul dvs. pe Mac, Windows, Linux și dispozitive mobile.",
     "pdf_tools__pdf_deletepages_page__title": "Eliminator de pagini PDF | Șterge pagini din PDF online gratuit",
-    "pdf_tools__pdf_deletepages_page__description": "Trebuie să elimini pagini dintr-un PDF? Poți șterge pagini PDF cu instrumentul nostru online simplu. Încarcă doar un PDF, șterge paginile și salvează-ți modificările. Nu este necesară înregistrarea."
+    "pdf_tools__pdf_deletepages_page__description": "Trebuie să elimini pagini dintr-un PDF? Poți șterge pagini PDF cu instrumentul nostru online simplu. Încarcă doar un PDF, șterge paginile și salvează-ți modificările. Nu este necesară înregistrarea.",
+    "pdf_tools__pdf_extractpages_page__title": "Extractor PDF | Extrageți pagini din orice document PDF online",
+    "pdf_tools__pdf_extractpages_page__description": "Extrageți pagini dintr-un PDF online gratuit. Încărcați pur și simplu fișierul dvs. în extractorul nostru PDF, apoi exportați paginile dorite. Este atât de ușor să extrageți pagini PDF."
   },
   "features_landing": {
     "cta_text": "Adaugă în Browser",
@@ -1852,5 +1860,29 @@
   "pages__pdf_tools__deletepage_pdf": {
     "confirm_to_delete": "Confirmă ștergerea",
     "delete_download": "Șterge și descarcă PDF"
+  },
+  "pages__pdf_tools__extractpage_pdf": {
+    "select_all": "Selectați tot",
+    "separate_pdfs": "Separare PDF-uri",
+    "confirm_to_extract": "Confirmați extragerea",
+    "extract_download_tooltip": "Extrageți și descărcați PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_title": "Începeți gratuit chiar acum",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_description": "Fără descărcări, fără înregistrări. Doar plasați fișierele PDF în caseta de mai sus și începeți imediat extragerea paginilor.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_title": "Extragere PDF locală și sigură",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_description": "Toate fișierele pe care le încărcați sunt procesate în browserul dvs. pentru confidențialitate completă. Ele nu sunt încărcate în cloud, asigurând securitate și confidențialitate absolute.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_title": "Iubește PDF-urile pentru prima dată",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_description": "Am făcut atât de ușor să extrageți pagini PDF, încât oamenii s-ar putea să se plictisească să vă audă spunând „Iubesc PDF-ul”.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_title": "Lucrați cu unul sau mai multe PDF-uri",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_description": "Adăugați câte documente doriți, apoi separați paginile PDF de care aveți nevoie. Combinați pagini din mai multe documente într-un singur PDF într-o clipă.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_title": "Software online gratuit",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_description": "Nu cheltuiți banii câștigați cu greu pe software premium costisitor pentru a extrage PDF-urile. Pentru utilizare zilnică limitată, extractorul nostru PDF este gratuit. Dacă aveți nevoie să-l utilizați mai des, desigur că puteți, cu utilizare nelimitată complet gratuită.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_title": "Procesare locală",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_description": "O caracteristică cheie a serviciului nostru este că toate operațiunile de extragere PDF sunt efectuate local. Acest lucru asigură că întregul proces de procesare are loc direct pe dispozitivul dvs. fără a fi nevoie de așteptări bazate pe cloud. Îmbunătățește securitatea și garantează fiabilitatea.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_title": "Cum să extrageți pagini din PDF online gratuit:",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_1": "Importați sau trageți și plasați fișierul în instrumentul nostru de extragere a paginilor PDF.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_2": "Bifați caseta pentru paginile pe care doriți să le extrageți.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "Comutați pentru a extrage paginile ca un singur PDF sau PDF-uri separate.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "Faceți clic pe „Confirmare pentru extragere” și așteptați doar o secundă.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "Descărcați paginile PDF extrase—asta e tot!"
   }
 }

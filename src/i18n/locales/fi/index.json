@@ -759,7 +759,13 @@
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_1": "Toimii turvallisesti ja yksinkertaisesti selaimessasi",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_2": "Poista useita sivuja PDF-tiedostosta kerralla",
     "pdf_tools__detail_description_object__deletepage_pdf__top_right_3": "Toimii selaimessasi—ei tarvita erillistä ohjelmistoa",
-    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Lataa uusi PDF-tiedostosi—siinä kaikki!"
+    "pdf_tools__detail_description_object__deletepage_pages__bottom_right_description_5": "Lataa uusi PDF-tiedostosi—siinä kaikki!",
+    "tools__index_page__constant_obj__pdf_page_extractpage__title": "Poista PDF-sivut",
+    "tools__index_page__constant_obj__pdf_page_extractpage__main_description": "Valitse vain tarvitsemasi sivut PDF-tiedostosta",
+    "pdf_tools__detail_description_object__extractpage_pages__top_left": "Poista sivuja PDF-dokumentistasi verkossa ilmaiseksi. Ei latauksia, rekisteröitymisiä tai kalliita ohjelmistoja. Tarvitset vain selaimen ja internet-yhteyden.",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Käytä ilmaiseksi ilman rekisteröitymistä",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "Poista PDF-sisältöä sekunneissa",
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Toimii turvallisesti ja yksinkertaisesti selaimessasi"
   },
   "prompt_library": {
     "use_prompt_library__title": "Korkealaatuinen AI-prompt-kirjasto",
@@ -1094,7 +1100,9 @@
     "pdf_tools__pdf_watermark_page__title": "Ilmainen PDF-vesileima | Vesileimaa PDF-tiedostoja millä tahansa laitteella",
     "pdf_tools__pdf_watermark_page__description": "Lisää helposti vesileima PDF-tiedostoihin. Ei tarvitse ladata sovellusta–kaikki toimii selaimessasi Macissa, Windowsissa, Linuxissa ja mobiililaitteissa.",
     "pdf_tools__pdf_deletepages_page__title": "PDF-sivujen poistaja | Poista sivuja PDF-tiedostosta ilmaiseksi verkossa",
-    "pdf_tools__pdf_deletepages_page__description": "Tarvitsetko poistaa sivuja PDF-tiedostosta? Voit poistaa PDF-sivuja käyttämällä yksinkertaista verkkotyökaluamme. Lataa PDF-tiedosto, poista sivut ja tallenna muutoksesi. Ei vaadi kirjautumista."
+    "pdf_tools__pdf_deletepages_page__description": "Tarvitsetko poistaa sivuja PDF-tiedostosta? Voit poistaa PDF-sivuja käyttämällä yksinkertaista verkkotyökaluamme. Lataa PDF-tiedosto, poista sivut ja tallenna muutoksesi. Ei vaadi kirjautumista.",
+    "pdf_tools__pdf_extractpages_page__title": "PDF:n Poistaja | Poista Sivuja Mistä Tahansa PDF-tiedostosta Verkossa",
+    "pdf_tools__pdf_extractpages_page__description": "Poista sivuja PDF-tiedostosta ilmaiseksi verkossa. Lataa tiedostosi PDF-poistajaamme, ja vie haluamasi sivut. Näin helppoa on PDF-sivujen poistaminen."
   },
   "features_landing": {
     "cta_text": "Lisää selaimeen",
@@ -1852,5 +1860,29 @@
   "pages__pdf_tools__deletepage_pdf": {
     "confirm_to_delete": "Vahvista poisto",
     "delete_download": "Poista ja lataa PDF"
+  },
+  "pages__pdf_tools__extractpage_pdf": {
+    "select_all": "Valitse kaikki",
+    "separate_pdfs": "Erota PDF-tiedostot",
+    "confirm_to_extract": "Vahvista poiminta",
+    "extract_download_tooltip": "Poimi ja lataa PDF",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_title": "Aloita ilmaiseksi—Juuri nyt",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_1_description": "Ei latauksia, ei rekisteröitymisiä. Pudota vain PDF-tiedostosi yllä olevaan laatikkoon ja aloita sivujen erottaminen välittömästi.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_title": "Paikallinen turvallinen PDF:n erottaminen",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_2_description": "Kaikki lataamasi tiedostot käsitellään selaimessasi täydellisen yksityisyyden varmistamiseksi. Niitä ei lähetetä pilveen, mikä takaa täydellisen turvallisuuden ja yksityisyyden.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_title": "Rakasta PDF-tiedostoja ensimmäistä kertaa",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_3_description": "Olemme tehneet PDF-sivujen erottamisesta niin helppoa, että ihmiset saattavat kyllästyä kuulemaan sinun sanovan 'Rakastan PDF-tiedostoja.'",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_title": "Työskentele yhden tai useamman PDF-tiedoston kanssa",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_4_description": "Lisää niin monta asiakirjaa kuin haluat ja erota sitten tarvitsemasi PDF-sivut. Yhdistä sivuja useista asiakirjoista yhteen PDF-tiedostoon hetkessä.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_title": "Ilmainen verkkosovellus",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_5_description": "Älä tuhlaa ansaitsemiasi rahoja kalliiseen premium-ohjelmistoon PDF-tiedostojen erottamiseen. Rajoitetun päivittäisen käytön osalta PDF-erottimemme on ilmainen. Jos tarvitset sitä useammin, voit tietysti käyttää sitä rajoittamattomasti ja täysin ilmaiseksi.",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_title": "Paikallinen käsittely",
+    "pdf_tools__detail_description_object__extractpage_pages__middle_6_description": "Palvelumme keskeinen ominaisuus on, että kaikki PDF-erottotoiminnot suoritetaan paikallisesti. Tämä varmistaa, että koko käsittelyprosessi tapahtuu suoraan laitteellasi ilman pilvipohjaista odottelua. Se parantaa turvallisuutta ja takaa luotettavuuden.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_title": "Kuinka erottaa sivuja PDF-tiedostosta verkossa ilmaiseksi:",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_1": "Tuo tai raahaa tiedostosi Extract PDF Pages -työkaluumme.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_2": "Valitse ruutu sivuille, jotka haluat erottaa.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "Vaihda sivujen erottaminen yhdeksi PDF-tiedostoksi tai erillisiksi PDF-tiedostoiksi.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "Napsauta 'Vahvista erottaminen' ja odota vain hetki.",
+    "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "Lataa erottamasi PDF-sivut—siinä kaikki!"
   }
 }
