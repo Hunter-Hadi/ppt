@@ -108,9 +108,9 @@ const autoCheckTopIsAbnormal = (
   canvasObject: fabric.Object,
   isAutoObjectSizePosition?: boolean,
 ) => {
-  const zoom = fabricCanvas.current.getZoom() || 1
-  const canvasHeight = fabricCanvas.current.height / zoom
-  const canvasObjectHeight = (canvasObject.height * canvasObject.scaleX) / zoom
+  const zoom = 1 / (fabricCanvas.current.getZoom() || 1)
+  const canvasHeight = fabricCanvas.current.height * zoom
+  const canvasObjectHeight = canvasObject.height * canvasObject.scaleX
   let currentTop = top
   if (isAutoObjectSizePosition) {
     currentTop = currentTop - canvasObjectHeight / 2
@@ -118,7 +118,7 @@ const autoCheckTopIsAbnormal = (
   if (currentTop < 0) {
     return 0
   } else if (currentTop + canvasObjectHeight > canvasHeight) {
-    return fabricCanvas.current.height - canvasObjectHeight
+    return canvasHeight - canvasObjectHeight
   }
   return currentTop
 }

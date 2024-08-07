@@ -1,4 +1,4 @@
-import { getCanvasBounds } from './functionalityCommonCanvasTools'
+import { getCanvasBounds } from './functionalityCommonCanvas'
 
 //得到文字图片，并转换为base64格式
 export const textToBase64Image = (

@@ -1,6 +1,6 @@
 import { Box } from '@mui/material'
 import React, { FC, useCallback, useEffect, useMemo, useRef } from 'react'
-import { useSetRecoilState } from 'recoil'
+import { useRecoilValue, useSetRecoilState } from 'recoil'
 
 import { useFunctionalitySignElementWidth } from '@/features/functionality_sign_pdf/hooks/useFunctionalitySignElementWidth'
 
@@ -11,6 +11,7 @@ import eventEmitter, {
   eventEmitterAddFabricCanvasKey,
   eventEmitterAddFabricIndexCanvas,
 } from '../utils/FabricCanvas/eventEmitter'
+import { getWrapElementCenterRelativeToRollingElement } from '../utils/FabricCanvas/getWrapElementCenterRelativeToRollingElement'
 import FunctionalityCommonOperateFabricCanvas from './FunctionalityCommonOperateCanvas/FunctionalityCommonOperateFabricCanvas/FunctionalityCommonOperateFabricCanvasMain'
 import FunctionalityCommonTextContentPage from './FunctionalityCommonOperateCanvas/FunctionalityCommonTextContentPage/FunctionalityCommonTextContentPageMain'
 import FunctionalityCommonOperateDroppable from './FunctionalityCommonOperateDroppable'
@@ -23,6 +24,8 @@ interface FunctionalityCommonOperatePdfToolViewMainProps {
 const FunctionalityCommonOperatePdfToolViewMain: FC<
   FunctionalityCommonOperatePdfToolViewMainProps
 > = ({ file, isShowBottomOperation, enableEditTypes, currentEditType }) => {
+  const scrollPositionNumber = useRecoilValue(currentScrollOffsetRecoil)
+
   const setScrollPositionNumber = useSetRecoilState(currentScrollOffsetRecoil)
   const initEventEmitter = useRef(false)
   const [currentPage, setCurrentPage] = React.useState(0)
@@ -39,16 +42,35 @@ const FunctionalityCommonOperatePdfToolViewMain: FC<
     useFunctionalitySignElementWidth(wrapRef) //获取父元素的宽度
   useEffect(() => {
     //事件转发
-    if (initEventEmitter.current) return
-    initEventEmitter.current = true
-    const forwardData = (data) => {
-      eventEmitterAddFabricIndexCanvas(currentPage, data)
+    const forwardData = (...args) => {
+      console.log('test args', args)
+      if (args[0]) {
+        const scrollDom = document.querySelector(
+          '.pdf-list-scroll',
+        ) as HTMLElement
+        const wrapElement = document.querySelector(
+          '.pdf-tool-page-view-' + currentPage,
+        ) as HTMLElement
+        if (scrollDom) {
+          //添加用户看到的视图中间
+          const { positionInRollingX, positionInRollingY } =
+            getWrapElementCenterRelativeToRollingElement(
+              scrollDom,
+              wrapElement,
+              scrollPositionNumber,
+            )
+          args[0].x = positionInRollingX
+          args[0].y = positionInRollingY
+        }
+      }
+
+      eventEmitterAddFabricIndexCanvas(currentPage, ...args)
     }
     eventEmitter.on(eventEmitterAddFabricCanvasKey, forwardData)
     return () => {
       eventEmitter.off(eventEmitterAddFabricCanvasKey, forwardData)
     }
-  }, [currentPage])
+  }, [currentPage, scrollPositionNumber])
   const isEnableType = useCallback(
     (type: 'annotator' | 'insert') => definedEnableEditTypes?.includes(type),
     [definedEnableEditTypes],
@@ -85,6 +107,7 @@ const FunctionalityCommonOperatePdfToolViewMain: FC<
         {(props) => {
           return (
             <Box
+              className={'pdf-tool-page-view-' + props.index}
               style={{
                 position: 'relative',
                 width: '100%',

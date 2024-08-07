@@ -11,7 +11,7 @@ import {
 } from 'react'
 import SmoothSignature from 'smooth-signature'
 
-import { getCanvasBounds } from '@/features/functionality_common/utils/functionalityCommonCanvasTools'
+import { getCanvasBounds } from '@/features/functionality_common/utils/functionalityCommonCanvas'
 import { changeImageColor } from '@/features/functionality_common/utils/functionalityCommonColorTools'
 
 import FunctionalityCommonColorButtonPopover from '../FunctionalityCommonColorButtonPopover'

@@ -20,6 +20,7 @@ import {
   fabricInitStyleSet,
   onFabricAddObject,
 } from '../../../utils/FabricCanvas/fabricCanvasNewAdd'
+import { fabricMobileMove } from '../../../utils/FabricCanvas/fabricMobileMove'
 import { handleNewObjectContinuousMouse } from '../../../utils/FabricCanvas/handleNewObjectContinuousMouse'
 import FunctionalitySignPdfShowPdfViewAddToolsPopup from './FunctionalityCommonOperateAddToolsPopup'
 import FunctionalityCommonOperateFabricToolsPopup from './FunctionalityCommonOperateFabricToolsPopup'
@@ -169,6 +170,8 @@ const FunctionalityCommonOperateFabricCanvas: FC<
         fabricCanvas.current = canvas
         canvas.renderAll()
         initEvent(fabricCanvas)
+        if (!isMobile) return //移动端需要的滚动逻辑
+        fabricMobileMove(fabricCanvas.current)
       }
     } catch (e) {
       console.error('simply Init error', e)
