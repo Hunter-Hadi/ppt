@@ -6,9 +6,8 @@ import { FC, useState } from 'react'
 import { useRecoilState } from 'recoil'
 import { v4 as uuidV4 } from 'uuid'
 
-import FunctionalitySignPdfOperationSignatureModal, {
-  ISignatureType,
-} from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonSignaturePopoverView/FunctionalityCommonSignatureModal'
+import { ISignatureType } from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonSignaturePopoverView/FunctionalityCommonSignatureModal'
+import FunctionalityCommonSignatureModal from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonSignaturePopoverView/FunctionalityCommonSignatureModal'
 
 import { FunctionalitySignPdfOperationOBjectAtom } from '../../../store/setOperateFabricCanvas'
 import { IFabricAddObjectType } from '../../../types'
@@ -114,7 +113,7 @@ const FunctionalityCommonOperateAddToolsPopup: FC<
         </Button>
       </ButtonGroup>
       {!!signatureModalOpenType && (
-        <FunctionalitySignPdfOperationSignatureModal
+        <FunctionalityCommonSignatureModal
           onClose={() => setModalSignatureOpenType(null)}
           onCreate={onCreateSignatureValue}
         />

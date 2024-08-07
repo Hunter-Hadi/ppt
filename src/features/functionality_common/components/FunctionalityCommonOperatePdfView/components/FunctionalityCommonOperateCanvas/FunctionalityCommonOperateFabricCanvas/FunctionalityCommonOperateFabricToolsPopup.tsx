@@ -30,7 +30,6 @@ export interface IFFunctionalityCommonOperateFabricToolsPopupProps {
   controlDiv: IControlDiv
   scaleFactor: number
   editor: React.MutableRefObject<any | null>
-  onChangeObject: () => void
 }
 /**
  * PDF的点击的  签名对象变更样式 全局弹窗视图

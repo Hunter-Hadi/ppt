@@ -6,6 +6,7 @@ import React, { FC, useCallback, useEffect, useMemo, useRef } from 'react'
 import { useRecoilState } from 'recoil'
 
 import { useFunctionalityCommonElementSize } from '@/features/functionality_common/hooks/useFunctionalityCommonElementSize'
+import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 
 import { useFunctionalityCommonFabricCanvasEvent } from '../../../hooks/useFunctionalityCommonFabricCanvasEvent'
 import {
@@ -34,7 +35,6 @@ export interface IControlDiv {
 interface IFunctionalityCommonOperateFabricCanvasProps {
   canvasScale: number //width/height 比例 100%填充并且不变形
   maxEnlarge?: number //最大放大，防止之前的放大，会大过canvas的宽高
-  isMobile?: boolean //是否是移动端
   defaultWidth: number
   index: number
   canvasNumber: number
@@ -44,11 +44,12 @@ const FunctionalityCommonOperateFabricCanvas: FC<
 > = ({
   canvasScale,
   maxEnlarge = 1.5,
-  isMobile,
   defaultWidth = 2000,
   index,
   canvasNumber,
 }) => {
+  const isMobile = useFunctionalityCommonIsMobile()
+
   const [fabricCanvasJsonStringList, setFabricCanvasJsonStringList] =
     useRecoilState(fabricCanvasJsonStringListRecoil)
   const [, setFabricCanvasZoomRecoil] = useRecoilState(fabricCanvasZoomRecoil)
@@ -233,14 +234,13 @@ const FunctionalityCommonOperateFabricCanvas: FC<
       >
         <canvas width='500' height='500' ref={fabricCanvasRef} />
       </Box>
-      {controlDiv && activeObject && selectLength === 1 && (
+      {!isMobile && controlDiv && activeObject && selectLength === 1 && (
         <Box onMouseDown={handlePopupClick}>
           <FunctionalityCommonOperateFabricToolsPopup
             key={(activeObject as any).id}
             controlDiv={controlDiv}
             scaleFactor={canvasChangeScale}
             editor={fabricCanvas}
-            onChangeObject={saveCurrentCanvasData}
           />
         </Box>
       )}

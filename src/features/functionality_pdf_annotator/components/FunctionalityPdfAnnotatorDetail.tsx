@@ -1,6 +1,5 @@
 import {
   DndContext,
-  DragOverlay,
   KeyboardSensor,
   MouseSensor,
   TouchSensor,
@@ -197,7 +196,7 @@ const FunctionalityPdfAnnotatorDetail: ForwardRefRenderFunction<
           />
         </Box>
 
-        {activeData && (
+        {/* {activeData && (
           <DragOverlay
             style={{
               display: 'flex',
@@ -205,8 +204,8 @@ const FunctionalityPdfAnnotatorDetail: ForwardRefRenderFunction<
               alignItems: 'center',
               cursor: 'grabbing',
               justifyContent: 'center',
-              width: activeData.width + 8,
-              height: activeData.height + 8,
+              width: 100,
+              height: 50,
             }}
           >
             <Box
@@ -219,7 +218,7 @@ const FunctionalityPdfAnnotatorDetail: ForwardRefRenderFunction<
               }}
             ></Box>
           </DragOverlay>
-        )}
+        )} */}
       </DndContext>
     </Stack>
   )

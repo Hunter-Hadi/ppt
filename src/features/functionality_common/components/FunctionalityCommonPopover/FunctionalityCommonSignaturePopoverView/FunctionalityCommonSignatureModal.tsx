@@ -4,18 +4,18 @@ import React, { FC, useRef, useState } from 'react'
 
 import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 
-import FunctionalitySignPdfOperationSignaturePad, {
+import FunctionalityCommonSignaturePad, {
   IIFunctionalityCommonSignaturePadPropsHandles,
 } from './FunctionalityCommonSignaturePad'
-import FunctionalitySignPdfOperationSignatureType, {
+import FunctionalityCommonSignatureType, {
   IFFunctionalityCommonSignatureTypeHandles,
 } from './FunctionalityCommonSignatureType'
-import FunctionalitySignPdfOperationSignatureUpload, {
+import FunctionalityCommonSignatureUpload, {
   IFunctionalityCommonSignatureUploadHandles,
 } from './FunctionalityCommonSignatureUpload'
 
 export type ISignatureType = 'type' | 'draw' | 'upload'
-interface IFunctionalitySignPdfSignModalProps {
+interface IFunctionalityCommonSignatureModalProps {
   onClose: () => void
   onCreate: (type: ISignatureType, value: string) => void
 }
@@ -23,8 +23,8 @@ interface IFunctionalitySignPdfSignModalProps {
 /**
  * 签名操作弹窗。签名手绘板，输入签名，上传签名
  */
-const FunctionalitySignPdfOperationSignatureModal: FC<
-  IFunctionalitySignPdfSignModalProps
+const FunctionalityCommonSignatureModal: FC<
+  IFunctionalityCommonSignatureModalProps
 > = ({ onClose, onCreate }) => {
   const isMobile = useFunctionalityCommonIsMobile()
 
@@ -144,19 +144,19 @@ const FunctionalitySignPdfOperationSignatureModal: FC<
           }}
         >
           {tabValue === 'draw' && (
-            <FunctionalitySignPdfOperationSignaturePad
+            <FunctionalityCommonSignaturePad
               ref={signaturePadRef}
               bottomView={bottomView}
             />
           )}
           {tabValue === 'type' && (
-            <FunctionalitySignPdfOperationSignatureType
+            <FunctionalityCommonSignatureType
               ref={signatureTypeRef}
               bottomView={bottomView}
             />
           )}
           {tabValue === 'upload' && (
-            <FunctionalitySignPdfOperationSignatureUpload
+            <FunctionalityCommonSignatureUpload
               ref={signatureUploadRef}
               bottomView={bottomView}
             />
@@ -166,4 +166,4 @@ const FunctionalitySignPdfOperationSignatureModal: FC<
     </Modal>
   )
 }
-export default FunctionalitySignPdfOperationSignatureModal
+export default FunctionalityCommonSignatureModal

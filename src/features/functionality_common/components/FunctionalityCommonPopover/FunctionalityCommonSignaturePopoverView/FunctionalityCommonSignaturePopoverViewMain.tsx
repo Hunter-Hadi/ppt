@@ -2,11 +2,10 @@ import { Box, Button, Popover, Stack, Typography } from '@mui/material'
 import { useTranslation } from 'next-i18next'
 import React, { FC, useState } from 'react'
 
-import FunctionalitySignPdfOperationSignatureModal, {
-  ISignatureType,
-} from '@/features/functionality_sign_pdf/components/FunctionalitySignPdfOperationView/FunctionalitySignPdfOperationSignatureModal'
-
 import FunctionalityCommonIcon from '../../FunctionalityCommonIcon'
+import FunctionalityCommonSignatureModal, {
+  ISignatureType,
+} from './FunctionalityCommonSignatureModal'
 interface IFunctionalityCommonSignaturePopoverViewMainProps {
   children?: React.ReactNode
   onAddImg?: (params: { value: string; width: number; height: number }) => void
@@ -145,7 +144,7 @@ const FunctionalityCommonSignaturePopoverViewMain: FC<
         </Box>
       </Popover>
       {signatureModalOpen && (
-        <FunctionalitySignPdfOperationSignatureModal
+        <FunctionalityCommonSignatureModal
           onClose={onCloseOperationSignatureModal}
           onCreate={onCreateSignatureValue}
         />

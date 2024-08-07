@@ -1,5 +1,8 @@
 import dayjs from 'dayjs'
+import { createContext } from 'react'
 import { atom } from 'recoil'
+
+import { IControlDiv } from '../hooks/useFunctionalityCommonFabricCanvasEvent'
 
 export const fabricCanvasJsonStringListRecoil = atom<string[]>({
   key: 'fabricCanvasJsonStringList', // 唯一的标识符
@@ -7,14 +10,14 @@ export const fabricCanvasJsonStringListRecoil = atom<string[]>({
 }) //当前的pdf index  CanvasJson
 
 export const fabricCanvasSignObjectListRecoil = atom<string[]>({
-  key: 'fabricCanvasJsonStringList',
+  key: 'fabricCanvasSignObjectListRecoil',
   default: [],
 }) //当前有多少sign object
 
 export const fabricCanvasZoomRecoil = atom<number>({
   key: 'fabricCanvasZoomRecoil',
   default: 1,
-}) //当前有多少sign object
+})
 
 export const functionalitySignPdfOperationOBjectDefault = {
   // 操作列表功能的储存值
@@ -42,6 +45,19 @@ export const FunctionalitySignPdfOperationOBjectAtom = atom<{
   dateField: string
   checkbox: string
 }>({
-  key: 'FunctionalitySignPdfOperationOBject', // 这个 key 在全局范围内必须是唯一的
+  key: 'FunctionalitySignPdfOperationOBjectAtom', // 这个 key 在全局范围内必须是唯一的
   default: functionalitySignPdfOperationOBjectDefault,
 })
+export interface IFunctionalitySignPdfShowPdfViewObjectToolsPopupProps {
+  controlDiv: IControlDiv
+  scaleFactor: number
+  editor: React.MutableRefObject<any | null>
+}
+
+export const TopDetailSignPdfSelectInfoContext = createContext<{
+  viewObjectToolsData: IFunctionalitySignPdfShowPdfViewObjectToolsPopupProps | null
+  setViewObjectToolsData: (data: any) => void
+}>({
+  viewObjectToolsData: null,
+  setViewObjectToolsData: () => {},
+}) //让外部可以操作里面的数据

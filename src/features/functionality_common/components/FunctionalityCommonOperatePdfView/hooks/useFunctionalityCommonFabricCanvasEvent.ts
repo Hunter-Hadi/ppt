@@ -1,10 +1,16 @@
+/* eslint-disable no-debugger */
 import * as fabric from 'fabric'
 import { cloneDeep, without } from 'lodash-es'
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useCallback, useContext, useEffect, useRef, useState } from 'react'
 import { useRecoilValue, useSetRecoilState } from 'recoil'
 
+import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
+
 import { currentScrollOffsetRecoil } from '../store'
-import { fabricCanvasSignObjectListRecoil } from '../store/setOperateFabricCanvas'
+import {
+  fabricCanvasSignObjectListRecoil,
+  TopDetailSignPdfSelectInfoContext,
+} from '../store/setOperateFabricCanvas'
 import { checkAndMoveToAnotherCanvas } from '../utils/FabricCanvas/checkAndMoveToAnotherCanvas'
 import { constrainWithinCanvas } from '../utils/FabricCanvas/constrainWithinCanvas'
 import { KeyboardOperationEvents } from '../utils/FabricCanvas/KeyboardOperationEvents'
@@ -25,8 +31,17 @@ export const useFunctionalityCommonFabricCanvasEvent = (props: {
   canvasNumber: number
   canvasChangeScale: number
 }) => {
-  const { fabricCanvas, topWrapRef, canvasIndex, canvasNumber } = props
+  const {
+    fabricCanvas,
+    topWrapRef,
+    canvasIndex,
+    canvasNumber,
+    canvasChangeScale,
+  } = props
+  const isMobile = useFunctionalityCommonIsMobile()
+  const TopDetailInfoContext = useContext(TopDetailSignPdfSelectInfoContext)
   const scrollPositionNumber = useRecoilValue(currentScrollOffsetRecoil)
+
   const previousIsSelectionObject = useRef<boolean>(false) //上一次点击是否是选中对象状态
   const [controlAddNewDiv, setControlAddNewDiv] = useState<IControlDiv | null>(
     null,
@@ -40,6 +55,18 @@ export const useFunctionalityCommonFabricCanvasEvent = (props: {
   const setFabricCanvasSignObjectListRecoil = useSetRecoilState(
     fabricCanvasSignObjectListRecoil,
   )
+
+  useEffect(() => {
+    if (isMobile && controlDiv) {
+      TopDetailInfoContext.setViewObjectToolsData({
+        controlDiv: controlDiv,
+        scaleFactor: canvasChangeScale,
+        editor: fabricCanvas,
+      })
+    } else {
+      TopDetailInfoContext.setViewObjectToolsData(null)
+    }
+  }, [controlDiv, isMobile, fabricCanvas])
   const closeOpenAllPopup = useCallback(() => {
     //滚动后取消一些事件
     setControlDiv(null)
@@ -51,18 +78,22 @@ export const useFunctionalityCommonFabricCanvasEvent = (props: {
       previousIsSelectionObject.current = false
     }
     setControlAddNewDiv(null)
-  }, [])
+  }, [fabricCanvas])
   useEffect(() => {
+    console.log('simply handleObjectSelected 3')
     closeOpenAllPopup() //滚动后取消一些事件
-  }, [closeOpenAllPopup, scrollPositionNumber])
+  }, [scrollPositionNumber])
   useEffect(() => {
     KeyboardOperationEvents(fabricCanvas) //键盘事件
   }, [fabricCanvas])
   useEffect(() => {
+    console.log('simply handleObjectSelected 4')
+
     monitorGlobalClickEvents(topWrapRef, closeOpenAllPopup) //全局点击事件
-  }, [closeOpenAllPopup, topWrapRef])
+  }, [topWrapRef])
   const changObjectToList = (object: fabric.Object, type: 'add' | 'del') => {
     if (object.type !== 'image') return //只有图片才算正式签名对象
+    console.log('simply object13', object)
     setFabricCanvasSignObjectListRecoil((prevObjectIdList) => {
       const copyPrevObjectIdList = cloneDeep(prevObjectIdList)
       if (type === 'add') {
@@ -87,6 +118,7 @@ export const useFunctionalityCommonFabricCanvasEvent = (props: {
           windowTop: topWrapRefRect?.y || 0,
         })
       } else {
+        console.log('simply handleObjectSelected 1')
         setControlDiv(null)
       }
     } catch (e) {
@@ -169,7 +201,6 @@ export const useFunctionalityCommonFabricCanvasEvent = (props: {
       const targetObject = e.target
       targetObject.setCoords()
       constrainWithinCanvas(targetObject)
-      console.log('handleObjectSelected 2')
       if (e.target) {
         handleObjectSelected(e.target)
       }

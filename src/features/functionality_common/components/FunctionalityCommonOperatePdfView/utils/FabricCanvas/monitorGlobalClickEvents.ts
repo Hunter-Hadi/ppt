@@ -11,6 +11,8 @@ export const monitorGlobalClickEvents = (
       !event.target.closest('.functionality-sign-pdf-save-view') //不知道为什么，这个点击事件触发两次才有效，所以加了这个
     ) {
       // 点击发生在Box组件外部
+      console.log('simply handleObjectSelected 123')
+
       closeOpenAllPopup()
     }
   }
@@ -20,6 +22,8 @@ export const monitorGlobalClickEvents = (
   const handleScroll = () => {
     //监听窗口滚动，关闭菜单
     //因为做跟随窗口滚动的菜单，功能比较复杂，目前还没有必要
+    console.log('simply handleObjectSelected 1234123')
+
     closeOpenAllPopup()
   }
   window.addEventListener('scroll', handleScroll)

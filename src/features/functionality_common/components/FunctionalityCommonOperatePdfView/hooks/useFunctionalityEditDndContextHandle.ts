@@ -1,20 +1,30 @@
+/* eslint-disable no-debugger */
 import { DragEndEvent, DragStartEvent } from '@dnd-kit/core'
 import { useState } from 'react'
 import { v4 as uuidV4 } from 'uuid'
 
+import { IFabricAddObjectType } from '../types'
 import { eventEmitterAddFabricIndexCanvas } from '../utils/FabricCanvas/eventEmitter'
 
+export interface IActiveDragData {
+  dragType: 'start' | 'end'
+  id: string
+  type: IFabricAddObjectType
+  value: string
+  x?: number
+  y?: number
+  dragValue?: any
+}
 const useFunctionalityEditDndContextHandle = (props: {
   onStart?: (event: DragStartEvent) => void
   onEnd?: (event: DragEndEvent) => void
 }) => {
-  const [activeData, setActiveData] = useState<{
-    width: number
-    height: number
-  } | null>(null)
-  const onDragStart = (event: DragStartEvent) => {
+  const [activeData, setActiveDragData] = useState<IActiveDragData | undefined>(
+    undefined,
+  )
+  const onDragStart = (event: any) => {
     console.log('onDragStart', event)
-    setActiveData({ width: 100, height: 50 })
+    setActiveDragData({ dragType: 'start', ...event.active.data.current })
   }
 
   const findScrollViewPostion = (event) => {
@@ -26,8 +36,6 @@ const useFunctionalityEditDndContextHandle = (props: {
     )
     const droppableElement = document.getElementById(active.id as string)
     const activeRect = droppableElement?.getBoundingClientRect()
-    over.rect.width = 100
-    over.rect.height = 50
     const pdfIndex = over.data.current.pdfIndex
     const signaturePositionData = {
       width: over.rect.width,
@@ -51,14 +59,37 @@ const useFunctionalityEditDndContextHandle = (props: {
         delta.y -
         (rollingView?.scrollTop || 0), //拖动的元素的顶部距离-目标元素的顶部距离+鼠标移动的距离+滚动的距离
     } //得到scroll中的位置
-    eventEmitterAddFabricIndexCanvas(pdfIndex, {
-      ...signaturePositionData,
-      ...newSignaturePosition,
-    })
+    if (active.data.current?.value) {
+      eventEmitterAddFabricIndexCanvas(pdfIndex, {
+        ...signaturePositionData,
+        ...newSignaturePosition,
+      })
+    }
+
+    if (activeData?.dragType === 'start' && !activeData.value) {
+      setActiveDragData({
+        dragType: 'end',
+        ...newSignaturePosition,
+        id: uuidV4(),
+        ...(active.data.current as {
+          type: IFabricAddObjectType
+          value: string
+        }),
+        dragValue: {
+          index: pdfIndex,
+          data: {
+            ...signaturePositionData,
+            ...newSignaturePosition,
+          },
+        },
+      })
+    } else {
+      setActiveDragData(undefined)
+    }
   }
   const onDragEnd = (event: DragEndEvent) => {
     console.log('onDragEnd', event)
-    setActiveData(null)
+    setActiveDragData(undefined)
     props?.onEnd && props.onEnd(event)
     const moveData = event.active.data.current
     findScrollViewPostion(event)
