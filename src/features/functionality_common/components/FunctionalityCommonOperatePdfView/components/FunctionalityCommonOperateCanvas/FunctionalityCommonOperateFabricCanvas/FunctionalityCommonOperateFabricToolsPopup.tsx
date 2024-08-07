@@ -12,9 +12,9 @@ import { cloneDeep } from 'lodash-es'
 import React from 'react'
 import { FC, useEffect, useMemo, useState } from 'react'
 
-import FunctionalitySignPdfCommonButtonPopover from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonButtonPopover'
-import FunctionalitySignPdfColorButtonPopover from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonColorButtonPopover'
-import FunctionalitySignPdfFontsButtonPopover from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonFontsButtonPopover'
+import FunctionalityCommonButtonPopover from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonButtonPopover'
+import FunctionalityCommonColorButtonPopover from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonColorButtonPopover'
+import FunctionalityCommonFontsButtonPopover from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonFontsButtonPopover'
 import { SIGN_TEXT_FONT_FAMILY_LIST } from '@/features/functionality_common/constants'
 import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 import {
@@ -202,7 +202,7 @@ const FunctionalityCommonOperateFabricToolsPopup: FC<
         }}
       >
         {isEditingText && (
-          <FunctionalitySignPdfFontsButtonPopover
+          <FunctionalityCommonFontsButtonPopover
             currentFont={activeObject?.fontFamily}
             isShowFontsName={true}
             title={
@@ -263,7 +263,7 @@ const FunctionalityCommonOperateFabricToolsPopup: FC<
         {isText && (
           <Button>
             {/* 这个是文字的风格按钮 */}
-            <FunctionalitySignPdfCommonButtonPopover
+            <FunctionalityCommonButtonPopover
               popoverView={
                 <Stack direction='row' gap={1}>
                   {fontStyleList.map((item) => (
@@ -301,9 +301,9 @@ const FunctionalityCommonOperateFabricToolsPopup: FC<
               >
                 B
               </Typography>
-            </FunctionalitySignPdfCommonButtonPopover>
+            </FunctionalityCommonButtonPopover>
             {/* 下面的是文字位置的按钮 */}
-            <FunctionalitySignPdfCommonButtonPopover
+            <FunctionalityCommonButtonPopover
               isShowRightIcon={false}
               popoverView={
                 <Stack direction='row' gap={1}>
@@ -338,11 +338,11 @@ const FunctionalityCommonOperateFabricToolsPopup: FC<
               }
             >
               <FunctionalityCommonOperateIcon name={textAlignSelectIcon} />
-            </FunctionalitySignPdfCommonButtonPopover>
+            </FunctionalityCommonButtonPopover>
           </Button>
         )}
         <Button>
-          <FunctionalitySignPdfColorButtonPopover
+          <FunctionalityCommonColorButtonPopover
             titleText={isText ? 'A' : ''}
             isShowRightIcon={false}
             buttonProps={{
@@ -356,7 +356,7 @@ const FunctionalityCommonOperateFabricToolsPopup: FC<
             currentColor={isImage ? activeObject.imgColor : activeObject.fill}
           />
           {isText && (
-            <FunctionalitySignPdfColorButtonPopover
+            <FunctionalityCommonColorButtonPopover
               isShowRightIcon={false}
               colorList={[
                 'transparent',

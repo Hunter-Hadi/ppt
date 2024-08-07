@@ -20,7 +20,7 @@ import { useRecoilState } from 'recoil'
 import useFunctionalityCommonIsMobile from '../../hooks/useFunctionalityCommonIsMobile'
 import { userAddColorListRecoil } from '../../store/colorList'
 import FunctionalityCommonIcon from './FunctionalitySignPdfIcon'
-interface IFunctionalitySignPdfColorButtonPopoverProps {
+interface IFunctionalityCommonColorButtonPopoverProps {
   colorList?: string[]
   onSelectedColor: (color: string) => void
   currentColor?: string
@@ -36,8 +36,8 @@ interface IFunctionalitySignPdfColorButtonPopoverProps {
 /**
  * 签名颜色选择按钮
  */
-const FunctionalitySignPdfColorButtonPopover: FC<
-  IFunctionalitySignPdfColorButtonPopoverProps
+const FunctionalityCommonColorButtonPopover: FC<
+  IFunctionalityCommonColorButtonPopoverProps
 > = ({
   colorList,
   onSelectedColor,
@@ -441,4 +441,4 @@ const FunctionalitySignPdfColorButtonPopover: FC<
     </Button>
   )
 }
-export default FunctionalitySignPdfColorButtonPopover
+export default FunctionalityCommonColorButtonPopover

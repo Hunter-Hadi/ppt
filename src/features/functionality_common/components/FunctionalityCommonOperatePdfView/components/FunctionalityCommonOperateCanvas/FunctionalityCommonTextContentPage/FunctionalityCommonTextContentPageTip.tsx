@@ -2,7 +2,7 @@ import { Box, Button, ButtonGroup, Stack } from '@mui/material'
 import React, { FC, useMemo, useRef } from 'react'
 import { useRecoilState } from 'recoil'
 
-import FunctionalitySignPdfColorButtonPopover from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonColorButtonPopover'
+import FunctionalityCommonColorButtonPopover from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonColorButtonPopover'
 import { useFunctionalityCommonElementSize } from '@/features/functionality_common/hooks/useFunctionalityCommonElementSize'
 import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 
@@ -129,7 +129,7 @@ const FunctionalityCommonTextContentPageTip: FC<
             }}
           >
             {toolsList.map((tool) => (
-              <FunctionalitySignPdfColorButtonPopover
+              <FunctionalityCommonColorButtonPopover
                 key={tool.key}
                 isShowRightIcon={false}
                 isClickClose={true}
@@ -204,7 +204,7 @@ const FunctionalityCommonTextContentPageTip: FC<
                     </Stack>
                   </ButtonGroup>
                 )}
-              </FunctionalitySignPdfColorButtonPopover>
+              </FunctionalityCommonColorButtonPopover>
             ))}
           </ButtonGroup>
         </Box>

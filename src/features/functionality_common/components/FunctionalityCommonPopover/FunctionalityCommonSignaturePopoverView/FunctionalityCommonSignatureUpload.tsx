@@ -12,7 +12,7 @@ import FunctionalityCommonUploadButton from '@/features/functionality_common/com
 import { changeImageColor } from '@/features/functionality_common/utils/functionalityCommonColorTools'
 import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool'
 
-import FunctionalitySignPdfColorButtonPopover from '../FunctionalityCommonColorButtonPopover'
+import FunctionalityCommonColorButtonPopover from '../FunctionalityCommonColorButtonPopover'
 
 // 定义通过ref暴露的方法的接口
 export interface IFunctionalityCommonSignatureUploadHandles {
@@ -169,7 +169,7 @@ const FunctionalityCommonSignatureUpload: ForwardRefRenderFunction<
   return (
     <Box>
       <Stack direction='row' mb={1} gap={1}>
-        <FunctionalitySignPdfColorButtonPopover
+        <FunctionalityCommonColorButtonPopover
           onSelectedColor={onSelectedColor}
         />
       </Stack>

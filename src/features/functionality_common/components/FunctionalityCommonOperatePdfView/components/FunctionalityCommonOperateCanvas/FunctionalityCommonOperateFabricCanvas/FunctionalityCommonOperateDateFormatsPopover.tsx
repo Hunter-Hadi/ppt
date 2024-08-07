@@ -3,7 +3,7 @@ import dayjs from 'dayjs'
 import React, { ReactNode } from 'react'
 import { FC, useEffect, useState } from 'react'
 
-import FunctionalitySignPdfCommonButtonPopover from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonButtonPopover'
+import FunctionalityCommonButtonPopover from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonButtonPopover'
 
 interface IFunctionalityCommonOperateDateFormatsPopoverProps {
   value: string
@@ -51,7 +51,7 @@ const FunctionalityCommonOperateDateFormatsPopover: FC<
     setCurrentFormat(format)
   }
   return (
-    <FunctionalitySignPdfCommonButtonPopover
+    <FunctionalityCommonButtonPopover
       buttonProps={{
         variant: 'text',
       }}
@@ -90,7 +90,7 @@ const FunctionalityCommonOperateDateFormatsPopover: FC<
       >
         {title || currentFormat}
       </Typography>
-    </FunctionalitySignPdfCommonButtonPopover>
+    </FunctionalityCommonButtonPopover>
   )
 }
 export default FunctionalityCommonOperateDateFormatsPopover

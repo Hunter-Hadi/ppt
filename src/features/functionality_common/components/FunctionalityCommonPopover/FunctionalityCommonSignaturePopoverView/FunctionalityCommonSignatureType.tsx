@@ -11,8 +11,8 @@ import {
 
 import { textToBase64Image } from '@/features/functionality_common/utils/functionalityCommonToBase64'
 
-import FunctionalitySignPdfColorButtonPopover from '../FunctionalityCommonColorButtonPopover'
-import FunctionalitySignPdfFontsButtonPopover from '../FunctionalityCommonFontsButtonPopover'
+import FunctionalityCommonColorButtonPopover from '../FunctionalityCommonColorButtonPopover'
+import FunctionalityCommonFontsButtonPopover from '../FunctionalityCommonFontsButtonPopover'
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon'
 // 定义通过ref暴露的方法的接口
 export interface IFFunctionalityCommonSignatureTypeHandles {
@@ -52,10 +52,10 @@ const FunctionalityCommonSignatureType: ForwardRefRenderFunction<
   return (
     <Box>
       <Stack direction='row' mb={1} gap={1}>
-        <FunctionalitySignPdfColorButtonPopover
+        <FunctionalityCommonColorButtonPopover
           onSelectedColor={onSelectedColor}
         />
-        <FunctionalitySignPdfFontsButtonPopover
+        <FunctionalityCommonFontsButtonPopover
           title={t(
             'functionality__sign_pdf:components__sign_pdf__button_popover__change_style',
           )}

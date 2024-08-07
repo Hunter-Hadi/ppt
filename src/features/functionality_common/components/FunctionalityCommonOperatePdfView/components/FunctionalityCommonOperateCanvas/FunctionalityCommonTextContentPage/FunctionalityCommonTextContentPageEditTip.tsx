@@ -1,7 +1,7 @@
 import { Box, Button, ButtonGroup } from '@mui/material'
 import React, { FC, useMemo, useRef } from 'react'
 
-import FunctionalitySignPdfColorButtonPopover from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonColorButtonPopover'
+import FunctionalityCommonColorButtonPopover from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonColorButtonPopover'
 import { useFunctionalityCommonElementSize } from '@/features/functionality_common/hooks/useFunctionalityCommonElementSize'
 import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 
@@ -90,7 +90,7 @@ const FunctionalityCommonTextContentPageEditTip: FC<
                 height: isMobile ? 60 : 40,
               }}
             >
-              <FunctionalitySignPdfColorButtonPopover
+              <FunctionalityCommonColorButtonPopover
                 isShowRightIcon={false}
                 isClickClose={true}
                 currentColor={annotationInfo.color}
@@ -113,7 +113,7 @@ const FunctionalityCommonTextContentPageEditTip: FC<
                   onChangeHighlight(annotationInfo.type, val)
                 }
                 showColorPicker={true}
-              ></FunctionalitySignPdfColorButtonPopover>
+              ></FunctionalityCommonColorButtonPopover>
               <Button onClick={() => deleteSelected()} size='small'>
                 <FunctionalityCommonOperateIcon name='DeleteForeverOutlined' />
               </Button>
