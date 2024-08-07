@@ -156,7 +156,7 @@ export const onFabricAddObject = async (
           // 将图片绘制到画布上
           const imgColor = findFirstNonTransparentPixel(image)
           const zoom = fabricCanvas.current?.getZoom() || 1
-          const proportion = 1 / (fabricCanvas.current?.getZoom() || 1)
+          const proportion = 1 / zoom
           const fabricImage = new fabric.Image(image, positionData)
 
           let scaleRatioWidth = 1
@@ -193,7 +193,8 @@ export const onFabricAddObject = async (
             // 调整位置到鼠标中心，同时应用缩放比例
             fabricImage.left =
               positionData.left - fabricImage.getScaledWidth() / 2
-            fabricImage.top = positionData.top
+            fabricImage.top =
+              fabricImage.top - fabricImage.getScaledHeight() / 2
           } else {
             // 如果不需要缩放, 则只调整位置到鼠标中心
             fabricImage.left = positionData.left - fabricImage.width / 2

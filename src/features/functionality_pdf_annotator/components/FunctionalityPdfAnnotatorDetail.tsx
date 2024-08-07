@@ -132,6 +132,14 @@ const FunctionalityPdfAnnotatorDetail: ForwardRefRenderFunction<
     await new Promise((resolve) => setTimeout(resolve, 1000)) //等待canvas数据更新
     onSavePDF()
   }
+  const onClearData = () => {
+    setTimeout(() => {
+      setTextAnnotatorList([])
+      setFabricCanvasJsonStringList([])
+      setFabricCanvasSignObjectList([])
+    }, 500)
+    onClearFile()
+  }
   const saveButtonDom = useMemo(
     () => (
       <Stack
@@ -165,14 +173,7 @@ const FunctionalityPdfAnnotatorDetail: ForwardRefRenderFunction<
           color='error'
           variant='outlined'
           size='large'
-          onClick={() => {
-            setTimeout(() => {
-              setTextAnnotatorList([])
-              setFabricCanvasJsonStringList([])
-              setFabricCanvasSignObjectList([])
-            }, 500) //清空画布,暂时这样处理，不然清理不掉
-            onClearFile()
-          }}
+          onClick={onClearData}
           disabled={downLoadLoading}
         >
           {isMobile

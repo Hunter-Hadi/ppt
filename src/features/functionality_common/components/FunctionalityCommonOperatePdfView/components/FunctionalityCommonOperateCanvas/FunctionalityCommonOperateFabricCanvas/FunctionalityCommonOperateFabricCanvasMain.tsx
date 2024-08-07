@@ -71,7 +71,7 @@ const FunctionalityCommonOperateFabricCanvas: FC<
     const scale = currentCanvasSize.width / width
     return scale
   }, [currentCanvasSize.width, defaultWidth])
-  // 添加签名对象
+
   const saveCurrentCanvasData = useCallback(
     debounce(() => {
       try {
@@ -120,7 +120,7 @@ const FunctionalityCommonOperateFabricCanvas: FC<
           isAutoObjectDragPosition,
           topWrapRef,
           isMobile,
-        )
+        ) //这里是新增对象并且鼠标可以连续点击的逻辑
         if (canvasObject && fabricCanvas.current) {
           setControlAddNewDiv(null)
           await onFabricAddObject(
