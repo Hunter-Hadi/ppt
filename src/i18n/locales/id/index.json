@@ -1338,7 +1338,8 @@
     "components__common__upload_button_tips": "atau letakkan file di sini",
     "components__common__upload_button_title": "PILIH FILE",
     "components__common__upload_button__unsupported_file_type_tip": "Silakan unggah jenis file PDF yang ditentukan",
-    "components__common__select_other_file": "Pilih file lain"
+    "components__common__select_other_file": "Pilih file lain",
+    "components__common__button__download": "Unduh"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Hanya gambar dengan jenis gambar yang dapat diunggah",
@@ -1884,5 +1885,38 @@
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "Alihkan untuk mengekstrak halaman sebagai satu PDF atau PDF terpisah.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "Klik “Konfirmasi untuk mengekstrak” dan tunggu sebentar.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "Unduh halaman PDF yang diekstrak Anda—itu saja!"
+  },
+  "pages__pdf_tools__pdf_annotator": {
+    "title": "Annotasi PDF",
+    "description": "Annotasi file PDF Anda dengan mudah secara gratis dengan menulis atau menggambar langsung di atasnya.",
+    "seo_title": "Annotasi PDF Gratis - Tulis dan Gambar Secara Online di File PDF | MaxAI.me",
+    "seo_description": "Gunakan annotasi PDF online gratis kami untuk menulis atau menggambar di file PDF Anda. Tidak perlu unduhan, tanda air, atau pendaftaran. Akses dan edit dokumen Anda dengan mudah.",
+    "detail_description_object__pdf_annotator__top_left": "Annotasi PDF gratis kami memungkinkan Anda untuk dengan mudah menulis, menggambar, dan menyorot langsung di dokumen PDF Anda. Nikmati pengalaman tanpa batasan.",
+    "detail_description_object__pdf_annotator__top_right_1": "Annotasi cepat file PDF Anda hanya dalam beberapa klik.",
+    "detail_description_object__pdf_annotator__top_right_2": "Cukup unggah file PDF Anda untuk mulai melakukan annotasi.",
+    "detail_description_object__pdf_annotator__top_right_3": "Berfungsi sempurna di perangkat Mac, Windows, Android, dan iOS.",
+    "detail_description_object__pdf_annotator__middle_1_title": "Annotasi PDF Online yang Ramah Pengguna",
+    "detail_description_object__pdf_annotator__middle_1_description": "Dengan annotasi PDF intuitif kami, Anda dapat menulis atau menggambar di file PDF Anda dengan mudah. Unggah dokumen Anda, mulai melakukan annotasi, dan unduh PDF yang diedit dalam hitungan menit, semua tanpa perlu membuat akun.",
+    "detail_description_object__pdf_annotator__middle_2_title": "Anotasi Aman dan Pribadi",
+    "detail_description_object__pdf_annotator__middle_2_description": "Semua annotasi Anda diproses langsung di browser Anda, memastikan dokumen Anda tetap pribadi dan aman. Tidak ada data yang dikirim ke cloud, melindungi informasi sensitif Anda.",
+    "detail_description_object__pdf_annotator__middle_3_title": "Kompatibilitas Antar Perangkat",
+    "detail_description_object__pdf_annotator__middle_3_description": "Annotasi PDF online kami dapat diakses dari setiap perangkat dengan browser web, termasuk desktop, laptop, dan perangkat mobile. Annotasi file PDF Anda kapan saja, di mana saja.",
+    "detail_description_object__pdf_annotator__middle_4_title": "Proses Anotasi Sederhana",
+    "detail_description_object__pdf_annotator__middle_4_description": "Annotasi file PDF Anda mudah: unggah file Anda, gunakan alat bawaan untuk menulis atau menggambar, lalu unduh versi yang diedit. Bahkan pemula sekalipun dapat menavigasi proses ini dengan mudah.",
+    "detail_description_object__pdf_annotator__middle_5_title": "Tanpa Biaya, Tanpa Komplikasi",
+    "detail_description_object__pdf_annotator__middle_5_description": "Tidak perlu membeli perangkat lunak mahal untuk melakukan annotasi pada PDF Anda. Anotasi PDF gratis kami tersedia online tanpa biaya tersembunyi, unduhan, atau registrasi yang diperlukan, memastikan pengalaman tanpa masalah.",
+    "detail_description_object__pdf_annotator__middle_6_title": "Pemrosesan Cepat dan Efisien",
+    "detail_description_object__pdf_annotator__middle_6_description": "Layanan annotasi PDF kami dirancang untuk kecepatan. Proses dan perbaiki dokumen Anda dengan cepat dengan alat efisien kami yang meningkatkan alur kerja Anda.",
+    "detail_description_object__pdf_annotator__bottom_right_title": "Cara Annotasi File PDF Secara Online:",
+    "detail_description_object__pdf_annotator__bottom_right_description_1": "Unggah file PDF yang ingin Anda annotasi.",
+    "detail_description_object__pdf_annotator__bottom_right_description_2": "Gunakan alat annotasi untuk menulis, menggambar, atau menyorot di dokumen.",
+    "detail_description_object__pdf_annotator__bottom_right_description_3": "Klik 'Unduh' untuk menyimpan file PDF yang telah diannotasi.",
+    "detail_description_object__pdf_annotator__bottom_right_description_4": "Akses file PDF yang telah diannotasi pada setiap perangkat dan bagikan dengan mudah."
+  },
+  "functionality__pdf_annotator": {
+    "components__pdf_annotator__insert_tools__text_annotator": "Anotasi Teks",
+    "components__pdf_annotator__insert_tools__insert_text": "sisipkan teks",
+    "components__pdf_annotator__insert_tools__insert_image": "sisipkan gambar",
+    "components__pdf_annotator__insert_tools__insert_signature": "Sisipkan Tanda Tangan"
   }
 }

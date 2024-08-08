@@ -1338,7 +1338,8 @@
     "components__common__upload_button_tips": "nebo sem přetáhněte soubory",
     "components__common__upload_button_title": "VYBRAT SOUBORY",
     "components__common__upload_button__unsupported_file_type_tip": "Nahrajte prosím určený typ souboru PDF",
-    "components__common__select_other_file": "Vyberte jiný soubor"
+    "components__common__select_other_file": "Vyberte jiný soubor",
+    "components__common__button__download": "Stáhnout"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Lze nahrát pouze obrázky typu obrázek",
@@ -1884,5 +1885,38 @@
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "Přepněte na extrakci stránek jako jednoho PDF nebo oddělených PDF.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "Klikněte na „Potvrdit extrakci“ a počkejte jen chvilku.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "Stáhněte si své extrahované stránky PDF—a je to!"
+  },
+  "pages__pdf_tools__pdf_annotator": {
+    "title": "PDF Anotátor",
+    "description": "Snadno anotujte své PDF soubory zdarma tím, že na ně přímo píšete nebo kreslíte.",
+    "seo_title": "Bezplatný PDF Anotátor - Pište a Kreslete Online do PDF Souborů | MaxAI.me",
+    "seo_description": "Použijte náš bezplatný online PDF anotátor k psaní nebo kreslení do svých PDF souborů. Žádné stažení, vodoznaky ani registrace nejsou potřebné. Přístup a úprava dokumentů bez námahy.",
+    "detail_description_object__pdf_annotator__top_left": "Náš bezplatný PDF anotátor vám umožňuje snadno psát, kreslit a zvýrazňovat přímo ve vašich PDF dokumentech. Užijte si bezproblémový zážitek bez omezení.",
+    "detail_description_object__pdf_annotator__top_right_1": "Rychle anotujte své PDF soubory jen pár kliknutími.",
+    "detail_description_object__pdf_annotator__top_right_2": "Jednoduše nahrajte váš PDF soubor pro začátek anotace.",
+    "detail_description_object__pdf_annotator__top_right_3": "Perfektně funguje na zařízeních Mac, Windows, Android a iOS.",
+    "detail_description_object__pdf_annotator__middle_1_title": "Uživatelsky Přívětivý Online PDF Anotátor",
+    "detail_description_object__pdf_annotator__middle_1_description": "S naším intuitivním PDF anotátorem můžete snadno psát nebo kreslit do svých PDF souborů. Nahrajte váš dokument, začněte anotovat a stáhněte upravený PDF během několika minut, vše bez nutnosti vytvářet účet.",
+    "detail_description_object__pdf_annotator__middle_2_title": "Bezpečné a Soukromé Anotace",
+    "detail_description_object__pdf_annotator__middle_2_description": "Všechny vaše anotace jsou zpracovány přímo ve vašem prohlížeči, zajistíme tak, že vaše dokumenty zůstanou soukromé a bezpečné. Žádná data nejsou odesílána do cloudu, chráníme tak vaše citlivé informace.",
+    "detail_description_object__pdf_annotator__middle_3_title": "Kompatibilita s Různými Zařízeními",
+    "detail_description_object__pdf_annotator__middle_3_description": "Náš online PDF anotátor je přístupný z jakéhokoli zařízení s webovým prohlížečem, včetně stolních počítačů, notebooků a mobilních zařízení. Anotujte své PDF soubory kdykoli a kdekoli.",
+    "detail_description_object__pdf_annotator__middle_4_title": "Jednoduchý Proces Anotace",
+    "detail_description_object__pdf_annotator__middle_4_description": "Anotace vašich PDF souborů je přímá: nahrajte váš soubor, použijte vestavěné nástroje k psaní nebo kreslení a poté stáhněte upravenou verzi. I úplní začátečníci se mohou v tomto procesu snadno orientovat.",
+    "detail_description_object__pdf_annotator__middle_5_title": "Bez Nákladů, Bez Komplikací",
+    "detail_description_object__pdf_annotator__middle_5_description": "Není třeba kupovat drahý software pro anotaci vašich PDF. Náš bezplatný PDF anotátor je dostupný online bez skrytých nákladů, stažení nebo registrace, což zajišťuje bezproblémový zážitek.",
+    "detail_description_object__pdf_annotator__middle_6_title": "Rychlé a Efektivní Zpracování",
+    "detail_description_object__pdf_annotator__middle_6_description": "Naše služba pro anotaci PDF je navržena pro rychlost. Zpracujte a upravte své dokumenty rychle s našimi efektivními nástroji, které zlepšují váš pracovní postup.",
+    "detail_description_object__pdf_annotator__bottom_right_title": "Jak Anotovat PDF Soubory Online:",
+    "detail_description_object__pdf_annotator__bottom_right_description_1": "Nahrajte PDF soubor, který chcete anotovat.",
+    "detail_description_object__pdf_annotator__bottom_right_description_2": "Použijte anotační nástroje k psaní, kreslení nebo zvýraznění dokumentu.",
+    "detail_description_object__pdf_annotator__bottom_right_description_3": "Klikněte na 'Stáhnout' pro uložení vašeho anotovaného PDF souboru.",
+    "detail_description_object__pdf_annotator__bottom_right_description_4": "Přistupujte k vašemu anotovanému PDF na jakémkoli zařízení a snadno ho sdílejte."
+  },
+  "functionality__pdf_annotator": {
+    "components__pdf_annotator__insert_tools__text_annotator": "Textová Anotace",
+    "components__pdf_annotator__insert_tools__insert_text": "vložit text",
+    "components__pdf_annotator__insert_tools__insert_image": "vložit obrázek",
+    "components__pdf_annotator__insert_tools__insert_signature": "Vložit Podpis"
   }
 }

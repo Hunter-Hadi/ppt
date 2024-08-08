@@ -20,13 +20,19 @@ import AppLoadingLayout from '@/features/common/components/AppLoadingLayout'
 import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 
 import { FunctionalityCommonElementSize } from '../hooks/FunctionalityCommonElementSize'
-import useChatPdfContainerGetInfo from '../hooks/usePdfViewContainerGetInfo'
+import useChatPdfContainerGetInfo, {
+  IChatPdfContainerPdfInfo,
+} from '../hooks/usePdfViewContainerGetInfo'
 import useChatPdfListZoom from '../hooks/usePdfViewListZoom'
 import useChatPdfScrollPagination from '../hooks/usePdfViewScrollPagination'
 import FunctionalityCommonPdfViewVirtualScrollIcon from './FunctionalityCommonPdfViewVirtualScrollIcon'
 export interface IFunctionalityCommonVirtualScrollingMainHandles {
   scrollListRef: any
 }
+export type IFunctionalityCommonVirtualScrollingPdfInfo = {
+  viewScale: number
+  pdfViewScale: number //暂时废弃，并不准确后需优化
+} & IChatPdfContainerPdfInfo
 interface IFunctionalityCommonVirtualScrollingMainProps {
   file: File
   viewWidth: number //视图宽度
@@ -45,14 +51,11 @@ interface IFunctionalityCommonVirtualScrollingMainProps {
     currentScrollOffset: number
   }) => void //pdf视图信息
   children: (props: {
-    pdfInfo: {
-      viewScale: number
-      width: number
-      height: number
-    }
+    pdfInfo: IFunctionalityCommonVirtualScrollingPdfInfo
     index: number
   }) => React.ReactNode
   bgcolor?: string
+  defaultZoom?: number //默认缩放比例
 }
 //PDF的显示视图
 const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
@@ -70,6 +73,7 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
     isSelfAdaptionSize = false,
     onReadPDFState,
     bgcolor = '#f2f2f2',
+    defaultZoom = 0.7,
   },
   handleRef,
 ) => {
@@ -86,10 +90,14 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
   const wrapBoxHeight = elementHeight || viewHeight || 500
   const [isScrollShowButtonOperation, setIsScrollShowButtonOperation] =
     useState(false) //是否显示滚动显示底部操作
-
+  const [isFocusInput, setIsFocusInput] = useState(false)
   const scrollListRef = useRef<any>(null)
   const pdfPageRefs = useRef<HTMLElement[]>([])
-  const { scaleNumber, onChangeZoom, onSelfAdaption } = useChatPdfListZoom() //简单的缩放逻辑
+  const { scaleNumber, onChangeZoom, onSelfAdaption } = useChatPdfListZoom({
+    max: 1.5,
+    min: 0.5,
+    defaultZoom: defaultZoom,
+  }) //简单的缩放逻辑
   const isSelfAdaption = scaleNumber === 1
   const {
     pdfNumPages,
@@ -139,9 +147,12 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
     pdfNumPages || 0,
     currentScrollOffset,
     actualSizeList,
-    '.pdf-list-scroll',
+    scrollListRef,
     wrapBoxHeight,
   ) //滚动分页
+  useEffect(() => {
+    setIsFocusInput(false)
+  }, [currentPage])
   useEffect(() => {
     onViewInfo &&
       onViewInfo({
@@ -157,7 +168,11 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
     onViewInfo,
     scaleNumber,
   ])
-
+  useEffect(() => {
+    if (scrollListRef.current) {
+      scrollListRef.current.resetAfterIndex(0) // 自动重置缓存
+    }
+  }, [scaleNumber, viewHeight, viewWidth])
   const isItemLoaded = useCallback(
     (index) => {
       return !!pdfIsLoadingObj[index]
@@ -166,15 +181,17 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
   )
   const newPdfInfoList = useMemo(() => {
     return pdfInfoList.map((pdfInfoItem) => {
+      const viewScale = pdfInfoItem.width / wrapBoxWidth //计算缩放比例
       return pdfInfoItem
         ? {
             viewScale: scaleNumber,
+            pdfViewScale: viewScale,
             children: children,
             ...pdfInfoItem,
           }
         : undefined
     })
-  }, [pdfInfoList, scaleNumber, children])
+  }, [pdfInfoList, wrapBoxWidth, scaleNumber, children])
   const estimatedItemSize = useMemo(() => {
     return newPdfInfoList?.[1]?.height || 500
   }, [newPdfInfoList])
@@ -208,6 +225,7 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
         style={style}
         key={index}
         className='functionality-sign-pdf-scroll-pagination-page-item'
+        data-index={index}
         ref={(element) => element && (pdfPageRefs.current[index] = element)}
       >
         <Box
@@ -237,7 +255,6 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
           height={wrapBoxHeight} // 设置 List 高度为浏览器窗口高度
           itemCount={pdfNumPages} // 项目总数
           onScroll={(event) => {
-            console.log('eventevent', event)
             setScrollTime(new Date().valueOf())
             setCurrentScrollOffset(event.scrollOffset)
           }}
@@ -252,7 +269,7 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
           width={wrapBoxWidth} //宽度
           itemData={newPdfInfoList}
           onItemsRendered={onItemsRendered}
-          style={{ overflowX: 'auto' }}
+          style={{ overflowX: 'auto', willChange: 'auto!important' }} //下面的相对位置异常可以看这个属性willChange
         >
           {CurrentPage}
         </VariableSizeList>
@@ -371,7 +388,9 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
                   sx={{
                     bgcolor: '#ffffff',
                     display:
-                      isMobile || isScrollShowButtonOperation ? 'flex' : 'none',
+                      isMobile || isScrollShowButtonOperation || isFocusInput
+                        ? 'flex'
+                        : 'none',
                     p: 1,
                     borderRadius: 2,
                   }}
@@ -394,16 +413,18 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
                       width: 50,
                       ' input': {
                         textAlign: 'center',
-
-                        ...(isMobile
-                          ? {
-                              padding: '5px',
-                            }
-                          : {}),
+                        fontSize: '14px!important',
+                        padding: '5px',
                       },
                     }}
                     hiddenLabel
                     key={currentPage}
+                    onFocus={() => {
+                      setIsFocusInput(true)
+                    }}
+                    onBlur={() => {
+                      setIsFocusInput(false)
+                    }}
                     defaultValue={currentPage + 1}
                     variant='filled'
                     size='small'

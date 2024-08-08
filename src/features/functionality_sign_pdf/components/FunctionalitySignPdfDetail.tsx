@@ -1,6 +1,6 @@
+/* eslint-disable no-debugger */
 import {
   DndContext,
-  DragEndEvent,
   DragOverlay,
   KeyboardSensor,
   MouseSensor,
@@ -13,22 +13,31 @@ import Button from '@mui/material/Button'
 import Stack from '@mui/material/Stack'
 import Typography from '@mui/material/Typography'
 import { useTranslation } from 'next-i18next'
-import { createContext, FC, useEffect, useRef, useState } from 'react'
+import { PDFDocument } from 'pdf-lib'
+import { FC, useEffect, useMemo, useRef, useState } from 'react'
 import React from 'react'
+import { useRecoilState } from 'recoil'
 import { v4 as uuidV4 } from 'uuid'
 
+import FunctionalityCommonOperateFabricToolsPopup from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/components/FunctionalityCommonOperateCanvas/FunctionalityCommonOperateFabricCanvas/FunctionalityCommonOperateFabricToolsPopup'
+import FunctionalityCommonOperatePdfToolViewMain from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/components/FunctionalityCommonOperatePdfToolViewMain'
+import useFunctionalityEditDndContextHandle from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/hooks/useFunctionalityEditDndContextHandle'
+import {
+  fabricCanvasJsonStringListRecoil,
+  fabricCanvasSignObjectListRecoil,
+  IFunctionalitySignPdfShowPdfViewObjectToolsPopupProps,
+  TopDetailSignPdfSelectInfoContext,
+} from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/store/setOperateFabricCanvas'
+import { IFabricAddObjectType } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/types'
+import {
+  eventEmitterAddFabricCanvas,
+  eventEmitterAddFabricIndexCanvas,
+} from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/utils/FabricCanvas/eventEmitter'
+import { pdfLibFabricCanvasEmbedSave } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/utils/FabricCanvas/pdfLibFabricCanvasEmbedSave'
 import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 
-import { IFabricAddObjectType } from '../utils/fabricjsTools'
-import { pdfAddSignCanvasViewReturnUint8Array } from '../utils/pdfAddSignCanvasView'
 import FunctionalitySignCompleteSignatureInfo from './FunctionalitySignCompleteSignatureInfo'
 import FunctionalitySignPdfOperationView from './FunctionalitySignPdfOperationView/FunctionalitySignPdfOperationViewMain'
-import FunctionalitySignPdfShowPdfViewObjectToolsPopup, {
-  IFunctionalitySignPdfShowPdfViewObjectToolsPopupProps,
-} from './FunctionalitySignPdfShowPdfView/FunctionalitySignPdfShowPdfViewObjectToolsPopup'
-import FunctionalitySignPdfShowPdfViewPdfViewMain, {
-  IFunctionalitySignPdfShowPdfViewHandles,
-} from './FunctionalitySignPdfShowPdfView/FunctionalitySignPdfShowPdfViewPdfViewMain'
 
 export interface IActiveDragData {
   dragType: 'start' | 'end'
@@ -37,6 +46,7 @@ export interface IActiveDragData {
   value: string
   x?: number
   y?: number
+  dragValue?: any
 }
 interface IFunctionalitySignPdfDetailProps {
   file: File
@@ -51,32 +61,29 @@ export type ISignData = {
   id: string
   data: { type: string; value: string }
 }
-export const TopDetailInfo = createContext<{
-  viewObjectToolsData: IFunctionalitySignPdfShowPdfViewObjectToolsPopupProps | null
-  setViewObjectToolsData: (data: any) => void
-}>({
-  viewObjectToolsData: null,
-  setViewObjectToolsData: () => {},
-})
+
 export const FunctionalitySignPdfDetail: FC<
   IFunctionalitySignPdfDetailProps
 > = ({ file, onClearReturn }) => {
   const isMobile = useFunctionalityCommonIsMobile()
-
+  const [fabricCanvasSignObjectList] = useRecoilState(
+    fabricCanvasSignObjectListRecoil,
+  )
   const { t } = useTranslation()
+  const [fabricCanvasJsonStringList] = useRecoilState(
+    fabricCanvasJsonStringListRecoil,
+  )
   const [saveButtonLoading, setSaveButtonLoading] = useState(false)
   const [viewObjectToolsData, setViewObjectToolsData] =
     useState<IFunctionalitySignPdfShowPdfViewObjectToolsPopupProps | null>(null)
-
   const [overallViewHeight, setOverallViewHeight] = useState<number>(0)
 
   const dndDragRef = useRef<HTMLElement | null>(null)
-  const showPdfHandlesRef =
-    useRef<IFunctionalitySignPdfShowPdfViewHandles | null>(null) //当前在居中pdf的ref
+
   const autoSetOverallViewHeight = () => {
     const distanceFromTop = dndDragRef.current?.getBoundingClientRect().top
     const overallViewHeight =
-      window.innerHeight - (distanceFromTop || 280) - 10 - (isMobile ? 50 : 0)
+      window.innerHeight - (distanceFromTop || 280) - 10 - (isMobile ? 70 : 0)
     setOverallViewHeight(overallViewHeight)
   }
   useEffect(() => {
@@ -88,104 +95,32 @@ export const FunctionalitySignPdfDetail: FC<
       autoSetOverallViewHeight()
     }
   }, [isMobile])
-  const [activeDragData, setActiveDragData] = useState<
-    IActiveDragData | undefined
-  >(undefined)
-  const [signNumber, setSignNumber] = useState<number>(0) //当前签名数量
+  const signNumber = useMemo(
+    () => fabricCanvasSignObjectList.length,
+    [fabricCanvasSignObjectList],
+  )
   const [downloadUint8Array, setDownloadUint8Array] =
     useState<null | Uint8Array>(null) //签名数据
 
-  const handleDragEnd = (event: DragEndEvent) => {
-    try {
-      if (event.over && event.over.id) {
-        const { delta, over, active } = event
-        const rollingView = document.getElementById(
-          'functionality-sign-pdf-rolling-view',
-        )
-        const droppableElement = document.getElementById(active.id as string)
-        const activeRect = droppableElement?.getBoundingClientRect()
-
-        const signaturePositionData = {
-          width: over.rect.width,
-          height: over.rect.height,
-          ...(over.data.current as {
-            pdfIndex: number
-          }),
-          id: uuidV4(),
-          ...(active.data.current as {
-            type: IFabricAddObjectType
-            value: string
-          }),
-        }
-        const distanceX =
-          over.rect.width +
-          over.rect.left -
-          (activeRect?.left || 0) -
-          (activeRect?.width || 0) / 2 //拖动和放置 div之间的距离
-        const newSignaturePosition = {
-          x:
-            over.rect.width +
-            delta.x -
-            distanceX -
-            (rollingView?.scrollLeft || 0), //左边的宽度➕鼠标移动的距离-相差的距离-滚动条的距离
-          y:
-            (activeRect?.top || 0) -
-            over.rect.top +
-            delta.y -
-            (rollingView?.scrollTop || 0), //拖动的元素的顶部距离-目标元素的顶部距离+鼠标移动的距离+滚动的距离
-        }
-        if (
-          showPdfHandlesRef.current?.onAddObject &&
-          event.active.data.current?.value
-        ) {
-          showPdfHandlesRef.current.onAddObject({
-            ...signaturePositionData,
-            ...newSignaturePosition,
-          })
-        }
-        if (activeDragData?.dragType === 'start' && !activeDragData.value) {
-          setActiveDragData({
-            dragType: 'end',
-            ...newSignaturePosition,
-            id: uuidV4(),
-            ...(active.data.current as {
-              type: IFabricAddObjectType
-              value: string
-            }),
-          })
-        } else {
-          setActiveDragData(undefined)
-        }
-      }
-    } catch (e) {
-      console.log('handleDragEnd', e)
-    }
-  }
-
-  const onDragStart = (event) => {
-    try {
-      setActiveDragData({ dragType: 'start', ...event.active.data.current })
-    } catch (e) {
-      console.log('onDragStart', e)
-    }
-  }
   const onPdfAddViewSave = async () => {
     setSaveButtonLoading(true)
-    showPdfHandlesRef.current?.discardAllActiveObject()
-    const pdfPageNumber = showPdfHandlesRef.current?.getNumPages()
-    const canvasImgList = showPdfHandlesRef.current?.getCanvasBase64List()
-    await new Promise((resolve) => setTimeout(resolve, 500)) //等待1下,防止数据意外
-    if (pdfPageNumber && canvasImgList) {
-      const uint8Array = await pdfAddSignCanvasViewReturnUint8Array(
-        file,
-        pdfPageNumber,
-        canvasImgList,
-      )
-      if (uint8Array) {
-        setDownloadUint8Array(uint8Array)
-      }
+    let pdfDoc: PDFDocument | null = null
+    try {
+      const fileBuffer = await file.arrayBuffer()
+      pdfDoc = await PDFDocument.load(fileBuffer)
+    } catch (error) {
+      console.error('Error loading PDF Document:', error)
+      return
     }
-    setSaveButtonLoading(false)
+    await pdfLibFabricCanvasEmbedSave(pdfDoc, fabricCanvasJsonStringList)
+    pdfDoc
+      .save()
+      .then((blob) => {
+        setDownloadUint8Array(blob)
+      })
+      .finally(() => {
+        setSaveButtonLoading(false)
+      })
   }
   const sensors = useSensors(
     useSensor(MouseSensor, {
@@ -201,28 +136,49 @@ export const FunctionalitySignPdfDetail: FC<
     }),
     useSensor(KeyboardSensor),
   )
+  const {
+    activeDragData,
+    setActiveDragData,
+    onDragStart: onStart,
+    onDragEnd: onEnd,
+  } = useFunctionalityEditDndContextHandle({
+    onStart: () => {},
+    onEnd: () => {},
+  })
   // 右边的点击添加事件
   const onClickAdd = (type: IFabricAddObjectType, value: string) => {
-    if (showPdfHandlesRef.current?.onAddObject) {
-      showPdfHandlesRef.current.onAddObject({
+    if (activeDragData) {
+      activeDragData.dragValue.data.type = type
+      activeDragData.dragValue.data.value = value
+      eventEmitterAddFabricIndexCanvas(
+        activeDragData.dragValue.index,
+        activeDragData.dragValue.data,
+      )
+    } else {
+      eventEmitterAddFabricCanvas({
         id: uuidV4(),
         type,
         value,
       })
     }
+
     setActiveDragData(undefined)
   }
-  const onChangePdfHaveSignObjectNumber = (signNumber: number) => {
-    setSignNumber(signNumber)
+  const onClearFile = async () => {
+    onClearReturn()
   }
+
   return (
-    <TopDetailInfo.Provider
-      value={{ viewObjectToolsData, setViewObjectToolsData }}
+    <TopDetailSignPdfSelectInfoContext.Provider
+      value={{
+        viewObjectToolsData,
+        setViewObjectToolsData,
+      }}
     >
       <DndContext
         sensors={sensors}
-        onDragStart={onDragStart}
-        onDragEnd={handleDragEnd}
+        onDragStart={onStart}
+        onDragEnd={onEnd}
         onDragCancel={() => setActiveDragData(undefined)}
       >
         <Stack
@@ -261,6 +217,15 @@ export const FunctionalitySignPdfDetail: FC<
                   'functionality__sign_pdf:components__sign_pdf__detail__finish',
                 )}
               </Button>
+              <Button
+                onClick={onClearReturn}
+                sx={{ width: '100%', padding: 0 }}
+                size='small'
+              >
+                {t(
+                  'functionality__common:components__common__select_other_file',
+                )}
+              </Button>
             </Box>
           )}
           {/* pdf显示视图 */}
@@ -273,13 +238,19 @@ export const FunctionalitySignPdfDetail: FC<
               overflow: 'hidden',
               height: !isMobile ? '100%' : overallViewHeight,
               position: 'relative',
+              ...(downloadUint8Array
+                ? {
+                    '>div': {
+                      overflow: 'hidden!important',
+                    },
+                  }
+                : {}),
             }}
           >
-            <FunctionalitySignPdfShowPdfViewPdfViewMain
+            <FunctionalityCommonOperatePdfToolViewMain
               file={file}
-              ref={showPdfHandlesRef}
-              isShowBottomOperation={!downloadUint8Array}
-              onChangePdfHaveSignObjectNumber={onChangePdfHaveSignObjectNumber}
+              isShowBottomOperation={true}
+              currentEditType={'insert'}
             />
             {downloadUint8Array && (
               <Box
@@ -289,10 +260,7 @@ export const FunctionalitySignPdfDetail: FC<
                   left: 0,
                   right: 10,
                   bottom: 0,
-                  zIndex: 100,
-                  ' .functionality-sign-pdf-scroll-pagination': {
-                    display: 'none',
-                  },
+                  zIndex: 99999,
                 }}
               ></Box>
             )}
@@ -338,6 +306,15 @@ export const FunctionalitySignPdfDetail: FC<
                         'functionality__sign_pdf:components__sign_pdf__detail__finish',
                       )}
                     </Button>
+                    <Button
+                      onClick={onClearReturn}
+                      sx={{ width: '100%', padding: 0 }}
+                      size='small'
+                    >
+                      {t(
+                        'functionality__common:components__common__select_other_file',
+                      )}
+                    </Button>
                   </Box>
                 )}
               </React.Fragment>
@@ -345,12 +322,12 @@ export const FunctionalitySignPdfDetail: FC<
             {downloadUint8Array && (
               <FunctionalitySignCompleteSignatureInfo
                 fileName={file.name}
-                onClearReturn={onClearReturn}
+                onClearReturn={onClearFile}
                 downloadUint8Array={downloadUint8Array}
               />
             )}
             {viewObjectToolsData && viewObjectToolsData.controlDiv && (
-              <FunctionalitySignPdfShowPdfViewObjectToolsPopup
+              <FunctionalityCommonOperateFabricToolsPopup
                 controlDiv={viewObjectToolsData.controlDiv}
                 scaleFactor={viewObjectToolsData.scaleFactor}
                 editor={viewObjectToolsData.editor}
@@ -429,7 +406,7 @@ export const FunctionalitySignPdfDetail: FC<
           </DragOverlay>
         )}
       </DndContext>
-    </TopDetailInfo.Provider>
+    </TopDetailSignPdfSelectInfoContext.Provider>
   )
 }
 export default FunctionalitySignPdfDetail

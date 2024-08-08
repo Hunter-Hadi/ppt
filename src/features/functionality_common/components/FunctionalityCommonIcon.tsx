@@ -1,5 +1,6 @@
 import CloseTwoToneIcon from '@mui/icons-material/CloseTwoTone'
 import ControlPointTwoToneIcon from '@mui/icons-material/ControlPointTwoTone'
+import DeleteForeverOutlinedIcon from '@mui/icons-material/DeleteForeverOutlined'
 import NoteAddOutlinedIcon from '@mui/icons-material/NoteAddOutlined'
 import PictureAsPdfOutlinedIcon from '@mui/icons-material/PictureAsPdfOutlined'
 import RemoveCircleTwoToneIcon from '@mui/icons-material/RemoveCircleTwoTone'
@@ -30,6 +31,9 @@ const FunctionalityCommonIcon: FC<{ name: string } & SvgIconProps> = ({
         return <CloseTwoToneIcon {...restProps} />
       case 'NoteAdd':
         return <NoteAddOutlinedIcon {...restProps} />
+      case 'DeleteForeverOutlined': {
+        return <DeleteForeverOutlinedIcon {...restProps} />
+      }
       default: {
         return null
       }

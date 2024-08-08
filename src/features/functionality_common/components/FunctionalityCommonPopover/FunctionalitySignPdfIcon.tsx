@@ -6,6 +6,7 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos'
 import CalendarMonthOutlinedIcon from '@mui/icons-material/CalendarMonthOutlined'
 import CheckIcon from '@mui/icons-material/Check'
 import CheckCircleIcon from '@mui/icons-material/CheckCircle'
+import CloseIcon from '@mui/icons-material/Close'
 import ContentCopyIcon from '@mui/icons-material/ContentCopy'
 import DateRangeOutlinedIcon from '@mui/icons-material/DateRangeOutlined'
 import DeleteForeverOutlinedIcon from '@mui/icons-material/DeleteForeverOutlined'
@@ -112,6 +113,9 @@ const FunctionalitySignPdfIcon: FC<{ name: string } & SvgIconProps> = ({
       }
       case 'DateRangeOutlined': {
         return <DateRangeOutlinedIcon {...restProps} />
+      }
+      case 'CloseIcon': {
+        return <CloseIcon {...restProps} />
       }
       case 'SignArrowIndicate': {
         return (

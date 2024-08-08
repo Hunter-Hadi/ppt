@@ -1338,7 +1338,8 @@
     "components__common__upload_button_tips": "أو اسحب الملفات هنا",
     "components__common__upload_button_title": "اختر الملفات",
     "components__common__upload_button__unsupported_file_type_tip": "يرجى تحميل نوع الملف PDF المحدد",
-    "components__common__select_other_file": "اختر ملفًا آخر"
+    "components__common__select_other_file": "اختر ملفًا آخر",
+    "components__common__button__download": "تحميل"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "يمكن تحميل صور من نوع الصورة فقط",
@@ -1884,5 +1885,38 @@
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "تبديل لاستخراج الصفحات كملف PDF واحد أو PDFs منفصلة.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "انقر على 'تأكيد الاستخراج' وانتظر لحظة واحدة فقط.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "قم بتنزيل صفحات PDF المستخرجة الخاصة بك - هذا كل شيء!"
+  },
+  "pages__pdf_tools__pdf_annotator": {
+    "title": "مُعلّق PDF",
+    "description": "قم بتعليق ملفات PDF الخاصة بك بسهولة مجانًا عن طريق الكتابة أو الرسم مباشرة عليها.",
+    "seo_title": "مُعلّق PDF مجاني - اكتب وارسم على ملفات PDF عبر الإنترنت | MaxAI.me",
+    "seo_description": "استخدم مُعلّقنا المجاني عبر الإنترنت للكتابة أو الرسم على ملفات PDF الخاصة بك. لا حاجة للتنزيلات أو العلامات المائية أو التسجيل. قم بالوصول وتحرير مستنداتك بسهولة.",
+    "detail_description_object__pdf_annotator__top_left": "يتيح لك مُعلّقنا المجاني للـ PDF الكتابة والرسم والتحديد مباشرة على مستنداتك بتجربة سلسة بدون قيود.",
+    "detail_description_object__pdf_annotator__top_right_1": "قم بتعليق ملفات PDF الخاصة بك بسرعة ببضع نقرات فقط.",
+    "detail_description_object__pdf_annotator__top_right_2": "قم ببساطة بتحميل ملف PDF الخاص بك لبدء التعليق.",
+    "detail_description_object__pdf_annotator__top_right_3": "يعمل بشكل مثالي على أجهزة Mac و Windows و Android و iOS.",
+    "detail_description_object__pdf_annotator__middle_1_title": "مُعلّق PDF عبر الإنترنت سهل الاستخدام",
+    "detail_description_object__pdf_annotator__middle_1_description": "مع مُعلّقنا الذكي للـ PDF، يمكنك الكتابة أو الرسم على ملفات PDF الخاصة بك بسهولة. قم بتحميل مستندك، ابدأ التعليق، وقم بتنزيل الـ PDF المحرر في دقائق، كل ذلك دون الحاجة لإنشاء حساب.",
+    "detail_description_object__pdf_annotator__middle_2_title": "تعليقات آمنة وخاصة",
+    "detail_description_object__pdf_annotator__middle_2_description": "يتم معالجة جميع تعليقاتك مباشرة في متصفحك، مما يضمن بقاء مستنداتك خاصة وآمنة. لا يتم إرسال البيانات إلى السحابة، مما يحمي معلوماتك الحساسة.",
+    "detail_description_object__pdf_annotator__middle_3_title": "توافق متعدد الأجهزة",
+    "detail_description_object__pdf_annotator__middle_3_description": "مُعلّقنا للـ PDF عبر الإنترنت متاح من أي جهاز يحتوي على متصفح ويب، بما في ذلك أجهزة سطح المكتب والكمبيوتر المحمول والأجهزة النقالة. قم بتعليق ملفات PDF الخاصة بك في أي وقت وفي أي مكان.",
+    "detail_description_object__pdf_annotator__middle_4_title": "عملية تعليق بسيطة",
+    "detail_description_object__pdf_annotator__middle_4_description": "تعليق ملفات PDF الخاصة بك بسهولة: قم بتحميل ملفك، استخدم الأدوات المدمجة للكتابة أو الرسم، ثم قم بتنزيل النسخة المحررة. حتى المبتدئين يمكنهم التنقل في هذه العملية بسهولة.",
+    "detail_description_object__pdf_annotator__middle_5_title": "بدون تكلفة، بدون تعقيدات",
+    "detail_description_object__pdf_annotator__middle_5_description": "لا حاجة لشراء برامج باهظة لتعليق ملفات PDF الخاصة بك. مُعلّقنا المجاني للـ PDF متاح عبر الإنترنت بدون تكاليف خفية أو تنزيلات أو تسجيل مطلوب، مما يضمن تجربة خالية من المتاعب.",
+    "detail_description_object__pdf_annotator__middle_6_title": "معالجة سريعة وفعالة",
+    "detail_description_object__pdf_annotator__middle_6_description": "تم تصميم خدمة تعليق PDF الخاصة بنا للسرعة. قم بمعالجة وتنقيح مستنداتك بسرعة باستخدام أدواتنا الفعالة التي تعزز سير عملك.",
+    "detail_description_object__pdf_annotator__bottom_right_title": "كيفية تعليق ملفات PDF عبر الإنترنت:",
+    "detail_description_object__pdf_annotator__bottom_right_description_1": "قم بتحميل ملف PDF الذي تريد التعليق عليه.",
+    "detail_description_object__pdf_annotator__bottom_right_description_2": "استخدم أدوات التعليق للكتابة أو الرسم أو التحديد على المستند.",
+    "detail_description_object__pdf_annotator__bottom_right_description_3": "انقر على 'تنزيل' لحفظ ملف PDF الخاص بك بعد التعليق.",
+    "detail_description_object__pdf_annotator__bottom_right_description_4": "قم بالوصول إلى ملف PDF الخاص بك المعلّق عليه على أي جهاز وشاركه بسهولة."
+  },
+  "functionality__pdf_annotator": {
+    "components__pdf_annotator__insert_tools__text_annotator": "تعليق نصي",
+    "components__pdf_annotator__insert_tools__insert_text": "إدراج نص",
+    "components__pdf_annotator__insert_tools__insert_image": "إدراج صورة",
+    "components__pdf_annotator__insert_tools__insert_signature": "إدراج توقيع"
   }
 }

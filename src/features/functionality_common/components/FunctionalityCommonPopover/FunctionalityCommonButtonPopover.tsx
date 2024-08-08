@@ -6,7 +6,7 @@ import React, { FC, useState } from 'react'
 import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 
 import FunctionalitySignPdfIcon from './FunctionalitySignPdfIcon'
-interface IFunctionalitySignPdfCommonButtonPopoverProps {
+interface IFunctionalityCommonButtonPopoverProps {
   buttonProps?: ButtonProps
   children?: React.ReactNode
   popoverView?: React.ReactNode
@@ -15,8 +15,8 @@ interface IFunctionalitySignPdfCommonButtonPopoverProps {
 }
 
 // 通用的带弹出式按钮
-const FunctionalitySignPdfCommonButtonPopover: FC<
-  IFunctionalitySignPdfCommonButtonPopoverProps
+const FunctionalityCommonButtonPopover: FC<
+  IFunctionalityCommonButtonPopoverProps
 > = ({
   children,
   popoverView,
@@ -48,7 +48,7 @@ const FunctionalitySignPdfCommonButtonPopover: FC<
     <>
       <Button
         onClick={(e) => {
-          e.stopPropagation();
+          e.stopPropagation()
           // e.preventDefault();
           handleClick(e)
         }}
@@ -97,4 +97,4 @@ const FunctionalitySignPdfCommonButtonPopover: FC<
   )
 }
 
-export default FunctionalitySignPdfCommonButtonPopover
+export default FunctionalityCommonButtonPopover

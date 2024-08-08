@@ -28,6 +28,7 @@ export type ICustomIconType =
   | 'UnlockPDF'
   | 'ProtectPDF'
   | 'WaterMarkPDF'
+  | 'PDFAnnotator'
   | 'DeletePagePDF'
   | 'DeletePagePDFDetaile'
   | 'ExtractPagePDF'
@@ -51,6 +52,7 @@ const IconsMap: {
   UnlockPDF: dynamic(() => import('./icons/UnlockPDF')),
   ProtectPDF: dynamic(() => import('./icons/ProtectPDF')),
   WaterMarkPDF: dynamic(() => import('./icons/WaterMarkPDF')),
+  PDFAnnotator: dynamic(() => import('./icons/PDFAnnotator')),
   DeletePagePDF: dynamic(() => import('./icons/DeletePagePDF')),
   DeletePagePDFDetaile: dynamic(() => import('./icons/DeletePagePDFDetaile')),
   ExtractPagePDF: dynamic(() => import('./icons/ExtractPagePDF')),

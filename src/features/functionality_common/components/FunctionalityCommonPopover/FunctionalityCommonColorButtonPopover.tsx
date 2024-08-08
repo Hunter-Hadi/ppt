@@ -11,15 +11,16 @@ import {
   Stack,
   Typography,
 } from '@mui/material'
+import { cloneDeep } from 'lodash-es'
 import { useTranslation } from 'next-i18next'
-import React, { FC, useEffect, useState } from 'react'
+import React, { FC, useCallback, useEffect, useState } from 'react'
 import { HexColorPicker } from 'react-colorful'
-
-import FunctionalitySignPdfIcon from '@/features/functionality_sign_pdf/components/FunctionalitySignPdfIcon'
+import { useRecoilState } from 'recoil'
 
 import useFunctionalityCommonIsMobile from '../../hooks/useFunctionalityCommonIsMobile'
+import { userAddColorListRecoil } from '../../store/colorList'
 import FunctionalityCommonIcon from './FunctionalitySignPdfIcon'
-interface IFunctionalitySignPdfColorButtonPopoverProps {
+interface IFunctionalityCommonColorButtonPopoverProps {
   colorList?: string[]
   onSelectedColor: (color: string) => void
   currentColor?: string
@@ -30,12 +31,13 @@ interface IFunctionalitySignPdfColorButtonPopoverProps {
   titleText?: string
   showColorPicker?: boolean
   isClickClose?: boolean // 点击弹窗内部是否关闭
+  children?: (props: { color: string }) => React.ReactNode
 }
 /**
  * 签名颜色选择按钮
  */
-const FunctionalitySignPdfColorButtonPopover: FC<
-  IFunctionalitySignPdfColorButtonPopoverProps
+const FunctionalityCommonColorButtonPopover: FC<
+  IFunctionalityCommonColorButtonPopoverProps
 > = ({
   colorList,
   onSelectedColor,
@@ -47,6 +49,7 @@ const FunctionalitySignPdfColorButtonPopover: FC<
   titleText,
   showColorPicker = false,
   isClickClose = true, // 点击弹窗内部是否关闭
+  children,
 }) => {
   const [currentShowColor, setShowCurrentColor] = useState('black')
   const [transparencyNumber, setTransparencyNumber] = useState(100)
@@ -56,6 +59,9 @@ const FunctionalitySignPdfColorButtonPopover: FC<
     'blue',
     'red',
   ]) // 组件内部的颜色选择器，用来添加自定义颜色
+  const [userAddColorList, setUserAddColorList] = useRecoilState(
+    userAddColorListRecoil,
+  )
   const [customColor, setCustomColor] = useState('#000000')
 
   const isMobile = useFunctionalityCommonIsMobile()
@@ -113,17 +119,95 @@ const FunctionalitySignPdfColorButtonPopover: FC<
 
   // 添加自定义颜色 自动选择 关闭弹窗 关闭popover
   const addCustomColor = () => {
-    setCurColorList([...curColorList, customColor])
+    setUserAddColorList((list) => [...list, customColor])
     handleColorSelect(customColor)
     handleDialogClose()
     handleClickClosePopover()
   }
 
   useEffect(() => {
-    console.log(`重新加载了`)
     setCurColorList(colorList || ['black', 'blue', 'red'])
   }, [])
-
+  const delUserColor = useCallback(
+    (color) => {
+      setUserAddColorList((list) => {
+        const copyList = cloneDeep(list)
+        const index = copyList.indexOf(color)
+        if (index > -1) {
+          copyList.splice(index, 1)
+        }
+        return copyList
+      })
+    },
+    [setUserAddColorList],
+  )
+  const colorElement = useCallback(
+    (color: string, isDel?: boolean) => {
+      return (
+        <Button
+          onClick={() => {
+            handleColorSelect(color)
+          }}
+          key={color}
+          sx={{
+            bgcolor: color === currentShowColor ? '#64467b52' : '',
+            '&:hover': {
+              bgcolor: color === currentShowColor ? '#64467b52' : '',
+              ' .color-button-del-color': {
+                display: 'block',
+              },
+            },
+          }}
+        >
+          <Box
+            sx={{
+              width: 20,
+              height: 20,
+              borderRadius: '50%',
+              border: '1px solid #e8e8e8',
+              position: 'relative',
+              backgroundColor: color,
+              '&:hover': {
+                backgroundColor: color,
+              },
+              '&:before':
+                color === 'transparent'
+                  ? {
+                      content: '" "',
+                      position: 'absolute',
+                      top: '50%',
+                      left: '50%',
+                      transform:
+                        'translateX(-90%) translateY(-50%) rotate(45deg)',
+                      width: '1px',
+                      height: 20,
+                      backgroundColor: 'red',
+                    }
+                  : '',
+            }}
+          ></Box>
+          {isDel && (
+            <Box
+              className='color-button-del-color'
+              onClick={(e) => {
+                e.stopPropagation()
+                delUserColor(color)
+              }}
+              sx={{
+                position: 'absolute',
+                top: -1,
+                right: -1,
+                display: 'none',
+              }}
+            >
+              <FunctionalityCommonIcon name='CloseIcon' fontSize='small' />
+            </Box>
+          )}
+        </Button>
+      )
+    },
+    [currentShowColor, delUserColor, handleColorSelect],
+  )
   return (
     <Button
       onClick={(e) => {
@@ -139,11 +223,13 @@ const FunctionalitySignPdfColorButtonPopover: FC<
         },
       }}
       endIcon={
-        isShowRightIcon && <FunctionalitySignPdfIcon name='ArrowDropDown' />
+        isShowRightIcon && <FunctionalityCommonIcon name='ArrowDropDown' />
       }
       {...buttonProps}
     >
-      {titleText && (
+      {children && children({ color: currentShowColor })}
+
+      {!children && titleText && (
         <Stack
           sx={{
             width: '100%',
@@ -170,7 +256,7 @@ const FunctionalitySignPdfColorButtonPopover: FC<
           />
         </Stack>
       )}
-      {!titleText && (
+      {!children && !titleText && (
         <Box
           sx={{
             width: 20,
@@ -234,48 +320,8 @@ const FunctionalitySignPdfColorButtonPopover: FC<
                 </Box>
               </Stack>
             )}
-            {curColorList.map((color) => (
-              <Button
-                onClick={() => {
-                  handleColorSelect(color)
-                }}
-                key={color}
-                sx={{
-                  bgcolor: color === currentShowColor ? '#64467b52' : '',
-                  '&:hover': {
-                    bgcolor: color === currentShowColor ? '#64467b52' : '',
-                  },
-                }}
-              >
-                <Box
-                  sx={{
-                    width: 20,
-                    height: 20,
-                    borderRadius: '50%',
-                    border: '1px solid #e8e8e8',
-                    position: 'relative',
-                    backgroundColor: color,
-                    '&:hover': {
-                      backgroundColor: color,
-                    },
-                    '&:before':
-                      color === 'transparent'
-                        ? {
-                            content: '" "',
-                            position: 'absolute',
-                            top: '50%',
-                            left: '50%',
-                            transform:
-                              'translateX(-90%) translateY(-50%) rotate(45deg)',
-                            width: '1px',
-                            height: 20,
-                            backgroundColor: 'red',
-                          }
-                        : '',
-                  }}
-                ></Box>
-              </Button>
-            ))}
+            {curColorList.map((color) => colorElement(color))}
+            {userAddColorList.map((color) => colorElement(color, true))}
 
             {showColorPicker && (
               <Button
@@ -394,4 +440,4 @@ const FunctionalitySignPdfColorButtonPopover: FC<
     </Button>
   )
 }
-export default FunctionalitySignPdfColorButtonPopover
+export default FunctionalityCommonColorButtonPopover

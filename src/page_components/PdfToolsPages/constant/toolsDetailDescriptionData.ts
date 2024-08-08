@@ -842,64 +842,73 @@ export const allPdfToolsDetailDescriptionObject: {
       'pages:pdf_tools__detail_description_object__sign_pdf__top_right_2',
       'pages:pdf_tools__detail_description_object__watermark_pdf__top_right_3',
     ],
-    functionIntroductionList: [
-      //   {
-      //     iconName: 'Lightbulb',
-      //     title:
-      //       'pages:pdf_tools__detail_description_object__number_pages__middle_1_title',
-      //     description:
-      //       'pages:pdf_tools__detail_description_object__number_pages__middle_1_description',
-      //   },
-      //   {
-      //     iconName: 'WorkspacePremiumOutlined',
-      //     title:
-      //       'pages:pdf_tools__detail_description_object__number_pages__middle_2_title',
-      //     description:
-      //       'pages:pdf_tools__detail_description_object__number_pages__middle_2_description',
-      //   },
-      //   {
-      //     iconName: 'ThumbUpAltOutlined',
-      //     title:
-      //       'pages:pdf_tools__detail_description_object__number_pages__middle_3_title',
-      //     description:
-      //       'pages:pdf_tools__detail_description_object__number_pages__middle_3_description',
-      //   },
-      //   {
-      //     iconName: 'LockOutlined',
-      //     title:
-      //       'pages:pdf_tools__detail_description_object__number_pages__middle_4_title',
-      //     description:
-      //       'pages:pdf_tools__detail_description_object__number_pages__middle_4_description',
-      //   },
-      //   {
-      //     iconName: 'LocalPoliceOutlined',
-      //     title:
-      //       'pages:pdf_tools__detail_description_object__number_pages__middle_5_title',
-      //     description:
-      //       'pages:pdf_tools__detail_description_object__number_pages__middle_5_description',
-      //   },
-      //   {
-      //     iconName: 'ComputerOutlined',
-      //     title:
-      //       'pages:pdf_tools__detail_description_object__number_pages__middle_6_title',
-      //     description:
-      //       'pages:pdf_tools__detail_description_object__number_pages__middle_6_description',
-      //   },
+    functionIntroductionList: [],
+  },
+  'pdf-annotator': {
+    topFeatures:
+      'pages__pdf_tools__pdf_annotator:detail_description_object__pdf_annotator__top_left',
+    userExperienceList: [
+      'pages__pdf_tools__pdf_annotator:detail_description_object__pdf_annotator__top_right_1',
+      'pages__pdf_tools__pdf_annotator:detail_description_object__pdf_annotator__top_right_2',
+      'pages__pdf_tools__pdf_annotator:detail_description_object__pdf_annotator__top_right_3',
     ],
-    // operatingInstructions: {
-    //   iconName: 'NumberPages',
-    //   operationSteps: {
-    //     title:
-    //       'pages:pdf_tools__detail_description_object__number_pages__bottom_right_title',
-    //     descriptionList: [
-    //       'pages:pdf_tools__detail_description_object__number_pages__bottom_right_description_1',
-    //       'pages:pdf_tools__detail_description_object__number_pages__bottom_right_description_2',
-    //       'pages:pdf_tools__detail_description_object__number_pages__bottom_right_description_3',
-    //       'pages:pdf_tools__detail_description_object__number_pages__bottom_right_description_4',
-    //       'pages:pdf_tools__detail_description_object__number_pages__bottom_right_description_5',
-    //     ],
-    //   },
-    // },
+    functionIntroductionList: [
+      {
+        iconName: 'Lightbulb',
+        title:
+          'pages__pdf_tools__pdf_annotator:detail_description_object__pdf_annotator__middle_1_title',
+        description:
+          'pages__pdf_tools__pdf_annotator:detail_description_object__pdf_annotator__middle_1_description',
+      },
+      {
+        iconName: 'WorkspacePremiumOutlined',
+        title:
+          'pages__pdf_tools__pdf_annotator:detail_description_object__pdf_annotator__middle_2_title',
+        description:
+          'pages__pdf_tools__pdf_annotator:detail_description_object__pdf_annotator__middle_2_description',
+      },
+      {
+        iconName: 'ThumbUpAltOutlined',
+        title:
+          'pages__pdf_tools__pdf_annotator:detail_description_object__pdf_annotator__middle_3_title',
+        description:
+          'pages__pdf_tools__pdf_annotator:detail_description_object__pdf_annotator__middle_3_description',
+      },
+      {
+        iconName: 'LockOutlined',
+        title:
+          'pages__pdf_tools__pdf_annotator:detail_description_object__pdf_annotator__middle_4_title',
+        description:
+          'pages__pdf_tools__pdf_annotator:detail_description_object__pdf_annotator__middle_4_description',
+      },
+      {
+        iconName: 'LocalPoliceOutlined',
+        title:
+          'pages__pdf_tools__pdf_annotator:detail_description_object__pdf_annotator__middle_5_title',
+        description:
+          'pages__pdf_tools__pdf_annotator:detail_description_object__pdf_annotator__middle_5_description',
+      },
+      {
+        iconName: 'ComputerOutlined',
+        title:
+          'pages__pdf_tools__pdf_annotator:detail_description_object__pdf_annotator__middle_6_title',
+        description:
+          'pages__pdf_tools__pdf_annotator:detail_description_object__pdf_annotator__middle_6_description',
+      },
+    ],
+    operatingInstructions: {
+      iconName: 'PDFAnnotator',
+      operationSteps: {
+        title:
+          'pages__pdf_tools__pdf_annotator:detail_description_object__pdf_annotator__bottom_right_title',
+        descriptionList: [
+          'pages__pdf_tools__pdf_annotator:detail_description_object__pdf_annotator__bottom_right_description_1',
+          'pages__pdf_tools__pdf_annotator:detail_description_object__pdf_annotator__bottom_right_description_2',
+          'pages__pdf_tools__pdf_annotator:detail_description_object__pdf_annotator__bottom_right_description_3',
+          'pages__pdf_tools__pdf_annotator:detail_description_object__pdf_annotator__bottom_right_description_4',
+        ],
+      },
+    },
   },
   'delete-page-pdf': {
     topFeatures:

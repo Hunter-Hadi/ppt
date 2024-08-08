@@ -1338,7 +1338,8 @@
     "components__common__upload_button_tips": "หรือวางไฟล์ที่นี่",
     "components__common__upload_button_title": "เลือกไฟล์",
     "components__common__upload_button__unsupported_file_type_tip": "โปรดอัปโหลดไฟล์ PDF ที่ระบุ",
-    "components__common__select_other_file": "เลือกไฟล์อื่น"
+    "components__common__select_other_file": "เลือกไฟล์อื่น",
+    "components__common__button__download": "Download"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "สามารถอัปโหลดภาพเฉพาะชนิดภาพเท่านั้น",
@@ -1884,5 +1885,38 @@
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "สลับเพื่อสกัดหน้าเป็น PDF เดียวหรือ PDF แยก",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "คลิก 'ยืนยันการสกัด' และรอเพียงไม่กี่วินาที",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "ดาวน์โหลดหน้า PDF ที่คุณสกัดได้—เพียงเท่านี้เอง!"
+  },
+  "pages__pdf_tools__pdf_annotator": {
+    "title": "PDF Annotator",
+    "description": "Able to write or draw directly on PDF files for free.",
+    "seo_title": "Free PDF Annotator - Write and Draw Online on PDF Files | MaxAI.me",
+    "seo_description": "Use our free online PDF annotator to write or draw on PDF files without downloads, watermarks, or sign-ups. Edit your documents effortlessly.",
+    "detail_description_object__pdf_annotator__top_left": "Write, draw, and highlight on PDF documents with no limitations.",
+    "detail_description_object__pdf_annotator__top_right_1": "Annotate PDF files quickly with a few clicks.",
+    "detail_description_object__pdf_annotator__top_right_2": "Start annotating by uploading your PDF file.",
+    "detail_description_object__pdf_annotator__top_right_3": "Compatible with Mac, Windows, Android, and iOS devices.",
+    "detail_description_object__pdf_annotator__middle_1_title": "User-Friendly PDF Annotator",
+    "detail_description_object__pdf_annotator__middle_1_description": "Effortlessly write or draw on PDF files. Upload, annotate, and download edited PDFs without creating an account.",
+    "detail_description_object__pdf_annotator__middle_2_title": "Secure and Private Annotations",
+    "detail_description_object__pdf_annotator__middle_2_description": "Annotations processed in your browser for privacy. No data sent to the cloud, keeping your information secure.",
+    "detail_description_object__pdf_annotator__middle_3_title": "Cross-Device Compatibility",
+    "detail_description_object__pdf_annotator__middle_3_description": "Accessible on any device with a web browser. Annotate PDF files anywhere, anytime.",
+    "detail_description_object__pdf_annotator__middle_4_title": "Simple Annotation Process",
+    "detail_description_object__pdf_annotator__middle_4_description": "Upload, write or draw, and download edited PDFs easily.",
+    "detail_description_object__pdf_annotator__middle_5_title": "No Cost, No Complications",
+    "detail_description_object__pdf_annotator__middle_5_description": "Free PDF annotator online with no hidden costs, downloads, or registration. Hassle-free experience.",
+    "detail_description_object__pdf_annotator__middle_6_title": "Fast and Efficient Processing",
+    "detail_description_object__pdf_annotator__middle_6_description": "Speedy PDF annotation service for quick document processing.",
+    "detail_description_object__pdf_annotator__bottom_right_title": "How to Annotate PDF Files Online:",
+    "detail_description_object__pdf_annotator__bottom_right_description_1": "Upload the PDF file you want to annotate.",
+    "detail_description_object__pdf_annotator__bottom_right_description_2": "Write, draw, or highlight on the document.",
+    "detail_description_object__pdf_annotator__bottom_right_description_3": "Click ‘Download’ to save your annotated PDF file.",
+    "detail_description_object__pdf_annotator__bottom_right_description_4": "Access and share your annotated PDF easily on any device."
+  },
+  "functionality__pdf_annotator": {
+    "components__pdf_annotator__insert_tools__text_annotator": "Text Annotation",
+    "components__pdf_annotator__insert_tools__insert_text": "insert text",
+    "components__pdf_annotator__insert_tools__insert_image": "insert picture",
+    "components__pdf_annotator__insert_tools__insert_signature": "Insert Signature"
   }
 }
