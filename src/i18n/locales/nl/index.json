@@ -765,7 +765,15 @@
     "pdf_tools__detail_description_object__extractpage_pages__top_left": "Extracteer pagina's uit uw PDF-document online gratis. Geen downloads, aanmeldingen of dure software nodig. Alles wat u nodig heeft is een browser en een internetverbinding.",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Gratis te gebruiken zonder registratie",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "Extraheren van PDF-inhoud in seconden",
-    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Werkt veilig en eenvoudig in uw browser"
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Werkt veilig en eenvoudig in uw browser",
+    "home_page__hero_section__ab_test_v9__variant2__title__part1": "Sneller begrijpen. Beter schrijven.",
+    "home_page__hero_section__ab_test_v9__variant2__title__part2": "Slimmer werken met AI.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part1": "Sneller begrijpen. Beter schrijven.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part2": "Versnel je werk met AI.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part1": "Sneller onderzoeken. Beter schrijven.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part2": "Versnel je werk met AI.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part1": "Sneller onderzoeken. Beter schrijven.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part2": "Slimmer werken met AI."
   },
   "prompt_library": {
     "use_prompt_library__title": "Hoogwaardige AI-promptbibliotheek",

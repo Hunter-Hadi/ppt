@@ -751,7 +751,15 @@
     "pdf_tools__detail_description_object__extractpage_pages__top_left": "免费在线提取PDF文档的页面。无需下载、注册或昂贵软件。您只需浏览器和互联网连接。",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "无需注册即可免费使用",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "秒速提取PDF内容",
-    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "在您的浏览器中安全简便地运行"
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "在您的浏览器中安全简便地运行",
+    "home_page__hero_section__ab_test_v9__variant2__title__part1": "更快理解。写得更好。",
+    "home_page__hero_section__ab_test_v9__variant2__title__part2": "与AI更智能地工作。",
+    "home_page__hero_section__ab_test_v9__variant3__title__part1": "更快理解。写得更好。",
+    "home_page__hero_section__ab_test_v9__variant3__title__part2": "用AI加速您的工作。",
+    "home_page__hero_section__ab_test_v9__variant4__title__part1": "更快研究。写得更好。",
+    "home_page__hero_section__ab_test_v9__variant4__title__part2": "用AI加速您的工作。",
+    "home_page__hero_section__ab_test_v9__variant5__title__part1": "更快研究。写得更好。",
+    "home_page__hero_section__ab_test_v9__variant5__title__part2": "与AI更智能地工作。"
   },
   "button": {
     "add_to_chrome_for_free": "添加到 Chrome - 免费",

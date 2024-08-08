@@ -765,7 +765,15 @@
     "pdf_tools__detail_description_object__extractpage_pages__top_left": "Hent ut sider fra PDF-dokumentet ditt på nettet gratis. Ingen nedlastinger, påmeldinger eller dyre programmer. Alt du trenger er en nettleser og en internettforbindelse.",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Gratis å bruke uten registrering",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "Hent ut PDF-innhold på sekunder",
-    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Kjører sikkert og enkelt i nettleseren din"
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Kjører sikkert og enkelt i nettleseren din",
+    "home_page__hero_section__ab_test_v9__variant2__title__part1": "Forstå raskere. Skriv bedre.",
+    "home_page__hero_section__ab_test_v9__variant2__title__part2": "Jobb smartere med AI.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part1": "Forstå raskere. Skriv bedre.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part2": "Gi ekstra kraft til arbeidet ditt med AI.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part1": "Forsk raskere. Skriv bedre.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part2": "Gi ekstra kraft til arbeidet ditt med AI.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part1": "Forsk raskere. Skriv bedre.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part2": "Jobb smartere med AI."
   },
   "prompt_library": {
     "use_prompt_library__title": "Høykvalitets AI-promptbibliotek",

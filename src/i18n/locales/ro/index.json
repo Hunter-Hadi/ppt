@@ -765,7 +765,15 @@
     "pdf_tools__detail_description_object__extractpage_pages__top_left": "Extrageți paginile din documentul dvs. PDF online gratuit. Fără descărcări, înregistrări sau software costisitor. Tot ce aveți nevoie este un browser și o conexiune la internet.",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Gratuit de utilizat fără înregistrare",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "Extrageți conținutul PDF în câteva secunde",
-    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Rulează în mod sigur și simplu în browserul dvs."
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Rulează în mod sigur și simplu în browserul dvs.",
+    "home_page__hero_section__ab_test_v9__variant2__title__part1": "Înțelegeți mai rapid. Scrieți mai bine.",
+    "home_page__hero_section__ab_test_v9__variant2__title__part2": "Lucrați mai inteligent cu AI.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part1": "Înțelegeți mai rapid. Scrieți mai bine.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part2": "Superiorați-vă munca cu AI.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part1": "Cercetați mai rapid. Scrieți mai bine.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part2": "Superiorați-vă munca cu AI.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part1": "Cercetați mai rapid. Scrieți mai bine.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part2": "Lucrați mai inteligent cu AI."
   },
   "prompt_library": {
     "use_prompt_library__title": "Bibliotecă de prompt-uri AI de înaltă calitate",

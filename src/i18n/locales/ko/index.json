@@ -765,7 +765,15 @@
     "pdf_tools__detail_description_object__extractpage_pages__top_left": "PDF 문서에서 페이지를 무료로 추출합니다. 다운로드, 가입 또는 비싼 소프트웨어가 필요하지 않습니다. 브라우저와 인터넷 연결만 있으면 됩니다.",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "가입 없이 무료로 사용할 수 있습니다",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "초 단위로 PDF 콘텐츠를 추출합니다",
-    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "브라우저에서 안전하고 간편하게 실행됩니다"
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "브라우저에서 안전하고 간편하게 실행됩니다",
+    "home_page__hero_section__ab_test_v9__variant2__title__part1": "빠르게 이해하세요. 더 나은 글을 쓰세요.",
+    "home_page__hero_section__ab_test_v9__variant2__title__part2": "AI와 더 스마트하게 일하세요.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part1": "빠르게 이해하세요. 더 나은 글을 쓰세요.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part2": "AI로 업무를 한층 더 빠르게 진행하세요.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part1": "빠르게 연구하세요. 더 나은 글을 쓰세요.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part2": "AI로 업무를 한층 더 빠르게 진행하세요.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part1": "빠르게 연구하세요. 더 나은 글을 쓰세요.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part2": "AI와 더 스마트하게 일하세요."
   },
   "prompt_library": {
     "use_prompt_library__title": "고품질 AI 프롬프트 라이브러리",

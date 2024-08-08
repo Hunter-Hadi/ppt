@@ -765,7 +765,15 @@
     "pdf_tools__detail_description_object__extractpage_pages__top_left": "Poista sivuja PDF-dokumentistasi verkossa ilmaiseksi. Ei latauksia, rekisteröitymisiä tai kalliita ohjelmistoja. Tarvitset vain selaimen ja internet-yhteyden.",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Käytä ilmaiseksi ilman rekisteröitymistä",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "Poista PDF-sisältöä sekunneissa",
-    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Toimii turvallisesti ja yksinkertaisesti selaimessasi"
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Toimii turvallisesti ja yksinkertaisesti selaimessasi",
+    "home_page__hero_section__ab_test_v9__variant2__title__part1": "Ymmärrä nopeammin. Kirjoita paremmin.",
+    "home_page__hero_section__ab_test_v9__variant2__title__part2": "Työskentele älykkäämmin tekoälyn avulla.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part1": "Ymmärrä nopeammin. Kirjoita paremmin.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part2": "Tehosta työskentelyäsi tekoälyn avulla.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part1": "Tutki nopeammin. Kirjoita paremmin.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part2": "Tehosta työskentelyäsi tekoälyn avulla.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part1": "Tutki nopeammin. Kirjoita paremmin.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part2": "Työskentele älykkäämmin tekoälyn avulla."
   },
   "prompt_library": {
     "use_prompt_library__title": "Korkealaatuinen AI-prompt-kirjasto",

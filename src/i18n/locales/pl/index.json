@@ -765,7 +765,15 @@
     "pdf_tools__detail_description_object__extractpage_pages__top_left": "Wyodrębnij strony z dokumentu PDF online za darmo. Nie ma potrzeby pobierania, rejestracji ani drogiego oprogramowania. Wystarczy przeglądarka i połączenie internetowe.",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Darmowe w użyciu bez rejestracji",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "Wyodrębnij zawartość PDF w kilka sekund",
-    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Działa bezpiecznie i prosto w Twojej przeglądarce"
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Działa bezpiecznie i prosto w Twojej przeglądarce",
+    "home_page__hero_section__ab_test_v9__variant2__title__part1": "Szybsze zrozumienie. Lepsze pisanie.",
+    "home_page__hero_section__ab_test_v9__variant2__title__part2": "Sprytniejsza praca z AI.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part1": "Szybsze zrozumienie. Lepsze pisanie.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part2": "Wzmacniaj swoją pracę dzięki AI.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part1": "Szybsze badania. Lepsze pisanie.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part2": "Wzmacniaj swoją pracę dzięki AI.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part1": "Szybsze badania. Lepsze pisanie.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part2": "Sprytniejsza praca z AI."
   },
   "prompt_library": {
     "use_prompt_library__title": "Wysokiej jakości biblioteka promptów AI",

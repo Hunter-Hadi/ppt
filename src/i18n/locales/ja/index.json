@@ -765,7 +765,15 @@
     "pdf_tools__detail_description_object__extractpage_pages__top_left": "PDFドキュメントからページを無料で抽出します。ダウンロード、サインアップ、高価なソフトウェアは不要です。ブラウザとインターネット接続があればすぐに利用できます。",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "登録不要で無料利用可能",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "数秒でPDFコンテンツを抽出",
-    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "ブラウザで安全かつ簡単に実行"
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "ブラウザで安全かつ簡単に実行",
+    "home_page__hero_section__ab_test_v9__variant2__title__part1": "より速く理解。より良い文章を書く。",
+    "home_page__hero_section__ab_test_v9__variant2__title__part2": "AI と共にスマートに作業。",
+    "home_page__hero_section__ab_test_v9__variant3__title__part1": "より速く理解。より良い文章を書く。",
+    "home_page__hero_section__ab_test_v9__variant3__title__part2": "AI で作業を強化。",
+    "home_page__hero_section__ab_test_v9__variant4__title__part1": "より速く研究。より良い文章を書く。",
+    "home_page__hero_section__ab_test_v9__variant4__title__part2": "AI で作業を強化。",
+    "home_page__hero_section__ab_test_v9__variant5__title__part1": "より速く研究。より良い文章を書く。",
+    "home_page__hero_section__ab_test_v9__variant5__title__part2": "AI と共にスマートに作業。"
   },
   "prompt_library": {
     "use_prompt_library__title": "高品質なAIプロンプトライブラリ",

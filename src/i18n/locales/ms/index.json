@@ -765,7 +765,15 @@
     "pdf_tools__detail_description_object__extractpage_pages__top_left": "Ekstrak halaman daripada dokumen PDF anda secara dalam talian secara percuma. Tiada muat turun, pendaftaran, atau perisian mahal diperlukan. Semuanya anda perlukan hanyalah pelayar dan sambungan internet.",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Percuma digunakan tanpa pendaftaran",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "Ekstrak kandungan PDF dalam saat",
-    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Berjalan dengan selamat dan mudah di pelayar anda"
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Berjalan dengan selamat dan mudah di pelayar anda",
+    "home_page__hero_section__ab_test_v9__variant2__title__part1": "Fahami dengan lebih cepat. Tulis dengan lebih baik.",
+    "home_page__hero_section__ab_test_v9__variant2__title__part2": "Bekerja lebih bijak dengan AI.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part1": "Fahami dengan lebih cepat. Tulis dengan lebih baik.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part2": "Percepatkan kerja anda dengan AI.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part1": "Kaji dengan lebih cepat. Tulis dengan lebih baik.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part2": "Percepatkan kerja anda dengan AI.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part1": "Kaji dengan lebih cepat. Tulis dengan lebih baik.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part2": "Bekerja lebih bijak dengan AI."
   },
   "prompt_library": {
     "use_prompt_library__title": "Pustaka prompt AI berkualiti tinggi",

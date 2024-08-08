@@ -765,7 +765,15 @@
     "pdf_tools__detail_description_object__extractpage_pages__top_left": "Estrai pagine dal tuo documento PDF online gratuitamente. Nessun download, registrazione o software costoso. Tutto ciò di cui hai bisogno è un browser e una connessione internet.",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Gratuito da usare senza registrazione",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "Estrai contenuti PDF in pochi secondi",
-    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Funziona in modo sicuro e semplice nel tuo browser"
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Funziona in modo sicuro e semplice nel tuo browser",
+    "home_page__hero_section__ab_test_v9__variant2__title__part1": "Comprendi più velocemente. Scrivi meglio.",
+    "home_page__hero_section__ab_test_v9__variant2__title__part2": "Lavora in modo più intelligente con l'IA.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part1": "Comprendi più velocemente. Scrivi meglio.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part2": "Potenzia il tuo lavoro con l'IA.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part1": "Ricerca più velocemente. Scrivi meglio.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part2": "Potenzia il tuo lavoro con l'IA.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part1": "Ricerca più velocemente. Scrivi meglio.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part2": "Lavora in modo più intelligente con l'IA."
   },
   "use_cases_pages": {
     "research__title": "Potenzia il tuo browser con Ricerca AI 10 volte più veloce",

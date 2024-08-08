@@ -765,7 +765,15 @@
     "pdf_tools__detail_description_object__extractpage_pages__top_left": "Видобувайте сторінки з вашого PDF-документа онлайн безкоштовно. Немає потреби завантажувати, реєструватися або використовувати дороге програмне забезпечення. Все, що вам потрібно, це браузер та підключення до Інтернету.",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Безкоштовно використовувати без реєстрації",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "Видобувайте вміст PDF за кілька секунд",
-    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Працює безпечно та просто у вашому браузері"
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Працює безпечно та просто у вашому браузері",
+    "home_page__hero_section__ab_test_v9__variant2__title__part1": "Розумійте швидше. Пишіть краще.",
+    "home_page__hero_section__ab_test_v9__variant2__title__part2": "Працюйте розумніше з штучним інтелектом.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part1": "Розумійте швидше. Пишіть краще.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part2": "Посилюйте свою роботу за допомогою штучного інтелекту.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part1": "Досліджуйте швидше. Пишіть краще.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part2": "Посилюйте свою роботу за допомогою штучного інтелекту.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part1": "Досліджуйте швидше. Пишіть краще.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part2": "Працюйте розумніше з штучним інтелектом."
   },
   "prompt_library": {
     "use_prompt_library__title": "Бібліотека високоякісних AI-підказок",

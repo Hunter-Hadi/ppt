@@ -765,7 +765,15 @@
     "pdf_tools__detail_description_object__extractpage_pages__top_left": "استخراج صفحات من مستند PDF الخاص بك عبر الإنترنت مجانًا. لا تحتاج إلى تنزيل أي برامج أو التسجيل أو استخدام برامج باهظة الثمن. كل ما تحتاجه هو متصفح واتصال بالإنترنت.",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "مجاني للاستخدام بدون تسجيل",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "استخراج محتوى PDF في ثوانٍ",
-    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "يعمل بشكل آمن وبسيط في متصفحك"
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "يعمل بشكل آمن وبسيط في متصفحك",
+    "home_page__hero_section__ab_test_v9__variant2__title__part1": "فهم أسرع. كتابة أفضل.",
+    "home_page__hero_section__ab_test_v9__variant2__title__part2": "اعمل بذكاء مع الذكاء الاصطناعي.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part1": "فهم أسرع. كتابة أفضل.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part2": "زود عملك بالطاقة مع الذكاء الاصطناعي.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part1": "البحث بسرعة. كتابة أفضل.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part2": "زود عملك بالطاقة مع الذكاء الاصطناعي.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part1": "البحث بسرعة. كتابة أفضل.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part2": "اعمل بذكاء مع الذكاء الاصطناعي."
   },
   "prompt_library": {
     "use_prompt_library__title": "مكتبة نصوص AI عالية الجودة",

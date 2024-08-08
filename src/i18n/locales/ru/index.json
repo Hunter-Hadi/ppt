@@ -765,7 +765,15 @@
     "pdf_tools__detail_description_object__extractpage_pages__top_left": "Извлеките страницы из своего PDF-документа онлайн бесплатно. Никаких загрузок, регистраций или дорогостоящего программного обеспечения. Вам нужен только браузер и интернет-соединение.",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Бесплатно использовать без регистрации",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "Извлеките содержимое PDF за секунды",
-    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Безопасно и просто работает в вашем браузере"
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Безопасно и просто работает в вашем браузере",
+    "home_page__hero_section__ab_test_v9__variant2__title__part1": "Понимайте быстрее. Пишите лучше.",
+    "home_page__hero_section__ab_test_v9__variant2__title__part2": "Работайте умнее с ИИ.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part1": "Понимайте быстрее. Пишите лучше.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part2": "Ускорьте свою работу с ИИ.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part1": "Исследуйте быстрее. Пишите лучше.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part2": "Ускорьте свою работу с ИИ.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part1": "Исследуйте быстрее. Пишите лучше.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part2": "Работайте умнее с ИИ."
   },
   "prompt_library": {
     "use_prompt_library__title": "Библиотека высококачественных AI подсказок",

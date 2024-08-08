@@ -765,7 +765,15 @@
     "pdf_tools__detail_description_object__extractpage_pages__top_left": "Extrahujte stránky z vašeho PDF dokumentu online zdarma. žádné stažení, registrace nebo drahý software. Vše, co potřebujete, je prohlížeč a internetové připojení.",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Zdarma k použití bez registrace",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "Extrahujte obsah PDF během několika sekund",
-    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Bezpečně a jednoduše běží ve vašem prohlížeči"
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Bezpečně a jednoduše běží ve vašem prohlížeči",
+    "home_page__hero_section__ab_test_v9__variant2__title__part1": "Rozumějte rychleji. Pište lépe.",
+    "home_page__hero_section__ab_test_v9__variant2__title__part2": "Pracujte chytřeji s umělou inteligencí.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part1": "Rozumějte rychleji. Pište lépe.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part2": "Vylepšete svou práci s umělou inteligencí.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part1": "Vyhledejte rychleji. Pište lépe.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part2": "Vylepšete svou práci s umělou inteligencí.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part1": "Vyhledejte rychleji. Pište lépe.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part2": "Pracujte chytřeji s umělou inteligencí."
   },
   "prompt_library": {
     "use_prompt_library__title": "Knihovna vysoké kvality pro AI prompty",

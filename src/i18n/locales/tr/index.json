@@ -765,7 +765,15 @@
     "pdf_tools__detail_description_object__extractpage_pages__top_left": "PDF belgenizden sayfaları çevrimiçi ücretsiz olarak çıkarın. İndirme, kayıt olma veya pahalı yazılım gerekmez. Tek ihtiyacınız olan bir tarayıcı ve internet bağlantısıdır.",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Kayıt olmadan ücretsiz kullanım",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "PDF içeriğini saniyeler içinde çıkarın",
-    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Tarayıcınızda güvenli ve basit bir şekilde çalışır"
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Tarayıcınızda güvenli ve basit bir şekilde çalışır",
+    "home_page__hero_section__ab_test_v9__variant2__title__part1": "Daha hızlı anla. Daha iyi yaz.",
+    "home_page__hero_section__ab_test_v9__variant2__title__part2": "Yapay zeka ile daha akıllı çalış.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part1": "Daha hızlı anla. Daha iyi yaz.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part2": "İşini yapay zeka ile hızlandır.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part1": "Daha hızlı araştır. Daha iyi yaz.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part2": "İşini yapay zeka ile hızlandır.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part1": "Daha hızlı araştır. Daha iyi yaz.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part2": "Yapay zeka ile daha akıllı çalış."
   },
   "prompt_library": {
     "use_prompt_library__title": "Yüksek kaliteli AI prompt kütüphanesi",

@@ -765,7 +765,15 @@
     "pdf_tools__detail_description_object__extractpage_pages__top_left": "Uddrag sider fra din PDF-dokument online gratis. Ingen downloads, tilmeldinger eller dyre software. Alt du behøver er en browser og en internetforbindelse.",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Gratis at bruge uden registrering",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "Uddrag PDF-indhold på sekunder",
-    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Kører sikkert og enkelt i din browser"
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Kører sikkert og enkelt i din browser",
+    "home_page__hero_section__ab_test_v9__variant2__title__part1": "Forstå hurtigere. Skriv bedre.",
+    "home_page__hero_section__ab_test_v9__variant2__title__part2": "Arbejd smartere med AI.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part1": "Forstå hurtigere. Skriv bedre.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part2": "Boost dit arbejde med AI.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part1": "Forsk hurtigere. Skriv bedre.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part2": "Boost dit arbejde med AI.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part1": "Forsk hurtigere. Skriv bedre.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part2": "Arbejd smartere med AI."
   },
   "prompt_library": {
     "use_prompt_library__title": "Høj kvalitet AI prompt bibliotek",

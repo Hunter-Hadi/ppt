@@ -765,7 +765,15 @@
     "pdf_tools__detail_description_object__extractpage_pages__top_left": "Extraire des pages de votre document PDF en ligne gratuitement. Aucun téléchargement, inscription ou logiciel coûteux. Tout ce dont vous avez besoin est un navigateur et une connexion Internet.",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Gratuit à utiliser sans inscription",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "Extraire le contenu du PDF en quelques secondes",
-    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Fonctionne de manière sécurisée et simplement dans votre navigateur"
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Fonctionne de manière sécurisée et simplement dans votre navigateur",
+    "home_page__hero_section__ab_test_v9__variant2__title__part1": "Comprendre plus vite. Écrire mieux.",
+    "home_page__hero_section__ab_test_v9__variant2__title__part2": "Travaillez plus intelligemment avec l'IA.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part1": "Comprendre plus vite. Écrire mieux.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part2": "Booster votre travail avec l'IA.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part1": "Rechercher plus vite. Écrire mieux.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part2": "Booster votre travail avec l'IA.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part1": "Rechercher plus vite. Écrire mieux.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part2": "Travaillez plus intelligemment avec l'IA."
   },
   "prompt_library": {
     "use_prompt_library__title": "Bibliothèque de prompts IA de haute qualité",

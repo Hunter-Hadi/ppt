@@ -765,7 +765,15 @@
     "pdf_tools__detail_description_object__extractpage_pages__top_left": "Extrahera sidor från din PDF-dokument online gratis. Inga nedladdningar, registreringar eller dyra program. Allt du behöver är en webbläsare och en internetanslutning.",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Gratis att använda utan registrering",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "Extrahera PDF-innehåll på sekunder",
-    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Körs säkert och enkelt i din webbläsare"
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Körs säkert och enkelt i din webbläsare",
+    "home_page__hero_section__ab_test_v9__variant2__title__part1": "Förstå snabbare. Skriv bättre.",
+    "home_page__hero_section__ab_test_v9__variant2__title__part2": "Arbeta smartare med AI.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part1": "Förstå snabbare. Skriv bättre.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part2": "Superladda ditt arbete med AI.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part1": "Forska snabbare. Skriv bättre.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part2": "Superladda ditt arbete med AI.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part1": "Forska snabbare. Skriv bättre.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part2": "Arbeta smartare med AI."
   },
   "prompt_library": {
     "use_prompt_library__title": "Högkvalitativ AI-promptbibliotek",

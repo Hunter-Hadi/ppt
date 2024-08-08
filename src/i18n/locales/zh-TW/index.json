@@ -765,7 +765,15 @@
     "pdf_tools__detail_description_object__extractpage_pages__top_left": "免費在線提取PDF文件的頁面。無需下載、註冊或昂貴的軟件。您只需要一個瀏覽器和互聯網連接。",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "無需註冊即可免費使用",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "幾秒鐘內提取PDF內容",
-    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "在您的瀏覽器中安全且簡單運行"
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "在您的瀏覽器中安全且簡單運行",
+    "home_page__hero_section__ab_test_v9__variant2__title__part1": "更快理解。寫得更好。",
+    "home_page__hero_section__ab_test_v9__variant2__title__part2": "智能工作，更高效。",
+    "home_page__hero_section__ab_test_v9__variant3__title__part1": "更快理解。寫得更好。",
+    "home_page__hero_section__ab_test_v9__variant3__title__part2": "搭配人工智慧，工作更強大。",
+    "home_page__hero_section__ab_test_v9__variant4__title__part1": "更快研究。寫得更好。",
+    "home_page__hero_section__ab_test_v9__variant4__title__part2": "搭配人工智慧，工作更強大。",
+    "home_page__hero_section__ab_test_v9__variant5__title__part1": "更快研究。寫得更好。",
+    "home_page__hero_section__ab_test_v9__variant5__title__part2": "智能工作，更高效。"
   },
   "prompt_library": {
     "use_prompt_library__title": "高品質 AI 提示庫",

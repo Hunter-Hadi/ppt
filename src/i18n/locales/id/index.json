@@ -765,7 +765,15 @@
     "pdf_tools__detail_description_object__extractpage_pages__top_left": "Ekstrak halaman dari dokumen PDF Anda secara online secara gratis. Tidak perlu mengunduh, mendaftar, atau menggunakan perangkat lunak mahal. Yang Anda butuhkan hanyalah browser dan koneksi internet.",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Gratis digunakan tanpa registrasi",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "Ekstrak konten PDF dalam hitungan detik",
-    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Berjalan dengan aman dan mudah di browser Anda"
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Berjalan dengan aman dan mudah di browser Anda",
+    "home_page__hero_section__ab_test_v9__variant2__title__part1": "Pahami lebih cepat. Tulis lebih baik.",
+    "home_page__hero_section__ab_test_v9__variant2__title__part2": "Bekerja lebih cerdas dengan AI.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part1": "Pahami lebih cepat. Tulis lebih baik.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part2": "Tingkatkan kinerja Anda dengan AI.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part1": "Penelitian lebih cepat. Tulis lebih baik.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part2": "Tingkatkan kinerja Anda dengan AI.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part1": "Penelitian lebih cepat. Tulis lebih baik.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part2": "Bekerja lebih cerdas dengan AI."
   },
   "prompt_library": {
     "use_prompt_library__title": "Perpustakaan AI berkualitas tinggi",

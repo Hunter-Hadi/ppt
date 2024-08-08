@@ -765,7 +765,15 @@
     "pdf_tools__detail_description_object__extractpage_pages__top_left": "Extrae páginas de tu documento PDF en línea de forma gratuita. Sin descargas, registros o software costoso. Todo lo que necesitas es un navegador y una conexión a internet.",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Gratis para usar sin registro",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "Extrae contenido de PDF en segundos",
-    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Funciona de forma segura y sencilla en tu navegador"
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Funciona de forma segura y sencilla en tu navegador",
+    "home_page__hero_section__ab_test_v9__variant2__title__part1": "Comprende más rápido. Escribe mejor.",
+    "home_page__hero_section__ab_test_v9__variant2__title__part2": "Trabaja de forma más inteligente con IA.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part1": "Comprende más rápido. Escribe mejor.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part2": "Potencia tu trabajo con IA.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part1": "Investiga más rápido. Escribe mejor.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part2": "Potencia tu trabajo con IA.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part1": "Investiga más rápido. Escribe mejor.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part2": "Trabaja de forma más inteligente con IA."
   },
   "prompt_library": {
     "use_prompt_library__title": "Biblioteca de sugerencias de IA de alta calidad",

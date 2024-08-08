@@ -765,7 +765,15 @@
     "pdf_tools__detail_description_object__extractpage_pages__top_left": "สร้างหน้าจากเอกสาร PDF ของคุณออนไลน์ฟรี ไม่ต้องดาวน์โหลด สมัครสมาชิก หรือใช้ซอฟต์แวร์ที่แพง ทุกอย่างที่คุณต้องการคือเบราว์เซอร์และการเชื่อมต่ออินเทอร์เน็ต",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "ใช้งานฟรีโดยไม่ต้องลงทะเบียน",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "สกัดเนื้อหา PDF ในไม่กี่วินาที",
-    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "ทำงานอย่างปลอดภัยและง่ายดายในเบราว์เซอร์ของคุณ"
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "ทำงานอย่างปลอดภัยและง่ายดายในเบราว์เซอร์ของคุณ",
+    "home_page__hero_section__ab_test_v9__variant2__title__part1": "เข้าใจได้เร็วขึ้น",
+    "home_page__hero_section__ab_test_v9__variant2__title__part2": "ทำงานอย่างฉลาดด้วย AI",
+    "home_page__hero_section__ab_test_v9__variant3__title__part1": "เข้าใจได้เร็วขึ้น",
+    "home_page__hero_section__ab_test_v9__variant3__title__part2": "เพิ่มประสิทธิภาพในการทำงานด้วย AI",
+    "home_page__hero_section__ab_test_v9__variant4__title__part1": "วิจัยได้เร็วขึ้น",
+    "home_page__hero_section__ab_test_v9__variant4__title__part2": "เพิ่มประสิทธิภาพในการทำงานด้วย AI",
+    "home_page__hero_section__ab_test_v9__variant5__title__part1": "วิจัยได้เร็วขึ้น",
+    "home_page__hero_section__ab_test_v9__variant5__title__part2": "ทำงานอย่างฉลาดด้วย AI"
   },
   "prompt_library": {
     "use_prompt_library__title": "ไลบรารีคำแนะนำ AI คุณภาพสูง",

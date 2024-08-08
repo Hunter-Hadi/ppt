@@ -765,7 +765,15 @@
     "pdf_tools__detail_description_object__extractpage_pages__top_left": "Extrahieren Sie Seiten aus Ihrem PDF-Dokument online kostenlos. Kein Download, keine Anmeldung, keine teure Software. Alles was Sie brauchen ist ein Browser und eine Internetverbindung.",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Kostenlos und ohne Registrierung zu verwenden",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "Extrahieren Sie PDF-Inhalte in Sekunden",
-    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Läuft sicher und einfach in Ihrem Browser"
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Läuft sicher und einfach in Ihrem Browser",
+    "home_page__hero_section__ab_test_v9__variant2__title__part1": "Schneller verstehen. Besser schreiben.",
+    "home_page__hero_section__ab_test_v9__variant2__title__part2": "Intelligenter arbeiten mit KI.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part1": "Schneller verstehen. Besser schreiben.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part2": "Steigern Sie Ihre Arbeit mit KI.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part1": "Schneller recherchieren. Besser schreiben.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part2": "Steigern Sie Ihre Arbeit mit KI.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part1": "Schneller recherchieren. Besser schreiben.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part2": "Intelligenter arbeiten mit KI."
   },
   "prompt_library": {
     "use_prompt_library__title": "Hochwertige KI-Prompt-Bibliothek",

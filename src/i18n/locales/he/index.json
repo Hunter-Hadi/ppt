@@ -765,7 +765,15 @@
     "pdf_tools__detail_description_object__extractpage_pages__top_left": "לחלץ עמודים ממסמך ה- PDF שלך באינטרנט בחינם. ללא הורדות, הרשמות או תוכנה יקרה. כל מה שאתה צריך הוא דפדפן וחיבור לאינטרנט.",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "חינם לשימוש ללא הרשמה",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "לחלץ תוכן מ-PDF בשניות",
-    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "פועל בצורה מאובטחת ופשוטה בדפדפן שלך"
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "פועל בצורה מאובטחת ופשוטה בדפדפן שלך",
+    "home_page__hero_section__ab_test_v9__variant2__title__part1": "להבין מהר יותר. לכתוב טוב יותר.",
+    "home_page__hero_section__ab_test_v9__variant2__title__part2": "לעבוד בחכמה עם AI.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part1": "להבין מהר יותר. לכתוב טוב יותר.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part2": "להפעיל את העבודה שלך באמצעות AI.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part1": "לחקור מהר יותר. לכתוב טוב יותר.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part2": "להפעיל את העבודה שלך באמצעות AI.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part1": "לחקור מהר יותר. לכתוב טוב יותר.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part2": "לעבוד בחכמה עם AI."
   },
   "prompt_library": {
     "use_prompt_library__title": "ספריית פרומפטים מתקדמת",

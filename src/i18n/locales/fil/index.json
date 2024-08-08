@@ -765,7 +765,15 @@
     "pdf_tools__detail_description_object__extractpage_pages__top_left": "I-extract ang mga pahina mula sa iyong PDF document online nang libre. Walang kailangang i-download, mag-sign up, o mamahaling software. Ang kailangan mo lang ay isang browser at internet connection.",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_1": "Libre gamitin nang walang registration",
     "pdf_tools__detail_description_object__extractpage_pdf__top_right_2": "I-extract ang nilalaman ng PDF sa loob ng ilang segundo",
-    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Tumatakbo nang ligtas at simple sa iyong browser"
+    "pdf_tools__detail_description_object__extractpage_pdf__top_right_3": "Tumatakbo nang ligtas at simple sa iyong browser",
+    "home_page__hero_section__ab_test_v9__variant2__title__part1": "Mas maunawaan nang mas mabilis. Magsulat nang mas mahusay.",
+    "home_page__hero_section__ab_test_v9__variant2__title__part2": "Magtrabaho nang mas matalino gamit ang AI.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part1": "Mas maunawaan nang mas mabilis. Magsulat nang mas mahusay.",
+    "home_page__hero_section__ab_test_v9__variant3__title__part2": "Palakasin ang iyong trabaho gamit ang AI.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part1": "Mag-research nang mas mabilis. Magsulat nang mas mahusay.",
+    "home_page__hero_section__ab_test_v9__variant4__title__part2": "Palakasin ang iyong trabaho gamit ang AI.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part1": "Mag-research nang mas mabilis. Magsulat nang mas mahusay.",
+    "home_page__hero_section__ab_test_v9__variant5__title__part2": "Magtrabaho nang mas matalino gamit ang AI."
   },
   "prompt_library": {
     "use_prompt_library__title": "Mataas na kalidad na AI prompt library",
