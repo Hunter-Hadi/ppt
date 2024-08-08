@@ -48,7 +48,7 @@ const FunctionalityCommonOperateFabricToolsPopup: FC<
   const [applicationKeys, setApplicationKeys] = useState<{
     [key in string]: boolean
   }>({})
-  const activeObject = useMemo(
+  const activeObject: any | undefined = useMemo(
     () => editor.current?.getActiveObject(),
     [editor.current],
   )
@@ -172,9 +172,9 @@ const FunctionalityCommonOperateFabricToolsPopup: FC<
   }
   const isImage = activeObject?.type === 'image' // 图片
   const isEditingText =
-    activeObject.type === 'textbox' || activeObject.type === 'i-text' // 可以编辑文字的文本
-  const isText = activeObject.type === 'text' || isEditingText //文本
-  const isDateValid = activeObject.isDateValid // 日期
+    activeObject?.type === 'textbox' || activeObject?.type === 'i-text' // 可以编辑文字的文本
+  const isText = activeObject?.type === 'text' || isEditingText //文本
+  const isDateValid = activeObject?.isDateValid // 日期
   //在弹窗内部阻止点击事件冒泡
   return (
     <Stack
