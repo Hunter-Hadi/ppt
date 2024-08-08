@@ -1885,5 +1885,38 @@
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "Togol untuk mengekstrak halaman sebagai satu PDF atau PDF berasingan.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "Klik “Sahkan untuk mengeluarkan” dan tunggu hanya beberapa saat.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "Muat turun halaman PDF yang anda ekstrak—itu sahaja!"
+  },
+  "pages__pdf_tools__pdf_annotator": {
+    "title": "Anotasi PDF",
+    "description": "Anotasi fail PDF anda dengan mudah dengan menulis atau melukis terus padanya.",
+    "seo_title": "Anotasi PDF Percuma - Tulis dan Lukis Dalam Talian pada Fail PDF | MaxAI.me",
+    "seo_description": "Guna anotasi PDF dalam talian percuma kami untuk menulis atau melukis pada fail PDF anda. Tiada muat turun, cap air, atau pendaftaran diperlukan. Capai dan sunting dokumen anda dengan lancar.",
+    "detail_description_object__pdf_annotator__top_left": "Anotasi PDF percuma kami membolehkan anda menulis, melukis, dan sorot terus pada dokumen PDF anda. Nikmati pengalaman yang lancar tanpa sebarang batasan.",
+    "detail_description_object__pdf_annotator__top_right_1": "Anotasi cepat pada fail PDF anda hanya dengan beberapa klik.",
+    "detail_description_object__pdf_annotator__top_right_2": "Muat naik fail PDF anda untuk mula anotasi.",
+    "detail_description_object__pdf_annotator__top_right_3": "Berfungsi dengan sempurna pada peranti Mac, Windows, Android, dan iOS.",
+    "detail_description_object__pdf_annotator__middle_1_title": "Anotasi PDF Dalam Talian yang Mudah Digunakan",
+    "detail_description_object__pdf_annotator__middle_1_description": "Dengan anotasi PDF yang intuitif kami, anda boleh menulis atau melukis pada fail PDF anda dengan mudah. Muat naik dokumen anda, mula anotasi, dan muat turun PDF yang disunting dalam beberapa minit, tanpa perlu membuat akaun.",
+    "detail_description_object__pdf_annotator__middle_2_title": "Anotasi Selamat dan Peribadi",
+    "detail_description_object__pdf_annotator__middle_2_description": "Semua anotasi anda diproses terus dalam pelayar anda, memastikan dokumen anda kekal peribadi dan selamat. Tiada data dihantar ke awan, melindungi maklumat sensitif anda.",
+    "detail_description_object__pdf_annotator__middle_3_title": "Kecocokan Rentang Peranti",
+    "detail_description_object__pdf_annotator__middle_3_description": "Anotasi PDF dalam talian kami boleh diakses dari mana-mana peranti dengan pelayar web, termasuk desktop, laptop, dan peranti mudah alih. Anotasi fail PDF anda pada bila-bila masa, di mana sahaja.",
+    "detail_description_object__pdf_annotator__middle_4_title": "Proses Anotasi Mudah",
+    "detail_description_object__pdf_annotator__middle_4_description": "Menganotasi fail PDF anda adalah mudah: muat naik fail anda, gunakan alat binaan untuk menulis atau melukis, dan kemudian muat turun versi yang disunting. Malah pemula lengkap pun boleh mengendalikan proses ini dengan mudah.",
+    "detail_description_object__pdf_annotator__middle_5_title": "Tiada Kos, Tiada Komplikasi",
+    "detail_description_object__pdf_annotator__middle_5_description": "Tiada keperluan untuk membeli perisian mahal untuk anotasi PDF anda. Anotasi PDF percuma kami boleh didapati dalam talian tanpa kos tersembunyi, muat turun, atau pendaftaran diperlukan, memastikan pengalaman tanpa masalah.",
+    "detail_description_object__pdf_annotator__middle_6_title": "Pemprosesan Pantas dan Efisien",
+    "detail_description_object__pdf_annotator__middle_6_description": "Perkhidmatan anotasi PDF kami direka untuk kelajuan. Proses dan sempurnakan dokumen anda dengan cepat dengan alat yang efisien yang meningkatkan aliran kerja anda.",
+    "detail_description_object__pdf_annotator__bottom_right_title": "Cara Anotasi Fail PDF Dalam Talian:",
+    "detail_description_object__pdf_annotator__bottom_right_description_1": "Muat naik fail PDF yang ingin anda anotasi.",
+    "detail_description_object__pdf_annotator__bottom_right_description_2": "Gunakan alat anotasi untuk menulis, melukis, atau sorot pada dokumen.",
+    "detail_description_object__pdf_annotator__bottom_right_description_3": "Klik 'Muat Turun' untuk menyimpan fail PDF yang telah dianotasi.",
+    "detail_description_object__pdf_annotator__bottom_right_description_4": "Capai fail PDF yang telah dianotasi pada mana-mana peranti dan kongsi dengan mudah."
+  },
+  "functionality__pdf_annotator": {
+    "components__pdf_annotator__insert_tools__text_annotator": "Anotasi Teks",
+    "components__pdf_annotator__insert_tools__insert_text": "masukkan teks",
+    "components__pdf_annotator__insert_tools__insert_image": "masukkan gambar",
+    "components__pdf_annotator__insert_tools__insert_signature": "Masukkan Tandatangan"
   }
 }

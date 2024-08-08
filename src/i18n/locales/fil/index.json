@@ -1885,5 +1885,38 @@
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "Magpalit upang i-extract ang mga pahina bilang isang PDF o hiwalay na PDFs.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "I-click ang “Kumpirmahin ang pag-extract” at maghintay lang ng isang segundo.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "I-download ang iyong na-extract na mga pahina ng PDF—iyan lang!"
+  },
+  "pages__pdf_tools__pdf_annotator": {
+    "title": "PDF Annotator",
+    "description": "Madaling magdagdag ng mga tala sa iyong mga PDF file nang libre sa pamamagitan ng pagsusulat o pagguhit ng direkta sa mga ito.",
+    "seo_title": "Libreng PDF Annotator - Magsulat at Magdrowing Online sa Mga PDF File | MaxAI.me",
+    "seo_description": "Gamitin ang aming libreng online na PDF annotator upang magsulat o magdrowing sa iyong mga PDF file. Walang mga pag-download, watermark, o sign-ups na kinakailangan. Ma-access at i-edit ang iyong mga dokumento nang walang abala.",
+    "detail_description_object__pdf_annotator__top_left": "Pinapayagan ka ng aming libreng PDF annotator na madaling magsulat, magdrowing, at mag-highlight direkta sa iyong mga PDF dokumento. Mag-enjoy ng walang sagabal na karanasan na walang mga limitasyon.",
+    "detail_description_object__pdf_annotator__top_right_1": "Mabilis na magdagdag ng mga tala sa iyong mga PDF file sa ilang mga klik lamang.",
+    "detail_description_object__pdf_annotator__top_right_2": "I-upload lamang ang iyong PDF file upang magsimula sa pag-aannotate.",
+    "detail_description_object__pdf_annotator__top_right_3": "Gumagana nang perpekto sa Mac, Windows, Android, at iOS devices.",
+    "detail_description_object__pdf_annotator__middle_1_title": "User-Friendly Online PDF Annotator",
+    "detail_description_object__pdf_annotator__middle_1_description": "Sa aming madaling gamiting PDF annotator, maaari kang magsulat o magdrowing sa iyong mga PDF file nang walang abala. I-upload ang iyong dokumento, simulan ang pag-aannotate, at i-download ang na-edit na PDF sa loob ng ilang minuto, lahat ng walang pangangailangan na lumikha ng account.",
+    "detail_description_object__pdf_annotator__middle_2_title": "Secure and Private Annotations",
+    "detail_description_object__pdf_annotator__middle_2_description": "Ang lahat ng iyong mga tala ay na-proseso direkta sa iyong browser, na nagtitiyak na mananatiling pribado at ligtas ang iyong mga dokumento. Walang data na ipinapadala sa ulap, na nagpoprotekta sa iyong sensitibong impormasyon.",
+    "detail_description_object__pdf_annotator__middle_3_title": "Cross-Device Compatibility",
+    "detail_description_object__pdf_annotator__middle_3_description": "Ang aming online na PDF annotator ay ma-access mula sa anumang device na may web browser, kabilang ang desktops, laptops, at mobile devices. Magdagdag ng mga tala sa iyong mga PDF file anumang oras, saanman.",
+    "detail_description_object__pdf_annotator__middle_4_title": "Simple Annotation Process",
+    "detail_description_object__pdf_annotator__middle_4_description": "Ang pag-aannotate sa iyong mga PDF file ay simple: i-upload ang iyong file, gamitin ang mga built-in na tool upang magsulat o magdrowing, at pagkatapos ay i-download ang na-edit na bersyon. Kahit ang mga baguhan ay madaling makakaraos sa prosesong ito.",
+    "detail_description_object__pdf_annotator__middle_5_title": "Walang Bayad, Walang Komplikasyon",
+    "detail_description_object__pdf_annotator__middle_5_description": "Walang pangangailangang bumili ng mahal na software upang magdagdag ng mga tala sa iyong mga PDF. Ang aming libreng PDF annotator ay available online nang walang mga nakatagong gastos, pag-download, o pagrerehistro na kinakailangan, na nagtitiyak ng walang-abalang karanasan.",
+    "detail_description_object__pdf_annotator__middle_6_title": "Mabilis at Epektibong Proseso",
+    "detail_description_object__pdf_annotator__middle_6_description": "Ang aming serbisyong pang-annotate ng PDF ay idinisenyo para sa bilis. Pabilisin at ayusin ang iyong mga dokumento nang mabilis gamit ang aming epektibong mga tool na nagpapabuti sa iyong trabaho.",
+    "detail_description_object__pdf_annotator__bottom_right_title": "Paano Magdagdag ng Mga Tala sa Mga PDF File Online:",
+    "detail_description_object__pdf_annotator__bottom_right_description_1": "I-upload ang PDF file na nais mong iannotate.",
+    "detail_description_object__pdf_annotator__bottom_right_description_2": "Gamitin ang mga tool ng annotation upang magsulat, magdrowing, o mag-highlight sa dokumento.",
+    "detail_description_object__pdf_annotator__bottom_right_description_3": "I-click ang 'I-download' upang i-save ang iyong na-annotate na PDF file.",
+    "detail_description_object__pdf_annotator__bottom_right_description_4": "Ma-access ang iyong na-annotate na PDF sa anumang device at madaling maibahagi ito."
+  },
+  "functionality__pdf_annotator": {
+    "components__pdf_annotator__insert_tools__text_annotator": "Text Annotation",
+    "components__pdf_annotator__insert_tools__insert_text": "magdagdag ng teksto",
+    "components__pdf_annotator__insert_tools__insert_image": "magdagdag ng larawan",
+    "components__pdf_annotator__insert_tools__insert_signature": "Maglagay ng Lagda"
   }
 }

@@ -1885,5 +1885,38 @@
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "Schakel om pagina's te extraheren als één PDF of afzonderlijke PDF's.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "Klik op 'Bevestigen om te extraheren' en wacht slechts een seconde.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "Download uw geëxtraheerde PDF-pagina's—dat is alles!"
+  },
+  "pages__pdf_tools__pdf_annotator": {
+    "title": "PDF Annotator",
+    "description": "Eenvoudig annoteren van uw PDF-bestanden door er direct op te schrijven of te tekenen.",
+    "seo_title": "Gratis PDF Annotator - Online schrijven en tekenen op PDF-bestanden | MaxAI.me",
+    "seo_description": "Gebruik onze gratis online PDF-annotator om te schrijven of te tekenen op uw PDF-bestanden. Geen downloads, watermerken of aanmeldingen nodig. Toegang tot en bewerk uw documenten moeiteloos.",
+    "detail_description_object__pdf_annotator__top_left": "Onze gratis PDF-annotator stelt u in staat om eenvoudig direct op uw PDF-documenten te schrijven, tekenen en markeren. Geniet van een naadloze ervaring zonder beperkingen.",
+    "detail_description_object__pdf_annotator__top_right_1": "Annoteer snel uw PDF-bestanden met slechts een paar klikken.",
+    "detail_description_object__pdf_annotator__top_right_2": "Upload eenvoudig uw PDF-bestand om te beginnen met annoteren.",
+    "detail_description_object__pdf_annotator__top_right_3": "Werkt perfect op Mac, Windows, Android en iOS-apparaten.",
+    "detail_description_object__pdf_annotator__middle_1_title": "Gebruiksvriendelijke online PDF-annotator",
+    "detail_description_object__pdf_annotator__middle_1_description": "Met onze intuïtieve PDF-annotator kunt u moeiteloos schrijven of tekenen op uw PDF-bestanden. Upload uw document, begin met annoteren en download het bewerkte PDF-bestand binnen enkele minuten, allemaal zonder dat u een account hoeft aan te maken.",
+    "detail_description_object__pdf_annotator__middle_2_title": "Veilige en privé-annotaties",
+    "detail_description_object__pdf_annotator__middle_2_description": "Al uw annotaties worden rechtstreeks verwerkt in uw browser, zodat uw documenten privé en veilig blijven. Er worden geen gegevens naar de cloud gestuurd, waardoor uw gevoelige informatie wordt beschermd.",
+    "detail_description_object__pdf_annotator__middle_3_title": "Compatibiliteit tussen apparaten",
+    "detail_description_object__pdf_annotator__middle_3_description": "Onze online PDF-annotator is toegankelijk vanaf elk apparaat met een webbrowser, inclusief desktops, laptops en mobiele apparaten. Annoteren van uw PDF-bestanden kan altijd en overal.",
+    "detail_description_object__pdf_annotator__middle_4_title": "Eenvoudig annotatieproces",
+    "detail_description_object__pdf_annotator__middle_4_description": "Het annoteren van uw PDF-bestanden is eenvoudig: upload uw bestand, gebruik de ingebouwde tools om te schrijven of tekenen, en download vervolgens de bewerkte versie. Zelfs complete beginners kunnen dit proces gemakkelijk doorlopen.",
+    "detail_description_object__pdf_annotator__middle_5_title": "Geen kosten, geen complicaties",
+    "detail_description_object__pdf_annotator__middle_5_description": "Er is geen dure software nodig om uw PDF's te annoteren. Onze gratis PDF-annotator is online beschikbaar zonder verborgen kosten, downloads of registratie vereist, wat zorgt voor een moeiteloze ervaring.",
+    "detail_description_object__pdf_annotator__middle_6_title": "Snelle en efficiënte verwerking",
+    "detail_description_object__pdf_annotator__middle_6_description": "Onze PDF-annotatieservice is ontworpen voor snelheid. Verwerk en verfijn uw documenten snel met onze efficiënte tools die uw workflow verbeteren.",
+    "detail_description_object__pdf_annotator__bottom_right_title": "Hoe PDF-bestanden online annoteren:",
+    "detail_description_object__pdf_annotator__bottom_right_description_1": "Upload het PDF-bestand dat u wilt annoteren.",
+    "detail_description_object__pdf_annotator__bottom_right_description_2": "Gebruik de annotatietools om te schrijven, tekenen of markeren in het document.",
+    "detail_description_object__pdf_annotator__bottom_right_description_3": "Klik op 'Downloaden' om uw geannoteerde PDF-bestand op te slaan.",
+    "detail_description_object__pdf_annotator__bottom_right_description_4": "Toegang tot uw geannoteerde PDF op elk apparaat en deel het eenvoudig."
+  },
+  "functionality__pdf_annotator": {
+    "components__pdf_annotator__insert_tools__text_annotator": "Tekstannotatie",
+    "components__pdf_annotator__insert_tools__insert_text": "tekst invoegen",
+    "components__pdf_annotator__insert_tools__insert_image": "afbeelding invoegen",
+    "components__pdf_annotator__insert_tools__insert_signature": "Handtekening invoegen"
   }
 }

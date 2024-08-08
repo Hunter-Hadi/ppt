@@ -1885,5 +1885,38 @@
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "Skift for at udtrække sider som en enkelt PDF eller separate PDF'er.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "Klik på 'Bekræft udtræk' og vent bare et øjeblik.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "Download dine udtrukne PDF-sider—det er det!"
+  },
+  "pages__pdf_tools__pdf_annotator": {
+    "title": "PDF Annotator",
+    "description": "Let nemt dine PDF-filer for gratis ved at skrive eller tegne direkte på dem.",
+    "seo_title": "Gratis PDF-annotator - Skriv og Tegn Online på PDF-filer | MaxAI.me",
+    "seo_description": "Brug vores gratis online PDF-annotator til at skrive eller tegne på dine PDF-filer. Ingen downloads, vandmærker eller tilmeldinger er nødvendige. Få adgang til og rediger dine dokumenter ubesværet.",
+    "detail_description_object__pdf_annotator__top_left": "Vores gratis PDF-annotator giver dig mulighed for nemt at skrive, tegne og fremhæve direkte på dine PDF-dokumenter. Nyd en problemfri oplevelse uden begrænsninger.",
+    "detail_description_object__pdf_annotator__top_right_1": "Annotér hurtigt dine PDF-filer med blot få klik.",
+    "detail_description_object__pdf_annotator__top_right_2": "Upload simpelthen din PDF-fil for at begynde at annotere.",
+    "detail_description_object__pdf_annotator__top_right_3": "Fungerer perfekt på Mac, Windows, Android og iOS-enheder.",
+    "detail_description_object__pdf_annotator__middle_1_title": "Brugervenlig Online PDF-annotator",
+    "detail_description_object__pdf_annotator__middle_1_description": "Med vores intuitive PDF-annotator kan du nemt skrive eller tegne på dine PDF-filer. Upload dit dokument, begynd at annotere, og download den redigerede PDF på få minutter, alt uden at skulle oprette en konto.",
+    "detail_description_object__pdf_annotator__middle_2_title": "Sikre og Private Annotationer",
+    "detail_description_object__pdf_annotator__middle_2_description": "Alle dine annotationer behandles direkte i din browser, hvilket sikrer, at dine dokumenter forbliver private og sikre. Ingen data sendes til skyen, hvilket beskytter dine følsomme oplysninger.",
+    "detail_description_object__pdf_annotator__middle_3_title": "Tvær-Enheds Kompatibilitet",
+    "detail_description_object__pdf_annotator__middle_3_description": "Vores online PDF-annotator er tilgængelig fra enhver enhed med en webbrowser, herunder stationære computere, bærbare computere og mobile enheder. Annotér dine PDF-filer når som helst, hvor som helst.",
+    "detail_description_object__pdf_annotator__middle_4_title": "Enkel Annotationsproces",
+    "detail_description_object__pdf_annotator__middle_4_description": "At annotere dine PDF-filer er ligetil: upload din fil, brug de indbyggede værktøjer til at skrive eller tegne, og download derefter den redigerede version. Selv komplette begyndere kan navigere i denne proces med lethed.",
+    "detail_description_object__pdf_annotator__middle_5_title": "Ingen Omkostninger, Ingen Komplikationer",
+    "detail_description_object__pdf_annotator__middle_5_description": "Der er ingen grund til at købe dyre software til at annotere dine PDF'er. Vores gratis PDF-annotator er tilgængelig online uden skjulte omkostninger, downloads eller registrering, hvilket sikrer en problemfri oplevelse.",
+    "detail_description_object__pdf_annotator__middle_6_title": "Hurtig og Effektiv Bearbejdning",
+    "detail_description_object__pdf_annotator__middle_6_description": "Vores PDF-annotationservice er designet til hastighed. Behandl og forbedr dine dokumenter hurtigt med vores effektive værktøjer, der forbedrer din arbejdsgang.",
+    "detail_description_object__pdf_annotator__bottom_right_title": "Sådan Annoteres PDF-filer Online:",
+    "detail_description_object__pdf_annotator__bottom_right_description_1": "Upload den PDF-fil, du vil annotere.",
+    "detail_description_object__pdf_annotator__bottom_right_description_2": "Brug annotationsværktøjerne til at skrive, tegne eller fremhæve på dokumentet.",
+    "detail_description_object__pdf_annotator__bottom_right_description_3": "Klik på 'Download' for at gemme din annoterede PDF-fil.",
+    "detail_description_object__pdf_annotator__bottom_right_description_4": "Få adgang til din annoterede PDF på enhver enhed og del den nemt."
+  },
+  "functionality__pdf_annotator": {
+    "components__pdf_annotator__insert_tools__text_annotator": "Tekst Annotation",
+    "components__pdf_annotator__insert_tools__insert_text": "indsæt tekst",
+    "components__pdf_annotator__insert_tools__insert_image": "indsæt billede",
+    "components__pdf_annotator__insert_tools__insert_signature": "Indsæt Underskrift"
   }
 }

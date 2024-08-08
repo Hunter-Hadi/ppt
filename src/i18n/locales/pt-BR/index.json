@@ -1885,5 +1885,38 @@
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "Alterne para extrair páginas como um único PDF ou PDFs separados.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "Clique em “Confirmar extração” e espere apenas um segundo.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "Baixe suas páginas de PDF extraídas—é isso!"
+  },
+  "pages__pdf_tools__pdf_annotator": {
+    "title": "Anotador de PDF",
+    "description": "Anotar facilmente seus arquivos PDF gratuitamente escrevendo ou desenhando diretamente neles.",
+    "seo_title": "Anotador de PDF Gratuito - Escreva e Desenhe Online em Arquivos PDF | MaxAI.me",
+    "seo_description": "Use nosso anotador de PDF online gratuito para escrever ou desenhar em seus arquivos PDF. Sem downloads, marcas d'água ou inscrições necessárias. Acesse e edite seus documentos sem esforço.",
+    "detail_description_object__pdf_annotator__top_left": "Nosso anotador de PDF gratuito permite que você escreva, desenhe e destaque facilmente em seus documentos PDF. Tenha uma experiência sem limitações.",
+    "detail_description_object__pdf_annotator__top_right_1": "Anotar rapidamente seus arquivos PDF em apenas alguns cliques.",
+    "detail_description_object__pdf_annotator__top_right_2": "Basta fazer upload do seu arquivo PDF para começar a anotar.",
+    "detail_description_object__pdf_annotator__top_right_3": "Funciona perfeitamente em dispositivos Mac, Windows, Android e iOS.",
+    "detail_description_object__pdf_annotator__middle_1_title": "Anotador de PDF Online Amigável ao Usuário",
+    "detail_description_object__pdf_annotator__middle_1_description": "Com nosso intuitivo anotador de PDF, você pode escrever ou desenhar em seus arquivos PDF sem esforço. Faça upload do seu documento, comece a anotar e baixe o PDF editado em minutos, tudo sem precisar criar uma conta.",
+    "detail_description_object__pdf_annotator__middle_2_title": "Anotações Seguras e Privadas",
+    "detail_description_object__pdf_annotator__middle_2_description": "Todas as suas anotações são processadas diretamente no seu navegador, garantindo que seus documentos permaneçam privados e seguros. Nenhum dado é enviado para a nuvem, protegendo suas informações sensíveis.",
+    "detail_description_object__pdf_annotator__middle_3_title": "Compatibilidade entre Dispositivos",
+    "detail_description_object__pdf_annotator__middle_3_description": "Nosso anotador de PDF online é acessível a partir de qualquer dispositivo com um navegador da web, incluindo desktops, laptops e dispositivos móveis. Anote seus arquivos PDF a qualquer momento, em qualquer lugar.",
+    "detail_description_object__pdf_annotator__middle_4_title": "Processo de Anotação Simples",
+    "detail_description_object__pdf_annotator__middle_4_description": "Anotar seus arquivos PDF é simples: faça upload do seu arquivo, use as ferramentas integradas para escrever ou desenhar e depois baixe a versão editada. Até mesmo iniciantes podem navegar nesse processo com facilidade.",
+    "detail_description_object__pdf_annotator__middle_5_title": "Sem Custo, Sem Complicações",
+    "detail_description_object__pdf_annotator__middle_5_description": "Não é necessário comprar software caro para anotar seus PDFs. Nosso anotador de PDF gratuito está disponível online sem custos ocultos, downloads ou registro necessários, garantindo uma experiência sem complicações.",
+    "detail_description_object__pdf_annotator__middle_6_title": "Processamento Rápido e Eficiente",
+    "detail_description_object__pdf_annotator__middle_6_description": "Nosso serviço de anotação de PDF é projetado para velocidade. Processe e refine seus documentos rapidamente com nossas ferramentas eficientes que aprimoram seu fluxo de trabalho.",
+    "detail_description_object__pdf_annotator__bottom_right_title": "Como Anotar Arquivos PDF Online:",
+    "detail_description_object__pdf_annotator__bottom_right_description_1": "Faça upload do arquivo PDF que deseja anotar.",
+    "detail_description_object__pdf_annotator__bottom_right_description_2": "Use as ferramentas de anotação para escrever, desenhar ou destacar no documento.",
+    "detail_description_object__pdf_annotator__bottom_right_description_3": "Clique em 'Download' para salvar seu arquivo PDF anotado.",
+    "detail_description_object__pdf_annotator__bottom_right_description_4": "Acesse seu PDF anotado em qualquer dispositivo e compartilhe facilmente."
+  },
+  "functionality__pdf_annotator": {
+    "components__pdf_annotator__insert_tools__text_annotator": "Anotação de Texto",
+    "components__pdf_annotator__insert_tools__insert_text": "inserir texto",
+    "components__pdf_annotator__insert_tools__insert_image": "inserir imagem",
+    "components__pdf_annotator__insert_tools__insert_signature": "Inserir Assinatura"
   }
 }

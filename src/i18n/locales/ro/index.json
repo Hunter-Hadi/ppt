@@ -1885,5 +1885,38 @@
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "Comutați pentru a extrage paginile ca un singur PDF sau PDF-uri separate.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "Faceți clic pe „Confirmare pentru extragere” și așteptați doar o secundă.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "Descărcați paginile PDF extrase—asta e tot!"
+  },
+  "pages__pdf_tools__pdf_annotator": {
+    "title": "Adnotare PDF",
+    "description": "Adnotați cu ușurință fișierele PDF gratuit scriind sau desenând direct pe ele.",
+    "seo_title": "Adnotare PDF Gratuită - Scrieți și Desenați Online pe Fișiere PDF | MaxAI.me",
+    "seo_description": "Utilizați adnotatorul nostru PDF online gratuit pentru a scrie sau desena pe fișierele dvs. PDF. Nu sunt necesare descărcări, filigrane sau înregistrări. Accesați și editați documentele dvs. fără efort.",
+    "detail_description_object__pdf_annotator__top_left": "Adnotatorul nostru PDF gratuit vă permite să scrieți, să desenați și să evidențiați direct pe documentele dvs. PDF. Bucurați-vă de o experiență fără probleme fără limite.",
+    "detail_description_object__pdf_annotator__top_right_1": "Adnotați rapid fișierele PDF în doar câteva clicuri.",
+    "detail_description_object__pdf_annotator__top_right_2": "Încărcați pur și simplu fișierul PDF pentru a începe adnotarea.",
+    "detail_description_object__pdf_annotator__top_right_3": "Funcționează perfect pe dispozitive Mac, Windows, Android și iOS.",
+    "detail_description_object__pdf_annotator__middle_1_title": "Adnotator PDF Online Ușor de Utilizat",
+    "detail_description_object__pdf_annotator__middle_1_description": "Cu adnotatorul nostru PDF intuitiv, puteți scrie sau desena pe fișierele dvs. PDF fără efort. Încărcați documentul dvs., începeți adnotarea și descărcați PDF-ul editat în câteva minute, fără a fi nevoie să creați un cont.",
+    "detail_description_object__pdf_annotator__middle_2_title": "Adnotări Securizate și Private",
+    "detail_description_object__pdf_annotator__middle_2_description": "Toate adnotările dvs. sunt procesate direct în browserul dvs., asigurându-vă că documentele dvs. rămân private și securizate. Nu se trimite niciun date în cloud, protejând informațiile sensibile.",
+    "detail_description_object__pdf_annotator__middle_3_title": "Compatibilitate Interdispozitiv",
+    "detail_description_object__pdf_annotator__middle_3_description": "Adnotatorul nostru PDF online este accesibil de pe orice dispozitiv cu un browser web, inclusiv desktopuri, laptopuri și dispozitive mobile. Adnotați fișierele PDF oricând, oriunde.",
+    "detail_description_object__pdf_annotator__middle_4_title": "Proces Simplu de Adnotare",
+    "detail_description_object__pdf_annotator__middle_4_description": "Adnotarea fișierelor dvs. PDF este simplă: încărcați fișierul dvs., utilizați instrumentele încorporate pentru a scrie sau desena, apoi descărcați versiunea editată. Chiar și începătorii pot naviga cu ușurință în acest proces.",
+    "detail_description_object__pdf_annotator__middle_5_title": "Fără Costuri, Fără Complicații",
+    "detail_description_object__pdf_annotator__middle_5_description": "Nu este nevoie să cumpărați software scump pentru a adnota PDF-urile dvs. Adnotatorul nostru PDF gratuit este disponibil online fără costuri ascunse, descărcări sau înregistrări necesare, asigurând o experiență fără probleme.",
+    "detail_description_object__pdf_annotator__middle_6_title": "Procesare Rapidă și Eficientă",
+    "detail_description_object__pdf_annotator__middle_6_description": "Serviciul nostru de adnotare PDF este conceput pentru viteză. Procesați și rafinați documentele dvs. rapid cu instrumentele noastre eficiente care îmbunătățesc fluxul dvs. de lucru.",
+    "detail_description_object__pdf_annotator__bottom_right_title": "Cum să Adnotați Fișiere PDF Online:",
+    "detail_description_object__pdf_annotator__bottom_right_description_1": "Încărcați fișierul PDF pe care doriți să-l adnotați.",
+    "detail_description_object__pdf_annotator__bottom_right_description_2": "Utilizați instrumentele de adnotare pentru a scrie, desena sau evidenția documentul.",
+    "detail_description_object__pdf_annotator__bottom_right_description_3": "Faceți clic pe „Descărcare” pentru a salva fișierul PDF adnotat.",
+    "detail_description_object__pdf_annotator__bottom_right_description_4": "Accesați PDF-ul dvs. adnotat pe orice dispozitiv și partajați-l cu ușurință."
+  },
+  "functionality__pdf_annotator": {
+    "components__pdf_annotator__insert_tools__text_annotator": "Adnotare Text",
+    "components__pdf_annotator__insert_tools__insert_text": "inserați text",
+    "components__pdf_annotator__insert_tools__insert_image": "inserați imagine",
+    "components__pdf_annotator__insert_tools__insert_signature": "Inserați Semnătura"
   }
 }

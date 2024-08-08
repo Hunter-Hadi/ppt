@@ -1885,5 +1885,38 @@
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "Bytt for å trekke ut sider som én enkelt PDF eller separate PDF-er.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "Klikk 'Bekreft uttrekking' og vent bare et sekund.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "Last ned de uttrukne PDF-sidene dine—det er alt!"
+  },
+  "pages__pdf_tools__pdf_annotator": {
+    "title": "PDF-annotering",
+    "description": "Enkelt å legge til notater i PDF-filer gratis ved å skrive eller tegne direkte på dem.",
+    "seo_title": "Gratis PDF-annotering - Skriv og Tegn Online på PDF-filer | MaxAI.me",
+    "seo_description": "Bruk vår gratis online PDF-annotering for å skrive eller tegne på PDF-filene dine. Ingen nedlastinger, vannmerker eller påmeldinger er nødvendig. Få tilgang til og rediger dokumentene dine enkelt.",
+    "detail_description_object__pdf_annotator__top_left": "Vår gratis PDF-annotering lar deg enkelt skrive, tegne og markere direkte på PDF-dokumentene dine. Nyt en sømløs opplevelse uten begrensninger.",
+    "detail_description_object__pdf_annotator__top_right_1": "Raskt legg til notater i PDF-filene dine med bare noen få klikk.",
+    "detail_description_object__pdf_annotator__top_right_2": "Last enkelt opp PDF-filen din for å begynne å legge til notater.",
+    "detail_description_object__pdf_annotator__top_right_3": "Fungerer perfekt på Mac, Windows, Android og iOS-enheter.",
+    "detail_description_object__pdf_annotator__middle_1_title": "Brukervennlig Online PDF-annotering",
+    "detail_description_object__pdf_annotator__middle_1_description": "Med vår intuitive PDF-annotering kan du skrive eller tegne på PDF-filene dine uten anstrengelse. Last opp dokumentet ditt, begynn å legge til notater og last ned den redigerte PDF-en på få minutter, alt uten å opprette en konto.",
+    "detail_description_object__pdf_annotator__middle_2_title": "Sikre og Private Notater",
+    "detail_description_object__pdf_annotator__middle_2_description": "Alle notatene dine behandles direkte i nettleseren din, slik at dokumentene dine forblir private og sikre. Ingen data sendes til skyen, noe som beskytter den sensitive informasjonen din.",
+    "detail_description_object__pdf_annotator__middle_3_title": "Kryss-Enhetskompatibilitet",
+    "detail_description_object__pdf_annotator__middle_3_description": "Vår online PDF-annotering er tilgjengelig fra enhver enhet med en nettleser, inkludert stasjonære datamaskiner, bærbare datamaskiner og mobile enheter. Legg til notater i PDF-filene dine når som helst, hvor som helst.",
+    "detail_description_object__pdf_annotator__middle_4_title": "Enkel Noteringsprosess",
+    "detail_description_object__pdf_annotator__middle_4_description": "Å legge til notater i PDF-filene dine er enkelt: last opp filen din, bruk de innebygde verktøyene til å skrive eller tegne, og last ned den redigerte versjonen. Selv nybegynnere kan navigere gjennom denne prosessen med letthet.",
+    "detail_description_object__pdf_annotator__middle_5_title": "Ingen Kostnader, Ingen Komplikasjoner",
+    "detail_description_object__pdf_annotator__middle_5_description": "Det er ikke nødvendig å kjøpe dyre programvare for å legge til notater i PDF-ene dine. Vår gratis PDF-annotering er tilgjengelig online uten skjulte kostnader, nedlastinger eller registrering som kreves, og sikrer en problemfri opplevelse.",
+    "detail_description_object__pdf_annotator__middle_6_title": "Rask og Effektiv Behandling",
+    "detail_description_object__pdf_annotator__middle_6_description": "Vår PDF-annoteringstjeneste er designet for fart. Behandle og forbedre dokumentene dine raskt med våre effektive verktøy som forbedrer arbeidsflyten din.",
+    "detail_description_object__pdf_annotator__bottom_right_title": "Hvordan Legge til Notater i PDF-filer Online:",
+    "detail_description_object__pdf_annotator__bottom_right_description_1": "Last opp PDF-filen du vil legge til notater i.",
+    "detail_description_object__pdf_annotator__bottom_right_description_2": "Bruk noteringsverktøyene til å skrive, tegne eller markere på dokumentet.",
+    "detail_description_object__pdf_annotator__bottom_right_description_3": "Klikk på 'Last ned' for å lagre den noterte PDF-filen din.",
+    "detail_description_object__pdf_annotator__bottom_right_description_4": "Få tilgang til den noterte PDF-en din på hvilken som helst enhet og del den enkelt."
+  },
+  "functionality__pdf_annotator": {
+    "components__pdf_annotator__insert_tools__text_annotator": "Tekstnotat",
+    "components__pdf_annotator__insert_tools__insert_text": "sett inn tekst",
+    "components__pdf_annotator__insert_tools__insert_image": "sett inn bilde",
+    "components__pdf_annotator__insert_tools__insert_signature": "Sett inn Signatur"
   }
 }

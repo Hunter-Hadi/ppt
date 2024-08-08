@@ -1885,5 +1885,38 @@
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "صفحات کو ایک ہی PDF یا الگ الگ PDFs کے طور پر نکالنے کے لیے ٹوگل کریں۔",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "“نکالنے کی تصدیق” پر کلک کریں اور صرف ایک لمحہ صبر کریں۔",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "اپنے نکالے گؓے PDF صفحات کو ڈاؤن لوڈ کریں—بس یہی تھا!"
+  },
+  "pages__pdf_tools__pdf_annotator": {
+    "title": "PDF انوٹیٹر",
+    "description": "آسانی سے اپنے PDF فائلوں پر مفت اشارے لگائیں یا ان پر سیدھے طور پر لکھ کر یا ڈرائیں۔",
+    "seo_title": "مفت PDF انوٹیٹر - PDF فائلوں پر آن لائن لکھیں اور ڈرائیں | MaxAI.me",
+    "seo_description": "ہمارے مفت آن لائن PDF انوٹیٹر کا استعمال کریں تاکہ آپ اپنی PDF فائلوں پر لکھیں یا ڈرائیں۔ ڈاؤن لوڈ، واٹرمارک، یا سائن اپس کی ضرورت نہیں ہے۔ اپنے دستاویزات تک رسائی حاصل کریں اور انہیں آسانی سے ترتیب دیں۔",
+    "detail_description_object__pdf_annotator__top_left": "ہمارا مفت PDF انوٹیٹر آپ کو آسانی سے اپنی PDF دستاویزات پر سیدھے طور پر لکھنے، ڈرائیں، اور ہائی لائٹ کرنے کی اجازت دیتا ہے۔ کوئی پابندیوں کے ساتھ ایک بے درد تجربہ حاصل کریں۔",
+    "detail_description_object__pdf_annotator__top_right_1": "چند کلکس میں اپنی PDF فائلوں پر اشارے لگائیں۔",
+    "detail_description_object__pdf_annotator__top_right_2": "بس اپنی PDF فائل اپ لوڈ کریں تاکہ انوٹیٹ کرنا شروع کریں۔",
+    "detail_description_object__pdf_annotator__top_right_3": "میک، ونڈوز، اینڈرائیڈ، اور آئی او ایس آلات پر بالکل ٹھیک کام کرتا ہے۔",
+    "detail_description_object__pdf_annotator__middle_1_title": "صارف دوست آن لائن PDF انوٹیٹر",
+    "detail_description_object__pdf_annotator__middle_1_description": "ہمارے آسان سمجھنے والے PDF انوٹیٹر کے ساتھ آپ اپنی PDF فائلوں پر آسانی سے لکھ سکتے ہیں یا ڈرا سکتے ہیں۔ اپنے دستاویز کو اپ لوڈ کریں، انوٹیٹ کرنا شروع کریں، اور مدھمنٹس میں ترتیب دی گئی PDF ڈاؤن لوڈ کریں، سب کچھ بغیر اکاؤنٹ بنائے۔",
+    "detail_description_object__pdf_annotator__middle_2_title": "محفوظ اور نجی اشارے",
+    "detail_description_object__pdf_annotator__middle_2_description": "آپ کے تمام اشارے براؤزر میں براہ راست پراسیس ہوتے ہیں، یہ یقینی بنانے کے لئے کہ آپ کے دستاویزات نجی اور محفوظ رہتے ہیں۔ کوئی ڈیٹا بادل نہیں کیا جاتا، آپ کی حساس معلومات کی حفاظت کی جاتی ہے۔",
+    "detail_description_object__pdf_annotator__middle_3_title": "کراس ڈیوائس موافقت",
+    "detail_description_object__pdf_annotator__middle_3_description": "ہمارا آن لائن PDF انوٹیٹر کسی بھی آلہ کے ساتھ دستیاب ہے جس میں ویب براؤزر شامل ہے، ڈیسک ٹاپس، لیپ ٹاپس، اور موبائل آلات شامل ہیں۔ اپنی PDF فائلوں پر اشارے کریں کسی بھی وقت، کہیں بھی۔",
+    "detail_description_object__pdf_annotator__middle_4_title": "سادہ اشارہ عمل",
+    "detail_description_object__pdf_annotator__middle_4_description": "آپ کی PDF فائلوں پر اشارے لگانا آسان ہے: اپنی فائل اپ لوڈ کریں، بنیادی ٹولز استعمال کریں تاکہ لکھیں یا ڈرائیں، اور پھر ترتیب دی گئی ورژن ڈاؤن لوڈ کریں۔ حتی کہ مکمل نوابین اس عمل کو آسانی سے سمجھ سکتے ہیں۔",
+    "detail_description_object__pdf_annotator__middle_5_title": "کوئی لاگت، کوئی پیچیدگیاں نہیں",
+    "detail_description_object__pdf_annotator__middle_5_description": "آپ کو اپنی PDF فائلوں پر اشارے لگانے کے لئے مہنگا سافٹ ویئر خریدنے کی ضرورت نہیں ہے۔ ہمارا مفت PDF انوٹیٹر آن لائن دستیاب ہے بغیر کسی پوشیدہ لاگت، ڈاؤن لوڈ، یا رجسٹریشن کی ضرورت کے، ایک پریشانی رہتے ہوئے تجربہ یقینی بناتا ہے۔",
+    "detail_description_object__pdf_annotator__middle_6_title": "تیز اور کارگر پروسیسنگ",
+    "detail_description_object__pdf_annotator__middle_6_description": "ہماری PDF اشارہ خدمت تیزی کے لئے ڈیزائن کی گئی ہے۔ ہمارے کارگر ٹولز کے ساتھ جلدی سے اپنے دستاویزات کو پروسیس اور بہتر بنائیں۔",
+    "detail_description_object__pdf_annotator__bottom_right_title": "آن لائن PDF فائلوں پر اشارے کیسے کریں:",
+    "detail_description_object__pdf_annotator__bottom_right_description_1": "وہ PDF فائل اپ لوڈ کریں جس پر آپ اشارے لگانا چاہتے ہیں۔",
+    "detail_description_object__pdf_annotator__bottom_right_description_2": "انوٹیٹ کرنے کے لئے اشارہ ٹولز استعمال کریں تاکہ دستاویز پر لکھیں، ڈرائیں، یا ہائی لائٹ کریں۔",
+    "detail_description_object__pdf_annotator__bottom_right_description_3": "‘ ڈاؤن لوڈ ’ پر کلک کریں تاکہ آپ کی اشاری ہوئی PDF فائل کو محفوظ کریں۔",
+    "detail_description_object__pdf_annotator__bottom_right_description_4": "اپنی اشاری ہوئی PDF کو کسی بھی آلہ پر رسائی حاصل کریں اور آسانی سے اسے شیئر کریں۔"
+  },
+  "functionality__pdf_annotator": {
+    "components__pdf_annotator__insert_tools__text_annotator": "متن اشارہ",
+    "components__pdf_annotator__insert_tools__insert_text": "متن شامل کریں",
+    "components__pdf_annotator__insert_tools__insert_image": "تصویر شامل کریں",
+    "components__pdf_annotator__insert_tools__insert_signature": "دستخط شامل کریں"
   }
 }

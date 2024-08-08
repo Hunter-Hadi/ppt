@@ -1885,5 +1885,38 @@
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "Vaihda sivujen erottaminen yhdeksi PDF-tiedostoksi tai erillisiksi PDF-tiedostoiksi.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "Napsauta 'Vahvista erottaminen' ja odota vain hetki.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "Lataa erottamasi PDF-sivut—siinä kaikki!"
+  },
+  "pages__pdf_tools__pdf_annotator": {
+    "title": "PDF Annotaattori",
+    "description": "Annotaatioiden lisääminen PDF-tiedostoihisi helposti kirjoittamalla tai piirtämällä suoraan niihin.",
+    "seo_title": "Ilmainen PDF Annotaattori - Kirjoita ja Piirrä Verkossa PDF-tiedostoihin | MaxAI.me",
+    "seo_description": "Käytä ilmaista verkkopohjaista PDF-annotaattoria kirjoittamiseen tai piirtämiseen PDF-tiedostoihisi. Ei latauksia, vesileimoja tai rekisteröitymisiä tarvita. Käytä ja muokkaa dokumenttejasi vaivattomasti.",
+    "detail_description_object__pdf_annotator__top_left": "Ilmainen PDF-annotaattorimme mahdollistaa kirjoittamisen, piirtämisen ja korostamisen suoraan PDF-dokumentteihisi. Nauti saumattomasta kokemuksesta ilman rajoituksia.",
+    "detail_description_object__pdf_annotator__top_right_1": "Annotaatioiden lisääminen PDF-tiedostoihisi vain muutamalla napsautuksella.",
+    "detail_description_object__pdf_annotator__top_right_2": "Lataa PDF-tiedostosi aloittaaksesi annotoinnin.",
+    "detail_description_object__pdf_annotator__top_right_3": "Toimii täydellisesti Mac-, Windows-, Android- ja iOS-laitteilla.",
+    "detail_description_object__pdf_annotator__middle_1_title": "Käyttäjäystävällinen Verkkopohjainen PDF Annotaattori",
+    "detail_description_object__pdf_annotator__middle_1_description": "Intuitiivisella PDF-annotaattorillamme voit kirjoittaa tai piirtää PDF-tiedostoihisi vaivattomasti. Lataa dokumenttisi, aloita annotointi ja lataa muokattu PDF muutamassa minuutissa ilman tilin luomista.",
+    "detail_description_object__pdf_annotator__middle_2_title": "Turvalliset ja Yksityiset Annotaatiot",
+    "detail_description_object__pdf_annotator__middle_2_description": "Kaikki annotaatiot käsitellään suoraan selaimessasi, varmistaen että dokumenttisi pysyvät yksityisinä ja turvassa. Mitään tietoja ei lähetetä pilveen, suojaten arkaluontoiset tietosi.",
+    "detail_description_object__pdf_annotator__middle_3_title": "Laiteyhteensopivuus",
+    "detail_description_object__pdf_annotator__middle_3_description": "Verkkopohjainen PDF-annotaattorimme on käytettävissä mistä tahansa laitteesta, jossa on verkkoselain, mukaan lukien työpöydät, kannettavat tietokoneet ja mobiililaitteet. Annotaatioiden lisääminen PDF-tiedostoihisi milloin tahansa, missä tahansa.",
+    "detail_description_object__pdf_annotator__middle_4_title": "Yksinkertainen Annotaatioprosessi",
+    "detail_description_object__pdf_annotator__middle_4_description": "PDF-tiedostojen annotointi on suoraviivaista: lataa tiedostosi, käytä sisäänrakennettuja työkaluja kirjoittamiseen tai piirtämiseen ja lataa sitten muokattu versio. Jopa aloittelijat voivat navigoida tämän prosessin helposti.",
+    "detail_description_object__pdf_annotator__middle_5_title": "Ei Kustannuksia, Ei Komplikaatioita",
+    "detail_description_object__pdf_annotator__middle_5_description": "Ei tarvetta ostaa kalliita ohjelmistoja PDF-tiedostojen annotointiin. Ilmainen PDF-annotaattorimme on saatavilla verkossa ilman piilokustannuksia, latauksia tai rekisteröitymisiä, varmistaen huolettoman kokemuksen.",
+    "detail_description_object__pdf_annotator__middle_6_title": "Nopea ja Tehokas Käsittely",
+    "detail_description_object__pdf_annotator__middle_6_description": "PDF-annotointipalvelumme on suunniteltu nopeutta varten. Käsittele ja hienosäädä dokumenttejasi nopeasti tehokkailla työkaluillamme, jotka tehostavat työnkulkua.",
+    "detail_description_object__pdf_annotator__bottom_right_title": "Kuinka Annotoida PDF-tiedostoja Verkossa:",
+    "detail_description_object__pdf_annotator__bottom_right_description_1": "Lataa PDF-tiedosto, jota haluat annotoida.",
+    "detail_description_object__pdf_annotator__bottom_right_description_2": "Käytä annotointityökaluja kirjoittamiseen, piirtämiseen tai korostamiseen dokumentissa.",
+    "detail_description_object__pdf_annotator__bottom_right_description_3": "Klikkaa 'Lataa' tallentaaksesi annotoidun PDF-tiedostosi.",
+    "detail_description_object__pdf_annotator__bottom_right_description_4": "Pääse käsiksi annotoituun PDF-tiedostoon millä tahansa laitteella ja jaa se helposti."
+  },
+  "functionality__pdf_annotator": {
+    "components__pdf_annotator__insert_tools__text_annotator": "Tekstin Annotaatio",
+    "components__pdf_annotator__insert_tools__insert_text": "lisää teksti",
+    "components__pdf_annotator__insert_tools__insert_image": "lisää kuva",
+    "components__pdf_annotator__insert_tools__insert_signature": "Lisää Allekirjoitus"
   }
 }

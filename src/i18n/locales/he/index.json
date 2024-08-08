@@ -1884,5 +1884,38 @@
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "החליפו לחילוץ עמודים כ-PDF יחיד או כ-PDFים נפרדים.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "לחצו על 'אישור לחילוץ' וחכו שניה בלבד.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "הורידו את עמודי ה-PDF שחילצתם—זהו!"
+  },
+  "pages__pdf_tools__pdf_annotator": {
+    "title": "PDF Annotator",
+    "description": "הערות PDF בקלות על ידי כתיבה או ציור ישירות עליהם.",
+    "seo_title": "PDF Annotator חינם - כתיבה וציור מקוון על קבצי PDF | MaxAI.me",
+    "seo_description": "השתמש במעטפת PDF המקוונת שלנו לכתיבה או ציור על קבצי PDF שלך. אין צורך בהורדות, סימני מים או הרשמות. גישה ועריכה של מסמכים בקלות.",
+    "detail_description_object__pdf_annotator__top_left": "המעטפת החינמית שלנו מאפשרת לך לכתוב, לצייר ולהדגיש ישירות על מסמכי ה-PDF שלך. תהנה מחוויית שימוש חלקה ללא הגבלות.",
+    "detail_description_object__pdf_annotator__top_right_1": "הערות מהירות על קבצי PDF בכמה לחיצות בלבד.",
+    "detail_description_object__pdf_annotator__top_right_2": "פשוט העלה את קובץ ה-PDF שלך כדי להתחיל להעיר.",
+    "detail_description_object__pdf_annotator__top_right_3": "עובדת בצורה מושלמת על מכשירי Mac, Windows, Android ו-iOS.",
+    "detail_description_object__pdf_annotator__middle_1_title": "מעטפת PDF מקוונת ידידותית למשתמש",
+    "detail_description_object__pdf_annotator__middle_1_description": "עם המעטפת המובנית שלנו, תוכל לכתוב או לצייר על קבצי ה-PDF שלך בקלות. העלה את המסמך שלך, התחל להעיר והורד את ה-PDF שערכת בדקות, הכל בלי צורך ליצור חשבון.",
+    "detail_description_object__pdf_annotator__middle_2_title": "הערות מאובטחות ופרטיות",
+    "detail_description_object__pdf_annotator__middle_2_description": "כל ההערות שלך מעובדות ישירות בדפדפן שלך, מבטיחות שהמסמכים שלך יישארו פרטיים ומאובטחים. אין מידע שמתקלט לענן, מגינים על המידע הרגיש שלך.",
+    "detail_description_object__pdf_annotator__middle_3_title": "תאימות עם מכשירים שונים",
+    "detail_description_object__pdf_annotator__middle_3_description": "המעטפת המקוונת שלנו נגישה מכל מכשיר עם דפדפן אינטרנט, כולל מחשבי שולחן, מחשבים ניידים ומכשירים ניידים. הערות על קבצי PDF בכל עת ובכל מקום.",
+    "detail_description_object__pdf_annotator__middle_4_title": "תהליך הערות פשוט",
+    "detail_description_object__pdf_annotator__middle_4_description": "הערת קבצי ה-PDF שלך היא פשוטה: העלה את הקובץ שלך, השתמש בכלי המובנים לכתיבה או ציור, ואז הורד את הגרסה שערכת. גם מתחילים מוחלטים יכולים לנווט בתהליך זה בקלות.",
+    "detail_description_object__pdf_annotator__middle_5_title": "ללא עלות, ללא קושי",
+    "detail_description_object__pdf_annotator__middle_5_description": "אין צורך לרכוש תוכנה יקרה כדי להעיר את ה-PDF שלך. המעטפת החינמית שלנו זמינה מקוונת בלי עלויות נסתרות, הורדות או הרשמות, מבטיחה חווית שימוש חלקה.",
+    "detail_description_object__pdf_annotator__middle_6_title": "עיבוד מהיר ויעיל",
+    "detail_description_object__pdf_annotator__middle_6_description": "שירות ההערה על PDF שלנו מיועד למהירות. עבודה ושיפור מסמכים במהירות עם הכלים היעילים שלנו שמשפרים את זרימת העבודה שלך.",
+    "detail_description_object__pdf_annotator__bottom_right_title": "איך להעיר קבצי PDF מקוונים:",
+    "detail_description_object__pdf_annotator__bottom_right_description_1": "העלה את קובץ ה-PDF שברצונך להעיר.",
+    "detail_description_object__pdf_annotator__bottom_right_description_2": "השתמש בכלי ההערה לכתיבה, ציור או הדגשה על המסמך.",
+    "detail_description_object__pdf_annotator__bottom_right_description_3": "לחץ על 'הורד' כדי לשמור את קובץ ה-PDF שהערת.",
+    "detail_description_object__pdf_annotator__bottom_right_description_4": "גש לקובץ ה-PDF שהערת עליו מכל מכשיר ושתף בקלות."
+  },
+  "functionality__pdf_annotator": {
+    "components__pdf_annotator__insert_tools__text_annotator": "הערת טקסט",
+    "components__pdf_annotator__insert_tools__insert_text": "הוסף טקסט",
+    "components__pdf_annotator__insert_tools__insert_image": "הוסף תמונה",
+    "components__pdf_annotator__insert_tools__insert_signature": "הוסף חתימה"
   }
 }
