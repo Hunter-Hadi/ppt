@@ -183,12 +183,17 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
       const resConvas = await pdfDoc.embedPng(base64Image)
       for (let i = 0; i < pdfPageNumber; i++) {
         const page = pdfDoc.getPage(i)
-        const pdfPageSize = page.getSize()
+        const {
+          x: trimX,
+          y: trimY,
+          height: trimHeight,
+          width: trimWidth,
+        } = page.getCropBox()
         page.drawImage(resConvas, {
-          x: 0,
-          y: 0,
-          width: pdfPageSize.width,
-          height: pdfPageSize.height,
+          x: trimX,
+          y: trimY,
+          width: trimWidth,
+          height: trimHeight,
         })
       }
 

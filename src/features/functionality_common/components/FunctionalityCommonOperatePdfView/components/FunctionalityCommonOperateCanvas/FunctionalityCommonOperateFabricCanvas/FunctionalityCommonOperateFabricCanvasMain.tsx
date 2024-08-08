@@ -78,6 +78,7 @@ const FunctionalityCommonOperateFabricCanvas: FC<
   const saveCurrentCanvasData = useCallback(
     debounce(() => {
       try {
+        console.log('saveCurrentCanvasData')
         const json = fabricCanvas.current?.toJSON() // your fabricCanvas reference
         if (json) {
           setFabricCanvasJsonStringList((list) => {
@@ -89,7 +90,7 @@ const FunctionalityCommonOperateFabricCanvas: FC<
       } catch (e) {
         console.log('simply saveCurrentCanvasData error', e)
       }
-    }, 500), // 1秒内只执行第一次
+    }, 50), // 1秒内只执行第一次
     [index, setFabricCanvasJsonStringList],
   )
   const {

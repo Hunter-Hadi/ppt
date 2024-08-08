@@ -17,11 +17,11 @@ export const textContentHighlighterPdfLibEmbedSave = async (
   pdfDoc: PDFDocument,
   textAnnotatorList: ITextContentHighlighterViewportHighlight[][],
 ) => {
-  const pages = pdfDoc.getPages()
-
   try {
     textAnnotatorList.forEach((textAnnotator, pageIndex) => {
-      const page = pages[pageIndex]
+      const page = pdfDoc.getPage(pageIndex)
+      // 获取修整框
+      const { x: trimX, y: trimY, height: trimHeight } = page.getCropBox()
       if (!textAnnotator) return
       textAnnotator.forEach((highlight) => {
         const annotationInfo = highlight.annotation?.[0]
@@ -45,16 +45,14 @@ export const textContentHighlighterPdfLibEmbedSave = async (
               rgbValues[1] / 255,
               rgbValues[2] / 255,
             )
-            console.log('pdfRgbColor', pdfRgbColor)
             // 将透明度转换为255的范围
             const fillOpacity = transparency !== undefined ? transparency : 0.5
             const rgbaColor = pdfRgbColor || rgb(0.75, 0.2, 0.2)
-
             if (type === 'highlight') {
               // 绘制高亮
               page.drawRectangle({
-                x: left,
-                y: page.getHeight() - top - height, // PDF坐标系统与普通坐标不同
+                x: trimX + left,
+                y: trimHeight - top - height + trimY, // PDF坐标系统与普通坐标不同
                 width: width,
                 height: height,
                 color: rgbaColor,
@@ -64,18 +62,27 @@ export const textContentHighlighterPdfLibEmbedSave = async (
               const fontSize = height
               // 绘制下划线
               page.drawLine({
-                start: { x: left, y: page.getHeight() - top - fontSize },
-                end: { x: left + width, y: page.getHeight() - top - fontSize },
+                start: {
+                  x: trimX + left,
+                  y: trimHeight - top - fontSize + trimX,
+                },
+                end: {
+                  x: trimX + left + width,
+                  y: trimHeight - top - fontSize + trimY,
+                },
                 color: rgbaColor,
                 thickness: 1.5, // 可以调整线的厚度
               })
             } else if (type === 'strikethrough') {
               // 绘制删除线
               page.drawLine({
-                start: { x: left, y: page.getHeight() - (top + height / 2) },
+                start: {
+                  x: trimX + left,
+                  y: trimHeight - (top + height / 2) + trimY,
+                },
                 end: {
-                  x: left + width,
-                  y: page.getHeight() - (top + height / 2),
+                  x: trimX + left + width,
+                  y: trimHeight - (top + height / 2) + trimY,
                 },
                 color: rgbaColor,
                 thickness: 1.5, // 可以调整线的厚度
