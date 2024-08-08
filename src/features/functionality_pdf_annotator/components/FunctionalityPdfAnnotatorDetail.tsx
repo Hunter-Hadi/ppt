@@ -98,7 +98,6 @@ const FunctionalityPdfAnnotatorDetail: ForwardRefRenderFunction<
   })
   const onSavePDF = useCallback(async () => {
     setDownLoadLoading(true)
-    console.log('textAnnotatorList', textAnnotatorList)
     let pdfDoc: PDFDocument | null = null
     try {
       const fileBuffer = await file.arrayBuffer()

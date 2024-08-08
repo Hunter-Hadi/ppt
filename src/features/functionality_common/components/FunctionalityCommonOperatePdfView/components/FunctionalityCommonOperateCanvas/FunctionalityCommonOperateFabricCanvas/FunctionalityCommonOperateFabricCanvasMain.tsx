@@ -169,6 +169,7 @@ const FunctionalityCommonOperateFabricCanvas: FC<
         const savedData = fabricCanvasJsonStringList[index] //获取保存的数据
         if (savedData) {
           canvas.loadFromJSON(savedData, canvas.renderAll.bind(canvas)) //加载数据
+          canvas.loadFromJSON(savedData, canvas.renderAll.bind(canvas)) //加载数据
         }
         fabricCanvas.current = canvas
         canvas.renderAll()
