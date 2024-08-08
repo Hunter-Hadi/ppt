@@ -9,10 +9,11 @@ interface IFunctionalityCommonTextContentPageHighlight {
   viewHighlights: ITextContentHighlighterViewportHighlight[]
   pdfViewScale: number
   onEdit: (data: ITextContentHighlighterViewportHighlight) => void
+  annotationEditInfo?: ITextContentHighlighterViewportHighlight
 }
 const FunctionalityCommonTextContentPageHighlight: FC<
   IFunctionalityCommonTextContentPageHighlight
-> = ({ viewHighlights, pdfViewScale, onEdit }) => {
+> = ({ viewHighlights, pdfViewScale, onEdit, annotationEditInfo }) => {
   const boxStyle = useCallback(
     (data?: ITextContentHighlighterAnnotationInfo) => {
       if (data) {
@@ -38,6 +39,7 @@ const FunctionalityCommonTextContentPageHighlight: FC<
       {viewHighlights.map((viewHighlight) => {
         const annotationInfo = viewHighlight?.annotation?.[0]
         const isDelHeight = annotationInfo?.type === 'underline' ? 0 : 0 //比实际的高了
+        const isSelect = annotationEditInfo?.id === viewHighlight.id
         return (
           <Box key={viewHighlight.id}>
             {viewHighlight.position.rects.map((rect, index) => (
@@ -53,24 +55,34 @@ const FunctionalityCommonTextContentPageHighlight: FC<
                   top: rect.top * pdfViewScale,
                   width: rect.width * pdfViewScale,
                   height: rect.height * pdfViewScale - isDelHeight,
+                  border: isSelect ? `1px dashed #9065B0` : 'none',
                   position: 'absolute',
-                  cursor: 'pointer',
-                  zIndex: 1000,
-                  ...boxStyle(annotationInfo),
                 }}
               >
-                {annotationInfo && annotationInfo.type === 'strikethrough' && (
-                  <Box
-                    sx={{
-                      position: 'absolute',
-                      left: 0,
-                      top: 'calc(50% - 2px)',
-                      width: '100%',
-                      height: '2px',
-                      backgroundColor: annotationInfo.color,
-                    }}
-                  ></Box>
-                )}
+                <Box
+                  sx={{
+                    position: 'absolute',
+                    width: '100%',
+                    height: '100%',
+                    cursor: 'pointer',
+                    zIndex: 1000,
+                    ...boxStyle(annotationInfo),
+                  }}
+                >
+                  {annotationInfo &&
+                    annotationInfo.type === 'strikethrough' && (
+                      <Box
+                        sx={{
+                          position: 'absolute',
+                          left: 0,
+                          top: 'calc(50% - 2px)',
+                          width: '100%',
+                          height: '2px',
+                          backgroundColor: annotationInfo.color,
+                        }}
+                      ></Box>
+                    )}
+                </Box>
               </Box>
             ))}
           </Box>
