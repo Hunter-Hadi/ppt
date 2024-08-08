@@ -1915,8 +1915,8 @@
   },
   "functionality__pdf_annotator": {
     "components__pdf_annotator__insert_tools__text_annotator": "Text Annotation",
-    "components__pdf_annotator__insert_tools__insert_text": "insert text",
-    "components__pdf_annotator__insert_tools__insert_image": "insert picture",
+    "components__pdf_annotator__insert_tools__insert_text": "Insert text",
+    "components__pdf_annotator__insert_tools__insert_image": "Insert picture",
     "components__pdf_annotator__insert_tools__insert_signature": "Insert Signature"
   }
 }
