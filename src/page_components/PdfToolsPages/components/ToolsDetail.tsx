@@ -147,6 +147,16 @@ const FunctionalityExtractPagePdfMain = dynamic(
     loading: () => <AppLoadingLayout loading />,
   },
 )
+
+const FunctionalityRedactPdfMain = dynamic(
+  () =>
+    import(
+      '@/features/functionality_redact_pdf/components/FunctionalityRedactPdfMain'
+    ),
+  {
+    loading: () => <AppLoadingLayout loading />,
+  },
+)
 interface IToolsDetailProps {
   urlKey: IToolUrkKeyType
 }
@@ -236,6 +246,10 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       title: t('seo:pdf_tools__pdf_extractpages_page__title'),
       description: t('seo:pdf_tools__pdf_extractpages_page__description'),
     },
+    'redact-pdf': {
+      title: t('seo:pdf_tools__pdf_extractpages_page__title'),
+      description: t('seo:pdf_tools__pdf_extractpages_page__description'),
+    },
   }
   const toolsDetailDescriptionData = allPdfToolsDetailDescriptionObject[urlKey]
   const toolList = useMemo(
@@ -294,6 +308,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
             {urlKey === 'extract-page-pdf' && (
               <FunctionalityExtractPagePdfMain />
             )}
+            {urlKey === 'redact-pdf' && <FunctionalityRedactPdfMain />}
           </Suspense>
         </Box>
         {toolsDetailDescriptionData && (

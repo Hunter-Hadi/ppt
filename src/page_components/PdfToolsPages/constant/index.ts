@@ -19,6 +19,8 @@ export type IToolUrkKeyType =
   | 'watermark-pdf'
   | 'delete-page-pdf'
   | 'extract-page-pdf'
+  | 'redact-pdf'
+
 export interface IToolData {
   icon: string
   title: string
@@ -206,6 +208,15 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
       'pages:tools__index_page__constant_obj__pdf_page_extractpage__main_description',
     secondaryDescription: '',
     urlKey: routerChildrenObject['extract-page-pdf'],
+    urlPrefixPath: toolsTopUrlKey,
+  },
+  'redact-pdf': {
+    icon: 'ExtractPagePDF',
+    title: 'pages:tools__index_page__constant_obj__pdf_page_extractpage__title',
+    description:
+      'pages:tools__index_page__constant_obj__pdf_page_extractpage__main_description',
+    secondaryDescription: '',
+    urlKey: routerChildrenObject['redact-pdf'],
     urlPrefixPath: toolsTopUrlKey,
   },
 }

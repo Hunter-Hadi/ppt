@@ -18,6 +18,7 @@
     "protect-pdf": "protect-pdf",
     "watermark-pdf": "watermark-pdf",
     "delete-page-pdf": "delete-page-pdf",
-    "extract-page-pdf": "extract-page-pdf"
+    "extract-page-pdf": "extract-page-pdf",
+    "redact-pdf": "redact-pdf"
   }
 }

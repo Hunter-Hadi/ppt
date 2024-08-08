@@ -262,16 +262,6 @@ const ChatPdfViewMain: FC<IPdfContainerMainProps> = ({
               }}
             >
               <ChatPdfViewPage pdfInfo={props.pdfInfo} index={props.index} />
-              {/* <FunctionalityWateMarkPdfShowPdfViewRenderCanvas
-                sizeInfo={tempPdfInfo}
-                canvasIndex={props.index}
-                ref={(el) => {
-                  if (el) {
-                    canvasHandlesRefs.current[props.index] = el
-                  }
-                }}
-                waterMarkInfo={waterMarkInfo}
-              ></FunctionalityWateMarkPdfShowPdfViewRenderCanvas> */}
               <FunctionalityWateMarkPdfShowPdfWaterMarkRender
                 sizeInfo={tempPdfInfo}
                 waterMarkInfo={waterMarkInfo}
