@@ -1338,7 +1338,8 @@
     "components__common__upload_button_tips": "або перетягніть файли сюди",
     "components__common__upload_button_title": "ВИБРАТИ ФАЙЛИ",
     "components__common__upload_button__unsupported_file_type_tip": "Будь ласка, завантажте вказаний тип файлу PDF",
-    "components__common__select_other_file": "Виберіть інший файл"
+    "components__common__select_other_file": "Виберіть інший файл",
+    "components__common__button__download": "Завантажити"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Можна завантажувати лише зображення типу image",
@@ -1884,5 +1885,38 @@
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "Перемикайте для видобування сторінок як одного PDF або окремих PDF.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "Клацніть «Підтвердити для видобування» і зачекайте лише секунду.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "Завантажте ваші видобуті сторінки PDF—це все!"
+  },
+  "pages__pdf_tools__pdf_annotator": {
+    "title": "Анотатор PDF",
+    "description": "Легко анотуйте ваші PDF-файли безкоштовно, пишіть або малюйте безпосередньо на них.",
+    "seo_title": "Безкоштовний анотатор PDF - Пишіть та Малюйте Онлайн на PDF-файлах | MaxAI.me",
+    "seo_description": "Використовуйте наш безкоштовний онлайн анотатор PDF для написання або малювання на ваших PDF-файлах. Не потрібно завантажень, водяних знаків або реєстрації. Легкий доступ та редагування документів.",
+    "detail_description_object__pdf_annotator__top_left": "Наш безкоштовний анотатор PDF дозволяє легко писати, малювати та виділяти безпосередньо на ваших PDF-документах. Насолоджуйтеся безшовним досвідом без обмежень.",
+    "detail_description_object__pdf_annotator__top_right_1": "Швидко анотуйте ваші PDF-файли лише за кілька клацань.",
+    "detail_description_object__pdf_annotator__top_right_2": "Просто завантажте ваш PDF-файл, щоб почати анотування.",
+    "detail_description_object__pdf_annotator__top_right_3": "Працює ідеально на пристроях Mac, Windows, Android та iOS.",
+    "detail_description_object__pdf_annotator__middle_1_title": "Зручний онлайн анотатор PDF",
+    "detail_description_object__pdf_annotator__middle_1_description": "З нашим інтуїтивно зрозумілим анотатором PDF ви можете легко писати або малювати на ваших PDF-файлах. Завантажте ваш документ, почніть анотування та завантажте відредагований PDF за кілька хвилин, не створюючи облікового запису.",
+    "detail_description_object__pdf_annotator__middle_2_title": "Безпечні та Конфіденційні Анотації",
+    "detail_description_object__pdf_annotator__middle_2_description": "Усі ваші анотації обробляються безпосередньо у вашому браузері, забезпечуючи конфіденційність та безпеку ваших документів. Ніяких даних не відправляється в хмару, що захищає вашу конфіденційну інформацію.",
+    "detail_description_object__pdf_annotator__middle_3_title": "Сумісність з Різними Пристроями",
+    "detail_description_object__pdf_annotator__middle_3_description": "Наш онлайн анотатор PDF доступний з будь-якого пристрою з веб-браузером, включаючи настільні ПК, ноутбуки та мобільні пристрої. Анотуйте ваші PDF-файли в будь-який час та в будь-якому місці.",
+    "detail_description_object__pdf_annotator__middle_4_title": "Простий Процес Анотування",
+    "detail_description_object__pdf_annotator__middle_4_description": "Анотування ваших PDF-файлів просте: завантажте файл, використовуйте вбудовані інструменти для написання або малювання, а потім завантажте відредаговану версію. Навіть початківці можуть легко орієнтуватися в цьому процесі.",
+    "detail_description_object__pdf_annotator__middle_5_title": "Безкоштовно, Без Проблем",
+    "detail_description_object__pdf_annotator__middle_5_description": "Немає потреби купувати дороге програмне забезпечення для анотування ваших PDF-файлів. Наш безкоштовний анотатор PDF доступний онлайн без прихованих витрат, завантажень або реєстрації, забезпечуючи безпроблемний досвід.",
+    "detail_description_object__pdf_annotator__middle_6_title": "Швидка та Ефективна Обробка",
+    "detail_description_object__pdf_annotator__middle_6_description": "Наш сервіс анотування PDF розроблений для швидкості. Швидко обробляйте та вдосконалюйте ваші документи за допомогою наших ефективних інструментів, що полегшують ваш робочий процес.",
+    "detail_description_object__pdf_annotator__bottom_right_title": "Як Анотувати PDF-файли Онлайн:",
+    "detail_description_object__pdf_annotator__bottom_right_description_1": "Завантажте PDF-файл, який ви хочете анотувати.",
+    "detail_description_object__pdf_annotator__bottom_right_description_2": "Використовуйте інструменти анотування для написання, малювання або виділення на документі.",
+    "detail_description_object__pdf_annotator__bottom_right_description_3": "Клацніть 'Завантажити', щоб зберегти ваш анотований PDF-файл.",
+    "detail_description_object__pdf_annotator__bottom_right_description_4": "Отримайте доступ до вашого анотованого PDF на будь-якому пристрої та легко поділіться ним."
+  },
+  "functionality__pdf_annotator": {
+    "components__pdf_annotator__insert_tools__text_annotator": "Анотація Тексту",
+    "components__pdf_annotator__insert_tools__insert_text": "вставити текст",
+    "components__pdf_annotator__insert_tools__insert_image": "вставити зображення",
+    "components__pdf_annotator__insert_tools__insert_signature": "Вставити Підпис"
   }
 }

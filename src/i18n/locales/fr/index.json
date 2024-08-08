@@ -1338,7 +1338,8 @@
     "components__common__upload_button_tips": "ou déposez les fichiers ici",
     "components__common__upload_button_title": "CHOISISSEZ DES FICHIERS",
     "components__common__upload_button__unsupported_file_type_tip": "Veuillez télécharger le type de fichier PDF spécifié",
-    "components__common__select_other_file": "Choisir un autre fichier"
+    "components__common__select_other_file": "Choisir un autre fichier",
+    "components__common__button__download": "Télécharger"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Seules les images de type image peuvent être téléchargées",
@@ -1884,5 +1885,38 @@
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "Basculez pour extraire les pages en un seul PDF ou en PDF séparés.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "Cliquez sur 'Confirmer l'extraction' et attendez juste une seconde.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "Téléchargez vos pages PDF extraites, c'est tout !"
+  },
+  "pages__pdf_tools__pdf_annotator": {
+    "title": "Annotateur PDF",
+    "description": "Annotez facilement vos fichiers PDF gratuitement en écrivant ou en dessinant directement dessus.",
+    "seo_title": "Annotateur PDF Gratuit - Écrire et Dessiner en Ligne sur des Fichiers PDF | MaxAI.me",
+    "seo_description": "Utilisez notre annotateur PDF en ligne gratuit pour écrire ou dessiner sur vos fichiers PDF. Aucun téléchargement, filigranes ou inscription requis. Accédez et modifiez vos documents facilement.",
+    "detail_description_object__pdf_annotator__top_left": "Notre annotateur PDF gratuit vous permet d'écrire, de dessiner et de surligner facilement directement sur vos documents PDF. Profitez d'une expérience fluide sans aucune limitation.",
+    "detail_description_object__pdf_annotator__top_right_1": "Annotez rapidement vos fichiers PDF en quelques clics.",
+    "detail_description_object__pdf_annotator__top_right_2": "Il vous suffit de télécharger votre fichier PDF pour commencer à annoter.",
+    "detail_description_object__pdf_annotator__top_right_3": "Fonctionne parfaitement sur les appareils Mac, Windows, Android et iOS.",
+    "detail_description_object__pdf_annotator__middle_1_title": "Annotateur PDF en Ligne Convivial",
+    "detail_description_object__pdf_annotator__middle_1_description": "Avec notre annotateur PDF intuitif, vous pouvez écrire ou dessiner sur vos fichiers PDF sans effort. Téléchargez votre document, commencez à annoter et téléchargez le PDF modifié en quelques minutes, le tout sans avoir besoin de créer un compte.",
+    "detail_description_object__pdf_annotator__middle_2_title": "Annotations Sécurisées et Privées",
+    "detail_description_object__pdf_annotator__middle_2_description": "Toutes vos annotations sont traitées directement dans votre navigateur, garantissant que vos documents restent privés et sécurisés. Aucune donnée n'est envoyée dans le cloud, protégeant ainsi vos informations sensibles.",
+    "detail_description_object__pdf_annotator__middle_3_title": "Compatibilité Multi-Appareils",
+    "detail_description_object__pdf_annotator__middle_3_description": "Notre annotateur PDF en ligne est accessible depuis n'importe quel appareil disposant d'un navigateur web, y compris les ordinateurs de bureau, les ordinateurs portables et les appareils mobiles. Annotez vos fichiers PDF à tout moment, n'importe où.",
+    "detail_description_object__pdf_annotator__middle_4_title": "Processus d'Annotation Simple",
+    "detail_description_object__pdf_annotator__middle_4_description": "Annoter vos fichiers PDF est simple : téléchargez votre fichier, utilisez les outils intégrés pour écrire ou dessiner, puis téléchargez la version modifiée. Même les débutants peuvent naviguer dans ce processus facilement.",
+    "detail_description_object__pdf_annotator__middle_5_title": "Sans Coût, Sans Complications",
+    "detail_description_object__pdf_annotator__middle_5_description": "Pas besoin d'acheter un logiciel coûteux pour annoter vos PDF. Notre annotateur PDF gratuit est disponible en ligne sans coûts cachés, téléchargements ou inscription requis, garantissant une expérience sans tracas.",
+    "detail_description_object__pdf_annotator__middle_6_title": "Traitement Rapide et Efficace",
+    "detail_description_object__pdf_annotator__middle_6_description": "Notre service d'annotation PDF est conçu pour la rapidité. Traitez et affinez vos documents rapidement avec nos outils efficaces qui améliorent votre flux de travail.",
+    "detail_description_object__pdf_annotator__bottom_right_title": "Comment Annoter des Fichiers PDF en Ligne :",
+    "detail_description_object__pdf_annotator__bottom_right_description_1": "Téléchargez le fichier PDF que vous souhaitez annoter.",
+    "detail_description_object__pdf_annotator__bottom_right_description_2": "Utilisez les outils d'annotation pour écrire, dessiner ou surligner sur le document.",
+    "detail_description_object__pdf_annotator__bottom_right_description_3": "Cliquez sur 'Télécharger' pour enregistrer votre fichier PDF annoté.",
+    "detail_description_object__pdf_annotator__bottom_right_description_4": "Accédez à votre PDF annoté sur n'importe quel appareil et partagez-le facilement."
+  },
+  "functionality__pdf_annotator": {
+    "components__pdf_annotator__insert_tools__text_annotator": "Annotation de Texte",
+    "components__pdf_annotator__insert_tools__insert_text": "insérer du texte",
+    "components__pdf_annotator__insert_tools__insert_image": "insérer une image",
+    "components__pdf_annotator__insert_tools__insert_signature": "Insérer une Signature"
   }
 }

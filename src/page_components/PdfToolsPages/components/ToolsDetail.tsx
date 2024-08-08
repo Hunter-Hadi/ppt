@@ -128,6 +128,12 @@ const FunctionalityWaterMarkPdfMain = dynamic(
     loading: () => <AppLoadingLayout loading />,
   },
 )
+const FunctionalityPdfAnnotatorMain = dynamic(
+  () =>
+    import(
+      '@/features/functionality_pdf_annotator/components/FunctionalityPdfAnnotatorMain'
+    ),
+)
 const FunctionalityDeletePagePdfMain = dynamic(
   () =>
     import(
@@ -230,6 +236,10 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       title: t('pages__pdf_tools__unlock_pdf:seo_title'),
       description: t('pages__pdf_tools__unlock_pdf:seo_description'),
     },
+    'pdf-annotator': {
+      title: t('pages__pdf_tools__pdf_annotator:seo_title'),
+      description: t('pages__pdf_tools__pdf_annotator:seo_description'),
+    },
     'protect-pdf': {
       title: t('pages__pdf_tools__protect_pdf:seo_title'),
       description: t('pages__pdf_tools__protect_pdf:seo_description'),
@@ -304,6 +314,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
             {urlKey === 'unlock-pdf' && <FunctionalityUnlockPdfMain />}
             {urlKey === 'protect-pdf' && <FunctionalityProtectPdfMain />}
             {urlKey === 'watermark-pdf' && <FunctionalityWaterMarkPdfMain />}
+            {urlKey === 'pdf-annotator' && <FunctionalityPdfAnnotatorMain />}
             {urlKey === 'delete-page-pdf' && <FunctionalityDeletePagePdfMain />}
             {urlKey === 'extract-page-pdf' && (
               <FunctionalityExtractPagePdfMain />

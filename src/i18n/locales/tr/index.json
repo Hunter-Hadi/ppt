@@ -1338,7 +1338,8 @@
     "components__common__upload_button_tips": "veya dosyaları buraya bırakın",
     "components__common__upload_button_title": "DOSYALAR SEÇ",
     "components__common__upload_button__unsupported_file_type_tip": "Lütfen belirtilen PDF dosya türünü yükleyin",
-    "components__common__select_other_file": "Başka bir dosya seç"
+    "components__common__select_other_file": "Başka bir dosya seç",
+    "components__common__button__download": "İndir"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Sadece resim türündeki resimler yüklenebilir",
@@ -1884,5 +1885,38 @@
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "Sayfaları tek bir PDF veya ayrı PDF'ler olarak çıkarmak için geçiş yapın.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "‘Çıkarmak için onayla’ya tıklayın ve sadece birkaç saniye bekleyin.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "Çıkarılan PDF sayfalarınızı indirin—bu kadar!"
+  },
+  "pages__pdf_tools__pdf_annotator": {
+    "title": "PDF İşaretleyici",
+    "description": "PDF dosyalarınıza doğrudan yazarak veya çizerek ücretsiz olarak işaretleyin.",
+    "seo_title": "Ücretsiz PDF İşaretleyici - PDF Dosyaları Üzerinde Çevrimiçi Yazı ve Çizim | MaxAI.me",
+    "seo_description": "PDF dosyalarınıza yazı yazmak veya çizmek için ücretsiz çevrimiçi PDF işaretleyicimizi kullanın. İndirme, filigran veya kayıt olma gereksinimi yok. Belgelerinize kolayca erişin ve düzenleyin.",
+    "detail_description_object__pdf_annotator__top_left": "Ücretsiz PDF işaretleyicimizle PDF belgelerinizin üzerine kolayca yazı yazabilir, çizebilir ve vurgu yapabilirsiniz. Sınırsız bir deneyimin tadını çıkarın.",
+    "detail_description_object__pdf_annotator__top_right_1": "PDF dosyalarınızı hızlıca işaretleyin.",
+    "detail_description_object__pdf_annotator__top_right_2": "İşaretleme işlemine başlamak için PDF dosyanızı yükleyin.",
+    "detail_description_object__pdf_annotator__top_right_3": "Mac, Windows, Android ve iOS cihazlarında mükemmel çalışır.",
+    "detail_description_object__pdf_annotator__middle_1_title": "Kullanıcı Dostu Çevrimiçi PDF İşaretleyici",
+    "detail_description_object__pdf_annotator__middle_1_description": "Kolay kullanımlı PDF işaretleyicimizle PDF dosyalarınıza yazı yazabilir veya çizebilirsiniz. Belgenizi yükleyin, işaretleme yapmaya başlayın ve hesap oluşturmadan düzenlenmiş PDF'yi dakikalar içinde indirin.",
+    "detail_description_object__pdf_annotator__middle_2_title": "Güvenli ve Özel İşaretlemeler",
+    "detail_description_object__pdf_annotator__middle_2_description": "Tüm işaretlemeleriniz tarayıcınızda doğrudan işlenir, böylece belgeleriniz özel ve güvende kalır. Veriler buluta gönderilmez, hassas bilgileriniz korunur.",
+    "detail_description_object__pdf_annotator__middle_3_title": "Çapraz Cihaz Uyumluluğu",
+    "detail_description_object__pdf_annotator__middle_3_description": "Çevrimiçi PDF işaretleyicimiz, masaüstü bilgisayarlar, dizüstü bilgisayarlar ve mobil cihazlar da dahil olmak üzere her cihazdan erişilebilir. PDF dosyalarınızı istediğiniz zaman, istediğiniz yerde işaretleyin.",
+    "detail_description_object__pdf_annotator__middle_4_title": "Basit İşaretleme Süreci",
+    "detail_description_object__pdf_annotator__middle_4_description": "PDF dosyalarınızı işaretlemek kolaydır: Dosyanızı yükleyin, yazı yazmak veya çizmek için yerleşik araçları kullanın ve düzenlenmiş sürümü indirin. Hatta tamamen acemi kullanıcılar bile bu süreci kolayca yönetebilir.",
+    "detail_description_object__pdf_annotator__middle_5_title": "Maliyetsiz, Karmaşasız",
+    "detail_description_object__pdf_annotator__middle_5_description": "PDF'lerinizi işaretlemek için pahalı yazılımlar satın almanıza gerek yok. Ücretsiz PDF işaretleyicimiz çevrimiçi olarak kullanılabilir, gizli maliyetler, indirmeler veya kayıt gerektirmez, sorunsuz bir deneyim sunar.",
+    "detail_description_object__pdf_annotator__middle_6_title": "Hızlı ve Verimli İşleme",
+    "detail_description_object__pdf_annotator__middle_6_description": "PDF işaretleme hizmetimiz hız için tasarlanmıştır. İş akışınızı geliştiren verimli araçlarımızla belgelerinizi hızlı bir şekilde işleyin ve iyileştirin.",
+    "detail_description_object__pdf_annotator__bottom_right_title": "PDF Dosyalarını Çevrimiçi İşaretleme Nasıl Yapılır:",
+    "detail_description_object__pdf_annotator__bottom_right_description_1": "İşaretlemek istediğiniz PDF dosyasını yükleyin.",
+    "detail_description_object__pdf_annotator__bottom_right_description_2": "Belge üzerine yazı yazmak, çizmek veya vurgu yapmak için işaretleme araçlarını kullanın.",
+    "detail_description_object__pdf_annotator__bottom_right_description_3": "İşaretlenmiş PDF dosyanızı kaydetmek için 'İndir' düğmesine tıklayın.",
+    "detail_description_object__pdf_annotator__bottom_right_description_4": "İşaretlenmiş PDF'nize herhangi bir cihazdan erişin ve kolayca paylaşın."
+  },
+  "functionality__pdf_annotator": {
+    "components__pdf_annotator__insert_tools__text_annotator": "Metin İşaretleme",
+    "components__pdf_annotator__insert_tools__insert_text": "metin ekle",
+    "components__pdf_annotator__insert_tools__insert_image": "resim ekle",
+    "components__pdf_annotator__insert_tools__insert_signature": "İmza Ekle"
   }
 }

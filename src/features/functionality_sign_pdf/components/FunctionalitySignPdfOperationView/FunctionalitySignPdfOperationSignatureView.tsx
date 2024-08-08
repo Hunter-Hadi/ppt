@@ -1,18 +1,19 @@
+/* eslint-disable no-debugger */
 import { Box, Button, Popover, Stack, Typography } from '@mui/material'
 import { useTranslation } from 'next-i18next'
 import React, { FC, useEffect, useMemo, useRef, useState } from 'react'
 import { useRecoilState } from 'recoil'
 
+import { FunctionalitySignPdfOperationOBjectAtom } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/store/setOperateFabricCanvas'
+import { IFabricAddObjectType } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/types'
+import FunctionalityCommonSignatureModal, {
+  ISignatureType,
+} from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonSignaturePopoverView/FunctionalityCommonSignatureModal'
 import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 
-import { FunctionalitySignPdfOperationOBjectAtom } from '../../store'
-import { IFabricAddObjectType } from '../../utils/fabricjsTools'
 import { IActiveDragData } from '../FunctionalitySignPdfDetail'
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon'
 import FunctionalitySignPdfOperationDraggableView from './FunctionalitySignPdfOperationDraggableView'
-import FunctionalitySignPdfOperationSignatureModal, {
-  ISignatureType,
-} from './FunctionalitySignPdfOperationSignatureModal'
 interface IFunctionalitySignPdfSignatureViewProps {
   dragId: 'yourSignature' | 'yourInitials'
   activeDragData?: IActiveDragData
@@ -79,7 +80,7 @@ const FunctionalitySignPdfOperationSignatureView: FC<
       }
       isActiveCurrent.current = false
     }
-  }, [activeDragData])
+  }, [activeDragData, dragId, isHaveValue])
   const handleClick = (event) => {
     event.stopPropagation()
     setAnchorEl(event.currentTarget)
@@ -96,6 +97,7 @@ const FunctionalitySignPdfOperationSignatureView: FC<
     if (isActiveModelCurrent.current) {
       //用户因拖动空的触发这里的逻辑添加
       onClickAdd('image', value)
+
       isActiveModelCurrent.current = false
     }
   }
@@ -307,7 +309,7 @@ const FunctionalitySignPdfOperationSignatureView: FC<
         </Box>
       </Popover>
       {signatureModalOpen && (
-        <FunctionalitySignPdfOperationSignatureModal
+        <FunctionalityCommonSignatureModal
           onClose={onCloseOperationSignatureModal}
           onCreate={onCreateSignatureValue}
         />

@@ -3,9 +3,9 @@ import { Box, Stack } from '@mui/material'
 import React from 'react'
 import { FC } from 'react'
 
+import { IFabricAddObjectType } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/types'
 import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 
-import { IFabricAddObjectType } from '../../utils/fabricjsTools'
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon'
 
 /**

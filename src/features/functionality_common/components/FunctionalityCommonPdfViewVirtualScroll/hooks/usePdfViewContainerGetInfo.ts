@@ -1,9 +1,3 @@
-// import {
-//   getDocument,
-//   GlobalWorkerOptions,
-//   PDFDocumentLoadingTask,
-//   PDFDocumentProxy,
-// } from 'pdfjs-dist';
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { pdfjs } from 'react-pdf'
 
@@ -16,6 +10,14 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   import.meta.url,
 ).toString()
 //采用CDN形势引入pdfjs workerSrc ，似乎速度会快一点，并且不会卡线程
+export interface IChatPdfContainerPdfInfo {
+  pdfIndex: number
+  width: number
+  height: number
+  page: any
+  textContent: any
+  viewport: any
+}
 
 const pdfPageClarity = 3 //越大越清晰，但是性能会下降
 //里面是读取PDF的展示内容和文字，由于最开始的思路错误设计问题，这里的逻辑有点复杂
@@ -104,7 +106,6 @@ const useChatPdfContainerGetInfo = (props: {
             if (currentPdfDocument.current && !pdfIsReadObj.current[index]) {
               try {
                 const page = await currentPdfDocument.current.getPage(index + 1)
-                page.getTextContent()
                 const viewport = page.getViewport({ scale: pdfPageClarity })
                 const textContent = await page.getTextContent()
                 pdfIsReadObj.current[index] = true

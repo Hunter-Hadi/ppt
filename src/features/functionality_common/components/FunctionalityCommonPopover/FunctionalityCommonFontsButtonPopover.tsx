@@ -4,8 +4,8 @@ import React from 'react'
 import { FC, useEffect, useMemo, useState } from 'react'
 
 import { SIGN_TYPING_FONT_FAMILY_LIST } from '../../constants'
-import FunctionalitySignPdfCommonButtonPopover from './FunctionalityCommonButtonPopover'
-interface IFunctionalitySignPdfColorButtonPopoverProps {
+import FunctionalityCommonButtonPopover from './FunctionalityCommonButtonPopover'
+interface IFunctionalityCommonColorButtonPopoverProps {
   currentFont?: string
   optionShowTitle?: string
   onSelectedFont: (fonts: string) => void
@@ -17,8 +17,8 @@ interface IFunctionalitySignPdfColorButtonPopoverProps {
 /**
  * 用于选择字体的弹出式按钮
  */
-const FunctionalitySignPdfFontsButtonPopover: FC<
-  IFunctionalitySignPdfColorButtonPopoverProps
+const FunctionalityCommonFontsButtonPopover: FC<
+  IFunctionalityCommonColorButtonPopoverProps
 > = ({
   onSelectedFont,
   optionShowTitle,
@@ -45,7 +45,7 @@ const FunctionalitySignPdfFontsButtonPopover: FC<
     }
   }, [currentFont])
   return (
-    <FunctionalitySignPdfCommonButtonPopover
+    <FunctionalityCommonButtonPopover
       buttonProps={{
         variant: 'outlined',
       }}
@@ -93,7 +93,7 @@ const FunctionalitySignPdfFontsButtonPopover: FC<
           {title || newCurrentFont}
         </Typography>
       </Box>
-    </FunctionalitySignPdfCommonButtonPopover>
+    </FunctionalityCommonButtonPopover>
   )
 }
-export default FunctionalitySignPdfFontsButtonPopover
+export default FunctionalityCommonFontsButtonPopover

@@ -1338,7 +1338,8 @@
     "components__common__upload_button_tips": "lub upuść pliki tutaj",
     "components__common__upload_button_title": "WYBIERZ PLIKI",
     "components__common__upload_button__unsupported_file_type_tip": "Proszę przesłać określony typ pliku PDF",
-    "components__common__select_other_file": "Wybierz inny plik"
+    "components__common__select_other_file": "Wybierz inny plik",
+    "components__common__button__download": "Pobierz"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "Można przesyłać tylko obrazy typu obraz",
@@ -1884,5 +1885,38 @@
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "Przełącz, aby wyodrębnić strony jako pojedynczy PDF lub oddzielne pliki PDF.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "Kliknij „Potwierdź wyodrębnienie” i poczekaj chwilę.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "Pobierz swoje wyodrębnione strony PDF—to wszystko!"
+  },
+  "pages__pdf_tools__pdf_annotator": {
+    "title": "Anotator PDF",
+    "description": "Łatwo dodawaj notatki do swoich plików PDF za darmo, pisząc lub rysując bezpośrednio na nich.",
+    "seo_title": "Darmowy Anotator PDF - Pisz i Rysuj Online na Plikach PDF | MaxAI.me",
+    "seo_description": "Skorzystaj z naszego darmowego anotatora PDF online, aby pisać lub rysować na swoich plikach PDF. Brak konieczności pobierania, znaków wodnych ani rejestracji. Dostęp i edycja dokumentów bezproblemowa.",
+    "detail_description_object__pdf_annotator__top_left": "Nasz darmowy anotator PDF pozwala łatwo pisać, rysować i podkreślać bezpośrednio na swoich dokumentach PDF. Ciesz się płynnym doświadczeniem bez ograniczeń.",
+    "detail_description_object__pdf_annotator__top_right_1": "Szybko dodawaj notatki do swoich plików PDF w kilka kliknięć.",
+    "detail_description_object__pdf_annotator__top_right_2": "Wystarczy przesłać swój plik PDF, aby rozpocząć dodawanie notatek.",
+    "detail_description_object__pdf_annotator__top_right_3": "Doskonale działa na urządzeniach Mac, Windows, Android i iOS.",
+    "detail_description_object__pdf_annotator__middle_1_title": "Przyjazny dla Użytkownika Anotator PDF Online",
+    "detail_description_object__pdf_annotator__middle_1_description": "Dzięki naszemu intuicyjnemu anotatorowi PDF możesz łatwo pisać lub rysować na swoich plikach PDF. Prześlij swój dokument, zacznij dodawać notatki i pobierz zmodyfikowany plik PDF w kilka minut, wszystko bez konieczności tworzenia konta.",
+    "detail_description_object__pdf_annotator__middle_2_title": "Bezpieczne i Prywatne Notatki",
+    "detail_description_object__pdf_annotator__middle_2_description": "Wszystkie twoje notatki są przetwarzane bezpośrednio w przeglądarce, zapewniając, że twoje dokumenty pozostaną prywatne i bezpieczne. Żadne dane nie są wysyłane do chmury, co chroni twoje wrażliwe informacje.",
+    "detail_description_object__pdf_annotator__middle_3_title": "Kompatybilność Między Urządzeniami",
+    "detail_description_object__pdf_annotator__middle_3_description": "Nasz anotator PDF online jest dostępny z dowolnego urządzenia z przeglądarką internetową, w tym z komputerów stacjonarnych, laptopów i urządzeń mobilnych. Dodawaj notatki do swoich plików PDF w dowolnym miejscu i czasie.",
+    "detail_description_object__pdf_annotator__middle_4_title": "Prosty Proces Dodawania Notatek",
+    "detail_description_object__pdf_annotator__middle_4_description": "Dodawanie notatek do swoich plików PDF jest proste: przesłać plik, użyć wbudowanych narzędzi do pisania lub rysowania, a następnie pobrać zmodyfikowaną wersję. Nawet kompletni początkujący poradzą sobie z tym procesem bez problemu.",
+    "detail_description_object__pdf_annotator__middle_5_title": "Bezpłatnie, Bez Komplikacji",
+    "detail_description_object__pdf_annotator__middle_5_description": "Nie trzeba kupować drogiego oprogramowania do dodawania notatek do PDF. Nasz darmowy anotator PDF jest dostępny online bez ukrytych kosztów, pobierania ani rejestracji, zapewniając bezproblemowe doświadczenie.",
+    "detail_description_object__pdf_annotator__middle_6_title": "Szybka i Wydajna Obróbka",
+    "detail_description_object__pdf_annotator__middle_6_description": "Nasza usługa adnotacji PDF jest zaprojektowana pod kątem szybkości. Szybko przetwarzaj i udoskonalaj swoje dokumenty dzięki naszym efektywnym narzędziom, które usprawniają twój workflow.",
+    "detail_description_object__pdf_annotator__bottom_right_title": "Jak Dodawać Notatki do Plików PDF Online:",
+    "detail_description_object__pdf_annotator__bottom_right_description_1": "Prześlij plik PDF, który chcesz opatrzyć notatkami.",
+    "detail_description_object__pdf_annotator__bottom_right_description_2": "Użyj narzędzi adnotacji do pisania, rysowania lub podkreślania w dokumencie.",
+    "detail_description_object__pdf_annotator__bottom_right_description_3": "Kliknij „Pobierz”, aby zapisać swój opatrzony notatkami plik PDF.",
+    "detail_description_object__pdf_annotator__bottom_right_description_4": "Otwórz swoje opatrzone notatkami PDF na dowolnym urządzeniu i udostępniaj je łatwo."
+  },
+  "functionality__pdf_annotator": {
+    "components__pdf_annotator__insert_tools__text_annotator": "Adnotacja Tekstu",
+    "components__pdf_annotator__insert_tools__insert_text": "wstaw tekst",
+    "components__pdf_annotator__insert_tools__insert_image": "wstaw obraz",
+    "components__pdf_annotator__insert_tools__insert_signature": "Wstaw Podpis"
   }
 }

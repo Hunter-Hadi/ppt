@@ -1338,7 +1338,8 @@
     "components__common__upload_button_tips": "또는 파일을 여기에 놓으세요",
     "components__common__upload_button_title": "파일 선택",
     "components__common__upload_button__unsupported_file_type_tip": "지정된 PDF 파일 유형을 업로드해주세요",
-    "components__common__select_other_file": "다른 파일 선택"
+    "components__common__select_other_file": "다른 파일 선택",
+    "components__common__button__download": "다운로드"
   },
   "functionality__image_to_pdf": {
     "components__image_to_pdf__error_uploaded__tips": "이미지 유형의 이미지만 업로드할 수 있습니다",
@@ -1884,5 +1885,38 @@
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_3": "단일 PDF로 페이지를 추출할지 여러 개의 PDF로 분리할지 토글합니다.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_4": "'추출 확인'을 클릭하고 잠시 기다립니다.",
     "pdf_tools__detail_description_object__extractpage_pages__bottom_right_description_5": "추출된 PDF 페이지를 다운로드하세요. 그게 전부입니다!"
+  },
+  "pages__pdf_tools__pdf_annotator": {
+    "title": "PDF 주석",
+    "description": "PDF 파일에 직접 쓰거나 그리기로 쉽게 주석을 추가하세요.",
+    "seo_title": "무료 PDF 주석 도구 - PDF 파일에 온라인으로 쓰고 그리기 | MaxAI.me",
+    "seo_description": "무료 온라인 PDF 주석 도구를 사용하여 PDF 파일에 쓰거나 그릴 수 있습니다. 다운로드, 워터마크, 또는 가입이 필요하지 않습니다. 문서에 쉽게 액세스하고 편직하게 편직하세요.",
+    "detail_description_object__pdf_annotator__top_left": "무료 PDF 주석 도구를 사용하여 PDF 문서에 직접 쓰고 그리고 강조할 수 있습니다. 제한 없이 원활한 경험을 누려보세요.",
+    "detail_description_object__pdf_annotator__top_right_1": "몇 번의 클릭으로 PDF 파일에 주석을 빠르게 추가하세요.",
+    "detail_description_object__pdf_annotator__top_right_2": "PDF 파일을 업로드하여 주석을 시작하세요.",
+    "detail_description_object__pdf_annotator__top_right_3": "맥, 윈도우, 안드로이드, iOS 기기에서 완벽하게 작동합니다.",
+    "detail_description_object__pdf_annotator__middle_1_title": "사용하기 쉬운 온라인 PDF 주석 도구",
+    "detail_description_object__pdf_annotator__middle_1_description": "직관적인 PDF 주석 도구를 사용하여 PDF 파일에 쉽게 쓰거나 그릴 수 있습니다. 계정을 만들 필요 없이 문서를 업로드하고 주석을 시작하여 편직한 PDF를 몇 분 안에 다운로드하세요.",
+    "detail_description_object__pdf_annotator__middle_2_title": "안전하고 개인적인 주석",
+    "detail_description_object__pdf_annotator__middle_2_description": "모든 주석은 브라우저에서 직접 처리되어 문서가 개인적이고 안전하게 유지됩니다. 클라우드로 데이터가 전송되지 않아 민감한 정보가 보호됩니다.",
+    "detail_description_object__pdf_annotator__middle_3_title": "다양한 기기 호환성",
+    "detail_description_object__pdf_annotator__middle_3_description": "웹 브라우저를 통해 모든 기기에서 접근할 수 있는 온라인 PDF 주석 도구로 데스크톱, 랩톱, 모바일 기기를 포함합니다. 언제 어디서나 PDF 파일에 주석을 추가하세요.",
+    "detail_description_object__pdf_annotator__middle_4_title": "간단한 주석 프로세스",
+    "detail_description_object__pdf_annotator__middle_4_description": "PDF 파일에 주석을 추가하는 것은 간단합니다: 파일을 업로드하고 내장된 도구를 사용하여 쓰거나 그린 후 편직된 버전을 다운로드하세요. 심지어 초보자도 쉽게 이 프로세스를 탐색할 수 있습니다.",
+    "detail_description_object__pdf_annotator__middle_5_title": "비용 없이 간단하게",
+    "detail_description_object__pdf_annotator__middle_5_description": "PDF에 주석을 추가하기 위해 비싼 소프트웨어를 구매할 필요가 없습니다. 숨겨진 비용, 다운로드 또는 등록이 필요 없이 온라인에서 무료 PDF 주석 도구를 사용할 수 있어 번거로움 없는 경험을 제공합니다.",
+    "detail_description_object__pdf_annotator__middle_6_title": "빠르고 효율적인 처리",
+    "detail_description_object__pdf_annotator__middle_6_description": "PDF 주석 서비스는 속도를 고려하여 설계되었습니다. 효율적인 도구로 문서를 신속하게 처리하고 개선하세요.",
+    "detail_description_object__pdf_annotator__bottom_right_title": "온라인 PDF 파일에 주석 추가하는 방법:",
+    "detail_description_object__pdf_annotator__bottom_right_description_1": "주석을 추가할 PDF 파일을 업로드하세요.",
+    "detail_description_object__pdf_annotator__bottom_right_description_2": "문서에 쓰기, 그리기 또는 강조하기 위해 주석 도구를 사용하세요.",
+    "detail_description_object__pdf_annotator__bottom_right_description_3": "주석이 추가된 PDF 파일을 저장하려면 '다운로드'를 클릭하세요.",
+    "detail_description_object__pdf_annotator__bottom_right_description_4": "주석이 추가된 PDF를 모든 기기에서 쉽게 액세스하고 공유하세요."
+  },
+  "functionality__pdf_annotator": {
+    "components__pdf_annotator__insert_tools__text_annotator": "텍스트 주석",
+    "components__pdf_annotator__insert_tools__insert_text": "텍스트 삽입",
+    "components__pdf_annotator__insert_tools__insert_image": "이미지 삽입",
+    "components__pdf_annotator__insert_tools__insert_signature": "서명 삽입"
   }
 }

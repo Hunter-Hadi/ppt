@@ -15,6 +15,7 @@ export type IToolUrkKeyType =
   | 'number-pages'
   | 'rotate-pdf'
   | 'unlock-pdf'
+  | 'pdf-annotator'
   | 'protect-pdf'
   | 'watermark-pdf'
   | 'delete-page-pdf'
@@ -191,6 +192,13 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     secondaryDescription: '',
     urlKey: routerChildrenObject['watermark-pdf'],
     urlPrefixPath: toolsTopUrlKey,
+  },
+  'pdf-annotator': {
+    icon: 'PDFAnnotator',
+    title: 'pages__pdf_tools__pdf_annotator:title',
+    description: 'pages__pdf_tools__pdf_annotator:description',
+    secondaryDescription: 'pages__pdf_tools__pdf_annotator:description',
+    urlKey: routerChildrenObject['pdf-annotator'],
   },
   'delete-page-pdf': {
     icon: 'DeletePagePDF',

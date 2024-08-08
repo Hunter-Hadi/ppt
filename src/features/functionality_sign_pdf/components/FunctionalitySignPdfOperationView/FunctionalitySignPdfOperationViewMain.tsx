@@ -4,10 +4,10 @@ import React from 'react'
 import { FC } from 'react'
 import { useRecoilValue } from 'recoil'
 
+import { FunctionalitySignPdfOperationOBjectAtom } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/store/setOperateFabricCanvas'
+import { IFabricAddObjectType } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/types'
 import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 
-import { FunctionalitySignPdfOperationOBjectAtom } from '../../store'
-import { IFabricAddObjectType } from '../../utils/fabricjsTools'
 import { IActiveDragData } from '../FunctionalitySignPdfDetail'
 import FunctionalitySignPdfIcon from '../FunctionalitySignPdfIcon'
 import FunctionalitySignPdfOperationDraggableView from './FunctionalitySignPdfOperationDraggableView'

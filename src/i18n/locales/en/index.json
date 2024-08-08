@@ -794,6 +794,33 @@
     "detail_description_object__unlock_pdf__bottom_right_description_3": "Click ‘Unlock’ to download the unlocked PDF file.",
     "detail_description_object__unlock_pdf__bottom_right_description_4": "Once unlocked, you can freely access and edit your PDF files on any device."
   },
+ "pages__pdf_tools__pdf_annotator": {
+    "title": "PDF Annotator",
+    "description": "Easily annotate your PDF files for free by writing or drawing directly on them.",
+    "seo_title": "Free PDF Annotator - Write and Draw Online on PDF Files | MaxAI.me",
+    "seo_description": "Use our free online PDF annotator to write or draw on your PDF files. No downloads, watermarks, or sign-ups needed. Access and edit your documents effortlessly.",
+    "detail_description_object__pdf_annotator__top_left": "Our free PDF annotator allows you to easily write, draw, and highlight directly on your PDF documents. Enjoy a seamless experience with no limitations.",
+    "detail_description_object__pdf_annotator__top_right_1": "Quickly annotate your PDF files in just a few clicks.",
+    "detail_description_object__pdf_annotator__top_right_2": "Simply upload your PDF file to start annotating.",
+    "detail_description_object__pdf_annotator__top_right_3": "Works perfectly on Mac, Windows, Android, and iOS devices.",
+    "detail_description_object__pdf_annotator__middle_1_title": "User-Friendly Online PDF Annotator",
+    "detail_description_object__pdf_annotator__middle_1_description": "With our intuitive PDF annotator, you can write or draw on your PDF files effortlessly. Upload your document, start annotating, and download the edited PDF in minutes, all without needing to create an account.",
+    "detail_description_object__pdf_annotator__middle_2_title": "Secure and Private Annotations",
+    "detail_description_object__pdf_annotator__middle_2_description": "All your annotations are processed directly in your browser, ensuring that your documents remain private and secure. No data is sent to the cloud, protecting your sensitive information.",
+    "detail_description_object__pdf_annotator__middle_3_title": "Cross-Device Compatibility",
+    "detail_description_object__pdf_annotator__middle_3_description": "Our online PDF annotator is accessible from any device with a web browser, including desktops, laptops, and mobile devices. Annotate your PDF files anytime, anywhere.",
+    "detail_description_object__pdf_annotator__middle_4_title": "Simple Annotation Process",
+    "detail_description_object__pdf_annotator__middle_4_description": "Annotating your PDF files is straightforward: upload your file, use the built-in tools to write or draw, and then download the edited version. Even complete beginners can navigate this process with ease.",
+    "detail_description_object__pdf_annotator__middle_5_title": "No Cost, No Complications",
+    "detail_description_object__pdf_annotator__middle_5_description": "There’s no need to buy expensive software to annotate your PDFs. Our free PDF annotator is available online with no hidden costs, downloads, or registration required, ensuring a hassle-free experience.",
+    "detail_description_object__pdf_annotator__middle_6_title": "Fast and Efficient Processing",
+    "detail_description_object__pdf_annotator__middle_6_description": "Our PDF annotation service is designed for speed. Process and refine your documents quickly with our efficient tools that enhance your workflow.",
+    "detail_description_object__pdf_annotator__bottom_right_title": "How to Annotate PDF Files Online:",
+    "detail_description_object__pdf_annotator__bottom_right_description_1": "Upload the PDF file you want to annotate.",
+    "detail_description_object__pdf_annotator__bottom_right_description_2": "Use the annotation tools to write, draw, or highlight on the document.",
+    "detail_description_object__pdf_annotator__bottom_right_description_3": "Click ‘Download’ to save your annotated PDF file.",
+    "detail_description_object__pdf_annotator__bottom_right_description_4": "Access your annotated PDF on any device and share it easily."
+ },
   "pages__pdf_tools__deletepage_pdf": {
     "confirm_to_delete": "Confirm to delete",
     "delete_download": "Delete and download PDF"
@@ -949,7 +976,8 @@
     "components__common__upload_button_tips": "or drop files here",
     "components__common__upload_button_title": "CHOOSE FILES",
     "components__common__upload_button__unsupported_file_type_tip": "Please upload the specified PDF file type",
-    "components__common__select_other_file": "Choose another file"
+    "components__common__select_other_file": "Choose another file",
+    "components__common__button__download": "Download"
   },
   "functionality__pdf_merge": {
     "components__pdf_merge__add_pdf": "Add PDFs",
@@ -1112,6 +1140,13 @@
     "components__protect_pdf_detail__input__placeholder": "Set your password",
     "components__protect_pdf_detail__repeat_input__placeholder": "Confirm your password",
     "components__protect_pdf_detail__use_tips": "The password and PDF files will not be uploaded to the server, ensuring security."
+  },
+  "functionality__pdf_annotator": {
+    "components__pdf_annotator__insert_tools__text_annotator": "Text Annotation",
+    "components__pdf_annotator__insert_tools__insert_text": "insert text",
+    "components__pdf_annotator__insert_tools__insert_image": "insert picture",
+    "components__pdf_annotator__insert_tools__insert_signature": "Insert Signature"
+
   },
   "prompt_library": {
     "use_prompt_library__title": "High quality AI prompt library",
