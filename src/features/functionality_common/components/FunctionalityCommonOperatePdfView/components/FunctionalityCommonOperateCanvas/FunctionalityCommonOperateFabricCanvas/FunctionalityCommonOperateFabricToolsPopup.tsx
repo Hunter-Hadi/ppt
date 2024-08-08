@@ -15,6 +15,7 @@ import { FC, useEffect, useMemo, useState } from 'react'
 import FunctionalityCommonButtonPopover from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonButtonPopover'
 import FunctionalityCommonColorButtonPopover from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonColorButtonPopover'
 import FunctionalityCommonFontsButtonPopover from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonFontsButtonPopover'
+import { FunctionalityCommonSliderView } from '@/features/functionality_common/components/FunctionalityCommonSliderView'
 import { SIGN_TEXT_FONT_FAMILY_LIST } from '@/features/functionality_common/constants'
 import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 
@@ -341,49 +342,58 @@ const FunctionalityCommonOperateFabricToolsPopup: FC<
             </FunctionalityCommonButtonPopover>
           </Button>
         )}
-        <Button>
-          <FunctionalityCommonColorButtonPopover
-            titleText={isText ? 'A' : ''}
-            isShowRightIcon={false}
-            buttonProps={{
-              variant: 'text',
-            }}
-            onSelectedColor={onChangeColor}
-            onChangeTransparency={onChangeTransparency}
-            currentTransparency={
-              transparencyNumber || activeObject.opacity * 100
-            }
-            currentColor={isImage ? activeObject.imgColor : activeObject.fill}
-          />
-          {isText && (
+        {isImage && activeObject.imageType === 'insertImage' && (
+          <Button>
+            <FunctionalityCommonSliderView
+              onChangeTransparency={onChangeTransparency}
+            />
+          </Button>
+        )}
+        {(isText || (isImage && activeObject.imageType !== 'insertImage')) && (
+          <Button>
             <FunctionalityCommonColorButtonPopover
+              titleText={isText ? 'A' : ''}
               isShowRightIcon={false}
-              colorList={[
-                'transparent',
-                'black',
-                'white',
-                'blue',
-                'red',
-                'green',
-                'yellow',
-                'orange',
-                'purple',
-                'pink',
-                'brown',
-                'gray',
-              ]}
               buttonProps={{
                 variant: 'text',
               }}
-              onSelectedColor={onChangeBgColor}
+              onSelectedColor={onChangeColor}
               onChangeTransparency={onChangeTransparency}
               currentTransparency={
                 transparencyNumber || activeObject.opacity * 100
               }
-              currentColor={activeObject.backgroundColor}
+              currentColor={isImage ? activeObject.imgColor : activeObject.fill}
             />
-          )}
-        </Button>
+            {isText && (
+              <FunctionalityCommonColorButtonPopover
+                isShowRightIcon={false}
+                colorList={[
+                  'transparent',
+                  'black',
+                  'white',
+                  'blue',
+                  'red',
+                  'green',
+                  'yellow',
+                  'orange',
+                  'purple',
+                  'pink',
+                  'brown',
+                  'gray',
+                ]}
+                buttonProps={{
+                  variant: 'text',
+                }}
+                onSelectedColor={onChangeBgColor}
+                onChangeTransparency={onChangeTransparency}
+                currentTransparency={
+                  transparencyNumber || activeObject.opacity * 100
+                }
+                currentColor={activeObject.backgroundColor}
+              />
+            )}
+          </Button>
+        )}
 
         <Button onClick={onCopySelectedObject}>
           <FunctionalityCommonOperateIcon name='ContentCopy' />

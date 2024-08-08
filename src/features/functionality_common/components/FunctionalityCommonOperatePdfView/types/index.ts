@@ -5,4 +5,5 @@ export type ICanvasObjectData = {
   id: string
   type: IFabricAddObjectType
   value: string
+  imageType?: 'insertImage' //图片类型
 }

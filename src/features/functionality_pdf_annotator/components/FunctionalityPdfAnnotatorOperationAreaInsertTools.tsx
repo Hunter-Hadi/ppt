@@ -31,13 +31,14 @@ const FunctionalityOperationAreaCanvasTools: FC<
     eventEmitterAddFabricCanvas({
       type: 'image',
       value: base64String,
+      imageType: 'insertImage',
       width,
       height,
     })
     onChangeType('insert')
     setUploadKey((prev) => prev + 1)
   }
-  const onAddImg = (params: {
+  const onAddSignImg = (params: {
     value: string
     width: number
     height: number
@@ -142,7 +143,7 @@ const FunctionalityOperationAreaCanvasTools: FC<
             )}
           </Typography>
         </UploadButton>
-        <FunctionalityCommonSignaturePopoverViewMain onAddImg={onAddImg}>
+        <FunctionalityCommonSignaturePopoverViewMain onAddImg={onAddSignImg}>
           <Button
             sx={{
               flexDirection: 'column',

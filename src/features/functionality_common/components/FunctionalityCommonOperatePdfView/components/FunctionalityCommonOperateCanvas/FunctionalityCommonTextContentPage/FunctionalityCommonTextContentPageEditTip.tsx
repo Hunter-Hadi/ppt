@@ -24,42 +24,63 @@ const FunctionalityCommonTextContentPageEditTip: FC<
   const { height: viewWrapHeight, width: viewWrapWidth } =
     useFunctionalityCommonElementSize(viewRef)
   const isMobile = useFunctionalityCommonIsMobile()
+  const selectWidth = 80
+  const selectHeight = 60
+
   const left = useMemo(() => {
     const currentLeft =
-      annotationEditInfo.position.boundingRect.left +
-      annotationEditInfo.position.boundingRect.width
-    if (currentLeft + 150 * 1.5 > viewWrapWidth) {
-      return viewWrapWidth - 150 * 1.5
+      annotationEditInfo.position.boundingRect.left * pdfViewScale +
+      annotationEditInfo.position.boundingRect.width * pdfViewScale
+    if (currentLeft + selectWidth > viewWrapWidth) {
+      return viewWrapWidth - selectWidth
     }
     return currentLeft
   }, [
+    pdfViewScale,
     annotationEditInfo.position.boundingRect.left,
     annotationEditInfo.position.boundingRect.width,
+    selectWidth,
     viewWrapWidth,
   ])
 
   const top = useMemo(() => {
     const currentTop =
-      annotationEditInfo.position.boundingRect.top +
-      annotationEditInfo.position.boundingRect.height
-    const viewHeight = viewWrapHeight || 500
-    if (currentTop + 150 > viewHeight) {
-      return currentTop - 80
+      annotationEditInfo.position.boundingRect.top * pdfViewScale +
+      annotationEditInfo.position.boundingRect.height * pdfViewScale -
+      selectHeight
+    if (currentTop < 0) {
+      return selectHeight
     }
-    return currentTop - 50
+    return currentTop
   }, [
+    pdfViewScale,
+    selectHeight,
     annotationEditInfo.position.boundingRect.height,
     annotationEditInfo.position.boundingRect.top,
-    viewWrapHeight,
   ])
+  const annotationInfo = annotationEditInfo.annotation?.[0]
+
   const onChangeHighlight = (type: string, val: string) => {
     onChange({
       type: type as 'highlight' | 'underline' | 'strikethrough',
       color: val,
-      transparency: 0.5,
+      transparency: annotationInfo?.transparency,
     })
   }
-  const annotationInfo = annotationEditInfo.annotation?.[0]
+  const onChangeTransparency = (transparency: number) => {
+    // TODO
+    if (annotationInfo) {
+      onChange({
+        type: annotationInfo?.type,
+        color: annotationInfo.color,
+        transparency: transparency / 100,
+      })
+    }
+  }
+  const currentTransparency =
+    annotationInfo?.type === 'highlight'
+      ? (annotationInfo?.transparency || 1) * 100
+      : undefined
   return (
     <Box
       className='functionality-common-text-content-page-edit-tip'
@@ -75,8 +96,8 @@ const FunctionalityCommonTextContentPageEditTip: FC<
       <Box
         sx={{
           position: 'absolute',
-          left: left * pdfViewScale,
-          top: top * pdfViewScale,
+          left: left,
+          top: top,
           zIndex: 9999,
         }}
       >
@@ -93,7 +114,9 @@ const FunctionalityCommonTextContentPageEditTip: FC<
               <FunctionalityCommonColorButtonPopover
                 isShowRightIcon={false}
                 isClickClose={true}
+                currentTransparency={currentTransparency}
                 currentColor={annotationInfo.color}
+                onChangeTransparency={onChangeTransparency}
                 buttonProps={{
                   variant: 'outlined',
                 }}

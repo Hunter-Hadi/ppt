@@ -158,7 +158,8 @@ export const onFabricAddObject = async (
           const zoom = fabricCanvas.current?.getZoom() || 1
           const proportion = 1 / zoom
           const fabricImage = new fabric.Image(image, positionData)
-
+          // eslint-disable-next-line no-unexpected-multiline
+          ;(fabricImage as any).imageType = canvasObject.imageType //强制添加 imageType 属性
           let scaleRatioWidth = 1
           let scaleRatioHeight = 1
 
@@ -279,7 +280,9 @@ export const copyFabricSelectedObject = (editor) => {
         top: clonedObj.top + 10,
         hasRotatingPoint: false, // 禁用旋转控制点
       })
-
+      if (activeObject.imageType) {
+        clonedObj.imageType = activeObject.imageType
+      }
       // 如果复制的是一个组，我们需要逐一添加组内对象
       if (clonedObj.type === 'activeSelection') {
         // 对组内每个对象进行处理

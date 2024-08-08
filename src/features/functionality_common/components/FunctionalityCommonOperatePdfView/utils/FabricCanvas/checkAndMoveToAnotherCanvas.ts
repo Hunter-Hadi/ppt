@@ -7,8 +7,6 @@ const deleteObjectKey = {
   current: [] as string[],
 }
 
-
-
 // 对象移动方法类型定义
 type AddPositionType = 'top' | 'bottom'
 
@@ -22,7 +20,7 @@ const addIndexObject = (clone: fabric.Object, index: number): void => {
 // 移动对象到另一个画布的主方法
 const moveToAnotherCanvas = (
   canvasBounds: {
-    height: number;
+    height: number
   },
   targetObject: fabric.Object,
   addPositionType: AddPositionType,
@@ -51,6 +49,10 @@ const moveObjectToBottom = (
 
   targetObject.clone().then((clone: fabric.Object) => {
     clone.set({ top: 0 })
+    if ((targetObject as any).imageType) {
+      // eslint-disable-next-line no-extra-semi
+      ;(clone as any).imageType = (targetObject as any).imageType
+    }
     addIndexObject(clone, canvasIndex + 1) // 将克隆对象添加到下一个画布
   })
 }
@@ -58,7 +60,7 @@ const moveObjectToBottom = (
 // 将对象移动到顶部的方法
 const moveObjectToTop = (
   canvasBounds: {
-    height: number;
+    height: number
   },
   targetObject: fabric.Object,
   canvasIndex: number,
@@ -66,10 +68,12 @@ const moveObjectToTop = (
   targetObject.clone().then((clone: fabric.Object) => {
     if (canvasBounds.height) {
       clone.set({
-        top:
-          canvasBounds.height -
-          targetObject.height * targetObject.scaleY,
+        top: canvasBounds.height - targetObject.height * targetObject.scaleY,
       })
+    }
+    if ((targetObject as any).imageType) {
+      // eslint-disable-next-line no-extra-semi
+      ;(clone as any).imageType = (targetObject as any).imageType
     }
     addIndexObject(clone, canvasIndex - 1) // 将克隆对象添加到上一个画布
   })
@@ -108,7 +112,7 @@ const checkAndMoveToAnotherCanvas = (
     canvasBounds.height &&
     pointerY > canvasBounds.height + intervalTriggerDistance &&
     objBounds.top + objBounds.height >
-    canvasBounds.height + intervalTriggerDistance &&
+      canvasBounds.height + intervalTriggerDistance &&
     canvasIndex !== canvasNumber - 1
   ) {
     addPositionType = 'bottom'

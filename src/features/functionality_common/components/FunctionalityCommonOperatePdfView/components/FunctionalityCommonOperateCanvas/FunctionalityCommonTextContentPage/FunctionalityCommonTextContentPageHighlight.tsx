@@ -17,7 +17,10 @@ const FunctionalityCommonTextContentPageHighlight: FC<
     (data?: ITextContentHighlighterAnnotationInfo) => {
       if (data) {
         if (data.type === 'highlight') {
-          return { backgroundColor: data.color, opacity: 0.5 }
+          return {
+            backgroundColor: data.color,
+            opacity: data.transparency || 0.5,
+          }
         } else if (data.type === 'underline') {
           return {
             borderBottom: `2px solid ${data.color}`,
@@ -34,6 +37,7 @@ const FunctionalityCommonTextContentPageHighlight: FC<
     <Box className='FunctionalityCommonTextContentPageHighlight'>
       {viewHighlights.map((viewHighlight) => {
         const annotationInfo = viewHighlight?.annotation?.[0]
+        const isDelHeight = annotationInfo?.type === 'underline' ? 0 : 0 //比实际的高了
         return (
           <Box key={viewHighlight.id}>
             {viewHighlight.position.rects.map((rect, index) => (
@@ -48,7 +52,7 @@ const FunctionalityCommonTextContentPageHighlight: FC<
                   left: rect.left * pdfViewScale,
                   top: rect.top * pdfViewScale,
                   width: rect.width * pdfViewScale,
-                  height: rect.height * pdfViewScale,
+                  height: rect.height * pdfViewScale - isDelHeight,
                   position: 'absolute',
                   cursor: 'pointer',
                   zIndex: 1000,

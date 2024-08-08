@@ -120,7 +120,7 @@ const FunctionalityCommonTextContentPage: FC<
       }
       return copyList
     })
-    setAnnotationEditInfo(undefined)
+    // setAnnotationEditInfo(undefined)
   }
   const onDeleteHighlight = (
     annotationEditInfo: ITextContentHighlighterViewportHighlight,

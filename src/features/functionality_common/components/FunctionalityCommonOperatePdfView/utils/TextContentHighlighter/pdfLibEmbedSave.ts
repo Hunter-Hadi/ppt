@@ -19,69 +19,73 @@ export const textContentHighlighterPdfLibEmbedSave = async (
 ) => {
   const pages = pdfDoc.getPages()
 
-  textAnnotatorList.forEach((textAnnotator, pageIndex) => {
-    const page = pages[pageIndex]
-    if (!textAnnotator) return
-    textAnnotator.forEach((highlight) => {
-      const annotationInfo = highlight.annotation?.[0]
-      if (annotationInfo) {
-        highlight.position.rects.forEach((rect) => {
-          const { left, top, width, height, type, color, transparency } = {
-            left: rect.left,
-            top: rect.top,
-            width: rect.width,
-            height: rect.height,
-            type: annotationInfo.type,
-            color: annotationInfo.color,
-            transparency: annotationInfo.transparency,
-          }
-          const rgbColor = Color(color).rgb().string() // 转换为RGB
-          // 使用正则表达式提取 RGB 值
-          const rgbValues = rgbColor.match(/\d+/g)?.map(Number) || [0, 0, 0]
-          // 将 RGB 值转换为 pdf-lib 支持的 rgb 格式
-          const pdfRgbColor = rgb(
-            rgbValues[0] / 255,
-            rgbValues[1] / 255,
-            rgbValues[2] / 255,
-          )
-          console.log('pdfRgbColor', pdfRgbColor)
-          // 将透明度转换为255的范围
-          const fillOpacity = transparency !== undefined ? 1 - transparency : 1
-          const rgbaColor = pdfRgbColor || rgb(0.75, 0.2, 0.2)
+  try {
+    textAnnotatorList.forEach((textAnnotator, pageIndex) => {
+      const page = pages[pageIndex]
+      if (!textAnnotator) return
+      textAnnotator.forEach((highlight) => {
+        const annotationInfo = highlight.annotation?.[0]
+        if (annotationInfo) {
+          highlight.position.rects.forEach((rect) => {
+            const { left, top, width, height, type, color, transparency } = {
+              left: rect.left,
+              top: rect.top,
+              width: rect.width,
+              height: rect.height,
+              type: annotationInfo.type,
+              color: annotationInfo.color,
+              transparency: annotationInfo.transparency,
+            }
+            const rgbColor = Color(color).rgb().string() // 转换为RGB
+            // 使用正则表达式提取 RGB 值
+            const rgbValues = rgbColor.match(/\d+/g)?.map(Number) || [0, 0, 0]
+            // 将 RGB 值转换为 pdf-lib 支持的 rgb 格式
+            const pdfRgbColor = rgb(
+              rgbValues[0] / 255,
+              rgbValues[1] / 255,
+              rgbValues[2] / 255,
+            )
+            console.log('pdfRgbColor', pdfRgbColor)
+            // 将透明度转换为255的范围
+            const fillOpacity = transparency !== undefined ? transparency : 0.5
+            const rgbaColor = pdfRgbColor || rgb(0.75, 0.2, 0.2)
 
-          if (type === 'highlight') {
-            // 绘制高亮
-            page.drawRectangle({
-              x: left,
-              y: page.getHeight() - top - height, // PDF坐标系统与普通坐标不同
-              width: width,
-              height: height,
-              color: rgbaColor,
-              opacity: fillOpacity,
-            })
-          } else if (type === 'underline') {
-            const fontSize = 12
-            // 绘制下划线
-            page.drawLine({
-              start: { x: left, y: page.getHeight() - top - fontSize },
-              end: { x: left + width, y: page.getHeight() - top - fontSize },
-              color: rgbaColor,
-              thickness: 2, // 可以调整线的厚度
-            })
-          } else if (type === 'strikethrough') {
-            // 绘制删除线
-            page.drawLine({
-              start: { x: left, y: page.getHeight() - (top + height / 2) },
-              end: {
-                x: left + width,
-                y: page.getHeight() - (top + height / 2),
-              },
-              color: rgbaColor,
-              thickness: 2, // 可以调整线的厚度
-            })
-          }
-        })
-      }
+            if (type === 'highlight') {
+              // 绘制高亮
+              page.drawRectangle({
+                x: left,
+                y: page.getHeight() - top - height, // PDF坐标系统与普通坐标不同
+                width: width,
+                height: height,
+                color: rgbaColor,
+                opacity: fillOpacity,
+              })
+            } else if (type === 'underline') {
+              const fontSize = height
+              // 绘制下划线
+              page.drawLine({
+                start: { x: left, y: page.getHeight() - top - fontSize },
+                end: { x: left + width, y: page.getHeight() - top - fontSize },
+                color: rgbaColor,
+                thickness: 1.5, // 可以调整线的厚度
+              })
+            } else if (type === 'strikethrough') {
+              // 绘制删除线
+              page.drawLine({
+                start: { x: left, y: page.getHeight() - (top + height / 2) },
+                end: {
+                  x: left + width,
+                  y: page.getHeight() - (top + height / 2),
+                },
+                color: rgbaColor,
+                thickness: 1.5, // 可以调整线的厚度
+              })
+            }
+          })
+        }
+      })
     })
-  })
+  } catch (e) {
+    console.log('textContentHighlighterPdfLibEmbedSave', e)
+  }
 }

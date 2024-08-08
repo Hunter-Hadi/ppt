@@ -1,5 +1,5 @@
 import { Box, Button, ButtonGroup, Stack } from '@mui/material'
-import React, { FC, useMemo, useRef } from 'react'
+import React, { FC, useEffect, useMemo, useRef } from 'react'
 import { useRecoilState } from 'recoil'
 
 import FunctionalityCommonColorButtonPopover from '@/features/functionality_common/components/FunctionalityCommonPopover/FunctionalityCommonColorButtonPopover'
@@ -37,32 +37,43 @@ const FunctionalityCommonTextContentPageTip: FC<
   ) // strikethroughColorState is a Recoil atom
 
   const isMobile = useFunctionalityCommonIsMobile()
+  const selectWidth = 200
+  const selectHeight = 60
+
   const left = useMemo(() => {
     const currentLeft =
-      selectPosition.boundingRect.left + selectPosition.boundingRect.width
-    if (currentLeft + 184 * 2.2 > viewWrapWidth) {
-      return viewWrapWidth - 184 * 2.2
+      selectPosition.boundingRect.left * pdfViewScale +
+      selectPosition.boundingRect.width * pdfViewScale
+    if (currentLeft + selectWidth > viewWrapWidth) {
+      return viewWrapWidth - selectWidth
     }
     return currentLeft
   }, [
+    pdfViewScale,
     selectPosition.boundingRect.left,
     selectPosition.boundingRect.width,
+    selectWidth,
     viewWrapWidth,
   ])
 
   const top = useMemo(() => {
     const currentTop =
-      selectPosition.boundingRect.top + selectPosition.boundingRect.height
-    const viewHeight = viewWrapHeight || 500
-    if (currentTop + 150 > viewHeight) {
-      return currentTop - 80
+      selectPosition.boundingRect.top * pdfViewScale +
+      selectPosition.boundingRect.height * pdfViewScale -
+      selectHeight
+    if (currentTop < 0) {
+      return selectHeight
     }
-    return currentTop - 50
+    return currentTop
   }, [
+    pdfViewScale,
+    selectHeight,
     selectPosition.boundingRect.height,
     selectPosition.boundingRect.top,
-    viewWrapHeight,
   ])
+  useEffect(() => {
+    console.log('top:', top)
+  }, [left, top])
   const onAddHighlight = (type: string, val: string) => {
     switch (type) {
       case 'highlight':
@@ -113,8 +124,8 @@ const FunctionalityCommonTextContentPageTip: FC<
       <Box
         sx={{
           position: 'absolute',
-          left: left * pdfViewScale,
-          top: top * pdfViewScale,
+          left: left,
+          top: top,
           zIndex: 9999,
         }}
       >

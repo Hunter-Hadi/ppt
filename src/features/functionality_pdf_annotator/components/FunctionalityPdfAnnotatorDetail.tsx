@@ -22,10 +22,7 @@ import { useRecoilState } from 'recoil'
 
 import FunctionalityCommonOperatePdfToolViewMain from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/components/FunctionalityCommonOperatePdfToolViewMain'
 import useFunctionalityEditDndContextHandle from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/hooks/useFunctionalityEditDndContextHandle'
-import {
-  fabricCanvasJsonStringListRecoil,
-  fabricCanvasSignObjectListRecoil,
-} from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/store/setOperateFabricCanvas'
+import { fabricCanvasJsonStringListRecoil } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/store/setOperateFabricCanvas'
 import { textAnnotatorRecoilList } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/store/setTextContentAnnotator'
 import { pdfLibFabricCanvasEmbedSave } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/utils/FabricCanvas/pdfLibFabricCanvasEmbedSave'
 import { textContentHighlighterPdfLibEmbedSave } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/utils/TextContentHighlighter/pdfLibEmbedSave'
@@ -46,14 +43,10 @@ const FunctionalityPdfAnnotatorDetail: ForwardRefRenderFunction<
   const { t } = useTranslation()
   const isMobile = useFunctionalityCommonIsMobile()
 
-  const [textAnnotatorList, setTextAnnotatorList] = useRecoilState(
-    textAnnotatorRecoilList,
+  const [textAnnotatorList] = useRecoilState(textAnnotatorRecoilList)
+  const [fabricCanvasJsonStringList] = useRecoilState(
+    fabricCanvasJsonStringListRecoil,
   )
-  const [, setFabricCanvasSignObjectList] = useRecoilState(
-    fabricCanvasSignObjectListRecoil,
-  )
-  const [fabricCanvasJsonStringList, setFabricCanvasJsonStringList] =
-    useRecoilState(fabricCanvasJsonStringListRecoil)
   const topViewRef = useRef<HTMLElement | null>(null)
   const pdfViewRef = useRef<HTMLElement | null>(null)
 
@@ -69,10 +62,9 @@ const FunctionalityPdfAnnotatorDetail: ForwardRefRenderFunction<
   }, [textAnnotatorList])
   const autoSetOverallViewHeight = useCallback(() => {
     const distanceFromTop = topViewRef.current?.getBoundingClientRect().top
-    const overallViewHeight =
-      window.innerHeight - (distanceFromTop || 280) - 10 - (isMobile ? 50 : 0)
+    const overallViewHeight = window.innerHeight - (distanceFromTop || 280) - 10
     setOverallViewHeight(overallViewHeight)
-  }, [isMobile])
+  }, [])
   useEffect(() => {
     if (isMobile) {
       setTimeout(() => {
@@ -102,7 +94,7 @@ const FunctionalityPdfAnnotatorDetail: ForwardRefRenderFunction<
     onStart: () => {},
     onEnd: () => {},
   })
-  const onSavePDF = async () => {
+  const onSavePDF = useCallback(async () => {
     setDownLoadLoading(true)
     console.log('textAnnotatorList', textAnnotatorList)
     let pdfDoc: PDFDocument | null = null
@@ -126,20 +118,15 @@ const FunctionalityPdfAnnotatorDetail: ForwardRefRenderFunction<
       .finally(() => {
         setDownLoadLoading(false)
       })
-  }
-  const onSavePDFAndAwaitCanvas = async () => {
+  }, [fabricCanvasJsonStringList, file, textAnnotatorList])
+  const onSavePDFAndAwaitCanvas = useCallback(async () => {
     setDownLoadLoading(true)
     await new Promise((resolve) => setTimeout(resolve, 1000)) //等待canvas数据更新
     onSavePDF()
-  }
-  const onClearData = () => {
-    setTimeout(() => {
-      setTextAnnotatorList([])
-      setFabricCanvasJsonStringList([])
-      setFabricCanvasSignObjectList([])
-    }, 500)
+  }, [onSavePDF])
+  const onClearData = useCallback(() => {
     onClearFile()
-  }
+  }, [onClearFile])
   const saveButtonDom = useMemo(
     () => (
       <Stack
@@ -175,6 +162,9 @@ const FunctionalityPdfAnnotatorDetail: ForwardRefRenderFunction<
           size='large'
           onClick={onClearData}
           disabled={downLoadLoading}
+          sx={{
+            minWidth: isMobile ? 100 : 'auto',
+          }}
         >
           {isMobile
             ? t('common:back')
@@ -186,10 +176,8 @@ const FunctionalityPdfAnnotatorDetail: ForwardRefRenderFunction<
       downLoadLoading,
       isHaveData,
       isMobile,
-      onClearFile,
+      onClearData,
       onSavePDFAndAwaitCanvas,
-      setFabricCanvasJsonStringList,
-      setTextAnnotatorList,
       t,
     ],
   )

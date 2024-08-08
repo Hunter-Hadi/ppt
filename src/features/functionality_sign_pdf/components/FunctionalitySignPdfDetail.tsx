@@ -63,11 +63,13 @@ export const FunctionalitySignPdfDetail: FC<
   IFunctionalitySignPdfDetailProps
 > = ({ file, onClearReturn }) => {
   const isMobile = useFunctionalityCommonIsMobile()
-  const [fabricCanvasSignObjectList, setFabricCanvasSignObjectList] =
-    useRecoilState(fabricCanvasSignObjectListRecoil)
+  const [fabricCanvasSignObjectList] = useRecoilState(
+    fabricCanvasSignObjectListRecoil,
+  )
   const { t } = useTranslation()
-  const [fabricCanvasJsonStringList, setFabricCanvasJsonStringList] =
-    useRecoilState(fabricCanvasJsonStringListRecoil)
+  const [fabricCanvasJsonStringList] = useRecoilState(
+    fabricCanvasJsonStringListRecoil,
+  )
   const [saveButtonLoading, setSaveButtonLoading] = useState(false)
   const [viewObjectToolsData, setViewObjectToolsData] =
     useState<IFunctionalitySignPdfShowPdfViewObjectToolsPopupProps | null>(null)
@@ -78,7 +80,7 @@ export const FunctionalitySignPdfDetail: FC<
   const autoSetOverallViewHeight = () => {
     const distanceFromTop = dndDragRef.current?.getBoundingClientRect().top
     const overallViewHeight =
-      window.innerHeight - (distanceFromTop || 280) - 10 - (isMobile ? 50 : 0)
+      window.innerHeight - (distanceFromTop || 280) - 10 - (isMobile ? 70 : 0)
     setOverallViewHeight(overallViewHeight)
   }
   useEffect(() => {
@@ -160,10 +162,6 @@ export const FunctionalitySignPdfDetail: FC<
     setActiveDragData(undefined)
   }
   const onClearFile = async () => {
-    setTimeout(() => {
-      setFabricCanvasJsonStringList([])
-      setFabricCanvasSignObjectList([])
-    }, 500) //清空画布,暂时这样处理，不然清理不掉
     onClearReturn()
   }
 
@@ -214,6 +212,15 @@ export const FunctionalitySignPdfDetail: FC<
               >
                 {t(
                   'functionality__sign_pdf:components__sign_pdf__detail__finish',
+                )}
+              </Button>
+              <Button
+                onClick={onClearReturn}
+                sx={{ width: '100%', padding: 0 }}
+                size='small'
+              >
+                {t(
+                  'functionality__common:components__common__select_other_file',
                 )}
               </Button>
             </Box>
@@ -294,6 +301,15 @@ export const FunctionalitySignPdfDetail: FC<
                     >
                       {t(
                         'functionality__sign_pdf:components__sign_pdf__detail__finish',
+                      )}
+                    </Button>
+                    <Button
+                      onClick={onClearReturn}
+                      sx={{ width: '100%', padding: 0 }}
+                      size='small'
+                    >
+                      {t(
+                        'functionality__common:components__common__select_other_file',
                       )}
                     </Button>
                   </Box>
