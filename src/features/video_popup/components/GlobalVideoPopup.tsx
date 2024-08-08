@@ -1,30 +1,32 @@
-import { Box, Stack, SxProps } from '@mui/material';
-import React, { FC } from 'react';
+import Box from '@mui/material/Box'
+import Stack from '@mui/material/Stack'
+import { SxProps } from '@mui/material/styles'
+import React, { FC } from 'react'
 
-import YoutubePlayerBox from '@/components/YoutubePlayerBox';
-import CustomModal from '@/features/common/components/CustomModal';
+import YoutubePlayerBox from '@/components/YoutubePlayerBox'
+import CustomModal from '@/features/common/components/CustomModal'
 
-import useVideoPopupController from '../hooks/useVideoPopupController';
+import useVideoPopupController from '../hooks/useVideoPopupController'
 
 interface IVideoPopupProps {
-  videoWidth?: string | number;
-  videoHeight?: string | number;
-  onClose?: () => void;
-  sx?: SxProps;
+  videoWidth?: string | number
+  videoHeight?: string | number
+  onClose?: () => void
+  sx?: SxProps
 }
 
-const VIDEO_POPUP_CONTAINER_ID = 'video-popup-container';
+const VIDEO_POPUP_CONTAINER_ID = 'video-popup-container'
 
 const GlobalVideoPopup: FC<IVideoPopupProps> = (props) => {
-  const { videoWidth, videoHeight, onClose, sx } = props;
+  const { videoWidth, videoHeight, onClose, sx } = props
 
   const { popupState, open, videoSrc, closeVideoPopup } =
-    useVideoPopupController();
+    useVideoPopupController()
 
   const onModalClose = () => {
-    closeVideoPopup();
-    onClose && onClose();
-  };
+    closeVideoPopup()
+    onClose && onClose()
+  }
 
   return (
     <CustomModal
@@ -67,7 +69,7 @@ const GlobalVideoPopup: FC<IVideoPopupProps> = (props) => {
         </Box>
       </Stack>
     </CustomModal>
-  );
-};
+  )
+}
 
-export default GlobalVideoPopup;
+export default GlobalVideoPopup

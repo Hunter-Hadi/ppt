@@ -1,4 +1,6 @@
-import { Box, Tooltip, TooltipProps, Typography } from '@mui/material'
+import Box from '@mui/material/Box'
+import Tooltip, { TooltipProps } from '@mui/material/Tooltip'
+import Typography from '@mui/material/Typography'
 import React from 'react'
 
 import useFunctionalityCommonIsMobile from '../hooks/useFunctionalityCommonIsMobile'

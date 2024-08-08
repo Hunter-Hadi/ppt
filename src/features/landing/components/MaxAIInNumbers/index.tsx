@@ -1,17 +1,17 @@
-import { Box, Grid, Typography, useMediaQuery } from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import React from 'react';
+import { Box, Grid, Typography, useMediaQuery } from '@mui/material'
+import { useTranslation } from 'next-i18next'
+import React from 'react'
 
-import ResponsiveImage from '@/components/ResponsiveImage';
-import { LOVED_BY_NUM, STAR_RATINGS_NUM } from '@/features/landing/constants';
+import ResponsiveImage from '@/components/ResponsiveImage'
+import { LOVED_BY_NUM, STAR_RATINGS_NUM } from '@/features/landing/constants'
 
-import NumbersBox from './NumbersBox';
-import PrivacyFriendlyNumbersBox from './PrivacyFriendlyNumbersBox';
+import NumbersBox from './NumbersBox'
+import PrivacyFriendlyNumbersBox from './PrivacyFriendlyNumbersBox'
 
 const MaxAIInNumbers = () => {
-  const isDown600 = useMediaQuery('(max-width:600px)'); // 小于 600px 时为 true
+  const isDown600 = useMediaQuery('(max-width:600px)') // 小于 600px 时为 true
 
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   return (
     <Box
@@ -58,6 +58,7 @@ const MaxAIInNumbers = () => {
                   )}
                   content={
                     <ResponsiveImage
+                      loading='lazy'
                       alt={'professionals'}
                       src={'/assets/landing/numbers/1M+.svg'}
                       width={240}
@@ -77,6 +78,7 @@ const MaxAIInNumbers = () => {
                   )}
                   content={
                     <ResponsiveImage
+                      loading='lazy'
                       alt={'5-star ratings'}
                       src={'/assets/landing/numbers/12K+.svg'}
                       width={240}
@@ -96,6 +98,7 @@ const MaxAIInNumbers = () => {
                   )}
                   content={
                     <ResponsiveImage
+                      loading='lazy'
                       alt={'on-product-hunt'}
                       src={'/assets/landing/numbers/on-product-hunt.svg'}
                       width={240}
@@ -114,6 +117,7 @@ const MaxAIInNumbers = () => {
                   )}
                   content={
                     <ResponsiveImage
+                      loading='lazy'
                       alt={'hours'}
                       src={'/assets/landing/numbers/9.svg'}
                       width={240}
@@ -137,6 +141,7 @@ const MaxAIInNumbers = () => {
                   )}
                   content={
                     <ResponsiveImage
+                      loading='lazy'
                       alt={'generations'}
                       src={'/assets/landing/numbers/60M+.svg'}
                       width={240}
@@ -162,6 +167,7 @@ const MaxAIInNumbers = () => {
                   )}
                   content={
                     <ResponsiveImage
+                      loading='lazy'
                       alt={'users'}
                       src={'/assets/landing/numbers/users.svg'}
                       width={240}
@@ -189,6 +195,7 @@ const MaxAIInNumbers = () => {
                   )}
                   content={
                     <ResponsiveImage
+                      loading='lazy'
                       alt={'companies'}
                       src={'/assets/landing/numbers/65K+.svg'}
                       width={240}
@@ -208,6 +215,7 @@ const MaxAIInNumbers = () => {
                   )}
                   content={
                     <ResponsiveImage
+                      loading='lazy'
                       alt={'languages'}
                       src={'/assets/landing/numbers/58.svg'}
                       width={240}
@@ -222,7 +230,7 @@ const MaxAIInNumbers = () => {
         <Box mt={4} />
       </Box>
     </Box>
-  );
-};
+  )
+}
 
-export default MaxAIInNumbers;
+export default MaxAIInNumbers

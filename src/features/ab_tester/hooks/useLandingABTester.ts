@@ -13,17 +13,18 @@ import { isTargetTestPathname } from '@/features/ab_tester/utils'
 import useCheckExtension from '@/features/extension/hooks/useCheckExtension'
 import { mixpanelTrack } from '@/features/mixpanel/utils'
 import useAutoRedirectLanguage from '@/hooks/useAutoRedirectLanguage'
+import usePageLoaded from '@/hooks/usePageLoaded'
 import { getLocalStorage, setLocalStorage } from '@/utils/localStorage'
 
-const LandingABTestVariantKeyAtom = atom({
+const LandingABTestVariantKeyAtom = atom<ILandingVariantType | null>({
   key: 'LandingABTestVariantKeyAtom',
-  default: getLocalStorage(
-    TEST_LANDING_COOKIE_NAME,
-  ) as ILandingVariantType | null,
+  default: null,
 })
 
 const useLandingABTester = (autoSendEvent = false) => {
-  const { pathname, isReady } = useRouter()
+  const { pathname } = useRouter()
+
+  const { isLoaded: pageLoaded } = usePageLoaded()
 
   const sendMixpanelOnce = useRef(false)
 
@@ -31,7 +32,7 @@ const useLandingABTester = (autoSendEvent = false) => {
 
   const [variant, setVariant] = useRecoilState(LandingABTestVariantKeyAtom)
 
-  const loaded = useMemo(() => isReady || !!variant, [variant, isReady])
+  const loaded = useMemo(() => pageLoaded && !!variant, [variant, pageLoaded])
 
   const { hasExtension, loaded: checkExtensionStatusLoaded } =
     useCheckExtension()
@@ -41,7 +42,7 @@ const useLandingABTester = (autoSendEvent = false) => {
   }, [pathname])
 
   useEffect(() => {
-    if (sendMixpanelOnce.current || !isReady || !autoSendEvent) {
+    if (sendMixpanelOnce.current || !pageLoaded || !autoSendEvent) {
       return
     }
 
@@ -71,7 +72,7 @@ const useLandingABTester = (autoSendEvent = false) => {
     }
   }, [
     enabled,
-    isReady,
+    pageLoaded,
     variant,
     pathname,
     hasExtension,
@@ -81,14 +82,24 @@ const useLandingABTester = (autoSendEvent = false) => {
   ])
 
   useEffect(() => {
-    if (!variant && enabled) {
+    if (!variant && enabled && pageLoaded) {
+      const cacheVariant = getLocalStorage(TEST_LANDING_COOKIE_NAME)
+      if (cacheVariant) {
+        // startTransition(() => {
+        setVariant(cacheVariant as ILandingVariantType)
+        // })
+        return
+      }
+
       const keys = LANDING_VARIANTS
-      const randomIndex = Date.now() % keys.length //随机选择一个variant
+      const randomIndex = Math.floor(Math.random() * keys.length) //随机选择一个variant
       const randomVariant = keys[randomIndex]
       setLocalStorage(TEST_LANDING_COOKIE_NAME, randomVariant)
+      // startTransition(() => {
       setVariant(randomVariant) //设置当前的abtest的variant
+      // })
     }
-  }, [setVariant, variant, enabled])
+  }, [setVariant, variant, enabled, pageLoaded])
 
   return {
     enabled,

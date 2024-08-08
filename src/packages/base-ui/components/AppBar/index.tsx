@@ -75,6 +75,7 @@ const AppBar: FC<IAppBarProps> = ({
     return (
       <MaxAIExtensionInstallButton
         variant='contained'
+        adaptiveLabel
         {...CtaInstallButtonProps}
       />
     )

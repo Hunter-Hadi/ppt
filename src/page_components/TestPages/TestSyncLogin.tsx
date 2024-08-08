@@ -12,6 +12,7 @@ import {
 import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
 import AppBar from '@/packages/base-ui/components/AppBar'
+import MaxAILazyLoadImage from '@/packages/base-ui/components/MaxAILazyLoadImage'
 import { useExtensionDetectionAlert } from '@/packages/browser-extension/components/ExtensionDetectionAlert'
 import MaxAIExtensionWrapper from '@/packages/browser-extension/components/MaxAIExtensionWrapper'
 import useMaxAIExtensionState from '@/packages/browser-extension/hooks/useMaxAIExtensionState'
@@ -25,7 +26,6 @@ import { useMaxAIAlertModals } from '@/packages/common/components/MaxAIAlertModa
 import MaxAICommonRoot from '@/packages/common/components/MaxAICommonRoot'
 import Toast from '@/packages/common/utils/toast'
 import LanguageSelector from '@/packages/nextjs-ui/components/LanguageSelector'
-import MaxAILazyLoadImage from '@/packages/nextjs-ui/components/MaxAILazyLoadImage'
 
 const TestSyncLogin = () => {
   const { isLogin, loading, error, connectMaxAIAccount } =
@@ -64,7 +64,14 @@ const TestSyncLogin = () => {
           <AppBar
             MenuListComponents={
               <Stack flex={1}>
-                <Box>
+                <Box
+                  sx={{
+                    display: {
+                      xs: 'none',
+                      sm: 'block',
+                    },
+                  }}
+                >
                   <LanguageSelector />
                 </Box>
               </Stack>
@@ -172,6 +179,31 @@ const TestSyncLogin = () => {
             height={144}
           />
         </Stack>
+        {/* <Stack pt={10}>
+          <h3>maxai VideoPlayer:</h3>
+
+          <Box height={2000} bgcolor='#000' />
+
+          <Box
+            width={630}
+            height={360}
+            p={2}
+            my={2}
+            ml={2}
+            sx={{
+              bgcolor: 'red',
+              boxShadow: 'rgba(10, 0, 31, 0.1) 0px 1px 24px 4px',
+            }}
+          >
+            <MaxAIVideoPlayer
+              lazyLoad
+              variant='youtube'
+              videoSrc={`https://www.youtube.com/embed/XfiZMwAD_KU?si=2augGW9ea-vZzJK6`}
+              // videoSrc={`${CLOUD_FLARE_ASSETS_URL}/videos/landing-page-primary.mp4`}
+              videoPosterUrl={`/assets/landing/hero-section/video-cover.png`}
+            />
+          </Box>
+        </Stack> */}
       </Stack>
     </MaxAICommonRoot>
   )

@@ -23,11 +23,11 @@ const usePdfToolPathname = () => {
         )
 
         if (targetLangPdfToolKey) {
-          return `/${locale}/${toolsCodeMap.topUrlKey}/${targetLangPdfToolKey}`
+          return `/${locale}/${toolsCodeMap.topUrlKey}/${targetLangPdfToolKey}/`
         }
       }
 
-      return `/${toolsCodeMap.topUrlKey}/${enPdfToolKey}`
+      return `/${toolsCodeMap.topUrlKey}/${enPdfToolKey}/`
     },
     [locale],
   )

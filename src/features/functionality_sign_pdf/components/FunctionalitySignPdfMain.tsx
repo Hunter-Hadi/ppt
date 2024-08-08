@@ -1,4 +1,4 @@
-import { Stack } from '@mui/material'
+import Stack from '@mui/material/Stack'
 import React, { useContext, useEffect } from 'react'
 import { lazy, Suspense, useState } from 'react'
 import { useRecoilState } from 'recoil'

@@ -1,17 +1,19 @@
-import { Box, Stack, Typography } from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import React from 'react';
+import Box from '@mui/material/Box'
+import Stack from '@mui/material/Stack'
+import Typography from '@mui/material/Typography'
+import { useTranslation } from 'next-i18next'
+import React from 'react'
 
-import YoutubePlayerBox from '@/components/YoutubePlayerBox';
-import { PRIMARY_YOUTUBE_VIDEO_EMBED_URL } from '@/features/landing/constants';
-import useVideoPopupController from '@/features/video_popup/hooks/useVideoPopupController';
+import YoutubePlayerBox from '@/components/YoutubePlayerBox'
+import { PRIMARY_YOUTUBE_VIDEO_EMBED_URL } from '@/features/landing/constants'
+import useVideoPopupController from '@/features/video_popup/hooks/useVideoPopupController'
 
-import CTAInstallButton from '../CTAInstallButton';
+import CTAInstallButton from '../CTAInstallButton'
 
 const Introduction = () => {
-  const { openVideoPopup } = useVideoPopupController();
+  const { openVideoPopup } = useVideoPopupController()
 
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   return (
     <Stack spacing={6} alignItems='center' data-testid='introduction'>
@@ -43,7 +45,7 @@ const Introduction = () => {
           sm: 640,
         }}
         onClick={() => {
-          openVideoPopup(PRIMARY_YOUTUBE_VIDEO_EMBED_URL);
+          openVideoPopup(PRIMARY_YOUTUBE_VIDEO_EMBED_URL)
         }}
         sx={{
           cursor: 'pointer',
@@ -72,7 +74,7 @@ const Introduction = () => {
         text={t('button:install_now')}
       />
     </Stack>
-  );
-};
+  )
+}
 
-export default Introduction;
+export default Introduction

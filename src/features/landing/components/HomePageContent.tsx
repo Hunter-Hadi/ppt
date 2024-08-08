@@ -1,18 +1,37 @@
 import Stack from '@mui/material/Stack'
 import { SxProps } from '@mui/material/styles'
+import dynamic from 'next/dynamic'
 import { useRouter } from 'next/router'
 import React from 'react'
 import { FC, useEffect } from 'react'
 
+import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
 import { LANDING_PRIMARY_VIDEO_ASSETS_URL } from '@/features/landing/constants'
 
 import CallToActionSection from './CallToActionSection'
 import FeaturesContentAbTestV7SlideAutoVideo from './FeaturesCarousel/FeaturesContentAbTestV7SlideAutoVideo'
 import HeroSection from './HeroSection'
-import HowItWork from './HowItWork'
-import MaxAIInNumbers from './MaxAIInNumbers'
-import TrustedBy from './TrustedBy'
-import UserComment from './UserComment'
+// import HowItWork from './HowItWork'
+// import MaxAIInNumbers from './MaxAIInNumbers'
+// import TrustedBy from './TrustedBy'
+// import UserComment from './UserComment'
+
+const HowItWork = dynamic(() => import('./HowItWork'), {
+  loading: () => <AppLoadingLayout loading />,
+  ssr: false,
+})
+const MaxAIInNumbers = dynamic(() => import('./MaxAIInNumbers'), {
+  loading: () => <AppLoadingLayout loading />,
+  ssr: false,
+})
+const TrustedBy = dynamic(() => import('./TrustedBy'), {
+  loading: () => <AppLoadingLayout loading />,
+  ssr: false,
+})
+const UserComment = dynamic(() => import('./UserComment'), {
+  loading: () => <AppLoadingLayout loading />,
+  ssr: false,
+})
 
 interface IProps {
   propRef?: string
@@ -62,26 +81,5 @@ const HomePageContent: FC<IProps> = ({ propRef, sx }) => {
     </Stack>
   )
 }
-
-// const FeaturesCarouselSkeleton = () => {
-//   return (
-//     <Box
-//       py={{
-//         xs: 7,
-//         md: 12,
-//       }}
-//       px={2}
-//       sx={{
-//         // 用隐藏的 Skeleton 元素来占位
-//         opacity: 0,
-//         mx: 'auto',
-//         maxWidth: 1312,
-//         width: '100%',
-//       }}
-//     >
-//       <Skeleton variant='rounded' width={'100%'} height={600} />
-//     </Box>
-//   );
-// };
 
 export default HomePageContent

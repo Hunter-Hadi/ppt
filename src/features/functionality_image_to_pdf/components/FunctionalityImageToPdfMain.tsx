@@ -1,4 +1,4 @@
-import { Stack } from '@mui/material'
+import Stack from '@mui/material/Stack'
 import { useTranslation } from 'next-i18next'
 import React from 'react'
 import { FC, lazy, Suspense, useState } from 'react'

@@ -1,12 +1,14 @@
-import { Box, Stack, Typography } from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import React from 'react';
+import Box from '@mui/material/Box'
+import Stack from '@mui/material/Stack'
+import Typography from '@mui/material/Typography'
+import { useTranslation } from 'next-i18next'
+import React from 'react'
 
-import AppContainer from '@/app_layout/AppContainer';
-import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
+import AppContainer from '@/app_layout/AppContainer'
+import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
 
 const MaintainBox = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
   return (
     <AppContainer>
       <AppDefaultSeoLayout title={t('seo:maintain__title')} />
@@ -48,8 +50,8 @@ const MaintainBox = () => {
         </Stack>
       </Box>
     </AppContainer>
-  );
-};
+  )
+}
 
 const MaintaninSvg = () => (
   <svg
@@ -196,6 +198,6 @@ const MaintaninSvg = () => (
       </filter>
     </defs>
   </svg>
-);
+)
 
-export default MaintainBox;
+export default MaintainBox

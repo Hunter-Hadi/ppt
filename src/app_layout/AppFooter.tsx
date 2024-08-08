@@ -1,4 +1,9 @@
-import { Box, Divider, Grid, Paper, Stack, Typography } from '@mui/material'
+import Box from '@mui/material/Box'
+import Divider from '@mui/material/Divider'
+import Grid from '@mui/material/Grid'
+import Paper from '@mui/material/Paper'
+import Stack from '@mui/material/Stack'
+import Typography from '@mui/material/Typography'
 import isRegExp from 'lodash-es/isRegExp'
 import { useRouter } from 'next/router'
 import { useTranslation } from 'next-i18next'
@@ -7,11 +12,7 @@ import React from 'react'
 
 import FooterList from '@/components/Footerlist'
 import ProLink from '@/components/ProLink'
-import {
-  APP_EXTERNAL_LINKS,
-  APP_PROJECT_LINK,
-  WWW_PROJECT_LINK,
-} from '@/global_constants'
+import { APP_EXTERNAL_LINKS, APP_PROJECT_LINK } from '@/global_constants'
 import AppLogo from '@/page_components/AppLogo'
 import { pdfToolsList } from '@/page_components/PdfToolsPages/constant'
 import usePdfToolPathname from '@/page_components/PdfToolsPages/hooks/usePdfToolPathname'
@@ -137,13 +138,13 @@ const AppFooter = () => {
                   title={t('app_footer:download__title')}
                   data={[
                     {
-                      label: 'MaxAI for Chrome',
+                      label: () => 'MaxAI for Chrome',
                       // icon: <CustomIcon icon='Chrome' />,
                       target: '_blank',
                       link: APP_EXTERNAL_LINKS.CHROME_EXTENSION,
                     },
                     {
-                      label: 'MaxAI for Edge',
+                      label: () => 'MaxAI for Edge',
                       // icon: <CustomIcon icon='Edge' />,
                       target: '_blank',
                       link: APP_EXTERNAL_LINKS.EDGE_EXTENSION,
@@ -165,12 +166,12 @@ const AppFooter = () => {
                     {
                       label: t('app_footer:use_cases__research__label'),
                       icon: null,
-                      link: `/use-cases/research`,
+                      link: `/use-cases/research/`,
                     },
                     {
                       label: t('app_footer:use_cases__writing__label'),
                       icon: null,
-                      link: `/use-cases/writing`,
+                      link: `/use-cases/writing/`,
                     },
                     {
                       label: t('app_footer:use_cases__ai_prompt__label'),
@@ -194,12 +195,12 @@ const AppFooter = () => {
                     {
                       label: t('app_footer:resource__affiliate__label'),
                       icon: null,
-                      link: `/affiliate`,
+                      link: `/affiliate/`,
                     },
                     {
                       label: t('app_footer:resource__learning_center__label'),
                       icon: null,
-                      link: `${WWW_PROJECT_LINK}/docs/help/`,
+                      link: `https://www.maxai.me/docs/help/`,
                     },
                     {
                       label: t('modules:footer__how_to_use'),
@@ -230,7 +231,7 @@ const AppFooter = () => {
                       label: t('modules:footer__contact_us'),
                       // icon: <MailOutlineIcon />,
                       icon: null,
-                      link: '/contact-us',
+                      link: '/contact-us/',
                     },
                     {
                       label: 'X/Twitter',
@@ -254,61 +255,61 @@ const AppFooter = () => {
                   title={t('modules:header__menu__products__features')}
                   data={[
                     {
-                      link: '/features/ai-summary',
+                      link: '/features/ai-summary/',
                       label: t(
                         'modules:header__menu__products__features__ai_summary__label',
                       ),
                     },
                     {
-                      link: '/features/ai-reader',
+                      link: '/features/ai-reader/',
                       label: t(
                         'modules:header__menu__products__features__ai_reading_assistant__label',
                       ),
                     },
                     {
-                      link: '/features/ai-vision',
+                      link: '/features/ai-vision/',
                       label: t(
                         'modules:header__menu__products__features__ai_vision__label',
                       ),
                     },
                     {
-                      link: '/features/ai-rewriter',
+                      link: '/features/ai-rewriter/',
                       label: t(
                         'modules:header__menu__products__features__ai_rewriter__label',
                       ),
                     },
                     {
-                      link: '/features/ai-instant-reply',
+                      link: '/features/ai-instant-reply/',
                       label: t(
                         'modules:header__menu__products__features__ai_instant_reply__label',
                       ),
                     },
                     {
-                      link: '/features/ai-chat',
+                      link: '/features/ai-chat/',
                       label: t(
                         'modules:header__menu__products__features__ai_chat__label',
                       ),
                     },
                     {
-                      link: '/features/ai-search',
+                      link: '/features/ai-search/',
                       label: t(
                         'modules:header__menu__products__features__ai_search__label',
                       ),
                     },
                     {
-                      link: '/features/ai-translator',
+                      link: '/features/ai-translator/',
                       label: t(
                         'modules:header__menu__products__features__ai_translator__label',
                       ),
                     },
                     {
-                      link: '/features/ai-prompts',
+                      link: '/features/ai-prompts/',
                       label: t(
                         'modules:header__menu__products__features__ai_prompts__label',
                       ),
                     },
                     {
-                      link: '/features/ai-art',
+                      link: '/features/ai-art/',
                       label: t(
                         'modules:header__menu__products__features__ai_art__label',
                       ),
@@ -328,49 +329,49 @@ const AppFooter = () => {
                   title={t('modules:header__menu__products__industries')}
                   data={[
                     {
-                      link: `/industries/executives`,
+                      link: `/industries/executives/`,
                       label: t(
                         'modules:header__menu__products__industries__executives__label',
                       ),
                     },
                     {
-                      link: `/industries/marketing`,
+                      link: `/industries/marketing/`,
                       label: t(
                         'modules:header__menu__products__industries__marketing__label',
                       ),
                     },
                     {
-                      link: `/industries/education`,
+                      link: `/industries/education/`,
                       label: t(
                         'modules:header__menu__products__industries__education__label',
                       ),
                     },
                     {
-                      link: `/industries/consulting`,
+                      link: `/industries/consulting/`,
                       label: t(
                         'modules:header__menu__products__industries__consulting__label',
                       ),
                     },
                     {
-                      link: `/industries/hr`,
+                      link: `/industries/hr/`,
                       label: t(
                         'modules:header__menu__products__industries__hr__label',
                       ),
                     },
                     {
-                      link: `/industries/finance`,
+                      link: `/industries/finance/`,
                       label: t(
                         'modules:header__menu__products__industries__finance__label',
                       ),
                     },
                     {
-                      link: `/industries/real-estate`,
+                      link: `/industries/real-estate/`,
                       label: t(
                         'modules:header__menu__products__industries__real_estate__label',
                       ),
                     },
                     {
-                      link: `/industries/tech`,
+                      link: `/industries/tech/`,
                       label: t(
                         'modules:header__menu__products__industries__technical__label',
                       ),

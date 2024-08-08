@@ -1,24 +1,24 @@
-import { Stack } from '@mui/material';
-import { useRouter } from 'next/router';
-import React, { useEffect, useMemo } from 'react';
+import Stack from '@mui/material/Stack'
+import { useRouter } from 'next/router'
+import React, { useEffect, useMemo } from 'react'
 
-import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout';
-import AppLoadingLayout from '@/app_layout/AppLoadingLayout';
-import CallToActionSection from '@/features/landing/components/CallToActionSection';
-import FeaturesCarousel from '@/features/landing/components/FeaturesCarousel';
-import HeroSection from '@/features/landing/components/HeroSection';
-import MaxAIInNumbers from '@/features/landing/components/MaxAIInNumbers';
-import TrustedBy from '@/features/landing/components/TrustedBy';
-import UserComment from '@/features/landing/components/UserComment';
+import AppDefaultSeoLayout from '@/app_layout/AppDefaultSeoLayout'
+import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
+import CallToActionSection from '@/features/landing/components/CallToActionSection'
+import FeaturesCarousel from '@/features/landing/components/FeaturesCarousel'
+import HeroSection from '@/features/landing/components/HeroSection'
+import MaxAIInNumbers from '@/features/landing/components/MaxAIInNumbers'
+import TrustedBy from '@/features/landing/components/TrustedBy'
+import UserComment from '@/features/landing/components/UserComment'
 
 const DpPage = () => {
-  const { isReady, asPath, query } = useRouter();
+  const { isReady, asPath, query } = useRouter()
 
-  const { landingTitle, landingDescription } = query;
+  const { landingTitle, landingDescription } = query
 
   const title = useMemo(() => {
     if (landingTitle) {
-      const afterParsingTitle = decodeURIComponent(`${landingTitle}`);
+      const afterParsingTitle = decodeURIComponent(`${landingTitle}`)
       return (
         <>
           {afterParsingTitle.split('\n').map((line, index) => (
@@ -28,15 +28,15 @@ const DpPage = () => {
             </React.Fragment>
           ))}
         </>
-      );
+      )
     }
-  }, [landingTitle]);
+  }, [landingTitle])
 
   const description = useMemo(() => {
     if (landingDescription) {
       const afterParsingDescription = decodeURIComponent(
         `${landingDescription}`,
-      );
+      )
       return (
         <>
           {afterParsingDescription.split('\n').map((line, index) => (
@@ -46,19 +46,19 @@ const DpPage = () => {
             </React.Fragment>
           ))}
         </>
-      );
+      )
     }
-  }, [landingDescription]);
+  }, [landingDescription])
 
   useEffect(() => {
     if (isReady && asPath) {
-      const hash = asPath.split('#')[1];
-      const element = document.getElementById(`homepage-${hash}`);
+      const hash = asPath.split('#')[1]
+      const element = document.getElementById(`homepage-${hash}`)
       if (element) {
-        element.scrollIntoView();
+        element.scrollIntoView()
       }
     }
-  }, [isReady, asPath]);
+  }, [isReady, asPath])
 
   return (
     <>
@@ -85,7 +85,7 @@ const DpPage = () => {
         </Stack>
       </AppLoadingLayout>
     </>
-  );
-};
+  )
+}
 
-export default DpPage;
+export default DpPage

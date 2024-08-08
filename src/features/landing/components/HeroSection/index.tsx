@@ -2,7 +2,6 @@ import { Box, Grid, Skeleton, Stack, SxProps, Typography } from '@mui/material'
 import { useTranslation } from 'next-i18next'
 import React, { FC, useMemo } from 'react'
 
-import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
 import CustomIcon from '@/components/CustomIcon'
 import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester'
 import HeroVideoBox, {
@@ -48,6 +47,7 @@ const HeroSection: FC<IProps> = ({
   inLandingVideoABTest,
 }) => {
   const { browserAgent: agent } = useBrowserAgent()
+  // const { isLoaded: pageLoaded } = usePageLoaded()
 
   const { t } = useTranslation()
 
@@ -287,24 +287,8 @@ const HeroSection: FC<IProps> = ({
             </Stack>
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
-            {inLandingVideoABTest && enabled ? (
-              <AppLoadingLayout
-                loading={loading || !variant}
-                loadingText=''
-                sx={{
-                  position: 'relative',
-                  height: 0,
-                  pt: '56.25%',
-                  bgcolor: '#f5efff',
-
-                  '& .MuiCircularProgress-root': {
-                    position: 'absolute',
-                    top: '50%',
-                    left: '50%',
-                    transform: 'translate(-50%, -50%)',
-                  },
-                }}
-              >
+            {inLandingVideoABTest && enabled && variant ? (
+              <>
                 {variant === 'youtube_video' ? (
                   <HeroVideoBox
                     videoSrc={`https://www.youtube.com/embed/XfiZMwAD_KU?si=2augGW9ea-vZzJK6`}
@@ -319,7 +303,7 @@ const HeroSection: FC<IProps> = ({
                     windowAutoPlay={!!heroVideoProps?.windowAutoPlay}
                   />
                 )}
-              </AppLoadingLayout>
+              </>
             ) : (
               <HeroVideoBox {...heroVideoProps} />
             )}

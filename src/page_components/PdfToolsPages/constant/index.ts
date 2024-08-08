@@ -18,6 +18,8 @@ export type IToolUrkKeyType =
   | 'pdf-annotator'
   | 'protect-pdf'
   | 'watermark-pdf'
+  | 'delete-page-pdf'
+  | 'extract-page-pdf'
 export interface IToolData {
   icon: string
   title: string
@@ -195,6 +197,24 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     description: 'pages__pdf_tools__pdf_annotator:description',
     secondaryDescription: 'pages__pdf_tools__pdf_annotator:description',
     urlKey: routerChildrenObject['pdf-annotator'],
+  },
+  'delete-page-pdf': {
+    icon: 'DeletePagePDF',
+    title: 'pages:tools__index_page__constant_obj__pdf_page_deletepage__title',
+    description:
+      'pages:tools__index_page__constant_obj__pdf_page_deletepage__main_description',
+    secondaryDescription: '',
+    urlKey: routerChildrenObject['delete-page-pdf'],
+    urlPrefixPath: toolsTopUrlKey,
+  },
+  'extract-page-pdf': {
+    icon: 'ExtractPagePDF',
+    title: 'pages:tools__index_page__constant_obj__pdf_page_extractpage__title',
+    description:
+      'pages:tools__index_page__constant_obj__pdf_page_extractpage__main_description',
+    secondaryDescription: '',
+    urlKey: routerChildrenObject['extract-page-pdf'],
+    urlPrefixPath: toolsTopUrlKey,
   },
 }
 export const pdfToolsList = Object.keys(toolsObjectData).map((key) => ({

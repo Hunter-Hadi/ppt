@@ -1,6 +1,8 @@
 import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined'
-import { Box, Stack, Typography } from '@mui/material'
+import Box from '@mui/material/Box'
+import Stack from '@mui/material/Stack'
 import { SxProps } from '@mui/material/styles'
+import Typography from '@mui/material/Typography'
 import React, { FC, useEffect } from 'react'
 
 import { useMaxAITranslation } from '@/packages/common'

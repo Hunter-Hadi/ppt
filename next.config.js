@@ -2,6 +2,12 @@
 
 /** @type {import('next').NextConfig} */
 
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+  enabled: process.env.ANALYZE === 'true',
+})
+/** @type {import('next').NextConfig} */
+
 const SAFE_ON = process.env.NEXT_PUBLIC_SAFE_ON === 'true'
 
 const obfuscatorOptions = {
@@ -91,4 +97,4 @@ const nextConfig = {
   },
 }
 
-module.exports = nextConfig
+module.exports = withBundleAnalyzer(nextConfig)

@@ -14,7 +14,9 @@ import {
   useSortable,
 } from '@dnd-kit/sortable'
 import { CSS } from '@dnd-kit/utilities'
-import { Box, Stack, Typography } from '@mui/material'
+import Box from '@mui/material/Box'
+import Stack from '@mui/material/Stack'
+import Typography from '@mui/material/Typography'
 import { useTranslation } from 'next-i18next'
 import React, { useCallback, useMemo, useState } from 'react'
 
@@ -202,7 +204,7 @@ const FunctionalityCommonDragSortableList = <T,>({
           variant='custom'
           color='text.secondary'
           sx={{
-            fontSize: 12,
+            fontSize: 16,
           }}
         >
           {t('functionality__common:components__common__drag__dropping_tip')}

@@ -71,6 +71,24 @@ export const getBrowserVersion = () => {
 }
 
 /**
+ * 判断是否是 测试工具、爬虫工具
+ */
+export const isLikelyBot = () => {
+  const userAgent = navigator.userAgent.toLowerCase()
+  const knownBots = [
+    'bot',
+    'crawler',
+    'spider',
+    'crawling',
+    'scraping',
+    'headless',
+  ]
+  const isHeadless = /HeadlessChrome/.test(navigator.userAgent)
+
+  return isHeadless || knownBots.some((bot) => userAgent.includes(bot))
+}
+
+/**
  * 获取浏览器信息给
  */
 export const getBrowserUAInfo = async () => {

@@ -3,6 +3,7 @@
   "version": "4.8.0",
   "private": true,
   "scripts": {
+    "analyze": "ANALYZE=true cross-env NODE_ENV=production node ./scripts/nextjs-build.mjs",
     "dev": "cross-env NODE_ENV=development node ./scripts/nextjs-build.mjs",
     "build": "cross-env NODE_ENV=production node ./scripts/nextjs-build.mjs",
     "start": "next start",
@@ -24,6 +25,7 @@
     "@mui/icons-material": "^5.11.9",
     "@mui/lab": "5.0.0-alpha.153",
     "@mui/material": "^5.11.9",
+    "@next/bundle-analyzer": "^14.2.5",
     "@next/font": "13.1.6",
     "@tanstack/react-query": "^5.12.2",
     "@types/color": "^3.0.6",

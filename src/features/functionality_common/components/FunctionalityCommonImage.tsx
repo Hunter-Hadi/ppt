@@ -14,6 +14,7 @@ interface IFunctionalitySortableImageProps {
   wrapSx?: SxProps
   sx?: SxProps
   imgStyle?: CSSProperties
+  pageNumber?: number // 展示pdf页码
 }
 /**
  * Functionality公共的图片视图
@@ -32,6 +33,7 @@ const FunctionalityCommonImage: FC<IFunctionalitySortableImageProps> = ({
   sx,
   wrapSx,
   imgStyle,
+  pageNumber,
 }) => {
   const isMobile = useFunctionalityCommonIsMobile()
 
@@ -81,7 +83,7 @@ const FunctionalityCommonImage: FC<IFunctionalitySortableImageProps> = ({
         <Typography
           variant='custom'
           sx={{
-            fontSize: 10,
+            fontSize: 14,
             marginTop: 1,
             width: '100%',
             display: '-webkit-box',
@@ -95,6 +97,25 @@ const FunctionalityCommonImage: FC<IFunctionalitySortableImageProps> = ({
         >
           {name}
         </Typography>
+        {pageNumber && (
+          <Typography
+            variant='custom'
+            sx={{
+              fontSize: 14,
+              marginTop: 1,
+              width: '100%',
+              display: '-webkit-box',
+              overflow: 'hidden',
+              WebkitBoxOrient: 'vertical',
+              WebkitLineClamp: 2,
+              lineClamp: 2, // 支持非webkit浏览器
+              textOverflow: 'ellipsis',
+              textAlign: 'center',
+            }}
+          >
+            {pageNumber}
+          </Typography>
+        )}
       </Stack>
       {children}
     </Box>

@@ -103,11 +103,13 @@ function App({ Component, pageProps }: AppProps) {
       `}</style>
       {/* Global Site Tag (gtag.js) - Google Analytics */}
       <Script
+        defer
         strategy='afterInteractive'
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
       />
       <Script
         id='gtag-init'
+        defer
         strategy='afterInteractive'
         dangerouslySetInnerHTML={{
           __html: `

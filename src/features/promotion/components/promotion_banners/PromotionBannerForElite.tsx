@@ -1,18 +1,20 @@
-import { Box, Stack, Typography } from '@mui/material';
-import { useTranslation } from 'next-i18next';
-import React from 'react';
-import { useRecoilValue } from 'recoil';
+import Box from '@mui/material/Box'
+import Stack from '@mui/material/Stack'
+import Typography from '@mui/material/Typography'
+import { useTranslation } from 'next-i18next'
+import React from 'react'
+import { useRecoilValue } from 'recoil'
 
-import { PricingPlanCategoryState } from '@/features/pricing/store';
-import { getMonthlyPriceOfYearlyPriceDiscount } from '@/features/pricing/utils';
-import PromotionCountdown from '@/features/promotion/components/PromotionCountdown';
+import { PricingPlanCategoryState } from '@/features/pricing/store'
+import { getMonthlyPriceOfYearlyPriceDiscount } from '@/features/pricing/utils'
+import PromotionCountdown from '@/features/promotion/components/PromotionCountdown'
 
 const PromotionBannerForElite = () => {
-  const { t } = useTranslation();
-  const pricingPlanCategory = useRecoilValue(PricingPlanCategoryState);
+  const { t } = useTranslation()
+  const pricingPlanCategory = useRecoilValue(PricingPlanCategoryState)
   if (pricingPlanCategory === 'team') {
     // team plan 没有 promotion, 不显示 promotion banner
-    return null;
+    return null
   }
   return (
     <>
@@ -123,9 +125,9 @@ const PromotionBannerForElite = () => {
         </Stack>
       </Stack>
     </>
-  );
-};
-export default PromotionBannerForElite;
+  )
+}
+export default PromotionBannerForElite
 
 const TimeIcon = () => (
   <svg
@@ -155,4 +157,4 @@ const TimeIcon = () => (
       />
     </g>
   </svg>
-);
+)

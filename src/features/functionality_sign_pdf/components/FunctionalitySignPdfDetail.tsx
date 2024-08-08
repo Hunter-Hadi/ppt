@@ -8,7 +8,10 @@ import {
   useSensor,
   useSensors,
 } from '@dnd-kit/core'
-import { Box, Button, Stack, Typography } from '@mui/material'
+import Box from '@mui/material/Box'
+import Button from '@mui/material/Button'
+import Stack from '@mui/material/Stack'
+import Typography from '@mui/material/Typography'
 import { useTranslation } from 'next-i18next'
 import { PDFDocument } from 'pdf-lib'
 import { FC, useEffect, useMemo, useRef, useState } from 'react'
