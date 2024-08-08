@@ -37,6 +37,7 @@ const FunctionalityCommonTextContentPage: FC<
   const [annotationEditInfo, setAnnotationEditInfo] = useState<
     ITextContentHighlighterViewportHighlight | undefined
   >(undefined)
+
   const [textAnnotatorList, setTextAnnotatorList] = useRecoilState(
     textAnnotatorRecoilList,
   )

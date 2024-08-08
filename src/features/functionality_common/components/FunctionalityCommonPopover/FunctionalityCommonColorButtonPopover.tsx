@@ -126,7 +126,6 @@ const FunctionalityCommonColorButtonPopover: FC<
   }
 
   useEffect(() => {
-    console.log(`重新加载了`)
     setCurColorList(colorList || ['black', 'blue', 'red'])
   }, [])
   const delUserColor = useCallback(

@@ -38,9 +38,8 @@ const FunctionalityCommonOperatePdfToolViewMain: FC<
   const [, setFabricCanvasSignObjectList] = useRecoilState(
     fabricCanvasSignObjectListRecoil,
   )
-  const [, setFabricCanvasJsonStringList] = useRecoilState(
-    fabricCanvasJsonStringListRecoil,
-  )
+  const [fabricCanvasJsonStringList, setFabricCanvasJsonStringList] =
+    useRecoilState(fabricCanvasJsonStringListRecoil)
   const setScrollPositionNumber = useSetRecoilState(currentScrollOffsetRecoil)
   const initEventEmitter = useRef(false)
   const [currentPage, setCurrentPage] = React.useState(0)
@@ -233,6 +232,7 @@ const FunctionalityCommonOperatePdfToolViewMain: FC<
                     defaultWidth={props.pdfInfo.width * 2}
                     index={props.index}
                     canvasNumber={numberPage}
+                    fabricCanvasJsonStringList={fabricCanvasJsonStringList}
                     canvasScale={props.pdfInfo.height / props.pdfInfo.width}
                   />
                 </div>

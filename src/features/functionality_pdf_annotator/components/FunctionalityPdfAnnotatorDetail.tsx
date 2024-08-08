@@ -50,7 +50,9 @@ const FunctionalityPdfAnnotatorDetail: ForwardRefRenderFunction<
   const topViewRef = useRef<HTMLElement | null>(null)
   const pdfViewRef = useRef<HTMLElement | null>(null)
 
-  const [overallViewHeight, setOverallViewHeight] = useState<number>(0)
+  const [overallViewHeight, setOverallViewHeight] = useState<
+    number | undefined
+  >(undefined)
 
   const [downLoadLoading, setDownLoadLoading] = useState(false)
 
@@ -190,41 +192,42 @@ const FunctionalityPdfAnnotatorDetail: ForwardRefRenderFunction<
         minHeight: 500,
       }}
     >
-      <DndContext
-        sensors={sensors}
-        onDragStart={onDragStart}
-        onDragEnd={onDragEnd}
-      >
-        <FunctionalityPdfAnnotatorOperationAreaInsertTools
-          editType={editType}
-          key={editType}
-          onChangeType={(type) => {
-            console.log('type', type)
-            if (type) {
-              setEditType(type)
-              return
-            }
-            setEditType(editType === 'insert' ? 'annotator' : 'insert')
-          }}
+      {overallViewHeight && (
+        <DndContext
+          sensors={sensors}
+          onDragStart={onDragStart}
+          onDragEnd={onDragEnd}
         >
-          {!isMobile && saveButtonDom}
-        </FunctionalityPdfAnnotatorOperationAreaInsertTools>
-        <Box
-          sx={{
-            width: '100%',
-            flex: 1,
-            bgcolor: '#f0f0f0',
-          }}
-          ref={pdfViewRef}
-        >
-          <FunctionalityCommonOperatePdfToolViewMain
-            file={file}
-            isShowBottomOperation={true}
-            currentEditType={editType}
-          />
-        </Box>
-        {isMobile && saveButtonDom}
-        {/* {activeData && (
+          <FunctionalityPdfAnnotatorOperationAreaInsertTools
+            editType={editType}
+            key={editType}
+            onChangeType={(type) => {
+              console.log('type', type)
+              if (type) {
+                setEditType(type)
+                return
+              }
+              setEditType(editType === 'insert' ? 'annotator' : 'insert')
+            }}
+          >
+            {!isMobile && saveButtonDom}
+          </FunctionalityPdfAnnotatorOperationAreaInsertTools>
+          <Box
+            sx={{
+              width: '100%',
+              flex: 1,
+              bgcolor: '#f0f0f0',
+            }}
+            ref={pdfViewRef}
+          >
+            <FunctionalityCommonOperatePdfToolViewMain
+              file={file}
+              isShowBottomOperation={true}
+              currentEditType={editType}
+            />
+          </Box>
+          {isMobile && saveButtonDom}
+          {/* {activeData && (
           <DragOverlay
             style={{
               display: 'flex',
@@ -247,7 +250,8 @@ const FunctionalityPdfAnnotatorDetail: ForwardRefRenderFunction<
             ></Box>
           </DragOverlay>
         )} */}
-      </DndContext>
+        </DndContext>
+      )}
     </Stack>
   )
 }

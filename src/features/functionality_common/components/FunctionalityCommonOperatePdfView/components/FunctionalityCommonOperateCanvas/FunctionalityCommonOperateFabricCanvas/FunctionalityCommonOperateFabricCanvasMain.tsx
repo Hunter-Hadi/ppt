@@ -38,6 +38,7 @@ interface IFunctionalityCommonOperateFabricCanvasProps {
   defaultWidth: number
   index: number
   canvasNumber: number
+  fabricCanvasJsonStringList: string[]
 }
 const FunctionalityCommonOperateFabricCanvas: FC<
   IFunctionalityCommonOperateFabricCanvasProps
@@ -47,11 +48,13 @@ const FunctionalityCommonOperateFabricCanvas: FC<
   defaultWidth = 2000,
   index,
   canvasNumber,
+  fabricCanvasJsonStringList,
 }) => {
   const isMobile = useFunctionalityCommonIsMobile()
 
-  const [fabricCanvasJsonStringList, setFabricCanvasJsonStringList] =
-    useRecoilState(fabricCanvasJsonStringListRecoil)
+  const [, setFabricCanvasJsonStringList] = useRecoilState(
+    fabricCanvasJsonStringListRecoil,
+  )
   const [, setFabricCanvasZoomRecoil] = useRecoilState(fabricCanvasZoomRecoil)
   const isInitEventEmitter = useRef<boolean>(false)
   const topWrapRef = useRef<HTMLElement | null>(null)
