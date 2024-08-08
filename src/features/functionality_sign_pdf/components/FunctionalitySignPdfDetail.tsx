@@ -252,7 +252,7 @@ export const FunctionalitySignPdfDetail: FC<
               isShowBottomOperation={true}
               currentEditType={'insert'}
             />
-            {downloadUint8Array && (
+            {(downloadUint8Array || saveButtonLoading) && (
               <Box
                 sx={{
                   position: 'absolute',
