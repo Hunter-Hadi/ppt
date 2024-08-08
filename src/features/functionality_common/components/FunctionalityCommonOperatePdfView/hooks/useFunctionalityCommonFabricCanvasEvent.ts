@@ -191,6 +191,8 @@ export const useFunctionalityCommonFabricCanvasEvent = (props: {
 
     fabricCanvas.current.on('object:moving', function (e) {
       e.e.preventDefault()
+      console.log('handleObjectSelected 2')
+
       // 对象移动监听 - 保证操作div跟随移动
       const targetObject = e.target
       targetObject.setCoords()
@@ -199,6 +201,7 @@ export const useFunctionalityCommonFabricCanvasEvent = (props: {
         handleObjectSelected(e.target)
       }
       checkAndMoveToAnotherCanvas(e, fabricCanvas, canvasIndex, canvasNumber)
+      props.saveCurrentCanvasData()
     })
     // 对象移动监听 - 保证操作div跟随移动
     fabricCanvas.current.on('object:scaling', function (e) {
@@ -214,15 +217,16 @@ export const useFunctionalityCommonFabricCanvasEvent = (props: {
       if (event.selected.length > 0) {
         previousIsSelectionObject.current = true
       }
-      if (event.selected.length === 1) {
-        console.log('handleObjectSelected 4')
+      console.log('handleObjectSelected 4')
 
+      if (event.selected.length === 1) {
         handleObjectSelected(event.selected[0])
       }
     })
     // 确保再次选择时移动操作div
     fabricCanvas.current.on('selection:cleared', function (event) {
       console.log('simply selection:cleared', event)
+      console.log('handleObjectSelected 5')
       if (event.deselected) {
         setSelectLength(0)
       }
