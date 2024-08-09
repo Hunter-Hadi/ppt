@@ -218,7 +218,7 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     urlPrefixPath: toolsTopUrlKey,
   },
   'flatten-pdf': {
-    icon: 'ExtractPagePDF',
+    icon: 'FlattenPDF',
     title: 'pages__pdf_tools__flatten_pdf:title',
     description: 'pages__pdf_tools__flatten_pdf:min_description',
     secondaryDescription: 'pages__pdf_tools__flatten_pdf:description',

@@ -1097,7 +1097,7 @@ export const allPdfToolsDetailDescriptionObject: {
       },
     ],
     operatingInstructions: {
-      iconName: 'UnlockPDF',
+      iconName: 'FlattenPDF',
       operationSteps: {
         title:
           'pages__pdf_tools__flatten_pdf:detail_description_object__pdf_flatten__bottom_right_title',
