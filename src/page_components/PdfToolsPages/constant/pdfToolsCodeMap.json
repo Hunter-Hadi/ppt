@@ -11,15 +11,15 @@
     "pdf-to-html": "pdf-to-html",
     "sign-pdf": "sign-pdf",
     "compress-pdf": "compress-pdf",
-    "ocr-pdf": "ocr-pdf",
+    "pdf-ocr": "pdf-ocr",
     "rotate-pdf": "rotate-pdf",
-    "number-pages": "number-pages",
+    "add-page-numbers-to-pdf": "add-page-numbers-to-pdf",
     "unlock-pdf": "unlock-pdf",
     "pdf-annotator": "pdf-annotator",
     "protect-pdf": "protect-pdf",
     "watermark-pdf": "watermark-pdf",
-    "delete-page-pdf": "delete-page-pdf",
-    "extract-page-pdf": "extract-page-pdf",
-    "flatten-pdf": "flatten-pdf"
+    "flatten-pdf": "flatten-pdf",
+    "delete-pages-from-pdf": "delete-pages-from-pdf",
+    "extract-pdf-pages": "extract-pdf-pages"
   }
 }

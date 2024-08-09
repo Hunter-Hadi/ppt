@@ -576,7 +576,7 @@
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_2": "Wählen Sie die Hauptsprache Ihres Dokuments aus.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_3": "Unser Tool verarbeitet Ihr PDF und extrahiert den Text genau und schnell.",
     "pdf_tools__detail_description_object__ocr_pdf__bottom_right_description_4": "Laden Sie das OCR-PDF auf der Ergebnisseite herunter, um die Qualität anzuzeigen.",
-    "tools__index_page__constant_obj__ocr_pdf__title": "OCR PDF",
+    "tools__index_page__constant_obj__ocr_pdf__title": "PDF OCR",
     "tools__index_page__constant_obj__ocr_pdf__main_description": "PDF-Dokument OCR-Texterkennung, damit Sie Text kopieren und suchen können",
     "tools__index_page__constant_obj__rotate_pdf__title": "PDF drehen",
     "tools__index_page__constant_obj__rotate_pdf__main_description": "Drehen Sie alle oder einzelne Seiten in einem PDF",
@@ -773,7 +773,9 @@
     "home_page__hero_section__ab_test_v9__variant4__title__part1": "Schneller recherchieren. Besser schreiben.",
     "home_page__hero_section__ab_test_v9__variant4__title__part2": "Steigern Sie Ihre Arbeit mit KI.",
     "home_page__hero_section__ab_test_v9__variant5__title__part1": "Schneller recherchieren. Besser schreiben.",
-    "home_page__hero_section__ab_test_v9__variant5__title__part2": "Intelligenter arbeiten mit KI."
+    "home_page__hero_section__ab_test_v9__variant5__title__part2": "Intelligenter arbeiten mit KI.",
+    "tools__index_page__constant_obj__pdf_page_numbers__detail__title": "PDF-Seitenzahlen hinzufügen",
+    "tools__index_page__constant_obj__pdf_page_deletepage__detail__title": "PDF-Seiten löschen"
   },
   "prompt_library": {
     "use_prompt_library__title": "Hochwertige KI-Prompt-Bibliothek",
@@ -1067,7 +1069,7 @@
     "pdf_tools__sign_pdf__description": "Fügen Sie ganz einfach digitale Signaturen zu PDF-Dateien hinzu, um sie kostenlos und sicher auf lokalen Geräten zu schützen und maximale Privatsphäre und Sicherheit zu gewährleisten. Kein Wasserzeichen, Dateigrößenbegrenzung, Download oder Registrierung erforderlich.",
     "pdf_tools__compress_pdf__title": "PDF komprimieren – Online-PDF-Größenreduzierung | MaxAI.me",
     "pdf_tools__compress_pdf__description": "Komprimieren Sie PDF-Dateien in einem lokalen Browser, um eine schnelle und sichere Leistung zu gewährleisten. Kein Wasserzeichen, Dateigrößenbegrenzung, Download oder Registrierung erforderlich.",
-    "pdf_tools__ocr_pdf__title": "OCR PDF - Schnelle und lokale Texterkennung für kostenlose PDFs | MaxAI.me",
+    "pdf_tools__ocr_pdf__title": "PDF OCR - Schnelle und lokale Texterkennung für kostenlose PDFs | MaxAI.me",
     "pdf_tools__ocr_pdf__description": "Konvertieren Sie nicht durchsuchbare PDF-Dokumente in durchsuchbaren und auswählbaren Text in Sekundenschnelle. Keine Wasserzeichen, Dateigrößenbeschränkungen, Downloads oder Anmeldungen erforderlich.",
     "features_landing__ai_chat__title": "AI Chat | MaxAI.me",
     "features_landing__ai_chat__description": "Der schnellste Weg, um mit den fortschrittlichsten KI-Modellen zu chatten, alles an einem Ort.",

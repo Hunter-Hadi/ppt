@@ -504,7 +504,7 @@ export const allPdfToolsDetailDescriptionObject: {
       },
     },
   },
-  'ocr-pdf': {
+  'pdf-ocr': {
     topFeatures:
       'pages:pdf_tools__detail_description_object__ocr_pdf__top_left',
     userExperienceList: [
@@ -635,7 +635,7 @@ export const allPdfToolsDetailDescriptionObject: {
       },
     },
   },
-  'number-pages': {
+  'add-page-numbers-to-pdf': {
     topFeatures:
       'pages:pdf_tools__detail_description_object__number_pages__top_left',
     userExperienceList: [
@@ -910,7 +910,7 @@ export const allPdfToolsDetailDescriptionObject: {
       },
     },
   },
-  'delete-page-pdf': {
+  'delete-pages-from-pdf': {
     topFeatures:
       'pages:pdf_tools__detail_description_object__deletepage_pages__top_left',
     userExperienceList: [
@@ -977,7 +977,7 @@ export const allPdfToolsDetailDescriptionObject: {
       },
     },
   },
-  'extract-page-pdf': {
+  'extract-pdf-pages': {
     topFeatures:
       'pages:pdf_tools__detail_description_object__extractpage_pages__top_left',
     userExperienceList: [

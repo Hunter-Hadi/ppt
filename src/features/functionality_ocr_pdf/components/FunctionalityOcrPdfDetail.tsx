@@ -368,7 +368,7 @@ const FunctionalityOcrPdfDetail: FC<IFunctionalityOcrPdfDetail> = ({
                   :
                 </Typography>
                 <Autocomplete
-                  id='ocr-pdf-autocomplete'
+                  id='pdf-ocr-autocomplete'
                   defaultValue={autocompleteSelectValue}
                   options={ocrOfficialSupportLanguages}
                   size='small'
