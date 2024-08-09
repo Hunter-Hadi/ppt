@@ -8,13 +8,10 @@ import FunctionalityCommonUploadButton from '@/features/functionality_common/com
 import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 import { TopToolsDetailView } from '@/page_components/PdfToolsPages/components/ToolsDetail'
 
-// import {
-//   FunctionalitySignPdfOperationOBjectAtom,
-//   functionalitySignPdfOperationOBjectDefault,
-// } from '../store'
 const FunctionalityRedactPdfDetail = lazy(
   () =>
     import(
+      // '@/features/functionality_redact_pdf/components/FunctionalityPdfRedactDetail'
       '@/features/functionality_redact_pdf/components/FunctionalityRedactPdfDetail'
     ),
 )

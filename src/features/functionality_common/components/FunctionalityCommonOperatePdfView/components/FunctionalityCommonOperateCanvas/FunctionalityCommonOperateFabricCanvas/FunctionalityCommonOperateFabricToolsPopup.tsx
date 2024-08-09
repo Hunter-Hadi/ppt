@@ -192,6 +192,7 @@ const FunctionalityCommonOperateFabricToolsPopup: FC<
           padding: isMobile ? '5px 3px!important' : '5px 8px!important',
           minWidth: isMobile ? '35px!important' : 40,
         },
+        zIndex: 2
       }}
     >
       <ButtonGroup

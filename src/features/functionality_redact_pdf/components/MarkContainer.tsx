@@ -76,7 +76,6 @@ const MarkContainer: ForwardRefRenderFunction<
   }
 
   useEffect(() => {
-    console.log(`触发了【】`);
     if (canvasRef.current) {
       // if (canvasRef.current && !editor.current) {
       const canvas = new fabric.Canvas(canvasRef.current!, {

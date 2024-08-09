@@ -4,27 +4,26 @@ import * as fabric from 'fabric'
 import { cloneDeep, debounce } from 'lodash-es'
 import React, { FC, useCallback, useEffect, useMemo, useRef } from 'react'
 import { useRecoilState } from 'recoil'
+import { v4 as uuidV4 } from 'uuid'
 
-import { useFunctionalityCommonElementSize } from '@/features/functionality_common/hooks/useFunctionalityCommonElementSize'
-import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
-
-import { useFunctionalityCommonFabricCanvasEvent } from '../../../hooks/useFunctionalityCommonFabricCanvasEvent'
+import FunctionalityCommonOperateFabricToolsPopup from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/components/FunctionalityCommonOperateCanvas/FunctionalityCommonOperateFabricCanvas/FunctionalityCommonOperateFabricToolsPopup'
+import { useFunctionalityCommonFabricCanvasEvent } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/hooks/useFunctionalityCommonFabricCanvasEvent'
 import {
   fabricCanvasJsonStringListRecoil,
   fabricCanvasZoomRecoil,
-} from '../../../store/setOperateFabricCanvas'
-import { ICanvasObjectData } from '../../../types'
+} from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/store/setOperateFabricCanvas'
+import { ICanvasObjectData } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/types/index'
 import eventEmitter, {
   eventEmitterAddFabricIndexCanvasKey,
-} from '../../../utils/FabricCanvas/eventEmitter'
+} from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/utils/FabricCanvas/eventEmitter'
 import {
   fabricInitStyleSet,
   onFabricAddObject,
-} from '../../../utils/FabricCanvas/fabricCanvasNewAdd'
-import { fabricMobileMove } from '../../../utils/FabricCanvas/fabricMobileMove'
-import { handleNewObjectContinuousMouse } from '../../../utils/FabricCanvas/handleNewObjectContinuousMouse'
-import FunctionalitySignPdfShowPdfViewAddToolsPopup from './FunctionalityCommonOperateAddToolsPopup'
-import FunctionalityCommonOperateFabricToolsPopup from './FunctionalityCommonOperateFabricToolsPopup'
+} from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/utils/FabricCanvas/fabricCanvasNewAdd'
+import { fabricMobileMove } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/utils/FabricCanvas/fabricMobileMove'
+import { handleNewObjectContinuousMouse } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/utils/FabricCanvas/handleNewObjectContinuousMouse'
+import { useFunctionalityCommonElementSize } from '@/features/functionality_common/hooks/useFunctionalityCommonElementSize'
+import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 export interface IControlDiv {
   left: number
   top: number
@@ -32,19 +31,17 @@ export interface IControlDiv {
   windowTop: number
 }
 
-interface IFunctionalityCommonOperateFabricCanvasProps {
+interface IFunctionalityOperateFabricCanvasProps {
   canvasScale: number //width/height 比例 100%填充并且不变形
-  maxEnlarge?: number //最大放大，防止之前的放大，会大过canvas的宽高
   defaultWidth: number
   index: number
   canvasNumber: number
   fabricCanvasJsonStringList: string[]
 }
-const FunctionalityCommonOperateFabricCanvas: FC<
-  IFunctionalityCommonOperateFabricCanvasProps
+const FunctionalityOperateFabricCanvas: FC<
+  IFunctionalityOperateFabricCanvasProps
 > = ({
   canvasScale,
-  maxEnlarge = 1.5,
   defaultWidth = 2000,
   index,
   canvasNumber,
@@ -75,10 +72,16 @@ const FunctionalityCommonOperateFabricCanvas: FC<
     return scale
   }, [currentCanvasSize.width, defaultWidth])
 
+  const handlePopupClick = (event) => {
+    //因为写了点击其它区域关闭，所以这里做了阻止冒泡
+    event.stopPropagation()
+  }
+
   const saveCurrentCanvasData = useCallback(
     debounce(() => {
       try {
         const json = fabricCanvas.current?.toJSON() // your fabricCanvas reference
+
         if (json) {
           setFabricCanvasJsonStringList((list) => {
             const copyList = cloneDeep(list)
@@ -92,6 +95,7 @@ const FunctionalityCommonOperateFabricCanvas: FC<
     }, 500), // 1秒内只执行第一次
     [index, setFabricCanvasJsonStringList],
   )
+
   const {
     initEvent,
     controlAddNewDiv,
@@ -116,9 +120,7 @@ const FunctionalityCommonOperateFabricCanvas: FC<
     ) => {
       try {
         if (!fabricCanvas.current) return
-        console.log(`canvasObject:`, canvasObject);
-        console.log(`newObject:`, newObject);
-        
+
         handleNewObjectContinuousMouse(
           newObject,
           fabricCanvas,
@@ -154,6 +156,7 @@ const FunctionalityCommonOperateFabricCanvas: FC<
     // 订阅事件
     eventEmitter.on(eventEmitterAddFabricIndexCanvasKey + index, handleNotify)
   }, [index, onAddObject])
+
   useEffect(() => {
     try {
       if (
@@ -168,6 +171,95 @@ const FunctionalityCommonOperateFabricCanvas: FC<
           statefull: true, //是否开启状态存储
           allowTouchScrolling: isMobile, //是否允许触摸滚动
         })
+
+        let isDrawing = false
+        const handleMouseDown = (event: fabric.TPointerEvent | any) => {
+          console.log(`canvas.getActiveObject():`, canvas.getActiveObject())
+          console.log(`event.e.buttons:`, event.e.buttons)
+          const isTouchEvent = event.e.type.includes('touch')
+          console.log(`event.e.type:`, event.e.type)
+
+          // 拖拽不触发
+          if (event.e.buttons !== 1) {
+            // 1 表示鼠标左键
+            return // 如果不是鼠标左键刚刚按下，不执行任何操作
+          }
+          // 检查点击位置是否已有对象
+          if (canvas.getActiveObject()) {
+            return
+          }
+
+          const pointer = canvas.getPointer(event.e)
+          const origX = pointer.x
+          const origY = pointer.y
+          isDrawing = true
+
+          let left = origX
+          let top = origY
+          let width = 0
+          let height = 0
+
+          const handleMouseMove = (moveEvent: MouseEvent | TouchEvent | any) => {
+            console.log(`handleMouseMoveevent.e.type:`, moveEvent);
+            
+            if (!isDrawing) return
+            const movePointer = canvas.getPointer(moveEvent)
+            const tempWidth = movePointer.x - origX
+            const tempHeight = movePointer.y - origY
+            if (tempWidth < 0) left = movePointer.x
+            if (tempHeight < 0) top = movePointer.y
+            height = Math.abs(tempHeight)
+            width = Math.abs(tempWidth)
+          }
+
+          const handleMouseUp = () => {
+            if (isDrawing) {
+              isDrawing = false
+              if (!(width === 0 || height === 0)) {
+                onAddObject({
+                  x: left,
+                  y: top,
+                  width: width,
+                  height: height,
+                  fill: 'black',
+                  id: uuidV4(),
+                  type: 'redact',
+                  value: '',
+                })
+              }
+
+              window.removeEventListener('mousemove', handleMouseMove)
+              window.removeEventListener('mouseup', handleMouseUp)
+              // window.removeEventListener('touchmove', handleMouseMove)
+              // window.removeEventListener('touchend', handleMouseUp)
+            }
+          }
+
+          window.addEventListener('mousemove', handleMouseMove)
+          window.addEventListener('mouseup', handleMouseUp)
+          // window.addEventListener('touchmove', handleMouseMove)
+          // window.addEventListener('touchend', handleMouseUp)
+          // canvas.on('mouse:move', handleMouseMove);
+        }
+
+        canvas.on('mouse:down', handleMouseDown)
+        canvas.on('mouse:over', (event) => {
+          console.log('mouse:over')
+          const activeObject = event.target
+          if (activeObject && activeObject instanceof fabric.Object) {
+            activeObject.set('opacity', 0.4)
+            canvas.renderAll()
+          }
+        })
+        canvas.on('mouse:out', (event) => {
+          console.log('mouse:out')
+          const activeObject = event.target
+          if (activeObject && activeObject instanceof fabric.Object) {
+            activeObject.set('opacity', 1)
+            canvas.renderAll()
+          }
+        })
+
         const savedData = fabricCanvasJsonStringList[index] //获取保存的数据
         if (savedData) {
           canvas.loadFromJSON(savedData, canvas.renderAll.bind(canvas)) //加载数据
@@ -185,6 +277,7 @@ const FunctionalityCommonOperateFabricCanvas: FC<
       console.error('simply Init error', e)
     }
   }, [canvasScale, fabricCanvasJsonStringList, index, initEvent, isMobile])
+
   useEffect(() => {
     if (fabricCanvas.current) {
       fabricCanvas.current.setDimensions({
@@ -207,17 +300,17 @@ const FunctionalityCommonOperateFabricCanvas: FC<
     setFabricCanvasZoomRecoil,
     saveCurrentCanvasData,
   ])
-  const handlePopupClick = (event) => {
-    //因为写了点击其它区域关闭，所以这里做了阻止冒泡
-    event.stopPropagation()
-  }
+  // const handlePopupClick = (event) => {
+  //   //因为写了点击其它区域关闭，所以这里做了阻止冒泡
+  //   event.stopPropagation()
+  // }
   //关闭弹窗
-  const onCloseAddToolsPopup = () => {
-    setControlAddNewDiv(null)
-  }
+  // const onCloseAddToolsPopup = () => {
+  //   setControlAddNewDiv(null)
+  // }
   return (
     <Box
-      className='FunctionalityCommonOperateFabricCanvas'
+      className='FunctionalityOperateFabricCanvas'
       sx={{
         width: '100%',
         height: '100%',
@@ -245,7 +338,7 @@ const FunctionalityCommonOperateFabricCanvas: FC<
           />
         </Box>
       )}
-      {!isMobile &&
+      {/* {!isMobile &&
         selectLength === 0 &&
         controlAddNewDiv &&
         fabricCanvas.current && (
@@ -257,8 +350,8 @@ const FunctionalityCommonOperateFabricCanvas: FC<
               onClose={onCloseAddToolsPopup}
             />
           </Box>
-        )}
+        )} */}
     </Box>
   )
 }
-export default FunctionalityCommonOperateFabricCanvas
+export default FunctionalityOperateFabricCanvas

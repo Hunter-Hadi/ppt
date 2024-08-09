@@ -6,13 +6,19 @@ import html2canvas from 'html2canvas'
 import { useTranslation } from 'next-i18next'
 import { PDFDocument } from 'pdf-lib'
 import React, { FC, useEffect, useMemo, useRef, useState } from 'react'
+import { useRecoilState, useSetRecoilState } from 'recoil'
 
+import { currentScrollOffsetRecoil } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/store/index'
+import { fabricCanvasJsonStringListRecoil } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/store/setOperateFabricCanvas'
+import { pdfLibFabricCanvasEmbedSave } from '@/features/functionality_common/components/FunctionalityCommonOperatePdfView/utils/FabricCanvas/pdfLibFabricCanvasEmbedSave'
 import ChatPdfViewPage from '@/features/functionality_common/components/FunctionalityCommonPdfViewVirtualScroll/components/FunctionalityCommonPdfViewPage'
 import FunctionalityCommonPdfViewVirtualScrollMain from '@/features/functionality_common/components/FunctionalityCommonPdfViewVirtualScroll/components/FunctionalityCommonPdfViewVirtualScrollMain'
 import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
+import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload'
 import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex'
 
-import MarkContainer, { IMarkContainerHandles } from './MarkContainer'
+import FunctionalityCommonOperateFabricCanvas from './FunctionalityOperateFabricCanvasMain'
+import { IMarkContainerHandles } from './MarkContainer'
 
 interface IPdfContainerMainProps {
   file: File
@@ -30,11 +36,15 @@ const FunctionalityRedactPdfDetail: FC<IPdfContainerMainProps> = ({
   const viewContainerRef = useRef<HTMLElement>()
   const showPdfHandlesRef = useRef<IMarkContainerHandles[] | []>([]) //当前在居中pdf的ref
   const [overallViewHeight, setOverallViewHeight] = useState<number>(0)
+  const [numberPage, setNumberPage] = React.useState(0)
 
   const isMobile = useFunctionalityCommonIsMobile()
   const [width, setWidth] = useState(850)
+  const setScrollPositionNumber = useSetRecoilState(currentScrollOffsetRecoil)
 
   const { t } = useTranslation()
+  const [fabricCanvasJsonStringList, setFabricCanvasJsonStringList] =
+    useRecoilState(fabricCanvasJsonStringListRecoil)
 
   const autoSetOverallViewHeight = () => {
     const distanceFromTop = infintyViewRef.current?.getBoundingClientRect().top
@@ -121,6 +131,30 @@ const FunctionalityRedactPdfDetail: FC<IPdfContainerMainProps> = ({
     }
   }
 
+  const onSavePDF = async () => {
+    setDownLoadLoading(true)
+    let pdfDoc: PDFDocument | null = null
+    try {
+      const fileBuffer = await file.arrayBuffer()
+      pdfDoc = await PDFDocument.load(fileBuffer)
+    } catch (error) {
+      console.error('Error loading PDF Document:', error)
+      return
+    }
+    await pdfLibFabricCanvasEmbedSave(pdfDoc, fabricCanvasJsonStringList)
+    pdfDoc
+      .save()
+      .then((blob) => {
+        const newFileName = functionalityCommonFileNameRemoveAndAddExtension(
+          file.name,
+        )
+        downloadUrl(blob, newFileName)
+      })
+      .finally(() => {
+        setDownLoadLoading(false)
+      })
+  }
+
   const donwLoadFile = async (file) => {
     setDownLoadLoading(true)
     const canvasImgList = showPdfHandlesRef.current?.map((convasHandlesRef) => {
@@ -143,7 +177,7 @@ const FunctionalityRedactPdfDetail: FC<IPdfContainerMainProps> = ({
       link.download = fileName
       link.click()
       URL.revokeObjectURL(url)
-      }
+    }
     setDownLoadLoading(false)
   }
 
@@ -153,14 +187,19 @@ const FunctionalityRedactPdfDetail: FC<IPdfContainerMainProps> = ({
         viewWidth={width}
         viewHeight={overallViewHeight - 50}
         file={file}
+        onViewInfo={(info) => {
+          // if (info.currentPage !== currentPage) {
+          //   initEventEmitter.current = false
+          //   setCurrentPage(info.currentPage)
+          // }
+          setScrollPositionNumber(info.currentScrollOffset)
+        }}
+        onDocumentLoadSuccess={(info) => {
+          setNumberPage(info.numPages)
+        }}
       >
         {(props) => {
-          const { pdfInfo, index } = props
-          const { height, width } = pdfInfo
-          const tempPdfInfo = {
-            height: height * 4,
-            width: width * 4,
-          }
+          const { index } = props
           currentViewRef.current = index
           return (
             <Box
@@ -177,22 +216,37 @@ const FunctionalityRedactPdfDetail: FC<IPdfContainerMainProps> = ({
               }}
             >
               <ChatPdfViewPage pdfInfo={props.pdfInfo} index={props.index} />
-              <MarkContainer
-                sizeInfo={tempPdfInfo}
-                ref={(el) => {
-                  if (el) {
-                    showPdfHandlesRef.current[index] = el
-                  }
+              <div
+                className='pdf-insert-view'
+                style={{
+                  position: 'absolute',
+                  top: 0,
+                  left: 0,
+                  bottom: 0,
+                  right: 0,
+                  zIndex: 999,
+                  width: '100%',
+                  height: '100%',
                 }}
-              ></MarkContainer>
+              >
+                <FunctionalityCommonOperateFabricCanvas
+                  defaultWidth={props.pdfInfo.width * 2}
+                  index={props.index}
+                  canvasNumber={numberPage}
+                  fabricCanvasJsonStringList={fabricCanvasJsonStringList}
+                  canvasScale={props.pdfInfo.height / props.pdfInfo.width}
+                ></FunctionalityCommonOperateFabricCanvas>
+              </div>
             </Box>
           )
         }}
       </FunctionalityCommonPdfViewVirtualScrollMain>
     )
-  }, [file, width, overallViewHeight])
+  }, [file, width, overallViewHeight, fabricCanvasJsonStringList])
 
   useEffect(() => {
+    setFabricCanvasJsonStringList([])
+
     if (infintyViewRef.current) {
       // 定义一个更新宽度的函数
       const updateWidth = () => {
@@ -268,7 +322,8 @@ const FunctionalityRedactPdfDetail: FC<IPdfContainerMainProps> = ({
               variant='contained'
               size='large'
               onClick={() => {
-                donwLoadFile(file)
+                onSavePDF()
+                // donwLoadFile(file)
                 // pdfAddSignCanvasViewReturnUint8ArrayTest(file)
               }}
               disabled={downLoadLoading}
