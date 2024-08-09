@@ -1925,5 +1925,33 @@
     "components__pdf_annotator__insert_tools__insert_text": "הוסף טקסט",
     "components__pdf_annotator__insert_tools__insert_image": "הוסף תמונה",
     "components__pdf_annotator__insert_tools__insert_signature": "הוסף חתימה"
+  },
+  "pages__pdf_tools__flatten_pdf": {
+    "title": "פיצול PDF",
+    "description": "מזג את כל השכבות והרכיבים של PDF לשכבה אחת בשניות לשיפור אינטגריטת המסמך, שיתוף קל יותר והגנה על המסמך מפני פעולות עריכה בלתי מורשות.",
+    "seo_title": "פיצול PDF חינם - מיזוג שכבות ומניעת פעולות עריכה בקלות | MaxAI.me",
+    "seo_description": "השתמש בפיצול החינמי שלנו למסמך PDF כדי למזג את כל השכבות לשכבה אחת, מבטיח אינטגריטת מסמך ומונע שינויים בלתי מורשים. זה מהיר ומאובטח, מושלם להפחתת גודל קבצים ושיפור שיתוף.",
+    "detail_description_object__pdf_flatten__top_left": "הפיצול החינמי שלנו מאפשר לך למזג במהירות את כל השכבות והרכיבים של PDF לשכבה אחת, ממקסם את המסמך שלך לשיתוף ומגן מפני פעולות עריכה ולהפחתת גודל הקובץ.",
+    "detail_description_object__pdf_flatten__top_right_1": "פיצול קבצי ה-PDF שלך בשניות עם מספר לחיצות בלבד.",
+    "detail_description_object__pdf_flatten__top_right_2": "פשוט העלה את קובץ ה-PDF שלך כדי להתחיל בתהליך הפיצול.",
+    "detail_description_object__pdf_flatten__top_right_3": "תואם עם Mac, Windows, Android ומכשירי iOS.",
+    "detail_description_object__pdf_flatten__middle_1_title": "פיצול PDF מקוון ידידותי למשתמש",
+    "detail_description_object__pdf_flatten__middle_1_description": "עם הפיצול האינטואיטיבי שלנו, תוכל למזג בקלות את כל השכבות לשכבה אחת. העלה את המסמך שלך, פצל אותו והורד את ה-PDF המותאם בדקות בלי צורך ברישום. המסמכים שלך יהיו מוגנים מפני שינויים בלתי מורשים.",
+    "detail_description_object__pdf_flatten__middle_2_title": "עיבוד מאובטח ופרטי",
+    "detail_description_object__pdf_flatten__middle_2_description": "כל הפיצול של ה-PDF נעשה ישירות בדפדפן שלך, מבטיח שהמסמכים שלך יישארו פרטיים ומאובטחים. אין שליחת נתונים לענן, מגינים על המידע הרגיש שלך ומונעים פעולות עריכה אפשריות.",
+    "detail_description_object__pdf_flatten__middle_3_title": "תאימות עם מכשירים שונים",
+    "detail_description_object__pdf_flatten__middle_3_description": "גישה לפיצול ה-PDF המקוון שלנו מכל מכשיר עם דפדפן אינטרנט, כולל מחשבים נייחים, ניידים ומכשירים ניידים. פצל את ה-PDF שלך בכל עת ובכל מקום ללא סיכון לשינויים.",
+    "detail_description_object__pdf_flatten__middle_4_title": "תהליך פיצול פשוט",
+    "detail_description_object__pdf_flatten__middle_4_description": "פיצול קבצי ה-PDF שלך הוא קל: העלה את הקובץ שלך, לחץ על כפתור הפיצול והורד את הגרסה המפוצלת. גם מתחילים ללא ניסיון יכולים לנווט בתהליך זה בקלות תוך הבטחת אינטגריטת המסמך.",
+    "detail_description_object__pdf_flatten__middle_5_title": "ללא עלות, ללא קושי",
+    "detail_description_object__pdf_flatten__middle_5_description": "אין צורך לרכוש תוכנה יקרה כדי לפצל את ה-PDF שלך. הפיצול החינמי שלנו זמין מקוון בלי עלויות נסתרות, הורדות או רישום נדרש, מבטיח חווית לקוח חלקה.",
+    "detail_description_object__pdf_flatten__middle_6_title": "עיבוד מהיר ויעיל",
+    "detail_description_object__pdf_flatten__middle_6_description": "שירות הפיצול שלנו עוצב למהירות ויעילות, מאפשר לך לייעל את המסמכים שלך במהירות ולמנוע שינויים בלתי מורשים.",
+    "detail_description_object__pdf_flatten__bottom_right_title": "איך לפצל קבצי PDF מקוון:",
+    "detail_description_object__pdf_flatten__bottom_right_description_1": "העלה את קובץ ה-PDF שברצונך לפצל.",
+    "detail_description_object__pdf_flatten__bottom_right_description_2": "לחץ על כפתור הפיצול כדי למזג שכבות ורכיבים.",
+    "detail_description_object__pdf_flatten__bottom_right_description_3": "לחץ על 'הורד' כדי לשמור את קובץ ה-PDF המפוצל שלך.",
+    "detail_description_object__pdf_flatten__bottom_right_description_4": "גש ל-PDF המפוצל שלך מכל מכשיר ושתף בקלות.",
+    "min_description": "הפוך את טופס ה־PDF שלך ללא אפשרות עריכה."
   }
 }

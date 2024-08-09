@@ -1926,5 +1926,33 @@
     "components__pdf_annotator__insert_tools__insert_text": "إدراج نص",
     "components__pdf_annotator__insert_tools__insert_image": "إدراج صورة",
     "components__pdf_annotator__insert_tools__insert_signature": "إدراج توقيع"
+  },
+  "pages__pdf_tools__flatten_pdf": {
+    "title": "تسطيع PDF",
+    "description": "دمج جميع الطبقات والعناصر في ملف PDF إلى طبقة واحدة في ثوانٍ لتعزيز سلامة المستند، وتسهيل المشاركة، والحماية من التلاعب.",
+    "seo_title": "تسطيع PDF مجاني - دمج الطبقات ومنع التلاعب بسهولة | MaxAI.me",
+    "seo_description": "استخدم خدمة تسطيع PDF الخاصة بنا مجانًا عبر الإنترنت لدمج جميع الطبقات في طبقة واحدة، مضمنًا سلامة المستند ومنع التعديل غير المصرح به. سريعة وآمنة، مثالية لتقليل حجم الملفات وتعزيز المشاركة.",
+    "detail_description_object__pdf_flatten__top_left": "تسمح خدمة تسطيع PDF المجانية لدينا لك بدمج جميع الطبقات والعناصر في ملف PDF الخاص بك إلى طبقة واحدة بسرعة، مما يحسن مستندك للمشاركة مع الحفاظ على سلامته وتقليل حجم الملف.",
+    "detail_description_object__pdf_flatten__top_right_1": "قم بتسطيع ملفات PDF الخاصة بك في ثوانٍ ببضع نقرات فقط.",
+    "detail_description_object__pdf_flatten__top_right_2": "قم بتحميل ملف PDF الخاص بك لبدء عملية التسطيع.",
+    "detail_description_object__pdf_flatten__top_right_3": "متوافق مع أجهزة Mac و Windows و Android و iOS.",
+    "detail_description_object__pdf_flatten__middle_1_title": "تسطيع PDF عبر الإنترنت بواجهة سهلة الاستخدام",
+    "detail_description_object__pdf_flatten__middle_1_description": "مع خدمة تسطيع PDF البديهية لدينا، يمكنك دمج جميع الطبقات في طبقة واحدة بسهولة. قم بتحميل مستندك، قم بتسطيعه، وقم بتنزيل ملف PDF المحسن في دقائق دون الحاجة للتسجيل. ستكون مستنداتك محمية من التعديلات غير المصرح بها.",
+    "detail_description_object__pdf_flatten__middle_2_title": "معالجة آمنة وخاصة",
+    "detail_description_object__pdf_flatten__middle_2_description": "يتم جميع عمليات تسطيع PDF مباشرة في متصفحك، مما يضمن بقاء مستنداتك خاصة وآمنة. لا يتم إرسال البيانات إلى السحابة، مما يحمي معلوماتك الحساسة ويمنع التلاعب المحتمل.",
+    "detail_description_object__pdf_flatten__middle_3_title": "توافق مع الأجهزة المختلفة",
+    "detail_description_object__pdf_flatten__middle_3_description": "استخدم خدمة تسطيع PDF الخاصة بنا عبر الإنترنت من أي جهاز يحتوي على متصفح ويشمل الحواسيب المكتبية والمحمولة والأجهزة النقالة. قم بتسطيع ملفات PDF الخاصة بك في أي وقت ومن أي مكان دون خطر التعديل.",
+    "detail_description_object__pdf_flatten__middle_4_title": "عملية تسطيع بسيطة",
+    "detail_description_object__pdf_flatten__middle_4_description": "تسطيع ملفات PDF الخاصة بك بسهولة: قم بتحميل ملفك، انقر على زر التسطيع، وقم بتنزيل النسخة المسطحة. حتى المبتدئين يمكنهم التنقل في هذه العملية بسهولة مع الحفاظ على سلامة المستند.",
+    "detail_description_object__pdf_flatten__middle_5_title": "بدون تكلفة، بدون تعقيدات",
+    "detail_description_object__pdf_flatten__middle_5_description": "لا حاجة لشراء برامج باهظة لتسطيع ملفات PDF الخاصة بك. خدمة تسطيع PDF الخاصة بنا متاحة عبر الإنترنت بدون تكاليف مخفية أو تنزيلات أو تسجيل مطلوب، مما يضمن تجربة خالية من المتاعب.",
+    "detail_description_object__pdf_flatten__middle_6_title": "معالجة سريعة وفعالة",
+    "detail_description_object__pdf_flatten__middle_6_description": "تم تصميم خدمة تسطيع PDF الخاصة بنا لتكون سريعة وفعالة، مما يتيح لك تحسين مستنداتك بسرعة ومنع التعديلات غير المصرح بها.",
+    "detail_description_object__pdf_flatten__bottom_right_title": "كيفية تسطيع ملفات PDF عبر الإنترنت:",
+    "detail_description_object__pdf_flatten__bottom_right_description_1": "قم بتحميل ملف PDF الذي تريد تسطيعه.",
+    "detail_description_object__pdf_flatten__bottom_right_description_2": "انقر على زر التسطيع لدمج الطبقات والعناصر.",
+    "detail_description_object__pdf_flatten__bottom_right_description_3": "انقر على 'تنزيل' لحفظ ملف PDF المسطح الخاص بك.",
+    "detail_description_object__pdf_flatten__bottom_right_description_4": "قم بالوصول إلى ملف PDF المسطح الخاص بك على أي جهاز وشاركه بسهولة.",
+    "min_description": "اجعل نموذج PDF الخاص بك غير قابل للتحرير."
   }
 }

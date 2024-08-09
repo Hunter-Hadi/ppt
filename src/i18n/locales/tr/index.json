@@ -1926,5 +1926,33 @@
     "components__pdf_annotator__insert_tools__insert_text": "metin ekle",
     "components__pdf_annotator__insert_tools__insert_image": "resim ekle",
     "components__pdf_annotator__insert_tools__insert_signature": "İmza Ekle"
+  },
+  "pages__pdf_tools__flatten_pdf": {
+    "title": "PDF'yi düzleştir",
+    "description": "Bir PDF'in tüm katmanlarını ve öğelerini saniyeler içinde tek bir katmana birleştirerek belge bütünlüğünü artırın, paylaşımı kolaylaştırın ve müdahaleye karşı koruma sağlayın.",
+    "seo_title": "Ücretsiz PDF Düzleştirme - Katmanları Birleştirin ve Müdahaleyi Önleyin | MaxAI.me",
+    "seo_description": "Ücretsiz çevrimiçi PDF düzleştirme aracımızı kullanarak tüm katmanları tek bir katmana birleştirerek belge bütünlüğünü sağlayın ve izinsiz değişiklikleri önleyin. Hızlı ve güvenlidir, dosya boyutlarını azaltmak ve paylaşımı artırmak için mükemmeldir.",
+    "detail_description_object__pdf_flatten__top_left": "Ücretsiz PDF düzleştirme aracımızla PDF'inizdeki tüm katmanları ve öğeleri hızlıca tek bir katmana birleştirebilir, belgenizi paylaşım için optimize edebilir ve müdahaleye karşı koruyabilirsiniz.",
+    "detail_description_object__pdf_flatten__top_right_1": "Birkaç tıklamayla PDF dosyalarınızı saniyeler içinde düzleştirin.",
+    "detail_description_object__pdf_flatten__top_right_2": "Düzleştirme işlemine başlamak için PDF dosyanızı yükleyin.",
+    "detail_description_object__pdf_flatten__top_right_3": "Mac, Windows, Android ve iOS cihazlarla uyumludur.",
+    "detail_description_object__pdf_flatten__middle_1_title": "Kullanıcı Dostu Çevrimiçi PDF Düzleştirme",
+    "detail_description_object__pdf_flatten__middle_1_description": "Kolayca tüm katmanları birleştirebileceğiniz sezgisel PDF düzleştirme aracımızla belgenizi yükleyin, düzleştirin ve kayıt olmadan optimize edilmiş PDF'yi dakikalar içinde indirin. Belgeniz izinsiz değişikliklere karşı korunacaktır.",
+    "detail_description_object__pdf_flatten__middle_2_title": "Güvenli ve Özel İşleme",
+    "detail_description_object__pdf_flatten__middle_2_description": "Tüm PDF düzleştirme işlemleri doğrudan tarayıcınızda gerçekleştirilir, böylece belgelerinizin özel ve güvenli kalmasını sağlar. Veriler buluta gönderilmez, hassas bilgileriniz korunur ve müdahale riski önlenir.",
+    "detail_description_object__pdf_flatten__middle_3_title": "Çoklu Cihaz Uyumluluğu",
+    "detail_description_object__pdf_flatten__middle_3_description": "Masaüstü bilgisayarlar, dizüstü bilgisayarlar ve mobil cihazlar da dahil olmak üzere herhangi bir cihazdan çevrimiçi PDF düzleştirme aracımıza erişebilirsiniz. Belgelerinizi her zaman ve her yerde değişiklik riski olmadan düzleştirebilirsiniz.",
+    "detail_description_object__pdf_flatten__middle_4_title": "Basit Düzleştirme İşlemi",
+    "detail_description_object__pdf_flatten__middle_4_description": "PDF dosyalarınızı düzleştirmek kolaydır: Dosyanızı yükleyin, düzleştir düğmesine tıklayın ve düzleştirilmiş sürümü indirin. Hatta tamamen acemi kullanıcılar bile belge bütünlüğünü sağlayarak bu süreci kolayca yönetebilir.",
+    "detail_description_object__pdf_flatten__middle_5_title": "Maliyetsiz, Sorunsuz",
+    "detail_description_object__pdf_flatten__middle_5_description": "PDF'lerinizi düzleştirmek için pahalı yazılımlar satın almanıza gerek yok. Ücretsiz PDF düzleştirme aracımız çevrimiçi olarak kullanılabilir, gizli maliyetler, indirmeler veya kayıt gerektirmez, sorunsuz bir deneyim sunar.",
+    "detail_description_object__pdf_flatten__middle_6_title": "Hızlı ve Verimli İşleme",
+    "detail_description_object__pdf_flatten__middle_6_description": "PDF düzleştirme hizmetimiz hız ve verimlilik için tasarlanmıştır, belgelerinizi hızlı bir şekilde optimize etmenizi ve izinsiz değişiklikleri önlemenizi sağlar.",
+    "detail_description_object__pdf_flatten__bottom_right_title": "PDF Dosyalarını Çevrimiçi Nasıl Düzleştirirsiniz:",
+    "detail_description_object__pdf_flatten__bottom_right_description_1": "Düzleştirmek istediğiniz PDF dosyasını yükleyin.",
+    "detail_description_object__pdf_flatten__bottom_right_description_2": "Katmanları ve öğeleri birleştirmek için düzleştir düğmesine tıklayın.",
+    "detail_description_object__pdf_flatten__bottom_right_description_3": "'İndir' düğmesine tıklayarak düzleştirilmiş PDF dosyanızı kaydedin.",
+    "detail_description_object__pdf_flatten__bottom_right_description_4": "Düzleştirilmiş PDF'nize herhangi bir cihazdan erişin ve kolayca paylaşın.",
+    "min_description": "PDF formunuzu düzenlenemez hale getirin."
   }
 }

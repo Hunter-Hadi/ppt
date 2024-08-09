@@ -1926,5 +1926,33 @@
     "components__pdf_annotator__insert_tools__insert_text": "텍스트 삽입",
     "components__pdf_annotator__insert_tools__insert_image": "이미지 삽입",
     "components__pdf_annotator__insert_tools__insert_signature": "서명 삽입"
+  },
+  "pages__pdf_tools__flatten_pdf": {
+    "title": "PDF 펼치기",
+    "description": "PDF의 모든 레이어와 요소를 몇 초 안에 하나의 레이어로 병합하여 문서 무결성을 향상시키고 쉬운 공유 및 변조 방지 기능을 제공합니다.",
+    "seo_title": "무료 PDF 펼치기 - 레이어 병합 및 변조 방지 간편하게 | MaxAI.me",
+    "seo_description": "무료 온라인 PDF 펼치기를 사용하여 모든 레이어를 하나의 레이어로 병합하여 문서 무결성을 보장하고 무단 변경을 방지합니다. 빠르고 안전하며 파일 크기를 줄이고 공유 기능을 향상하는 데 완벽합니다.",
+    "detail_description_object__pdf_flatten__top_left": "무료 PDF 펼치기를 사용하여 PDF의 모든 레이어와 요소를 빠르게 하나의 레이어로 병합하여 문서를 공유하기 좋게 최적화하고 변조를 방지하며 파일 크기를 줄입니다.",
+    "detail_description_object__pdf_flatten__top_right_1": "몇 번의 클릭으로 PDF 파일을 몇 초 안에 펼치세요.",
+    "detail_description_object__pdf_flatten__top_right_2": "펼치기 프로세스를 시작하려면 PDF 파일을 간단히 업로드하세요.",
+    "detail_description_object__pdf_flatten__top_right_3": "Mac, Windows, Android 및 iOS 기기와 호환됩니다.",
+    "detail_description_object__pdf_flatten__middle_1_title": "사용하기 쉬운 온라인 PDF 펼치기",
+    "detail_description_object__pdf_flatten__middle_1_description": "직관적인 PDF 펼치기를 사용하여 모든 레이어를 쉽게 병합할 수 있습니다. 문서를 업로드하고 펼치기를 클릭하여 최적화된 PDF를 등록 없이 몇 분 안에 다운로드하세요. 문서가 무단 수정으로부터 보호됩니다.",
+    "detail_description_object__pdf_flatten__middle_2_title": "안전하고 개인 정보 보호 처리",
+    "detail_description_object__pdf_flatten__middle_2_description": "모든 PDF 펼치기는 브라우저에서 직접 수행되어 문서가 개인적이고 안전하게 유지됩니다. 클라우드로 데이터가 전송되지 않아 민감한 정보가 보호되고 잠재적인 변조가 방지됩니다.",
+    "detail_description_object__pdf_flatten__middle_3_title": "다양한 기기 호환성",
+    "detail_description_object__pdf_flatten__middle_3_description": "데스크톱, 랩톱 및 모바일 기기를 포함한 모든 기기에서 웹 브라우저를 통해 온라인 PDF 펼치기에 액세스할 수 있습니다. 언제 어디서나 PDF를 펼치고 변경 없이 사용할 수 있습니다.",
+    "detail_description_object__pdf_flatten__middle_4_title": "간단한 펼치기 프로세스",
+    "detail_description_object__pdf_flatten__middle_4_description": "PDF 파일을 펼치는 것은 간단합니다: 파일을 업로드하고 펼치기 버튼을 클릭하여 펼쳐진 버전을 다운로드하세요. 문서 무결성을 보장하면서 신입자도 쉽게 이 프로세스를 진행할 수 있습니다.",
+    "detail_description_object__pdf_flatten__middle_5_title": "비용 없이 간단하게",
+    "detail_description_object__pdf_flatten__middle_5_description": "PDF를 펼치기 위해 비싼 소프트웨어를 구매할 필요가 없습니다. 숨겨진 비용, 다운로드 또는 등록이 필요 없이 온라인에서 무료 PDF 펼치기를 사용할 수 있어 번거로움 없는 경험을 제공합니다.",
+    "detail_description_object__pdf_flatten__middle_6_title": "빠르고 효율적인 처리",
+    "detail_description_object__pdf_flatten__middle_6_description": "PDF 펼치기 서비스는 속도와 효율성을 고려하여 설계되어 문서를 빠르게 최적화하고 무단 변경을 방지합니다.",
+    "detail_description_object__pdf_flatten__bottom_right_title": "온라인 PDF 파일 펼치는 방법:",
+    "detail_description_object__pdf_flatten__bottom_right_description_1": "펼치려는 PDF 파일을 업로드하세요.",
+    "detail_description_object__pdf_flatten__bottom_right_description_2": "레이어와 요소를 병합하려면 펼치기 버튼을 클릭하세요.",
+    "detail_description_object__pdf_flatten__bottom_right_description_3": "'다운로드'를 클릭하여 펼쳐진 PDF 파일을 저장하세요.",
+    "detail_description_object__pdf_flatten__bottom_right_description_4": "펼쳐진 PDF를 모든 기기에서 쉽게 공유할 수 있습니다.",
+    "min_description": "PDF 양식을 편집할 수 없게 만듭니다."
   }
 }

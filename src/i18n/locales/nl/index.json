@@ -1926,5 +1926,33 @@
     "components__pdf_annotator__insert_tools__insert_text": "tekst invoegen",
     "components__pdf_annotator__insert_tools__insert_image": "afbeelding invoegen",
     "components__pdf_annotator__insert_tools__insert_signature": "Handtekening invoegen"
+  },
+  "pages__pdf_tools__flatten_pdf": {
+    "title": "PDF samenvoegen",
+    "description": "Voeg alle lagen en elementen van een PDF samen tot één laag in enkele seconden voor verbeterde documentintegriteit, gemakkelijker delen en bescherming tegen manipulatie.",
+    "seo_title": "Gratis PDF samenvoegen - Lagen samenvoegen en Manipulatie voorkomen | MaxAI.me",
+    "seo_description": "Gebruik onze gratis online PDF samenvoegen om alle lagen samen te voegen tot één laag, waardoor documentintegriteit wordt gewaarborgd en ongeautoriseerde wijzigingen worden voorkomen. Snel en veilig, perfect voor het verkleinen van bestandsgroottes en het verbeteren van delen.",
+    "detail_description_object__pdf_flatten__top_left": "Onze gratis PDF samenvoegen stelt u in staat om snel alle lagen en elementen van uw PDF samen te voegen tot één laag, waardoor uw document wordt geoptimaliseerd voor delen terwijl het beschermd blijft tegen manipulatie en bestandsgrootte wordt verkleind.",
+    "detail_description_object__pdf_flatten__top_right_1": "Samenvoeg uw PDF-bestanden in enkele seconden met slechts een paar klikken.",
+    "detail_description_object__pdf_flatten__top_right_2": "Upload eenvoudig uw PDF-bestand om het samenvoegproces te starten.",
+    "detail_description_object__pdf_flatten__top_right_3": "Compatibel met Mac, Windows, Android en iOS-apparaten.",
+    "detail_description_object__pdf_flatten__middle_1_title": "Gebruiksvriendelijke Online PDF samenvoegen",
+    "detail_description_object__pdf_flatten__middle_1_description": "Met onze intuïtieve PDF samenvoegen kunt u moeiteloos alle lagen samenvoegen tot één. Upload uw document, voeg het samen en download de geoptimaliseerde PDF binnen enkele minuten zonder registratie. Uw documenten zijn beschermd tegen ongeautoriseerde wijzigingen.",
+    "detail_description_object__pdf_flatten__middle_2_title": "Veilige en Privé Verwerking",
+    "detail_description_object__pdf_flatten__middle_2_description": "Alle PDF-samenvoegingen worden rechtstreeks in uw browser uitgevoerd, waardoor uw documenten privé en veilig blijven. Er worden geen gegevens naar de cloud gestuurd, waardoor uw gevoelige informatie wordt beschermd en mogelijke manipulatie wordt voorkomen.",
+    "detail_description_object__pdf_flatten__middle_3_title": "Compatibiliteit met Verschillende Apparaten",
+    "detail_description_object__pdf_flatten__middle_3_description": "Toegang tot onze online PDF samenvoegen vanaf elk apparaat met een webbrowser, inclusief desktops, laptops en mobiele apparaten. Voeg uw PDF's op elk moment en overal samen zonder risico op wijzigingen.",
+    "detail_description_object__pdf_flatten__middle_4_title": "Eenvoudig Samenvoegproces",
+    "detail_description_object__pdf_flatten__middle_4_description": "Het samenvoegen van uw PDF-bestanden is eenvoudig: upload uw bestand, klik op de samenvoegknop en download de samengevoegde versie. Zelfs beginners kunnen dit proces moeiteloos doorlopen terwijl de documentintegriteit wordt gewaarborgd.",
+    "detail_description_object__pdf_flatten__middle_5_title": "Geen Kosten, Geen Complicaties",
+    "detail_description_object__pdf_flatten__middle_5_description": "Er is geen dure software nodig om uw PDF's samen te voegen. Onze gratis PDF samenvoegen is online beschikbaar zonder verborgen kosten, downloads of registratie, waardoor een probleemloze ervaring wordt gegarandeerd.",
+    "detail_description_object__pdf_flatten__middle_6_title": "Snelle en Efficiënte Verwerking",
+    "detail_description_object__pdf_flatten__middle_6_description": "Onze PDF-samenvoegservice is ontworpen voor snelheid en efficiëntie, waardoor u snel uw documenten kunt optimaliseren en ongeautoriseerde wijzigingen kunt voorkomen.",
+    "detail_description_object__pdf_flatten__bottom_right_title": "Hoe PDF-bestanden Samenvoegen Online:",
+    "detail_description_object__pdf_flatten__bottom_right_description_1": "Upload het PDF-bestand dat u wilt samenvoegen.",
+    "detail_description_object__pdf_flatten__bottom_right_description_2": "Klik op de samenvoegknop om lagen en elementen samen te voegen.",
+    "detail_description_object__pdf_flatten__bottom_right_description_3": "Klik op 'Downloaden' om uw samengevoegde PDF-bestand op te slaan.",
+    "detail_description_object__pdf_flatten__bottom_right_description_4": "Toegang tot uw samengevoegde PDF op elk apparaat en deel het eenvoudig.",
+    "min_description": "Maak uw PDF-formulier niet-bewerkbaar."
   }
 }

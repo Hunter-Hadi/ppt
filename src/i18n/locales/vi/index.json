@@ -1926,5 +1926,33 @@
     "components__pdf_annotator__insert_tools__insert_text": "chèn văn bản",
     "components__pdf_annotator__insert_tools__insert_image": "chèn hình ảnh",
     "components__pdf_annotator__insert_tools__insert_signature": "Chèn Chữ Ký"
+  },
+  "pages__pdf_tools__flatten_pdf": {
+    "title": "Hợp nhất PDF",
+    "description": "Hợp nhất tất cả các lớp và yếu tố của một tài liệu PDF vào một lớp duy nhất trong vài giây để tăng tính toàn vẹn của tài liệu, dễ chia sẻ hơn và bảo vệ chống sự can thiệp.",
+    "seo_title": "Miễn phí hợp nhất PDF - Hợp nhất Lớp và Ngăn Chặn Can Thiệp Một Cách Dễ Dàng | MaxAI.me",
+    "seo_description": "Sử dụng công cụ hợp nhất PDF trực tuyến miễn phí của chúng tôi để hợp nhất tất cả các lớp vào một lớp duy nhất, đảm bảo tính toàn vẹn của tài liệu và ngăn chặn sự thay đổi không được ủy quyền. Nhanh chóng và an toàn, hoàn hảo cho việc giảm kích thước tệp và tăng cường chia sẻ.",
+    "detail_description_object__pdf_flatten__top_left": "Công cụ hợp nhất PDF miễn phí của chúng tôi cho phép bạn nhanh chóng hợp nhất tất cả các lớp và yếu tố của tài liệu PDF của bạn vào một lớp duy nhất, tối ưu hóa tài liệu của bạn để chia sẻ trong khi bảo vệ chống sự can thiệp và giảm kích thước tệp.",
+    "detail_description_object__pdf_flatten__top_right_1": "Hợp nhất tệp PDF của bạn trong vài giây chỉ với vài cú nhấp chuột.",
+    "detail_description_object__pdf_flatten__top_right_2": "Đơn giản tải lên tệp PDF của bạn để bắt đầu quá trình hợp nhất.",
+    "detail_description_object__pdf_flatten__top_right_3": "Tương thích với các thiết bị Mac, Windows, Android và iOS.",
+    "detail_description_object__pdf_flatten__middle_1_title": "Công cụ Hợp nhất PDF trực tuyến Dễ Sử Dụng",
+    "detail_description_object__pdf_flatten__middle_1_description": "Với công cụ hợp nhất PDF trực tuyến dễ sử dụng của chúng tôi, bạn có thể hợp nhất tất cả các lớp vào một. Tải lên tài liệu của bạn, hợp nhất nó và tải xuống tài liệu PDF được tối ưu hóa trong vài phút mà không cần đăng ký. Tài liệu của bạn sẽ được bảo vệ khỏi sự thay đổi không được ủy quyền.",
+    "detail_description_object__pdf_flatten__middle_2_title": "Xử Lý An Toàn và Riêng Tư",
+    "detail_description_object__pdf_flatten__middle_2_description": "Tất cả quá trình hợp nhất PDF được thực hiện trực tiếp trong trình duyệt của bạn, đảm bảo rằng tài liệu của bạn luôn được bảo mật và an toàn. Không có dữ liệu nào được gửi lên đám mây, bảo vệ thông tin nhạy cảm của bạn và ngăn chặn sự can thiệp tiềm ẩn.",
+    "detail_description_object__pdf_flatten__middle_3_title": "Tương Thích Trên Mọi Thiết Bị",
+    "detail_description_object__pdf_flatten__middle_3_description": "Truy cập công cụ hợp nhất PDF trực tuyến của chúng tôi từ bất kỳ thiết bị nào có trình duyệt web, bao gồm máy tính để bàn, laptop và thiết bị di động. Hợp nhất tài liệu PDF của bạn bất cứ lúc nào, bất cứ nơi đâu mà không lo bị thay đổi.",
+    "detail_description_object__pdf_flatten__middle_4_title": "Quá Trình Hợp Nhất Đơn Giản",
+    "detail_description_object__pdf_flatten__middle_4_description": "Hợp nhất tệp PDF của bạn dễ dàng: tải lên tệp của bạn, nhấp vào nút hợp nhất và tải xuống phiên bản đã được hợp nhất. Ngay cả người mới bắt đầu cũng có thể điều hướng quá trình này một cách dễ dàng trong khi đảm bảo tính toàn vẹn của tài liệu.",
+    "detail_description_object__pdf_flatten__middle_5_title": "Không Phí, Không Phức Tạp",
+    "detail_description_object__pdf_flatten__middle_5_description": "Không cần mua phần mềm đắt tiền để hợp nhất tệp PDF của bạn. Công cụ hợp nhất PDF miễn phí của chúng tôi có sẵn trực tuyến mà không có chi phí ẩn, không cần tải xuống hoặc đăng ký, đảm bảo trải nghiệm không rắc rối.",
+    "detail_description_object__pdf_flatten__middle_6_title": "Xử Lý Nhanh Chóng và Hiệu Quả",
+    "detail_description_object__pdf_flatten__middle_6_description": "Dịch vụ hợp nhất PDF của chúng tôi được thiết kế để tối ưu hóa tốc độ và hiệu quả, cho phép bạn tối ưu hóa tài liệu của mình một cách nhanh chóng và ngăn chặn sự thay đổi không được ủy quyền.",
+    "detail_description_object__pdf_flatten__bottom_right_title": "Cách Hợp Nhất Tệp PDF Trực Tuyến:",
+    "detail_description_object__pdf_flatten__bottom_right_description_1": "Tải lên tệp PDF bạn muốn hợp nhất.",
+    "detail_description_object__pdf_flatten__bottom_right_description_2": "Nhấp vào nút hợp nhất để hợp nhất các lớp và yếu tố.",
+    "detail_description_object__pdf_flatten__bottom_right_description_3": "Nhấp vào 'Tải xuống' để lưu tệp PDF đã được hợp nhất của bạn.",
+    "detail_description_object__pdf_flatten__bottom_right_description_4": "Truy cập tệp PDF đã được hợp nhất trên bất kỳ thiết bị nào và chia sẻ một cách dễ dàng.",
+    "min_description": "Làm cho biểu mẫu PDF của bạn không thể chỉnh sửa."
   }
 }

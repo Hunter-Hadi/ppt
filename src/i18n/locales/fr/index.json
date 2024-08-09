@@ -1926,5 +1926,33 @@
     "components__pdf_annotator__insert_tools__insert_text": "insérer du texte",
     "components__pdf_annotator__insert_tools__insert_image": "insérer une image",
     "components__pdf_annotator__insert_tools__insert_signature": "Insérer une Signature"
+  },
+  "pages__pdf_tools__flatten_pdf": {
+    "title": "Aplatir PDF",
+    "description": "Fusionnez tous les calques et éléments d'un PDF en une seule couche en quelques secondes pour une intégrité documentaire renforcée, un partage plus facile et une protection contre les manipulations.",
+    "seo_title": "Aplatir PDF gratuit - Fusionner les calques et empêcher les manipulations facilement | MaxAI.me",
+    "seo_description": "Utilisez notre outil gratuit en ligne d'aplatissement de PDF pour fusionner tous les calques en une seule couche, garantissant l'intégrité du document et empêchant les modifications non autorisées. Rapide et sécurisé, parfait pour réduire la taille des fichiers et améliorer le partage.",
+    "detail_description_object__pdf_flatten__top_left": "Notre outil gratuit d'aplatissement de PDF vous permet de fusionner rapidement tous les calques et éléments de votre PDF en une seule couche, optimisant ainsi votre document pour le partage tout en le protégeant contre les manipulations et en réduisant la taille du fichier.",
+    "detail_description_object__pdf_flatten__top_right_1": "Aplatissez vos fichiers PDF en quelques secondes en quelques clics.",
+    "detail_description_object__pdf_flatten__top_right_2": "Il vous suffit de télécharger votre fichier PDF pour démarrer le processus d'aplatissement.",
+    "detail_description_object__pdf_flatten__top_right_3": "Compatible avec les appareils Mac, Windows, Android et iOS.",
+    "detail_description_object__pdf_flatten__middle_1_title": "Aplatir PDF en ligne convivial",
+    "detail_description_object__pdf_flatten__middle_1_description": "Avec notre outil convivial d'aplatissement de PDF, vous pouvez fusionner tous les calques en un seul. Téléchargez votre document, aplatissez-le et téléchargez le PDF optimisé en quelques minutes sans aucune inscription. Vos documents seront protégés contre les modifications non autorisées.",
+    "detail_description_object__pdf_flatten__middle_2_title": "Traitement sécurisé et privé",
+    "detail_description_object__pdf_flatten__middle_2_description": "Tout l'aplatissement de PDF est effectué directement dans votre navigateur, garantissant que vos documents restent privés et sécurisés. Aucune donnée n'est envoyée dans le cloud, protégeant vos informations sensibles et empêchant toute manipulation potentielle.",
+    "detail_description_object__pdf_flatten__middle_3_title": "Compatibilité multi-appareils",
+    "detail_description_object__pdf_flatten__middle_3_description": "Accédez à notre outil d'aplatissement de PDF en ligne depuis n'importe quel appareil doté d'un navigateur Web, y compris les ordinateurs de bureau, les ordinateurs portables et les appareils mobiles. Aplatissez vos PDF à tout moment, n'importe où, sans risque d'altération.",
+    "detail_description_object__pdf_flatten__middle_4_title": "Processus d'aplatissement simple",
+    "detail_description_object__pdf_flatten__middle_4_description": "Aplatisser vos fichiers PDF est facile : téléchargez votre fichier, cliquez sur le bouton d'aplatissement et téléchargez la version aplatie. Même les débutants peuvent naviguer dans ce processus facilement tout en garantissant l'intégrité du document.",
+    "detail_description_object__pdf_flatten__middle_5_title": "Sans frais, sans complications",
+    "detail_description_object__pdf_flatten__middle_5_description": "Pas besoin d'acheter un logiciel coûteux pour aplatir vos PDF. Notre outil gratuit d'aplatissement de PDF est disponible en ligne sans frais cachés, téléchargements ni inscription requis, garantissant une expérience sans tracas.",
+    "detail_description_object__pdf_flatten__middle_6_title": "Traitement rapide et efficace",
+    "detail_description_object__pdf_flatten__middle_6_description": "Notre service d'aplatissement de PDF est conçu pour la rapidité et l'efficacité, vous permettant d'optimiser vos documents rapidement et de prévenir les modifications non autorisées.",
+    "detail_description_object__pdf_flatten__bottom_right_title": "Comment aplatir des fichiers PDF en ligne :",
+    "detail_description_object__pdf_flatten__bottom_right_description_1": "Téléchargez le fichier PDF que vous souhaitez aplatir.",
+    "detail_description_object__pdf_flatten__bottom_right_description_2": "Cliquez sur le bouton d'aplatissement pour fusionner les calques et éléments.",
+    "detail_description_object__pdf_flatten__bottom_right_description_3": "Cliquez sur 'Télécharger' pour enregistrer votre fichier PDF aplati.",
+    "detail_description_object__pdf_flatten__bottom_right_description_4": "Accédez à votre PDF aplati sur n'importe quel appareil et partagez-le facilement.",
+    "min_description": "Rendez votre formulaire PDF non modifiable."
   }
 }

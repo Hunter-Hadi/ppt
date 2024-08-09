@@ -1926,5 +1926,33 @@
     "components__pdf_annotator__insert_tools__insert_text": "magdagdag ng teksto",
     "components__pdf_annotator__insert_tools__insert_image": "magdagdag ng larawan",
     "components__pdf_annotator__insert_tools__insert_signature": "Maglagay ng Lagda"
+  },
+  "pages__pdf_tools__flatten_pdf": {
+    "title": "i-flatten ang PDF",
+    "description": "Pagsamahin ang lahat ng mga layer at elemento ng isang PDF sa isang layer sa loob ng ilang segundo para sa pinabuting integridad ng dokumento, mas madaling pagbabahagi, at proteksyon laban sa panghihimasok.",
+    "seo_title": "Libreng i-flatten ang PDF - Pagsamahin ang Mga Layer at Pigilan ang Panghihimasok Nang Walang Kahirap-hirap | MaxAI.me",
+    "seo_description": "Gamitin ang aming libreng online flatten PDF upang pagsamahin ang lahat ng mga layer sa isang layer, tiyakin ang integridad ng dokumento at pigilan ang hindi awtorisadong mga pagbabago. Mabilis at ligtas ito, perpekto para sa pagbawas ng laki ng file at pagsasaayos ng pagbabahagi.",
+    "detail_description_object__pdf_flatten__top_left": "Ang aming libreng flatten PDF ay nagbibigay-daan sa iyo na madaling pagsamahin ang lahat ng mga layer at elemento ng iyong PDF sa isang layer, pinapabuti ang iyong dokumento para sa pagbabahagi habang pinoprotektahan laban sa panghihimasok at pagbawas ng laki ng file.",
+    "detail_description_object__pdf_flatten__top_right_1": "Pagsamahin ang iyong mga file ng PDF sa loob ng ilang segundo sa ilang pag-click.",
+    "detail_description_object__pdf_flatten__top_right_2": "I-upload lamang ang iyong file ng PDF upang simulan ang proseso ng pagsasamahan.",
+    "detail_description_object__pdf_flatten__top_right_3": "Kumportable sa Mac, Windows, Android, at iOS devices.",
+    "detail_description_object__pdf_flatten__middle_1_title": "User-Friendly Online flatten PDF",
+    "detail_description_object__pdf_flatten__middle_1_description": "Sa aming madaling gamiting flatten PDF, maaari mong walang kahirap-hirap na pagsamahin ang lahat ng mga layer sa isa. I-upload ang iyong dokumento, i-flatten ito, at i-download ang na-optimize na PDF sa loob ng ilang minuto nang walang anumang pagsusumite. Protektado ang iyong mga dokumento laban sa hindi awtorisadong mga pagbabago.",
+    "detail_description_object__pdf_flatten__middle_2_title": "Ligtas at Pribadong Proseso",
+    "detail_description_object__pdf_flatten__middle_2_description": "Ang lahat ng pag-flatten ng PDF ay ginagawa nang direkta sa iyong browser, tiyak na nananatiling pribado at ligtas ang iyong mga dokumento. Walang data na ipinapadala sa ulap, pinoprotektahan ang iyong sensitibong impormasyon at pinipigilan ang posibleng panghihimasok.",
+    "detail_description_object__pdf_flatten__middle_3_title": "Cross-Device Compatibility",
+    "detail_description_object__pdf_flatten__middle_3_description": "Ma-access ang aming online flatten PDF mula sa anumang device na may web browser, kabilang ang desktops, laptops, at mobile devices. Pagsamahin ang iyong mga PDF anumang oras, saanman nang walang panganib ng pagbabago.",
+    "detail_description_object__pdf_flatten__middle_4_title": "Simple Flattening Process",
+    "detail_description_object__pdf_flatten__middle_4_description": "Madali ang proseso ng pagsasamahan ng iyong mga file ng PDF: i-upload ang iyong file, i-click ang flatten button, at i-download ang na-flatten na bersyon. Kahit ang mga baguhan ay maaaring mag-navigate sa prosesong ito nang walang kahirap-hirap habang pinapangalagaan ang integridad ng dokumento.",
+    "detail_description_object__pdf_flatten__middle_5_title": "Walang Bayad, Walang Komplikasyon",
+    "detail_description_object__pdf_flatten__middle_5_description": "Hindi mo kailangang bumili ng mamahaling software para pagsamahin ang iyong mga PDF. Ang aming libreng flatten PDF ay available online nang walang mga nakatagong gastos, pag-download, o pagsusumite na kinakailangan, tiyak na walang abala.",
+    "detail_description_object__pdf_flatten__middle_6_title": "Mabilis at Epektibong Proseso",
+    "detail_description_object__pdf_flatten__middle_6_description": "Ang aming serbisyong pag-flatten ng PDF ay idinisenyo para sa bilis at epektibong pagproseso, nagbibigay-daan sa iyo na ma-optimize ang iyong mga dokumento nang mabilis at pigilan ang hindi awtorisadong mga pagbabago.",
+    "detail_description_object__pdf_flatten__bottom_right_title": "Paano Pagsamahin ang Mga File ng PDF Online:",
+    "detail_description_object__pdf_flatten__bottom_right_description_1": "I-upload ang file ng PDF na nais mong pagsamahan.",
+    "detail_description_object__pdf_flatten__bottom_right_description_2": "I-click ang flatten button para pagsamahin ang mga layer at elemento.",
+    "detail_description_object__pdf_flatten__bottom_right_description_3": "I-click ang 'I-download' upang i-save ang iyong na-flatten na file ng PDF.",
+    "detail_description_object__pdf_flatten__bottom_right_description_4": "Ma-access ang iyong na-flatten na PDF sa anumang device at madaling maibahagi.",
+    "min_description": "Gawing hindi maaaring i-edit ang iyong form sa PDF."
   }
 }

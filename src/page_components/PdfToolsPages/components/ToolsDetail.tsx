@@ -153,6 +153,15 @@ const FunctionalityExtractPagePdfMain = dynamic(
     loading: () => <AppLoadingLayout loading />,
   },
 )
+const FunctionalityFlattenPdfMain = dynamic(
+  () =>
+    import(
+      '@/features/functionality_flatten_pdf/components/FunctionalityFlattenPdfMain'
+    ),
+  {
+    loading: () => <AppLoadingLayout loading />,
+  },
+)
 interface IToolsDetailProps {
   urlKey: IToolUrkKeyType
 }
@@ -246,6 +255,10 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       title: t('seo:pdf_tools__pdf_extractpages_page__title'),
       description: t('seo:pdf_tools__pdf_extractpages_page__description'),
     },
+    'flatten-pdf': {
+      title: t('pages__pdf_tools__flatten_pdf:seo_title'),
+      description: t('pages__pdf_tools__flatten_pdf:seo_description'),
+    },
   }
   const toolsDetailDescriptionData = allPdfToolsDetailDescriptionObject[urlKey]
   const toolList = useMemo(
@@ -305,6 +318,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
             {urlKey === 'extract-page-pdf' && (
               <FunctionalityExtractPagePdfMain />
             )}
+            {urlKey === 'flatten-pdf' && <FunctionalityFlattenPdfMain />}
           </Suspense>
         </Box>
         {toolsDetailDescriptionData && (

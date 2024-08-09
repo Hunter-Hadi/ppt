@@ -1926,5 +1926,33 @@
     "components__pdf_annotator__insert_tools__insert_text": "masukkan teks",
     "components__pdf_annotator__insert_tools__insert_image": "masukkan gambar",
     "components__pdf_annotator__insert_tools__insert_signature": "Masukkan Tandatangan"
+  },
+  "pages__pdf_tools__flatten_pdf": {
+    "title": "Ratakan PDF",
+    "description": "Gabungkan semua lapisan dan elemen PDF ke dalam satu lapisan dalam beberapa saat untuk meningkatkan integriti dokumen, memudahkan perkongsian, dan melindungi daripada pengubahan.",
+    "seo_title": "Ratakan PDF Percuma - Gabungkan Lapisan dan Cegah Pengubahan Dengan Mudah | MaxAI.me",
+    "seo_description": "Gunakan perkhidmatan ratakan PDF dalam talian percuma kami untuk menggabungkan semua lapisan ke dalam satu lapisan, memastikan integriti dokumen dan mencegah perubahan tanpa kebenaran. Cepat dan selamat, sesuai untuk mengurangkan saiz fail dan meningkatkan perkongsian.",
+    "detail_description_object__pdf_flatten__top_left": "Perkhidmatan ratakan PDF percuma kami membolehkan anda menggabungkan dengan cepat semua lapisan dan elemen PDF ke dalam satu lapisan, mengoptimumkan dokumen anda untuk perkongsian sambil melindungi daripada pengubahan dan mengurangkan saiz fail.",
+    "detail_description_object__pdf_flatten__top_right_1": "Ratakan fail PDF anda dalam beberapa saat dengan hanya beberapa klik.",
+    "detail_description_object__pdf_flatten__top_right_2": "Muat naik fail PDF anda untuk memulakan proses ratakan.",
+    "detail_description_object__pdf_flatten__top_right_3": "Selaras dengan peranti Mac, Windows, Android, dan iOS.",
+    "detail_description_object__pdf_flatten__middle_1_title": "Ratakan PDF Dalam Talian Yang Mudah Digunakan",
+    "detail_description_object__pdf_flatten__middle_1_description": "Dengan ratakan PDF yang intuitif kami, anda boleh dengan mudah menggabungkan semua lapisan menjadi satu. Muat naik dokumen anda, ratakan, dan muat turun PDF yang dioptimumkan dalam beberapa minit tanpa perlu pendaftaran. Dokumen anda akan dilindungi daripada pengubahan tanpa kebenaran.",
+    "detail_description_object__pdf_flatten__middle_2_title": "Pemprosesan Selamat dan Peribadi",
+    "detail_description_object__pdf_flatten__middle_2_description": "Semua ratakan PDF dilakukan terus dalam pelayar anda, memastikan dokumen anda kekal peribadi dan selamat. Tiada data dihantar ke awan, melindungi maklumat sensitif anda dan mencegah pengubahan yang mungkin berlaku.",
+    "detail_description_object__pdf_flatten__middle_3_title": "Kecocokan Di Pelbagai Peranti",
+    "detail_description_object__pdf_flatten__middle_3_description": "Akses ratakan PDF dalam talian kami dari mana-mana peranti dengan pelayar web, termasuk desktop, laptop, dan peranti mudah alih. Ratakan PDF anda pada bila-bila masa dan di mana sahaja tanpa risiko pengubahan.",
+    "detail_description_object__pdf_flatten__middle_4_title": "Proses Ratakan Yang Mudah",
+    "detail_description_object__pdf_flatten__middle_4_description": "Ratakan fail PDF anda dengan mudah: muat naik fail anda, klik butang ratakan, dan muat turun versi yang diratakan. Malah pemula sekalipun boleh menavigasi proses ini dengan mudah sambil memastikan integriti dokumen.",
+    "detail_description_object__pdf_flatten__middle_5_title": "Tanpa Kos, Tanpa Komplikasi",
+    "detail_description_object__pdf_flatten__middle_5_description": "Tiada keperluan untuk membeli perisian mahal untuk meratakan PDF anda. Ratakan PDF percuma kami boleh didapati dalam talian tanpa kos tersembunyi, muat turun, atau pendaftaran diperlukan, memastikan pengalaman tanpa masalah.",
+    "detail_description_object__pdf_flatten__middle_6_title": "Pemprosesan Pantas dan Efisyen",
+    "detail_description_object__pdf_flatten__middle_6_description": "Perkhidmatan ratakan PDF kami direka untuk kelajuan dan kecekapan, membolehkan anda mengoptimumkan dokumen anda dengan cepat dan mencegah perubahan tanpa kebenaran.",
+    "detail_description_object__pdf_flatten__bottom_right_title": "Cara Meratakan Fail PDF Dalam Talian:",
+    "detail_description_object__pdf_flatten__bottom_right_description_1": "Muat naik fail PDF yang ingin anda ratakan.",
+    "detail_description_object__pdf_flatten__bottom_right_description_2": "Klik butang ratakan untuk menggabungkan lapisan dan elemen.",
+    "detail_description_object__pdf_flatten__bottom_right_description_3": "Klik 'Muat Turun' untuk menyimpan fail PDF yang diratakan anda.",
+    "detail_description_object__pdf_flatten__bottom_right_description_4": "Akses fail PDF yang diratakan anda pada mana-mana peranti dan kongsi dengan mudah.",
+    "min_description": "Jadikan borang PDF anda tidak boleh diedit."
   }
 }

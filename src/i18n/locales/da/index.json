@@ -1926,5 +1926,33 @@
     "components__pdf_annotator__insert_tools__insert_text": "indsæt tekst",
     "components__pdf_annotator__insert_tools__insert_image": "indsæt billede",
     "components__pdf_annotator__insert_tools__insert_signature": "Indsæt Underskrift"
+  },
+  "pages__pdf_tools__flatten_pdf": {
+    "title": "flad PDF",
+    "description": "Flet alle lag og elementer af en PDF til et enkelt lag på sekunder for forbedret dokumentintegritet, nemmere deling og beskyttelse mod manipulation.",
+    "seo_title": "Gratis flad PDF - Flet lag og forhindr manipulation uden besvær | MaxAI.me",
+    "seo_description": "Brug vores gratis online flad PDF til at flette alle lag til et enkelt lag, sikre dokumentintegritet og forhindre uautoriserede ændringer. Det er hurtigt og sikkert, perfekt til at reducere filstørrelser og forbedre deling.",
+    "detail_description_object__pdf_flatten__top_left": "Vores gratis flad PDF giver dig mulighed for hurtigt at flette alle lag og elementer af din PDF til et enkelt lag, hvilket optimerer dit dokument til deling, samtidig med at det beskytter mod manipulation og reducerer filstørrelsen.",
+    "detail_description_object__pdf_flatten__top_right_1": "Flet dine PDF-filer på sekunder med blot et par klik.",
+    "detail_description_object__pdf_flatten__top_right_2": "Upload blot din PDF-fil for at starte fletningsprocessen.",
+    "detail_description_object__pdf_flatten__top_right_3": "Kompatibel med Mac, Windows, Android og iOS-enheder.",
+    "detail_description_object__pdf_flatten__middle_1_title": "Brugervenlig online flad PDF",
+    "detail_description_object__pdf_flatten__middle_1_description": "Med vores intuitive flad PDF kan du ubesværet flette alle lag til ét. Upload dit dokument, flet det og download den optimerede PDF på få minutter uden registrering. Dine dokumenter vil være beskyttet mod uautoriserede ændringer.",
+    "detail_description_object__pdf_flatten__middle_2_title": "Sikker og privat behandling",
+    "detail_description_object__pdf_flatten__middle_2_description": "Alt PDF-fletning udføres direkte i din browser, hvilket sikrer, at dine dokumenter forbliver private og sikre. Ingen data sendes til skyen, hvilket beskytter dine følsomme oplysninger og forhindrer potentiel manipulation.",
+    "detail_description_object__pdf_flatten__middle_3_title": "Tvær-enhedskompatibilitet",
+    "detail_description_object__pdf_flatten__middle_3_description": "Få adgang til vores online flad PDF fra enhver enhed med en webbrowser, herunder stationære computere, bærbare computere og mobile enheder. Flet dine PDF'er når som helst, hvor som helst uden risiko for ændringer.",
+    "detail_description_object__pdf_flatten__middle_4_title": "Enkel fletningsproces",
+    "detail_description_object__pdf_flatten__middle_4_description": "At flette dine PDF-filer er nemt: upload din fil, klik på flet-knappen og download den fladede version. Selv komplette nybegyndere kan navigere i denne proces ubesværet og samtidig sikre dokumentintegriteten.",
+    "detail_description_object__pdf_flatten__middle_5_title": "Ingen omkostninger, ingen komplikationer",
+    "detail_description_object__pdf_flatten__middle_5_description": "Der er ingen grund til at købe dyre software til at flette dine PDF'er. Vores gratis flad PDF er tilgængelig online uden skjulte omkostninger, downloads eller registrering, hvilket sikrer en problemfri oplevelse.",
+    "detail_description_object__pdf_flatten__middle_6_title": "Hurtig og effektiv behandling",
+    "detail_description_object__pdf_flatten__middle_6_description": "Vores PDF-fletningstjeneste er designet til hastighed og effektivitet, så du kan optimere dine dokumenter hurtigt og forhindre uautoriserede ændringer.",
+    "detail_description_object__pdf_flatten__bottom_right_title": "Sådan flades PDF-filer online:",
+    "detail_description_object__pdf_flatten__bottom_right_description_1": "Upload den PDF-fil, du vil flette.",
+    "detail_description_object__pdf_flatten__bottom_right_description_2": "Klik på flet-knappen for at flette lag og elementer.",
+    "detail_description_object__pdf_flatten__bottom_right_description_3": "Klik på 'Download' for at gemme din fladede PDF-fil.",
+    "detail_description_object__pdf_flatten__bottom_right_description_4": "Få adgang til din fladede PDF på enhver enhed og del den nemt.",
+    "min_description": "Gør din PDF-formular ikke-redigerbar."
   }
 }

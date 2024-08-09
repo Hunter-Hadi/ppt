@@ -1926,5 +1926,33 @@
     "components__pdf_annotator__insert_tools__insert_text": "lisää teksti",
     "components__pdf_annotator__insert_tools__insert_image": "lisää kuva",
     "components__pdf_annotator__insert_tools__insert_signature": "Lisää Allekirjoitus"
+  },
+  "pages__pdf_tools__flatten_pdf": {
+    "title": "tasoita PDF",
+    "description": "Yhdistä kaikki PDF-tason ja elementit yhteen tasoon sekunneissa parantamaan asiakirjan eheyttä, helpottamaan jakamista ja suojaamaan muokkauksilta.",
+    "seo_title": "Ilmainen tasoita PDF - Yhdistä tasot ja estä muokkaukset vaivattomasti | MaxAI.me",
+    "seo_description": "Käytä ilmaista verkossa toimivaa tasoita PDF -työkaluamme yhdistääksesi kaikki tasot yhteen tasoon, varmistaen asiakirjan eheyden ja estäen luvattomat muutokset. Nopeaa ja turvallista, täydellinen tiedostokoon pienentämiseen ja jakamisen tehostamiseen.",
+    "detail_description_object__pdf_flatten__top_left": "Ilmainen tasoita PDF -työkalumme mahdollistaa kaikkien PDF-tason ja elementtien nopean yhdistämisen yhteen tasoon, optimoiden asiakirjasi jakamista varten samalla suojaten muokkauksilta ja pienentäen tiedostokokoa.",
+    "detail_description_object__pdf_flatten__top_right_1": "Tasoita PDF-tiedostosi sekunneissa muutamalla napsautuksella.",
+    "detail_description_object__pdf_flatten__top_right_2": "Lataa PDF-tiedostosi aloittaaksesi tasoitusprosessin.",
+    "detail_description_object__pdf_flatten__top_right_3": "Yhteensopiva Macin, Windowsin, Androidin ja iOS-laitteiden kanssa.",
+    "detail_description_object__pdf_flatten__middle_1_title": "Käyttäjäystävällinen verkossa toimiva tasoita PDF",
+    "detail_description_object__pdf_flatten__middle_1_description": "Intuitiivisella tasoita PDF -työkalullamme voit vaivattomasti yhdistää kaikki tasot yhteen. Lataa asiakirjasi, tasoita se ja lataa optimoitu PDF muutamassa minuutissa ilman rekisteröitymistä. Asiakirjasi suojataan luvattomilta muutoksilta.",
+    "detail_description_object__pdf_flatten__middle_2_title": "Turvallinen ja yksityinen käsittely",
+    "detail_description_object__pdf_flatten__middle_2_description": "Kaikki PDF-tasoitus tehdään suoraan selaimessasi, varmistaen että asiakirjasi pysyvät yksityisinä ja turvassa. Ei tietojen lähettämistä pilveen, suojaten arkaluontoiset tiedot ja estäen mahdolliset muokkaukset.",
+    "detail_description_object__pdf_flatten__middle_3_title": "Laiteyhteensopivuus",
+    "detail_description_object__pdf_flatten__middle_3_description": "Käytä verkossa toimivaa tasoita PDF -työkaluamme mistä tahansa laitteesta, jossa on verkkoselain, mukaan lukien pöytäkoneet, kannettavat tietokoneet ja mobiililaitteet. Tasoita PDF-tiedostosi milloin tahansa, missä tahansa ilman muokkausriskiä.",
+    "detail_description_object__pdf_flatten__middle_4_title": "Yksinkertainen tasoitusprosessi",
+    "detail_description_object__pdf_flatten__middle_4_description": "PDF-tiedostojen tasoittaminen on helppoa: lataa tiedostosi, napsauta tasoita-painiketta ja lataa tasoitettu versio. Jopa aloittelijat voivat navigoida tämän prosessin vaivattomasti varmistaen asiakirjan eheyden.",
+    "detail_description_object__pdf_flatten__middle_5_title": "Ei kustannuksia, Ei komplikaatioita",
+    "detail_description_object__pdf_flatten__middle_5_description": "Ei tarvetta ostaa kalliita ohjelmistoja PDF-tiedostojen tasoittamiseen. Ilmainen tasoita PDF -työkalumme on saatavilla verkossa ilman piilokustannuksia, latauksia tai rekisteröitymistä, varmistaen vaivattoman kokemuksen.",
+    "detail_description_object__pdf_flatten__middle_6_title": "Nopea ja tehokas käsittely",
+    "detail_description_object__pdf_flatten__middle_6_description": "PDF-tasoituspalvelumme on suunniteltu nopeuteen ja tehokkuuteen, mahdollistaen asiakirjojesi nopean optimoinnin ja luvattomien muutosten estämisen.",
+    "detail_description_object__pdf_flatten__bottom_right_title": "Kuinka tasoittaa PDF-tiedostot verkossa:",
+    "detail_description_object__pdf_flatten__bottom_right_description_1": "Lataa PDF-tiedosto, jonka haluat tasoittaa.",
+    "detail_description_object__pdf_flatten__bottom_right_description_2": "Napsauta tasoita-painiketta yhdistääksesi tasot ja elementit.",
+    "detail_description_object__pdf_flatten__bottom_right_description_3": "Napsauta 'Lataa' tallentaaksesi tasoitetun PDF-tiedostosi.",
+    "detail_description_object__pdf_flatten__bottom_right_description_4": "Käytä tasoitettua PDF-tiedostoasi mistä tahansa laitteesta ja jaa se helposti.",
+    "min_description": "Tee PDF-lomakkeestasi muokkaamaton."
   }
 }

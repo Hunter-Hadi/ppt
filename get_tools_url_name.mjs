@@ -6,7 +6,7 @@ import path from 'path'
 const localesDir = path.join(process.cwd(), 'src/i18n/locales')
 
 // 目标key
-const targetKey = 'pages__pdf_tools__pdf_annotator.title' // 例如：pages__pdf_tools__unlock_pdf
+const targetKey = 'pages__pdf_tools__flatten_pdf.title' // 例如：pages__pdf_tools__unlock_pdf
 // 存储结果
 const result = {}
 // 函数：根据目标key提取值

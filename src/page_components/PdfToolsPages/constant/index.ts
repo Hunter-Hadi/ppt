@@ -20,6 +20,7 @@ export type IToolUrkKeyType =
   | 'watermark-pdf'
   | 'delete-page-pdf'
   | 'extract-page-pdf'
+  | 'flatten-pdf'
 export interface IToolData {
   icon: string
   title: string
@@ -214,6 +215,14 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
       'pages:tools__index_page__constant_obj__pdf_page_extractpage__main_description',
     secondaryDescription: '',
     urlKey: routerChildrenObject['extract-page-pdf'],
+    urlPrefixPath: toolsTopUrlKey,
+  },
+  'flatten-pdf': {
+    icon: 'ExtractPagePDF',
+    title: 'pages__pdf_tools__flatten_pdf:title',
+    description: 'pages__pdf_tools__flatten_pdf:min_description',
+    secondaryDescription: 'pages__pdf_tools__flatten_pdf:description',
+    urlKey: routerChildrenObject['flatten-pdf'],
     urlPrefixPath: toolsTopUrlKey,
   },
 }

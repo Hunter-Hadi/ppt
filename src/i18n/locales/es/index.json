@@ -1926,5 +1926,33 @@
     "components__pdf_annotator__insert_tools__insert_text": "insertar texto",
     "components__pdf_annotator__insert_tools__insert_image": "insertar imagen",
     "components__pdf_annotator__insert_tools__insert_signature": "Insertar Firma"
+  },
+  "pages__pdf_tools__flatten_pdf": {
+    "title": "Aplanar PDF",
+    "description": "Combina todas las capas y elementos de un PDF en una sola capa en segundos para una integridad de documento mejorada, un intercambio más fácil y protección contra manipulaciones.",
+    "seo_title": "Aplanar PDF gratis - Combina capas y evita manipulaciones sin esfuerzo | MaxAI.me",
+    "seo_description": "Utiliza nuestro aplanador de PDF en línea gratuito para combinar todas las capas en una sola capa, garantizando la integridad del documento y evitando cambios no autorizados. Es rápido y seguro, perfecto para reducir el tamaño de los archivos y mejorar el intercambio.",
+    "detail_description_object__pdf_flatten__top_left": "Nuestro aplanador de PDF gratuito te permite combinar rápidamente todas las capas y elementos de tu PDF en una sola capa, optimizando tu documento para compartirlo mientras te proteges contra manipulaciones y reduces el tamaño del archivo.",
+    "detail_description_object__pdf_flatten__top_right_1": "Aplana tus archivos PDF en segundos con solo unos clics.",
+    "detail_description_object__pdf_flatten__top_right_2": "Simplemente carga tu archivo PDF para iniciar el proceso de aplanamiento.",
+    "detail_description_object__pdf_flatten__top_right_3": "Compatible con dispositivos Mac, Windows, Android e iOS.",
+    "detail_description_object__pdf_flatten__middle_1_title": "Aplanar PDF en línea fácil de usar",
+    "detail_description_object__pdf_flatten__middle_1_description": "Con nuestro intuitivo aplanador de PDF, puedes combinar todas las capas en una sola. Sube tu documento, aplánalo y descarga el PDF optimizado en minutos sin necesidad de registro. Tus documentos estarán protegidos contra modificaciones no autorizadas.",
+    "detail_description_object__pdf_flatten__middle_2_title": "Procesamiento seguro y privado",
+    "detail_description_object__pdf_flatten__middle_2_description": "Todo el aplanamiento de PDF se realiza directamente en tu navegador, asegurando que tus documentos permanezcan privados y seguros. No se envían datos a la nube, protegiendo tu información sensible y evitando posibles manipulaciones.",
+    "detail_description_object__pdf_flatten__middle_3_title": "Compatibilidad entre dispositivos",
+    "detail_description_object__pdf_flatten__middle_3_description": "Accede a nuestro aplanador de PDF en línea desde cualquier dispositivo con un navegador web, incluidos ordenadores de sobremesa, portátiles y dispositivos móviles. Aplana tus PDF en cualquier momento y lugar sin riesgo de alteraciones.",
+    "detail_description_object__pdf_flatten__middle_4_title": "Proceso de aplanamiento sencillo",
+    "detail_description_object__pdf_flatten__middle_4_description": "Aplanar tus archivos PDF es fácil: carga tu archivo, haz clic en el botón de aplanar y descarga la versión aplanada. Incluso los principiantes pueden navegar por este proceso sin esfuerzo mientras garantizan la integridad del documento.",
+    "detail_description_object__pdf_flatten__middle_5_title": "Sin coste, sin complicaciones",
+    "detail_description_object__pdf_flatten__middle_5_description": "No es necesario comprar software costoso para aplanar tus PDF. Nuestro aplanador de PDF gratuito está disponible en línea sin costes ocultos, descargas ni registro requerido, garantizando una experiencia sin complicaciones.",
+    "detail_description_object__pdf_flatten__middle_6_title": "Procesamiento rápido y eficiente",
+    "detail_description_object__pdf_flatten__middle_6_description": "Nuestro servicio de aplanamiento de PDF está diseñado para ser rápido y eficiente, lo que te permite optimizar tus documentos rápidamente y evitar cambios no autorizados.",
+    "detail_description_object__pdf_flatten__bottom_right_title": "Cómo aplanar archivos PDF en línea:",
+    "detail_description_object__pdf_flatten__bottom_right_description_1": "Carga el archivo PDF que deseas aplanar.",
+    "detail_description_object__pdf_flatten__bottom_right_description_2": "Haz clic en el botón de aplanar para combinar capas y elementos.",
+    "detail_description_object__pdf_flatten__bottom_right_description_3": "Haz clic en 'Descargar' para guardar tu archivo PDF aplanado.",
+    "detail_description_object__pdf_flatten__bottom_right_description_4": "Accede a tu PDF aplanado en cualquier dispositivo y compártelo fácilmente.",
+    "min_description": "Haz que tu formulario PDF no se pueda editar."
   }
 }

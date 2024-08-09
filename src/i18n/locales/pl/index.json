@@ -1926,5 +1926,33 @@
     "components__pdf_annotator__insert_tools__insert_text": "wstaw tekst",
     "components__pdf_annotator__insert_tools__insert_image": "wstaw obraz",
     "components__pdf_annotator__insert_tools__insert_signature": "Wstaw Podpis"
+  },
+  "pages__pdf_tools__flatten_pdf": {
+    "title": "Spłaszcz PDF",
+    "description": "Połącz wszystkie warstwy i elementy pliku PDF w jedną warstwę w kilka sekund, zapewniając integralność dokumentu, łatwiejsze udostępnianie i ochronę przed manipulacją.",
+    "seo_title": "Darmowe spłaszczanie PDF - Łączenie Warstw i Zapobieganie Manipulacji Bezproblemowo | MaxAI.me",
+    "seo_description": "Skorzystaj z naszego darmowego narzędzia online do spłaszczania PDF, aby połączyć wszystkie warstwy w jedną, zapewniając integralność dokumentu i zapobiegając nieautoryzowanym zmianom. Szybkie i bezpieczne, idealne do zmniejszania rozmiarów plików i ułatwiania udostępniania.",
+    "detail_description_object__pdf_flatten__top_left": "Nasze darmowe narzędzie do spłaszczania PDF pozwala szybko połączyć wszystkie warstwy i elementy pliku PDF w jedną warstwę, optymalizując dokument do udostępniania, jednocześnie zabezpieczając przed manipulacją i zmniejszając rozmiar pliku.",
+    "detail_description_object__pdf_flatten__top_right_1": "Spłaszczaj pliki PDF w kilka sekund za pomocą kilku kliknięć.",
+    "detail_description_object__pdf_flatten__top_right_2": "Wystarczy przesłać plik PDF, aby rozpocząć proces spłaszczania.",
+    "detail_description_object__pdf_flatten__top_right_3": "Kompatybilne z urządzeniami Mac, Windows, Android i iOS.",
+    "detail_description_object__pdf_flatten__middle_1_title": "Intuicyjne narzędzie online do spłaszczania PDF",
+    "detail_description_object__pdf_flatten__middle_1_description": "Dzięki naszemu intuicyjnemu narzędziu do spłaszczania PDF możesz łatwo połączyć wszystkie warstwy w jedną. Prześlij dokument, spłaszcz go i pobierz zoptymalizowany plik PDF w kilka minut, bez konieczności rejestracji. Twoje dokumenty będą chronione przed nieautoryzowanymi modyfikacjami.",
+    "detail_description_object__pdf_flatten__middle_2_title": "Bezpieczne i Prywatne Przetwarzanie",
+    "detail_description_object__pdf_flatten__middle_2_description": "Całe spłaszczanie PDF odbywa się bezpośrednio w przeglądarce, zapewniając prywatność i bezpieczeństwo dokumentów. Żadne dane nie są przesyłane do chmury, co chroni Twoje wrażliwe informacje i zapobiega potencjalnej manipulacji.",
+    "detail_description_object__pdf_flatten__middle_3_title": "Kompatybilność z Wszystkimi Urządzeniami",
+    "detail_description_object__pdf_flatten__middle_3_description": "Korzystaj z naszego narzędzia online do spłaszczania PDF z dowolnego urządzenia z przeglądarką internetową, w tym z komputerów stacjonarnych, laptopów i urządzeń mobilnych. Spłaszczaj pliki PDF w dowolnym miejscu i czasie, bez ryzyka zmian.",
+    "detail_description_object__pdf_flatten__middle_4_title": "Prosty Proces Spłaszczania",
+    "detail_description_object__pdf_flatten__middle_4_description": "Spłaszczanie plików PDF jest łatwe: przesłać plik, kliknąć przycisk spłaszczania i pobrać spłaszczoną wersję. Nawet początkujący użytkownicy poradzą sobie z tym procesem bezproblemowo, zapewniając integralność dokumentu.",
+    "detail_description_object__pdf_flatten__middle_5_title": "Bezpłatnie i Bezproblemowo",
+    "detail_description_object__pdf_flatten__middle_5_description": "Nie musisz kupować drogiego oprogramowania do spłaszczania PDF. Nasze darmowe narzędzie do spłaszczania PDF jest dostępne online bez ukrytych opłat, pobierania ani rejestracji, zapewniając bezproblemowe doświadczenie.",
+    "detail_description_object__pdf_flatten__middle_6_title": "Szybkie i Wydajne Przetwarzanie",
+    "detail_description_object__pdf_flatten__middle_6_description": "Nasze narzędzie do spłaszczania PDF zostało zaprojektowane z myślą o szybkości i wydajności, umożliwiając szybką optymalizację dokumentów i zapobiegając nieautoryzowanym zmianom.",
+    "detail_description_object__pdf_flatten__bottom_right_title": "Jak Spłaszczać Pliki PDF Online:",
+    "detail_description_object__pdf_flatten__bottom_right_description_1": "Prześlij plik PDF, który chcesz spłaszczyć.",
+    "detail_description_object__pdf_flatten__bottom_right_description_2": "Kliknij przycisk spłaszczania, aby połączyć warstwy i elementy.",
+    "detail_description_object__pdf_flatten__bottom_right_description_3": "Kliknij „Pobierz”, aby zapisać spłaszczony plik PDF.",
+    "detail_description_object__pdf_flatten__bottom_right_description_4": "Otwórz spłaszczony plik PDF na dowolnym urządzeniu i udostępniaj go łatwo.",
+    "min_description": "Uczyń swój formularz PDF nieedytowalnym."
   }
 }

@@ -1926,5 +1926,33 @@
     "components__pdf_annotator__insert_tools__insert_text": "テキストを挿入",
     "components__pdf_annotator__insert_tools__insert_image": "画像を挿入",
     "components__pdf_annotator__insert_tools__insert_signature": "署名を挿入"
+  },
+  "pages__pdf_tools__flatten_pdf": {
+    "title": "PDFをフラット化",
+    "description": "PDFのすべてのレイヤーと要素を数秒で1つのレイヤーにマージして、文書の整合性を向上させ、共有を容易にし、改ざんから保護します。",
+    "seo_title": "無料PDFフラット化 - レイヤーをマージして改ざんを防止 | MaxAI.me",
+    "seo_description": "当社の無料オンラインPDFフラット化を使用して、すべてのレイヤーを1つのレイヤーにマージし、文書の整合性を確保し、不正な変更を防ぎます。ファイルサイズを削減し、共有を向上させるのに最適です。",
+    "detail_description_object__pdf_flatten__top_left": "当社の無料PDFフラット化を使用して、PDFのすべてのレイヤーと要素を素早く1つのレイヤーにマージし、文書を共有するために最適化し、改ざんから保護し、ファイルサイズを削減します。",
+    "detail_description_object__pdf_flatten__top_right_1": "数秒でPDFファイルをフラット化します。",
+    "detail_description_object__pdf_flatten__top_right_2": "フラット化プロセスを開始するには、PDFファイルをアップロードしてください。",
+    "detail_description_object__pdf_flatten__top_right_3": "Mac、Windows、Android、iOSデバイスと互換性があります。",
+    "detail_description_object__pdf_flatten__middle_1_title": "使いやすいオンラインPDFフラット化",
+    "detail_description_object__pdf_flatten__middle_1_description": "直感的なPDFフラット化を使用して、すべてのレイヤーを簡単に1つにマージできます。登録なしでドキュメントをアップロードし、フラット化して、最適化されたPDFを数分でダウンロードできます。文書は不正な変更から保護されます。",
+    "detail_description_object__pdf_flatten__middle_2_title": "安全でプライベートな処理",
+    "detail_description_object__pdf_flatten__middle_2_description": "すべてのPDFフラット化はブラウザ内で直接行われ、文書がプライベートかつ安全であることを保証します。クラウドにデータが送信されることはなく、機密情報が保護され、改ざんが防止されます。",
+    "detail_description_object__pdf_flatten__middle_3_title": "クロスデバイス対応",
+    "detail_description_object__pdf_flatten__middle_3_description": "デスクトップ、ラップトップ、モバイルデバイスを含む、Webブラウザを搭載した任意のデバイスからオンラインPDFフラット化にアクセスできます。文書の改ざんのリスクなしに、いつでもどこでもPDFをフラット化できます。",
+    "detail_description_object__pdf_flatten__middle_4_title": "簡単なフラット化プロセス",
+    "detail_description_object__pdf_flatten__middle_4_description": "PDFファイルをフラット化するのは簡単です：ファイルをアップロードし、フラット化ボタンをクリックして、フラット化されたバージョンをダウンロードします。文書の整合性を確保しながら、初心者でもこのプロセスを簡単にナビゲートできます。",
+    "detail_description_object__pdf_flatten__middle_5_title": "費用なし、複雑さなし",
+    "detail_description_object__pdf_flatten__middle_5_description": "PDFをフラット化するために高価なソフトウェアを購入する必要はありません。無料のPDFフラット化は、隠れたコスト、ダウンロード、登録が不要でオンラインで利用でき、手間のかからない体験を保証します。",
+    "detail_description_object__pdf_flatten__middle_6_title": "迅速かつ効率的な処理",
+    "detail_description_object__pdf_flatten__middle_6_description": "PDFフラット化サービスはスピードと効率を重視して設計されており、文書を迅速に最適化し、不正な変更を防ぐことができます。",
+    "detail_description_object__pdf_flatten__bottom_right_title": "オンラインでPDFファイルをフラット化する方法：",
+    "detail_description_object__pdf_flatten__bottom_right_description_1": "フラット化したいPDFファイルをアップロードします。",
+    "detail_description_object__pdf_flatten__bottom_right_description_2": "レイヤーと要素をマージするためにフラット化ボタンをクリックします。",
+    "detail_description_object__pdf_flatten__bottom_right_description_3": "'ダウンロード'をクリックしてフラット化されたPDFファイルを保存します。",
+    "detail_description_object__pdf_flatten__bottom_right_description_4": "フラット化されたPDFにはどのデバイスからでもアクセスし、簡単に共有できます。",
+    "min_description": "PDF フォームを編集不可にします。"
   }
 }

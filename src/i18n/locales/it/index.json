@@ -1925,5 +1925,33 @@
     "components__pdf_annotator__insert_tools__insert_text": "inserisci testo",
     "components__pdf_annotator__insert_tools__insert_image": "inserisci immagine",
     "components__pdf_annotator__insert_tools__insert_signature": "Inserisci Firma"
+  },
+  "pages__pdf_tools__flatten_pdf": {
+    "title": "Appiattisci PDF",
+    "description": "Unisci tutti i livelli ed elementi di un PDF in un unico livello in pochi secondi per un'integrità del documento migliorata, una condivisione più semplice e protezione contro le manomissioni.",
+    "seo_title": "Appiattisci PDF gratuito - Unisci Livelli e Impedisci le Manomissioni Senza Sforzo | MaxAI.me",
+    "seo_description": "Utilizza il nostro appiattitore PDF online gratuito per unire tutti i livelli in un unico strato, garantendo l'integrità del documento e impedendo modifiche non autorizzate. È veloce e sicuro, perfetto per ridurre le dimensioni dei file e migliorare la condivisione.",
+    "detail_description_object__pdf_flatten__top_left": "Il nostro appiattisci PDF gratuito ti consente di unire rapidamente tutti i livelli ed elementi del tuo PDF in un unico strato, ottimizzando il tuo documento per la condivisione mentre protegge contro le manomissioni e riduce le dimensioni del file.",
+    "detail_description_object__pdf_flatten__top_right_1": "Appiattisci i tuoi file PDF in pochi secondi con pochi clic.",
+    "detail_description_object__pdf_flatten__top_right_2": "Carica semplicemente il tuo file PDF per avviare il processo di appiattimento.",
+    "detail_description_object__pdf_flatten__top_right_3": "Compatibile con dispositivi Mac, Windows, Android e iOS.",
+    "detail_description_object__pdf_flatten__middle_1_title": "Appiattisci PDF Online User-Friendly",
+    "detail_description_object__pdf_flatten__middle_1_description": "Con il nostro intuitivo appiattisci PDF, puoi unire senza sforzo tutti i livelli in uno. Carica il tuo documento, appiattiscilo e scarica il PDF ottimizzato in pochi minuti senza alcuna registrazione. I tuoi documenti saranno protetti da modifiche non autorizzate.",
+    "detail_description_object__pdf_flatten__middle_2_title": "Elaborazione Sicura e Privata",
+    "detail_description_object__pdf_flatten__middle_2_description": "Tutto l'appiattimento PDF viene eseguito direttamente nel tuo browser, garantendo che i tuoi documenti rimangano privati e sicuri. Nessun dato viene inviato al cloud, proteggendo le tue informazioni sensibili e impedendo possibili manomissioni.",
+    "detail_description_object__pdf_flatten__middle_3_title": "Compatibilità Cross-Device",
+    "detail_description_object__pdf_flatten__middle_3_description": "Accedi al nostro appiattisci PDF online da qualsiasi dispositivo con un browser web, inclusi desktop, laptop e dispositivi mobili. Appiattisci i tuoi PDF in qualsiasi momento e ovunque senza rischi di alterazioni.",
+    "detail_description_object__pdf_flatten__middle_4_title": "Semplice Processo di Appiattimento",
+    "detail_description_object__pdf_flatten__middle_4_description": "Appiattire i tuoi file PDF è facile: carica il tuo file, clicca sul pulsante di appiattimento e scarica la versione appiattita. Anche i principianti possono navigare questo processo senza sforzo garantendo l'integrità del documento.",
+    "detail_description_object__pdf_flatten__middle_5_title": "Nessun Costo, Nessuna Complicazione",
+    "detail_description_object__pdf_flatten__middle_5_description": "Non è necessario acquistare software costosi per appiattire i tuoi PDF. Il nostro appiattisci PDF gratuito è disponibile online senza costi nascosti, download o registrazione richiesta, garantendo un'esperienza senza problemi.",
+    "detail_description_object__pdf_flatten__middle_6_title": "Elaborazione Veloce ed Efficient",
+    "detail_description_object__pdf_flatten__middle_6_description": "Il nostro servizio di appiattimento PDF è progettato per la velocità e l'efficienza, consentendoti di ottimizzare i tuoi documenti rapidamente e impedire modifiche non autorizzate.",
+    "detail_description_object__pdf_flatten__bottom_right_title": "Come Appiattire i File PDF Online:",
+    "detail_description_object__pdf_flatten__bottom_right_description_1": "Carica il file PDF che desideri appiattire.",
+    "detail_description_object__pdf_flatten__bottom_right_description_2": "Clicca sul pulsante di appiattimento per unire livelli ed elementi.",
+    "detail_description_object__pdf_flatten__bottom_right_description_3": "Clicca su 'Scarica' per salvare il tuo file PDF appiattito.",
+    "detail_description_object__pdf_flatten__bottom_right_description_4": "Accedi al tuo PDF appiattito su qualsiasi dispositivo e condividilo facilmente.",
+    "min_description": "Rendi il tuo modulo PDF non modificabile."
   }
 }

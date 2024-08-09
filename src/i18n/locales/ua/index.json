@@ -1926,5 +1926,33 @@
     "components__pdf_annotator__insert_tools__insert_text": "вставити текст",
     "components__pdf_annotator__insert_tools__insert_image": "вставити зображення",
     "components__pdf_annotator__insert_tools__insert_signature": "Вставити Підпис"
+  },
+  "pages__pdf_tools__flatten_pdf": {
+    "title": "Згладити PDF",
+    "description": "Об'єднайте всі шари та елементи PDF у один шар за кілька секунд для підвищення цілісності документа, полегшення обміну та захисту від втручання.",
+    "seo_title": "Безкоштовне згладжування PDF - Об'єднайте Шари та Запобігайте Втручанням Легко | MaxAI.me",
+    "seo_description": "Використовуйте наш безкоштовний онлайн сервіс для згладжування PDF, щоб об'єднати всі шари у один, забезпечуючи цілісність документа та запобігаючи несанкціонованим змінам. Це швидко та безпечно, ідеально підходить для зменшення розміру файлів та полегшення обміну.",
+    "detail_description_object__pdf_flatten__top_left": "Наш безкоштовний сервіс згладжування PDF дозволяє швидко об'єднати всі шари та елементи вашого PDF у один шар, оптимізуючи ваш документ для обміну та захисту від втручання та зменшення розміру файлу.",
+    "detail_description_object__pdf_flatten__top_right_1": "Згладьте ваші PDF файли за кілька секунд лише кількома клацаннями.",
+    "detail_description_object__pdf_flatten__top_right_2": "Просто завантажте свій PDF файл, щоб розпочати процес згладжування.",
+    "detail_description_object__pdf_flatten__top_right_3": "Сумісно з пристроями Mac, Windows, Android та iOS.",
+    "detail_description_object__pdf_flatten__middle_1_title": "Зручний онлайн сервіс згладжування PDF",
+    "detail_description_object__pdf_flatten__middle_1_description": "З нашим інтуїтивно зрозумілим сервісом згладжування PDF ви легко об'єднаєте всі шари в один. Завантажте свій документ, згладьте його та завантажте оптимізований PDF за кілька хвилин без будь-якої реєстрації. Ваші документи будуть захищені від несанкціонованих змін.",
+    "detail_description_object__pdf_flatten__middle_2_title": "Безпечна та Конфіденційна Обробка",
+    "detail_description_object__pdf_flatten__middle_2_description": "Все згладжування PDF відбувається безпосередньо у вашому браузері, забезпечуючи конфіденційність та безпеку ваших документів. Ніяких даних не відправляється до хмари, що захищає вашу чутливу інформацію та запобігає можливим втручанням.",
+    "detail_description_object__pdf_flatten__middle_3_title": "Сумісність з Різними Пристроями",
+    "detail_description_object__pdf_flatten__middle_3_description": "Отримайте доступ до нашого онлайн сервісу згладжування PDF з будь-якого пристрою з веб-браузером, включаючи настільні ПК, ноутбуки та мобільні пристрої. Згладьте свої PDF файли в будь-який час та в будь-якому місці без ризику втручання.",
+    "detail_description_object__pdf_flatten__middle_4_title": "Простий Процес Згладжування",
+    "detail_description_object__pdf_flatten__middle_4_description": "Згладжування ваших PDF файлів легко: завантажте файл, клацніть кнопку згладжування та завантажте згладжену версію. Навіть початківці можуть легко орієнтуватися в цьому процесі, забезпечуючи цілісність документа.",
+    "detail_description_object__pdf_flatten__middle_5_title": "Безкоштовно та Без Проблем",
+    "detail_description_object__pdf_flatten__middle_5_description": "Немає потреби купувати дороге програмне забезпечення для згладжування ваших PDF файлів. Наш безкоштовний сервіс згладжування PDF доступний онлайн без прихованих витрат, завантажень або реєстрації, забезпечуючи безпроблемний досвід.",
+    "detail_description_object__pdf_flatten__middle_6_title": "Швидка та Ефективна Обробка",
+    "detail_description_object__pdf_flatten__middle_6_description": "Наш сервіс згладжування PDF розроблений для швидкості та ефективності, що дозволяє вам швидко оптимізувати ваші документи та запобігти несанкціонованим змінам.",
+    "detail_description_object__pdf_flatten__bottom_right_title": "Як Згладити PDF Файли Онлайн:",
+    "detail_description_object__pdf_flatten__bottom_right_description_1": "Завантажте PDF файл, який ви хочете згладити.",
+    "detail_description_object__pdf_flatten__bottom_right_description_2": "Клацніть кнопку згладжування для об'єднання шарів та елементів.",
+    "detail_description_object__pdf_flatten__bottom_right_description_3": "Клацніть 'Завантажити', щоб зберегти ваш згладжений PDF файл.",
+    "detail_description_object__pdf_flatten__bottom_right_description_4": "Отримайте доступ до вашого згладженого PDF на будь-якому пристрої та легко поділіться ним.",
+    "min_description": "Зробіть вашу форму PDF нередагованою."
   }
 }

@@ -1926,5 +1926,33 @@
     "components__pdf_annotator__insert_tools__insert_text": "Text einfügen",
     "components__pdf_annotator__insert_tools__insert_image": "Bild einfügen",
     "components__pdf_annotator__insert_tools__insert_signature": "Unterschrift einfügen"
+  },
+  "pages__pdf_tools__flatten_pdf": {
+    "title": "PDF zusammenführen",
+    "description": "Vereinen Sie alle Ebenen und Elemente eines PDFs in wenigen Sekunden zu einer einzigen Ebene für verbesserte Dokumentintegrität, einfachere Weitergabe und Schutz vor Manipulation.",
+    "seo_title": "Kostenloses PDF zusammenführen - Ebenen vereinen und Manipulation verhindern | MaxAI.me",
+    "seo_description": "Nutzen Sie unser kostenloses Online-Tool zum Zusammenführen von PDFs, um alle Ebenen in eine einzige Ebene zu vereinen, die Dokumentintegrität zu gewährleisten und unbefugte Änderungen zu verhindern. Schnell und sicher, ideal zur Reduzierung von Dateigrößen und zur Verbesserung der Weitergabe.",
+    "detail_description_object__pdf_flatten__top_left": "Unser kostenloses Tool zum Zusammenführen von PDFs ermöglicht es Ihnen, alle Ebenen und Elemente Ihres PDFs schnell zu einer einzigen Ebene zusammenzuführen, um Ihr Dokument für die Weitergabe zu optimieren, während es vor Manipulation geschützt wird und die Dateigröße reduziert wird.",
+    "detail_description_object__pdf_flatten__top_right_1": "Vereinen Sie Ihre PDF-Dateien in Sekunden mit nur wenigen Klicks.",
+    "detail_description_object__pdf_flatten__top_right_2": "Laden Sie einfach Ihre PDF-Datei hoch, um den Zusammenführungsprozess zu starten.",
+    "detail_description_object__pdf_flatten__top_right_3": "Kompatibel mit Mac, Windows, Android und iOS-Geräten.",
+    "detail_description_object__pdf_flatten__middle_1_title": "Benutzerfreundliches Online-Tool zum Zusammenführen von PDFs",
+    "detail_description_object__pdf_flatten__middle_1_description": "Mit unserem intuitiven Tool zum Zusammenführen von PDFs können Sie mühelos alle Ebenen zu einer vereinen. Laden Sie Ihr Dokument hoch, führen Sie die Zusammenführung durch und laden Sie das optimierte PDF in Minuten herunter, ohne sich registrieren zu müssen. Ihre Dokumente sind vor unbefugten Änderungen geschützt.",
+    "detail_description_object__pdf_flatten__middle_2_title": "Sichere und private Verarbeitung",
+    "detail_description_object__pdf_flatten__middle_2_description": "Alle PDF-Zusammenführungen werden direkt in Ihrem Browser durchgeführt, um sicherzustellen, dass Ihre Dokumente privat und sicher bleiben. Es werden keine Daten in die Cloud gesendet, um Ihre sensiblen Informationen zu schützen und mögliche Manipulationen zu verhindern.",
+    "detail_description_object__pdf_flatten__middle_3_title": "Geräteübergreifende Kompatibilität",
+    "detail_description_object__pdf_flatten__middle_3_description": "Greifen Sie von jedem Gerät mit einem Webbrowser auf unser Online-Tool zum Zusammenführen von PDFs zu, einschließlich Desktops, Laptops und mobilen Geräten. Vereinen Sie Ihre PDFs jederzeit und überall, ohne Risiko einer Änderung.",
+    "detail_description_object__pdf_flatten__middle_4_title": "Einfacher Zusammenführungsprozess",
+    "detail_description_object__pdf_flatten__middle_4_description": "Das Zusammenführen Ihrer PDF-Dateien ist einfach: Laden Sie Ihre Datei hoch, klicken Sie auf die Zusammenführen-Schaltfläche und laden Sie die zusammengeführte Version herunter. Selbst Anfänger können diesen Prozess mühelos navigieren und dabei die Dokumentintegrität sicherstellen.",
+    "detail_description_object__pdf_flatten__middle_5_title": "Keine Kosten, Keine Komplikationen",
+    "detail_description_object__pdf_flatten__middle_5_description": "Es ist nicht erforderlich, teure Software zum Zusammenführen Ihrer PDFs zu kaufen. Unser kostenloses Tool zum Zusammenführen von PDFs ist online ohne versteckte Kosten, Downloads oder Registrierung erhältlich und bietet ein problemloses Erlebnis.",
+    "detail_description_object__pdf_flatten__middle_6_title": "Schnelle und effiziente Verarbeitung",
+    "detail_description_object__pdf_flatten__middle_6_description": "Unser Service zum Zusammenführen von PDFs ist auf Geschwindigkeit und Effizienz ausgelegt, sodass Sie Ihre Dokumente schnell optimieren und unbefugte Änderungen verhindern können.",
+    "detail_description_object__pdf_flatten__bottom_right_title": "So werden PDF-Dateien online zusammengeführt:",
+    "detail_description_object__pdf_flatten__bottom_right_description_1": "Laden Sie die PDF-Datei hoch, die Sie zusammenführen möchten.",
+    "detail_description_object__pdf_flatten__bottom_right_description_2": "Klicken Sie auf die Zusammenführen-Schaltfläche, um Ebenen und Elemente zu vereinen.",
+    "detail_description_object__pdf_flatten__bottom_right_description_3": "Klicken Sie auf 'Herunterladen', um Ihre zusammengeführte PDF-Datei zu speichern.",
+    "detail_description_object__pdf_flatten__bottom_right_description_4": "Greifen Sie von jedem Gerät auf Ihre zusammengeführte PDF zu und teilen Sie sie problemlos.",
+    "min_description": "Machen Sie Ihr PDF-Formular nicht bearbeitbar."
   }
 }
