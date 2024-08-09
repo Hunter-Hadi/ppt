@@ -19,7 +19,6 @@ import {
   IButtonConfig,
 } from '@/features/functionality_common/components/FunctionalityCommonButtonListView'
 import FunctionalityCommonOptionSelector from '@/features/functionality_common/components/FunctionalityCommonOptionSelector'
-import { useFunctionalityCommonPdfPasswordHandler } from '@/features/functionality_common/hooks/useFunctionalityCommonPdfPasswordHandler'
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload'
 import { fileToUInt8Array } from '@/features/functionality_common/utils/functionalityCommonFileToUInt8Array'
 import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex'
@@ -44,7 +43,6 @@ const FunctionalityOcrPdfDetail: FC<IFunctionalityOcrPdfDetail> = ({
   onRemoveFile,
 }) => {
   const { t } = useTranslation()
-  const { checkPDFFilePassword } = useFunctionalityCommonPdfPasswordHandler()
   const defaultScanningGrade = 'default' //默认图片分辨率扫描canvas分辨率等级  默认为原来分辨率的2倍  高为4倍
   const isReadFile = useRef(false)
   const [isLoading, setIsLoading] = useState<boolean>(false)
@@ -203,8 +201,8 @@ const FunctionalityOcrPdfDetail: FC<IFunctionalityOcrPdfDetail> = ({
         )}...`,
       )
       setIsLoading(true)
-      const testFile = await checkPDFFilePassword(fileData)
-      const currentPdfUint8Array = await fileData.arrayBuffer()
+      const currentPdfUint8Array = await fileToUInt8Array(fileData)
+      await PDFDocument.load(currentPdfUint8Array) //放在这里作用是检测PDF是否加密或者异常，会进入try catch
       const currentPdfDocument = await pdfjs.getDocument(currentPdfUint8Array)
         .promise
       await getPdfMainLanguage(currentPdfDocument) //拿主要的语言
