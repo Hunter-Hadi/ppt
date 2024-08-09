@@ -80,6 +80,7 @@ function checkDoNeedToGenerateSitemap(file) {
     // 测试页面
     /486e5db3-0853-4763-ac9f-315064d83577/,
     /\.DS_Store/,
+    /pdf-tools/,
   ]
   return !excludePattern.some((pattern) => pattern.test(file))
 }
@@ -203,6 +204,9 @@ async function generatePromptsPages() {
 async function generatePdfToolsPages() {
   const pdfToolsPages = []
   Object.keys(pdfToolsKeyI18nMap).forEach((pdfToolKey) => {
+    pdfToolsPages.push(
+      `/${pdfToolsCodeMap.topUrlKey}/${pdfToolsKeyI18nMap[pdfToolKey]['en']}`,
+    )
     localeCode.forEach((locale) => {
       pdfToolsPages.push(
         `/${locale}/${pdfToolsCodeMap.topUrlKey}/${pdfToolsKeyI18nMap[pdfToolKey][locale]}`,

@@ -11,18 +11,19 @@ export type IToolUrkKeyType =
   | 'pdf-to-html'
   | 'sign-pdf'
   | 'compress-pdf'
-  | 'ocr-pdf'
-  | 'number-pages'
+  | 'pdf-ocr'
+  | 'add-page-numbers-to-pdf'
   | 'rotate-pdf'
   | 'unlock-pdf'
   | 'pdf-annotator'
   | 'protect-pdf'
   | 'watermark-pdf'
-  | 'delete-page-pdf'
-  | 'extract-page-pdf'
+  | 'delete-pages-from-pdf'
+  | 'extract-pdf-pages'
 export interface IToolData {
   icon: string
   title: string
+  detailTitle?: string
   description: string
   secondaryDescription: string //进入页面后的提示
   urlKey: IToolUrkKeyType
@@ -137,14 +138,14 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     urlKey: routerChildrenObject['compress-pdf'],
     urlPrefixPath: toolsTopUrlKey,
   },
-  'ocr-pdf': {
+  'pdf-ocr': {
     icon: 'OcrPDF',
     title: 'pages:tools__index_page__constant_obj__ocr_pdf__title',
     description:
       'pages:tools__index_page__constant_obj__ocr_pdf__main_description',
     secondaryDescription:
       'pages:tools__index_page__constant_obj__ocr_pdf__main_description',
-    urlKey: routerChildrenObject['ocr-pdf'],
+    urlKey: routerChildrenObject['pdf-ocr'],
     urlPrefixPath: toolsTopUrlKey,
   },
   'rotate-pdf': {
@@ -157,14 +158,16 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     urlKey: routerChildrenObject['rotate-pdf'],
     urlPrefixPath: toolsTopUrlKey,
   },
-  'number-pages': {
+  'add-page-numbers-to-pdf': {
     icon: 'NumberPages',
     title: 'pages:tools__index_page__constant_obj__pdf_page_numbers__title',
+    detailTitle:
+      'pages:tools__index_page__constant_obj__pdf_page_numbers__detail__title',
     description:
       'pages:tools__index_page__constant_obj__pdf_page_numbers__main_description',
     secondaryDescription:
       'pages:tools__index_page__constant_obj__pdf_page_numbers__secondary_description',
-    urlKey: routerChildrenObject['number-pages'],
+    urlKey: routerChildrenObject['add-page-numbers-to-pdf'],
     urlPrefixPath: toolsTopUrlKey,
   },
   'unlock-pdf': {
@@ -198,22 +201,24 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     secondaryDescription: 'pages__pdf_tools__pdf_annotator:description',
     urlKey: routerChildrenObject['pdf-annotator'],
   },
-  'delete-page-pdf': {
+  'delete-pages-from-pdf': {
     icon: 'DeletePagePDF',
     title: 'pages:tools__index_page__constant_obj__pdf_page_deletepage__title',
+    detailTitle:
+      'pages:tools__index_page__constant_obj__pdf_page_deletepage__detail__title',
     description:
       'pages:tools__index_page__constant_obj__pdf_page_deletepage__main_description',
     secondaryDescription: '',
-    urlKey: routerChildrenObject['delete-page-pdf'],
+    urlKey: routerChildrenObject['delete-pages-from-pdf'],
     urlPrefixPath: toolsTopUrlKey,
   },
-  'extract-page-pdf': {
+  'extract-pdf-pages': {
     icon: 'ExtractPagePDF',
     title: 'pages:tools__index_page__constant_obj__pdf_page_extractpage__title',
     description:
       'pages:tools__index_page__constant_obj__pdf_page_extractpage__main_description',
     secondaryDescription: '',
-    urlKey: routerChildrenObject['extract-page-pdf'],
+    urlKey: routerChildrenObject['extract-pdf-pages'],
     urlPrefixPath: toolsTopUrlKey,
   },
 }
