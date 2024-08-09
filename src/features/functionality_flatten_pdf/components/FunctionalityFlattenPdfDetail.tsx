@@ -12,7 +12,7 @@ import { downloadUrl } from '@/features/functionality_common/utils/functionality
 import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex'
 import { functionalityCommonSnackNotifications } from '@/features/functionality_common/utils/functionalityCommonNotificationTool'
 
-import { convertFlattenPDF } from '../utils/convertPdfToHTML'
+import { convertFlattenPDF } from '../utils/convertFlattenPDF'
 
 interface IFunctionalityFlattenPdfDetailProps {
   file: File
