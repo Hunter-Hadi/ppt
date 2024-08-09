@@ -32,6 +32,7 @@ export type ICustomIconType =
   | 'DeletePagePDF'
   | 'DeletePagePDFDetaile'
   | 'ExtractPagePDF'
+  | 'FlattenPDF'
 
 const IconsMap: {
   [key in ICustomIconType]: React.ComponentType<SvgIconProps>
@@ -56,6 +57,7 @@ const IconsMap: {
   DeletePagePDF: dynamic(() => import('./icons/DeletePagePDF')),
   DeletePagePDFDetaile: dynamic(() => import('./icons/DeletePagePDFDetaile')),
   ExtractPagePDF: dynamic(() => import('./icons/ExtractPagePDF')),
+  FlattenPDF: dynamic(() => import('./icons/FlattenPDF')),
 }
 const ToolsIcon: FC<{ name: string } & SvgIconProps> = ({
   name,

@@ -1928,5 +1928,33 @@
     "components__pdf_annotator__insert_tools__insert_text": "inserați text",
     "components__pdf_annotator__insert_tools__insert_image": "inserați imagine",
     "components__pdf_annotator__insert_tools__insert_signature": "Inserați Semnătura"
+  },
+  "pages__pdf_tools__flatten_pdf": {
+    "title": "Aplatizați PDF-ul",
+    "description": "Unificați toate straturile și elementele unui PDF într-un singur strat în câteva secunde pentru o integritate sporită a documentului, partajare mai ușoară și protecție împotriva modificărilor neautorizate.",
+    "seo_title": "Aplatizați PDF gratuit - Unificare Straturi și Prevenirea Modificărilor Fără Efort | MaxAI.me",
+    "seo_description": "Utilizați aplatizarea noastră gratuită online a PDF-ului pentru a unifica toate straturile într-un singur strat, asigurând integritatea documentului și prevenind modificările neautorizate. Este rapid și sigur, perfect pentru reducerea dimensiunilor fișierelor și îmbunătățirea partajării.",
+    "detail_description_object__pdf_flatten__top_left": "Aplatizați gratuit PDF-ul pentru a unifica rapid toate straturile și elementele PDF-ului într-un singur strat, optimizând documentul pentru partajare și protejându-l împotriva modificărilor neautorizate și reducând dimensiunea fișierului.",
+    "detail_description_object__pdf_flatten__top_right_1": "Aplatizați fișierele PDF în câteva secunde cu doar câteva clicuri.",
+    "detail_description_object__pdf_flatten__top_right_2": "Încărcați pur și simplu fișierul PDF pentru a începe procesul de aplatizare.",
+    "detail_description_object__pdf_flatten__top_right_3": "Compatibil cu dispozitivele Mac, Windows, Android și iOS.",
+    "detail_description_object__pdf_flatten__middle_1_title": "Aplatizare PDF Online Ușor de Utilizat",
+    "detail_description_object__pdf_flatten__middle_1_description": "Cu aplatizarea noastră intuitivă a PDF-ului, puteți unifica fără efort toate straturile într-una singură. Încărcați documentul, aplatizați-l și descărcați PDF-ul optimizat în câteva minute fără nicio înregistrare. Documentele dvs. vor fi protejate împotriva modificărilor neautorizate.",
+    "detail_description_object__pdf_flatten__middle_2_title": "Procesare Sigură și Privată",
+    "detail_description_object__pdf_flatten__middle_2_description": "Toată aplatizarea PDF-ului este realizată direct în browserul dvs., asigurându-vă că documentele dvs. rămân private și sigure. Nu se trimite niciun date în cloud, protejând informațiile sensibile și prevenind modificările potențiale.",
+    "detail_description_object__pdf_flatten__middle_3_title": "Compatibilitate Interdispozitiv",
+    "detail_description_object__pdf_flatten__middle_3_description": "Accesați aplatizarea noastră online a PDF-ului de pe orice dispozitiv cu un browser web, inclusiv desktopuri, laptopuri și dispozitive mobile. Aplatiți-vă PDF-urile oricând, oriunde fără riscul de alterare.",
+    "detail_description_object__pdf_flatten__middle_4_title": "Proces Simplu de Aplatizare",
+    "detail_description_object__pdf_flatten__middle_4_description": "Aplatizarea fișierelor PDF este ușoară: încărcați fișierul dvs., faceți clic pe butonul de aplatizare și descărcați versiunea aplatizată. Chiar și începătorii pot naviga prin acest proces fără efort, asigurând integritatea documentului.",
+    "detail_description_object__pdf_flatten__middle_5_title": "Fără Costuri, Fără Complicații",
+    "detail_description_object__pdf_flatten__middle_5_description": "Nu este nevoie să achiziționați software scump pentru aplatizarea PDF-urilor dvs. Aplatizarea noastră gratuită a PDF-ului este disponibilă online fără costuri ascunse, descărcări sau înregistrare necesară, asigurând o experiență fără probleme.",
+    "detail_description_object__pdf_flatten__middle_6_title": "Procesare Rapidă și Eficientă",
+    "detail_description_object__pdf_flatten__middle_6_description": "Serviciul nostru de aplatizare a PDF-ului este proiectat pentru viteză și eficiență, permițându-vă să vă optimizați documentele rapid și să preveniți modificările neautorizate.",
+    "detail_description_object__pdf_flatten__bottom_right_title": "Cum să Aplatiți Fișierele PDF Online:",
+    "detail_description_object__pdf_flatten__bottom_right_description_1": "Încărcați fișierul PDF pe care doriți să-l aplatiți.",
+    "detail_description_object__pdf_flatten__bottom_right_description_2": "Faceți clic pe butonul de aplatizare pentru a unifica straturile și elementele.",
+    "detail_description_object__pdf_flatten__bottom_right_description_3": "Faceți clic pe „Descărcare” pentru a salva fișierul PDF aplatizat.",
+    "detail_description_object__pdf_flatten__bottom_right_description_4": "Accesați PDF-ul aplatizat de pe orice dispozitiv și partajați-l ușor.",
+    "min_description": "Faceți ca formularul PDF să nu poată fi editat."
   }
 }

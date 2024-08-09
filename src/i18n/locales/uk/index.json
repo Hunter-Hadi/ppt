@@ -1928,5 +1928,33 @@
     "components__pdf_annotator__insert_tools__insert_text": "متن شامل کریں",
     "components__pdf_annotator__insert_tools__insert_image": "تصویر شامل کریں",
     "components__pdf_annotator__insert_tools__insert_signature": "دستخط شامل کریں"
+  },
+  "pages__pdf_tools__flatten_pdf": {
+    "title": "PDF کو ہموار کریں",
+    "description": "PDF کے تمام لیئر اور عناصر کو ایک ہی لیئر میں مرتب کریں، چند سیکنڈ میں سند کی سلامتی میں بہتری، آسان اشتراک اور تداخل کے خلاف حفاظت کے لیے۔",
+    "seo_title": "مفت ہموار کریں PDF - لیئر مربوط کریں اور تداخل کو آسانی سے روکیں | MaxAI.me",
+    "seo_description": "ہمارے مفت آن لائن ہموار کریں PDF کا استعمال کریں تاکہ تمام لیئر کو ایک ہی لیئر میں مربوط کیا جائے، سند کی سلامتی یقینی بنائیں اور غیر مجاز تبدیلیوں سے بچایا جائے۔ یہ تیز اور محفوظ ہے، فائل سائز کو کم کرنے اور اشتراک کو بہتر بنانے کے لیے بہترین ہے۔",
+    "detail_description_object__pdf_flatten__top_left": "ہمارے مفت ہموار کریں PDF آپ کو فوراً آپ کے PDF کے تمام لیئر اور عناصر کو ایک ہی لیئر میں مربوط کرنے کی اجازت دیتا ہے، آپ کے سند کو اشتراک کرنے کے لیے بہتر بناتا ہے جبکہ تداخل کے خلاف حفاظت فراہم کرتا ہے اور فائل سائز کو کم کرتا ہے۔",
+    "detail_description_object__pdf_flatten__top_right_1": "چند سیکنڈ میں اپنے PDF فائلوں کو ہموار کریں۔",
+    "detail_description_object__pdf_flatten__top_right_2": "ہموار کرنے کے عمل کو شروع کرنے کے لیے بس اپنی PDF فائل اپ لوڈ کریں۔",
+    "detail_description_object__pdf_flatten__top_right_3": "میک، ونڈوز، اینڈرائیڈ اور آئی او ایس آلات کے ساتھ ہم آہنگ ہے۔",
+    "detail_description_object__pdf_flatten__middle_1_title": "صارف دوست آن لائن ہموار کریں PDF",
+    "detail_description_object__pdf_flatten__middle_1_description": "ہمارے آسان ہموار کریں PDF کے ساتھ، آپ آسانی سے تمام لیئر کو ایک میں مربوط کر سکتے ہیں۔ اپنی دستاویز اپ لوڈ کریں، اسے ہموار کریں، اور بغیر کسی رجسٹریشن کے منٹوں میں معیاری PDF ڈاؤن لوڈ کریں۔ آپ کی دستاویز غیر مجاز تبدیلیوں سے محفوظ رہیں گی۔",
+    "detail_description_object__pdf_flatten__middle_2_title": "محفوظ اور نجی پروسیسنگ",
+    "detail_description_object__pdf_flatten__middle_2_description": "تمام PDF ہموار کرنا آپ کے براؤزر میں براہ راست کیا جاتا ہے، یہ یقینی بناتا ہے کہ آپ کی دستاویز نجی اور محفوظ رہتی ہیں۔ کوئی ڈیٹا بادل نہیں کیا جاتا، آپ کی حساس معلومات کو حفاظت فراہم کی جاتی ہے اور ممکنہ تداخل کو روکا جاتا ہے۔",
+    "detail_description_object__pdf_flatten__middle_3_title": "کراس ڈیوائس ہم آہنگی",
+    "detail_description_object__pdf_flatten__middle_3_description": "ہر آلے کے ساتھ ہم آہنگی کے ساتھ ہمارے آن لائن ہموار کریں PDF تک رسائی حاصل کریں، جو ڈیسک ٹاپ، لیپ ٹاپ اور موبائل آلات شامل ہیں۔ بغیر کسی تبدیلی کے اپنے PDF کو کہیں بھی ہموار کریں۔",
+    "detail_description_object__pdf_flatten__middle_4_title": "ہموار کرنے کا آسان عمل",
+    "detail_description_object__pdf_flatten__middle_4_description": "آپ کی PDF فائلوں کو ہموار کرنا آسان ہے: اپنی فائل اپ لوڈ کریں، ہموار کرنے کے بٹن پر کلک کریں، اور ہموار شدہ ورژن ڈاؤن لوڈ کریں۔ مکمل نوابین اس عمل کو آسانی سے سمجھ سکتے ہیں جبکہ سند کی سلامتی فراہم کرتے ہوئے۔",
+    "detail_description_object__pdf_flatten__middle_5_title": "کوئی لاگت، کوئی پیچیدگی نہیں",
+    "detail_description_object__pdf_flatten__middle_5_description": "آپ کو اپنے PDF کو ہموار کرنے کے لیے مہنگے سافٹ ویئر خریدنے کی ضرورت نہیں ہے۔ ہمارا مفت ہموار کریں PDF آن لائن دستیاب ہے بغیر کسی پوشیدہ لاگت، ڈاؤن لوڈ یا رجسٹریشن کے، ایک پریشانی رہتے ہوئے۔",
+    "detail_description_object__pdf_flatten__middle_6_title": "تیز اور کارگر پروسیسنگ",
+    "detail_description_object__pdf_flatten__middle_6_description": "ہماری PDF ہموار کرنے کی خدمت تیزی اور کارگری کے لیے ڈیزائن کی گئی ہے، جو آپ کو جلدی سے اپنی دستاویزوں کو بہتر بنانے اور غیر مجاز تبدیلیوں سے بچانے دیتی ہے۔",
+    "detail_description_object__pdf_flatten__bottom_right_title": "آن لائن PDF فائلوں کو ہموار کرنے کا طریقہ:",
+    "detail_description_object__pdf_flatten__bottom_right_description_1": "ہموار کرنے کے لیے PDF فائل اپ لوڈ کریں۔",
+    "detail_description_object__pdf_flatten__bottom_right_description_2": "لیئر اور عناصر کو مربوط کرنے کے لیے ہموار کرنے کے بٹن پر کلک کریں۔",
+    "detail_description_object__pdf_flatten__bottom_right_description_3": "' ڈاؤن لوڈ' پر کلک کریں تاکہ آپ کی ہموار شدہ PDF فائل کو محفوظ کریں۔",
+    "detail_description_object__pdf_flatten__bottom_right_description_4": "اپنی ہموار شدہ PDF کو کسی بھی آلے پر رسائی حاصل کریں اور آسانی سے اشتراک کریں۔",
+    "min_description": "آپ کے پی ڈی ایف فارم کو غیر قابل ترمیم بنائیں۔"
   }
 }

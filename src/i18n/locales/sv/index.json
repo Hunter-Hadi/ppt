@@ -1928,5 +1928,33 @@
     "components__pdf_annotator__insert_tools__insert_text": "infoga text",
     "components__pdf_annotator__insert_tools__insert_image": "infoga bild",
     "components__pdf_annotator__insert_tools__insert_signature": "Infoga Signatur"
+  },
+  "pages__pdf_tools__flatten_pdf": {
+    "title": "platta till PDF",
+    "description": "Sammanfoga alla lager och element i en PDF till ett enda lager på några sekunder för förbättrad dokumentintegritet, enklare delning och skydd mot manipulering.",
+    "seo_title": "Gratis platta till PDF - Sammanfoga lager och förhindra manipulering utan ansträngning | MaxAI.me",
+    "seo_description": "Använd vår kostnadsfria online platta till PDF för att sammanfoga alla lager till ett enda lager, säkerställ dokumentets integritet och förhindra obehöriga ändringar. Det är snabbt och säkert, perfekt för att minska filstorlekar och förbättra delning.",
+    "detail_description_object__pdf_flatten__top_left": "Vår kostnadsfria platta till PDF låter dig snabbt sammanfoga alla lager och element i din PDF till ett enda lager, vilket optimerar ditt dokument för delning samtidigt som det skyddar mot manipulering och minskar filstorleken.",
+    "detail_description_object__pdf_flatten__top_right_1": "Platta till dina PDF-filer på några sekunder med bara några klick.",
+    "detail_description_object__pdf_flatten__top_right_2": "Ladda enkelt upp din PDF-fil för att starta plattningprocessen.",
+    "detail_description_object__pdf_flatten__top_right_3": "Kompatibel med Mac, Windows, Android och iOS-enheter.",
+    "detail_description_object__pdf_flatten__middle_1_title": "Användarvänlig online platta till PDF",
+    "detail_description_object__pdf_flatten__middle_1_description": "Med vår intuitiva platta till PDF kan du enkelt sammanfoga alla lager till ett. Ladda upp ditt dokument, platta till det och ladda ner den optimerade PDF:en på några minuter utan registrering. Dina dokument kommer att skyddas mot obehöriga ändringar.",
+    "detail_description_object__pdf_flatten__middle_2_title": "Säker och privat hantering",
+    "detail_description_object__pdf_flatten__middle_2_description": "All plattning av PDF görs direkt i din webbläsare, vilket säkerställer att dina dokument förblir privata och säkra. Ingen data skickas till molnet, vilket skyddar din känsliga information och förhindrar potentiell manipulering.",
+    "detail_description_object__pdf_flatten__middle_3_title": "Korskompatibilitet med enheter",
+    "detail_description_object__pdf_flatten__middle_3_description": "Kom åt vår online platta till PDF från vilken enhet som helst med en webbläsare, inklusive stationära datorer, bärbara datorer och mobila enheter. Platt till dina PDF:er när som helst, var som helst utan risk för ändringar.",
+    "detail_description_object__pdf_flatten__middle_4_title": "Enkel plattningprocess",
+    "detail_description_object__pdf_flatten__middle_4_description": "Att platta till dina PDF-filer är enkelt: ladda upp din fil, klicka på platta till-knappen och ladda ner den plattade versionen. Även nybörjare kan navigera i denna process utan ansträngning samtidigt som dokumentets integritet säkerställs.",
+    "detail_description_object__pdf_flatten__middle_5_title": "Inga kostnader, inga komplikationer",
+    "detail_description_object__pdf_flatten__middle_5_description": "Det finns ingen anledning att köpa dyr programvara för att platta till dina PDF:er. Vår gratis platta till PDF finns tillgänglig online utan dolda kostnader, nedladdningar eller registrering som krävs, vilket säkerställer en problemfri upplevelse.",
+    "detail_description_object__pdf_flatten__middle_6_title": "Snabb och effektiv hantering",
+    "detail_description_object__pdf_flatten__middle_6_description": "Vår PDF-plattningservice är utformad för hastighet och effektivitet, vilket gör att du snabbt kan optimera dina dokument och förhindra obehöriga ändringar.",
+    "detail_description_object__pdf_flatten__bottom_right_title": "Hur man plattar till PDF-filer online:",
+    "detail_description_object__pdf_flatten__bottom_right_description_1": "Ladda upp PDF-filen du vill platta till.",
+    "detail_description_object__pdf_flatten__bottom_right_description_2": "Klicka på platta till-knappen för att sammanfoga lager och element.",
+    "detail_description_object__pdf_flatten__bottom_right_description_3": "Klicka på 'Ladda ner' för att spara din plattade PDF-fil.",
+    "detail_description_object__pdf_flatten__bottom_right_description_4": "Kom åt din plattade PDF på vilken enhet som helst och dela den enkelt.",
+    "min_description": "Gör din PDF-formulär oredigerbart."
   }
 }

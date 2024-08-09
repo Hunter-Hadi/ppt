@@ -1928,5 +1928,33 @@
     "components__pdf_annotator__insert_tools__insert_text": "插入文字",
     "components__pdf_annotator__insert_tools__insert_image": "插入圖片",
     "components__pdf_annotator__insert_tools__insert_signature": "插入簽名"
+  },
+  "pages__pdf_tools__flatten_pdf": {
+    "title": "平整PDF",
+    "description": "將PDF的所有圖層和元素合併為單一圖層，以增強文件完整性、更輕鬆共享並防止篡改。",
+    "seo_title": "免費平整PDF - 輕鬆合併圖層並防止篡改 | MaxAI.me",
+    "seo_description": "使用我們的免費在線平整PDF將所有圖層合併為單一圖層，確保文件完整性並防止未經授權的更改。快速安全，適用於減小文件大小和增強共享。",
+    "detail_description_object__pdf_flatten__top_left": "我們的免費平整PDF可讓您快速將PDF的所有圖層和元素合併為單一圖層，優化您的文件以便共享，同時防範篡改並減小文件大小。",
+    "detail_description_object__pdf_flatten__top_right_1": "只需點擊幾下即可在幾秒鐘內平整您的PDF文件。",
+    "detail_description_object__pdf_flatten__top_right_2": "只需上傳您的PDF文件即可開始平整過程。",
+    "detail_description_object__pdf_flatten__top_right_3": "與Mac、Windows、Android和iOS設備兼容。",
+    "detail_description_object__pdf_flatten__middle_1_title": "用戶友好的在線平整PDF",
+    "detail_description_object__pdf_flatten__middle_1_description": "使用我們直觀的平整PDF，您可以輕鬆將所有圖層合併為一個。上傳您的文件，進行平整，並在幾分鐘內下載優化的PDF，無需註冊。您的文件將受到未經授權修改的保護。",
+    "detail_description_object__pdf_flatten__middle_2_title": "安全和私密處理",
+    "detail_description_object__pdf_flatten__middle_2_description": "所有PDF平整都直接在您的瀏覽器中完成，確保您的文件保持私密和安全。不會將數據發送到雲端，保護您的敏感信息並防止潛在的篡改。",
+    "detail_description_object__pdf_flatten__middle_3_title": "跨設備兼容性",
+    "detail_description_object__pdf_flatten__middle_3_description": "從任何帶有網絡瀏覽器的設備訪問我們的在線平整PDF，包括桌面、筆記本電腦和移動設備。隨時隨地平整您的PDF，無需擔心被更改。",
+    "detail_description_object__pdf_flatten__middle_4_title": "簡單的平整過程",
+    "detail_description_object__pdf_flatten__middle_4_description": "平整您的PDF文件很容易：上傳文件，點擊平整按鈕，並下載平整版本。即使是完全的新手也可以輕鬆地完成這個過程，同時確保文件完整性。",
+    "detail_description_object__pdf_flatten__middle_5_title": "無需花費，無需複雜操作",
+    "detail_description_object__pdf_flatten__middle_5_description": "無需購買昂貴的軟件來平整您的PDF。我們的免費平整PDF在線提供，無需隱藏費用、下載或註冊，確保無壓力體驗。",
+    "detail_description_object__pdf_flatten__middle_6_title": "快速高效的處理",
+    "detail_description_object__pdf_flatten__middle_6_description": "我們的PDF平整服務設計用於速度和效率，讓您快速優化文件並防止未經授權的更改。",
+    "detail_description_object__pdf_flatten__bottom_right_title": "如何在線平整PDF文件：",
+    "detail_description_object__pdf_flatten__bottom_right_description_1": "上傳要平整的PDF文件。",
+    "detail_description_object__pdf_flatten__bottom_right_description_2": "點擊平整按鈕以合併圖層和元素。",
+    "detail_description_object__pdf_flatten__bottom_right_description_3": "點擊“下載”以保存您的平整PDF文件。",
+    "detail_description_object__pdf_flatten__bottom_right_description_4": "在任何設備上訪問您的平整PDF並輕鬆共享。",
+    "min_description": "使您的PDF表單無法編輯。"
   }
 }

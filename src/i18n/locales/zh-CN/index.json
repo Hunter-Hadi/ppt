@@ -1928,5 +1928,33 @@
     "components__pdf_annotator__insert_tools__insert_text": "插入文本",
     "components__pdf_annotator__insert_tools__insert_image": "插入图片",
     "components__pdf_annotator__insert_tools__insert_signature": "插入签名"
+  },
+  "pages__pdf_tools__flatten_pdf": {
+    "title": "压平PDF",
+    "description": "将PDF的所有图层和元素合并为单个图层，以提高文档完整性、便于共享，并防止篡改。",
+    "seo_title": "免费压平PDF - 轻松合并图层，防止篡改 | MaxAI.me",
+    "seo_description": "使用我们的免费在线压平PDF将所有图层合并为单个图层，确保文档完整性，防止未经授权的更改。快速安全，可减小文件大小，增强共享效果。",
+    "detail_description_object__pdf_flatten__top_left": "我们的免费压平PDF可快速将PDF的所有图层和元素合并为单个图层，优化文档以便共享，同时防止篡改和减小文件大小。",
+    "detail_description_object__pdf_flatten__top_right_1": "只需几次点击，即可在几秒钟内压平PDF文件。",
+    "detail_description_object__pdf_flatten__top_right_2": "只需上传PDF文件即可开始压平过程。",
+    "detail_description_object__pdf_flatten__top_right_3": "兼容Mac、Windows、Android和iOS设备。",
+    "detail_description_object__pdf_flatten__middle_1_title": "用户友好的在线压平PDF",
+    "detail_description_object__pdf_flatten__middle_1_description": "通过我们直观的压平PDF，您可以轻松将所有图层合并为一个。上传您的文档，压平它，无需注册即可在几分钟内下载优化的PDF。您的文档将受到未经授权修改的保护。",
+    "detail_description_object__pdf_flatten__middle_2_title": "安全和私密处理",
+    "detail_description_object__pdf_flatten__middle_2_description": "所有PDF压平操作均直接在您的浏览器中完成，确保您的文档保持私密和安全。不会将任何数据发送到云端，保护您的敏感信息，防止潜在篡改。",
+    "detail_description_object__pdf_flatten__middle_3_title": "跨设备兼容性",
+    "detail_description_object__pdf_flatten__middle_3_description": "从任何带有网络浏览器的设备访问我们的在线压平PDF，包括台式机、笔记本电脑和移动设备。随时随地压平您的PDF，无需担心篡改。",
+    "detail_description_object__pdf_flatten__middle_4_title": "简单的压平流程",
+    "detail_description_object__pdf_flatten__middle_4_description": "压平PDF文件很简单：上传文件，点击压平按钮，下载压平版本。即使是完全的新手也能轻松完成此流程，同时确保文档完整性。",
+    "detail_description_object__pdf_flatten__middle_5_title": "无需花费，无复杂性",
+    "detail_description_object__pdf_flatten__middle_5_description": "无需购买昂贵的软件来压平PDF。我们的免费压平PDF在线提供，无隐藏费用、下载或注册要求，确保无忧体验。",
+    "detail_description_object__pdf_flatten__middle_6_title": "快速高效的处理",
+    "detail_description_object__pdf_flatten__middle_6_description": "我们的PDF压平服务旨在快速高效，让您快速优化文档，防止未经授权的更改。",
+    "detail_description_object__pdf_flatten__bottom_right_title": "如何在线压平PDF文件：",
+    "detail_description_object__pdf_flatten__bottom_right_description_1": "上传要压平的PDF文件。",
+    "detail_description_object__pdf_flatten__bottom_right_description_2": "点击压平按钮以合并图层和元素。",
+    "detail_description_object__pdf_flatten__bottom_right_description_3": "点击“下载”以保存压平后的PDF文件。",
+    "detail_description_object__pdf_flatten__bottom_right_description_4": "在任何设备上访问您的压平PDF并轻松共享。",
+    "min_description": "使您的PDF表单不可编辑。"
   }
 }

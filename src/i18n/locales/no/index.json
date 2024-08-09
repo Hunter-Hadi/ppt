@@ -1928,5 +1928,33 @@
     "components__pdf_annotator__insert_tools__insert_text": "sett inn tekst",
     "components__pdf_annotator__insert_tools__insert_image": "sett inn bilde",
     "components__pdf_annotator__insert_tools__insert_signature": "Sett inn Signatur"
+  },
+  "pages__pdf_tools__flatten_pdf": {
+    "title": "flate PDF",
+    "description": "Slå sammen alle lag og elementer i en PDF til ett lag på sekunder for forbedret dokumentintegritet, enklere deling og beskyttelse mot manipulering.",
+    "seo_title": "Gratis flat PDF - Slå sammen lag og forhindre manipulering enkelt | MaxAI.me",
+    "seo_description": "Bruk vår gratis online flat PDF for å slå sammen alle lag til ett lag, sikre dokumentintegritet og forhindre uautoriserte endringer. Det er raskt og sikkert, perfekt for å redusere filstørrelser og forbedre deling.",
+    "detail_description_object__pdf_flatten__top_left": "Vår gratis flat PDF lar deg raskt slå sammen alle lag og elementer i PDF-en din til ett lag, optimalisere dokumentet for deling samtidig som det beskytter mot manipulering og reduserer filstørrelsen.",
+    "detail_description_object__pdf_flatten__top_right_1": "Flatt ut PDF-filene dine på sekunder med bare noen få klikk.",
+    "detail_description_object__pdf_flatten__top_right_2": "Last enkelt opp PDF-filen din for å starte flatingsprosessen.",
+    "detail_description_object__pdf_flatten__top_right_3": "Kompatibel med Mac, Windows, Android og iOS-enheter.",
+    "detail_description_object__pdf_flatten__middle_1_title": "Brukervennlig online flat PDF",
+    "detail_description_object__pdf_flatten__middle_1_description": "Med vår intuitive flat PDF kan du enkelt slå sammen alle lag til ett. Last opp dokumentet ditt, flat det ut og last ned den optimaliserte PDF-en på minutter uten registrering. Dokumentene dine vil være beskyttet mot uautoriserte endringer.",
+    "detail_description_object__pdf_flatten__middle_2_title": "Sikker og privat behandling",
+    "detail_description_object__pdf_flatten__middle_2_description": "All PDF-flating gjøres direkte i nettleseren din, slik at dokumentene dine forblir private og sikre. Ingen data sendes til skyen, noe som beskytter sensitiv informasjon og forhindrer potensiell manipulering.",
+    "detail_description_object__pdf_flatten__middle_3_title": "Kryssenhetkompatibilitet",
+    "detail_description_object__pdf_flatten__middle_3_description": "Få tilgang til vår online flat PDF fra enhver enhet med nettleser, inkludert stasjonære datamaskiner, bærbare datamaskiner og mobile enheter. Flat ut PDF-ene dine når som helst, hvor som helst uten risiko for endringer.",
+    "detail_description_object__pdf_flatten__middle_4_title": "Enkel flatingsprosess",
+    "detail_description_object__pdf_flatten__middle_4_description": "Å flate ut PDF-filene dine er enkelt: last opp filen din, klikk på flat-knappen og last ned den flate versjonen. Selv nybegynnere kan navigere gjennom denne prosessen enkelt samtidig som dokumentintegriteten sikres.",
+    "detail_description_object__pdf_flatten__middle_5_title": "Ingen kostnader, ingen komplikasjoner",
+    "detail_description_object__pdf_flatten__middle_5_description": "Det er ikke nødvendig å kjøpe dyre programmer for å flate ut PDF-ene dine. Vår gratis flat PDF er tilgjengelig online uten skjulte kostnader, nedlastinger eller registrering som kreves, og sikrer en problemfri opplevelse.",
+    "detail_description_object__pdf_flatten__middle_6_title": "Rask og effektiv behandling",
+    "detail_description_object__pdf_flatten__middle_6_description": "Vår PDF-flatingstjeneste er designet for hastighet og effektivitet, slik at du raskt kan optimalisere dokumentene dine og forhindre uautoriserte endringer.",
+    "detail_description_object__pdf_flatten__bottom_right_title": "Hvordan flate ut PDF-filer online:",
+    "detail_description_object__pdf_flatten__bottom_right_description_1": "Last opp PDF-filen du vil flate ut.",
+    "detail_description_object__pdf_flatten__bottom_right_description_2": "Klikk på flat-knappen for å slå sammen lag og elementer.",
+    "detail_description_object__pdf_flatten__bottom_right_description_3": "Klikk på 'Last ned' for å lagre den flate PDF-filen din.",
+    "detail_description_object__pdf_flatten__bottom_right_description_4": "Få tilgang til den flate PDF-en din på enhver enhet og del den enkelt.",
+    "min_description": "Gjør PDF-skjemaet ditt ikke-redigerbart."
   }
 }

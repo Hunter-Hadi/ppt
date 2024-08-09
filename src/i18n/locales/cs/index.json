@@ -1928,5 +1928,33 @@
     "components__pdf_annotator__insert_tools__insert_text": "vložit text",
     "components__pdf_annotator__insert_tools__insert_image": "vložit obrázek",
     "components__pdf_annotator__insert_tools__insert_signature": "Vložit Podpis"
+  },
+  "pages__pdf_tools__flatten_pdf": {
+    "title": "Zploštění PDF",
+    "description": "Sloučení všech vrstev a prvků PDF do jedné vrstvy během několika sekund pro zlepšení integrity dokumentu, snazší sdílení a ochranu proti zásahům.",
+    "seo_title": "Zdarma zploštění PDF - Sloučení vrstev a Prevence Zásahů Snadno | MaxAI.me",
+    "seo_description": "Použijte naše bezplatné online zploštění PDF k sloučení všech vrstev do jedné vrstvy, zajistění integrity dokumentu a prevenci neoprávněných změn. Je to rychlé a bezpečné, ideální pro snížení velikosti souborů a zlepšení sdílení.",
+    "detail_description_object__pdf_flatten__top_left": "Naše bezplatné zploštění PDF vám umožňuje rychle sloučit všechny vrstvy a prvky vašeho PDF do jedné vrstvy, optimalizující váš dokument pro sdílení a zároveň chrání před zásahy a snižuje velikost souboru.",
+    "detail_description_object__pdf_flatten__top_right_1": "Zploštěte své PDF soubory během několika sekund jen pár kliknutími.",
+    "detail_description_object__pdf_flatten__top_right_2": "Jednoduše nahrajte váš PDF soubor pro zahájení procesu zploštění.",
+    "detail_description_object__pdf_flatten__top_right_3": "Kompatibilní s Macem, Windowsem, Androidem a iOS zařízeními.",
+    "detail_description_object__pdf_flatten__middle_1_title": "Uživatelsky Přívětivé Online zploštění PDF",
+    "detail_description_object__pdf_flatten__middle_1_description": "S naším intuitivním zploštěním PDF můžete snadno sloučit všechny vrstvy do jedné. Nahrajte váš dokument, zploštěte ho a stáhněte optimalizované PDF během několika minut bez registrace. Vaše dokumenty budou chráněny před neoprávněnými úpravami.",
+    "detail_description_object__pdf_flatten__middle_2_title": "Bezpečné a Soukromé Zpracování",
+    "detail_description_object__pdf_flatten__middle_2_description": "Veškeré zploštění PDF se provádí přímo ve vašem prohlížeči, zajistí se tak, že vaše dokumenty zůstanou soukromé a bezpečné. Žádná data nejsou odesílána do cloudu, chrání se tak vaše citlivé informace a prevence proti možným zásahům.",
+    "detail_description_object__pdf_flatten__middle_3_title": "Kompatibilita s Různými Zařízeními",
+    "detail_description_object__pdf_flatten__middle_3_description": "Přistupujte k našemu online zploštění PDF z jakéhokoli zařízení s webovým prohlížečem, včetně stolních počítačů, notebooků a mobilních zařízení. Zplošťte svá PDF kdykoli a kdekoli bez rizika změn.",
+    "detail_description_object__pdf_flatten__middle_4_title": "Jednoduchý Proces Zploštění",
+    "detail_description_object__pdf_flatten__middle_4_description": "Zploštění vašich PDF souborů je snadné: nahrajte váš soubor, klikněte na tlačítko zploštění a stáhněte zploštěnou verzi. Dokonce i úplní začátečníci mohou tento proces snadno ovládat a zároveň zajistit integritu dokumentu.",
+    "detail_description_object__pdf_flatten__middle_5_title": "Bez Nákladů, Bez Komplikací",
+    "detail_description_object__pdf_flatten__middle_5_description": "Není třeba kupovat drahý software k zploštění vašich PDF. Naše bezplatné zploštění PDF je dostupné online bez skrytých nákladů, stažení nebo registrace, zajišťující bezproblémový zážitek.",
+    "detail_description_object__pdf_flatten__middle_6_title": "Rychlé a Efektivní Zpracování",
+    "detail_description_object__pdf_flatten__middle_6_description": "Naše služba zploštění PDF je navržena pro rychlost a efektivitu, umožňuje vám rychle optimalizovat vaše dokumenty a zabránit neoprávněným změnám.",
+    "detail_description_object__pdf_flatten__bottom_right_title": "Jak Zploštit PDF Soubory Online:",
+    "detail_description_object__pdf_flatten__bottom_right_description_1": "Nahrajte PDF soubor, který chcete zploštit.",
+    "detail_description_object__pdf_flatten__bottom_right_description_2": "Klikněte na tlačítko zploštění pro sloučení vrstev a prvků.",
+    "detail_description_object__pdf_flatten__bottom_right_description_3": "Klikněte na 'Stáhnout' pro uložení vašeho zploštěného PDF souboru.",
+    "detail_description_object__pdf_flatten__bottom_right_description_4": "Přistupujte ke svému zploštěnému PDF na jakémkoli zařízení a snadno ho sdílejte.",
+    "min_description": "Učiňte váš formulář PDF neupravitelný."
   }
 }

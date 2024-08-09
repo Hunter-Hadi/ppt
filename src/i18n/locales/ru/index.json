@@ -1928,5 +1928,33 @@
     "components__pdf_annotator__insert_tools__insert_text": "вставить текст",
     "components__pdf_annotator__insert_tools__insert_image": "вставить изображение",
     "components__pdf_annotator__insert_tools__insert_signature": "Вставить Подпись"
+  },
+  "pages__pdf_tools__flatten_pdf": {
+    "title": "Выпрямить PDF",
+    "description": "Объедините все слои и элементы PDF в один слой за секунды для улучшения целостности документа, упрощения обмена и защиты от вмешательства.",
+    "seo_title": "Бесплатное выравнивание PDF - Объединение слоев и предотвращение вмешательства | MaxAI.me",
+    "seo_description": "Используйте наше бесплатное онлайн-выравнивание PDF для объединения всех слоев в один, обеспечивая целостность документа и предотвращая несанкционированные изменения. Быстро и безопасно, идеально подходит для уменьшения размеров файлов и улучшения обмена.",
+    "detail_description_object__pdf_flatten__top_left": "Наше бесплатное выравнивание PDF позволяет быстро объединить все слои и элементы вашего PDF в один слой, оптимизируя ваш документ для обмена и защищая от вмешательства, а также уменьшая размер файла.",
+    "detail_description_object__pdf_flatten__top_right_1": "Выпрямите ваши PDF-файлы за секунды всего лишь несколькими кликами.",
+    "detail_description_object__pdf_flatten__top_right_2": "Просто загрузите свой PDF-файл, чтобы начать процесс выравнивания.",
+    "detail_description_object__pdf_flatten__top_right_3": "Совместимо с устройствами Mac, Windows, Android и iOS.",
+    "detail_description_object__pdf_flatten__middle_1_title": "Удобное онлайн-выравнивание PDF",
+    "detail_description_object__pdf_flatten__middle_1_description": "С нашим интуитивно понятным выравниванием PDF вы легко объедините все слои в один. Загрузите свой документ, выполните выравнивание и загрузите оптимизированный PDF за несколько минут без регистрации. Ваши документы будут защищены от несанкционированных изменений.",
+    "detail_description_object__pdf_flatten__middle_2_title": "Безопасная и конфиденциальная обработка",
+    "detail_description_object__pdf_flatten__middle_2_description": "Все выравнивание PDF выполняется непосредственно в вашем браузере, обеспечивая конфиденциальность и безопасность ваших документов. Никакие данные не отправляются в облако, защищая ваши конфиденциальные сведения и предотвращая возможное вмешательство.",
+    "detail_description_object__pdf_flatten__middle_3_title": "Совместимость с различными устройствами",
+    "detail_description_object__pdf_flatten__middle_3_description": "Доступ к нашему онлайн-выравниванию PDF с любого устройства с веб-браузером, включая настольные компьютеры, ноутбуки и мобильные устройства. Выпрямляйте ваши PDF в любое время и в любом месте без риска изменений.",
+    "detail_description_object__pdf_flatten__middle_4_title": "Простой процесс выравнивания",
+    "detail_description_object__pdf_flatten__middle_4_description": "Выравнивание ваших PDF-файлов легко: загрузите файл, нажмите кнопку выравнивания и загрузите выровненную версию. Даже новички смогут легко ориентироваться в этом процессе, обеспечивая целостность документа.",
+    "detail_description_object__pdf_flatten__middle_5_title": "Без затрат, без сложностей",
+    "detail_description_object__pdf_flatten__middle_5_description": "Нет необходимости приобретать дорогостоящее программное обеспечение для выравнивания ваших PDF. Наше бесплатное выравнивание PDF доступно онлайн без скрытых расходов, загрузок или регистрации, обеспечивая беззаботный опыт.",
+    "detail_description_object__pdf_flatten__middle_6_title": "Быстрая и эффективная обработка",
+    "detail_description_object__pdf_flatten__middle_6_description": "Наша услуга по выравниванию PDF разработана для скорости и эффективности, позволяя вам быстро оптимизировать ваши документы и предотвращать несанкционированные изменения.",
+    "detail_description_object__pdf_flatten__bottom_right_title": "Как выровнять PDF-файлы онлайн:",
+    "detail_description_object__pdf_flatten__bottom_right_description_1": "Загрузите PDF-файл, который вы хотите выровнять.",
+    "detail_description_object__pdf_flatten__bottom_right_description_2": "Нажмите кнопку выравнивания для объединения слоев и элементов.",
+    "detail_description_object__pdf_flatten__bottom_right_description_3": "Нажмите 'Скачать', чтобы сохранить ваш выровненный PDF-файл.",
+    "detail_description_object__pdf_flatten__bottom_right_description_4": "Доступ к вашему выровненному PDF с любого устройства и легкость обмена им.",
+    "min_description": "Сделайте вашу форму PDF нередактируемой."
   }
 }

@@ -1928,5 +1928,33 @@
     "components__pdf_annotator__insert_tools__insert_text": "Insert text",
     "components__pdf_annotator__insert_tools__insert_image": "Insert picture",
     "components__pdf_annotator__insert_tools__insert_signature": "Insert Signature"
+  },
+  "pages__pdf_tools__flatten_pdf": {
+    "title": "ทำให้ PDF เป็นแบน",
+    "description": "รวมเลเยอร์และองค์ประกอบทั้งหมดของ PDF เข้าด้วยกันในเส้นเวลาเพื่อความสมบูรณ์ของเอกสารที่เพิ่มขึ้น การแบ่งปันที่ง่ายขึ้น และการป้องกันการแก้ไขโดยไม่ได้รับอนุญาต",
+    "seo_title": "ฟลัตเทน PDF ฟรี - รวมเลเยอร์และป้องกันการแก้ไขได้อย่างง่ายดาย | MaxAI.me",
+    "seo_description": "ใช้บริการฟลัตเทน PDF ออนไลน์ฟรีของเราเพื่อรวมเลเยอร์ทั้งหมดเข้าสู่เลเยอร์เดียว ทำให้เอกสารมีความสมบูรณ์และป้องกันการเปลี่ยนแปลงโดยไม่ได้รับอนุญาต มันเร็วและปลอดภัย ลดขนาดไฟล์และเพิ่มความสะดวกในการแบ่งปัน",
+    "detail_description_object__pdf_flatten__top_left": "บริการฟลัตเทน PDF ฟรีของเราช่วยให้คุณรวมเลเยอร์และองค์ประกอบทั้งหมดของ PDF เข้าด้วยกันในเลเยอร์เดียว ปรับปรุงเอกสารของคุณให้พร้อมแบ่งปันพร้อมป้องกันการแก้ไขและลดขนาดไฟล์",
+    "detail_description_object__pdf_flatten__top_right_1": "ฟลัตเทนไฟล์ PDF ของคุณในไม่กี่วินาทีด้วยไม่กี่คลิก",
+    "detail_description_object__pdf_flatten__top_right_2": "อัปโหลดไฟล์ PDF ของคุณเพื่อเริ่มกระบวนการฟลัตเทน",
+    "detail_description_object__pdf_flatten__top_right_3": "เข้ากันได้กับอุปกรณ์ Mac, Windows, Android และ iOS",
+    "detail_description_object__pdf_flatten__middle_1_title": "ฟลัตเทน PDF ออนไลน์ที่ใช้งานง่าย",
+    "detail_description_object__pdf_flatten__middle_1_description": "ด้วยฟลัตเทน PDF ที่ใช้งานง่ายของเรา คุณสามารถรวมเลเยอร์ทั้งหมดเข้าด้วยกันได้อย่างง่ายดาย อัปโหลดเอกสารของคุณ ฟลัตเทน และดาวน์โหลด PDF ที่ถูกปรับปรุงในไม่กี่นาทีโดยไม่ต้องลงทะเบียน เอกสารของคุณจะได้รับการป้องกันจากการแก้ไขโดยไม่ได้รับอนุญาต",
+    "detail_description_object__pdf_flatten__middle_2_title": "การประมวลผลที่ปลอดภัยและเอกชน",
+    "detail_description_object__pdf_flatten__middle_2_description": "การฟลัตเทน PDF ทั้งหมดทำโดยตรงในเบราว์เซอร์ของคุณ ทำให้เอกสารของคุณเป็นเอกสารส่วนตัวและปลอดภัย ไม่มีข้อมูลถูกส่งไปยังคลาวด์ ป้องกันข้อมูลที่เป็นสารลับของคุณและป้องกันการแก้ไขที่เป็นไปได้",
+    "detail_description_object__pdf_flatten__middle_3_title": "ความเข้ากันได้กับอุปกรณ์ทุกชนิด",
+    "detail_description_object__pdf_flatten__middle_3_description": "เข้าถึงฟลัตเทน PDF ออนไลน์ของเราจากอุปกรณ์ใดก็ได้ที่มีเบราว์เซอร์รวมถึงเดสก์ท็อป เล็ปท็อป และอุปกรณ์เคลื่อนที่ ฟลัตเทน PDF ของคุณได้ทุกเวลาทุกที่โดยไม่มีความเสี่ยงในการเปลี่ยนแปลง",
+    "detail_description_object__pdf_flatten__middle_4_title": "กระบวนการฟลัตเทนที่ง่าย",
+    "detail_description_object__pdf_flatten__middle_4_description": "การฟลัตเทนไฟล์ PDF ของคุณเป็นเรื่องง่าย: อัปโหลดไฟล์ของคุณ คลิกที่ปุ่มฟลัตเทน และดาวน์โหลดเวอร์ชันที่ถูกฟลัตเทน  ผู้เริ่มต้นทั้งหมดสามารถนำเส้นทางนี้ไปตามได้อย่างง่ายดายในขณะที่รักษาความสมบูรณ์ของเอกสาร",
+    "detail_description_object__pdf_flatten__middle_5_title": "ไม่มีค่าใช้จ่าย ไม่มีความยุ่งยาก",
+    "detail_description_object__pdf_flatten__middle_5_description": "ไม่จำเป็นต้องซื้อซอฟต์แวร์ที่แพงเพื่อฟลัตเทน PDF ของคุณ บริการฟลัตเทน PDF ฟรีของเรามีออนไลน์โดยไม่มีค่าใช้จ่ายที่ซ่อนอยู่ ไม่ต้องดาวน์โหลดหรือลงทะเบียน ทำให้มีประสบการณ์ที่ไม่มีปัญหา",
+    "detail_description_object__pdf_flatten__middle_6_title": "การประมวลผลที่รวดเร็วและมีประสิทธิภาพ",
+    "detail_description_object__pdf_flatten__middle_6_description": "บริการฟลัตเทน PDF ของเราถูกออกแบบขึ้นเพื่อความเร็วและประสิทธิภาพ ช่วยให้คุณปรับปรุงเอกสารของคุณได้อย่างรวดเร็วและป้องกันการเปลี่ยนแปลงโดยไม่ได้รับอนุญาต",
+    "detail_description_object__pdf_flatten__bottom_right_title": "วิธีฟลัตเทนไฟล์ PDF ออนไลน์:",
+    "detail_description_object__pdf_flatten__bottom_right_description_1": "อัปโหลดไฟล์ PDF ที่คุณต้องการฟลัตเทน",
+    "detail_description_object__pdf_flatten__bottom_right_description_2": "คลิกที่ปุ่มฟลัตเทนเพื่อรวมเลเยอร์และองค์ประกอบ",
+    "detail_description_object__pdf_flatten__bottom_right_description_3": "คลิก 'ดาวน์โหลด' เพื่อบันทึกไฟล์ PDF ที่ถูกฟลัตเทนของคุณ",
+    "detail_description_object__pdf_flatten__bottom_right_description_4": "เข้าถึงไฟล์ PDF ที่ถูกฟลัตเทนของคุณบนอุปกรณ์ใดก็ได้และแบ่งปันได้อย่างง่ายดาย",
+    "min_description": "ทำให้แบบฟอร์ม PDF ของคุณไม่สามารถแก้ไขได้"
   }
 }
