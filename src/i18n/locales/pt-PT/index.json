@@ -1956,5 +1956,15 @@
     "detail_description_object__pdf_flatten__bottom_right_description_3": "Clique em 'Download' para salvar o seu arquivo PDF aplanado.",
     "detail_description_object__pdf_flatten__bottom_right_description_4": "Acesse o seu PDF aplanado em qualquer dispositivo e compartilhe facilmente.",
     "min_description": "Torne o seu formulário PDF não editável."
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "Redigir PDF",
+    "description": "Remova informações sensíveis do seu PDF",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "Remova permanentemente informações sensíveis dos seus documentos com uma ferramenta gratuita de redação de PDF - sem necessidade de registo. Não é necessário baixar um aplicativo - tudo funciona no seu navegador em Mac, Windows, Linux e dispositivos móveis.",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "Redigir PDF online em qualquer dispositivo",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "Os seus ficheiros são automaticamente eliminados em segundos",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "Gratuito para usar sem registo",
+    "seo_title": "Redigir PDF - Ferramenta de Redação de Documentos Gratuita | MaxAI.me",
+    "seo_description": "Censure texto sensível nos seus PDFs - gratuitamente, em qualquer dispositivo, sem necessidade de registo. Terminou a redação? Exporte o PDF sem marcas d'água."
   }
 }

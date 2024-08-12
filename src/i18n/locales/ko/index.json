@@ -1956,5 +1956,15 @@
     "detail_description_object__pdf_flatten__bottom_right_description_3": "'다운로드'를 클릭하여 펼쳐진 PDF 파일을 저장하세요.",
     "detail_description_object__pdf_flatten__bottom_right_description_4": "펼쳐진 PDF를 모든 기기에서 쉽게 공유할 수 있습니다.",
     "min_description": "PDF 양식을 편집할 수 없게 만듭니다."
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "PDF 숨기기",
+    "description": "PDF에서 민감한 정보 제거",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "무료 PDF 마스킹 도구로 문서에서 민감한 정보 영구적으로 제거하세요. 등록이 필요하지 않습니다. 앱을 다운로드할 필요 없이 모든 작업을 Mac, Windows, Linux 및 모바일 기기의 브라우저에서 수행할 수 있습니다.",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "모든 기기에서 온라인 PDF 마스킹",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "파일은 몇 초 후 자동으로 삭제됩니다",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "등록 없이 무료로 사용",
+    "seo_title": "PDF 숨기기 - 무료 문서 마스킹 도구 | MaxAI.me",
+    "seo_description": "PDF에서 민감한 텍스트를 무료로 블랙아웃하세요. 등록이 필요 없고 모든 기기에서 작동합니다. 마스킹이 완료되었나요? 워터마크 없이 PDF를 내보내세요."
   }
 }

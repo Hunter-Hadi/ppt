@@ -1956,5 +1956,15 @@
     "detail_description_object__pdf_flatten__bottom_right_description_3": "I-click ang 'I-download' upang i-save ang iyong na-flatten na file ng PDF.",
     "detail_description_object__pdf_flatten__bottom_right_description_4": "Ma-access ang iyong na-flatten na PDF sa anumang device at madaling maibahagi.",
     "min_description": "Gawing hindi maaaring i-edit ang iyong form sa PDF."
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "Itago ang PDF",
+    "description": "Tanggalin ang sensitibong impormasyon mula sa iyong PDF",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "Nang tuluyan tanggalin ang sensitibong impormasyon mula sa iyong mga dokumento gamit ang libreng tool sa redaction ng PDF—walang kinakailangang magparehistro. Walang kailangang i-download na app—lahat ay gumagana sa iyong browser sa Mac, Windows, Linux, at mobile devices.",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "Itago ang PDF online sa anumang device",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "Ang iyong mga file ay awtomatikong tinatanggal sa loob ng ilang segundo",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "Libreng gamitin nang walang pagparehistro",
+    "seo_title": "Itago ang PDF - Libreng Tool sa Redaction ng Dokumento | MaxAI.me",
+    "seo_description": "Itim ang sensitibong teksto sa iyong mga PDF—nang libre, sa anumang device, nang walang kinakailangang magparehistro. Tapos na sa pagtatago? I-export ang PDF nang walang watermarks."
   }
 }

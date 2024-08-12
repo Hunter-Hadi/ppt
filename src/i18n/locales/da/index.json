@@ -1956,5 +1956,15 @@
     "detail_description_object__pdf_flatten__bottom_right_description_3": "Klik på 'Download' for at gemme din fladede PDF-fil.",
     "detail_description_object__pdf_flatten__bottom_right_description_4": "Få adgang til din fladede PDF på enhver enhed og del den nemt.",
     "min_description": "Gør din PDF-formular ikke-redigerbar."
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "Rediger PDF",
+    "description": "Fjern følsomme oplysninger fra din PDF",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "Fjern permanent følsomme oplysninger fra dine dokumenter med et gratis PDF-redigeringsværktøj—ingen registrering påkrævet. Ingen grund til at downloade en app—alt fungerer i din browser på Mac, Windows, Linux og mobile enheder.",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "Rediger PDF online på enhver enhed",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "Dine filer slettes automatisk på få sekunder",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "Gratis at bruge uden registrering",
+    "seo_title": "Rediger PDF - Gratis Dokumentredigeringsværktøj | MaxAI.me",
+    "seo_description": "Sortér følsom tekst i dine PDF'er—gratis, på enhver enhed, uden registrering. Færdig med redigeringen? Eksporter PDF'en uden vandmærker."
   }
 }

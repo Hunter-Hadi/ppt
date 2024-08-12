@@ -1956,5 +1956,15 @@
     "detail_description_object__pdf_flatten__bottom_right_description_3": "Kliknij „Pobierz”, aby zapisać spłaszczony plik PDF.",
     "detail_description_object__pdf_flatten__bottom_right_description_4": "Otwórz spłaszczony plik PDF na dowolnym urządzeniu i udostępniaj go łatwo.",
     "min_description": "Uczyń swój formularz PDF nieedytowalnym."
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "Cenzurowanie PDF",
+    "description": "Usuń poufne informacje z twojego PDF",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "Trwale usuń poufne informacje ze swoich dokumentów za pomocą darmowego narzędzia do cenzurowania PDF—nie wymaga rejestracji. Nie trzeba pobierać aplikacji—wszystko działa w przeglądarce na Macu, Windowsie, Linuxie i urządzeniach mobilnych.",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "Cenzurowanie PDF online na dowolnym urządzeniu",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "Twoje pliki są automatycznie usuwane w ciągu sekund",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "Darmowe w użyciu bez rejestracji",
+    "seo_title": "Cenzurowanie PDF - Darmowe narzędzie do cenzurowania dokumentów | MaxAI.me",
+    "seo_description": "Zaciemnij poufny tekst w swoich PDF—za darmo, na dowolnym urządzeniu, bez konieczności rejestracji. Skończyłeś cenzurować? Wyeksportuj PDF bez znaków wodnych."
   }
 }

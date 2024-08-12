@@ -1956,5 +1956,15 @@
     "detail_description_object__pdf_flatten__bottom_right_description_3": "Клацніть 'Завантажити', щоб зберегти ваш згладжений PDF файл.",
     "detail_description_object__pdf_flatten__bottom_right_description_4": "Отримайте доступ до вашого згладженого PDF на будь-якому пристрої та легко поділіться ним.",
     "min_description": "Зробіть вашу форму PDF нередагованою."
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "Приховати PDF",
+    "description": "Видаліть конфіденційну інформацію з вашого PDF",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "Назавжди видаліть конфіденційну інформацію з ваших документів за допомогою безкоштовного інструменту для редагування PDF - не потрібна реєстрація. Не потрібно завантажувати додаток - все працює у вашому браузері на Mac, Windows, Linux та мобільних пристроях.",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "Приховати PDF онлайн на будь-якому пристрої",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "Ваші файли автоматично видаляються за кілька секунд",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "Безкоштовно використовувати без реєстрації",
+    "seo_title": "Приховати PDF - Безкоштовний інструмент для редагування документів | MaxAI.me",
+    "seo_description": "Затемніть конфіденційний текст у ваших PDF - безкоштовно, на будь-якому пристрої, без необхідності реєстрації. Закінчили редагування? Експортуйте PDF без водяних знаків."
   }
 }

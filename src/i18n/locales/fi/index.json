@@ -1956,5 +1956,15 @@
     "detail_description_object__pdf_flatten__bottom_right_description_3": "Napsauta 'Lataa' tallentaaksesi tasoitetun PDF-tiedostosi.",
     "detail_description_object__pdf_flatten__bottom_right_description_4": "Käytä tasoitettua PDF-tiedostoasi mistä tahansa laitteesta ja jaa se helposti.",
     "min_description": "Tee PDF-lomakkeestasi muokkaamaton."
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "Muokkaa PDF",
+    "description": "Poista arkaluontoiset tiedot PDF-tiedostostasi",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "Poista pysyvästi arkaluontoiset tiedot asiakirjoistasi ilmaisella PDF-muokkaustyökalulla—ei vaadi rekisteröitymistä. Ei tarvetta ladata sovellusta—kaikki toimii selaimessasi Macissa, Windowsissa, Linuxissa ja mobiililaitteissa.",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "Muokkaa PDF-tiedostoa verkossa millä tahansa laitteella",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "Tiedostosi poistetaan automaattisesti sekunneissa",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "Käytä ilmaiseksi ilman rekisteröitymistä",
+    "seo_title": "Muokkaa PDF - Ilmainen asiakirjojen muokkaustyökalu | MaxAI.me",
+    "seo_description": "Mustaa arkaluontoiset tekstit PDF-tiedostoistasi—ilmaiseksi, millä tahansa laitteella, ilman rekisteröitymistä. Valmista muokkaus? Vie PDF-tiedosto ilman vesileimoja."
   }
 }

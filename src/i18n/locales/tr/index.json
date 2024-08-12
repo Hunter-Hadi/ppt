@@ -1956,5 +1956,15 @@
     "detail_description_object__pdf_flatten__bottom_right_description_3": "'İndir' düğmesine tıklayarak düzleştirilmiş PDF dosyanızı kaydedin.",
     "detail_description_object__pdf_flatten__bottom_right_description_4": "Düzleştirilmiş PDF'nize herhangi bir cihazdan erişin ve kolayca paylaşın.",
     "min_description": "PDF formunuzu düzenlenemez hale getirin."
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "PDF'yi Kapat",
+    "description": "PDF'nizden hassas bilgileri kaldırın",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "Belgelerinizden hassas bilgileri kalıcı olarak kaldırın - kayıt gerekmez. Uygulama indirmeye gerek yok - her şey tarayıcınızda Mac, Windows, Linux ve mobil cihazlarda çalışır.",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "Herhangi bir cihazda çevrimiçi PDF'i kapatın",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "Dosyalarınız saniyeler içinde otomatik olarak silinir",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "Kayıt olmadan ücretsiz kullanım",
+    "seo_title": "PDF'yi Kapat - Ücretsiz Belge Kapatma Aracı | MaxAI.me",
+    "seo_description": "PDF'lerinizdeki hassas metni ücretsiz olarak herhangi bir cihazda, kayıt olmadan karartın. Kapatma işlemi bitti mi? PDF'yi filigransız olarak dışa aktarın."
   }
 }

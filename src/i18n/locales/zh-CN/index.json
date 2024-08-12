@@ -1956,5 +1956,15 @@
     "detail_description_object__pdf_flatten__bottom_right_description_3": "点击“下载”以保存压平后的PDF文件。",
     "detail_description_object__pdf_flatten__bottom_right_description_4": "在任何设备上访问您的压平PDF并轻松共享。",
     "min_description": "使您的PDF表单不可编辑。"
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "编辑 PDF",
+    "description": "从您的 PDF 中删除敏感信息",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "使用免费的 PDF 遮盖工具永久删除您文档中的敏感信息—无需注册。无需下载应用程序—一切在您的浏览器上运行，支持 Mac、Windows、Linux 和移动设备。",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "在线编辑 PDF 在任何设备上",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "您的文件将在几秒钟内自动删除",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "无需注册即可免费使用",
+    "seo_title": "编辑 PDF - 免费文档遮盖工具 | MaxAI.me",
+    "seo_description": "免费在任何设备上遮盖 PDF 中的敏感文本，无需注册。完成遮盖？导出 PDF 时不会有水印。"
   }
 }

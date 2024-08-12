@@ -1956,5 +1956,15 @@
     "detail_description_object__pdf_flatten__bottom_right_description_3": "Klikk på 'Last ned' for å lagre den flate PDF-filen din.",
     "detail_description_object__pdf_flatten__bottom_right_description_4": "Få tilgang til den flate PDF-en din på enhver enhet og del den enkelt.",
     "min_description": "Gjør PDF-skjemaet ditt ikke-redigerbart."
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "Skjul PDF",
+    "description": "Fjern sensitiv informasjon fra PDF-en din",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "Fjern sensitiv informasjon permanent fra dokumentene dine med et gratis PDF-skjulingsverktøy—ingen registrering nødvendig. Du trenger ikke laste ned en app–alt fungerer i nettleseren din på Mac, Windows, Linux og mobile enheter.",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "Skjul PDF på nett på hvilken som helst enhet",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "Filene dine slettes automatisk på sekunder",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "Gratis å bruke uten registrering",
+    "seo_title": "Skjul PDF - Gratis Dokumentskjulingsverktøy | MaxAI.me",
+    "seo_description": "Svart ut sensitiv tekst i PDF-ene dine—gratis, på hvilken som helst enhet, uten registrering nødvendig. Ferdig med skjulingen? Eksporter PDF-en uten vannmerker."
   }
 }

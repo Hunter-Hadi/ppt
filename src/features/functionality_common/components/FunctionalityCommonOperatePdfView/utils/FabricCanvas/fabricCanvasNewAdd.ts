@@ -237,6 +237,16 @@ export const onFabricAddObject = async (
       text.fontFamily = defaultTextFontFamily
       ;(text as any).isDateValid = isDateValid
       createObjectData = text
+    } else if (canvasObject.type === 'redact') {
+      const rect = new fabric.Rect({
+        // ...positionData,
+        left: canvasObject.x,
+        top: canvasObject.y,
+        width: canvasObject.width,
+        height: canvasObject.height,
+        fill: canvasObject.fill,
+      })
+      createObjectData = rect
     }
     if (createObjectData) {
       ;(createObjectData as any).mtr = false

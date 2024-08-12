@@ -153,6 +153,16 @@ const FunctionalityExtractPagePdfMain = dynamic(
     loading: () => <AppLoadingLayout loading />,
   },
 )
+
+const FunctionalityRedactPdfMain = dynamic(
+  () =>
+    import(
+      '@/features/functionality_redact_pdf/components/FunctionalityRedactPdfMain'
+    ),
+    {
+      loading: () => <AppLoadingLayout loading />,
+    },
+)
 const FunctionalityFlattenPdfMain = dynamic(
   () =>
     import(
@@ -255,6 +265,10 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       title: t('seo:pdf_tools__pdf_extractpages_page__title'),
       description: t('seo:pdf_tools__pdf_extractpages_page__description'),
     },
+    'redact-pdf': {
+      title: t('pages__pdf_tools__redact_pdf:seo_title'),
+      description: t('pages__pdf_tools__redact_pdf:seo_description'),
+    },
     'flatten-pdf': {
       title: t('pages__pdf_tools__flatten_pdf:seo_title'),
       description: t('pages__pdf_tools__flatten_pdf:seo_description'),
@@ -322,6 +336,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
             {urlKey === 'extract-pdf-pages' && (
               <FunctionalityExtractPagePdfMain />
             )}
+            {urlKey === 'redact-pdf' && <FunctionalityRedactPdfMain />}
             {urlKey === 'flatten-pdf' && <FunctionalityFlattenPdfMain />}
           </Suspense>
         </Box>

@@ -1956,5 +1956,15 @@
     "detail_description_object__pdf_flatten__bottom_right_description_3": "Faceți clic pe „Descărcare” pentru a salva fișierul PDF aplatizat.",
     "detail_description_object__pdf_flatten__bottom_right_description_4": "Accesați PDF-ul aplatizat de pe orice dispozitiv și partajați-l ușor.",
     "min_description": "Faceți ca formularul PDF să nu poată fi editat."
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "Redactează PDF",
+    "description": "Elimină informațiile sensibile din PDF-ul tău",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "Elimină permanent informațiile sensibile din documentele tale cu un instrument gratuit de redactare PDF - fără înregistrare necesară. Nu este nevoie să descarci o aplicație - totul funcționează în browserul tău pe Mac, Windows, Linux și dispozitive mobile.",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "Redactează PDF online pe orice dispozitiv",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "Fișierele tale sunt șterse automat în câteva secunde",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "Gratuit de utilizat fără înregistrare",
+    "seo_title": "Redactează PDF - Instrument gratuit de redactare a documentelor | MaxAI.me",
+    "seo_description": "Întunece textul sensibil din PDF-urile tale - gratuit, pe orice dispozitiv, fără înregistrare necesară. Ai terminat redactarea? Exportă PDF-ul fără filigrane."
   }
 }

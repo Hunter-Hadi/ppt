@@ -1956,5 +1956,15 @@
     "detail_description_object__pdf_flatten__bottom_right_description_3": "' ڈاؤن لوڈ' پر کلک کریں تاکہ آپ کی ہموار شدہ PDF فائل کو محفوظ کریں۔",
     "detail_description_object__pdf_flatten__bottom_right_description_4": "اپنی ہموار شدہ PDF کو کسی بھی آلے پر رسائی حاصل کریں اور آسانی سے اشتراک کریں۔",
     "min_description": "آپ کے پی ڈی ایف فارم کو غیر قابل ترمیم بنائیں۔"
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "PDF کو خفیہ بنائیں",
+    "description": "اپنے PDF سے حساس معلومات ہٹائیں",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "اپنے دستاویزات سے حساس معلومات کو دائمی طور پر ہٹائیں ایک مفت PDF ریڈیکشن ٹول کے ساتھ - کوئی رجسٹریشن کی ضرورت نہیں ہے۔ کسی ایپ کو ڈاؤن لوڈ کرنے کی ضرورت نہیں ہے - سب کچھ آپ کے براؤزر میں میک، ونڈوز، لینکس، اور موبائل ڈیوائسز پر کام کرتا ہے۔",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "کسی بھی ڈیوائس پر آن لائن PDF کو خفیہ بنائیں",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "آپ کی فائلیں خود بخود چند سیکنڈ میں حذف ہو جاتی ہیں",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "رجسٹریشن کے بغیر استعمال کرنے کے لیے مفت ہے",
+    "seo_title": "PDF کو خفیہ بنائیں - مفت دستاویز ریڈیکشن ٹول | MaxAI.me",
+    "seo_description": "اپنے PDF میں حساس متن کو کالے رنگ میں بدلیں - مفت، کسی بھی ڈیوائس پر، کسی رجسٹریشن کی ضرورت نہیں ہے۔ ریڈیکٹنگ ہوگئی؟ بغیر واٹرمارک کے PDF کو ایکسپورٹ کریں۔"
   }
 }

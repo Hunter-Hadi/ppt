@@ -1044,6 +1044,16 @@ export const allPdfToolsDetailDescriptionObject: {
       },
     },
   },
+  'redact-pdf': {
+    topFeatures:
+      'pages__pdf_tools__redact_pdf:pdf_tools__detail_description_object__redact_pages__top_left',
+    userExperienceList: [
+      'pages__pdf_tools__redact_pdf:pdf_tools__detail_description_object__redact_pdf__top_right_1',
+      'pages__pdf_tools__redact_pdf:pdf_tools__detail_description_object__redact_pdf__top_right_2',
+      'pages__pdf_tools__redact_pdf:pdf_tools__detail_description_object__redact_pdf__top_right_3',
+    ],
+    functionIntroductionList: [],
+  },
   'flatten-pdf': {
     topFeatures:
       'pages__pdf_tools__flatten_pdf:detail_description_object__pdf_flatten__top_left',

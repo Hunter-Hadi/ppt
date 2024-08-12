@@ -1956,5 +1956,15 @@
     "detail_description_object__pdf_flatten__bottom_right_description_3": "Nhấp vào 'Tải xuống' để lưu tệp PDF đã được hợp nhất của bạn.",
     "detail_description_object__pdf_flatten__bottom_right_description_4": "Truy cập tệp PDF đã được hợp nhất trên bất kỳ thiết bị nào và chia sẻ một cách dễ dàng.",
     "min_description": "Làm cho biểu mẫu PDF của bạn không thể chỉnh sửa."
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "Ẩn thông tin PDF",
+    "description": "Xóa thông tin nhạy cảm khỏi tập tin PDF của bạn",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "Xóa vĩnh viễn thông tin nhạy cảm khỏi tài liệu của bạn với công cụ ẩn thông tin PDF miễn phí - không cần đăng ký. Không cần tải ứng dụng - mọi thứ hoạt động trên trình duyệt của bạn trên Mac, Windows, Linux và thiết bị di động.",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "Ẩn thông tin PDF trực tuyến trên mọi thiết bị",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "Tập tin của bạn sẽ tự động bị xóa sau vài giây",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "Miễn phí sử dụng mà không cần đăng ký",
+    "seo_title": "Ẩn thông tin PDF - Công cụ Ẩn Tài Liệu Miễn Phí | MaxAI.me",
+    "seo_description": "Che đi văn bản nhạy cảm trong tập tin PDF của bạn - miễn phí, trên mọi thiết bị, không cần đăng ký. Đã ẩn thông tin xong? Xuất PDF mà không có dấu watermark."
   }
 }

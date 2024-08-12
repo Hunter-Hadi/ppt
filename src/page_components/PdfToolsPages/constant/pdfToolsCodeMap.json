@@ -18,6 +18,7 @@
     "pdf-annotator": "pdf-annotator",
     "protect-pdf": "protect-pdf",
     "watermark-pdf": "watermark-pdf",
+    "redact-pdf": "redact-pdf",
     "flatten-pdf": "flatten-pdf",
     "delete-pages-from-pdf": "delete-pages-from-pdf",
     "extract-pdf-pages": "extract-pdf-pages"

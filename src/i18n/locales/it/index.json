@@ -1955,5 +1955,15 @@
     "detail_description_object__pdf_flatten__bottom_right_description_3": "Clicca su 'Scarica' per salvare il tuo file PDF appiattito.",
     "detail_description_object__pdf_flatten__bottom_right_description_4": "Accedi al tuo PDF appiattito su qualsiasi dispositivo e condividilo facilmente.",
     "min_description": "Rendi il tuo modulo PDF non modificabile."
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "Redazione PDF",
+    "description": "Rimuovi informazioni sensibili dal tuo PDF",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "Rimuovi definitivamente informazioni sensibili dai tuoi documenti con uno strumento gratuito di redazione PDF, senza registrazione. Non è necessario scaricare un'app, tutto funziona nel tuo browser su Mac, Windows, Linux e dispositivi mobili.",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "Redazione PDF online su qualsiasi dispositivo",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "I tuoi file vengono eliminati automaticamente in pochi secondi",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "Gratuito da usare senza registrazione",
+    "seo_title": "Redazione PDF - Strumento Gratuito di Redazione Documenti | MaxAI.me",
+    "seo_description": "Oscura testo sensibile nei tuoi PDF gratuitamente, su qualsiasi dispositivo, senza registrazione. Hai finito di redigere? Esporta il PDF senza filigrane."
   }
 }

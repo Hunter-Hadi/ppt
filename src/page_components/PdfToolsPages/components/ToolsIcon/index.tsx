@@ -32,6 +32,7 @@ export type ICustomIconType =
   | 'DeletePagePDF'
   | 'DeletePagePDFDetaile'
   | 'ExtractPagePDF'
+  | 'RedactPDF'
   | 'FlattenPDF'
 
 const IconsMap: {
@@ -57,6 +58,7 @@ const IconsMap: {
   DeletePagePDF: dynamic(() => import('./icons/DeletePagePDF')),
   DeletePagePDFDetaile: dynamic(() => import('./icons/DeletePagePDFDetaile')),
   ExtractPagePDF: dynamic(() => import('./icons/ExtractPagePDF')),
+  RedactPDF: dynamic(() => import('./icons/RedactPDF')),
   FlattenPDF: dynamic(() => import('./icons/FlattenPDF')),
 }
 const ToolsIcon: FC<{ name: string } & SvgIconProps> = ({

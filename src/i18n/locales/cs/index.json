@@ -1956,5 +1956,15 @@
     "detail_description_object__pdf_flatten__bottom_right_description_3": "Klikněte na 'Stáhnout' pro uložení vašeho zploštěného PDF souboru.",
     "detail_description_object__pdf_flatten__bottom_right_description_4": "Přistupujte ke svému zploštěnému PDF na jakémkoli zařízení a snadno ho sdílejte.",
     "min_description": "Učiňte váš formulář PDF neupravitelný."
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "Zakrýt PDF",
+    "description": "Odstraňte citlivé informace z vašeho PDF",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "Trvale odstraňte citlivé informace ze svých dokumentů pomocí bezplatného nástroje na černé znečištění PDF – není vyžadována registrace. Nemusíte stahovat aplikaci – vše funguje ve vašem prohlížeči na Macu, Windows, Linuxu a mobilních zařízeních.",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "Zakrýt PDF online na jakémkoli zařízení",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "Vaše soubory jsou automaticky smazány během několika sekund",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "Zdarma k použití bez registrace",
+    "seo_title": "Zakrýt PDF - Bezplatný nástroj na znečištění dokumentů | MaxAI.me",
+    "seo_description": "Zčernějte citlivý text ve svých PDF – zdarma, na jakémkoli zařízení, bez nutnosti registrace. Dokončili jste znečišťování? Exportujte PDF bez vodoznaku."
   }
 }

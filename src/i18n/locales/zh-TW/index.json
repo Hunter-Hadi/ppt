@@ -1956,5 +1956,15 @@
     "detail_description_object__pdf_flatten__bottom_right_description_3": "點擊“下載”以保存您的平整PDF文件。",
     "detail_description_object__pdf_flatten__bottom_right_description_4": "在任何設備上訪問您的平整PDF並輕鬆共享。",
     "min_description": "使您的PDF表單無法編輯。"
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "隱藏 PDF",
+    "description": "從您的 PDF 中刪除敏感信息",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "使用免費的 PDF 隱藏工具永久刪除您文件中的敏感信息—無需註冊。無需下載應用程式，一切在 Mac、Windows、Linux 和移動設備的瀏覽器中運作。",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "在任何設備上線上隱藏 PDF",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "您的文件將在幾秒鐘內自動刪除",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "無需註冊即可免費使用",
+    "seo_title": "隱藏 PDF - 免費文件隱藏工具 | MaxAI.me",
+    "seo_description": "在任何設備上免費將 PDF 中的敏感文本涂黑，無需註冊。完成隱藏？導出 PDF 時不會有水印。"
   }
 }

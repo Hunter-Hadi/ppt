@@ -1956,5 +1956,15 @@
     "detail_description_object__pdf_flatten__bottom_right_description_3": "Klicken Sie auf 'Herunterladen', um Ihre zusammengeführte PDF-Datei zu speichern.",
     "detail_description_object__pdf_flatten__bottom_right_description_4": "Greifen Sie von jedem Gerät auf Ihre zusammengeführte PDF zu und teilen Sie sie problemlos.",
     "min_description": "Machen Sie Ihr PDF-Formular nicht bearbeitbar."
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "PDF Schwärzen",
+    "description": "Entfernen Sie sensible Informationen aus Ihrem PDF",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "Entfernen Sie dauerhaft sensible Informationen aus Ihren Dokumenten mit einem kostenlosen PDF-Schwärzungstool – keine Registrierung erforderlich. Kein App-Download erforderlich – alles funktioniert in Ihrem Browser auf Mac, Windows, Linux und mobilen Geräten.",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "PDF online auf jedem Gerät schwärzen",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "Ihre Dateien werden automatisch in Sekunden gelöscht",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "Kostenlos und ohne Registrierung nutzbar",
+    "seo_title": "PDF Schwärzen - Kostenloses Dokumentenschwärzungstool | MaxAI.me",
+    "seo_description": "Schwärzen Sie sensible Texte in Ihren PDFs – kostenlos, auf jedem Gerät, ohne Registrierung erforderlich. Fertig mit dem Schwärzen? Exportieren Sie das PDF ohne Wasserzeichen."
   }
 }

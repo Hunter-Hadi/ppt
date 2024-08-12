@@ -117,7 +117,6 @@ const FunctionalityCommonOperateFabricCanvas: FC<
     ) => {
       try {
         if (!fabricCanvas.current) return
-
         handleNewObjectContinuousMouse(
           newObject,
           fabricCanvas,

@@ -1956,5 +1956,15 @@
     "detail_description_object__pdf_flatten__bottom_right_description_3": "Klik op 'Downloaden' om uw samengevoegde PDF-bestand op te slaan.",
     "detail_description_object__pdf_flatten__bottom_right_description_4": "Toegang tot uw samengevoegde PDF op elk apparaat en deel het eenvoudig.",
     "min_description": "Maak uw PDF-formulier niet-bewerkbaar."
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "Redacteer PDF",
+    "description": "Verwijder gevoelige informatie uit uw PDF",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "Verwijder permanent gevoelige informatie uit uw documenten met een gratis PDF-redactietool—geen registratie vereist. Geen app downloaden nodig—alles werkt in uw browser op Mac, Windows, Linux en mobiele apparaten.",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "Redacteer PDF online op elk apparaat",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "Uw bestanden worden automatisch verwijderd binnen enkele seconden",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "Gratis te gebruiken zonder registratie",
+    "seo_title": "Redacteer PDF - Gratis Document Redactietool | MaxAI.me",
+    "seo_description": "Zwarte gevoelige tekst in uw PDF's—gratis, op elk apparaat, zonder registratie vereist. Klaar met redigeren? Exporteer de PDF zonder watermerken."
   }
 }

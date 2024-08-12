@@ -1956,5 +1956,15 @@
     "detail_description_object__pdf_flatten__bottom_right_description_3": "Cliquez sur 'Télécharger' pour enregistrer votre fichier PDF aplati.",
     "detail_description_object__pdf_flatten__bottom_right_description_4": "Accédez à votre PDF aplati sur n'importe quel appareil et partagez-le facilement.",
     "min_description": "Rendez votre formulaire PDF non modifiable."
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "Masquer PDF",
+    "description": "Supprimez les informations sensibles de votre PDF",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "Supprimez définitivement les informations sensibles de vos documents avec un outil de masquage PDF gratuit, sans inscription requise. Pas besoin de télécharger une application, tout fonctionne dans votre navigateur sur Mac, Windows, Linux et les appareils mobiles.",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "Masquez les PDF en ligne sur n'importe quel appareil",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "Vos fichiers sont automatiquement supprimés en quelques secondes",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "Gratuit à utiliser sans inscription",
+    "seo_title": "Masquer PDF - Outil de Masquage de Documents Gratuit | MaxAI.me",
+    "seo_description": "Masquez en noir le texte sensible dans vos PDF gratuitement, sur n'importe quel appareil, sans inscription requise. Fini de masquer ? Exportez le PDF sans filigranes."
   }
 }

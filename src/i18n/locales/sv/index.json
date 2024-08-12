@@ -1956,5 +1956,15 @@
     "detail_description_object__pdf_flatten__bottom_right_description_3": "Klicka på 'Ladda ner' för att spara din plattade PDF-fil.",
     "detail_description_object__pdf_flatten__bottom_right_description_4": "Kom åt din plattade PDF på vilken enhet som helst och dela den enkelt.",
     "min_description": "Gör din PDF-formulär oredigerbart."
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "Redigera PDF",
+    "description": "Ta bort känslig information från din PDF",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "Permanent ta bort känslig information från dina dokument med en gratis PDF-redigeringsverktyg—ingen registrering krävs. Inga appar att ladda ner–allt fungerar i din webbläsare på Mac, Windows, Linux och mobila enheter.",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "Redigera PDF online på valfri enhet",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "Dina filer raderas automatiskt inom sekunder",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "Gratis att använda utan registrering",
+    "seo_title": "Redigera PDF - Gratis dokumentredigeringsverktyg | MaxAI.me",
+    "seo_description": "Svarta över känslig text i dina PDF-filer—gratis, på valfri enhet, utan registrering. Klar med redigeringen? Exportera PDF:en utan vattenstämplar."
   }
 }

@@ -17,7 +17,7 @@ const useFunctionalityCommonTextSelection = (props: {
     height: number
   }
   index: number
-  clickOther: () => void
+  clickOther?: () => void
 }) => {
   const [highlighterPosition, setHighlighterPosition] = useState<
     ITextContentHighlighterPosition | undefined

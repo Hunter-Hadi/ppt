@@ -1955,5 +1955,15 @@
     "detail_description_object__pdf_flatten__bottom_right_description_3": "לחץ על 'הורד' כדי לשמור את קובץ ה-PDF המפוצל שלך.",
     "detail_description_object__pdf_flatten__bottom_right_description_4": "גש ל-PDF המפוצל שלך מכל מכשיר ושתף בקלות.",
     "min_description": "הפוך את טופס ה־PDF שלך ללא אפשרות עריכה."
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "הסתר PDF",
+    "description": "הסרת מידע רגיש מהקובץ שלך",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "הסרת מידע רגיש מהמסמכים שלך באופן קבוע עם כלי ההסתרה של PDF בחינם - לא נדרשת הרשמה. אין צורך להוריד אפליקציה - הכל עובד בדפדפן שלך ב-Mac, Windows, Linux ובמכשירים ניידים.",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "הסתרת PDF מקוון בכל מכשיר",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "הקבצים שלך ימחקו אוטומטית בשניות",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "שימוש חינם ללא רישום",
+    "seo_title": "הסתרת PDF - כלי הסתרת מסמכים בחינם | MaxAI.me",
+    "seo_description": "שחור על טקסט רגיש בקבצי PDF שלך - בחינם, בכל מכשיר, ללא דרישת הרשמה. סיימת בהסתרה? ייצא את ה-PDF ללא סימני מים."
   }
 }

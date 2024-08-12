@@ -18,6 +18,7 @@ export type IToolUrkKeyType =
   | 'pdf-annotator'
   | 'protect-pdf'
   | 'watermark-pdf'
+  | 'redact-pdf'
   | 'flatten-pdf'
   | 'delete-pages-from-pdf'
   | 'extract-pdf-pages'
@@ -228,6 +229,15 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     description: 'pages__pdf_tools__flatten_pdf:min_description',
     secondaryDescription: 'pages__pdf_tools__flatten_pdf:description',
     urlKey: routerChildrenObject['flatten-pdf'],
+    urlPrefixPath: toolsTopUrlKey,
+  },
+  'redact-pdf': {
+    icon: 'RedactPDF',
+    title: 'pages__pdf_tools__redact_pdf:title',
+    description:
+      'pages__pdf_tools__redact_pdf:description',
+    secondaryDescription: '',
+    urlKey: routerChildrenObject['redact-pdf'],
     urlPrefixPath: toolsTopUrlKey,
   },
 }
