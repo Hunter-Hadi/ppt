@@ -247,13 +247,13 @@ const FunctionalityOperateFabricCanvas: FC<
       const selection = window.getSelection()
       if (selection) {
         const selectedText = selection.toString() // 获取选中的文本
-        console.log(`selectedText:`, selectedText)
+        // console.log(`selectedText:`, selectedText)
 
         if (selectedText) {
           const range = selection.getRangeAt(0) // 获取选区的范围
-          console.log(`range:`, range)
+          // console.log(`range:`, range)
           const rect = range.getBoundingClientRect()
-          console.log(`Selected range rect:`, rect)
+          // console.log(`Selected range rect:`, rect)
           // 多个事件监听，只选中一个，其他的return
           const wrapContainer = document.querySelector(
             '.text-layer-' + index,
@@ -269,7 +269,7 @@ const FunctionalityOperateFabricCanvas: FC<
             },
           ]
           const rects = getClientRects(range, page) // 调用 getClientRects 方法获取矩形区域
-          console.log(`rects:`, rects)
+          // console.log(`rects:`, rects)
           if (!rects.length) {
             setHighlighterPosition(undefined)
             return
@@ -461,7 +461,7 @@ const FunctionalityOperateFabricCanvas: FC<
         canvas.on('mouse:down', handleMouseDown)
         canvas.on('mouse:move', handleCanvasMouseMove)
         canvas.on('mouse:over', (event) => {
-          console.log('mouse:over')
+          // console.log('mouse:over')
           const activeObject = event.target
           if (activeObject && activeObject instanceof fabric.Object) {
             activeObject.set('opacity', 0.4)
@@ -469,7 +469,7 @@ const FunctionalityOperateFabricCanvas: FC<
           }
         })
         canvas.on('mouse:out', (event) => {
-          console.log('mouse:out')
+          // console.log('mouse:out')
           const activeObject = event.target
           if (activeObject && activeObject instanceof fabric.Object) {
             activeObject.set('opacity', 1)
