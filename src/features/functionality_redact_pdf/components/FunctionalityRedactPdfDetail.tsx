@@ -44,7 +44,6 @@ const FunctionalityRedactPdfDetail: FC<IPdfContainerMainProps> = ({
 
   const autoSetOverallViewHeight = () => {
     const distanceFromTop = infintyViewRef.current?.getBoundingClientRect().top
-    console.log(`distanceFromTop`, distanceFromTop);
     
     const overallViewHeight =
       window.innerHeight - (distanceFromTop || 280) + 50

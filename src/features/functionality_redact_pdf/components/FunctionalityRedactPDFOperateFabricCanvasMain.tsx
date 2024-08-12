@@ -152,53 +152,49 @@ const FunctionalityOperateFabricCanvas: FC<
     setIsClick(true)
   }
 
-  // 补充遮罩在文字上面的逻辑 (对鼠标从文字到遮罩后的逻辑补充，不然这种情况选中不了遮罩) //TODO
+  // 添加遮罩在文字上面的逻辑 
   const handleCanvasMouseMove = useCallback(
     (event) => {
-      // if (!fabricCanvas.current || !fabricCanvasRef.current) return
-      // // console.log(`handleCanvasMouseMove`)
-      // // console.log(`fabricCanvas.current`, fabricCanvas.current)
-      // // console.log(`event`, event)
-      // // console.log(`event111:`, event)
+      if (!fabricCanvas.current || !fabricCanvasRef.current) return
       // console.log(`widthScale:`, widthScale)
       // console.log(`canvasScale:`, canvasScale)
       // console.log(`canvasChangeScale:`, canvasChangeScale)
-      // const canvasBoundingRect = fabricCanvasRef.current.getBoundingClientRect()
+      const canvasBoundingRect = fabricCanvasRef.current.getBoundingClientRect()
+      const mouseX = (event.clientX - canvasBoundingRect.left) / canvasChangeScale
+      const mouseY = (event.clientY - canvasBoundingRect.top) / canvasChangeScale
+      if(mouseY < 0) return
+      console.log(
+        `mouseX:`,
+        event.clientX - canvasBoundingRect.left,
+        `mouseY:`,
+        event.clientY - canvasBoundingRect.top,
+      )
 
-      // const mouseX = (event.clientX - canvasBoundingRect.left) / canvasScale
-      // const mouseY = (event.clientY - canvasBoundingRect.top) / canvasScale
-      // console.log(
-      //   `mouseX:`,
-      //   event.clientX - canvasBoundingRect.left,
-      //   `mouseY:`,
-      //   event.clientY - canvasBoundingRect.top,
-      // )
-
-      // const locate = { x: mouseX, y: mouseY }
-      // const pointer = new fabric.Point(locate.x, locate.y)
+      const locate = { x: mouseX, y: mouseY }
+      const pointer = new fabric.Point(locate.x, locate.y)
       // console.log(`pointer123:`, pointer)
-      // const objects = fabricCanvas.current.getObjects()
-      // let isOverObject = false
+      const objects = fabricCanvas.current.getObjects()
+      let isOverObject = false
 
-      // objects.forEach((obj) => {
-      //   if (obj.containsPoint(pointer)) {
-      //     isOverObject = true
-      //   }
-      // })
+      objects.forEach((obj) => {
+        if (obj.containsPoint(pointer)) {
+          isOverObject = true
+        }
+      })
       // console.log(`isOverObjectMousemove:`, isOverObject)
 
-      // if (isOverObject && textLayerRef.current) {
-      //   // 鼠标所在位置有对象，设置span的zIndex小
-      //   textLayerRef.current.style.zIndex = '1'
-      // } else if (!isOverObject && textLayerRef.current) {
-      //   // 鼠标所在位置无对象，设置span的zIndex大
-      //   // 移动端适配有问题，不做选中
-      //   if (isMobile) {
-      //     textLayerRef.current.style.zIndex = '1'
-      //   } else textLayerRef.current.style.zIndex = '3'
-      // }
+      if (isOverObject && textLayerRef.current) {
+        // 鼠标所在位置有对象，设置span的zIndex小
+        textLayerRef.current.style.zIndex = '1'
+      } else if (!isOverObject && textLayerRef.current) {
+        // 鼠标所在位置无对象，设置span的zIndex大
+        // 移动端适配有问题，不做选中
+        if (isMobile) {
+          textLayerRef.current.style.zIndex = '1'
+        } else textLayerRef.current.style.zIndex = '3'
+      }
     },
-    [canvasScale, isMobile],
+    [canvasChangeScale, canvasScale, isMobile, widthScale],
   )
 
   /**
@@ -432,34 +428,7 @@ const FunctionalityOperateFabricCanvas: FC<
           window.addEventListener('touchend', handleMouseUp)
         }
 
-        // 设置遮罩在文字上面的逻辑
-        const handleCanvasMouseMove = (event) => {
-          const pointer = canvas.getPointer(event.e)
-          const objects = canvas.getObjects()
-          let isOverObject = false
-          // console.log(`pointerMouseOver:`, pointer)
-
-          objects.forEach((obj) => {
-            if (obj.containsPoint(pointer)) {
-              isOverObject = true
-            }
-          })
-          // console.log(`isOverObject:`, isOverObject)
-
-          if (isOverObject && textLayerRef.current) {
-            // 鼠标所在位置有对象，设置span的zIndex小
-            textLayerRef.current.style.zIndex = '1'
-          } else if (!isOverObject && textLayerRef.current) {
-            // 鼠标所在位置无对象，设置span的zIndex大
-            // 移动端适配有问题，不做选中
-            if (isMobile) {
-              textLayerRef.current.style.zIndex = '1'
-            } else textLayerRef.current.style.zIndex = '3'
-          }
-        }
-
         canvas.on('mouse:down', handleMouseDown)
-        canvas.on('mouse:move', handleCanvasMouseMove)
         canvas.on('mouse:over', (event) => {
           // console.log('mouse:over')
           const activeObject = event.target
