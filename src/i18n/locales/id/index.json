@@ -1918,5 +1918,15 @@
     "components__pdf_annotator__insert_tools__insert_text": "sisipkan teks",
     "components__pdf_annotator__insert_tools__insert_image": "sisipkan gambar",
     "components__pdf_annotator__insert_tools__insert_signature": "Sisipkan Tanda Tangan"
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "Redaksi PDF",
+    "description": "Hapus informasi sensitif dari PDF Anda",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "Redaksi PDF online di semua perangkat",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "File Anda secara otomatis dihapus dalam hitungan detik",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "Gratis digunakan tanpa registrasi",
+    "seo_title": "Redaksi PDF - Alat Redaksi Dokumen Gratis | MaxAI.me",
+    "seo_description": "Hitamkan teks sensitif dalam PDF Anda—gratis, di semua perangkat, tanpa registrasi. Selesai melakukan redaksi? Ekspor PDF tanpa watermark.",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "Hapus informasi sensitif dari dokumen Anda secara permanen dengan alat redaksi PDF gratis—tanpa registrasi. Tidak perlu mengunduh aplikasi—semuanya berfungsi di browser Anda pada Mac, Windows, Linux, dan perangkat seluler."
   }
 }

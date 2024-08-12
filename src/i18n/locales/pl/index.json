@@ -1918,5 +1918,15 @@
     "components__pdf_annotator__insert_tools__insert_text": "wstaw tekst",
     "components__pdf_annotator__insert_tools__insert_image": "wstaw obraz",
     "components__pdf_annotator__insert_tools__insert_signature": "Wstaw Podpis"
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "Cenzurowanie PDF",
+    "description": "Usuń poufne informacje z Twojego PDF-a",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "Cenzurowanie PDF online na dowolnym urządzeniu",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "Twoje pliki są automatycznie usuwane w sekundy",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "Darmowe w użyciu bez rejestracji",
+    "seo_title": "Cenzurowanie PDF - Darmowe narzędzie do cenzurowania dokumentów | MaxAI.me",
+    "seo_description": "Zaciemnij poufny tekst w swoich PDF-ach—za darmo, na dowolnym urządzeniu, bez konieczności rejestracji. Skończyłeś cenzurować? Wyeksportuj PDF-a bez znaków wodnych.",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "Trwale usuń poufne informacje ze swoich dokumentów za pomocą darmowego narzędzia do cenzurowania plików PDF—nie wymaga rejestracji. Nie trzeba pobierać aplikacji—wszystko działa w przeglądarce na Macu, Windowsie, Linuxie i urządzeniach mobilnych."
   }
 }

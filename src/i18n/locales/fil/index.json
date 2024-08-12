@@ -1918,5 +1918,15 @@
     "components__pdf_annotator__insert_tools__insert_text": "magdagdag ng teksto",
     "components__pdf_annotator__insert_tools__insert_image": "magdagdag ng larawan",
     "components__pdf_annotator__insert_tools__insert_signature": "Maglagay ng Lagda"
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "Itago ang PDF",
+    "description": "Tanggalin ang sensitibong impormasyon mula sa iyong PDF",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "Itago ang PDF online sa anumang aparato",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "Ang iyong mga file ay awtomatikong mabubura sa loob ng ilang segundo",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "Libreng gamitin nang walang pagparehistro",
+    "seo_title": "Itago ang PDF - Libreng Tool sa Redaction ng Dokumento | MaxAI.me",
+    "seo_description": "Itim ang sensitibong teksto sa iyong mga PDF—nang libre, sa anumang aparato, na walang kinakailangang magparehistro. Tapos na sa pag-redact? I-export ang PDF nang walang watermarks.",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "Tanggalin nang permanente ang sensitibong impormasyon mula sa iyong mga dokumento gamit ang libreng tool ng PDF redaction—walang kinakailangang magparehistro. Walang kailangang i-download na app—lahat ay gumagana sa iyong browser sa Mac, Windows, Linux, at mobile devices."
   }
 }

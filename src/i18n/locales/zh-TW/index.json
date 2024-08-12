@@ -1918,5 +1918,15 @@
     "components__pdf_annotator__insert_tools__insert_text": "插入文字",
     "components__pdf_annotator__insert_tools__insert_image": "插入圖片",
     "components__pdf_annotator__insert_tools__insert_signature": "插入簽名"
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "隱藏 PDF",
+    "description": "從您的 PDF 中刪除敏感信息",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "在任何設備上線上隱藏 PDF",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "您的文件將在幾秒鐘內自動刪除",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "無需註冊即可免費使用",
+    "seo_title": "隱藏 PDF - 免費文件隱藏工具 | MaxAI.me",
+    "seo_description": "在您的 PDF 中將敏感文本涂黑—免費，在任何設備上，無需註冊。完成隱藏？導出 PDF，無水印。",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "使用免費的 PDF 隱去工具永久刪除文件中的敏感信息—無需註冊。無需下載應用程式，一切在您的瀏覽器上運作，支援 Mac、Windows、Linux 和行動裝置。"
   }
 }

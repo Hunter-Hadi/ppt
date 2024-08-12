@@ -219,10 +219,10 @@ export const toolsObjectData: { [key in IToolUrkKeyType]: IToolData } = {
     urlPrefixPath: toolsTopUrlKey,
   },
   'redact-pdf': {
-    icon: 'ExtractPagePDF',
-    title: 'pages:tools__index_page__constant_obj__pdf_page_extractpage__title',
+    icon: 'RedactPDF',
+    title: 'pages__pdf_tools__redact_pdf:title',
     description:
-      'pages:tools__index_page__constant_obj__pdf_page_extractpage__main_description',
+      'pages__pdf_tools__redact_pdf:description',
     secondaryDescription: '',
     urlKey: routerChildrenObject['redact-pdf'],
     urlPrefixPath: toolsTopUrlKey,

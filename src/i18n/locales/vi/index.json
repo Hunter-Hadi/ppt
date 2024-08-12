@@ -1918,5 +1918,15 @@
     "components__pdf_annotator__insert_tools__insert_text": "chèn văn bản",
     "components__pdf_annotator__insert_tools__insert_image": "chèn hình ảnh",
     "components__pdf_annotator__insert_tools__insert_signature": "Chèn Chữ Ký"
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "Ẩn thông tin PDF",
+    "description": "Xóa thông tin nhạy cảm khỏi tệp PDF của bạn",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "Ẩn thông tin PDF trực tuyến trên mọi thiết bị",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "Tệp của bạn sẽ tự động bị xóa trong vài giây",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "Miễn phí sử dụng mà không cần đăng ký",
+    "seo_title": "Ẩn thông tin PDF - Công cụ Ẩn Tài Liệu Miễn Phí | MaxAI.me",
+    "seo_description": "Che đi văn bản nhạy cảm trong tệp PDF của bạn - hoàn toàn miễn phí, trên mọi thiết bị, không cần đăng ký. Đã ẩn thông tin xong? Xuất PDF mà không có dấu chân.",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "Xóa thông tin nhạy cảm khỏi tài liệu của bạn vĩnh viễn với công cụ che dấu PDF miễn phí - không cần đăng ký. Không cần tải ứng dụng - mọi thứ hoạt động trên trình duyệt của bạn trên Mac, Windows, Linux và thiết bị di động."
   }
 }

@@ -1918,5 +1918,15 @@
     "components__pdf_annotator__insert_tools__insert_text": "infoga text",
     "components__pdf_annotator__insert_tools__insert_image": "infoga bild",
     "components__pdf_annotator__insert_tools__insert_signature": "Infoga Signatur"
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "Redigera PDF",
+    "description": "Ta bort känslig information från din PDF",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "Redigera PDF online på valfri enhet",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "Dina filer raderas automatiskt på sekunder",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "Gratis att använda utan registrering",
+    "seo_title": "Redigera PDF - Gratis Dokumentredigeringsverktyg | MaxAI.me",
+    "seo_description": "Svarta ut känslig text i dina PDF:er—gratis, på valfri enhet, utan registrering krävd. Klart med redigeringen? Exportera PDF:en utan vattenstämplar.",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "Ta bort känslig information permanent från dina dokument med en gratis PDF-redigeringsverktyg—ingen registrering krävs. Ingen nedladdning av app behövs—allt fungerar i din webbläsare på Mac, Windows, Linux och mobila enheter."
   }
 }

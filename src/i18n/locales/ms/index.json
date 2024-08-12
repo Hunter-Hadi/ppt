@@ -1918,5 +1918,15 @@
     "components__pdf_annotator__insert_tools__insert_text": "masukkan teks",
     "components__pdf_annotator__insert_tools__insert_image": "masukkan gambar",
     "components__pdf_annotator__insert_tools__insert_signature": "Masukkan Tandatangan"
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "Redact PDF",
+    "description": "Buang maklumat sensitif dari PDF anda",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "Redaksi PDF dalam talian pada mana-mana peranti",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "Fail anda dipadam secara automatik dalam beberapa saat",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "Percuma digunakan tanpa pendaftaran",
+    "seo_title": "Redact PDF - Alat Redaksi Dokumen Percuma | MaxAI.me",
+    "seo_description": "Hitamkan teks sensitif dalam PDF anda—secara percuma, pada mana-mana peranti, tanpa pendaftaran diperlukan. Selesai redaksi? Eksport PDF tanpa cap air.",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "Buang maklumat sensitif dari dokumen anda secara kekal dengan alat redaksi PDF percuma—tiada pendaftaran diperlukan. Tiada keperluan untuk memuat turun aplikasi—semuanya berfungsi dalam pelayar anda di Mac, Windows, Linux, dan peranti mudah alih."
   }
 }

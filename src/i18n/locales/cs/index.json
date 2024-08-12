@@ -1918,5 +1918,15 @@
     "components__pdf_annotator__insert_tools__insert_text": "vložit text",
     "components__pdf_annotator__insert_tools__insert_image": "vložit obrázek",
     "components__pdf_annotator__insert_tools__insert_signature": "Vložit Podpis"
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "Zakrýt PDF",
+    "description": "Odstraňte citlivé informace z vašeho PDF",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "Zakrýt PDF online na jakémkoli zařízení",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "Vaše soubory jsou automaticky smazány během několika sekund",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "Zdarma k použití bez registrace",
+    "seo_title": "Zakrýt PDF - Bezplatný nástroj na zakrývání dokumentů | MaxAI.me",
+    "seo_description": "Zakryjte citlivý text ve vašich PDF—zdarma, na jakémkoli zařízení, bez nutnosti registrace. Zakončili jste zakrývání? Exportujte PDF bez vodoznaku.",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "Trvale odstraňte citlivé informace ze svých dokumentů pomocí bezplatného nástroje na červenání PDF – není vyžadováno žádné registrování. Nemusíte stahovat aplikaci – vše funguje ve vašem prohlížeči na Macu, Windows, Linuxu a mobilních zařízeních."
   }
 }

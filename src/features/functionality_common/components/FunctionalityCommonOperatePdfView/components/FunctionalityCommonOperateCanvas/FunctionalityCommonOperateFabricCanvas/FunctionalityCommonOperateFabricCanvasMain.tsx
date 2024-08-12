@@ -116,9 +116,6 @@ const FunctionalityCommonOperateFabricCanvas: FC<
     ) => {
       try {
         if (!fabricCanvas.current) return
-        console.log(`canvasObject:`, canvasObject);
-        console.log(`newObject:`, newObject);
-        
         handleNewObjectContinuousMouse(
           newObject,
           fabricCanvas,

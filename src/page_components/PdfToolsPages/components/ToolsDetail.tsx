@@ -257,8 +257,8 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       description: t('seo:pdf_tools__pdf_extractpages_page__description'),
     },
     'redact-pdf': {
-      title: t('seo:pdf_tools__pdf_extractpages_page__title'),
-      description: t('seo:pdf_tools__pdf_extractpages_page__description'),
+      title: t('pages__pdf_tools__redact_pdf:seo_title'),
+      description: t('pages__pdf_tools__redact_pdf:seo_description'),
     },
   }
   const toolsDetailDescriptionData = allPdfToolsDetailDescriptionObject[urlKey]

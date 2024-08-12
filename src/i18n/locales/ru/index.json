@@ -1918,5 +1918,15 @@
     "components__pdf_annotator__insert_tools__insert_text": "вставить текст",
     "components__pdf_annotator__insert_tools__insert_image": "вставить изображение",
     "components__pdf_annotator__insert_tools__insert_signature": "Вставить Подпись"
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "Скрыть PDF",
+    "description": "Удалите конфиденциальную информацию из вашего PDF",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "Скрывайте PDF онлайн на любом устройстве",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "Ваши файлы автоматически удаляются за секунды",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "Бесплатно использовать без регистрации",
+    "seo_title": "Скрыть PDF - Бесплатный инструмент для редактирования документов | MaxAI.me",
+    "seo_description": "Затемняйте конфиденциальный текст в ваших PDF-файлах — бесплатно, на любом устройстве, без необходимости регистрации. Закончили редактирование? Экспортируйте PDF без водяных знаков.",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "Удалите конфиденциальную информацию из ваших документов с помощью бесплатного инструмента для редактирования PDF - не требуется регистрация. Не нужно загружать приложение - все работает в вашем браузере на Mac, Windows, Linux и мобильных устройствах."
   }
 }

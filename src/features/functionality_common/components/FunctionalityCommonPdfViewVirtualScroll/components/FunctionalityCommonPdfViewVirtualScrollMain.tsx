@@ -56,6 +56,7 @@ interface IFunctionalityCommonVirtualScrollingMainProps {
   }) => React.ReactNode
   bgcolor?: string
   defaultZoom?: number //默认缩放比例
+  isStopTouchMove?: boolean // 是否禁止移动端触摸移动
 }
 //PDF的显示视图
 const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
@@ -74,6 +75,7 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
     onReadPDFState,
     bgcolor = '#f2f2f2',
     defaultZoom = 0.7,
+    isStopTouchMove = false,
   },
   handleRef,
 ) => {
@@ -313,6 +315,25 @@ const FunctionalityCommonVirtualScrollingMain: ForwardRefRenderFunction<
       }
     }
   }
+
+  useEffect(() => {
+    const handleTouchMove = (e) => {
+      e.preventDefault()
+    }
+    if (isStopTouchMove) {
+      // 添加事件监听器
+      document.addEventListener('touchmove', handleTouchMove, {
+        passive: false,
+      })
+    }
+
+    return () => {
+      if (isStopTouchMove) {
+        document.removeEventListener('touchmove', handleTouchMove)
+      }
+    }
+  }, [isStopTouchMove])
+  
   //下面的虚拟列表可以开始渲染要素
   //有当前的Conversation  有pdfDocument  有pdfNumPages
   //如果没有上面的开始渲染，抓取分页数据，就拿取不到，自然就空白页面了

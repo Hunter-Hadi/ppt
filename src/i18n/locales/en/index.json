@@ -794,7 +794,7 @@
     "detail_description_object__unlock_pdf__bottom_right_description_3": "Click ‘Unlock’ to download the unlocked PDF file.",
     "detail_description_object__unlock_pdf__bottom_right_description_4": "Once unlocked, you can freely access and edit your PDF files on any device."
   },
- "pages__pdf_tools__pdf_annotator": {
+  "pages__pdf_tools__pdf_annotator": {
     "title": "PDF Annotator",
     "description": "Easily annotate your PDF files for free by writing or drawing directly on them.",
     "seo_title": "Free PDF Annotator - Write and Draw Online on PDF Files | MaxAI.me",
@@ -820,10 +820,20 @@
     "detail_description_object__pdf_annotator__bottom_right_description_2": "Use the annotation tools to write, draw, or highlight on the document.",
     "detail_description_object__pdf_annotator__bottom_right_description_3": "Click ‘Download’ to save your annotated PDF file.",
     "detail_description_object__pdf_annotator__bottom_right_description_4": "Access your annotated PDF on any device and share it easily."
- },
+  },
   "pages__pdf_tools__deletepage_pdf": {
     "confirm_to_delete": "Confirm to delete",
     "delete_download": "Delete and download PDF"
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "Redact PDF",
+    "description": "Remove sensitive information from your PDF",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "Permanently remove sensitive information from your documents with a free PDF redaction tool—no registration required. No need to download an app–everything works in your browser on Mac, Windows, Linux, and mobile devices.",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "Redact PDF online on any device",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2":"Your files are automatically deleted in seconds",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "Free to use without registration",
+    "seo_title": "Redact PDF - Free Document Redaction Tool | MaxAI.me",
+    "seo_description": "Black out sensitive text in your PDFs—for free, on any device, with no registration required. Done redacting? Export the PDF with no watermarks."
   },
   "pages__pdf_tools__extractpage_pdf": {
     "select_all": "Select all",

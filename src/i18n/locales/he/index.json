@@ -1917,5 +1917,15 @@
     "components__pdf_annotator__insert_tools__insert_text": "הוסף טקסט",
     "components__pdf_annotator__insert_tools__insert_image": "הוסף תמונה",
     "components__pdf_annotator__insert_tools__insert_signature": "הוסף חתימה"
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "הסתר PDF",
+    "description": "הסרת מידע רגיש מה־PDF שלך",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "הסתרת PDF מקוון בכל מכשיר",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "הקבצים שלך יימחקו אוטומטית בשניות",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "שימוש חינם ללא רישום",
+    "seo_title": "הסתרת PDF - כלי הסתרת מסמכים בחינם | MaxAI.me",
+    "seo_description": "שחור על טקסט רגיש ב־PDF שלך—בחינם, בכל מכשיר, ללא דרישת הרשמה. סיימת בהסתרה? ייצא את ה־PDF ללא סימני מים.",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "הסרת מידע רגיש מהמסמכים שלך באמצעות כלי צביעת PDF חינמי - ללא צורך בהרשמה. אין צורך להוריד אפליקציה - הכל עובד בדפדפן שלך במערכות Mac, Windows, Linux ובמכשירים ניידים."
   }
 }

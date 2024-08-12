@@ -1918,5 +1918,15 @@
     "components__pdf_annotator__insert_tools__insert_text": "insertar texto",
     "components__pdf_annotator__insert_tools__insert_image": "insertar imagen",
     "components__pdf_annotator__insert_tools__insert_signature": "Insertar Firma"
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "Redactar PDF",
+    "description": "Elimina información sensible de tu PDF",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "Redacta PDF en línea en cualquier dispositivo",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "Tus archivos se eliminan automáticamente en segundos",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "Gratis para usar sin necesidad de registro",
+    "seo_title": "Redactar PDF - Herramienta de Redacción de Documentos Gratuita | MaxAI.me",
+    "seo_description": "Censura texto sensible en tus PDF de forma gratuita, en cualquier dispositivo y sin necesidad de registro. ¿Terminaste de redactar? Exporta el PDF sin marcas de agua.",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "Elimina permanentemente información sensible de tus documentos con una herramienta gratuita de redacción de PDF, sin necesidad de registro. No es necesario descargar una aplicación, todo funciona en tu navegador en Mac, Windows, Linux y dispositivos móviles."
   }
 }

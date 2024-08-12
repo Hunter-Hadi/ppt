@@ -1918,5 +1918,15 @@
     "components__pdf_annotator__insert_tools__insert_text": "indsæt tekst",
     "components__pdf_annotator__insert_tools__insert_image": "indsæt billede",
     "components__pdf_annotator__insert_tools__insert_signature": "Indsæt Underskrift"
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "Rediger PDF",
+    "description": "Fjern følsomme oplysninger fra din PDF",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "Rediger PDF online på enhver enhed",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "Dine filer slettes automatisk på sekunder",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "Gratis at bruge uden registrering",
+    "seo_title": "Rediger PDF - Gratis Dokumentredigeringsværktøj | MaxAI.me",
+    "seo_description": "Sortér følsom tekst i dine PDF'er—gratis, på enhver enhed, uden registrering påkrævet. Færdig med redigeringen? Eksportér PDF'en uden vandmærker.",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "Fjern følsomme oplysninger permanent fra dine dokumenter med et gratis PDF-redigeringsværktøj – ingen registrering påkrævet. Du behøver ikke downloade en app – alt fungerer i din browser på Mac, Windows, Linux og mobile enheder."
   }
 }

@@ -1918,5 +1918,15 @@
     "components__pdf_annotator__insert_tools__insert_text": "متن شامل کریں",
     "components__pdf_annotator__insert_tools__insert_image": "تصویر شامل کریں",
     "components__pdf_annotator__insert_tools__insert_signature": "دستخط شامل کریں"
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "PDF کو خفیہ بنائیں",
+    "description": "اپنے PDF سے حساس معلومات ہٹائیں",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "کسی بھی آلے پر آن لائن PDF خفیہ کریں",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "آپ کی فائلیں سیکنڈوں میں خود بخود حذف ہو جاتی ہیں",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "رجسٹریشن کے بغیر استعمال کرنے کے لیے مفت",
+    "seo_title": "PDF کو خفیہ بنائیں - مفت دستاویز خفیہ کارگری ٹول | MaxAI.me",
+    "seo_description": "اپنے PDF میں حساس متن کو کالے رنگ میں بدلیں—مفت، کسی بھی آلے پر، رجسٹریشن کے بغیر۔ خفیہ کرنا مکمل ہوگیا؟ PDF کو کوئی واٹرمارک کے بغیر ایکسپورٹ کریں۔",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "آپ کے دستاویزات سے حساس معلومات کو مستقل طور پر ہٹائیں ایک مفت پی ڈی ایف ریڈیکشن ٹول کے ساتھ - کوئی رجسٹریشن کی ضرورت نہیں ہے۔ کسی ایپ کو ڈاؤن لوڈ کرنے کی ضرورت نہیں ہے - سب کچھ آپ کے براؤزر میں میک، ونڈوز، لینکس، اور موبائل ڈیوائسز پر کام کرتا ہے۔"
   }
 }

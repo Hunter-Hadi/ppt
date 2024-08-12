@@ -2,7 +2,6 @@ import Box from '@mui/material/Box'
 import Button from '@mui/material/Button'
 import CircularProgress from '@mui/material/CircularProgress'
 import Stack from '@mui/material/Stack'
-import html2canvas from 'html2canvas'
 import { useTranslation } from 'next-i18next'
 import { PDFDocument } from 'pdf-lib'
 import React, { FC, useEffect, useMemo, useRef, useState } from 'react'
@@ -15,10 +14,8 @@ import ChatPdfViewPage from '@/features/functionality_common/components/Function
 import FunctionalityCommonPdfViewVirtualScrollMain from '@/features/functionality_common/components/FunctionalityCommonPdfViewVirtualScroll/components/FunctionalityCommonPdfViewVirtualScrollMain'
 import useFunctionalityCommonIsMobile from '@/features/functionality_common/hooks/useFunctionalityCommonIsMobile'
 import { downloadUrl } from '@/features/functionality_common/utils/functionalityCommonDownload'
-import { functionalityCommonFileNameRemoveAndAddExtension } from '@/features/functionality_common/utils/functionalityCommonIndex'
 
-import FunctionalityCommonOperateFabricCanvas from './FunctionalityOperateFabricCanvasMain'
-import { IMarkContainerHandles } from './MarkContainer'
+import FunctionalityCommonOperateFabricCanvas from './FunctionalityRedactPDFOperateFabricCanvasMain'
 
 interface IPdfContainerMainProps {
   file: File
@@ -34,7 +31,6 @@ const FunctionalityRedactPdfDetail: FC<IPdfContainerMainProps> = ({
   const currentViewRef = useRef<number>(0)
   const infintyViewRef = useRef<HTMLElement>()
   const viewContainerRef = useRef<HTMLElement>()
-  const showPdfHandlesRef = useRef<IMarkContainerHandles[] | []>([]) //当前在居中pdf的ref
   const [overallViewHeight, setOverallViewHeight] = useState<number>(0)
   const [numberPage, setNumberPage] = React.useState(0)
 
@@ -54,83 +50,6 @@ const FunctionalityRedactPdfDetail: FC<IPdfContainerMainProps> = ({
     setOverallViewHeight(overallViewHeight)
   }
 
-  const pdfAddSignCanvasViewReturnUint8ArrayTest = async (file: File) => {
-    try {
-      setDownLoadLoading(true)
-      let pdfDoc: PDFDocument | null = null
-      try {
-        const fileBuffer = await file.arrayBuffer()
-        pdfDoc = await PDFDocument.load(fileBuffer)
-      } catch (error) {
-        console.error('Error loading PDF Document:', error)
-        setDownLoadLoading(false)
-        return
-      }
-      const pdfPageNumber = pdfDoc.getPageCount() // 获取 PDF 页数
-
-      const topDiv = document.getElementById('chat-test-canvas') as any
-      const canvas = await html2canvas(topDiv, {
-        backgroundColor: null, // 设置背景为透明
-      })
-      const base64Image = canvas.toDataURL('image/png')
-      // 虚拟滚动取当前视图的水印
-      const resConvas = await pdfDoc.embedPng(base64Image)
-      for (let i = 0; i < pdfPageNumber; i++) {
-        const page = pdfDoc.getPage(i)
-        const pdfPageSize = page.getSize()
-        page.drawImage(resConvas, {
-          x: 0,
-          y: 0,
-          width: pdfPageSize.width,
-          height: pdfPageSize.height,
-        })
-      }
-
-      const pdfDocData = await pdfDoc.save()
-      const blob = new Blob([pdfDocData], { type: 'application/pdf' })
-      const url = URL.createObjectURL(blob)
-      const fileName = functionalityCommonFileNameRemoveAndAddExtension(
-        file.name,
-      ) //获取文件名
-      const link = document.createElement('a')
-      link.href = url
-      link.download = fileName
-      link.click()
-      URL.revokeObjectURL(url)
-      setDownLoadLoading(false)
-    } catch (e) {
-      setDownLoadLoading(false)
-      console.log(e)
-    }
-  }
-
-  const pdfAddSignCanvasViewReturnUint8Array = async (
-    file: File,
-    canvasImgList: (string | undefined)[],
-  ) => {
-    try {
-      const fileBuffer = await file.arrayBuffer()
-      const pdfDoc = await PDFDocument.load(fileBuffer)
-      const pdfPageNumber = pdfDoc.getPageCount() // 获取 PDF 页数
-
-      for (let i = 0; i < pdfPageNumber; i++) {
-        const page = pdfDoc.getPage(i)
-        const pdfPageSize = page.getSize()
-        const pngImage = await pdfDoc.embedPng(canvasImgList[i] as string)
-        page.drawImage(pngImage, {
-          x: 0,
-          y: 0,
-          width: pdfPageSize.width,
-          height: pdfPageSize.height,
-        })
-      }
-
-      return await pdfDoc.save()
-    } catch (e) {
-      console.log(e)
-    }
-  }
-
   const onSavePDF = async () => {
     setDownLoadLoading(true)
     let pdfDoc: PDFDocument | null = null
@@ -145,41 +64,17 @@ const FunctionalityRedactPdfDetail: FC<IPdfContainerMainProps> = ({
     pdfDoc
       .save()
       .then((blob) => {
-        const newFileName = functionalityCommonFileNameRemoveAndAddExtension(
-          file.name,
-        )
-        downloadUrl(blob, newFileName)
+        let newFileName = file.name
+        if (newFileName.endsWith(`.pdf`)) {
+          newFileName = newFileName.slice(0, -4)
+        }
+        downloadUrl(blob, `${newFileName}-redact(Powered by MaxAI).pdf`)
       })
       .finally(() => {
         setDownLoadLoading(false)
       })
   }
 
-  const donwLoadFile = async (file) => {
-    setDownLoadLoading(true)
-    const canvasImgList = showPdfHandlesRef.current?.map((convasHandlesRef) => {
-      return convasHandlesRef.getCanvasBase64()
-    })
-    console.log(`canvasImgList:`, canvasImgList)
-    const uint8Array = await pdfAddSignCanvasViewReturnUint8Array(
-      file,
-      canvasImgList,
-    )
-    console.log(`uint8Array:`, uint8Array)
-    if (uint8Array) {
-      const blob = new Blob([uint8Array], { type: 'application/pdf' })
-      const url = URL.createObjectURL(blob)
-      const fileName = functionalityCommonFileNameRemoveAndAddExtension(
-        file.name,
-      ) //获取文件名
-      const link = document.createElement('a')
-      link.href = url
-      link.download = fileName
-      link.click()
-      URL.revokeObjectURL(url)
-    }
-    setDownLoadLoading(false)
-  }
 
   const InfinityList = useMemo(() => {
     return (
@@ -188,15 +83,12 @@ const FunctionalityRedactPdfDetail: FC<IPdfContainerMainProps> = ({
         viewHeight={overallViewHeight - 50}
         file={file}
         onViewInfo={(info) => {
-          // if (info.currentPage !== currentPage) {
-          //   initEventEmitter.current = false
-          //   setCurrentPage(info.currentPage)
-          // }
           setScrollPositionNumber(info.currentScrollOffset)
         }}
         onDocumentLoadSuccess={(info) => {
           setNumberPage(info.numPages)
         }}
+        isStopTouchMove={isMobile ? true : false}
       >
         {(props) => {
           const { index } = props
@@ -216,7 +108,7 @@ const FunctionalityRedactPdfDetail: FC<IPdfContainerMainProps> = ({
               }}
             >
               <ChatPdfViewPage pdfInfo={props.pdfInfo} index={props.index} />
-              <div
+              <Box
                 className='pdf-insert-view'
                 style={{
                   position: 'absolute',
@@ -235,14 +127,15 @@ const FunctionalityRedactPdfDetail: FC<IPdfContainerMainProps> = ({
                   canvasNumber={numberPage}
                   fabricCanvasJsonStringList={fabricCanvasJsonStringList}
                   canvasScale={props.pdfInfo.height / props.pdfInfo.width}
+                  pdfInfo={props.pdfInfo}
                 ></FunctionalityCommonOperateFabricCanvas>
-              </div>
+              </Box>
             </Box>
           )
         }}
       </FunctionalityCommonPdfViewVirtualScrollMain>
     )
-  }, [file, width, overallViewHeight, fabricCanvasJsonStringList])
+  }, [file, width, overallViewHeight, fabricCanvasJsonStringList, isMobile])
 
   useEffect(() => {
     setFabricCanvasJsonStringList([])

@@ -1918,5 +1918,15 @@
     "components__pdf_annotator__insert_tools__insert_text": "插入文本",
     "components__pdf_annotator__insert_tools__insert_image": "插入图片",
     "components__pdf_annotator__insert_tools__insert_signature": "插入签名"
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "PDF隐私保护",
+    "description": "从您的PDF中删除敏感信息",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "在线隐私保护PDF，支持所有设备",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "您的文件将在几秒钟内自动删除",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "无需注册，免费使用",
+    "seo_title": "PDF隐私保护 - 免费文档隐私保护工具 | MaxAI.me",
+    "seo_description": "免费在任何设备上消除PDF中的敏感文本，无需注册。完成隐私保护？导出PDF，无水印。",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "使用免费的PDF编辑工具永久删除文档中的敏感信息—无需注册。无需下载应用程序—一切在您的浏览器上运行，支持Mac、Windows、Linux和移动设备。"
   }
 }

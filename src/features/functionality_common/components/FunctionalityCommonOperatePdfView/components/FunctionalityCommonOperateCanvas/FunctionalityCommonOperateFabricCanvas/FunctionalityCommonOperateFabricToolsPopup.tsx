@@ -31,13 +31,14 @@ export interface IFFunctionalityCommonOperateFabricToolsPopupProps {
   controlDiv: IControlDiv
   scaleFactor: number
   editor: React.MutableRefObject<any | null>
+  isMobileFollow?: boolean // 移动端是否跟随，主要是redact
 }
 /**
  * PDF的点击的  签名对象变更样式 全局弹窗视图
  */
 const FunctionalityCommonOperateFabricToolsPopup: FC<
   IFFunctionalityCommonOperateFabricToolsPopupProps
-> = ({ controlDiv, editor, scaleFactor }) => {
+> = ({ controlDiv, editor, scaleFactor, isMobileFollow = false }) => {
   const isMobile = useFunctionalityCommonIsMobile()
 
   const [textAlignSelectIcon, setTextAlignSelectIcon] =
@@ -175,24 +176,51 @@ const FunctionalityCommonOperateFabricToolsPopup: FC<
     activeObject?.type === 'textbox' || activeObject?.type === 'i-text' // 可以编辑文字的文本
   const isText = activeObject?.type === 'text' || isEditingText //文本
   const isDateValid = activeObject?.isDateValid // 日期
+
+  const styles = useMemo(() => {
+    const computedStyles: any = {
+      position: 'fixed',
+      mb: 0,
+      left: undefined,
+      top: undefined,
+    };
+
+    if (isMobile) {
+      computedStyles.mb = 1;
+      if (isMobileFollow) {
+        computedStyles.position = 'fixed';
+        computedStyles.left = controlDiv.left * scaleFactor + controlDiv.windowLeft;
+        computedStyles.top = controlDiv.top * scaleFactor + controlDiv.windowTop - 65;
+      } else {
+        computedStyles.position = 'unset';
+      }
+    } else {
+      computedStyles.left = controlDiv.left * scaleFactor + controlDiv.windowLeft;
+      computedStyles.top = controlDiv.top * scaleFactor + controlDiv.windowTop - 50;
+    }
+
+    return computedStyles;
+  }, [isMobile, isMobileFollow, controlDiv, scaleFactor]);
+
   //在弹窗内部阻止点击事件冒泡
   return (
     <Stack
       className='functionality-sign-pdf-object-tools-popup'
       sx={{
-        position: isMobile ? 'unset' : 'fixed',
-        mb: isMobile ? 1 : 0,
-        left: isMobile
-          ? undefined
-          : controlDiv.left * scaleFactor + controlDiv.windowLeft,
-        top: isMobile
-          ? undefined
-          : controlDiv.top * scaleFactor + controlDiv.windowTop - 50,
+        // position: isMobile ? 'unset' : 'fixed',
+        // mb: isMobile ? 1 : 0,
+        // left: isMobile
+        //   ? undefined
+        //   : controlDiv.left * scaleFactor + controlDiv.windowLeft,
+        // top: isMobile
+        //   ? undefined
+        //   : controlDiv.top * scaleFactor + controlDiv.windowTop - 50,
+        ...styles,
         button: {
           padding: isMobile ? '5px 3px!important' : '5px 8px!important',
           minWidth: isMobile ? '35px!important' : 40,
         },
-        zIndex: 2
+        zIndex: 9,
       }}
     >
       <ButtonGroup

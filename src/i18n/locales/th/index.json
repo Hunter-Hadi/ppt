@@ -1918,5 +1918,15 @@
     "components__pdf_annotator__insert_tools__insert_text": "insert text",
     "components__pdf_annotator__insert_tools__insert_image": "insert picture",
     "components__pdf_annotator__insert_tools__insert_signature": "Insert Signature"
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "ลบข้อมูล PDF",
+    "description": "ลบข้อมูลที่ละเอียดอ่อนออกจาก PDF ของคุณ",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "ลบข้อมูล PDF ออนไลน์บนอุปกรณ์ใดก็ได้",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "ไฟล์ของคุณจะถูกลบโดยอัตโนมัติในไม่กี่วินาที",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "ใช้งานฟรีโดยไม่ต้องลงทะเบียน",
+    "seo_title": "ลบข้อมูล PDF - เครื่องมือการลบข้อมูลเอกสารฟรี | MaxAI.me",
+    "seo_description": "ทำให้ข้อความที่ละเอียดอ่อนใน PDF ของคุณเป็นสีดำ—ฟรีบนอุปกรณ์ใดก็ได้ โดยไม่ต้องลงทะเบียน หลังจากลบเสร็จแล้ว? ส่งออก PDF โดยไม่มีลายน้ำ",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "ลบข้อมูลที่ละเอียดอ่อนออกจากเอกสารของคุณอย่างถาวรด้วยเครื่องมือการลบข้อมูลใน PDF ฟรี—ไม่ต้องลงทะเบียน ไม่จำเป็นต้องดาวน์โหลดแอปพลิเคชัน—ทุกอย่างทำงานในเบราว์เซอร์ของคุณบน Mac, Windows, Linux, และอุปกรณ์เคลื่อนที่"
   }
 }

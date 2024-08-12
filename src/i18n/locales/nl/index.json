@@ -1918,5 +1918,15 @@
     "components__pdf_annotator__insert_tools__insert_text": "tekst invoegen",
     "components__pdf_annotator__insert_tools__insert_image": "afbeelding invoegen",
     "components__pdf_annotator__insert_tools__insert_signature": "Handtekening invoegen"
+  },
+  "pages__pdf_tools__redact_pdf": {
+    "title": "Redacteer PDF",
+    "description": "Verwijder gevoelige informatie uit uw PDF",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_1": "Redacteer PDF online op elk apparaat",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_2": "Uw bestanden worden automatisch verwijderd binnen enkele seconden",
+    "pdf_tools__detail_description_object__redact_pdf__top_right_3": "Gratis te gebruiken zonder registratie",
+    "seo_title": "Redacteer PDF - Gratis Document Redactietool | MaxAI.me",
+    "seo_description": "Zwarte gevoelige tekst in uw PDF's—gratis, op elk apparaat, zonder registratie vereist. Klaar met redigeren? Exporteer de PDF zonder watermerken.",
+    "pdf_tools__detail_description_object__redact_pages__top_left": "Verwijder permanent gevoelige informatie uit uw documenten met een gratis PDF-redactietool - geen registratie vereist. Geen app downloaden nodig - alles werkt in uw browser op Mac, Windows, Linux en mobiele apparaten."
   }
 }
