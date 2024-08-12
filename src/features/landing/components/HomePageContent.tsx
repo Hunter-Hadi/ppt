@@ -6,6 +6,7 @@ import React from 'react'
 import { FC, useEffect } from 'react'
 
 import AppLoadingLayout from '@/app_layout/AppLoadingLayout'
+import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester'
 import { LANDING_PRIMARY_VIDEO_ASSETS_URL } from '@/features/landing/constants'
 
 import CallToActionSection from './CallToActionSection'
@@ -41,6 +42,8 @@ interface IProps {
 const HomePageContent: FC<IProps> = ({ propRef, sx }) => {
   const { isReady, asPath } = useRouter()
 
+  const { title, loaded } = useLandingABTester(true)
+
   useEffect(() => {
     if (isReady && asPath) {
       const hash = asPath.split('#')[1]
@@ -52,33 +55,40 @@ const HomePageContent: FC<IProps> = ({ propRef, sx }) => {
   }, [isReady, asPath])
 
   return (
-    <Stack color='text.primary' component={'main'} sx={sx}>
-      {/* heroSection */}
-      <HeroSection
-        propRef={propRef}
-        // loading={!loaded}
-        inLandingVideoABTest
-        heroVideoProps={{
-          videoSrc: LANDING_PRIMARY_VIDEO_ASSETS_URL,
-          variant: 'autoplay',
-        }}
-      />
-      {/* trusted by */}
-      <TrustedBy />
+    <AppLoadingLayout
+      loading={!loaded}
+      sx={{
+        height: '100vh',
+      }}
+    >
+      <Stack color='text.primary' component={'main'} sx={sx}>
+        {/* heroSection */}
+        <HeroSection
+          title={title}
+          propRef={propRef}
+          // loading={!loaded}
+          heroVideoProps={{
+            videoSrc: LANDING_PRIMARY_VIDEO_ASSETS_URL,
+            variant: 'autoplay',
+          }}
+        />
+        {/* trusted by */}
+        <TrustedBy />
 
-      <HowItWork />
+        <HowItWork />
 
-      {/* feature  */}
-      <FeaturesContentAbTestV7SlideAutoVideo />
-      {/* maxai in numbers */}
-      <MaxAIInNumbers />
+        {/* feature  */}
+        <FeaturesContentAbTestV7SlideAutoVideo />
+        {/* maxai in numbers */}
+        <MaxAIInNumbers />
 
-      {/* user comment */}
-      <UserComment />
+        {/* user comment */}
+        <UserComment />
 
-      {/* call to action section */}
-      <CallToActionSection propRef={propRef} />
-    </Stack>
+        {/* call to action section */}
+        <CallToActionSection propRef={propRef} />
+      </Stack>
+    </AppLoadingLayout>
   )
 }
 

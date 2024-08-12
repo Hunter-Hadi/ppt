@@ -1,5 +1,21 @@
 export const MAXAI_RELEASE_NOTES = [
   {
+    version: '4.8.4',
+    date: '2024-08-09',
+
+    content: [
+      {
+        title: 'Chat with image in 1-click',
+        lists: [
+          {
+            module: 'Chat with this image',
+            desc: 'Interacting with images on any webpage has become incredibly simple. Just hover over an image, click the \'Chat with this image\' button, and start asking questions about the image content. Exploring visual information has never been more accessible or convenient.',
+          },
+        ],
+      },
+    ],
+  },
+  {
     version: '4.8.2',
     date: '2024-07-31',
 

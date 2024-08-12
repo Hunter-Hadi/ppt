@@ -5,7 +5,7 @@ import fs from 'fs'
 const updateProjectAPISecurityKey = async (appVersion, filePath) => {
   try {
     const result = await fetch(
-      'https://test.maxai.me/internal/get_app_encrypt_key_and_hash_key_by_version',
+      'https://dev.maxai.me/internal/get_app_encrypt_key_and_hash_key_by_version',
       {
         method: 'POST',
         headers: {

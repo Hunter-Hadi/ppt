@@ -133,6 +133,7 @@ const useChatPdfContainerGetInfo = (props: {
                     height: viewport.height / pdfPageClarity,
                     isRead: true,
                   }
+                  console.log('newList', newList)
                   return newList
                 })
               } catch (e) {

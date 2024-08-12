@@ -159,6 +159,15 @@ const FunctionalityRedactPdfMain = dynamic(
     import(
       '@/features/functionality_redact_pdf/components/FunctionalityRedactPdfMain'
     ),
+    {
+      loading: () => <AppLoadingLayout loading />,
+    },
+)
+const FunctionalityFlattenPdfMain = dynamic(
+  () =>
+    import(
+      '@/features/functionality_flatten_pdf/components/FunctionalityFlattenPdfMain'
+    ),
   {
     loading: () => <AppLoadingLayout loading />,
   },
@@ -220,7 +229,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       title: t('seo:pdf_tools__compress_pdf__title'),
       description: t('seo:pdf_tools__compress_pdf__description'),
     },
-    'ocr-pdf': {
+    'pdf-ocr': {
       title: t('seo:pdf_tools__ocr_pdf__title'),
       description: t('seo:pdf_tools__ocr_pdf__description'),
     },
@@ -228,7 +237,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       title: t('seo:pdf_tools__rotate_pdf__title'),
       description: t('seo:pdf_tools__rotate_pdf__description'),
     },
-    'number-pages': {
+    'add-page-numbers-to-pdf': {
       title: t('seo:pdf_tools__pdf_numbers_page__title'),
       description: t('seo:pdf_tools__pdf_numbers_page__description'),
     },
@@ -248,17 +257,21 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
       title: t('seo:pdf_tools__pdf_watermark_page__title'),
       description: t('seo:pdf_tools__pdf_watermark_page__description'),
     },
-    'delete-page-pdf': {
+    'delete-pages-from-pdf': {
       title: t('seo:pdf_tools__pdf_deletepages_page__title'),
       description: t('seo:pdf_tools__pdf_deletepages_page__description'),
     },
-    'extract-page-pdf': {
+    'extract-pdf-pages': {
       title: t('seo:pdf_tools__pdf_extractpages_page__title'),
       description: t('seo:pdf_tools__pdf_extractpages_page__description'),
     },
     'redact-pdf': {
       title: t('pages__pdf_tools__redact_pdf:seo_title'),
       description: t('pages__pdf_tools__redact_pdf:seo_description'),
+    },
+    'flatten-pdf': {
+      title: t('pages__pdf_tools__flatten_pdf:seo_title'),
+      description: t('pages__pdf_tools__flatten_pdf:seo_description'),
     },
   }
   const toolsDetailDescriptionData = allPdfToolsDetailDescriptionObject[urlKey]
@@ -290,7 +303,7 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
           }}
         >
           <ToolsBanner
-            title={currentToolData.title}
+            title={currentToolData.detailTitle || currentToolData.title}
             isSimplicityView={isSimplicityView}
             description={currentToolData.secondaryDescription}
           />
@@ -308,18 +321,23 @@ const ToolsDetail: FC<IToolsDetailProps> = ({ urlKey }) => {
             {urlKey === 'pdf-to-html' && <FunctionalityPdfToHtmlMain />}
             {urlKey === 'sign-pdf' && <FunctionalitySignPdfMain />}
             {urlKey === 'compress-pdf' && <FunctionalityCompressPdfMain />}
-            {urlKey === 'ocr-pdf' && <FunctionalityOcrPdfMain />}
-            {urlKey === 'number-pages' && <FunctionalityNumberPagesMain />}
+            {urlKey === 'pdf-ocr' && <FunctionalityOcrPdfMain />}
+            {urlKey === 'add-page-numbers-to-pdf' && (
+              <FunctionalityNumberPagesMain />
+            )}
             {urlKey === 'rotate-pdf' && <FunctionalityRotatePdfMain />}
             {urlKey === 'unlock-pdf' && <FunctionalityUnlockPdfMain />}
             {urlKey === 'protect-pdf' && <FunctionalityProtectPdfMain />}
             {urlKey === 'watermark-pdf' && <FunctionalityWaterMarkPdfMain />}
             {urlKey === 'pdf-annotator' && <FunctionalityPdfAnnotatorMain />}
-            {urlKey === 'delete-page-pdf' && <FunctionalityDeletePagePdfMain />}
-            {urlKey === 'extract-page-pdf' && (
+            {urlKey === 'delete-pages-from-pdf' && (
+              <FunctionalityDeletePagePdfMain />
+            )}
+            {urlKey === 'extract-pdf-pages' && (
               <FunctionalityExtractPagePdfMain />
             )}
             {urlKey === 'redact-pdf' && <FunctionalityRedactPdfMain />}
+            {urlKey === 'flatten-pdf' && <FunctionalityFlattenPdfMain />}
           </Suspense>
         </Box>
         {toolsDetailDescriptionData && (

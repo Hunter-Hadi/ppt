@@ -504,7 +504,7 @@ export const allPdfToolsDetailDescriptionObject: {
       },
     },
   },
-  'ocr-pdf': {
+  'pdf-ocr': {
     topFeatures:
       'pages:pdf_tools__detail_description_object__ocr_pdf__top_left',
     userExperienceList: [
@@ -635,7 +635,7 @@ export const allPdfToolsDetailDescriptionObject: {
       },
     },
   },
-  'number-pages': {
+  'add-page-numbers-to-pdf': {
     topFeatures:
       'pages:pdf_tools__detail_description_object__number_pages__top_left',
     userExperienceList: [
@@ -910,7 +910,7 @@ export const allPdfToolsDetailDescriptionObject: {
       },
     },
   },
-  'delete-page-pdf': {
+  'delete-pages-from-pdf': {
     topFeatures:
       'pages:pdf_tools__detail_description_object__deletepage_pages__top_left',
     userExperienceList: [
@@ -919,48 +919,48 @@ export const allPdfToolsDetailDescriptionObject: {
       'pages:pdf_tools__detail_description_object__deletepage_pdf__top_right_3',
     ],
     functionIntroductionList: [
-        {
-          iconName: 'Lightbulb',
-          title:
-            'pages:pdf_tools__detail_description_object__deletepage_pages__middle_1_title',
-          description:
-            'pages:pdf_tools__detail_description_object__deletepage_pages__middle_1_description',
-        },
-        {
-          iconName: 'WorkspacePremiumOutlined',
-          title:
-            'pages:pdf_tools__detail_description_object__deletepage_pages__middle_2_title',
-          description:
-            'pages:pdf_tools__detail_description_object__deletepage_pages__middle_2_description',
-        },
-        {
-          iconName: 'ThumbUpAltOutlined',
-          title:
-            'pages:pdf_tools__detail_description_object__deletepage_pages__middle_3_title',
-          description:
-            'pages:pdf_tools__detail_description_object__deletepage_pages__middle_3_description',
-        },
-        {
-          iconName: 'LockOutlined',
-          title:
-            'pages:pdf_tools__detail_description_object__deletepage_pages__middle_4_title',
-          description:
-            'pages:pdf_tools__detail_description_object__deletepage_pages__middle_4_description',
-        },
-        {
-          iconName: 'LocalPoliceOutlined',
-          title:
-            'pages:pdf_tools__detail_description_object__deletepage_pages__middle_5_title',
-          description:
-            'pages:pdf_tools__detail_description_object__deletepage_pages__middle_5_description',
-        },
-        {
-          iconName: 'ComputerOutlined',
-          title:
-            'pages:pdf_tools__detail_description_object__deletepage_pages__middle_6_title',
-          description:
-            'pages:pdf_tools__detail_description_object__deletepage_pages__middle_6_description',
-        },
+      {
+        iconName: 'Lightbulb',
+        title:
+          'pages:pdf_tools__detail_description_object__deletepage_pages__middle_1_title',
+        description:
+          'pages:pdf_tools__detail_description_object__deletepage_pages__middle_1_description',
+      },
+      {
+        iconName: 'WorkspacePremiumOutlined',
+        title:
+          'pages:pdf_tools__detail_description_object__deletepage_pages__middle_2_title',
+        description:
+          'pages:pdf_tools__detail_description_object__deletepage_pages__middle_2_description',
+      },
+      {
+        iconName: 'ThumbUpAltOutlined',
+        title:
+          'pages:pdf_tools__detail_description_object__deletepage_pages__middle_3_title',
+        description:
+          'pages:pdf_tools__detail_description_object__deletepage_pages__middle_3_description',
+      },
+      {
+        iconName: 'LockOutlined',
+        title:
+          'pages:pdf_tools__detail_description_object__deletepage_pages__middle_4_title',
+        description:
+          'pages:pdf_tools__detail_description_object__deletepage_pages__middle_4_description',
+      },
+      {
+        iconName: 'LocalPoliceOutlined',
+        title:
+          'pages:pdf_tools__detail_description_object__deletepage_pages__middle_5_title',
+        description:
+          'pages:pdf_tools__detail_description_object__deletepage_pages__middle_5_description',
+      },
+      {
+        iconName: 'ComputerOutlined',
+        title:
+          'pages:pdf_tools__detail_description_object__deletepage_pages__middle_6_title',
+        description:
+          'pages:pdf_tools__detail_description_object__deletepage_pages__middle_6_description',
+      },
     ],
     operatingInstructions: {
       iconName: 'DeletePagePDFDetaile',
@@ -977,7 +977,7 @@ export const allPdfToolsDetailDescriptionObject: {
       },
     },
   },
-  'extract-page-pdf': {
+  'extract-pdf-pages': {
     topFeatures:
       'pages:pdf_tools__detail_description_object__extractpage_pages__top_left',
     userExperienceList: [
@@ -986,48 +986,48 @@ export const allPdfToolsDetailDescriptionObject: {
       'pages:pdf_tools__detail_description_object__extractpage_pdf__top_right_3',
     ],
     functionIntroductionList: [
-        {
-          iconName: 'Lightbulb',
-          title:
-            'pages__pdf_tools__extractpage_pdf:pdf_tools__detail_description_object__extractpage_pages__middle_1_title',
-          description:
-            'pages__pdf_tools__extractpage_pdf:pdf_tools__detail_description_object__extractpage_pages__middle_1_description',
-        },
-        {
-          iconName: 'WorkspacePremiumOutlined',
-          title:
-            'pages__pdf_tools__extractpage_pdf:pdf_tools__detail_description_object__extractpage_pages__middle_2_title',
-          description:
-            'pages__pdf_tools__extractpage_pdf:pdf_tools__detail_description_object__extractpage_pages__middle_2_description',
-        },
-        {
-          iconName: 'ThumbUpAltOutlined',
-          title:
-            'pages__pdf_tools__extractpage_pdf:pdf_tools__detail_description_object__extractpage_pages__middle_3_title',
-          description:
-            'pages__pdf_tools__extractpage_pdf:pdf_tools__detail_description_object__extractpage_pages__middle_3_description',
-        },
-        {
-          iconName: 'LockOutlined',
-          title:
-            'pages__pdf_tools__extractpage_pdf:pdf_tools__detail_description_object__extractpage_pages__middle_4_title',
-          description:
-            'pages__pdf_tools__extractpage_pdf:pdf_tools__detail_description_object__extractpage_pages__middle_4_description',
-        },
-        {
-          iconName: 'LocalPoliceOutlined',
-          title:
-            'pages__pdf_tools__extractpage_pdf:pdf_tools__detail_description_object__extractpage_pages__middle_5_title',
-          description:
-            'pages__pdf_tools__extractpage_pdf:pdf_tools__detail_description_object__extractpage_pages__middle_5_description',
-        },
-        {
-          iconName: 'ComputerOutlined',
-          title:
-            'pages__pdf_tools__extractpage_pdf:pdf_tools__detail_description_object__extractpage_pages__middle_6_title',
-          description:
-            'pages__pdf_tools__extractpage_pdf:pdf_tools__detail_description_object__extractpage_pages__middle_6_description',
-        },
+      {
+        iconName: 'Lightbulb',
+        title:
+          'pages__pdf_tools__extractpage_pdf:pdf_tools__detail_description_object__extractpage_pages__middle_1_title',
+        description:
+          'pages__pdf_tools__extractpage_pdf:pdf_tools__detail_description_object__extractpage_pages__middle_1_description',
+      },
+      {
+        iconName: 'WorkspacePremiumOutlined',
+        title:
+          'pages__pdf_tools__extractpage_pdf:pdf_tools__detail_description_object__extractpage_pages__middle_2_title',
+        description:
+          'pages__pdf_tools__extractpage_pdf:pdf_tools__detail_description_object__extractpage_pages__middle_2_description',
+      },
+      {
+        iconName: 'ThumbUpAltOutlined',
+        title:
+          'pages__pdf_tools__extractpage_pdf:pdf_tools__detail_description_object__extractpage_pages__middle_3_title',
+        description:
+          'pages__pdf_tools__extractpage_pdf:pdf_tools__detail_description_object__extractpage_pages__middle_3_description',
+      },
+      {
+        iconName: 'LockOutlined',
+        title:
+          'pages__pdf_tools__extractpage_pdf:pdf_tools__detail_description_object__extractpage_pages__middle_4_title',
+        description:
+          'pages__pdf_tools__extractpage_pdf:pdf_tools__detail_description_object__extractpage_pages__middle_4_description',
+      },
+      {
+        iconName: 'LocalPoliceOutlined',
+        title:
+          'pages__pdf_tools__extractpage_pdf:pdf_tools__detail_description_object__extractpage_pages__middle_5_title',
+        description:
+          'pages__pdf_tools__extractpage_pdf:pdf_tools__detail_description_object__extractpage_pages__middle_5_description',
+      },
+      {
+        iconName: 'ComputerOutlined',
+        title:
+          'pages__pdf_tools__extractpage_pdf:pdf_tools__detail_description_object__extractpage_pages__middle_6_title',
+        description:
+          'pages__pdf_tools__extractpage_pdf:pdf_tools__detail_description_object__extractpage_pages__middle_6_description',
+      },
     ],
     operatingInstructions: {
       iconName: 'ExtractPagePDF',
@@ -1053,5 +1053,71 @@ export const allPdfToolsDetailDescriptionObject: {
       'pages__pdf_tools__redact_pdf:pdf_tools__detail_description_object__redact_pdf__top_right_3',
     ],
     functionIntroductionList: [],
+  },
+  'flatten-pdf': {
+    topFeatures:
+      'pages__pdf_tools__flatten_pdf:detail_description_object__pdf_flatten__top_left',
+    userExperienceList: [
+      'pages__pdf_tools__flatten_pdf:detail_description_object__pdf_flatten__top_right_1',
+      'pages__pdf_tools__flatten_pdf:detail_description_object__pdf_flatten__top_right_2',
+      'pages__pdf_tools__flatten_pdf:detail_description_object__pdf_flatten__top_right_3',
+    ],
+    functionIntroductionList: [
+      {
+        iconName: 'Lightbulb',
+        title:
+          'pages__pdf_tools__flatten_pdf:detail_description_object__pdf_flatten__middle_1_title',
+        description:
+          'pages__pdf_tools__flatten_pdf:detail_description_object__pdf_flatten__middle_1_description',
+      },
+      {
+        iconName: 'WorkspacePremiumOutlined',
+        title:
+          'pages__pdf_tools__flatten_pdf:detail_description_object__pdf_flatten__middle_2_title',
+        description:
+          'pages__pdf_tools__flatten_pdf:detail_description_object__pdf_flatten__middle_2_description',
+      },
+      {
+        iconName: 'ThumbUpAltOutlined',
+        title:
+          'pages__pdf_tools__flatten_pdf:detail_description_object__pdf_flatten__middle_3_title',
+        description:
+          'pages__pdf_tools__flatten_pdf:detail_description_object__pdf_flatten__middle_3_description',
+      },
+      {
+        iconName: 'LockOutlined',
+        title:
+          'pages__pdf_tools__flatten_pdf:detail_description_object__pdf_flatten__middle_4_title',
+        description:
+          'pages__pdf_tools__flatten_pdf:detail_description_object__pdf_flatten__middle_4_description',
+      },
+      {
+        iconName: 'LocalPoliceOutlined',
+        title:
+          'pages__pdf_tools__flatten_pdf:detail_description_object__pdf_flatten__middle_5_title',
+        description:
+          'pages__pdf_tools__flatten_pdf:detail_description_object__pdf_flatten__middle_5_description',
+      },
+      {
+        iconName: 'ComputerOutlined',
+        title:
+          'pages__pdf_tools__flatten_pdf:detail_description_object__pdf_flatten__middle_6_title',
+        description:
+          'pages__pdf_tools__flatten_pdf:detail_description_object__pdf_flatten__middle_6_description',
+      },
+    ],
+    operatingInstructions: {
+      iconName: 'FlattenPDF',
+      operationSteps: {
+        title:
+          'pages__pdf_tools__flatten_pdf:detail_description_object__pdf_flatten__bottom_right_title',
+        descriptionList: [
+          'pages__pdf_tools__flatten_pdf:detail_description_object__pdf_flatten__bottom_right_description_1',
+          'pages__pdf_tools__flatten_pdf:detail_description_object__pdf_flatten__bottom_right_description_2',
+          'pages__pdf_tools__flatten_pdf:detail_description_object__pdf_flatten__bottom_right_description_3',
+          'pages__pdf_tools__flatten_pdf:detail_description_object__pdf_flatten__bottom_right_description_4',
+        ],
+      },
+    },
   },
 }

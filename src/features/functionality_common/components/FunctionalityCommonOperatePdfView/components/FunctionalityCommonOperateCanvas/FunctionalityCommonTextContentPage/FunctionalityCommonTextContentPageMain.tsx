@@ -250,6 +250,7 @@ html
         {currentTextAnnotatorList.length > 0 && (
           <FunctionalityCommonTextContentPageHighlight
             viewHighlights={currentTextAnnotatorList}
+            annotationEditInfo={annotationEditInfo}
             pdfViewScale={widthScale}
             onEdit={(info) => {
               setAnnotationEditInfo(info)

@@ -3,7 +3,6 @@ import { useTranslation } from 'next-i18next'
 import React, { FC, useMemo } from 'react'
 
 import CustomIcon from '@/components/CustomIcon'
-import useLandingABTester from '@/features/ab_tester/hooks/useLandingABTester'
 import HeroVideoBox, {
   IHeroVideoProps,
 } from '@/features/landing/components/HeroSection/HeroVideoBox'
@@ -29,9 +28,6 @@ interface IProps {
 
   // 是否显示顶部的指标徽章
   showIndicatorBadge?: boolean
-
-  // 首页视频的 ab test （v8）
-  inLandingVideoABTest?: boolean
 }
 
 const HeroSection: FC<IProps> = ({
@@ -44,7 +40,6 @@ const HeroSection: FC<IProps> = ({
   showIndicatorBadge = true,
   titleComponent = 'h1',
   sx,
-  inLandingVideoABTest,
 }) => {
   const { browserAgent: agent } = useBrowserAgent()
   // const { isLoaded: pageLoaded } = usePageLoaded()
@@ -52,8 +47,6 @@ const HeroSection: FC<IProps> = ({
   const { t } = useTranslation()
 
   // const { openVideoPopup } = useVideoPopupController();
-
-  const { variant, enabled } = useLandingABTester(inLandingVideoABTest)
 
   const title = useMemo(() => {
     return propTitle ? (
@@ -287,26 +280,12 @@ const HeroSection: FC<IProps> = ({
             </Stack>
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
-            {inLandingVideoABTest && enabled && variant ? (
-              <>
-                {variant === 'youtube_video' ? (
-                  <HeroVideoBox
-                    videoSrc={`https://www.youtube.com/embed/XfiZMwAD_KU?si=2augGW9ea-vZzJK6`}
-                    videoPosterUrl={`/assets/landing/hero-section/video-cover.png`}
-                    variant={'youtube-autoplay'}
-                  />
-                ) : (
-                  <HeroVideoBox
-                    videoSrc={LANDING_PRIMARY_VIDEO_ASSETS_URL}
-                    videoPosterUrl={`/assets/landing/hero-section/video-cover.png`}
-                    variant={'autoplay'}
-                    windowAutoPlay={!!heroVideoProps?.windowAutoPlay}
-                  />
-                )}
-              </>
-            ) : (
-              <HeroVideoBox {...heroVideoProps} />
-            )}
+            <HeroVideoBox
+              videoSrc={LANDING_PRIMARY_VIDEO_ASSETS_URL}
+              videoPosterUrl={`/assets/landing/hero-section/video-cover.png`}
+              variant={'autoplay'}
+              windowAutoPlay={!!heroVideoProps?.windowAutoPlay}
+            />
           </Grid>
         </Grid>
       </Box>

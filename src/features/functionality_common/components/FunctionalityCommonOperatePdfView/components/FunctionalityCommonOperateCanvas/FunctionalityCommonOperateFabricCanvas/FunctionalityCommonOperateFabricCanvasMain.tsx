@@ -78,6 +78,7 @@ const FunctionalityCommonOperateFabricCanvas: FC<
   const saveCurrentCanvasData = useCallback(
     debounce(() => {
       try {
+        console.log('saveCurrentCanvasData')
         const json = fabricCanvas.current?.toJSON() // your fabricCanvas reference
         if (json) {
           setFabricCanvasJsonStringList((list) => {
@@ -89,7 +90,7 @@ const FunctionalityCommonOperateFabricCanvas: FC<
       } catch (e) {
         console.log('simply saveCurrentCanvasData error', e)
       }
-    }, 500), // 1秒内只执行第一次
+    }, 50), // 1秒内只执行第一次
     [index, setFabricCanvasJsonStringList],
   )
   const {
@@ -167,6 +168,7 @@ const FunctionalityCommonOperateFabricCanvas: FC<
         })
         const savedData = fabricCanvasJsonStringList[index] //获取保存的数据
         if (savedData) {
+          canvas.loadFromJSON(savedData, canvas.renderAll.bind(canvas)) //加载数据
           canvas.loadFromJSON(savedData, canvas.renderAll.bind(canvas)) //加载数据
         }
         fabricCanvas.current = canvas

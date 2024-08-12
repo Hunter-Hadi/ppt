@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router'
-import { useEffect, useMemo, useRef } from 'react'
+import { useTranslation } from 'next-i18next'
+import React, { useEffect, useMemo, useRef } from 'react'
 import { atom, useRecoilState } from 'recoil'
 
 import {
@@ -22,6 +23,7 @@ const LandingABTestVariantKeyAtom = atom<ILandingVariantType | null>({
 })
 
 const useLandingABTester = (autoSendEvent = false) => {
+  const { t } = useTranslation()
   const { pathname } = useRouter()
 
   const { isLoaded: pageLoaded } = usePageLoaded()
@@ -95,17 +97,81 @@ const useLandingABTester = (autoSendEvent = false) => {
       const randomIndex = Math.floor(Math.random() * keys.length) //随机选择一个variant
       const randomVariant = keys[randomIndex]
       setLocalStorage(TEST_LANDING_COOKIE_NAME, randomVariant)
-      // startTransition(() => {
       setVariant(randomVariant) //设置当前的abtest的variant
-      // })
     }
   }, [setVariant, variant, enabled, pageLoaded])
+
+  const title = useMemo(() => {
+    if (!variant || !enabled) {
+      return null
+    }
+
+    if (variant === 'title1') {
+      // default title
+      return null
+    }
+    if (variant === 'title2') {
+      return (
+        <>
+          {t(
+            'pages:home_page__hero_section__ab_test_v9__variant2__title__part1',
+          )}
+          <br />
+          {t(
+            'pages:home_page__hero_section__ab_test_v9__variant2__title__part2',
+          )}
+        </>
+      )
+    }
+    if (variant === 'title3') {
+      return (
+        <>
+          {t(
+            'pages:home_page__hero_section__ab_test_v9__variant3__title__part1',
+          )}
+          <br />
+          {t(
+            'pages:home_page__hero_section__ab_test_v9__variant3__title__part2',
+          )}
+        </>
+      )
+    }
+    if (variant === 'title4') {
+      return (
+        <>
+          {t(
+            'pages:home_page__hero_section__ab_test_v9__variant4__title__part1',
+          )}
+          <br />
+          {t(
+            'pages:home_page__hero_section__ab_test_v9__variant4__title__part2',
+          )}
+        </>
+      )
+    }
+    if (variant === 'title5') {
+      return (
+        <>
+          {t(
+            'pages:home_page__hero_section__ab_test_v9__variant5__title__part1',
+          )}
+          <br />
+          {t(
+            'pages:home_page__hero_section__ab_test_v9__variant5__title__part2',
+          )}
+        </>
+      )
+    }
+
+    return null
+  }, [variant, enabled, t])
 
   return {
     enabled,
     variant: enabled ? variant : null,
     setVariant,
     loaded,
+    title,
   }
 }
 
